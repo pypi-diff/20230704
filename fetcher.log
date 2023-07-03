@@ -118,3 +118,80 @@
 [2023-07-04 00:06:06] INFO root fetch - processPackages [PointBlaster]: Remove: archive file [/home/abi/fetcher/tmp/PointBlaster-0.2.3.tar.gz]
 [2023-07-04 00:06:06] INFO root fetch - main [MainThread]: End processing [PointBlaster]: success
 [2023-07-04 00:06:06] INFO root fetch - main [MainThread]: Store serial: [18746074]
+[2023-07-04 00:11:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18746074]
+[2023-07-04 00:11:15] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-04 00:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ra2mix
+[2023-07-04 00:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: energat
+[2023-07-04 00:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ldimbenchmark
+[2023-07-04 00:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-tomselect
+[2023-07-04 00:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: humannum
+[2023-07-04 00:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: roboto-sdk
+[2023-07-04 00:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swarms
+[2023-07-04 00:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: timer-module
+[2023-07-04 00:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ai-images
+[2023-07-04 00:11:15] INFO root fetch - processPackages [roboto-sdk]: New version: [0.1.4] Old Version: [0.1.3a3]
+[2023-07-04 00:11:15] INFO root fetch - processPackages [ai-images]: New version: [2.9] Old Version: [2.7]
+[2023-07-04 00:11:15] INFO root fetch - processPackages [swarms]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-07-04 00:11:15] INFO root fetch - processPackages [energat]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-04 00:11:15] INFO root fetch - processPackages [ra2mix]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-04 00:11:15] INFO root fetch - processPackages [timer-module]: New version: [1.2.0] Old Version: [1.1.3]
+[2023-07-04 00:11:15] WARNING root fetch - processPackages [humannum]: Skipping, unable to determine old version
+[2023-07-04 00:11:15] INFO root fetch - main [MainThread]: End processing [humannum] error
+[2023-07-04 00:11:15] INFO root fetch - processPackages [django-tomselect]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-04 00:11:15] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-04 00:11:15] INFO root fetch - processPackages [energat]: Downloading https://files.pythonhosted.org/packages/6e/19/d156c817568bc78fd8df74564dee7c526a20a9ed3732078e1d6f503743bb/energat-1.0.5.tar.gz
+[2023-07-04 00:11:15] INFO root fetch - processPackages [ra2mix]: Downloading https://files.pythonhosted.org/packages/46/1b/b94aad8f90bb084d0f07c79de96b06c788d78382d5d5f6bd594077c53499/ra2mix-0.0.6.tar.gz
+[2023-07-04 00:11:15] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-07-04 00:11:15] WARNING root fetch - processPackages [ai-images]: fallback to get urls: [2.7]
+[2023-07-04 00:11:15] INFO root fetch - processPackages [roboto-sdk]: Downloading https://files.pythonhosted.org/packages/a8/6f/453911c0245a3e8bfa9568781ba265e7cefb5014cfc68e74e2648886b823/roboto_sdk-0.1.3a3.tar.gz
+[2023-07-04 00:11:15] WARNING root fetch - processPackages [ai-images]: None
+[2023-07-04 00:11:15] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/a1/c3/5991378ea5f6230a4f930e351a6504a32789bf0f0245de3bf692c3dde6e4/swarms-0.0.5.tar.gz
+[2023-07-04 00:11:15] WARNING root fetch - processPackages [ai-images]: None
+[2023-07-04 00:11:15] INFO root fetch - processPackages [timer-module]: Downloading https://files.pythonhosted.org/packages/2c/2d/24566a7e03a65fd75b587f0c881dfa842653af3dd82b24a204cbbb51d56c/timer-module-1.1.3.tar.gz
+[2023-07-04 00:11:15] INFO root fetch - processPackages [django-tomselect]: Downloading https://files.pythonhosted.org/packages/e3/5c/04725751da79ba629e3c001115e02d76178260396d0b31e115f444708eb5/django-tomselect-0.4.1.tar.gz
+[2023-07-04 00:11:16] WARNING root fetch - processPackages [ai-images]: unable to get url for both version [2.7]
+[2023-07-04 00:11:16] WARNING root fetch - processPackages [ai-images]: None
+[2023-07-04 00:11:16] INFO root fetch - main [MainThread]: End processing [ai-images] error
+[2023-07-04 00:11:16] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-07-04 00:11:16] INFO root fetch - processPackages [ra2mix]: Downloading https://files.pythonhosted.org/packages/84/0f/9c21399ca0addd57114d99ed04f237a19f0e36af8533d80c5732ead48adf/ra2mix-0.0.7.tar.gz
+[2023-07-04 00:11:16] INFO root fetch - processPackages [roboto-sdk]: Downloading https://files.pythonhosted.org/packages/c4/02/92600e95b1b9c961d0edd71db089b6c12148d40e4eab7a2cb8b1e9f51225/roboto_sdk-0.1.4.tar.gz
+[2023-07-04 00:11:16] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/1d/fb/00f4ff27ed0d6a8dbfa42a6e91d64febb744a92f3c89e55972b18c5d7872/swarms-0.0.7.tar.gz
+[2023-07-04 00:11:16] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-07-04 00:11:16] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230704/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-04 00:11:16] INFO root fetch - processPackages [timer-module]: Downloading https://files.pythonhosted.org/packages/e8/fa/74baaf0d9c884ae4c6791442b51f9c2071cfb66d6e0ee877bde7ff6c9384/timer-module-1.2.0.tar.gz
+[2023-07-04 00:11:16] INFO root fetch - processPackages [ra2mix]: executing diffoscope
+[2023-07-04 00:11:16] INFO root fetch - processPackages [ra2mix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ra2mix-0.0.6.tar.gz tmp/ra2mix-0.0.7.tar.gz --markdown 20230704/r/ra2mix/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-04 00:11:16] INFO root fetch - processPackages [django-tomselect]: Downloading https://files.pythonhosted.org/packages/57/aa/03a915675cf1c93b0ab2e61b5f0bbe8c3c4994174b5e18f9bc40d373a000/django-tomselect-0.4.2.tar.gz
+[2023-07-04 00:11:16] INFO root fetch - processPackages [energat]: Downloading https://files.pythonhosted.org/packages/06/76/fbf8525b49574cf63244adbc9b5625d02c622ab3aead1cb60add72f17108/energat-1.0.6.tar.gz
+[2023-07-04 00:11:16] INFO root fetch - processPackages [roboto-sdk]: executing diffoscope
+[2023-07-04 00:11:16] INFO root fetch - processPackages [roboto-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboto_sdk-0.1.3a3.tar.gz tmp/roboto_sdk-0.1.4.tar.gz --markdown 20230704/r/roboto-sdk/0.1.3a3-0.1.4/diff.md --exclude *.pyd
+[2023-07-04 00:11:16] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-04 00:11:16] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.0.5.tar.gz tmp/swarms-0.0.7.tar.gz --markdown 20230704/s/swarms/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-07-04 00:11:16] INFO root fetch - processPackages [timer-module]: executing diffoscope
+[2023-07-04 00:11:16] INFO root fetch - processPackages [timer-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timer-module-1.1.3.tar.gz tmp/timer-module-1.2.0.tar.gz --markdown 20230704/t/timer-module/1.1.3-1.2.0/diff.md --exclude *.pyd
+[2023-07-04 00:11:16] INFO root fetch - processPackages [django-tomselect]: executing diffoscope
+[2023-07-04 00:11:16] INFO root fetch - processPackages [django-tomselect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-tomselect-0.4.1.tar.gz tmp/django-tomselect-0.4.2.tar.gz --markdown 20230704/d/django-tomselect/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-04 00:11:16] INFO root fetch - processPackages [energat]: executing diffoscope
+[2023-07-04 00:11:16] INFO root fetch - processPackages [energat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energat-1.0.5.tar.gz tmp/energat-1.0.6.tar.gz --markdown 20230704/e/energat/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-04 00:11:17] INFO root fetch - processPackages [ra2mix]: Remove: archive file [/home/abi/fetcher/tmp/ra2mix-0.0.6.tar.gz]
+[2023-07-04 00:11:17] INFO root fetch - processPackages [ra2mix]: Remove: archive file [/home/abi/fetcher/tmp/ra2mix-0.0.7.tar.gz]
+[2023-07-04 00:11:17] INFO root fetch - main [MainThread]: End processing [ra2mix]: success
+[2023-07-04 00:11:17] INFO root fetch - processPackages [timer-module]: Remove: archive file [/home/abi/fetcher/tmp/timer-module-1.1.3.tar.gz]
+[2023-07-04 00:11:17] INFO root fetch - processPackages [timer-module]: Remove: archive file [/home/abi/fetcher/tmp/timer-module-1.2.0.tar.gz]
+[2023-07-04 00:11:17] INFO root fetch - main [MainThread]: End processing [timer-module]: success
+[2023-07-04 00:11:17] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-07-04 00:11:17] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-07-04 00:11:17] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-07-04 00:11:17] INFO root fetch - processPackages [roboto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/roboto_sdk-0.1.3a3.tar.gz]
+[2023-07-04 00:11:17] INFO root fetch - processPackages [roboto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/roboto_sdk-0.1.4.tar.gz]
+[2023-07-04 00:11:17] INFO root fetch - main [MainThread]: End processing [roboto-sdk]: success
+[2023-07-04 00:11:17] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.0.5.tar.gz]
+[2023-07-04 00:11:17] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.0.7.tar.gz]
+[2023-07-04 00:11:17] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-04 00:11:18] INFO root fetch - processPackages [django-tomselect]: Remove: archive file [/home/abi/fetcher/tmp/django-tomselect-0.4.1.tar.gz]
+[2023-07-04 00:11:18] INFO root fetch - processPackages [django-tomselect]: Remove: archive file [/home/abi/fetcher/tmp/django-tomselect-0.4.2.tar.gz]
+[2023-07-04 00:11:18] INFO root fetch - main [MainThread]: End processing [django-tomselect]: success
+[2023-07-04 00:11:19] INFO root fetch - processPackages [energat]: Remove: archive file [/home/abi/fetcher/tmp/energat-1.0.5.tar.gz]
+[2023-07-04 00:11:19] INFO root fetch - processPackages [energat]: Remove: archive file [/home/abi/fetcher/tmp/energat-1.0.6.tar.gz]
+[2023-07-04 00:11:19] INFO root fetch - main [MainThread]: End processing [energat]: success
+[2023-07-04 00:11:19] INFO root fetch - main [MainThread]: Store serial: [18746105]
