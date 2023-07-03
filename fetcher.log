@@ -1125,3 +1125,94 @@
 [2023-07-04 01:30:03] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.7.tar.gz]
 [2023-07-04 01:30:03] INFO root fetch - main [MainThread]: End processing [nerdcore]: success
 [2023-07-04 01:30:03] INFO root fetch - main [MainThread]: Store serial: [18746471]
+[2023-07-04 01:35:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18746471]
+[2023-07-04 01:35:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-04 01:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydoctrace
+[2023-07-04 01:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gravitorch
+[2023-07-04 01:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chroma-datasets
+[2023-07-04 01:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: splatnet3-scraper
+[2023-07-04 01:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chroma-datasets
+[2023-07-04 01:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NotionLab
+[2023-07-04 01:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: khoj-assistant
+[2023-07-04 01:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jsonjavascriptnotation
+[2023-07-04 01:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: djangocms-file
+[2023-07-04 01:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nerdcore
+[2023-07-04 01:35:12] INFO root fetch - processPackages [chroma-datasets]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-04 01:35:12] INFO root fetch - processPackages [gravitorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 01:35:12] INFO root fetch - processPackages [splatnet3-scraper]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-04 01:35:12] INFO root fetch - processPackages [pydoctrace]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-07-04 01:35:12] INFO root fetch - processPackages [chroma-datasets]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-04 01:35:12] INFO root fetch - processPackages [jsonjavascriptnotation]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-04 01:35:12] INFO root fetch - processPackages [NotionLab]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-04 01:35:12] INFO root fetch - processPackages [khoj-assistant]: New version: [0.7.2.dev3] Old Version: [0.7.2.dev2]
+[2023-07-04 01:35:12] INFO root fetch - processPackages [nerdcore]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-04 01:35:12] INFO root fetch - processPackages [djangocms-file]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-04 01:35:12] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/94/d8/f66746d42db120bccfebf56cd881adb31b730d3e279564e5c900a616c7a1/khoj_assistant-0.7.2.dev2.tar.gz
+[2023-07-04 01:35:12] INFO root fetch - processPackages [chroma-datasets]: Downloading https://files.pythonhosted.org/packages/6b/c4/646299bd0751fb7dacfd0043a5a14469924dbde5e213817da162bc5a46a2/chroma_datasets-0.1.3.tar.gz
+[2023-07-04 01:35:12] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/3c/eb/d596884cdb31e5198aa387878eb8ef895802e567d7d679b97f4a406e21ae/gravitorch-0.0.8.tar.gz
+[2023-07-04 01:35:12] INFO root fetch - processPackages [jsonjavascriptnotation]: Downloading https://files.pythonhosted.org/packages/8b/75/496fde64b43d69957041f3350d08ff1c9c05e29d72ff228c8cb080d4ed93/jsonjavascriptnotation-0.1.5-py3-none-any.whl
+[2023-07-04 01:35:12] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/50/df/e0cc855fbf25fe86487abcb85857d5e43677fb56c91f66b5a7ff936fe290/nerdcore-0.1.7.tar.gz
+[2023-07-04 01:35:12] INFO root fetch - processPackages [chroma-datasets]: Downloading https://files.pythonhosted.org/packages/6b/c4/646299bd0751fb7dacfd0043a5a14469924dbde5e213817da162bc5a46a2/chroma_datasets-0.1.3.tar.gz
+[2023-07-04 01:35:12] INFO root fetch - processPackages [splatnet3-scraper]: Downloading https://files.pythonhosted.org/packages/c1/19/78cdea3107b12f2ad51bdf2b5ff6e171114536155b12e4268bc94c59d7a4/splatnet3_scraper-0.9.2.tar.gz
+[2023-07-04 01:35:12] INFO root fetch - processPackages [pydoctrace]: Downloading https://files.pythonhosted.org/packages/a0/c7/a3dc69a4ba11bed907a999dfd77a9286b0e71ff4ab1abd7401b00177b9bd/pydoctrace-0.1.0.tar.gz
+[2023-07-04 01:35:12] INFO root fetch - processPackages [NotionLab]: Downloading https://files.pythonhosted.org/packages/ea/60/b0e169d2ebc6e27056e8de639406fb570a2b0dc7e907ee08c318bb1d4e6c/NotionLab-1.1.3.tar.gz
+[2023-07-04 01:35:12] INFO root fetch - processPackages [djangocms-file]: Downloading https://files.pythonhosted.org/packages/38/96/c73fbfd6a9ee8f81712e1ccaeb0df227681cbb79bcb20088c944fbc91faa/djangocms-file-3.0.0.tar.gz
+[2023-07-04 01:35:12] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/d8/af/12bd29b316e1abfd4a89affc84ab78a2b03aaa0ebdf20315c6dc8c4c3886/gravitorch-0.0.9.tar.gz
+[2023-07-04 01:35:13] INFO root fetch - processPackages [chroma-datasets]: Downloading https://files.pythonhosted.org/packages/4e/e8/78fec9d1775760d1a316fc9d33f1148128e3a1eda6cc52c9e70ec9b0e4b0/chroma_datasets-0.1.4.tar.gz
+[2023-07-04 01:35:13] INFO root fetch - processPackages [jsonjavascriptnotation]: Downloading https://files.pythonhosted.org/packages/1d/47/f3c94ca2ef7ab9c9b726bf6884ef4366ea31466156e0d094fae0cccb9ba6/jsonjavascriptnotation-0.1.6-py3-none-any.whl
+[2023-07-04 01:35:13] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/2a/aa/04b6bf496d2cb60e4978ad6d5119c0a09a8b81b3a361be221213dc84f34a/nerdcore-0.1.8.tar.gz
+[2023-07-04 01:35:13] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/88/c6/2cb94daaed2e53ded0fb36ef4fbc2718cafb0913be3ca5a04dbbbc0b3ea2/khoj_assistant-0.7.2.dev3.tar.gz
+[2023-07-04 01:35:13] INFO root fetch - processPackages [chroma-datasets]: Downloading https://files.pythonhosted.org/packages/4e/e8/78fec9d1775760d1a316fc9d33f1148128e3a1eda6cc52c9e70ec9b0e4b0/chroma_datasets-0.1.4.tar.gz
+[2023-07-04 01:35:13] INFO root fetch - processPackages [gravitorch]: executing diffoscope
+[2023-07-04 01:35:13] INFO root fetch - processPackages [gravitorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitorch-0.0.8.tar.gz tmp/gravitorch-0.0.9.tar.gz --markdown 20230704/g/gravitorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 01:35:13] INFO root fetch - processPackages [pydoctrace]: Downloading https://files.pythonhosted.org/packages/f6/b4/96a307b230b5cb271a2b15e54989c37af32c9e74052ca51ee6197911814d/pydoctrace-0.1.2.tar.gz
+[2023-07-04 01:35:13] INFO root fetch - processPackages [NotionLab]: Downloading https://files.pythonhosted.org/packages/5d/60/9b33a097255f62690465fc4f9e027222c494a5c76ea471d1581ead09fad6/NotionLab-1.1.4.tar.gz
+[2023-07-04 01:35:13] INFO root fetch - processPackages [splatnet3-scraper]: Downloading https://files.pythonhosted.org/packages/07/94/0f0c2b596925d9a25c51ce5e3e7898387492bb267e27a401fe6f82aa319c/splatnet3_scraper-0.9.3.tar.gz
+[2023-07-04 01:35:13] INFO root fetch - processPackages [djangocms-file]: Downloading https://files.pythonhosted.org/packages/80/1a/1909347ae423e5481bfc4f6a3c0d4cb0c3b0ae9be069c60124cac4f4497b/djangocms-file-3.0.1.tar.gz
+[2023-07-04 01:35:13] INFO root fetch - processPackages [chroma-datasets]: executing diffoscope
+[2023-07-04 01:35:13] INFO root fetch - processPackages [chroma-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chroma_datasets-0.1.3.tar.gz tmp/chroma_datasets-0.1.4.tar.gz --markdown 20230704/c/chroma-datasets/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-04 01:35:13] INFO root fetch - processPackages [pydoctrace]: executing diffoscope
+[2023-07-04 01:35:13] INFO root fetch - processPackages [pydoctrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoctrace-0.1.0.tar.gz tmp/pydoctrace-0.1.2.tar.gz --markdown 20230704/p/pydoctrace/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-07-04 01:35:13] INFO root fetch - processPackages [chroma-datasets]: executing diffoscope
+[2023-07-04 01:35:13] INFO root fetch - processPackages [chroma-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chroma_datasets-0.1.3.tar.gz tmp/chroma_datasets-0.1.4.tar.gz --markdown 20230704/c/chroma-datasets/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-04 01:35:13] INFO root fetch - processPackages [NotionLab]: executing diffoscope
+[2023-07-04 01:35:13] INFO root fetch - processPackages [NotionLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NotionLab-1.1.3.tar.gz tmp/NotionLab-1.1.4.tar.gz --markdown 20230704/N/NotionLab/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-04 01:35:13] INFO root fetch - processPackages [jsonjavascriptnotation]: executing diffoscope
+[2023-07-04 01:35:13] INFO root fetch - processPackages [jsonjavascriptnotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonjavascriptnotation-0.1.5-py3-none-any.whl.zip tmp/jsonjavascriptnotation-0.1.6-py3-none-any.whl.zip --markdown 20230704/j/jsonjavascriptnotation/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-04 01:35:13] INFO root fetch - processPackages [nerdcore]: executing diffoscope
+[2023-07-04 01:35:13] INFO root fetch - processPackages [nerdcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerdcore-0.1.7.tar.gz tmp/nerdcore-0.1.8.tar.gz --markdown 20230704/n/nerdcore/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-04 01:35:13] INFO root fetch - processPackages [splatnet3-scraper]: executing diffoscope
+[2023-07-04 01:35:13] INFO root fetch - processPackages [splatnet3-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splatnet3_scraper-0.9.2.tar.gz tmp/splatnet3_scraper-0.9.3.tar.gz --markdown 20230704/s/splatnet3-scraper/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-04 01:35:13] INFO root fetch - processPackages [djangocms-file]: executing diffoscope
+[2023-07-04 01:35:13] INFO root fetch - processPackages [djangocms-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-file-3.0.0.tar.gz tmp/djangocms-file-3.0.1.tar.gz --markdown 20230704/d/djangocms-file/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-04 01:35:13] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-04 01:35:13] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.7.2.dev2.tar.gz tmp/khoj_assistant-0.7.2.dev3.tar.gz --markdown 20230704/k/khoj-assistant/0.7.2.dev2-0.7.2.dev3/diff.md --exclude *.pyd
+[2023-07-04 01:35:15] INFO root fetch - processPackages [chroma-datasets]: Remove: archive file [/home/abi/fetcher/tmp/chroma_datasets-0.1.3.tar.gz]
+[2023-07-04 01:35:15] INFO root fetch - processPackages [chroma-datasets]: Remove: archive file [/home/abi/fetcher/tmp/chroma_datasets-0.1.4.tar.gz]
+[2023-07-04 01:35:15] INFO root fetch - main [MainThread]: End processing [chroma-datasets]: success
+[2023-07-04 01:35:15] INFO root fetch - processPackages [jsonjavascriptnotation]: Remove: archive file [/home/abi/fetcher/tmp/jsonjavascriptnotation-0.1.5-py3-none-any.whl.zip]
+[2023-07-04 01:35:15] INFO root fetch - processPackages [jsonjavascriptnotation]: Remove: archive file [/home/abi/fetcher/tmp/jsonjavascriptnotation-0.1.6-py3-none-any.whl.zip]
+[2023-07-04 01:35:15] INFO root fetch - main [MainThread]: End processing [jsonjavascriptnotation]: success
+[2023-07-04 01:35:15] INFO root fetch - processPackages [pydoctrace]: Remove: archive file [/home/abi/fetcher/tmp/pydoctrace-0.1.0.tar.gz]
+[2023-07-04 01:35:15] INFO root fetch - processPackages [pydoctrace]: Remove: archive file [/home/abi/fetcher/tmp/pydoctrace-0.1.2.tar.gz]
+[2023-07-04 01:35:15] INFO root fetch - main [MainThread]: End processing [pydoctrace]: success
+[2023-07-04 01:35:15] INFO root fetch - main [MainThread]: End processing [chroma-datasets]: success
+[2023-07-04 01:35:15] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.7.tar.gz]
+[2023-07-04 01:35:15] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.8.tar.gz]
+[2023-07-04 01:35:15] INFO root fetch - main [MainThread]: End processing [nerdcore]: success
+[2023-07-04 01:35:15] INFO root fetch - processPackages [NotionLab]: Remove: archive file [/home/abi/fetcher/tmp/NotionLab-1.1.3.tar.gz]
+[2023-07-04 01:35:15] INFO root fetch - processPackages [NotionLab]: Remove: archive file [/home/abi/fetcher/tmp/NotionLab-1.1.4.tar.gz]
+[2023-07-04 01:35:15] INFO root fetch - main [MainThread]: End processing [NotionLab]: success
+[2023-07-04 01:35:15] INFO root fetch - processPackages [splatnet3-scraper]: Remove: archive file [/home/abi/fetcher/tmp/splatnet3_scraper-0.9.2.tar.gz]
+[2023-07-04 01:35:15] INFO root fetch - processPackages [splatnet3-scraper]: Remove: archive file [/home/abi/fetcher/tmp/splatnet3_scraper-0.9.3.tar.gz]
+[2023-07-04 01:35:15] INFO root fetch - main [MainThread]: End processing [splatnet3-scraper]: success
+[2023-07-04 01:35:15] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev2.tar.gz]
+[2023-07-04 01:35:15] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev3.tar.gz]
+[2023-07-04 01:35:15] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-04 01:35:15] INFO root fetch - processPackages [djangocms-file]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-file-3.0.0.tar.gz]
+[2023-07-04 01:35:15] INFO root fetch - processPackages [djangocms-file]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-file-3.0.1.tar.gz]
+[2023-07-04 01:35:15] INFO root fetch - main [MainThread]: End processing [djangocms-file]: success
+[2023-07-04 01:35:16] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.8.tar.gz]
+[2023-07-04 01:35:16] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.9.tar.gz]
+[2023-07-04 01:35:16] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
+[2023-07-04 01:35:16] INFO root fetch - main [MainThread]: Store serial: [18746499]
