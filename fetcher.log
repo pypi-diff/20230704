@@ -82,3 +82,39 @@
 [2023-07-04 00:00:55] INFO root fetch - processPackages [energat]: Remove: archive file [/home/abi/fetcher/tmp/energat-1.0.5.tar.gz]
 [2023-07-04 00:00:55] INFO root fetch - main [MainThread]: End processing [energat]: success
 [2023-07-04 00:00:55] INFO root fetch - main [MainThread]: Store serial: [18746057]
+[2023-07-04 00:05:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18746057]
+[2023-07-04 00:06:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-04 00:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tupack
+[2023-07-04 00:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: the-compiler
+[2023-07-04 00:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PointBlaster
+[2023-07-04 00:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastdatasets
+[2023-07-04 00:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ai-images
+[2023-07-04 00:06:04] WARNING root fetch - processPackages [tupack]: Skipping, unable to determine old version
+[2023-07-04 00:06:04] INFO root fetch - main [MainThread]: End processing [tupack] error
+[2023-07-04 00:06:04] INFO root fetch - processPackages [PointBlaster]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-04 00:06:04] WARNING root fetch - processPackages [ai-images]: Skipping, unable to determine old version
+[2023-07-04 00:06:04] INFO root fetch - main [MainThread]: End processing [ai-images] error
+[2023-07-04 00:06:04] INFO root fetch - processPackages [fastdatasets]: New version: [0.9.9.post0] Old Version: [0.9.9]
+[2023-07-04 00:06:04] INFO root fetch - processPackages [the-compiler]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-04 00:06:04] INFO root fetch - processPackages [fastdatasets]: Downloading https://files.pythonhosted.org/packages/ed/f0/8d4ae8c973115bec20261c6cbbe41b9db84edefd982957e48b4b0a972e30/fastdatasets-0.9.9-py3-none-any.whl
+[2023-07-04 00:06:04] INFO root fetch - processPackages [the-compiler]: Downloading https://files.pythonhosted.org/packages/24/14/541aee917cc4fc35bbe1d64c4af9cec41023680c80ee7428953469131283/the-compiler-0.1.6.tar.gz
+[2023-07-04 00:06:04] INFO root fetch - processPackages [PointBlaster]: Downloading https://files.pythonhosted.org/packages/ea/76/cad6c4ea9f0911a946c0fd85681d87a86fb6a1493ccb8cd63eb2909e55b9/PointBlaster-0.2.2.tar.gz
+[2023-07-04 00:06:04] INFO root fetch - processPackages [the-compiler]: Downloading https://files.pythonhosted.org/packages/9b/47/2eca2e55cfde597a82985333c3e99ce083051ddeb1e368d575e8edb2bfa6/the-compiler-0.1.7.tar.gz
+[2023-07-04 00:06:05] INFO root fetch - processPackages [fastdatasets]: Downloading https://files.pythonhosted.org/packages/65/30/d1e7d5ef82d3002c7bad796f1b5a58090fab5042710a409eeeb1f1f215e4/fastdatasets-0.9.9.post0-py3-none-any.whl
+[2023-07-04 00:06:05] INFO root fetch - processPackages [the-compiler]: executing diffoscope
+[2023-07-04 00:06:05] INFO root fetch - processPackages [the-compiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/the-compiler-0.1.6.tar.gz tmp/the-compiler-0.1.7.tar.gz --markdown 20230704/t/the-compiler/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-04 00:06:05] INFO root fetch - processPackages [fastdatasets]: executing diffoscope
+[2023-07-04 00:06:05] INFO root fetch - processPackages [fastdatasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdatasets-0.9.9-py3-none-any.whl.zip tmp/fastdatasets-0.9.9.post0-py3-none-any.whl.zip --markdown 20230704/f/fastdatasets/0.9.9-0.9.9.post0/diff.md --exclude *.pyd
+[2023-07-04 00:06:05] INFO root fetch - processPackages [PointBlaster]: Downloading https://files.pythonhosted.org/packages/ee/fb/e77d2ab284c0c86ff85c47391aa7fb47f5aa1eacf7e582a36571bbffd8b9/PointBlaster-0.2.3.tar.gz
+[2023-07-04 00:06:05] INFO root fetch - processPackages [PointBlaster]: executing diffoscope
+[2023-07-04 00:06:05] INFO root fetch - processPackages [PointBlaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PointBlaster-0.2.2.tar.gz tmp/PointBlaster-0.2.3.tar.gz --markdown 20230704/P/PointBlaster/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-04 00:06:05] INFO root fetch - processPackages [the-compiler]: Remove: archive file [/home/abi/fetcher/tmp/the-compiler-0.1.6.tar.gz]
+[2023-07-04 00:06:05] INFO root fetch - processPackages [the-compiler]: Remove: archive file [/home/abi/fetcher/tmp/the-compiler-0.1.7.tar.gz]
+[2023-07-04 00:06:05] INFO root fetch - main [MainThread]: End processing [the-compiler]: success
+[2023-07-04 00:06:06] INFO root fetch - processPackages [fastdatasets]: Remove: archive file [/home/abi/fetcher/tmp/fastdatasets-0.9.9-py3-none-any.whl.zip]
+[2023-07-04 00:06:06] INFO root fetch - processPackages [fastdatasets]: Remove: archive file [/home/abi/fetcher/tmp/fastdatasets-0.9.9.post0-py3-none-any.whl.zip]
+[2023-07-04 00:06:06] INFO root fetch - main [MainThread]: End processing [fastdatasets]: success
+[2023-07-04 00:06:06] INFO root fetch - processPackages [PointBlaster]: Remove: archive file [/home/abi/fetcher/tmp/PointBlaster-0.2.2.tar.gz]
+[2023-07-04 00:06:06] INFO root fetch - processPackages [PointBlaster]: Remove: archive file [/home/abi/fetcher/tmp/PointBlaster-0.2.3.tar.gz]
+[2023-07-04 00:06:06] INFO root fetch - main [MainThread]: End processing [PointBlaster]: success
+[2023-07-04 00:06:06] INFO root fetch - main [MainThread]: Store serial: [18746074]
