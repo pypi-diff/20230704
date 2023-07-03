@@ -1015,3 +1015,38 @@
 [2023-07-04 01:14:28] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
 [2023-07-04 01:14:28] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-07-04 01:14:28] INFO root fetch - main [MainThread]: Store serial: [18746426]
+[2023-07-04 01:19:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18746426]
+[2023-07-04 01:19:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-04 01:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2023-07-04 01:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-weka-wrapper3
+[2023-07-04 01:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stegoveritas
+[2023-07-04 01:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nerdcore
+[2023-07-04 01:19:37] INFO root fetch - processPackages [nerdcore]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-04 01:19:37] INFO root fetch - processPackages [stegoveritas]: New version: [1.9] Old Version: [1.8]
+[2023-07-04 01:19:37] INFO root fetch - processPackages [python-weka-wrapper3]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-04 01:19:38] INFO root fetch - processPackages [khoj-assistant]: New version: [0.7.2.dev2] Old Version: [0.7.2.dev1]
+[2023-07-04 01:19:38] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/9c/81/3dc8c56ab33765b8cfce7074d4aa2e566f4b936ff374bc934432d262b658/nerdcore-0.1.4.tar.gz
+[2023-07-04 01:19:38] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/ec/5d/acaea70d70b571be7eb362be8f9b6a1b083f1cd29298360db1963f96da3e/khoj_assistant-0.7.2.dev1.tar.gz
+[2023-07-04 01:19:38] INFO root fetch - processPackages [stegoveritas]: Downloading https://files.pythonhosted.org/packages/5f/16/4686d358d2e5b4a441fb61115cc0a2b0402034619cf48f8fdfbb95a51a46/stegoveritas-1.8.tar.gz
+[2023-07-04 01:19:38] INFO root fetch - processPackages [python-weka-wrapper3]: Downloading https://files.pythonhosted.org/packages/9d/a6/4694fb0d02a0a62bce80b7b7c8c654408f0899cd40eba22511ce58ed3fe9/python-weka-wrapper3-0.2.8.tar.gz
+[2023-07-04 01:19:38] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/20/28/cb9395e490a8c4d80e8becf781cd3cdaf863df55be0b56c8df6126567995/nerdcore-0.1.5.tar.gz
+[2023-07-04 01:19:38] WARNING root fetch - processPackages [python-weka-wrapper3]: Skipping package: exceeds size limit 14377394>=10485760
+[2023-07-04 01:19:38] INFO root fetch - main [MainThread]: End processing [python-weka-wrapper3] error
+[2023-07-04 01:19:38] INFO root fetch - processPackages [nerdcore]: executing diffoscope
+[2023-07-04 01:19:38] INFO root fetch - processPackages [nerdcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerdcore-0.1.4.tar.gz tmp/nerdcore-0.1.5.tar.gz --markdown 20230704/n/nerdcore/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-04 01:19:38] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/94/d8/f66746d42db120bccfebf56cd881adb31b730d3e279564e5c900a616c7a1/khoj_assistant-0.7.2.dev2.tar.gz
+[2023-07-04 01:19:39] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-04 01:19:39] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.7.2.dev1.tar.gz tmp/khoj_assistant-0.7.2.dev2.tar.gz --markdown 20230704/k/khoj-assistant/0.7.2.dev1-0.7.2.dev2/diff.md --exclude *.pyd
+[2023-07-04 01:19:39] INFO root fetch - processPackages [stegoveritas]: Downloading https://files.pythonhosted.org/packages/bc/2c/715708cf6fb6628b29de0dd334db02eecbeca5666606f907545bec03eb55/stegoveritas-1.9.tar.gz
+[2023-07-04 01:19:39] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.4.tar.gz]
+[2023-07-04 01:19:39] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.5.tar.gz]
+[2023-07-04 01:19:39] INFO root fetch - main [MainThread]: End processing [nerdcore]: success
+[2023-07-04 01:19:39] INFO root fetch - processPackages [stegoveritas]: executing diffoscope
+[2023-07-04 01:19:39] INFO root fetch - processPackages [stegoveritas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stegoveritas-1.8.tar.gz tmp/stegoveritas-1.9.tar.gz --markdown 20230704/s/stegoveritas/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-04 01:19:40] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev1.tar.gz]
+[2023-07-04 01:19:40] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev2.tar.gz]
+[2023-07-04 01:19:40] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-04 01:19:40] INFO root fetch - processPackages [stegoveritas]: Remove: archive file [/home/abi/fetcher/tmp/stegoveritas-1.8.tar.gz]
+[2023-07-04 01:19:40] INFO root fetch - processPackages [stegoveritas]: Remove: archive file [/home/abi/fetcher/tmp/stegoveritas-1.9.tar.gz]
+[2023-07-04 01:19:40] INFO root fetch - main [MainThread]: End processing [stegoveritas]: success
+[2023-07-04 01:19:40] INFO root fetch - main [MainThread]: Store serial: [18746437]
