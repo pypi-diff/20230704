@@ -1391,3 +1391,42 @@
 [2023-07-04 01:50:54] INFO root fetch - processPackages [poke-env]: Remove: archive file [/home/abi/fetcher/tmp/poke_env-0.7.1.tar.gz]
 [2023-07-04 01:50:54] INFO root fetch - main [MainThread]: End processing [poke-env]: success
 [2023-07-04 01:50:54] INFO root fetch - main [MainThread]: Store serial: [18746563]
+[2023-07-04 01:56:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18746563]
+[2023-07-04 01:56:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-04 01:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mclang
+[2023-07-04 01:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyapp-flow
+[2023-07-04 01:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SecureMessaging
+[2023-07-04 01:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nerdcore
+[2023-07-04 01:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: portage-types
+[2023-07-04 01:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c64os-util
+[2023-07-04 01:56:06] INFO root fetch - processPackages [SecureMessaging]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-04 01:56:06] INFO root fetch - processPackages [nerdcore]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 01:56:06] INFO root fetch - processPackages [pyapp-flow]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-04 01:56:06] WARNING root fetch - processPackages [portage-types]: Skipping, unable to determine old version
+[2023-07-04 01:56:06] INFO root fetch - main [MainThread]: End processing [portage-types] error
+[2023-07-04 01:56:06] WARNING root fetch - processPackages [mclang]: Skipping, unable to determine old version
+[2023-07-04 01:56:06] INFO root fetch - main [MainThread]: End processing [mclang] error
+[2023-07-04 01:56:06] WARNING root fetch - processPackages [c64os-util]: Skipping, unable to determine old version
+[2023-07-04 01:56:06] INFO root fetch - main [MainThread]: End processing [c64os-util] error
+[2023-07-04 01:56:06] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/2a/aa/04b6bf496d2cb60e4978ad6d5119c0a09a8b81b3a361be221213dc84f34a/nerdcore-0.1.8.tar.gz
+[2023-07-04 01:56:06] INFO root fetch - processPackages [SecureMessaging]: Downloading https://files.pythonhosted.org/packages/b1/26/60963685c42e29b27be8ad700759d14eefd8bfdaa8d461a82e6dd77137ee/SecureMessaging-1.0.5-py3-none-any.whl
+[2023-07-04 01:56:06] INFO root fetch - processPackages [pyapp-flow]: Downloading https://files.pythonhosted.org/packages/53/87/1efc290f9bb68a9cceff43028608a3e89fcd1f6119434010259c73294707/pyapp-flow-0.8.0.tar.gz
+[2023-07-04 01:56:06] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/f0/b9/a7ca11d5ea057e7cfab9c8c440dc31d5d6761c0ba50c16545f42ea89145f/nerdcore-0.1.9.tar.gz
+[2023-07-04 01:56:06] INFO root fetch - processPackages [nerdcore]: executing diffoscope
+[2023-07-04 01:56:06] INFO root fetch - processPackages [nerdcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerdcore-0.1.8.tar.gz tmp/nerdcore-0.1.9.tar.gz --markdown 20230704/n/nerdcore/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 01:56:06] INFO root fetch - processPackages [SecureMessaging]: Downloading https://files.pythonhosted.org/packages/e7/a0/6b55125b6bed23978bc45e848b449254fccfb5fb17bfdf0e4eb3f4735d88/SecureMessaging-1.0.6-py3-none-any.whl
+[2023-07-04 01:56:06] INFO root fetch - processPackages [pyapp-flow]: Downloading https://files.pythonhosted.org/packages/76/0a/afcf5faf502ffe35479eb84cff6e0526f4e49c11a766c2290b8543a65f75/pyapp-flow-0.9.0.tar.gz
+[2023-07-04 01:56:07] INFO root fetch - processPackages [SecureMessaging]: executing diffoscope
+[2023-07-04 01:56:07] INFO root fetch - processPackages [SecureMessaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SecureMessaging-1.0.5-py3-none-any.whl.zip tmp/SecureMessaging-1.0.6-py3-none-any.whl.zip --markdown 20230704/S/SecureMessaging/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-04 01:56:07] INFO root fetch - processPackages [pyapp-flow]: executing diffoscope
+[2023-07-04 01:56:07] INFO root fetch - processPackages [pyapp-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyapp-flow-0.8.0.tar.gz tmp/pyapp-flow-0.9.0.tar.gz --markdown 20230704/p/pyapp-flow/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-04 01:56:07] INFO root fetch - processPackages [SecureMessaging]: Remove: archive file [/home/abi/fetcher/tmp/SecureMessaging-1.0.5-py3-none-any.whl.zip]
+[2023-07-04 01:56:07] INFO root fetch - processPackages [SecureMessaging]: Remove: archive file [/home/abi/fetcher/tmp/SecureMessaging-1.0.6-py3-none-any.whl.zip]
+[2023-07-04 01:56:07] INFO root fetch - main [MainThread]: End processing [SecureMessaging]: success
+[2023-07-04 01:56:07] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.8.tar.gz]
+[2023-07-04 01:56:07] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.9.tar.gz]
+[2023-07-04 01:56:07] INFO root fetch - main [MainThread]: End processing [nerdcore]: success
+[2023-07-04 01:56:07] INFO root fetch - processPackages [pyapp-flow]: Remove: archive file [/home/abi/fetcher/tmp/pyapp-flow-0.8.0.tar.gz]
+[2023-07-04 01:56:07] INFO root fetch - processPackages [pyapp-flow]: Remove: archive file [/home/abi/fetcher/tmp/pyapp-flow-0.9.0.tar.gz]
+[2023-07-04 01:56:07] INFO root fetch - main [MainThread]: End processing [pyapp-flow]: success
+[2023-07-04 01:56:08] INFO root fetch - main [MainThread]: Store serial: [18746584]
