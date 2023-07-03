@@ -1,0 +1,84 @@
+[2023-07-04 00:00:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18746020]
+[2023-07-04 00:00:49] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-04 00:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hpmoc
+[2023-07-04 00:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nibiru-proto
+[2023-07-04 00:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: energat
+[2023-07-04 00:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roboto-sdk
+[2023-07-04 00:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qiskit-debugger
+[2023-07-04 00:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tendril-utils-media
+[2023-07-04 00:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xboto
+[2023-07-04 00:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-gitea-opensuse-org
+[2023-07-04 00:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: roxbot
+[2023-07-04 00:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nerdcore
+[2023-07-04 00:00:49] INFO root fetch - processPackages [hpmoc]: New version: [1.0a3] Old Version: [1.0a2]
+[2023-07-04 00:00:49] INFO root fetch - processPackages [energat]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-07-04 00:00:49] INFO root fetch - processPackages [roboto-sdk]: New version: [0.1.3a3] Old Version: [0.1.3a2]
+[2023-07-04 00:00:49] WARNING root fetch - processPackages [tendril-utils-media]: Skipping, unable to determine old version
+[2023-07-04 00:00:49] INFO root fetch - processPackages [tendril-utils-media]: Start processing: fl-api-requester
+[2023-07-04 00:00:49] INFO root fetch - main [MainThread]: End processing [tendril-utils-media] error
+[2023-07-04 00:00:49] INFO root fetch - processPackages [nibiru-proto]: New version: [0.21.3b4] Old Version: [0.21.3b3]
+[2023-07-04 00:00:49] INFO root fetch - processPackages [nerdcore]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-04 00:00:49] INFO root fetch - processPackages [roxbot]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-04 00:00:49] WARNING root fetch - processPackages [qiskit-debugger]: Skipping, unable to determine old version
+[2023-07-04 00:00:49] INFO root fetch - main [MainThread]: End processing [qiskit-debugger] error
+[2023-07-04 00:00:49] INFO root fetch - processPackages [xboto]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-04 00:00:49] INFO root fetch - processPackages [roboto-sdk]: Downloading https://files.pythonhosted.org/packages/03/f3/1a959918b8d2eee74760c6117b49580fa75cfd456c96fb94fbec7890037d/roboto_sdk-0.1.3a2.tar.gz
+[2023-07-04 00:00:49] WARNING root fetch - processPackages [py-gitea-opensuse-org]: Skipping, unable to determine old version
+[2023-07-04 00:00:49] INFO root fetch - main [MainThread]: End processing [py-gitea-opensuse-org] error
+[2023-07-04 00:00:49] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/c5/c0/561ac78769c89ff31471559b1b0958e2e9096c712b68a9c721cd22291581/nerdcore-0.0.2.tar.gz
+[2023-07-04 00:00:49] INFO root fetch - processPackages [fl-api-requester]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-04 00:00:49] INFO root fetch - processPackages [energat]: Downloading https://files.pythonhosted.org/packages/df/39/74040bcced0fabc8b2136d2a9919b905bf4b3c3b71fc3b2b97c53c4c9caf/energat-1.0.3.tar.gz
+[2023-07-04 00:00:49] INFO root fetch - processPackages [roxbot]: Downloading https://files.pythonhosted.org/packages/d2/cb/4abe8927ed167dc76ce25a71cb84c6939cf5c8356e5a3eb773175fba28a2/roxbot-0.6.0.tar.gz
+[2023-07-04 00:00:49] INFO root fetch - processPackages [nibiru-proto]: Downloading https://files.pythonhosted.org/packages/4c/33/b263a4c1d55aad8036e7f9f7dbfb21489381c6dd1bacefea1bcab7d8cbbf/nibiru_proto-0.21.3b3.tar.gz
+[2023-07-04 00:00:49] INFO root fetch - processPackages [hpmoc]: Downloading https://files.pythonhosted.org/packages/82/94/54011f76dc63334b1c95ebc499cbc5605933ede5c5b1f843879e1c3d26ac/hpmoc-1.0a2.tar.gz
+[2023-07-04 00:00:50] INFO root fetch - processPackages [xboto]: Downloading https://files.pythonhosted.org/packages/e0/f8/f251b2d8632d2acea6559d5a6f46bec2656425e11de573aea4a5bf587034/xboto-1.1.0.tar.gz
+[2023-07-04 00:00:50] INFO root fetch - processPackages [roboto-sdk]: Downloading https://files.pythonhosted.org/packages/a8/6f/453911c0245a3e8bfa9568781ba265e7cefb5014cfc68e74e2648886b823/roboto_sdk-0.1.3a3.tar.gz
+[2023-07-04 00:00:50] INFO root fetch - processPackages [fl-api-requester]: Downloading https://files.pythonhosted.org/packages/e8/d6/e6e792863502df0e00afc2acac26415563b969b3f8c0feac4d24307d654b/fl-api-requester-1.0.2.tar.gz
+[2023-07-04 00:00:50] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/df/b7/bbcfb34f420bba9029d2da9e79c62af8fddc46b09bdaacfdeb00ce8c4da9/nerdcore-0.0.3.tar.gz
+[2023-07-04 00:00:50] INFO root fetch - processPackages [roxbot]: Downloading https://files.pythonhosted.org/packages/5f/71/93af507a7db8b7f265f3828180431606c6ce37a1fe01534754c39931e057/roxbot-0.6.1.tar.gz
+[2023-07-04 00:00:50] INFO root fetch - processPackages [roboto-sdk]: executing diffoscope
+[2023-07-04 00:00:50] INFO root fetch - processPackages [roboto-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboto_sdk-0.1.3a2.tar.gz tmp/roboto_sdk-0.1.3a3.tar.gz --markdown 20230704/r/roboto-sdk/0.1.3a2-0.1.3a3/diff.md --exclude *.pyd
+[2023-07-04 00:00:50] INFO root fetch - processPackages [nibiru-proto]: Downloading https://files.pythonhosted.org/packages/4e/ec/427c706a351139917b2d95f8c68036a72180d88bdea156f453d76281e0ab/nibiru_proto-0.21.3b4.tar.gz
+[2023-07-04 00:00:50] INFO root fetch - processPackages [nerdcore]: executing diffoscope
+[2023-07-04 00:00:50] INFO root fetch - processPackages [nerdcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerdcore-0.0.2.tar.gz tmp/nerdcore-0.0.3.tar.gz --markdown 20230704/n/nerdcore/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-04 00:00:50] INFO root fetch - processPackages [hpmoc]: Downloading https://files.pythonhosted.org/packages/6e/a4/03e69915f342545c98a22080f269f6e90b88fc948f4a1e9b86171bc7785f/hpmoc-1.0a3.tar.gz
+[2023-07-04 00:00:50] INFO root fetch - processPackages [xboto]: Downloading https://files.pythonhosted.org/packages/e3/67/56eb7999dc35b388bba47931b6e07b0e48cbf27beed340c9d930825c7a71/xboto-1.1.1.tar.gz
+[2023-07-04 00:00:50] INFO root fetch - processPackages [roxbot]: executing diffoscope
+[2023-07-04 00:00:50] INFO root fetch - processPackages [roxbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roxbot-0.6.0.tar.gz tmp/roxbot-0.6.1.tar.gz --markdown 20230704/r/roxbot/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-04 00:00:50] INFO root fetch - processPackages [fl-api-requester]: Downloading https://files.pythonhosted.org/packages/05/9e/366c94c8112eaae35cfa2dee1a909a0218ac90d2542b87f46b4eccd52365/fl-api-requester-1.0.3.tar.gz
+[2023-07-04 00:00:50] INFO root fetch - processPackages [nibiru-proto]: executing diffoscope
+[2023-07-04 00:00:50] INFO root fetch - processPackages [nibiru-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nibiru_proto-0.21.3b3.tar.gz tmp/nibiru_proto-0.21.3b4.tar.gz --markdown 20230704/n/nibiru-proto/0.21.3b3-0.21.3b4/diff.md --exclude *.pyd
+[2023-07-04 00:00:50] INFO root fetch - processPackages [hpmoc]: executing diffoscope
+[2023-07-04 00:00:50] INFO root fetch - processPackages [hpmoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpmoc-1.0a2.tar.gz tmp/hpmoc-1.0a3.tar.gz --markdown 20230704/h/hpmoc/1.0a2-1.0a3/diff.md --exclude *.pyd
+[2023-07-04 00:00:50] INFO root fetch - processPackages [xboto]: executing diffoscope
+[2023-07-04 00:00:50] INFO root fetch - processPackages [xboto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xboto-1.1.0.tar.gz tmp/xboto-1.1.1.tar.gz --markdown 20230704/x/xboto/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-04 00:00:50] INFO root fetch - processPackages [fl-api-requester]: executing diffoscope
+[2023-07-04 00:00:50] INFO root fetch - processPackages [fl-api-requester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fl-api-requester-1.0.2.tar.gz tmp/fl-api-requester-1.0.3.tar.gz --markdown 20230704/f/fl-api-requester/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-04 00:00:51] INFO root fetch - processPackages [energat]: Downloading https://files.pythonhosted.org/packages/6e/19/d156c817568bc78fd8df74564dee7c526a20a9ed3732078e1d6f503743bb/energat-1.0.5.tar.gz
+[2023-07-04 00:00:51] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.0.2.tar.gz]
+[2023-07-04 00:00:51] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.0.3.tar.gz]
+[2023-07-04 00:00:51] INFO root fetch - main [MainThread]: End processing [nerdcore]: success
+[2023-07-04 00:00:51] INFO root fetch - processPackages [roxbot]: Remove: archive file [/home/abi/fetcher/tmp/roxbot-0.6.0.tar.gz]
+[2023-07-04 00:00:51] INFO root fetch - processPackages [roxbot]: Remove: archive file [/home/abi/fetcher/tmp/roxbot-0.6.1.tar.gz]
+[2023-07-04 00:00:51] INFO root fetch - main [MainThread]: End processing [roxbot]: success
+[2023-07-04 00:00:51] INFO root fetch - processPackages [xboto]: Remove: archive file [/home/abi/fetcher/tmp/xboto-1.1.0.tar.gz]
+[2023-07-04 00:00:51] INFO root fetch - processPackages [xboto]: Remove: archive file [/home/abi/fetcher/tmp/xboto-1.1.1.tar.gz]
+[2023-07-04 00:00:51] INFO root fetch - main [MainThread]: End processing [xboto]: success
+[2023-07-04 00:00:51] INFO root fetch - processPackages [roboto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/roboto_sdk-0.1.3a2.tar.gz]
+[2023-07-04 00:00:51] INFO root fetch - processPackages [roboto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/roboto_sdk-0.1.3a3.tar.gz]
+[2023-07-04 00:00:51] INFO root fetch - main [MainThread]: End processing [roboto-sdk]: success
+[2023-07-04 00:00:51] INFO root fetch - processPackages [fl-api-requester]: Remove: archive file [/home/abi/fetcher/tmp/fl-api-requester-1.0.2.tar.gz]
+[2023-07-04 00:00:51] INFO root fetch - processPackages [fl-api-requester]: Remove: archive file [/home/abi/fetcher/tmp/fl-api-requester-1.0.3.tar.gz]
+[2023-07-04 00:00:51] INFO root fetch - main [MainThread]: End processing [fl-api-requester]: success
+[2023-07-04 00:00:51] INFO root fetch - processPackages [hpmoc]: Remove: archive file [/home/abi/fetcher/tmp/hpmoc-1.0a2.tar.gz]
+[2023-07-04 00:00:51] INFO root fetch - processPackages [hpmoc]: Remove: archive file [/home/abi/fetcher/tmp/hpmoc-1.0a3.tar.gz]
+[2023-07-04 00:00:51] INFO root fetch - main [MainThread]: End processing [hpmoc]: success
+[2023-07-04 00:00:53] INFO root fetch - processPackages [nibiru-proto]: Remove: archive file [/home/abi/fetcher/tmp/nibiru_proto-0.21.3b3.tar.gz]
+[2023-07-04 00:00:53] INFO root fetch - processPackages [nibiru-proto]: Remove: archive file [/home/abi/fetcher/tmp/nibiru_proto-0.21.3b4.tar.gz]
+[2023-07-04 00:00:53] INFO root fetch - main [MainThread]: End processing [nibiru-proto]: success
+[2023-07-04 00:00:53] INFO root fetch - processPackages [energat]: executing diffoscope
+[2023-07-04 00:00:53] INFO root fetch - processPackages [energat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energat-1.0.3.tar.gz tmp/energat-1.0.5.tar.gz --markdown 20230704/e/energat/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-07-04 00:00:55] INFO root fetch - processPackages [energat]: Remove: archive file [/home/abi/fetcher/tmp/energat-1.0.3.tar.gz]
+[2023-07-04 00:00:55] INFO root fetch - processPackages [energat]: Remove: archive file [/home/abi/fetcher/tmp/energat-1.0.5.tar.gz]
+[2023-07-04 00:00:55] INFO root fetch - main [MainThread]: End processing [energat]: success
+[2023-07-04 00:00:55] INFO root fetch - main [MainThread]: Store serial: [18746057]
