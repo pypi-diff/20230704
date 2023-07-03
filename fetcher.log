@@ -702,3 +702,51 @@
 [2023-07-04 00:48:09] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2023.7.3.tar.gz]
 [2023-07-04 00:48:09] INFO root fetch - main [MainThread]: End processing [parsl]: success
 [2023-07-04 00:48:09] INFO root fetch - main [MainThread]: Store serial: [18746328]
+[2023-07-04 00:53:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18746328]
+[2023-07-04 00:53:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-04 00:53:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vbcore
+[2023-07-04 00:53:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bpp-iplweb
+[2023-07-04 00:53:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plantilla
+[2023-07-04 00:53:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nerdcore
+[2023-07-04 00:53:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pwasopt
+[2023-07-04 00:53:18] INFO root fetch - processPackages [vbcore]: New version: [2.1.0rc0] Old Version: [2.0.0rc4]
+[2023-07-04 00:53:18] INFO root fetch - processPackages [plantilla]: New version: [0.1.0.7] Old Version: [0.1.0.6]
+[2023-07-04 00:53:18] INFO root fetch - processPackages [nerdcore]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-04 00:53:18] INFO root fetch - processPackages [pwasopt]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-04 00:53:18] INFO root fetch - processPackages [bpp-iplweb]: New version: [202307.1104] Old Version: [202306.1103]
+[2023-07-04 00:53:18] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/a5/5d/837fc6d39033126fefda21a6f42321087487f8bf08f840fd65ea93cb8595/nerdcore-0.1.1.tar.gz
+[2023-07-04 00:53:18] INFO root fetch - processPackages [pwasopt]: Downloading https://files.pythonhosted.org/packages/00/aa/2ee262fe0d7086a2e118bd1e02addb4467ba8551f052da62fb5d86f5cc8c/pwasopt-0.0.6.tar.gz
+[2023-07-04 00:53:18] INFO root fetch - processPackages [vbcore]: Downloading https://files.pythonhosted.org/packages/2b/4d/c3640191e8c20bb080e28275377e99977cfd84a03370a7fcbd7041c785b2/vbcore-2.0.0rc4.tar.gz
+[2023-07-04 00:53:18] INFO root fetch - processPackages [bpp-iplweb]: Downloading https://files.pythonhosted.org/packages/cd/3d/ad02cc205cf0754831a425e1b04fcdecbcb364a3e446c224a264f5cfb65d/bpp_iplweb-202306.1103-py3-none-any.whl
+[2023-07-04 00:53:18] INFO root fetch - processPackages [plantilla]: Downloading https://files.pythonhosted.org/packages/f5/88/8de716521a001db10dbc5ca8eb598f7fdcb01f7e12797b92edd2b8d55c69/plantilla-0.1.0.6.tar.gz
+[2023-07-04 00:53:18] INFO root fetch - processPackages [pwasopt]: Downloading https://files.pythonhosted.org/packages/86/05/36e64be2d858f08988c51a131ddf2ae5386e789953dd8c8e4ed3bc11f955/pwasopt-0.0.7.tar.gz
+[2023-07-04 00:53:18] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/53/77/bed368b1f012139392ab2272279dba796aa941ee02bb0b4992bc7f98ca64/nerdcore-0.1.2.tar.gz
+[2023-07-04 00:53:18] INFO root fetch - processPackages [vbcore]: Downloading https://files.pythonhosted.org/packages/7b/c7/f78615dabf4d57c46c49fb00b5261aafc63f44b03b93110829f8436332ff/vbcore-2.1.0rc0.tar.gz
+[2023-07-04 00:53:18] INFO root fetch - processPackages [pwasopt]: executing diffoscope
+[2023-07-04 00:53:18] INFO root fetch - processPackages [pwasopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwasopt-0.0.6.tar.gz tmp/pwasopt-0.0.7.tar.gz --markdown 20230704/p/pwasopt/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-04 00:53:18] INFO root fetch - processPackages [vbcore]: executing diffoscope
+[2023-07-04 00:53:18] INFO root fetch - processPackages [vbcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbcore-2.0.0rc4.tar.gz tmp/vbcore-2.1.0rc0.tar.gz --markdown 20230704/v/vbcore/2.0.0rc4-2.1.0rc0/diff.md --exclude *.pyd
+[2023-07-04 00:53:18] INFO root fetch - processPackages [plantilla]: Downloading https://files.pythonhosted.org/packages/61/d3/df692af905102223d3db9374482e5b81ab01cfee84eac162c13928973b58/plantilla-0.1.0.7.tar.gz
+[2023-07-04 00:53:18] INFO root fetch - processPackages [nerdcore]: executing diffoscope
+[2023-07-04 00:53:18] INFO root fetch - processPackages [nerdcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerdcore-0.1.1.tar.gz tmp/nerdcore-0.1.2.tar.gz --markdown 20230704/n/nerdcore/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-04 00:53:18] INFO root fetch - processPackages [plantilla]: executing diffoscope
+[2023-07-04 00:53:18] INFO root fetch - processPackages [plantilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plantilla-0.1.0.6.tar.gz tmp/plantilla-0.1.0.7.tar.gz --markdown 20230704/p/plantilla/0.1.0.6-0.1.0.7/diff.md --exclude *.pyd
+[2023-07-04 00:53:19] INFO root fetch - processPackages [bpp-iplweb]: Downloading https://files.pythonhosted.org/packages/4f/af/5685ba01c68f0c987b7c6034b3a8663309f04e66a82861fae188d97502f7/bpp_iplweb-202307.1104-py3-none-any.whl
+[2023-07-04 00:53:19] INFO root fetch - processPackages [bpp-iplweb]: executing diffoscope
+[2023-07-04 00:53:19] INFO root fetch - processPackages [bpp-iplweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpp_iplweb-202306.1103-py3-none-any.whl.zip tmp/bpp_iplweb-202307.1104-py3-none-any.whl.zip --markdown 20230704/b/bpp-iplweb/202306.1103-202307.1104/diff.md --exclude *.pyd
+[2023-07-04 00:53:19] INFO root fetch - processPackages [pwasopt]: Remove: archive file [/home/abi/fetcher/tmp/pwasopt-0.0.6.tar.gz]
+[2023-07-04 00:53:19] INFO root fetch - processPackages [pwasopt]: Remove: archive file [/home/abi/fetcher/tmp/pwasopt-0.0.7.tar.gz]
+[2023-07-04 00:53:19] INFO root fetch - main [MainThread]: End processing [pwasopt]: success
+[2023-07-04 00:53:19] INFO root fetch - processPackages [plantilla]: Remove: archive file [/home/abi/fetcher/tmp/plantilla-0.1.0.6.tar.gz]
+[2023-07-04 00:53:19] INFO root fetch - processPackages [plantilla]: Remove: archive file [/home/abi/fetcher/tmp/plantilla-0.1.0.7.tar.gz]
+[2023-07-04 00:53:19] INFO root fetch - main [MainThread]: End processing [plantilla]: success
+[2023-07-04 00:53:19] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.1.tar.gz]
+[2023-07-04 00:53:19] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.2.tar.gz]
+[2023-07-04 00:53:19] INFO root fetch - main [MainThread]: End processing [nerdcore]: success
+[2023-07-04 00:53:20] INFO root fetch - processPackages [vbcore]: Remove: archive file [/home/abi/fetcher/tmp/vbcore-2.0.0rc4.tar.gz]
+[2023-07-04 00:53:20] INFO root fetch - processPackages [vbcore]: Remove: archive file [/home/abi/fetcher/tmp/vbcore-2.1.0rc0.tar.gz]
+[2023-07-04 00:53:20] INFO root fetch - main [MainThread]: End processing [vbcore]: success
+[2023-07-04 00:53:37] INFO root fetch - processPackages [bpp-iplweb]: Remove: archive file [/home/abi/fetcher/tmp/bpp_iplweb-202306.1103-py3-none-any.whl.zip]
+[2023-07-04 00:53:37] INFO root fetch - processPackages [bpp-iplweb]: Remove: archive file [/home/abi/fetcher/tmp/bpp_iplweb-202307.1104-py3-none-any.whl.zip]
+[2023-07-04 00:53:37] INFO root fetch - main [MainThread]: End processing [bpp-iplweb]: success
+[2023-07-04 00:53:37] INFO root fetch - main [MainThread]: Store serial: [18746342]
