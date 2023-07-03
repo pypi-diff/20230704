@@ -618,3 +618,87 @@
 [2023-07-04 00:42:56] INFO root fetch - processPackages [bcdata]: Remove: archive file [/home/abi/fetcher/tmp/bcdata-0.8.0a2.tar.gz]
 [2023-07-04 00:42:56] INFO root fetch - main [MainThread]: End processing [bcdata]: success
 [2023-07-04 00:42:56] INFO root fetch - main [MainThread]: Store serial: [18746300]
+[2023-07-04 00:48:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18746300]
+[2023-07-04 00:48:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-04 00:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parsl
+[2023-07-04 00:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apit212
+[2023-07-04 00:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-07-04 00:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swarms
+[2023-07-04 00:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modelDrivenRpa
+[2023-07-04 00:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchainplus-sdk
+[2023-07-04 00:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pwasopt
+[2023-07-04 00:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: objsize
+[2023-07-04 00:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: djangobible
+[2023-07-04 00:48:04] INFO root fetch - processPackages [parsl]: New version: [2023.7.3] Old Version: [2023.6.5]
+[2023-07-04 00:48:05] INFO root fetch - processPackages [apit212]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-04 00:48:05] INFO root fetch - processPackages [djangobible]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-04 00:48:05] INFO root fetch - processPackages [modelDrivenRpa]: New version: [1.1] Old Version: [1.0]
+[2023-07-04 00:48:05] INFO root fetch - processPackages [pwasopt]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-04 00:48:05] INFO root fetch - processPackages [swarms]: New version: [0.1.1] Old Version: [0.0.9]
+[2023-07-04 00:48:05] INFO root fetch - processPackages [objsize]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-07-04 00:48:05] INFO root fetch - processPackages [langchainplus-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 00:48:05] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.388] Old Version: [0.3.387]
+[2023-07-04 00:48:05] INFO root fetch - processPackages [pwasopt]: Downloading https://files.pythonhosted.org/packages/00/aa/2ee262fe0d7086a2e118bd1e02addb4467ba8551f052da62fb5d86f5cc8c/pwasopt-0.0.6.tar.gz
+[2023-07-04 00:48:05] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/15/75/e44fe4c0492fff09ba43fd8dbf460e4a4f77161f20e2bf676d86c582c15d/swarms-0.0.9.tar.gz
+[2023-07-04 00:48:05] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/38/83/17847e1f1f6a2c7fcabf5f2438004df559ee716ebc308fe5ccb489dfac1f/parsl-2023.6.5.tar.gz
+[2023-07-04 00:48:05] INFO root fetch - processPackages [modelDrivenRpa]: Downloading https://files.pythonhosted.org/packages/3f/78/2fb119aa9a976603f4c3b534cc73a0834b152aee2453157745e8601d1638/modelDrivenRpa-1.0.tar.gz
+[2023-07-04 00:48:05] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/2f/f5/eb8f7cdca4f139e99439f709f8b37cd675008fe36f12c6041a828289cd22/pepperize.cdk-ses-smtp-credentials-0.3.387.tar.gz
+[2023-07-04 00:48:05] INFO root fetch - processPackages [apit212]: Downloading https://files.pythonhosted.org/packages/36/3c/2966dc6ecc3b3b22479b6cf2ac3531a772cfdd89e8a708c33c770d03bcc9/apit212-0.0.1.tar.gz
+[2023-07-04 00:48:05] INFO root fetch - processPackages [djangobible]: Downloading https://files.pythonhosted.org/packages/bd/1f/2ad0b5ca398f220f40965ec4c7f90a49dd5db0f363e0a7cd2c1ec5b623f4/djangobible-0.0.9.tar.gz
+[2023-07-04 00:48:05] INFO root fetch - processPackages [objsize]: Downloading https://files.pythonhosted.org/packages/59/12/f62869f8c5f436cc7beedaccc8bfc97113943e0541c22c8505c3b2555616/objsize-0.6.1.tar.gz
+[2023-07-04 00:48:05] INFO root fetch - processPackages [langchainplus-sdk]: Downloading https://files.pythonhosted.org/packages/c1/d9/f20238f309f445804a2d8b80479a26742147ede052f9f6b7a53fe4b32708/langchainplus_sdk-0.0.8.tar.gz
+[2023-07-04 00:48:05] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/46/df/6ec0fa66e99dd172607e4dc9246933fef2188bef11b5beea690c896b73c1/swarms-0.1.1.tar.gz
+[2023-07-04 00:48:05] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/79/26/09e9b5612f75ad60b2daad9b8b512ece02113a169a8e4cbbd4a346c02af2/parsl-2023.7.3.tar.gz
+[2023-07-04 00:48:05] INFO root fetch - processPackages [modelDrivenRpa]: Downloading https://files.pythonhosted.org/packages/cd/15/fca6ab4fc668663665dd1225d1c0c19eb21283c96796e5e4775c0b731936/modelDrivenRpa-1.1.tar.gz
+[2023-07-04 00:48:05] INFO root fetch - processPackages [pwasopt]: Downloading https://files.pythonhosted.org/packages/86/05/36e64be2d858f08988c51a131ddf2ae5386e789953dd8c8e4ed3bc11f955/pwasopt-0.0.7.tar.gz
+[2023-07-04 00:48:05] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/4d/be/512bf0ac563f2a08cc5a5d0a9ea3a4d5a16173bdd62a6ee95b6e5c525402/pepperize.cdk-ses-smtp-credentials-0.3.388.tar.gz
+[2023-07-04 00:48:05] INFO root fetch - processPackages [langchainplus-sdk]: Downloading https://files.pythonhosted.org/packages/22/e0/dbb31ff65e1238644481d23f897747af9443b9061fde6cbfa1f2928d7695/langchainplus_sdk-0.0.9.tar.gz
+[2023-07-04 00:48:05] INFO root fetch - processPackages [objsize]: Downloading https://files.pythonhosted.org/packages/88/de/0a0a81c4ce02ab3c0dc672619472f3988c2b398b7785e3176c2ae96c2a7d/objsize-0.7.0.tar.gz
+[2023-07-04 00:48:06] INFO root fetch - processPackages [djangobible]: Downloading https://files.pythonhosted.org/packages/64/2c/52f62549f4a112de0cc20dab8cbff0b7a82de551e203114434f1ec12ed81/djangobible-0.1.0.tar.gz
+[2023-07-04 00:48:06] INFO root fetch - processPackages [apit212]: Downloading https://files.pythonhosted.org/packages/c1/9e/eef75f780d883c5c4cf9ac529939a0a7e601cdf2101e9cb026107d472f37/apit212-0.0.2.tar.gz
+[2023-07-04 00:48:06] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-04 00:48:06] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.0.9.tar.gz tmp/swarms-0.1.1.tar.gz --markdown 20230704/s/swarms/0.0.9-0.1.1/diff.md --exclude *.pyd
+[2023-07-04 00:48:06] INFO root fetch - processPackages [parsl]: executing diffoscope
+[2023-07-04 00:48:06] INFO root fetch - processPackages [parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsl-2023.6.5.tar.gz tmp/parsl-2023.7.3.tar.gz --markdown 20230704/p/parsl/2023.6.5-2023.7.3/diff.md --exclude *.pyd
+[2023-07-04 00:48:06] INFO root fetch - processPackages [modelDrivenRpa]: executing diffoscope
+[2023-07-04 00:48:06] INFO root fetch - processPackages [modelDrivenRpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelDrivenRpa-1.0.tar.gz tmp/modelDrivenRpa-1.1.tar.gz --markdown 20230704/m/modelDrivenRpa/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-04 00:48:06] INFO root fetch - processPackages [langchainplus-sdk]: executing diffoscope
+[2023-07-04 00:48:06] INFO root fetch - processPackages [langchainplus-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchainplus_sdk-0.0.8.tar.gz tmp/langchainplus_sdk-0.0.9.tar.gz --markdown 20230704/l/langchainplus-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 00:48:06] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-07-04 00:48:06] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.387.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.388.tar.gz --markdown 20230704/p/pepperize.cdk-ses-smtp-credentials/0.3.387-0.3.388/diff.md --exclude *.pyd
+[2023-07-04 00:48:06] INFO root fetch - processPackages [pwasopt]: executing diffoscope
+[2023-07-04 00:48:06] INFO root fetch - processPackages [pwasopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwasopt-0.0.6.tar.gz tmp/pwasopt-0.0.7.tar.gz --markdown 20230704/p/pwasopt/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-04 00:48:06] INFO root fetch - processPackages [objsize]: executing diffoscope
+[2023-07-04 00:48:06] INFO root fetch - processPackages [objsize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objsize-0.6.1.tar.gz tmp/objsize-0.7.0.tar.gz --markdown 20230704/o/objsize/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-07-04 00:48:06] INFO root fetch - processPackages [djangobible]: executing diffoscope
+[2023-07-04 00:48:06] INFO root fetch - processPackages [djangobible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangobible-0.0.9.tar.gz tmp/djangobible-0.1.0.tar.gz --markdown 20230704/d/djangobible/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-04 00:48:06] INFO root fetch - processPackages [apit212]: executing diffoscope
+[2023-07-04 00:48:06] INFO root fetch - processPackages [apit212]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apit212-0.0.1.tar.gz tmp/apit212-0.0.2.tar.gz --markdown 20230704/a/apit212/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-04 00:48:07] INFO root fetch - processPackages [modelDrivenRpa]: Remove: archive file [/home/abi/fetcher/tmp/modelDrivenRpa-1.0.tar.gz]
+[2023-07-04 00:48:07] INFO root fetch - processPackages [modelDrivenRpa]: Remove: archive file [/home/abi/fetcher/tmp/modelDrivenRpa-1.1.tar.gz]
+[2023-07-04 00:48:07] INFO root fetch - main [MainThread]: End processing [modelDrivenRpa]: success
+[2023-07-04 00:48:07] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.0.9.tar.gz]
+[2023-07-04 00:48:07] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.1.1.tar.gz]
+[2023-07-04 00:48:07] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-04 00:48:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.387.tar.gz]
+[2023-07-04 00:48:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.388.tar.gz]
+[2023-07-04 00:48:07] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-07-04 00:48:07] INFO root fetch - processPackages [objsize]: Remove: archive file [/home/abi/fetcher/tmp/objsize-0.6.1.tar.gz]
+[2023-07-04 00:48:07] INFO root fetch - processPackages [objsize]: Remove: archive file [/home/abi/fetcher/tmp/objsize-0.7.0.tar.gz]
+[2023-07-04 00:48:07] INFO root fetch - main [MainThread]: End processing [objsize]: success
+[2023-07-04 00:48:07] INFO root fetch - processPackages [pwasopt]: Remove: archive file [/home/abi/fetcher/tmp/pwasopt-0.0.6.tar.gz]
+[2023-07-04 00:48:07] INFO root fetch - processPackages [pwasopt]: Remove: archive file [/home/abi/fetcher/tmp/pwasopt-0.0.7.tar.gz]
+[2023-07-04 00:48:07] INFO root fetch - main [MainThread]: End processing [pwasopt]: success
+[2023-07-04 00:48:07] INFO root fetch - processPackages [djangobible]: Remove: archive file [/home/abi/fetcher/tmp/djangobible-0.0.9.tar.gz]
+[2023-07-04 00:48:07] INFO root fetch - processPackages [djangobible]: Remove: archive file [/home/abi/fetcher/tmp/djangobible-0.1.0.tar.gz]
+[2023-07-04 00:48:07] INFO root fetch - main [MainThread]: End processing [djangobible]: success
+[2023-07-04 00:48:07] INFO root fetch - processPackages [langchainplus-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langchainplus_sdk-0.0.8.tar.gz]
+[2023-07-04 00:48:07] INFO root fetch - processPackages [langchainplus-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langchainplus_sdk-0.0.9.tar.gz]
+[2023-07-04 00:48:07] INFO root fetch - main [MainThread]: End processing [langchainplus-sdk]: success
+[2023-07-04 00:48:07] INFO root fetch - processPackages [apit212]: Remove: archive file [/home/abi/fetcher/tmp/apit212-0.0.1.tar.gz]
+[2023-07-04 00:48:07] INFO root fetch - processPackages [apit212]: Remove: archive file [/home/abi/fetcher/tmp/apit212-0.0.2.tar.gz]
+[2023-07-04 00:48:07] INFO root fetch - main [MainThread]: End processing [apit212]: success
+[2023-07-04 00:48:09] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2023.6.5.tar.gz]
+[2023-07-04 00:48:09] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2023.7.3.tar.gz]
+[2023-07-04 00:48:09] INFO root fetch - main [MainThread]: End processing [parsl]: success
+[2023-07-04 00:48:09] INFO root fetch - main [MainThread]: Store serial: [18746328]
