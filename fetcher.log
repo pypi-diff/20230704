@@ -1267,3 +1267,42 @@
 [2023-07-04 01:40:27] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
 [2023-07-04 01:40:27] INFO root fetch - main [MainThread]: End processing [lollms]: success
 [2023-07-04 01:40:27] INFO root fetch - main [MainThread]: Store serial: [18746519]
+[2023-07-04 01:45:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18746519]
+[2023-07-04 01:45:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-04 01:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rocketpy
+[2023-07-04 01:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-extra-settings
+[2023-07-04 01:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skyplane-nightly
+[2023-07-04 01:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nibiru-proto
+[2023-07-04 01:45:36] INFO root fetch - processPackages [rocketpy]: New version: [1.0.0a1] Old Version: [0.9.9]
+[2023-07-04 01:45:36] INFO root fetch - processPackages [nibiru-proto]: New version: [0.21.3b4] Old Version: [0.21.3b3]
+[2023-07-04 01:45:36] INFO root fetch - processPackages [django-extra-settings]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-04 01:45:36] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev202307022344] Old Version: [0.3.2.dev202307012345]
+[2023-07-04 01:45:36] INFO root fetch - processPackages [nibiru-proto]: Downloading https://files.pythonhosted.org/packages/4c/33/b263a4c1d55aad8036e7f9f7dbfb21489381c6dd1bacefea1bcab7d8cbbf/nibiru_proto-0.21.3b3.tar.gz
+[2023-07-04 01:45:36] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/1f/9b/7aed9334f1c47c2192cf89ec1b100ea601403f67077cc53316da4720bb37/skyplane_nightly-0.3.2.dev202307012345.tar.gz
+[2023-07-04 01:45:36] INFO root fetch - processPackages [rocketpy]: Downloading https://files.pythonhosted.org/packages/7f/ed/eedbb07eba0057cb24fbcf1edd1581b6e98e9fad98d8026ceb1982f15cb5/rocketpy-0.9.9.tar.gz
+[2023-07-04 01:45:36] INFO root fetch - processPackages [django-extra-settings]: Downloading https://files.pythonhosted.org/packages/3c/62/eafe3248450bba709fb13e73f3f0e025222bd73d23f5bd3891c3c5f90c28/django-extra-settings-0.9.0.tar.gz
+[2023-07-04 01:45:36] INFO root fetch - processPackages [nibiru-proto]: Downloading https://files.pythonhosted.org/packages/4e/ec/427c706a351139917b2d95f8c68036a72180d88bdea156f453d76281e0ab/nibiru_proto-0.21.3b4.tar.gz
+[2023-07-04 01:45:36] INFO root fetch - processPackages [django-extra-settings]: Downloading https://files.pythonhosted.org/packages/70/bb/a91c7ebd0609f1e32467586b0f43a1b9ec53acd291e7ab6a8d7fbfacee4f/django-extra-settings-0.9.1.tar.gz
+[2023-07-04 01:45:36] INFO root fetch - processPackages [nibiru-proto]: executing diffoscope
+[2023-07-04 01:45:36] INFO root fetch - processPackages [nibiru-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nibiru_proto-0.21.3b3.tar.gz tmp/nibiru_proto-0.21.3b4.tar.gz --markdown 20230704/n/nibiru-proto/0.21.3b3-0.21.3b4/diff.md --exclude *.pyd
+[2023-07-04 01:45:36] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/78/96/a7cb1a0cb2c780b4f4955e20b0bb5a790cb30e9230f4557530ce72d69530/skyplane_nightly-0.3.2.dev202307022344.tar.gz
+[2023-07-04 01:45:36] INFO root fetch - processPackages [django-extra-settings]: executing diffoscope
+[2023-07-04 01:45:36] INFO root fetch - processPackages [django-extra-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-extra-settings-0.9.0.tar.gz tmp/django-extra-settings-0.9.1.tar.gz --markdown 20230704/d/django-extra-settings/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-04 01:45:36] INFO root fetch - processPackages [rocketpy]: Downloading https://files.pythonhosted.org/packages/86/71/72ac4e27f99c07df423fa801e2aaa63e622bfd12cc8e74820311d320c0f9/rocketpy-1.0.0a1.tar.gz
+[2023-07-04 01:45:37] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-04 01:45:37] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev202307012345.tar.gz tmp/skyplane_nightly-0.3.2.dev202307022344.tar.gz --markdown 20230704/s/skyplane-nightly/0.3.2.dev202307012345-0.3.2.dev202307022344/diff.md --exclude *.pyd
+[2023-07-04 01:45:37] INFO root fetch - processPackages [rocketpy]: executing diffoscope
+[2023-07-04 01:45:37] INFO root fetch - processPackages [rocketpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocketpy-0.9.9.tar.gz tmp/rocketpy-1.0.0a1.tar.gz --markdown 20230704/r/rocketpy/0.9.9-1.0.0a1/diff.md --exclude *.pyd
+[2023-07-04 01:45:38] INFO root fetch - processPackages [django-extra-settings]: Remove: archive file [/home/abi/fetcher/tmp/django-extra-settings-0.9.0.tar.gz]
+[2023-07-04 01:45:38] INFO root fetch - processPackages [django-extra-settings]: Remove: archive file [/home/abi/fetcher/tmp/django-extra-settings-0.9.1.tar.gz]
+[2023-07-04 01:45:38] INFO root fetch - main [MainThread]: End processing [django-extra-settings]: success
+[2023-07-04 01:45:38] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev202307012345.tar.gz]
+[2023-07-04 01:45:38] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev202307022344.tar.gz]
+[2023-07-04 01:45:38] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-04 01:45:38] INFO root fetch - processPackages [rocketpy]: Remove: archive file [/home/abi/fetcher/tmp/rocketpy-0.9.9.tar.gz]
+[2023-07-04 01:45:38] INFO root fetch - processPackages [rocketpy]: Remove: archive file [/home/abi/fetcher/tmp/rocketpy-1.0.0a1.tar.gz]
+[2023-07-04 01:45:38] INFO root fetch - main [MainThread]: End processing [rocketpy]: success
+[2023-07-04 01:45:39] INFO root fetch - processPackages [nibiru-proto]: Remove: archive file [/home/abi/fetcher/tmp/nibiru_proto-0.21.3b3.tar.gz]
+[2023-07-04 01:45:39] INFO root fetch - processPackages [nibiru-proto]: Remove: archive file [/home/abi/fetcher/tmp/nibiru_proto-0.21.3b4.tar.gz]
+[2023-07-04 01:45:39] INFO root fetch - main [MainThread]: End processing [nibiru-proto]: success
+[2023-07-04 01:45:39] INFO root fetch - main [MainThread]: Store serial: [18746531]
