@@ -501,3 +501,72 @@
 [2023-07-04 00:32:32] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.0.tar.gz]
 [2023-07-04 00:32:32] INFO root fetch - main [MainThread]: End processing [nerdcore]: success
 [2023-07-04 00:32:32] INFO root fetch - main [MainThread]: Store serial: [18746261]
+[2023-07-04 00:37:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18746261]
+[2023-07-04 00:37:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-04 00:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: remotior-sensus
+[2023-07-04 00:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ai-images
+[2023-07-04 00:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sopel-remind
+[2023-07-04 00:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: orqviz
+[2023-07-04 00:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tahoe-idp
+[2023-07-04 00:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nerdcore
+[2023-07-04 00:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pjrmi
+[2023-07-04 00:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-07-04 00:37:41] INFO root fetch - processPackages [sopel-remind]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-04 00:37:41] WARNING root fetch - processPackages [ai-images]: Skipping, unable to determine old version
+[2023-07-04 00:37:41] INFO root fetch - main [MainThread]: End processing [ai-images] error
+[2023-07-04 00:37:41] INFO root fetch - processPackages [pjrmi]: New version: [1.11.1] Old Version: [1.11.0]
+[2023-07-04 00:37:41] INFO root fetch - processPackages [orqviz]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-04 00:37:41] INFO root fetch - processPackages [tahoe-idp]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-07-04 00:37:41] INFO root fetch - processPackages [nerdcore]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-04 00:37:41] INFO root fetch - processPackages [remotior-sensus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 00:37:41] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.386] Old Version: [0.3.385]
+[2023-07-04 00:37:41] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/06/78/6bf117bed92c3702e3e749088ab16708f02a53acf2c0aca09039ef03f11e/pepperize.cdk-ses-smtp-credentials-0.3.385.tar.gz
+[2023-07-04 00:37:41] INFO root fetch - processPackages [sopel-remind]: Downloading https://files.pythonhosted.org/packages/17/16/b5fceb5f5f854cb187e6300f8febdb80e78c9adddb99ab097250f51367b2/sopel-remind-0.1.0.tar.gz
+[2023-07-04 00:37:41] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/c1/c6/3ce3dd442030b38289ed78d911727b2f8469f06edb291618fc7040998b6a/nerdcore-0.1.0.tar.gz
+[2023-07-04 00:37:41] INFO root fetch - processPackages [tahoe-idp]: Downloading https://files.pythonhosted.org/packages/c7/e5/16d267f3bade11fab0c13955fd1019cc78feb9296038d709ae01c32cf0d3/tahoe-idp-2.5.0.tar.gz
+[2023-07-04 00:37:41] INFO root fetch - processPackages [orqviz]: Downloading https://files.pythonhosted.org/packages/08/dd/348276cccd84227ad52a3e8f8d4b62accfe539d9283d503bae7439402279/orqviz-0.4.0.tar.gz
+[2023-07-04 00:37:41] INFO root fetch - processPackages [pjrmi]: Downloading https://files.pythonhosted.org/packages/76/8e/4d29495158e00deecbecb64c2136863d3facc4a567ad6600294c2366c80d/pjrmi-1.11.0.tar.gz
+[2023-07-04 00:37:41] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/2d/82/4f0f8be3b8f3c4f00b90027ff3c32958918221be17a5ad7c3cf298d4af04/remotior_sensus-0.0.8.tar.gz
+[2023-07-04 00:37:41] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/d6/93/c85d0d8a1cf38c1ab280d40811439f835a8bc49dace8f7e6cfa20368c325/pepperize.cdk-ses-smtp-credentials-0.3.386.tar.gz
+[2023-07-04 00:37:41] INFO root fetch - processPackages [sopel-remind]: Downloading https://files.pythonhosted.org/packages/94/4f/7ef565cb7a53db387326ee8219af6fbddc7729e08d381f3536e7e18c614d/sopel-remind-0.2.0.tar.gz
+[2023-07-04 00:37:41] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/a5/5d/837fc6d39033126fefda21a6f42321087487f8bf08f840fd65ea93cb8595/nerdcore-0.1.1.tar.gz
+[2023-07-04 00:37:41] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-07-04 00:37:41] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.385.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.386.tar.gz --markdown 20230704/p/pepperize.cdk-ses-smtp-credentials/0.3.385-0.3.386/diff.md --exclude *.pyd
+[2023-07-04 00:37:41] INFO root fetch - processPackages [tahoe-idp]: Downloading https://files.pythonhosted.org/packages/bc/20/a2d9643a3ac283fa9da67b26592973e188c2972c44be85fce3754c33fc42/tahoe-idp-2.5.1.tar.gz
+[2023-07-04 00:37:41] INFO root fetch - processPackages [pjrmi]: Downloading https://files.pythonhosted.org/packages/03/db/c4ab6f258fc44c144858f091cb3a9ffd6af51f08fcc5b1832ddc739067c2/pjrmi-1.11.1.tar.gz
+[2023-07-04 00:37:41] INFO root fetch - processPackages [sopel-remind]: executing diffoscope
+[2023-07-04 00:37:41] INFO root fetch - processPackages [sopel-remind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sopel-remind-0.1.0.tar.gz tmp/sopel-remind-0.2.0.tar.gz --markdown 20230704/s/sopel-remind/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-04 00:37:41] INFO root fetch - processPackages [tahoe-idp]: executing diffoscope
+[2023-07-04 00:37:41] INFO root fetch - processPackages [tahoe-idp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tahoe-idp-2.5.0.tar.gz tmp/tahoe-idp-2.5.1.tar.gz --markdown 20230704/t/tahoe-idp/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-07-04 00:37:41] INFO root fetch - processPackages [nerdcore]: executing diffoscope
+[2023-07-04 00:37:41] INFO root fetch - processPackages [nerdcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerdcore-0.1.0.tar.gz tmp/nerdcore-0.1.1.tar.gz --markdown 20230704/n/nerdcore/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-04 00:37:41] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/e4/c8/0c6054910848b2651da24ecb17a3d9ab9a62b4c844a98797ec686eaac17b/remotior_sensus-0.0.9.tar.gz
+[2023-07-04 00:37:41] INFO root fetch - processPackages [pjrmi]: executing diffoscope
+[2023-07-04 00:37:41] INFO root fetch - processPackages [pjrmi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pjrmi-1.11.0.tar.gz tmp/pjrmi-1.11.1.tar.gz --markdown 20230704/p/pjrmi/1.11.0-1.11.1/diff.md --exclude *.pyd
+[2023-07-04 00:37:42] INFO root fetch - processPackages [remotior-sensus]: executing diffoscope
+[2023-07-04 00:37:42] INFO root fetch - processPackages [remotior-sensus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotior_sensus-0.0.8.tar.gz tmp/remotior_sensus-0.0.9.tar.gz --markdown 20230704/r/remotior-sensus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 00:37:42] INFO root fetch - processPackages [orqviz]: Downloading https://files.pythonhosted.org/packages/a1/55/5f4f53c1b1c4e0a79632dbc3b1313c332752727af6a2e82a2765b50ae1ac/orqviz-0.5.0.tar.gz
+[2023-07-04 00:37:42] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.385.tar.gz]
+[2023-07-04 00:37:42] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.386.tar.gz]
+[2023-07-04 00:37:42] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-07-04 00:37:42] INFO root fetch - processPackages [sopel-remind]: Remove: archive file [/home/abi/fetcher/tmp/sopel-remind-0.1.0.tar.gz]
+[2023-07-04 00:37:42] INFO root fetch - processPackages [sopel-remind]: Remove: archive file [/home/abi/fetcher/tmp/sopel-remind-0.2.0.tar.gz]
+[2023-07-04 00:37:42] INFO root fetch - main [MainThread]: End processing [sopel-remind]: success
+[2023-07-04 00:37:43] INFO root fetch - processPackages [tahoe-idp]: Remove: archive file [/home/abi/fetcher/tmp/tahoe-idp-2.5.0.tar.gz]
+[2023-07-04 00:37:43] INFO root fetch - processPackages [tahoe-idp]: Remove: archive file [/home/abi/fetcher/tmp/tahoe-idp-2.5.1.tar.gz]
+[2023-07-04 00:37:43] INFO root fetch - main [MainThread]: End processing [tahoe-idp]: success
+[2023-07-04 00:37:43] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.0.tar.gz]
+[2023-07-04 00:37:43] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.1.tar.gz]
+[2023-07-04 00:37:43] INFO root fetch - main [MainThread]: End processing [nerdcore]: success
+[2023-07-04 00:37:43] INFO root fetch - processPackages [orqviz]: executing diffoscope
+[2023-07-04 00:37:43] INFO root fetch - processPackages [orqviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orqviz-0.4.0.tar.gz tmp/orqviz-0.5.0.tar.gz --markdown 20230704/o/orqviz/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-04 00:37:43] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.8.tar.gz]
+[2023-07-04 00:37:43] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.9.tar.gz]
+[2023-07-04 00:37:43] INFO root fetch - main [MainThread]: End processing [remotior-sensus]: success
+[2023-07-04 00:37:43] INFO root fetch - processPackages [pjrmi]: Remove: archive file [/home/abi/fetcher/tmp/pjrmi-1.11.0.tar.gz]
+[2023-07-04 00:37:43] INFO root fetch - processPackages [pjrmi]: Remove: archive file [/home/abi/fetcher/tmp/pjrmi-1.11.1.tar.gz]
+[2023-07-04 00:37:43] INFO root fetch - main [MainThread]: End processing [pjrmi]: success
+[2023-07-04 00:37:44] INFO root fetch - processPackages [orqviz]: Remove: archive file [/home/abi/fetcher/tmp/orqviz-0.4.0.tar.gz]
+[2023-07-04 00:37:44] INFO root fetch - processPackages [orqviz]: Remove: archive file [/home/abi/fetcher/tmp/orqviz-0.5.0.tar.gz]
+[2023-07-04 00:37:44] INFO root fetch - main [MainThread]: End processing [orqviz]: success
+[2023-07-04 00:37:44] INFO root fetch - main [MainThread]: Store serial: [18746284]
