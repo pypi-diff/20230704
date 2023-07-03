@@ -1101,3 +1101,27 @@
 [2023-07-04 01:24:53] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.4.0.tar.gz]
 [2023-07-04 01:24:53] INFO root fetch - main [MainThread]: End processing [dvc]: success
 [2023-07-04 01:24:53] INFO root fetch - main [MainThread]: Store serial: [18746459]
+[2023-07-04 01:29:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18746459]
+[2023-07-04 01:30:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-04 01:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-pp
+[2023-07-04 01:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sinkove
+[2023-07-04 01:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nerdcore
+[2023-07-04 01:30:02] INFO root fetch - processPackages [torch-pp]: New version: [0.0.8.dev0] Old Version: [0.0.7.dev0]
+[2023-07-04 01:30:02] WARNING root fetch - processPackages [sinkove]: Skipping, unable to determine old version
+[2023-07-04 01:30:02] INFO root fetch - main [MainThread]: End processing [sinkove] error
+[2023-07-04 01:30:02] INFO root fetch - processPackages [nerdcore]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-04 01:30:02] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/ec/6b/e2ea7c27cf3d9fc7b7de31ab66b674eb8716b8307fed081e9d3b0bda3a9e/nerdcore-0.1.6.tar.gz
+[2023-07-04 01:30:02] INFO root fetch - processPackages [torch-pp]: Downloading https://files.pythonhosted.org/packages/4f/ec/7c142ab1a1f65b170cf6dcd12ecaa22f33dc392280cbdafd16a16fc06cee/torch-pp-0.0.7.dev0.tar.gz
+[2023-07-04 01:30:02] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/50/df/e0cc855fbf25fe86487abcb85857d5e43677fb56c91f66b5a7ff936fe290/nerdcore-0.1.7.tar.gz
+[2023-07-04 01:30:02] INFO root fetch - processPackages [torch-pp]: Downloading https://files.pythonhosted.org/packages/a6/90/fc86d77989f8231f61562ea8b8b3e6dd02ddca91dc0ec705ace1e2f6f68b/torch-pp-0.0.8.dev0.tar.gz
+[2023-07-04 01:30:02] INFO root fetch - processPackages [nerdcore]: executing diffoscope
+[2023-07-04 01:30:02] INFO root fetch - processPackages [nerdcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerdcore-0.1.6.tar.gz tmp/nerdcore-0.1.7.tar.gz --markdown 20230704/n/nerdcore/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-04 01:30:02] INFO root fetch - processPackages [torch-pp]: executing diffoscope
+[2023-07-04 01:30:02] INFO root fetch - processPackages [torch-pp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-pp-0.0.7.dev0.tar.gz tmp/torch-pp-0.0.8.dev0.tar.gz --markdown 20230704/t/torch-pp/0.0.7.dev0-0.0.8.dev0/diff.md --exclude *.pyd
+[2023-07-04 01:30:03] INFO root fetch - processPackages [torch-pp]: Remove: archive file [/home/abi/fetcher/tmp/torch-pp-0.0.7.dev0.tar.gz]
+[2023-07-04 01:30:03] INFO root fetch - processPackages [torch-pp]: Remove: archive file [/home/abi/fetcher/tmp/torch-pp-0.0.8.dev0.tar.gz]
+[2023-07-04 01:30:03] INFO root fetch - main [MainThread]: End processing [torch-pp]: success
+[2023-07-04 01:30:03] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.6.tar.gz]
+[2023-07-04 01:30:03] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.7.tar.gz]
+[2023-07-04 01:30:03] INFO root fetch - main [MainThread]: End processing [nerdcore]: success
+[2023-07-04 01:30:03] INFO root fetch - main [MainThread]: Store serial: [18746471]
