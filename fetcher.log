@@ -958,3 +958,60 @@
 [2023-07-04 01:09:16] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
 [2023-07-04 01:09:16] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-07-04 01:09:16] INFO root fetch - main [MainThread]: Store serial: [18746411]
+[2023-07-04 01:14:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18746411]
+[2023-07-04 01:14:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-04 01:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyperelastic
+[2023-07-04 01:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chalkpy
+[2023-07-04 01:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pwasopt
+[2023-07-04 01:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyDolarVenezuela
+[2023-07-04 01:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nerdcore
+[2023-07-04 01:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: orquestra-core
+[2023-07-04 01:14:25] INFO root fetch - processPackages [pyDolarVenezuela]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-04 01:14:25] INFO root fetch - processPackages [orquestra-core]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-04 01:14:25] INFO root fetch - processPackages [pwasopt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 01:14:25] INFO root fetch - processPackages [nerdcore]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-04 01:14:25] INFO root fetch - processPackages [hyperelastic]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-04 01:14:25] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-07-04 01:14:25] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/f0/3e/cdd7b537fd5a427d4020d872c42c1a34ee6b16a24d5de052409c5ef1f41b/nerdcore-0.1.3.tar.gz
+[2023-07-04 01:14:25] INFO root fetch - processPackages [pwasopt]: Downloading https://files.pythonhosted.org/packages/ae/d3/8acc2ca24b0c5762d47eed6da9cedd7e6c2e1278d38a92152dd818daca6c/pwasopt-0.0.8.tar.gz
+[2023-07-04 01:14:25] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2023-07-04 01:14:25] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/c1/34/e8ad64ea473743703de8241483f3c84ebd7e1d64bf992e1f28a23e0d7453/pyDolarVenezuela-1.0.3-py3-none-any.whl
+[2023-07-04 01:14:25] INFO root fetch - processPackages [hyperelastic]: Downloading https://files.pythonhosted.org/packages/06/63/e75d2bea2b8d81044db03394faf7d71748beb4caf213a9cb07a008649807/hyperelastic-0.1.1.tar.gz
+[2023-07-04 01:14:25] INFO root fetch - processPackages [orquestra-core]: Downloading https://files.pythonhosted.org/packages/3b/70/84d00f21aa82d58ee2db2aaf906426e77018627ebdf9647b1c9f8579c43e/orquestra-core-0.8.0.tar.gz
+[2023-07-04 01:14:25] INFO root fetch - processPackages [pwasopt]: Downloading https://files.pythonhosted.org/packages/8c/44/c8a60c3cc2f8e07ff12acc4bdfb14e04f7c193eea8f81e8ddd165d9378ef/pwasopt-0.0.9.tar.gz
+[2023-07-04 01:14:25] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/9c/81/3dc8c56ab33765b8cfce7074d4aa2e566f4b936ff374bc934432d262b658/nerdcore-0.1.4.tar.gz
+[2023-07-04 01:14:25] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2023-07-04 01:14:25] INFO root fetch - processPackages [pwasopt]: executing diffoscope
+[2023-07-04 01:14:25] INFO root fetch - processPackages [pwasopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwasopt-0.0.8.tar.gz tmp/pwasopt-0.0.9.tar.gz --markdown 20230704/p/pwasopt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 01:14:25] INFO root fetch - processPackages [hyperelastic]: Downloading https://files.pythonhosted.org/packages/df/43/bee34fce53fc8a026c62c68b4dbf5ad86f5be0b94805a635d5179eb45f9c/hyperelastic-0.2.0.tar.gz
+[2023-07-04 01:14:25] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/01/71/e83b71beb0ec979621a5cd848bd406b0ef83f17cb5814dc4531ee48616dc/pyDolarVenezuela-1.0.4.tar.gz
+[2023-07-04 01:14:25] INFO root fetch - processPackages [nerdcore]: executing diffoscope
+[2023-07-04 01:14:25] INFO root fetch - processPackages [nerdcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerdcore-0.1.3.tar.gz tmp/nerdcore-0.1.4.tar.gz --markdown 20230704/n/nerdcore/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-04 01:14:25] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-07-04 01:14:25] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20230704/c/chalkpy/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-07-04 01:14:25] INFO root fetch - processPackages [pyDolarVenezuela]: executing diffoscope
+[2023-07-04 01:14:25] INFO root fetch - processPackages [pyDolarVenezuela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDolarVenezuela-1.0.3-py3-none-any.whl.zip tmp/pyDolarVenezuela-1.0.4.tar.gz --markdown 20230704/p/pyDolarVenezuela/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-04 01:14:25] INFO root fetch - processPackages [hyperelastic]: executing diffoscope
+[2023-07-04 01:14:25] INFO root fetch - processPackages [hyperelastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperelastic-0.1.1.tar.gz tmp/hyperelastic-0.2.0.tar.gz --markdown 20230704/h/hyperelastic/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-04 01:14:26] INFO root fetch - processPackages [orquestra-core]: Downloading https://files.pythonhosted.org/packages/d7/d1/e96b22e1f697123f4d9fd435ef0f05248844877e2b0c42eced99e9fff959/orquestra-core-0.9.0.tar.gz
+[2023-07-04 01:14:26] INFO root fetch - processPackages [orquestra-core]: executing diffoscope
+[2023-07-04 01:14:26] INFO root fetch - processPackages [orquestra-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orquestra-core-0.8.0.tar.gz tmp/orquestra-core-0.9.0.tar.gz --markdown 20230704/o/orquestra-core/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-04 01:14:26] INFO root fetch - processPackages [pwasopt]: Remove: archive file [/home/abi/fetcher/tmp/pwasopt-0.0.8.tar.gz]
+[2023-07-04 01:14:26] INFO root fetch - processPackages [pwasopt]: Remove: archive file [/home/abi/fetcher/tmp/pwasopt-0.0.9.tar.gz]
+[2023-07-04 01:14:26] INFO root fetch - main [MainThread]: End processing [pwasopt]: success
+[2023-07-04 01:14:26] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pyDolarVenezuela-1.0.3-py3-none-any.whl.zip]
+[2023-07-04 01:14:26] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pyDolarVenezuela-1.0.4.tar.gz]
+[2023-07-04 01:14:26] INFO root fetch - main [MainThread]: End processing [pyDolarVenezuela]: success
+[2023-07-04 01:14:26] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.3.tar.gz]
+[2023-07-04 01:14:26] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.4.tar.gz]
+[2023-07-04 01:14:26] INFO root fetch - main [MainThread]: End processing [nerdcore]: success
+[2023-07-04 01:14:26] INFO root fetch - processPackages [hyperelastic]: Remove: archive file [/home/abi/fetcher/tmp/hyperelastic-0.1.1.tar.gz]
+[2023-07-04 01:14:26] INFO root fetch - processPackages [hyperelastic]: Remove: archive file [/home/abi/fetcher/tmp/hyperelastic-0.2.0.tar.gz]
+[2023-07-04 01:14:26] INFO root fetch - main [MainThread]: End processing [hyperelastic]: success
+[2023-07-04 01:14:27] INFO root fetch - processPackages [orquestra-core]: Remove: archive file [/home/abi/fetcher/tmp/orquestra-core-0.8.0.tar.gz]
+[2023-07-04 01:14:27] INFO root fetch - processPackages [orquestra-core]: Remove: archive file [/home/abi/fetcher/tmp/orquestra-core-0.9.0.tar.gz]
+[2023-07-04 01:14:27] INFO root fetch - main [MainThread]: End processing [orquestra-core]: success
+[2023-07-04 01:14:28] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2023-07-04 01:14:28] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2023-07-04 01:14:28] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-07-04 01:14:28] INFO root fetch - main [MainThread]: Store serial: [18746426]
