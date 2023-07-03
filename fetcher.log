@@ -1306,3 +1306,88 @@
 [2023-07-04 01:45:39] INFO root fetch - processPackages [nibiru-proto]: Remove: archive file [/home/abi/fetcher/tmp/nibiru_proto-0.21.3b4.tar.gz]
 [2023-07-04 01:45:39] INFO root fetch - main [MainThread]: End processing [nibiru-proto]: success
 [2023-07-04 01:45:39] INFO root fetch - main [MainThread]: Store serial: [18746531]
+[2023-07-04 01:50:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18746531]
+[2023-07-04 01:50:48] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-04 01:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-github
+[2023-07-04 01:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scottbrian-utils
+[2023-07-04 01:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: poke-env
+[2023-07-04 01:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chalkpy
+[2023-07-04 01:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: app-store-notifications-v2-validator
+[2023-07-04 01:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiokeydb
+[2023-07-04 01:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omnata-plugin-runtime
+[2023-07-04 01:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-github
+[2023-07-04 01:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: text-based-lib
+[2023-07-04 01:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dry-scraper
+[2023-07-04 01:50:48] INFO root fetch - processPackages [app-store-notifications-v2-validator]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-04 01:50:48] WARNING root fetch - processPackages [text-based-lib]: Skipping, unable to determine old version
+[2023-07-04 01:50:48] INFO root fetch - processPackages [poke-env]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-04 01:50:48] INFO root fetch - processPackages [dry-scraper]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-04 01:50:48] INFO root fetch - main [MainThread]: End processing [text-based-lib] error
+[2023-07-04 01:50:48] INFO root fetch - processPackages [scottbrian-utils]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-04 01:50:48] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 01:50:48] INFO root fetch - processPackages [aiokeydb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 01:50:48] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-07-04 01:50:48] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 01:50:48] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 01:50:48] INFO root fetch - processPackages [dry-scraper]: Downloading https://files.pythonhosted.org/packages/7f/6a/971f495269ff151bc616809e3393e741c89a5cade5295b9a059da74463b8/dry_scraper-0.1.5.tar.gz
+[2023-07-04 01:50:48] INFO root fetch - processPackages [aiokeydb]: Downloading https://files.pythonhosted.org/packages/20/25/21f8103754ee16f18d37a261f6c78ebd5f5ce07634c0270159d5287b3e3e/aiokeydb-0.1.8.tar.gz
+[2023-07-04 01:50:48] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2023-07-04 01:50:48] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-07-04 01:50:48] INFO root fetch - processPackages [app-store-notifications-v2-validator]: Downloading https://files.pythonhosted.org/packages/87/de/2bed01cdd4f364d1519e965e281e78b847984f78bfc855721edbaeb7c149/app_store_notifications_v2_validator-0.0.7-py3-none-any.whl
+[2023-07-04 01:50:48] INFO root fetch - processPackages [scottbrian-utils]: Downloading https://files.pythonhosted.org/packages/b1/98/5f7e5ce4717e821101855a3b39a3a171ee9452ece3a5936a123d2bf7c916/scottbrian_utils-2.3.0.tar.gz
+[2023-07-04 01:50:48] INFO root fetch - processPackages [poke-env]: Downloading https://files.pythonhosted.org/packages/fc/e7/f1215dbb9c813e1bd01aacdead94d0501e4601b1b1f947abf13125443503/poke_env-0.7.0.tar.gz
+[2023-07-04 01:50:48] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-07-04 01:50:48] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-07-04 01:50:49] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-07-04 01:50:49] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2023-07-04 01:50:49] INFO root fetch - processPackages [aiokeydb]: Downloading https://files.pythonhosted.org/packages/6a/d0/d5b49c43fc0ac44c201063793737833fa0cc1228a7de48a1fa0a08cc708c/aiokeydb-0.1.9.tar.gz
+[2023-07-04 01:50:49] INFO root fetch - processPackages [dry-scraper]: Downloading https://files.pythonhosted.org/packages/4d/09/1d2fa40137790f70c42fb1b5c62e6baabb87ba48cbe124219a2b888ced6f/dry_scraper-0.1.6.tar.gz
+[2023-07-04 01:50:49] INFO root fetch - processPackages [app-store-notifications-v2-validator]: Downloading https://files.pythonhosted.org/packages/9e/0c/96796ad91f887152e2c34ec0508140d70a3be52a3b2388f635be40d71f54/app-store-notifications-v2-validator-0.0.8.tar.gz
+[2023-07-04 01:50:49] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-07-04 01:50:49] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230704/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 01:50:49] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-07-04 01:50:49] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20230704/c/chalkpy/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-07-04 01:50:49] INFO root fetch - processPackages [dry-scraper]: executing diffoscope
+[2023-07-04 01:50:49] INFO root fetch - processPackages [dry-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dry_scraper-0.1.5.tar.gz tmp/dry_scraper-0.1.6.tar.gz --markdown 20230704/d/dry-scraper/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-04 01:50:49] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-07-04 01:50:49] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-07-04 01:50:49] INFO root fetch - processPackages [aiokeydb]: executing diffoscope
+[2023-07-04 01:50:49] INFO root fetch - processPackages [aiokeydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiokeydb-0.1.8.tar.gz tmp/aiokeydb-0.1.9.tar.gz --markdown 20230704/a/aiokeydb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 01:50:49] INFO root fetch - processPackages [app-store-notifications-v2-validator]: executing diffoscope
+[2023-07-04 01:50:49] INFO root fetch - processPackages [app-store-notifications-v2-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/app_store_notifications_v2_validator-0.0.7-py3-none-any.whl.zip tmp/app-store-notifications-v2-validator-0.0.8.tar.gz --markdown 20230704/a/app-store-notifications-v2-validator/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-04 01:50:49] INFO root fetch - processPackages [scottbrian-utils]: Downloading https://files.pythonhosted.org/packages/02/13/40bc7dd14058cc2eb6d17a9b97033909906fd4dbbc625f112ebf30581537/scottbrian_utils-2.4.0.tar.gz
+[2023-07-04 01:50:49] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-07-04 01:50:49] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230704/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 01:50:49] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-07-04 01:50:49] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230704/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 01:50:49] INFO root fetch - processPackages [scottbrian-utils]: executing diffoscope
+[2023-07-04 01:50:49] INFO root fetch - processPackages [scottbrian-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scottbrian_utils-2.3.0.tar.gz tmp/scottbrian_utils-2.4.0.tar.gz --markdown 20230704/s/scottbrian-utils/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-04 01:50:49] INFO root fetch - processPackages [poke-env]: Downloading https://files.pythonhosted.org/packages/25/ea/ecda06d901ca78e3c2d4a604a7883aa04a3e7ff3ff31006a3ca06bdcd998/poke_env-0.7.1.tar.gz
+[2023-07-04 01:50:49] INFO root fetch - processPackages [poke-env]: executing diffoscope
+[2023-07-04 01:50:49] INFO root fetch - processPackages [poke-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poke_env-0.7.0.tar.gz tmp/poke_env-0.7.1.tar.gz --markdown 20230704/p/poke-env/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-04 01:50:50] INFO root fetch - processPackages [dry-scraper]: Remove: archive file [/home/abi/fetcher/tmp/dry_scraper-0.1.5.tar.gz]
+[2023-07-04 01:50:50] INFO root fetch - processPackages [dry-scraper]: Remove: archive file [/home/abi/fetcher/tmp/dry_scraper-0.1.6.tar.gz]
+[2023-07-04 01:50:50] INFO root fetch - main [MainThread]: End processing [dry-scraper]: success
+[2023-07-04 01:50:50] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-07-04 01:50:50] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-07-04 01:50:50] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-07-04 01:50:50] INFO root fetch - processPackages [app-store-notifications-v2-validator]: Remove: archive file [/home/abi/fetcher/tmp/app_store_notifications_v2_validator-0.0.7-py3-none-any.whl.zip]
+[2023-07-04 01:50:50] INFO root fetch - processPackages [app-store-notifications-v2-validator]: Remove: archive file [/home/abi/fetcher/tmp/app-store-notifications-v2-validator-0.0.8.tar.gz]
+[2023-07-04 01:50:50] INFO root fetch - main [MainThread]: End processing [app-store-notifications-v2-validator]: success
+[2023-07-04 01:50:51] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-07-04 01:50:51] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-07-04 01:50:51] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-07-04 01:50:51] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-07-04 01:50:51] INFO root fetch - processPackages [aiokeydb]: Remove: archive file [/home/abi/fetcher/tmp/aiokeydb-0.1.8.tar.gz]
+[2023-07-04 01:50:51] INFO root fetch - processPackages [aiokeydb]: Remove: archive file [/home/abi/fetcher/tmp/aiokeydb-0.1.9.tar.gz]
+[2023-07-04 01:50:51] INFO root fetch - main [MainThread]: End processing [aiokeydb]: success
+[2023-07-04 01:50:51] INFO root fetch - processPackages [scottbrian-utils]: Remove: archive file [/home/abi/fetcher/tmp/scottbrian_utils-2.3.0.tar.gz]
+[2023-07-04 01:50:51] INFO root fetch - processPackages [scottbrian-utils]: Remove: archive file [/home/abi/fetcher/tmp/scottbrian_utils-2.4.0.tar.gz]
+[2023-07-04 01:50:51] INFO root fetch - main [MainThread]: End processing [scottbrian-utils]: success
+[2023-07-04 01:50:52] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2023-07-04 01:50:52] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2023-07-04 01:50:52] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-07-04 01:50:54] INFO root fetch - processPackages [poke-env]: Remove: archive file [/home/abi/fetcher/tmp/poke_env-0.7.0.tar.gz]
+[2023-07-04 01:50:54] INFO root fetch - processPackages [poke-env]: Remove: archive file [/home/abi/fetcher/tmp/poke_env-0.7.1.tar.gz]
+[2023-07-04 01:50:54] INFO root fetch - main [MainThread]: End processing [poke-env]: success
+[2023-07-04 01:50:54] INFO root fetch - main [MainThread]: Store serial: [18746563]
