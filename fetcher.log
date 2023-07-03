@@ -821,3 +821,65 @@
 [2023-07-04 00:58:51] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.3.0-py3-none-any.whl.zip]
 [2023-07-04 00:58:51] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-07-04 00:58:51] INFO root fetch - main [MainThread]: Store serial: [18746367]
+[2023-07-04 01:03:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18746367]
+[2023-07-04 01:03:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-04 01:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2023-07-04 01:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: isolate-proto
+[2023-07-04 01:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamsync
+[2023-07-04 01:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fal-serverless
+[2023-07-04 01:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmnt-cu101
+[2023-07-04 01:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flwr-nightly
+[2023-07-04 01:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tmnt
+[2023-07-04 01:04:00] INFO root fetch - processPackages [fal-serverless]: New version: [0.6.36] Old Version: [0.6.35]
+[2023-07-04 01:04:00] INFO root fetch - processPackages [streamsync]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-07-04 01:04:00] INFO root fetch - processPackages [isolate-proto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 01:04:00] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230703] Old Version: [0.7.0b20230702]
+[2023-07-04 01:04:00] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230703] Old Version: [0.7.0b20230702]
+[2023-07-04 01:04:00] INFO root fetch - processPackages [khoj-assistant]: New version: [0.7.2.dev1] Old Version: [0.7.1.dev33]
+[2023-07-04 01:04:00] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230703] Old Version: [1.5.0.dev20230630]
+[2023-07-04 01:04:00] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/d9/35/db43106c789e86353ba0cbf6ceed9219d68982cabc05c60913a048c4d9c7/tmnt-0.7.0b20230702.tar.gz
+[2023-07-04 01:04:00] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/9a/1f/ad4e5694b3d3ea81b7fc152233dcb59ac8aaeca17407de4f42a9fb1ae7f7/tmnt-cu101-0.7.0b20230702.tar.gz
+[2023-07-04 01:04:00] INFO root fetch - processPackages [fal-serverless]: Downloading https://files.pythonhosted.org/packages/7f/59/1d62bbb4fc4cd4dd249b5c72c0b8def91c25416b6dfe73898ec944f1bc1e/fal_serverless-0.6.35.tar.gz
+[2023-07-04 01:04:00] INFO root fetch - processPackages [isolate-proto]: Downloading https://files.pythonhosted.org/packages/fa/8a/f2719791cdda1843c75d559893bcfbee60dc9548d47a6c7ebbc5ca17efe1/isolate_proto-0.0.8.tar.gz
+[2023-07-04 01:04:00] INFO root fetch - processPackages [streamsync]: Downloading https://files.pythonhosted.org/packages/73/68/07310e6c3d7decd8689941e455099906d4031f68b0d844e11e2f0d42aaa3/streamsync-0.1.7.tar.gz
+[2023-07-04 01:04:00] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/5c/a9/3a7d234c0000dc841bf64f30570850a3c5f8e51d0333d3ee257f1916752d/khoj_assistant-0.7.1.dev33.tar.gz
+[2023-07-04 01:04:00] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/7c/08/a86a0757d62331c01439fcbbe56d263191c77c1b8976cd070c5f95f67e1a/flwr_nightly-1.5.0.dev20230630.tar.gz
+[2023-07-04 01:04:00] WARNING root fetch - processPackages [streamsync]: Skipping package: exceeds size limit 15399535>=10485760
+[2023-07-04 01:04:00] INFO root fetch - main [MainThread]: End processing [streamsync] error
+[2023-07-04 01:04:00] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/6c/42/fd32a5be80546e542044069fbd1a29646e7c549b924caaa94294437dd89b/tmnt-cu101-0.7.0b20230703.tar.gz
+[2023-07-04 01:04:00] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/94/2e/b579b412efe097e2153e533ce42ed248e3ae0d491c771cbd6b237a15ad53/tmnt-0.7.0b20230703.tar.gz
+[2023-07-04 01:04:00] INFO root fetch - processPackages [fal-serverless]: Downloading https://files.pythonhosted.org/packages/ac/d5/00d904b6e902d82b33e3af60d2612c7e74dea91a3152ab1ba1d204ed7aec/fal_serverless-0.6.36.tar.gz
+[2023-07-04 01:04:00] INFO root fetch - processPackages [isolate-proto]: Downloading https://files.pythonhosted.org/packages/b8/c1/616d33b533bec635af64d61f363188d18ee72950aa1fc3bf02c5073168cf/isolate_proto-0.0.9.tar.gz
+[2023-07-04 01:04:01] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/5f/89/d95dc6416f0a5bed49e779dc08591f10db187c578080072666c350abb851/flwr_nightly-1.5.0.dev20230703.tar.gz
+[2023-07-04 01:04:01] INFO root fetch - processPackages [fal-serverless]: executing diffoscope
+[2023-07-04 01:04:01] INFO root fetch - processPackages [fal-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fal_serverless-0.6.35.tar.gz tmp/fal_serverless-0.6.36.tar.gz --markdown 20230704/f/fal-serverless/0.6.35-0.6.36/diff.md --exclude *.pyd
+[2023-07-04 01:04:01] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/ec/5d/acaea70d70b571be7eb362be8f9b6a1b083f1cd29298360db1963f96da3e/khoj_assistant-0.7.2.dev1.tar.gz
+[2023-07-04 01:04:01] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-04 01:04:01] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230702.tar.gz tmp/tmnt-0.7.0b20230703.tar.gz --markdown 20230704/t/tmnt/0.7.0b20230702-0.7.0b20230703/diff.md --exclude *.pyd
+[2023-07-04 01:04:01] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-04 01:04:01] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230702.tar.gz tmp/tmnt-cu101-0.7.0b20230703.tar.gz --markdown 20230704/t/tmnt-cu101/0.7.0b20230702-0.7.0b20230703/diff.md --exclude *.pyd
+[2023-07-04 01:04:01] INFO root fetch - processPackages [isolate-proto]: executing diffoscope
+[2023-07-04 01:04:01] INFO root fetch - processPackages [isolate-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isolate_proto-0.0.8.tar.gz tmp/isolate_proto-0.0.9.tar.gz --markdown 20230704/i/isolate-proto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 01:04:01] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-07-04 01:04:01] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230630.tar.gz tmp/flwr_nightly-1.5.0.dev20230703.tar.gz --markdown 20230704/f/flwr-nightly/1.5.0.dev20230630-1.5.0.dev20230703/diff.md --exclude *.pyd
+[2023-07-04 01:04:01] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-04 01:04:01] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.7.1.dev33.tar.gz tmp/khoj_assistant-0.7.2.dev1.tar.gz --markdown 20230704/k/khoj-assistant/0.7.1.dev33-0.7.2.dev1/diff.md --exclude *.pyd
+[2023-07-04 01:04:02] INFO root fetch - processPackages [isolate-proto]: Remove: archive file [/home/abi/fetcher/tmp/isolate_proto-0.0.8.tar.gz]
+[2023-07-04 01:04:02] INFO root fetch - processPackages [isolate-proto]: Remove: archive file [/home/abi/fetcher/tmp/isolate_proto-0.0.9.tar.gz]
+[2023-07-04 01:04:02] INFO root fetch - main [MainThread]: End processing [isolate-proto]: success
+[2023-07-04 01:04:02] INFO root fetch - processPackages [fal-serverless]: Remove: archive file [/home/abi/fetcher/tmp/fal_serverless-0.6.35.tar.gz]
+[2023-07-04 01:04:02] INFO root fetch - processPackages [fal-serverless]: Remove: archive file [/home/abi/fetcher/tmp/fal_serverless-0.6.36.tar.gz]
+[2023-07-04 01:04:02] INFO root fetch - main [MainThread]: End processing [fal-serverless]: success
+[2023-07-04 01:04:02] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230702.tar.gz]
+[2023-07-04 01:04:02] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230703.tar.gz]
+[2023-07-04 01:04:02] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-04 01:04:02] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230702.tar.gz]
+[2023-07-04 01:04:02] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230703.tar.gz]
+[2023-07-04 01:04:02] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-04 01:04:02] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.1.dev33.tar.gz]
+[2023-07-04 01:04:02] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev1.tar.gz]
+[2023-07-04 01:04:02] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-04 01:04:02] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230630.tar.gz]
+[2023-07-04 01:04:02] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230703.tar.gz]
+[2023-07-04 01:04:02] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-07-04 01:04:02] INFO root fetch - main [MainThread]: Store serial: [18746389]
