@@ -570,3 +570,51 @@
 [2023-07-04 00:37:44] INFO root fetch - processPackages [orqviz]: Remove: archive file [/home/abi/fetcher/tmp/orqviz-0.5.0.tar.gz]
 [2023-07-04 00:37:44] INFO root fetch - main [MainThread]: End processing [orqviz]: success
 [2023-07-04 00:37:44] INFO root fetch - main [MainThread]: Store serial: [18746284]
+[2023-07-04 00:42:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18746284]
+[2023-07-04 00:42:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-04 00:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bcdata
+[2023-07-04 00:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mugicli
+[2023-07-04 00:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlalchemy-bind-manager
+[2023-07-04 00:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finplot
+[2023-07-04 00:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asyncioget
+[2023-07-04 00:42:53] INFO root fetch - processPackages [finplot]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-04 00:42:53] INFO root fetch - processPackages [mugicli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 00:42:53] INFO root fetch - processPackages [bcdata]: New version: [0.8.0a2] Old Version: [0.8.0a1]
+[2023-07-04 00:42:53] INFO root fetch - processPackages [sqlalchemy-bind-manager]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-04 00:42:53] INFO root fetch - processPackages [asyncioget]: New version: [0.11] Old Version: [0.10]
+[2023-07-04 00:42:54] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Downloading https://files.pythonhosted.org/packages/81/ff/d889ff92413e932e90f9f2e6ae9119a654506e070bbe46678982fd9bf36a/sqlalchemy_bind_manager-0.3.2.tar.gz
+[2023-07-04 00:42:54] INFO root fetch - processPackages [finplot]: Downloading https://files.pythonhosted.org/packages/a0/e8/0fb422079d92d26319c076b149da4731f9fc644a3dc219113b286a4356e6/finplot-1.9.1.tar.gz
+[2023-07-04 00:42:54] INFO root fetch - processPackages [bcdata]: Downloading https://files.pythonhosted.org/packages/f0/d3/14dc6e694aa4e524fbc31d56939100ec0cabfecab60e5a4332c994d4371f/bcdata-0.8.0a1.tar.gz
+[2023-07-04 00:42:54] INFO root fetch - processPackages [mugicli]: Downloading https://files.pythonhosted.org/packages/d2/f5/f0694013d0301cbc4c4e08fd383db2a346127720651453ebdd27da085300/mugicli-0.0.8-py3-none-any.whl
+[2023-07-04 00:42:54] INFO root fetch - processPackages [asyncioget]: Downloading https://files.pythonhosted.org/packages/36/e4/52a33845cece4e6b4d9ee1066205887c75b56a007a42cd70da600cb6c92e/asyncioget-0.10.tar.gz
+[2023-07-04 00:42:54] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Downloading https://files.pythonhosted.org/packages/e6/c4/0d145545074023500eebe1b7862fd87d781c5dd95078b44366186a87e358/sqlalchemy_bind_manager-0.4.0.tar.gz
+[2023-07-04 00:42:54] INFO root fetch - processPackages [finplot]: Downloading https://files.pythonhosted.org/packages/a2/7e/031468b3b967ca0e9896be0a4e9ae3ef1217d05256271d9463432126e0cf/finplot-1.9.2.tar.gz
+[2023-07-04 00:42:54] INFO root fetch - processPackages [sqlalchemy-bind-manager]: executing diffoscope
+[2023-07-04 00:42:54] INFO root fetch - processPackages [sqlalchemy-bind-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_bind_manager-0.3.2.tar.gz tmp/sqlalchemy_bind_manager-0.4.0.tar.gz --markdown 20230704/s/sqlalchemy-bind-manager/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-04 00:42:54] INFO root fetch - processPackages [asyncioget]: Downloading https://files.pythonhosted.org/packages/02/e2/3b0696f19aef543f8a6a65a35e02d1253bb793b019765d1e39a7194d4d9d/asyncioget-0.11.tar.gz
+[2023-07-04 00:42:54] INFO root fetch - processPackages [finplot]: executing diffoscope
+[2023-07-04 00:42:54] INFO root fetch - processPackages [finplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finplot-1.9.1.tar.gz tmp/finplot-1.9.2.tar.gz --markdown 20230704/f/finplot/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-04 00:42:54] INFO root fetch - processPackages [mugicli]: Downloading https://files.pythonhosted.org/packages/8c/25/dd9895e8caabe1d88944db3406c9e36f872696e6b67991f97fe4b23e32da/mugicli-0.0.9-py3-none-any.whl
+[2023-07-04 00:42:54] INFO root fetch - processPackages [asyncioget]: executing diffoscope
+[2023-07-04 00:42:54] INFO root fetch - processPackages [asyncioget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncioget-0.10.tar.gz tmp/asyncioget-0.11.tar.gz --markdown 20230704/a/asyncioget/0.10-0.11/diff.md --exclude *.pyd
+[2023-07-04 00:42:54] INFO root fetch - processPackages [mugicli]: executing diffoscope
+[2023-07-04 00:42:54] INFO root fetch - processPackages [mugicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mugicli-0.0.8-py3-none-any.whl.zip tmp/mugicli-0.0.9-py3-none-any.whl.zip --markdown 20230704/m/mugicli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 00:42:54] INFO root fetch - processPackages [bcdata]: Downloading https://files.pythonhosted.org/packages/cb/1b/cc8ffc077a261d23ebcf736ce29cf0942c01913de942ef5d3c4a8d8c2991/bcdata-0.8.0a2.tar.gz
+[2023-07-04 00:42:55] INFO root fetch - processPackages [bcdata]: executing diffoscope
+[2023-07-04 00:42:55] INFO root fetch - processPackages [bcdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcdata-0.8.0a1.tar.gz tmp/bcdata-0.8.0a2.tar.gz --markdown 20230704/b/bcdata/0.8.0a1-0.8.0a2/diff.md --exclude *.pyd
+[2023-07-04 00:42:55] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_bind_manager-0.3.2.tar.gz]
+[2023-07-04 00:42:55] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_bind_manager-0.4.0.tar.gz]
+[2023-07-04 00:42:55] INFO root fetch - main [MainThread]: End processing [sqlalchemy-bind-manager]: success
+[2023-07-04 00:42:55] INFO root fetch - processPackages [asyncioget]: Remove: archive file [/home/abi/fetcher/tmp/asyncioget-0.10.tar.gz]
+[2023-07-04 00:42:55] INFO root fetch - processPackages [asyncioget]: Remove: archive file [/home/abi/fetcher/tmp/asyncioget-0.11.tar.gz]
+[2023-07-04 00:42:55] INFO root fetch - main [MainThread]: End processing [asyncioget]: success
+[2023-07-04 00:42:55] INFO root fetch - processPackages [finplot]: Remove: archive file [/home/abi/fetcher/tmp/finplot-1.9.1.tar.gz]
+[2023-07-04 00:42:55] INFO root fetch - processPackages [finplot]: Remove: archive file [/home/abi/fetcher/tmp/finplot-1.9.2.tar.gz]
+[2023-07-04 00:42:55] INFO root fetch - main [MainThread]: End processing [finplot]: success
+[2023-07-04 00:42:55] INFO root fetch - processPackages [mugicli]: Remove: archive file [/home/abi/fetcher/tmp/mugicli-0.0.8-py3-none-any.whl.zip]
+[2023-07-04 00:42:55] INFO root fetch - processPackages [mugicli]: Remove: archive file [/home/abi/fetcher/tmp/mugicli-0.0.9-py3-none-any.whl.zip]
+[2023-07-04 00:42:56] INFO root fetch - main [MainThread]: End processing [mugicli]: success
+[2023-07-04 00:42:56] INFO root fetch - processPackages [bcdata]: Remove: archive file [/home/abi/fetcher/tmp/bcdata-0.8.0a1.tar.gz]
+[2023-07-04 00:42:56] INFO root fetch - processPackages [bcdata]: Remove: archive file [/home/abi/fetcher/tmp/bcdata-0.8.0a2.tar.gz]
+[2023-07-04 00:42:56] INFO root fetch - main [MainThread]: End processing [bcdata]: success
+[2023-07-04 00:42:56] INFO root fetch - main [MainThread]: Store serial: [18746300]
