@@ -252,3 +252,63 @@
 [2023-07-04 00:16:31] INFO root fetch - processPackages [iambic-core]: Remove: archive file [/home/abi/fetcher/tmp/iambic_core-0.9.8.tar.gz]
 [2023-07-04 00:16:31] INFO root fetch - main [MainThread]: End processing [iambic-core]: success
 [2023-07-04 00:16:31] INFO root fetch - main [MainThread]: Store serial: [18746124]
+[2023-07-04 00:21:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18746124]
+[2023-07-04 00:21:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-04 00:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarms
+[2023-07-04 00:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyspry
+[2023-07-04 00:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai-images
+[2023-07-04 00:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autora-experimentalist-sampler-model-disagreement
+[2023-07-04 00:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nsedt
+[2023-07-04 00:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crnpy
+[2023-07-04 00:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-07-04 00:21:39] INFO root fetch - processPackages [crnpy]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-04 00:21:39] ERROR root fetch - processPackages [ai-images]: Unable to get metadata: No such project 'ai-images'
+[2023-07-04 00:21:39] INFO root fetch - main [MainThread]: End processing [ai-images] error
+[2023-07-04 00:21:39] INFO root fetch - processPackages [nsedt]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-04 00:21:39] INFO root fetch - processPackages [pyspry]: New version: [1.0.0rc2] Old Version: [1.0.0rc0]
+[2023-07-04 00:21:39] INFO root fetch - processPackages [autora-experimentalist-sampler-model-disagreement]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-04 00:21:39] INFO root fetch - processPackages [swarms]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-04 00:21:39] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.384] Old Version: [0.3.383]
+[2023-07-04 00:21:39] INFO root fetch - processPackages [crnpy]: Downloading https://files.pythonhosted.org/packages/f2/6b/a201d681bc54bc210fec0c73f1d676c7e5510d354c07338bc595695692e1/crnpy-0.4.0.tar.gz
+[2023-07-04 00:21:39] INFO root fetch - processPackages [autora-experimentalist-sampler-model-disagreement]: Downloading https://files.pythonhosted.org/packages/d1/73/65883a7e23c361651fa6d6a99562ff83bf5641fbd87187345a60a2e48cb5/autora-experimentalist-sampler-model-disagreement-1.0.1.tar.gz
+[2023-07-04 00:21:39] INFO root fetch - processPackages [nsedt]: Downloading https://files.pythonhosted.org/packages/94/69/c9142653f56fcca39dbe9e7178760bcdcff6badf81e23ea99b02cdae49db/nsedt-0.0.5.tar.gz
+[2023-07-04 00:21:39] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/24/a5/fd89fff7867adecc6978a9ef4a16c7c50f362eada617aab1076c1fc99a7e/pepperize.cdk-ses-smtp-credentials-0.3.383.tar.gz
+[2023-07-04 00:21:39] INFO root fetch - processPackages [pyspry]: Downloading https://files.pythonhosted.org/packages/be/77/e5d75e846a07bd8fde7293dc1a5255d85de0468ed508a8820fb43527ceec/pyspry-1.0.0rc0.tar.gz
+[2023-07-04 00:21:40] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/1d/fb/00f4ff27ed0d6a8dbfa42a6e91d64febb744a92f3c89e55972b18c5d7872/swarms-0.0.7.tar.gz
+[2023-07-04 00:21:40] INFO root fetch - processPackages [crnpy]: Downloading https://files.pythonhosted.org/packages/83/49/80c8894d891c67366262ef7a5124a4adf736e09061ab77645ccb204d3e2c/crnpy-0.4.1.tar.gz
+[2023-07-04 00:21:40] INFO root fetch - processPackages [crnpy]: executing diffoscope
+[2023-07-04 00:21:40] INFO root fetch - processPackages [crnpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crnpy-0.4.0.tar.gz tmp/crnpy-0.4.1.tar.gz --markdown 20230704/c/crnpy/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-04 00:21:40] INFO root fetch - processPackages [nsedt]: Downloading https://files.pythonhosted.org/packages/3e/69/fddf0a93a103ba379defd46eaf4840ab31aa30a57d441502e7a46f9e2e0c/nsedt-0.0.6.tar.gz
+[2023-07-04 00:21:40] INFO root fetch - processPackages [autora-experimentalist-sampler-model-disagreement]: Downloading https://files.pythonhosted.org/packages/3d/71/75fc9e6d36aaa5e0b70855e7172453940b2fed96da795415a673c3736dd1/autora-experimentalist-sampler-model-disagreement-1.0.2.tar.gz
+[2023-07-04 00:21:40] INFO root fetch - processPackages [nsedt]: executing diffoscope
+[2023-07-04 00:21:40] INFO root fetch - processPackages [nsedt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsedt-0.0.5.tar.gz tmp/nsedt-0.0.6.tar.gz --markdown 20230704/n/nsedt/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-04 00:21:40] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/c9/fe/7b543df3d7f4f1faf57f22128b780e9cfcebd4b64697313b9426452a5056/pepperize.cdk-ses-smtp-credentials-0.3.384.tar.gz
+[2023-07-04 00:21:40] INFO root fetch - processPackages [pyspry]: Downloading https://files.pythonhosted.org/packages/6b/65/8b1146ab8a490951fa96fdf442b752e86cbdeb122a7c64bb66ee70a523b5/pyspry-1.0.0rc2.tar.gz
+[2023-07-04 00:21:40] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/45/a2/da9b7fbac6dbb2dc1d80f2a1afac723781b4ccb2e7f1d096421bd8101fb0/swarms-0.0.8.tar.gz
+[2023-07-04 00:21:40] INFO root fetch - processPackages [autora-experimentalist-sampler-model-disagreement]: executing diffoscope
+[2023-07-04 00:21:40] INFO root fetch - processPackages [autora-experimentalist-sampler-model-disagreement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-experimentalist-sampler-model-disagreement-1.0.1.tar.gz tmp/autora-experimentalist-sampler-model-disagreement-1.0.2.tar.gz --markdown 20230704/a/autora-experimentalist-sampler-model-disagreement/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-04 00:21:40] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-04 00:21:40] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.0.7.tar.gz tmp/swarms-0.0.8.tar.gz --markdown 20230704/s/swarms/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-04 00:21:40] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-07-04 00:21:40] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.383.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.384.tar.gz --markdown 20230704/p/pepperize.cdk-ses-smtp-credentials/0.3.383-0.3.384/diff.md --exclude *.pyd
+[2023-07-04 00:21:40] INFO root fetch - processPackages [pyspry]: executing diffoscope
+[2023-07-04 00:21:40] INFO root fetch - processPackages [pyspry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspry-1.0.0rc0.tar.gz tmp/pyspry-1.0.0rc2.tar.gz --markdown 20230704/p/pyspry/1.0.0rc0-1.0.0rc2/diff.md --exclude *.pyd
+[2023-07-04 00:21:41] INFO root fetch - processPackages [crnpy]: Remove: archive file [/home/abi/fetcher/tmp/crnpy-0.4.0.tar.gz]
+[2023-07-04 00:21:41] INFO root fetch - processPackages [crnpy]: Remove: archive file [/home/abi/fetcher/tmp/crnpy-0.4.1.tar.gz]
+[2023-07-04 00:21:41] INFO root fetch - main [MainThread]: End processing [crnpy]: success
+[2023-07-04 00:21:41] INFO root fetch - processPackages [nsedt]: Remove: archive file [/home/abi/fetcher/tmp/nsedt-0.0.5.tar.gz]
+[2023-07-04 00:21:41] INFO root fetch - processPackages [nsedt]: Remove: archive file [/home/abi/fetcher/tmp/nsedt-0.0.6.tar.gz]
+[2023-07-04 00:21:41] INFO root fetch - main [MainThread]: End processing [nsedt]: success
+[2023-07-04 00:21:41] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.383.tar.gz]
+[2023-07-04 00:21:41] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.384.tar.gz]
+[2023-07-04 00:21:41] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-07-04 00:21:41] INFO root fetch - processPackages [autora-experimentalist-sampler-model-disagreement]: Remove: archive file [/home/abi/fetcher/tmp/autora-experimentalist-sampler-model-disagreement-1.0.1.tar.gz]
+[2023-07-04 00:21:41] INFO root fetch - processPackages [autora-experimentalist-sampler-model-disagreement]: Remove: archive file [/home/abi/fetcher/tmp/autora-experimentalist-sampler-model-disagreement-1.0.2.tar.gz]
+[2023-07-04 00:21:41] INFO root fetch - main [MainThread]: End processing [autora-experimentalist-sampler-model-disagreement]: success
+[2023-07-04 00:21:41] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.0.7.tar.gz]
+[2023-07-04 00:21:41] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.0.8.tar.gz]
+[2023-07-04 00:21:41] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-04 00:21:41] INFO root fetch - processPackages [pyspry]: Remove: archive file [/home/abi/fetcher/tmp/pyspry-1.0.0rc0.tar.gz]
+[2023-07-04 00:21:41] INFO root fetch - processPackages [pyspry]: Remove: archive file [/home/abi/fetcher/tmp/pyspry-1.0.0rc2.tar.gz]
+[2023-07-04 00:21:41] INFO root fetch - main [MainThread]: End processing [pyspry]: success
+[2023-07-04 00:21:41] INFO root fetch - main [MainThread]: Store serial: [18746147]
