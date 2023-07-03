@@ -1050,3 +1050,54 @@
 [2023-07-04 01:19:40] INFO root fetch - processPackages [stegoveritas]: Remove: archive file [/home/abi/fetcher/tmp/stegoveritas-1.9.tar.gz]
 [2023-07-04 01:19:40] INFO root fetch - main [MainThread]: End processing [stegoveritas]: success
 [2023-07-04 01:19:40] INFO root fetch - main [MainThread]: Store serial: [18746437]
+[2023-07-04 01:24:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18746437]
+[2023-07-04 01:24:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-04 01:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dvc
+[2023-07-04 01:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: defdict
+[2023-07-04 01:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnata-plugin-runtime
+[2023-07-04 01:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphinx-markdown-builder
+[2023-07-04 01:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nerdcore
+[2023-07-04 01:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sinkove
+[2023-07-04 01:24:49] INFO root fetch - processPackages [sphinx-markdown-builder]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-04 01:24:49] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 01:24:49] INFO root fetch - processPackages [dvc]: New version: [3.4.0] Old Version: [3.3.1]
+[2023-07-04 01:24:49] WARNING root fetch - processPackages [sinkove]: Skipping, unable to determine old version
+[2023-07-04 01:24:49] INFO root fetch - main [MainThread]: End processing [sinkove] error
+[2023-07-04 01:24:49] INFO root fetch - processPackages [nerdcore]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-04 01:24:49] INFO root fetch - processPackages [defdict]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-04 01:24:49] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/20/28/cb9395e490a8c4d80e8becf781cd3cdaf863df55be0b56c8df6126567995/nerdcore-0.1.5.tar.gz
+[2023-07-04 01:24:49] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-07-04 01:24:49] INFO root fetch - processPackages [sphinx-markdown-builder]: Downloading https://files.pythonhosted.org/packages/4b/20/7e1a07ce0714ced56cf2470877a7ffbeb631c5001a1c64f9dc861b2db73d/sphinx-markdown-builder-0.6.1.tar.gz
+[2023-07-04 01:24:49] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/47/95/af3a434d4e37df3718c7cd47127e4c948eeed0247bedce8e80e6762d0887/dvc-3.3.1.tar.gz
+[2023-07-04 01:24:49] INFO root fetch - processPackages [defdict]: Downloading https://files.pythonhosted.org/packages/fe/42/f5ccc79b2885c7c06f5d70a18f70c47e374c76ab3eb2f84f82faf1aa8a09/defdict-0.0.1.tar.gz
+[2023-07-04 01:24:49] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-07-04 01:24:49] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/ec/6b/e2ea7c27cf3d9fc7b7de31ab66b674eb8716b8307fed081e9d3b0bda3a9e/nerdcore-0.1.6.tar.gz
+[2023-07-04 01:24:49] INFO root fetch - processPackages [sphinx-markdown-builder]: Downloading https://files.pythonhosted.org/packages/6b/2f/0f71ae1d0283651a98a19bc8feabe79987d0816ce6885ee5910091191b13/sphinx-markdown-builder-0.6.2.tar.gz
+[2023-07-04 01:24:50] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-07-04 01:24:50] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230704/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 01:24:50] INFO root fetch - processPackages [nerdcore]: executing diffoscope
+[2023-07-04 01:24:50] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/a2/58/cc1e9d46beff779228ab63aea6e1335e5e05ff721f2cb9ff4bc60f1c6748/dvc-3.4.0.tar.gz
+[2023-07-04 01:24:50] INFO root fetch - processPackages [nerdcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerdcore-0.1.5.tar.gz tmp/nerdcore-0.1.6.tar.gz --markdown 20230704/n/nerdcore/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-04 01:24:50] INFO root fetch - processPackages [defdict]: Downloading https://files.pythonhosted.org/packages/e9/b4/bc1eb5728775be801aff0f55c64215eff7fcf82ad61dc85da42f2b5c2972/defdict-0.0.2.tar.gz
+[2023-07-04 01:24:50] INFO root fetch - processPackages [sphinx-markdown-builder]: executing diffoscope
+[2023-07-04 01:24:50] INFO root fetch - processPackages [sphinx-markdown-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-markdown-builder-0.6.1.tar.gz tmp/sphinx-markdown-builder-0.6.2.tar.gz --markdown 20230704/s/sphinx-markdown-builder/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-04 01:24:50] INFO root fetch - processPackages [defdict]: executing diffoscope
+[2023-07-04 01:24:50] INFO root fetch - processPackages [defdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defdict-0.0.1.tar.gz tmp/defdict-0.0.2.tar.gz --markdown 20230704/d/defdict/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-04 01:24:50] INFO root fetch - processPackages [dvc]: executing diffoscope
+[2023-07-04 01:24:50] INFO root fetch - processPackages [dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-3.3.1.tar.gz tmp/dvc-3.4.0.tar.gz --markdown 20230704/d/dvc/3.3.1-3.4.0/diff.md --exclude *.pyd
+[2023-07-04 01:24:51] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-07-04 01:24:51] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-07-04 01:24:51] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-07-04 01:24:51] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.5.tar.gz]
+[2023-07-04 01:24:51] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.6.tar.gz]
+[2023-07-04 01:24:51] INFO root fetch - main [MainThread]: End processing [nerdcore]: success
+[2023-07-04 01:24:51] INFO root fetch - processPackages [defdict]: Remove: archive file [/home/abi/fetcher/tmp/defdict-0.0.1.tar.gz]
+[2023-07-04 01:24:51] INFO root fetch - processPackages [defdict]: Remove: archive file [/home/abi/fetcher/tmp/defdict-0.0.2.tar.gz]
+[2023-07-04 01:24:51] INFO root fetch - main [MainThread]: End processing [defdict]: success
+[2023-07-04 01:24:51] INFO root fetch - processPackages [sphinx-markdown-builder]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-markdown-builder-0.6.1.tar.gz]
+[2023-07-04 01:24:51] INFO root fetch - processPackages [sphinx-markdown-builder]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-markdown-builder-0.6.2.tar.gz]
+[2023-07-04 01:24:51] INFO root fetch - main [MainThread]: End processing [sphinx-markdown-builder]: success
+[2023-07-04 01:24:53] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.3.1.tar.gz]
+[2023-07-04 01:24:53] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.4.0.tar.gz]
+[2023-07-04 01:24:53] INFO root fetch - main [MainThread]: End processing [dvc]: success
+[2023-07-04 01:24:53] INFO root fetch - main [MainThread]: Store serial: [18746459]
