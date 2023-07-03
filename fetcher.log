@@ -1216,3 +1216,54 @@
 [2023-07-04 01:35:16] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.9.tar.gz]
 [2023-07-04 01:35:16] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
 [2023-07-04 01:35:16] INFO root fetch - main [MainThread]: Store serial: [18746499]
+[2023-07-04 01:40:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18746499]
+[2023-07-04 01:40:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-04 01:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: limberer
+[2023-07-04 01:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lollms
+[2023-07-04 01:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pollination-ladybug-radiance
+[2023-07-04 01:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-github
+[2023-07-04 01:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mypyref
+[2023-07-04 01:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nerdcore
+[2023-07-04 01:40:25] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 01:40:25] INFO root fetch - processPackages [nerdcore]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 01:40:25] INFO root fetch - processPackages [mypyref]: New version: [1.0.1] Old Version: [0.0.3]
+[2023-07-04 01:40:25] WARNING root fetch - processPackages [pollination-ladybug-radiance]: Skipping, unable to determine old version
+[2023-07-04 01:40:25] INFO root fetch - main [MainThread]: End processing [pollination-ladybug-radiance] error
+[2023-07-04 01:40:25] INFO root fetch - processPackages [limberer]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-04 01:40:25] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-04 01:40:25] INFO root fetch - processPackages [mypyref]: Downloading https://files.pythonhosted.org/packages/9a/6f/d49a2cb1d9c83dfbe4d8ac8d5dbabd9297ddf8d180b804c245c469e72b66/mypyref-0.0.3.tar.gz
+[2023-07-04 01:40:25] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/2a/aa/04b6bf496d2cb60e4978ad6d5119c0a09a8b81b3a361be221213dc84f34a/nerdcore-0.1.8.tar.gz
+[2023-07-04 01:40:25] INFO root fetch - processPackages [limberer]: Downloading https://files.pythonhosted.org/packages/76/f0/0ba00209259f84665c5c13c5ccebbbde5bd876d2455939cccf78a8ec5ea0/limberer-0.2.5.tar.gz
+[2023-07-04 01:40:25] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-07-04 01:40:25] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/55/8e/c10a453677812ff66a65c459737c99f6b99cc00da8cc2e27f3a1f924faa0/lollms-2.1.8.tar.gz
+[2023-07-04 01:40:26] INFO root fetch - processPackages [limberer]: Downloading https://files.pythonhosted.org/packages/e7/32/34c25c63c614edc9967a92a17179ec8dcd038ccda6f2e1f6b37c0502a96e/limberer-0.2.6.tar.gz
+[2023-07-04 01:40:26] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/f0/b9/a7ca11d5ea057e7cfab9c8c440dc31d5d6761c0ba50c16545f42ea89145f/nerdcore-0.1.9.tar.gz
+[2023-07-04 01:40:26] INFO root fetch - processPackages [mypyref]: Downloading https://files.pythonhosted.org/packages/68/59/a47e906a9ee1f562126b350e34973c7f6de58d8e24bb243fd05d303abe99/mypyref-1.0.1.tar.gz
+[2023-07-04 01:40:26] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-07-04 01:40:26] INFO root fetch - processPackages [limberer]: executing diffoscope
+[2023-07-04 01:40:26] INFO root fetch - processPackages [limberer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limberer-0.2.5.tar.gz tmp/limberer-0.2.6.tar.gz --markdown 20230704/l/limberer/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-04 01:40:26] INFO root fetch - processPackages [mypyref]: executing diffoscope
+[2023-07-04 01:40:26] INFO root fetch - processPackages [mypyref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypyref-0.0.3.tar.gz tmp/mypyref-1.0.1.tar.gz --markdown 20230704/m/mypyref/0.0.3-1.0.1/diff.md --exclude *.pyd
+[2023-07-04 01:40:26] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/6a/83/7745db4a743155e7a857ec418630027696e10e7fb67dfd6805a2496bdb64/lollms-2.1.9.tar.gz
+[2023-07-04 01:40:26] INFO root fetch - processPackages [nerdcore]: executing diffoscope
+[2023-07-04 01:40:26] INFO root fetch - processPackages [nerdcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerdcore-0.1.8.tar.gz tmp/nerdcore-0.1.9.tar.gz --markdown 20230704/n/nerdcore/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 01:40:26] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-07-04 01:40:26] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230704/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 01:40:26] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-04 01:40:26] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230704/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-04 01:40:27] INFO root fetch - processPackages [mypyref]: Remove: archive file [/home/abi/fetcher/tmp/mypyref-0.0.3.tar.gz]
+[2023-07-04 01:40:27] INFO root fetch - processPackages [mypyref]: Remove: archive file [/home/abi/fetcher/tmp/mypyref-1.0.1.tar.gz]
+[2023-07-04 01:40:27] INFO root fetch - main [MainThread]: End processing [mypyref]: success
+[2023-07-04 01:40:27] INFO root fetch - processPackages [limberer]: Remove: archive file [/home/abi/fetcher/tmp/limberer-0.2.5.tar.gz]
+[2023-07-04 01:40:27] INFO root fetch - processPackages [limberer]: Remove: archive file [/home/abi/fetcher/tmp/limberer-0.2.6.tar.gz]
+[2023-07-04 01:40:27] INFO root fetch - main [MainThread]: End processing [limberer]: success
+[2023-07-04 01:40:27] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-07-04 01:40:27] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-07-04 01:40:27] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-07-04 01:40:27] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.8.tar.gz]
+[2023-07-04 01:40:27] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.9.tar.gz]
+[2023-07-04 01:40:27] INFO root fetch - main [MainThread]: End processing [nerdcore]: success
+[2023-07-04 01:40:27] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.8.tar.gz]
+[2023-07-04 01:40:27] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
+[2023-07-04 01:40:27] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-07-04 01:40:27] INFO root fetch - main [MainThread]: Store serial: [18746519]
