@@ -17798,3 +17798,203 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 11:41:55] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.0.9.tar.gz]
 [2023-07-04 11:41:55] INFO root fetch - main [MainThread]: End processing [bycon]: success
 [2023-07-04 11:41:55] INFO root fetch - main [MainThread]: Store serial: [18752784]
+[2023-07-04 11:46:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18752784]
+[2023-07-04 11:47:04] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-07-04 11:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c2cciutils
+[2023-07-04 11:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uasset-dump
+[2023-07-04 11:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sj-tool
+[2023-07-04 11:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openapi-schemas-pydantic
+[2023-07-04 11:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: haystack-entailment-checker
+[2023-07-04 11:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kafkaclientveli
+[2023-07-04 11:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain-serve
+[2023-07-04 11:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: c2cwsgiutils
+[2023-07-04 11:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bohrium-sdk
+[2023-07-04 11:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: JBioSeqTools
+[2023-07-04 11:47:05] INFO root fetch - processPackages [haystack-entailment-checker]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-04 11:47:05] INFO root fetch - processPackages [uasset-dump]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 11:47:05] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.0.0.dev99] Old Version: [6.0.0.dev97]
+[2023-07-04 11:47:05] INFO root fetch - processPackages [kafkaclientveli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-04 11:47:05] INFO root fetch - processPackages [openapi-schemas-pydantic]: New version: [2.0.0] Old Version: [1.1.0]
+[2023-07-04 11:47:05] INFO root fetch - processPackages [JBioSeqTools]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-04 11:47:05] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-04 11:47:05] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-04 11:47:05] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-07-04 11:47:05] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-04 11:47:05] INFO root fetch - processPackages [haystack-entailment-checker]: Downloading https://files.pythonhosted.org/packages/70/eb/1af66ae45da1000b394c447e76f4a0abb6a1860643319502a5c1823c3541/haystack_entailment_checker-0.0.3.tar.gz
+[2023-07-04 11:47:05] INFO root fetch - processPackages [kafkaclientveli]: Downloading https://files.pythonhosted.org/packages/d6/15/3421c27275e5810088608fddca1beac11e90466752040f3dca4fdbab6eba/kafkaclientveli-1.0.8.tar.gz
+[2023-07-04 11:47:05] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/7e/19/e64dc0870291f601e6d1f041424eef5a28112c1c9b7be627a7f01c80ebab/c2cwsgiutils-6.0.0.dev97.tar.gz
+[2023-07-04 11:47:05] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/54/a3/df6f3c246d8e0c32be8ed94515ce5760ce5ae382def9eaf9d90160bb7894/bohrium-sdk-0.3.0.tar.gz
+[2023-07-04 11:47:05] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-04 11:47:05] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/fe/9b/195da905dc17cf6f687704695ce993e02bdd209ced7ecc6e8689c050a039/uasset_dump-0.0.8.tar.gz
+[2023-07-04 11:47:05] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-07-04 11:47:05] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/34/87/4ccb14ca12e118adf0a9bd01ee28b2bdfbf93b12b1833dbfef071f60b22b/JBioSeqTools-1.1.3.tar.gz
+[2023-07-04 11:47:05] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-07-04 11:47:05] INFO root fetch - processPackages [openapi-schemas-pydantic]: Downloading https://files.pythonhosted.org/packages/96/21/f18f90f9f8051967e3bfd5de22b42d20df9fd68f50f1ccf1d20769cf8a1e/openapi_schemas_pydantic-1.1.0.tar.gz
+[2023-07-04 11:47:05] INFO root fetch - processPackages [kafkaclientveli]: Downloading https://files.pythonhosted.org/packages/6e/77/a870121819a5b0e1b97d7d1054e5132118c51de83a4252f645360b7cb7cc/kafkaclientveli-1.0.9.tar.gz
+[2023-07-04 11:47:05] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/bc/fc/caed9a3b8aa535ab83ce1fdf048ce861e9039ac24958fa3ddf9049b3f2b6/c2cwsgiutils-6.0.0.dev99.tar.gz
+[2023-07-04 11:47:05] INFO root fetch - processPackages [haystack-entailment-checker]: Downloading https://files.pythonhosted.org/packages/70/96/a41b6157ca0147cdff01c5e9b5209cb928fa385dc1216b8ccd8054e98d47/haystack_entailment_checker-0.0.4.tar.gz
+[2023-07-04 11:47:05] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/fa/d5/3a1d5062a8a2223cb43f728c878aab02f06e8f3d116c387300141c3a7b31/bohrium-sdk-0.3.1.tar.gz
+[2023-07-04 11:47:05] INFO root fetch - processPackages [kafkaclientveli]: executing diffoscope
+[2023-07-04 11:47:05] INFO root fetch - processPackages [kafkaclientveli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafkaclientveli-1.0.8.tar.gz tmp/kafkaclientveli-1.0.9.tar.gz --markdown 20230704/k/kafkaclientveli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-04 11:47:05] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-07-04 11:47:05] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2023-07-04 11:47:05] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.0.0.dev97.tar.gz tmp/c2cwsgiutils-6.0.0.dev99.tar.gz --markdown 20230704/c/c2cwsgiutils/6.0.0.dev97-6.0.0.dev99/diff.md --exclude *.pyd
+[2023-07-04 11:47:05] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/be/6b/bc8d3d4a7ddb2d849c3954c046ae9e0e44299a77c61b795472d89dc2f63b/uasset_dump-0.0.9.tar.gz
+[2023-07-04 11:47:05] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/a8/e4/3501b8682791ef48690c22dee3a139baa414a474e1502056adfbd3d20333/JBioSeqTools-1.1.4.tar.gz
+[2023-07-04 11:47:06] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-04 11:47:06] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-07-04 11:47:06] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium-sdk-0.3.0.tar.gz tmp/bohrium-sdk-0.3.1.tar.gz --markdown 20230704/b/bohrium-sdk/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-04 11:47:06] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-07-04 11:47:06] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230704/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-07-04 11:47:06] INFO root fetch - processPackages [openapi-schemas-pydantic]: Downloading https://files.pythonhosted.org/packages/1d/fe/b1fdc5a1c568d44bd6b462c9804fe5ad11b8e625144b390ebcddb69521a2/openapi_schemas_pydantic-2.0.0.tar.gz
+[2023-07-04 11:47:06] INFO root fetch - processPackages [haystack-entailment-checker]: executing diffoscope
+[2023-07-04 11:47:06] INFO root fetch - processPackages [haystack-entailment-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haystack_entailment_checker-0.0.3.tar.gz tmp/haystack_entailment_checker-0.0.4.tar.gz --markdown 20230704/h/haystack-entailment-checker/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-04 11:47:06] INFO root fetch - processPackages [uasset-dump]: executing diffoscope
+[2023-07-04 11:47:06] INFO root fetch - processPackages [uasset-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uasset_dump-0.0.8.tar.gz tmp/uasset_dump-0.0.9.tar.gz --markdown 20230704/u/uasset-dump/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 11:47:06] INFO root fetch - processPackages [JBioSeqTools]: executing diffoscope
+[2023-07-04 11:47:06] INFO root fetch - processPackages [JBioSeqTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBioSeqTools-1.1.3.tar.gz tmp/JBioSeqTools-1.1.4.tar.gz --markdown 20230704/J/JBioSeqTools/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-04 11:47:06] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-04 11:47:06] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230704/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-04 11:47:06] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-04 11:47:06] INFO root fetch - processPackages [openapi-schemas-pydantic]: executing diffoscope
+[2023-07-04 11:47:06] INFO root fetch - processPackages [openapi-schemas-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_schemas_pydantic-1.1.0.tar.gz tmp/openapi_schemas_pydantic-2.0.0.tar.gz --markdown 20230704/o/openapi-schemas-pydantic/1.1.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-04 11:47:06] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-04 11:47:06] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230704/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-04 11:47:07] INFO root fetch - processPackages [kafkaclientveli]: Remove: archive file [/home/abi/fetcher/tmp/kafkaclientveli-1.0.8.tar.gz]
+[2023-07-04 11:47:07] INFO root fetch - processPackages [kafkaclientveli]: Remove: archive file [/home/abi/fetcher/tmp/kafkaclientveli-1.0.9.tar.gz]
+[2023-07-04 11:47:07] INFO root fetch - processPackages [kafkaclientveli]: Start processing: testdwg
+[2023-07-04 11:47:07] INFO root fetch - main [MainThread]: End processing [kafkaclientveli]: success
+[2023-07-04 11:47:07] WARNING root fetch - processPackages [testdwg]: Skipping, unable to determine old version
+[2023-07-04 11:47:07] INFO root fetch - processPackages [testdwg]: Start processing: AlphaPeel
+[2023-07-04 11:47:07] INFO root fetch - main [MainThread]: End processing [testdwg] error
+[2023-07-04 11:47:07] INFO root fetch - processPackages [AlphaPeel]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-04 11:47:07] INFO root fetch - processPackages [AlphaPeel]: Downloading https://files.pythonhosted.org/packages/22/33/77f7e51c3ff24430158ccbe944596bb42b373e30809c2c98aee395e2e482/AlphaPeel-1.1.1.tar.gz
+[2023-07-04 11:47:07] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev97.tar.gz]
+[2023-07-04 11:47:07] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev99.tar.gz]
+[2023-07-04 11:47:07] INFO root fetch - processPackages [c2cwsgiutils]: Start processing: gardener-cicd-base
+[2023-07-04 11:47:07] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2023-07-04 11:47:07] INFO root fetch - processPackages [bohrium-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bohrium-sdk-0.3.0.tar.gz]
+[2023-07-04 11:47:07] INFO root fetch - processPackages [bohrium-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bohrium-sdk-0.3.1.tar.gz]
+[2023-07-04 11:47:07] INFO root fetch - processPackages [bohrium-sdk]: Start processing: gardener-cicd-cli
+[2023-07-04 11:47:07] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-07-04 11:47:07] INFO root fetch - processPackages [haystack-entailment-checker]: Remove: archive file [/home/abi/fetcher/tmp/haystack_entailment_checker-0.0.3.tar.gz]
+[2023-07-04 11:47:07] INFO root fetch - processPackages [haystack-entailment-checker]: Remove: archive file [/home/abi/fetcher/tmp/haystack_entailment_checker-0.0.4.tar.gz]
+[2023-07-04 11:47:07] INFO root fetch - processPackages [haystack-entailment-checker]: Start processing: gardener-cicd-dso
+[2023-07-04 11:47:07] INFO root fetch - main [MainThread]: End processing [haystack-entailment-checker]: success
+[2023-07-04 11:47:07] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-07-04 11:47:07] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-07-04 11:47:07] INFO root fetch - processPackages [langchain-serve]: Start processing: gardener-cicd-libs
+[2023-07-04 11:47:07] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-07-04 11:47:07] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-07-04 11:47:07] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-04 11:47:07] INFO root fetch - processPackages [sj-tool]: Start processing: gardener-cicd-whd
+[2023-07-04 11:47:07] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-04 11:47:08] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-1.1.3.tar.gz]
+[2023-07-04 11:47:08] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-1.1.4.tar.gz]
+[2023-07-04 11:47:08] INFO root fetch - processPackages [JBioSeqTools]: Start processing: gardener-oci
+[2023-07-04 11:47:08] INFO root fetch - main [MainThread]: End processing [JBioSeqTools]: success
+[2023-07-04 11:47:08] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2104.0] Old Version: [1.2103.0]
+[2023-07-04 11:47:08] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2104.0] Old Version: [1.2103.0]
+[2023-07-04 11:47:08] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.8.tar.gz]
+[2023-07-04 11:47:08] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.9.tar.gz]
+[2023-07-04 11:47:08] INFO root fetch - processPackages [uasset-dump]: Start processing: langchain-serve
+[2023-07-04 11:47:08] INFO root fetch - main [MainThread]: End processing [uasset-dump]: success
+[2023-07-04 11:47:08] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2104.0] Old Version: [1.2103.0]
+[2023-07-04 11:47:08] INFO root fetch - processPackages [AlphaPeel]: Downloading https://files.pythonhosted.org/packages/7d/8c/3087cc0d0eca8b0c2fb18044fcf1517581dde93ce4ec7f2b2adb22003445/AlphaPeel-1.1.2.tar.gz
+[2023-07-04 11:47:08] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2104.0] Old Version: [1.2103.0]
+[2023-07-04 11:47:08] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-07-04 11:47:08] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2104.0] Old Version: [1.2103.0]
+[2023-07-04 11:47:08] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-07-04 11:47:08] INFO root fetch - processPackages [openapi-schemas-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/openapi_schemas_pydantic-1.1.0.tar.gz]
+[2023-07-04 11:47:08] INFO root fetch - processPackages [openapi-schemas-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/openapi_schemas_pydantic-2.0.0.tar.gz]
+[2023-07-04 11:47:08] INFO root fetch - processPackages [openapi-schemas-pydantic]: Start processing: akida
+[2023-07-04 11:47:08] INFO root fetch - main [MainThread]: End processing [openapi-schemas-pydantic]: success
+[2023-07-04 11:47:08] INFO root fetch - processPackages [AlphaPeel]: executing diffoscope
+[2023-07-04 11:47:08] INFO root fetch - processPackages [AlphaPeel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlphaPeel-1.1.1.tar.gz tmp/AlphaPeel-1.1.2.tar.gz --markdown 20230704/A/AlphaPeel/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-04 11:47:08] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-07-04 11:47:08] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/c5/dc/b682163215ff49166ed48740cf058df60ad43507a51560a179d146593a46/gardener-cicd-cli-1.2103.0.tar.gz
+[2023-07-04 11:47:08] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/de/9c/1b66f3ddd9aabc7af1b056eda2b9aca4180dc156b8b1d17c4d8c19a2edd9/gardener-cicd-base-1.2103.0.tar.gz
+[2023-07-04 11:47:08] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/d1/7b/3f44e677eafee2d8ecad1d83f45ebfb7f0fdf59787f89a2564c8059361b7/gardener-cicd-libs-1.2103.0.tar.gz
+[2023-07-04 11:47:08] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/a8/07/77646a787dcbd3fbe0829812c81f1fadb7fc8073181a51c6802f9b31a269/gardener-cicd-dso-1.2103.0.tar.gz
+[2023-07-04 11:47:08] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-07-04 11:47:08] INFO root fetch - processPackages [akida]: New version: [2.4.0] Old Version: [2.3.7]
+[2023-07-04 11:47:08] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/be/80/1030b3ddc2e4261cd303dfba3d461db6649b91d4b5e4952aaec667ab1f67/gardener-cicd-whd-1.2103.0.tar.gz
+[2023-07-04 11:47:08] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-07-04 11:47:08] INFO root fetch - processPackages [akida]: Downloading https://files.pythonhosted.org/packages/c0/a2/42a2abcb8fbd59ee9dc8e7d8bdcd3b096f0e57b7aff7d6df59b991919810/akida-2.3.7-cp39-cp39-win_amd64.whl
+[2023-07-04 11:47:08] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/23/9e/b4b6a829afe7b299510b0b5f804e02faec18e8a1e7f330e84243599fdb2c/gardener-cicd-cli-1.2104.0.tar.gz
+[2023-07-04 11:47:08] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-07-04 11:47:08] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230704/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-07-04 11:47:08] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/ae/bd/3e8cca5813e5b2272ed917766996543fd952488d73611c49a62d69631bf1/gardener-cicd-libs-1.2104.0.tar.gz
+[2023-07-04 11:47:08] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/f3/6f/d3ecab19319c40cdfad03f297bb2a575c924749375afceb2a46f551a642a/gardener-cicd-dso-1.2104.0.tar.gz
+[2023-07-04 11:47:08] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-07-04 11:47:08] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/34/13/f497d956f7696f2572bc4b1b82cc7a113f99ce8ca109e9f796df1c17c863/gardener-cicd-base-1.2104.0.tar.gz
+[2023-07-04 11:47:08] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/69/47/c601220c88fc5b71ae107ebcf3de33185debb24ca57b96b4667f777ad02d/gardener-cicd-whd-1.2104.0.tar.gz
+[2023-07-04 11:47:09] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-07-04 11:47:09] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2103.0.tar.gz tmp/gardener-cicd-cli-1.2104.0.tar.gz --markdown 20230704/g/gardener-cicd-cli/1.2103.0-1.2104.0/diff.md --exclude *.pyd
+[2023-07-04 11:47:09] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-07-04 11:47:09] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230704/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-07-04 11:47:09] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-07-04 11:47:09] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-07-04 11:47:09] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2103.0.tar.gz tmp/gardener-cicd-dso-1.2104.0.tar.gz --markdown 20230704/g/gardener-cicd-dso/1.2103.0-1.2104.0/diff.md --exclude *.pyd
+[2023-07-04 11:47:09] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2103.0.tar.gz tmp/gardener-cicd-libs-1.2104.0.tar.gz --markdown 20230704/g/gardener-cicd-libs/1.2103.0-1.2104.0/diff.md --exclude *.pyd
+[2023-07-04 11:47:09] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-07-04 11:47:09] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2103.0.tar.gz tmp/gardener-cicd-base-1.2104.0.tar.gz --markdown 20230704/g/gardener-cicd-base/1.2103.0-1.2104.0/diff.md --exclude *.pyd
+[2023-07-04 11:47:09] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-07-04 11:47:09] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2103.0.tar.gz tmp/gardener-cicd-whd-1.2104.0.tar.gz --markdown 20230704/g/gardener-cicd-whd/1.2103.0-1.2104.0/diff.md --exclude *.pyd
+[2023-07-04 11:47:09] INFO root fetch - processPackages [akida]: Downloading https://files.pythonhosted.org/packages/2e/30/7e0bdd9d95eec537974a64d2c2bbd917eb374d33882773c490fa8c702f24/akida-2.4.0-cp39-cp39-win_amd64.whl
+[2023-07-04 11:47:09] INFO root fetch - processPackages [AlphaPeel]: Remove: archive file [/home/abi/fetcher/tmp/AlphaPeel-1.1.1.tar.gz]
+[2023-07-04 11:47:09] INFO root fetch - processPackages [AlphaPeel]: Remove: archive file [/home/abi/fetcher/tmp/AlphaPeel-1.1.2.tar.gz]
+[2023-07-04 11:47:09] INFO root fetch - processPackages [AlphaPeel]: Start processing: django-adminlte-ui
+[2023-07-04 11:47:09] INFO root fetch - main [MainThread]: End processing [AlphaPeel]: success
+[2023-07-04 11:47:09] INFO root fetch - processPackages [django-adminlte-ui]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-04 11:47:09] INFO root fetch - processPackages [django-adminlte-ui]: Downloading https://files.pythonhosted.org/packages/89/f3/68b1540d8bf8f1a211188480b8e09eb53ad801f36b44da3826f8b27a670e/django-adminlte-ui-2.0.0.tar.gz
+[2023-07-04 11:47:09] INFO root fetch - processPackages [akida]: executing diffoscope
+[2023-07-04 11:47:09] INFO root fetch - processPackages [akida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akida-2.3.7-cp39-cp39-win_amd64.whl.zip tmp/akida-2.4.0-cp39-cp39-win_amd64.whl.zip --markdown 20230704/a/akida/2.3.7-2.4.0/diff.md --exclude *.pyd
+[2023-07-04 11:47:10] INFO root fetch - processPackages [django-adminlte-ui]: Downloading https://files.pythonhosted.org/packages/f6/b5/7d34b1639475ced3a9e8f32db079cdabdf3802153a988ae0304bf722ffef/django-adminlte-ui-2.1.0.tar.gz
+[2023-07-04 11:47:10] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-07-04 11:47:10] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-07-04 11:47:10] INFO root fetch - processPackages [langchain-serve]: Start processing: cnn2snn
+[2023-07-04 11:47:10] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-07-04 11:47:10] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2023-07-04 11:47:10] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2023-07-04 11:47:10] INFO root fetch - processPackages [gardener-oci]: Start processing: Products.urban
+[2023-07-04 11:47:10] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2103.0.tar.gz]
+[2023-07-04 11:47:10] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-07-04 11:47:10] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2104.0.tar.gz]
+[2023-07-04 11:47:10] INFO root fetch - processPackages [cnn2snn]: New version: [2.4.0] Old Version: [2.3.7]
+[2023-07-04 11:47:10] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-07-04 11:47:10] INFO root fetch - processPackages [Products.urban]: New version: [2.6.0] Old Version: [2.5.4]
+[2023-07-04 11:47:10] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2103.0.tar.gz]
+[2023-07-04 11:47:10] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2104.0.tar.gz]
+[2023-07-04 11:47:10] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-07-04 11:47:10] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2103.0.tar.gz]
+[2023-07-04 11:47:10] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2104.0.tar.gz]
+[2023-07-04 11:47:10] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-07-04 11:47:10] INFO root fetch - processPackages [cnn2snn]: Downloading https://files.pythonhosted.org/packages/5f/eb/95cd0f78ab191ac3cc5eedcd927f0469e3d12f31043ce25aa3ca3e4c586c/cnn2snn-2.3.7.tar.gz
+[2023-07-04 11:47:11] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2103.0.tar.gz]
+[2023-07-04 11:47:11] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2104.0.tar.gz]
+[2023-07-04 11:47:11] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-07-04 11:47:11] INFO root fetch - processPackages [Products.urban]: Downloading https://files.pythonhosted.org/packages/7b/6c/9bef56b4c44ac795d0ab4eaa1ac6920022912eb45d3392bcfe117628a9a3/Products.urban-2.5.4.tar.gz
+[2023-07-04 11:47:11] WARNING root fetch - processPackages [Products.urban]: Skipping package: exceeds size limit 22165215>=10485760
+[2023-07-04 11:47:11] INFO root fetch - main [MainThread]: End processing [Products.urban] error
+[2023-07-04 11:47:11] INFO root fetch - processPackages [django-adminlte-ui]: executing diffoscope
+[2023-07-04 11:47:11] INFO root fetch - processPackages [django-adminlte-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-adminlte-ui-2.0.0.tar.gz tmp/django-adminlte-ui-2.1.0.tar.gz --markdown 20230704/d/django-adminlte-ui/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-04 11:47:11] INFO root fetch - processPackages [cnn2snn]: Downloading https://files.pythonhosted.org/packages/23/12/a15ec7d4fb362a830597b5bd6eb55832b8f7b020a188e11934dea9bfa6f6/cnn2snn-2.4.0.tar.gz
+[2023-07-04 11:47:11] INFO root fetch - processPackages [cnn2snn]: executing diffoscope
+[2023-07-04 11:47:11] INFO root fetch - processPackages [cnn2snn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnn2snn-2.3.7.tar.gz tmp/cnn2snn-2.4.0.tar.gz --markdown 20230704/c/cnn2snn/2.3.7-2.4.0/diff.md --exclude *.pyd
+[2023-07-04 11:47:11] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2103.0.tar.gz]
+[2023-07-04 11:47:11] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2104.0.tar.gz]
+[2023-07-04 11:47:11] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-07-04 11:47:12] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-07-04 11:47:12] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-07-04 11:47:12] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-04 11:47:13] INFO root fetch - processPackages [cnn2snn]: Remove: archive file [/home/abi/fetcher/tmp/cnn2snn-2.3.7.tar.gz]
+[2023-07-04 11:47:13] INFO root fetch - processPackages [cnn2snn]: Remove: archive file [/home/abi/fetcher/tmp/cnn2snn-2.4.0.tar.gz]
+[2023-07-04 11:47:13] INFO root fetch - main [MainThread]: End processing [cnn2snn]: success
+[2023-07-04 11:47:15] INFO root fetch - processPackages [django-adminlte-ui]: Remove: archive file [/home/abi/fetcher/tmp/django-adminlte-ui-2.0.0.tar.gz]
+[2023-07-04 11:47:15] INFO root fetch - processPackages [django-adminlte-ui]: Remove: archive file [/home/abi/fetcher/tmp/django-adminlte-ui-2.1.0.tar.gz]
+[2023-07-04 11:47:15] INFO root fetch - main [MainThread]: End processing [django-adminlte-ui]: success
+[2023-07-04 11:47:16] INFO root fetch - processPackages [akida]: Remove: archive file [/home/abi/fetcher/tmp/akida-2.3.7-cp39-cp39-win_amd64.whl.zip]
+[2023-07-04 11:47:16] INFO root fetch - processPackages [akida]: Remove: archive file [/home/abi/fetcher/tmp/akida-2.4.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-04 11:47:16] INFO root fetch - main [MainThread]: End processing [akida]: success
+[2023-07-04 11:47:16] INFO root fetch - main [MainThread]: Store serial: [18752859]
