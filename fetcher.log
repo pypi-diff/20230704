@@ -21202,3 +21202,95 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 14:14:48] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
 [2023-07-04 14:14:48] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-07-04 14:14:48] INFO root fetch - main [MainThread]: Store serial: [18754436]
+[2023-07-04 14:19:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18754436]
+[2023-07-04 14:19:57] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-04 14:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-oz-cli-by-os
+[2023-07-04 14:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leadguru-data
+[2023-07-04 14:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leadguru-common
+[2023-07-04 14:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-hr-payroll-period
+[2023-07-04 14:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: helios-opentelemetry-sdk
+[2023-07-04 14:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: powertools-oas-validator
+[2023-07-04 14:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oidc-drf
+[2023-07-04 14:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-web-disable-export-group
+[2023-07-04 14:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: frequenz-sdk
+[2023-07-04 14:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: event-model
+[2023-07-04 14:19:58] INFO root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: New version: [20230704.11.42.540592] Old Version: [20230703.13.32.625504]
+[2023-07-04 14:19:58] INFO root fetch - processPackages [powertools-oas-validator]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-07-04 14:19:58] INFO root fetch - processPackages [frequenz-sdk]: New version: [0.21.1] Old Version: [0.20.0]
+[2023-07-04 14:19:58] INFO root fetch - processPackages [oidc-drf]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-04 14:19:58] INFO root fetch - processPackages [leadguru-data]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-04 14:19:58] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-04 14:19:58] INFO root fetch - processPackages [odoo-addon-hr-payroll-period]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.3]
+[2023-07-04 14:19:58] INFO root fetch - processPackages [frequenz-sdk]: Downloading https://files.pythonhosted.org/packages/ea/4e/16598935c8fa894f31f838117c9396b56b58d4fbbd4c74109ae7fc4be18d/frequenz-sdk-0.20.0.tar.gz
+[2023-07-04 14:19:58] WARNING root fetch - processPackages [odoo-addon-web-disable-export-group]: Skipping, unable to determine old version
+[2023-07-04 14:19:58] INFO root fetch - processPackages [odoo-addon-web-disable-export-group]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-07-04 14:19:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-disable-export-group] error
+[2023-07-04 14:19:58] INFO root fetch - processPackages [event-model]: New version: [1.9.0a3] Old Version: [1.9.0a2]
+[2023-07-04 14:19:58] INFO root fetch - processPackages [helios-opentelemetry-sdk]: New version: [1.0.97] Old Version: [1.0.96]
+[2023-07-04 14:19:58] INFO root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: Downloading https://files.pythonhosted.org/packages/21/36/511fc6fb3d7ab27fe25c4a95b5d3db32edcb0511c3cb9b4842539ca82e1f/certora-cli-alpha-oz-cli-by-os-20230703.13.32.625504.tar.gz
+[2023-07-04 14:19:58] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/fc/35/ca8dc82028975cbcb02faead26153071461e5c78a03fb67e0f27256aee8d/leadguru_common-0.98.0.tar.gz
+[2023-07-04 14:19:58] INFO root fetch - processPackages [powertools-oas-validator]: Downloading https://files.pythonhosted.org/packages/19/a7/d930ec69313bf02deb7728e1c9d171c89ff9662525b13e3945635244dea9/powertools_oas_validator-0.4.4.tar.gz
+[2023-07-04 14:19:58] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/81/bf/f4c758210f3132ad36cea5286e4857350dc02f38ded759934614da96bd78/leadguru_data-0.98.0.tar.gz
+[2023-07-04 14:19:58] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 14:19:58] WARNING root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: Skipping package: exceeds size limit 37436204>=10485760
+[2023-07-04 14:19:58] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-cli-by-os] error
+[2023-07-04 14:19:58] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/36/75/0e56487388828f40b0a8d401716a3cd255d3085e731e6ca3745ab28a86d2/oidc_drf-1.2.8.tar.gz
+[2023-07-04 14:19:58] INFO root fetch - processPackages [odoo-addon-hr-payroll-period]: Downloading https://files.pythonhosted.org/packages/95/01/de8b7fcd3bd12848a0311a5b0de40f3a450fc8fef0fa4057d7f0adaec106/odoo_addon_hr_payroll_period-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-04 14:19:58] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-07-04 14:19:58] INFO root fetch - processPackages [event-model]: Downloading https://files.pythonhosted.org/packages/99/ee/42e07110de4632fbb07b21d5e2137eb8cd05b20958b88fd1353c88310172/event-model-1.9.0a2.tar.gz
+[2023-07-04 14:19:58] INFO root fetch - processPackages [frequenz-sdk]: Downloading https://files.pythonhosted.org/packages/00/94/8df0e7b232fae62a432157f08d4ab7c8bc60ee4f11d135cce3d1a82f0129/frequenz-sdk-0.21.1.tar.gz
+[2023-07-04 14:19:58] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/16/1c/017bcd8f49a9ceed0d36796e84f43cefd77b1a273b4b9807a222b85cb578/leadguru_data-0.99.0.tar.gz
+[2023-07-04 14:19:58] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/4e/4f/236c71729e1b70c3c5c202003cf9aa48c1c9b9d202620f8c5e94a7aacdc9/leadguru_common-0.99.0.tar.gz
+[2023-07-04 14:19:58] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/d4/d0/ab5decaf61d7ba9fade496fa4da4a223cb156da7545ae13d2c5da833e6d9/helios-opentelemetry-sdk-1.0.96.tar.gz
+[2023-07-04 14:19:58] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/d7/de/e7417f81d3a2bb32b6f2acb0044fcadd08723cefbe4019f55c809d6c5afe/oidc_drf-1.2.9.tar.gz
+[2023-07-04 14:19:58] INFO root fetch - processPackages [powertools-oas-validator]: Downloading https://files.pythonhosted.org/packages/cf/39/b2c39865617e6fda0f6b29ef0291f3be75952ffe6fccc632a03b40648ff1/powertools_oas_validator-0.5.0.tar.gz
+[2023-07-04 14:19:58] INFO root fetch - processPackages [frequenz-sdk]: executing diffoscope
+[2023-07-04 14:19:58] INFO root fetch - processPackages [frequenz-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-sdk-0.20.0.tar.gz tmp/frequenz-sdk-0.21.1.tar.gz --markdown 20230704/f/frequenz-sdk/0.20.0-0.21.1/diff.md --exclude *.pyd
+[2023-07-04 14:19:58] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-07-04 14:19:58] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230704/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-04 14:19:58] INFO root fetch - processPackages [leadguru-data]: executing diffoscope
+[2023-07-04 14:19:58] INFO root fetch - processPackages [leadguru-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_data-0.98.0.tar.gz tmp/leadguru_data-0.99.0.tar.gz --markdown 20230704/l/leadguru-data/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-04 14:19:58] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-04 14:19:58] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.2.8.tar.gz tmp/oidc_drf-1.2.9.tar.gz --markdown 20230704/o/oidc-drf/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-04 14:19:58] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-07-04 14:19:59] INFO root fetch - processPackages [powertools-oas-validator]: executing diffoscope
+[2023-07-04 14:19:59] INFO root fetch - processPackages [powertools-oas-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powertools_oas_validator-0.4.4.tar.gz tmp/powertools_oas_validator-0.5.0.tar.gz --markdown 20230704/p/powertools-oas-validator/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-07-04 14:19:59] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-07-04 14:19:59] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230704/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 14:19:59] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/7e/28/52a9e0df2278365ae1f4ce7c5f4c25009fe9899627a778e3c9b169e851a4/helios-opentelemetry-sdk-1.0.97.tar.gz
+[2023-07-04 14:19:59] INFO root fetch - processPackages [event-model]: Downloading https://files.pythonhosted.org/packages/0f/6e/02fa17189113f1bef88703ae97792f1e2ebeef32a91ac72031c979e58f6e/event-model-1.9.0a3.tar.gz
+[2023-07-04 14:19:59] INFO root fetch - processPackages [odoo-addon-hr-payroll-period]: Downloading https://files.pythonhosted.org/packages/c1/32/2e3db598c7c1db2a8e5921014ebf2a9d126616b2ae37796d7dce4e3e466a/odoo_addon_hr_payroll_period-15.0.1.0.1-py3-none-any.whl
+[2023-07-04 14:19:59] INFO root fetch - processPackages [event-model]: executing diffoscope
+[2023-07-04 14:19:59] INFO root fetch - processPackages [event-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/event-model-1.9.0a2.tar.gz tmp/event-model-1.9.0a3.tar.gz --markdown 20230704/e/event-model/1.9.0a2-1.9.0a3/diff.md --exclude *.pyd
+[2023-07-04 14:19:59] INFO root fetch - processPackages [helios-opentelemetry-sdk]: executing diffoscope
+[2023-07-04 14:19:59] INFO root fetch - processPackages [helios-opentelemetry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-opentelemetry-sdk-1.0.96.tar.gz tmp/helios-opentelemetry-sdk-1.0.97.tar.gz --markdown 20230704/h/helios-opentelemetry-sdk/1.0.96-1.0.97/diff.md --exclude *.pyd
+[2023-07-04 14:19:59] INFO root fetch - processPackages [odoo-addon-hr-payroll-period]: executing diffoscope
+[2023-07-04 14:19:59] INFO root fetch - processPackages [odoo-addon-hr-payroll-period]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_payroll_period-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_hr_payroll_period-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230704/o/odoo-addon-hr-payroll-period/15.0.1.0.0.3-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-04 14:20:00] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.98.0.tar.gz]
+[2023-07-04 14:20:00] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.99.0.tar.gz]
+[2023-07-04 14:20:00] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-07-04 14:20:00] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.98.0.tar.gz]
+[2023-07-04 14:20:00] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.99.0.tar.gz]
+[2023-07-04 14:20:00] INFO root fetch - main [MainThread]: End processing [leadguru-data]: success
+[2023-07-04 14:20:00] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.8.tar.gz]
+[2023-07-04 14:20:00] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.9.tar.gz]
+[2023-07-04 14:20:00] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-04 14:20:00] INFO root fetch - processPackages [powertools-oas-validator]: Remove: archive file [/home/abi/fetcher/tmp/powertools_oas_validator-0.4.4.tar.gz]
+[2023-07-04 14:20:00] INFO root fetch - processPackages [powertools-oas-validator]: Remove: archive file [/home/abi/fetcher/tmp/powertools_oas_validator-0.5.0.tar.gz]
+[2023-07-04 14:20:00] INFO root fetch - main [MainThread]: End processing [powertools-oas-validator]: success
+[2023-07-04 14:20:00] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz]
+[2023-07-04 14:20:00] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz]
+[2023-07-04 14:20:00] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-07-04 14:20:00] INFO root fetch - processPackages [event-model]: Remove: archive file [/home/abi/fetcher/tmp/event-model-1.9.0a2.tar.gz]
+[2023-07-04 14:20:00] INFO root fetch - processPackages [event-model]: Remove: archive file [/home/abi/fetcher/tmp/event-model-1.9.0a3.tar.gz]
+[2023-07-04 14:20:00] INFO root fetch - main [MainThread]: End processing [event-model]: success
+[2023-07-04 14:20:00] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/helios-opentelemetry-sdk-1.0.96.tar.gz]
+[2023-07-04 14:20:00] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/helios-opentelemetry-sdk-1.0.97.tar.gz]
+[2023-07-04 14:20:00] INFO root fetch - main [MainThread]: End processing [helios-opentelemetry-sdk]: success
+[2023-07-04 14:20:00] INFO root fetch - processPackages [odoo-addon-hr-payroll-period]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_payroll_period-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-04 14:20:00] INFO root fetch - processPackages [odoo-addon-hr-payroll-period]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_payroll_period-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-04 14:20:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-payroll-period]: success
+[2023-07-04 14:20:00] INFO root fetch - processPackages [frequenz-sdk]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-sdk-0.20.0.tar.gz]
+[2023-07-04 14:20:00] INFO root fetch - processPackages [frequenz-sdk]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-sdk-0.21.1.tar.gz]
+[2023-07-04 14:20:00] INFO root fetch - main [MainThread]: End processing [frequenz-sdk]: success
+[2023-07-04 14:20:00] INFO root fetch - main [MainThread]: Store serial: [18754483]
