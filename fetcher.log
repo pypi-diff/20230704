@@ -13413,3 +13413,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 08:28:27] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.3.0.8.tar.gz]
 [2023-07-04 08:28:27] INFO root fetch - main [MainThread]: End processing [hotpot-zzy]: success
 [2023-07-04 08:28:27] INFO root fetch - main [MainThread]: Store serial: [18750993]
+[2023-07-04 08:33:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18750993]
+[2023-07-04 08:33:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-04 08:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: miniagent
+[2023-07-04 08:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pythonic-dbm
+[2023-07-04 08:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: waivek
+[2023-07-04 08:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fake-bpy-module-latest
+[2023-07-04 08:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-hr-employee-calendar-planning
+[2023-07-04 08:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ir-digit
+[2023-07-04 08:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cnextb
+[2023-07-04 08:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-04 08:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-07-04 08:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: particle
+[2023-07-04 08:33:37] INFO root fetch - processPackages [miniagent]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 08:33:37] INFO root fetch - processPackages [odoo13-addon-hr-employee-calendar-planning]: New version: [13.0.1.5.3.dev2] Old Version: [13.0.1.5.3]
+[2023-07-04 08:33:37] INFO root fetch - processPackages [waivek]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 08:33:37] WARNING root fetch - processPackages [cnextb]: Skipping, unable to determine old version
+[2023-07-04 08:33:37] INFO root fetch - main [MainThread]: End processing [cnextb] error
+[2023-07-04 08:33:37] INFO root fetch - processPackages [pythonic-dbm]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-04 08:33:37] INFO root fetch - processPackages [ir-digit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 08:33:37] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230704] Old Version: [20230703]
+[2023-07-04 08:33:37] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-04 08:33:37] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-04 08:33:37] INFO root fetch - processPackages [particle]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-04 08:33:38] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/13/8d/28f7eda19d06a28525737eac0126409e56176e1a3db989013d202807f091/ir_digit-0.0.8.tar.gz
+[2023-07-04 08:33:38] INFO root fetch - processPackages [waivek]: Downloading https://files.pythonhosted.org/packages/8c/d1/949e523dd2d5b53ef756c740c7633425f3adeb94ad2c376cf81a62587e2e/waivek-0.1.8.tar.gz
+[2023-07-04 08:33:38] INFO root fetch - processPackages [pythonic-dbm]: Downloading https://files.pythonhosted.org/packages/33/65/51c1a317a36f801224fb665bd3570acb8536f39c5a7bb633bae414a6dfa5/pythonic-dbm-0.5.0.tar.gz
+[2023-07-04 08:33:38] INFO root fetch - processPackages [miniagent]: Downloading https://files.pythonhosted.org/packages/61/fe/ddee9f7a8915f85ae86d21e121b9930e76846662b7905185edc01f253eaa/miniagent-0.0.8-py3-none-any.whl
+[2023-07-04 08:33:38] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-07-04 08:33:38] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-04 08:33:38] INFO root fetch - processPackages [odoo13-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/37/d4/d4ec9290734ee0be5954eb94e2d464663117815db0a7bc34126b5994af3f/odoo13_addon_hr_employee_calendar_planning-13.0.1.5.3-py3-none-any.whl
+[2023-07-04 08:33:38] INFO root fetch - processPackages [particle]: Downloading https://files.pythonhosted.org/packages/29/31/031f59eb330ad043e6aadb616a84be3f6c279a491df00201b3fbc66a5505/Particle-0.9.1.tar.gz
+[2023-07-04 08:33:38] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/3c/1c/b72880f9488672e734a5caf797d49cc2eac000bc0e95498d6ea2499ace6f/fake-bpy-module-latest-20230703.tar.gz
+[2023-07-04 08:33:38] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/c0/e1/8cdd06668f7ad179caab43915da3e6ca91882c998be4777dc2b190a0b1fd/ir_digit-0.0.9.tar.gz
+[2023-07-04 08:33:38] INFO root fetch - processPackages [waivek]: Downloading https://files.pythonhosted.org/packages/a4/ea/4c15b5c565a13175de2213d36052b88233e76e92301d40a51c483f4f346c/waivek-0.1.9.tar.gz
+[2023-07-04 08:33:38] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-07-04 08:33:38] INFO root fetch - processPackages [ir-digit]: executing diffoscope
+[2023-07-04 08:33:38] INFO root fetch - processPackages [ir-digit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ir_digit-0.0.8.tar.gz tmp/ir_digit-0.0.9.tar.gz --markdown 20230704/i/ir-digit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 08:33:38] INFO root fetch - processPackages [waivek]: executing diffoscope
+[2023-07-04 08:33:38] INFO root fetch - processPackages [waivek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waivek-0.1.8.tar.gz tmp/waivek-0.1.9.tar.gz --markdown 20230704/w/waivek/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 08:33:38] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-07-04 08:33:38] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230704/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-04 08:33:38] INFO root fetch - processPackages [pythonic-dbm]: Downloading https://files.pythonhosted.org/packages/c5/59/b29c600e5647ec9f9fbd5bdaa57f22df7500cafc09fb1a3c4c241efcd79d/pythonic-dbm-0.5.1.tar.gz
+[2023-07-04 08:33:38] INFO root fetch - processPackages [odoo13-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/98/3c/49001525e665cafe69d30c035cccd4e16cd7a6dddef1371b84a8f500b8a6/odoo13_addon_hr_employee_calendar_planning-13.0.1.5.3.dev2-py3-none-any.whl
+[2023-07-04 08:33:38] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/0c/c8/04640e2e37307ab38ba3ad5d0410ecc2e2ba412d95f23693ec7bd43fd73c/fake-bpy-module-latest-20230704.tar.gz
+[2023-07-04 08:33:38] INFO root fetch - processPackages [miniagent]: Downloading https://files.pythonhosted.org/packages/92/e5/684583b07fce6c155c48f3ef92f5aade89cf5a39088f833b45de3c073fdf/miniagent-0.0.9-py3-none-any.whl
+[2023-07-04 08:33:38] INFO root fetch - processPackages [pythonic-dbm]: executing diffoscope
+[2023-07-04 08:33:38] INFO root fetch - processPackages [pythonic-dbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonic-dbm-0.5.0.tar.gz tmp/pythonic-dbm-0.5.1.tar.gz --markdown 20230704/p/pythonic-dbm/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-04 08:33:38] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-07-04 08:33:38] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230703.tar.gz tmp/fake-bpy-module-latest-20230704.tar.gz --markdown 20230704/f/fake-bpy-module-latest/20230703-20230704/diff.md --exclude *.pyd
+[2023-07-04 08:33:38] INFO root fetch - processPackages [odoo13-addon-hr-employee-calendar-planning]: executing diffoscope
+[2023-07-04 08:33:38] INFO root fetch - processPackages [odoo13-addon-hr-employee-calendar-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_hr_employee_calendar_planning-13.0.1.5.3-py3-none-any.whl.zip tmp/odoo13_addon_hr_employee_calendar_planning-13.0.1.5.3.dev2-py3-none-any.whl.zip --markdown 20230704/o/odoo13-addon-hr-employee-calendar-planning/13.0.1.5.3-13.0.1.5.3.dev2/diff.md --exclude *.pyd
+[2023-07-04 08:33:39] INFO root fetch - processPackages [miniagent]: executing diffoscope
+[2023-07-04 08:33:39] INFO root fetch - processPackages [miniagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniagent-0.0.8-py3-none-any.whl.zip tmp/miniagent-0.0.9-py3-none-any.whl.zip --markdown 20230704/m/miniagent/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 08:33:39] INFO root fetch - processPackages [particle]: Downloading https://files.pythonhosted.org/packages/67/40/ae7be9e9a747b337e2a2226032a591aefe9a73d205dce11708834d00b83a/Particle-0.9.2.tar.gz
+[2023-07-04 08:33:39] INFO root fetch - processPackages [particle]: executing diffoscope
+[2023-07-04 08:33:39] INFO root fetch - processPackages [particle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Particle-0.9.1.tar.gz tmp/Particle-0.9.2.tar.gz --markdown 20230704/p/particle/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-04 08:33:39] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-04 08:33:40] INFO root fetch - processPackages [ir-digit]: Remove: archive file [/home/abi/fetcher/tmp/ir_digit-0.0.8.tar.gz]
+[2023-07-04 08:33:40] INFO root fetch - processPackages [ir-digit]: Remove: archive file [/home/abi/fetcher/tmp/ir_digit-0.0.9.tar.gz]
+[2023-07-04 08:33:40] INFO root fetch - main [MainThread]: End processing [ir-digit]: success
+[2023-07-04 08:33:40] INFO root fetch - processPackages [waivek]: Remove: archive file [/home/abi/fetcher/tmp/waivek-0.1.8.tar.gz]
+[2023-07-04 08:33:40] INFO root fetch - processPackages [waivek]: Remove: archive file [/home/abi/fetcher/tmp/waivek-0.1.9.tar.gz]
+[2023-07-04 08:33:40] INFO root fetch - main [MainThread]: End processing [waivek]: success
+[2023-07-04 08:33:40] INFO root fetch - processPackages [odoo13-addon-hr-employee-calendar-planning]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_hr_employee_calendar_planning-13.0.1.5.3-py3-none-any.whl.zip]
+[2023-07-04 08:33:40] INFO root fetch - processPackages [odoo13-addon-hr-employee-calendar-planning]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_hr_employee_calendar_planning-13.0.1.5.3.dev2-py3-none-any.whl.zip]
+[2023-07-04 08:33:40] INFO root fetch - main [MainThread]: End processing [odoo13-addon-hr-employee-calendar-planning]: success
+[2023-07-04 08:33:40] INFO root fetch - processPackages [pythonic-dbm]: Remove: archive file [/home/abi/fetcher/tmp/pythonic-dbm-0.5.0.tar.gz]
+[2023-07-04 08:33:40] INFO root fetch - processPackages [pythonic-dbm]: Remove: archive file [/home/abi/fetcher/tmp/pythonic-dbm-0.5.1.tar.gz]
+[2023-07-04 08:33:40] INFO root fetch - main [MainThread]: End processing [pythonic-dbm]: success
+[2023-07-04 08:33:40] INFO root fetch - processPackages [miniagent]: Remove: archive file [/home/abi/fetcher/tmp/miniagent-0.0.8-py3-none-any.whl.zip]
+[2023-07-04 08:33:40] INFO root fetch - processPackages [miniagent]: Remove: archive file [/home/abi/fetcher/tmp/miniagent-0.0.9-py3-none-any.whl.zip]
+[2023-07-04 08:33:40] INFO root fetch - main [MainThread]: End processing [miniagent]: success
+[2023-07-04 08:33:40] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-07-04 08:33:40] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-07-04 08:33:40] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-07-04 08:33:40] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-04 08:33:40] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230704/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 08:33:41] INFO root fetch - processPackages [particle]: Remove: archive file [/home/abi/fetcher/tmp/Particle-0.9.1.tar.gz]
+[2023-07-04 08:33:41] INFO root fetch - processPackages [particle]: Remove: archive file [/home/abi/fetcher/tmp/Particle-0.9.2.tar.gz]
+[2023-07-04 08:33:41] INFO root fetch - main [MainThread]: End processing [particle]: success
+[2023-07-04 08:33:41] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-04 08:33:41] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-04 08:33:41] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-04 08:33:43] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230703.tar.gz]
+[2023-07-04 08:33:43] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230704.tar.gz]
+[2023-07-04 08:33:43] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-07-04 08:33:43] INFO root fetch - main [MainThread]: Store serial: [18751023]
