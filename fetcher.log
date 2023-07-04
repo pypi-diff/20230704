@@ -5556,3 +5556,144 @@
 [2023-07-04 03:32:52] INFO root fetch - processPackages [blibs]: Remove: archive file [/home/abi/fetcher/tmp/blibs-1.1.0.tar.gz]
 [2023-07-04 03:32:52] INFO root fetch - main [MainThread]: End processing [blibs]: success
 [2023-07-04 03:32:52] INFO root fetch - main [MainThread]: Store serial: [18748037]
+[2023-07-04 03:37:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18748037]
+[2023-07-04 03:38:01] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-04 03:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-subminute
+[2023-07-04 03:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notion2medium
+[2023-07-04 03:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flux-burst-eks
+[2023-07-04 03:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flux-burst-gke
+[2023-07-04 03:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SPLayout
+[2023-07-04 03:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nerdcore
+[2023-07-04 03:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-lambda-layer-curl
+[2023-07-04 03:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-stdlib
+[2023-07-04 03:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dry-scraper
+[2023-07-04 03:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydantic-br
+[2023-07-04 03:38:01] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-04 03:38:01] INFO root fetch - processPackages [pydantic-br]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-04 03:38:01] INFO root fetch - processPackages [flux-burst-eks]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-04 03:38:01] INFO root fetch - processPackages [notion2medium]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-04 03:38:01] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 03:38:01] INFO root fetch - processPackages [SPLayout]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-04 03:38:01] INFO root fetch - processPackages [dry-scraper]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-04 03:38:01] INFO root fetch - processPackages [flux-burst-gke]: New version: [0.0.11] Old Version: [0.0.1]
+[2023-07-04 03:38:01] INFO root fetch - processPackages [nerdcore]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 03:38:01] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-04 03:38:01] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-04 03:38:01] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/2a/aa/04b6bf496d2cb60e4978ad6d5119c0a09a8b81b3a361be221213dc84f34a/nerdcore-0.1.8.tar.gz
+[2023-07-04 03:38:01] INFO root fetch - processPackages [dry-scraper]: Downloading https://files.pythonhosted.org/packages/ae/2b/bc1bbc77029bfcb0d339beb69bc09fedc45854d76b50deb6b55dd4c4c902/dry_scraper-0.1.7.tar.gz
+[2023-07-04 03:38:01] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-04 03:38:01] INFO root fetch - processPackages [pydantic-br]: Downloading https://files.pythonhosted.org/packages/64/30/953f630c5f421cf257836df59d3325bcdce120158ad401909f168463f4d9/pydantic_br-0.3.0.tar.gz
+[2023-07-04 03:38:01] INFO root fetch - processPackages [notion2medium]: Downloading https://files.pythonhosted.org/packages/9a/63/7eb8b166a9240981753f44f056953207a042ba63d4113755387a348a50f9/notion2medium-1.0.0.tar.gz
+[2023-07-04 03:38:01] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-07-04 03:38:02] INFO root fetch - processPackages [SPLayout]: Downloading https://files.pythonhosted.org/packages/c5/38/ff8cbdb0e1c784d117f3bd6e01ad66e6e860205f9a8b61be0e5dd3d6c376/SPLayout-0.4.8.tar.gz
+[2023-07-04 03:38:02] INFO root fetch - processPackages [flux-burst-eks]: Downloading https://files.pythonhosted.org/packages/27/4b/87d0900cfa6049f7d60cd4d9fed6779111684cd144b58fc2cf55cc0e61be/flux-burst-eks-0.0.0.tar.gz
+[2023-07-04 03:38:02] INFO root fetch - processPackages [flux-burst-gke]: Downloading https://files.pythonhosted.org/packages/65/2c/0c978bab59660051a1cd0c091d6686f807f257262eedb0ab238d1027a41a/flux-burst-gke-0.0.1.tar.gz
+[2023-07-04 03:38:02] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/f0/b9/a7ca11d5ea057e7cfab9c8c440dc31d5d6761c0ba50c16545f42ea89145f/nerdcore-0.1.9.tar.gz
+[2023-07-04 03:38:02] INFO root fetch - processPackages [dry-scraper]: Downloading https://files.pythonhosted.org/packages/4a/18/7b70a84f5d575306af5c69e639887c71580e06d663a162b830e85ca405be/dry_scraper-0.1.8.tar.gz
+[2023-07-04 03:38:02] INFO root fetch - processPackages [nerdcore]: executing diffoscope
+[2023-07-04 03:38:02] INFO root fetch - processPackages [nerdcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerdcore-0.1.8.tar.gz tmp/nerdcore-0.1.9.tar.gz --markdown 20230704/n/nerdcore/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 03:38:02] INFO root fetch - processPackages [flux-burst-eks]: Downloading https://files.pythonhosted.org/packages/52/1f/65d8138e57f1204300826236edc394a3e56ab6de6f5e45b3d6f392256188/flux-burst-eks-0.0.1.tar.gz
+[2023-07-04 03:38:02] INFO root fetch - processPackages [pydantic-br]: Downloading https://files.pythonhosted.org/packages/77/62/9fce7849c88f72bed5ededf9b98e3a707db33ad1132d1208514b6256ae71/pydantic_br-0.4.0.tar.gz
+[2023-07-04 03:38:02] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-07-04 03:38:02] INFO root fetch - processPackages [notion2medium]: Downloading https://files.pythonhosted.org/packages/63/10/cb6458e7f7dfda35717fcfd4a60f6b82426a0e80c8651c45c9f904efe950/notion2medium-1.0.1.tar.gz
+[2023-07-04 03:38:02] INFO root fetch - processPackages [flux-burst-gke]: Downloading https://files.pythonhosted.org/packages/42/1c/aeaeacfd0439e122c926204f808f5241683583ae3547a00d1db285b74d52/flux-burst-gke-0.0.11.tar.gz
+[2023-07-04 03:38:02] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-04 03:38:02] INFO root fetch - processPackages [dry-scraper]: executing diffoscope
+[2023-07-04 03:38:02] INFO root fetch - processPackages [dry-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dry_scraper-0.1.7.tar.gz tmp/dry_scraper-0.1.8.tar.gz --markdown 20230704/d/dry-scraper/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-04 03:38:02] INFO root fetch - processPackages [SPLayout]: Downloading https://files.pythonhosted.org/packages/d9/14/2bb77aa896b691f84eddb9536b7387284fc6e55bc469ef4b05e7550074f1/SPLayout-0.4.9.tar.gz
+[2023-07-04 03:38:02] INFO root fetch - processPackages [flux-burst-eks]: executing diffoscope
+[2023-07-04 03:38:02] INFO root fetch - processPackages [flux-burst-eks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flux-burst-eks-0.0.0.tar.gz tmp/flux-burst-eks-0.0.1.tar.gz --markdown 20230704/f/flux-burst-eks/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-04 03:38:02] INFO root fetch - processPackages [pydantic-br]: executing diffoscope
+[2023-07-04 03:38:02] INFO root fetch - processPackages [pydantic-br]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_br-0.3.0.tar.gz tmp/pydantic_br-0.4.0.tar.gz --markdown 20230704/p/pydantic-br/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-04 03:38:02] INFO root fetch - processPackages [notion2medium]: executing diffoscope
+[2023-07-04 03:38:02] INFO root fetch - processPackages [notion2medium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion2medium-1.0.0.tar.gz tmp/notion2medium-1.0.1.tar.gz --markdown 20230704/n/notion2medium/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-04 03:38:02] INFO root fetch - processPackages [flux-burst-gke]: executing diffoscope
+[2023-07-04 03:38:02] INFO root fetch - processPackages [flux-burst-gke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flux-burst-gke-0.0.1.tar.gz tmp/flux-burst-gke-0.0.11.tar.gz --markdown 20230704/f/flux-burst-gke/0.0.1-0.0.11/diff.md --exclude *.pyd
+[2023-07-04 03:38:02] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-07-04 03:38:02] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230704/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-04 03:38:02] INFO root fetch - processPackages [SPLayout]: executing diffoscope
+[2023-07-04 03:38:02] INFO root fetch - processPackages [SPLayout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPLayout-0.4.8.tar.gz tmp/SPLayout-0.4.9.tar.gz --markdown 20230704/S/SPLayout/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-04 03:38:02] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-04 03:38:02] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230704/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 03:38:03] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-04 03:38:03] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-04 03:38:03] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230704/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-04 03:38:03] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.8.tar.gz]
+[2023-07-04 03:38:03] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.9.tar.gz]
+[2023-07-04 03:38:03] INFO root fetch - processPackages [nerdcore]: Start processing: HALchemy
+[2023-07-04 03:38:03] INFO root fetch - main [MainThread]: End processing [nerdcore]: success
+[2023-07-04 03:38:04] INFO root fetch - processPackages [dry-scraper]: Remove: archive file [/home/abi/fetcher/tmp/dry_scraper-0.1.7.tar.gz]
+[2023-07-04 03:38:04] INFO root fetch - processPackages [dry-scraper]: Remove: archive file [/home/abi/fetcher/tmp/dry_scraper-0.1.8.tar.gz]
+[2023-07-04 03:38:04] INFO root fetch - processPackages [dry-scraper]: Start processing: setuptools-pyproject-migration
+[2023-07-04 03:38:04] INFO root fetch - main [MainThread]: End processing [dry-scraper]: success
+[2023-07-04 03:38:04] INFO root fetch - processPackages [HALchemy]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-04 03:38:04] ERROR root fetch - processPackages [setuptools-pyproject-migration]: Unable to get metadata: No such project 'setuptools-pyproject-migration'
+[2023-07-04 03:38:04] INFO root fetch - processPackages [setuptools-pyproject-migration]: Start processing: swarms
+[2023-07-04 03:38:04] INFO root fetch - main [MainThread]: End processing [setuptools-pyproject-migration] error
+[2023-07-04 03:38:04] INFO root fetch - processPackages [swarms]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-07-04 03:38:04] INFO root fetch - processPackages [HALchemy]: Downloading https://files.pythonhosted.org/packages/66/57/11be7c41a4016ffadda7f96ebe8dcb5ec5f6eefa9f44599ab8d223f74b42/HALchemy-0.1.2-py3-none-any.whl
+[2023-07-04 03:38:04] INFO root fetch - processPackages [pydantic-br]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_br-0.3.0.tar.gz]
+[2023-07-04 03:38:04] INFO root fetch - processPackages [pydantic-br]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_br-0.4.0.tar.gz]
+[2023-07-04 03:38:04] INFO root fetch - processPackages [pydantic-br]: Start processing: flux-burst
+[2023-07-04 03:38:04] INFO root fetch - main [MainThread]: End processing [pydantic-br]: success
+[2023-07-04 03:38:04] INFO root fetch - processPackages [flux-burst-gke]: Remove: archive file [/home/abi/fetcher/tmp/flux-burst-gke-0.0.1.tar.gz]
+[2023-07-04 03:38:04] INFO root fetch - processPackages [flux-burst-gke]: Remove: archive file [/home/abi/fetcher/tmp/flux-burst-gke-0.0.11.tar.gz]
+[2023-07-04 03:38:04] INFO root fetch - processPackages [flux-burst-gke]: Start processing: nbdev-numpy
+[2023-07-04 03:38:04] INFO root fetch - main [MainThread]: End processing [flux-burst-gke]: success
+[2023-07-04 03:38:04] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-07-04 03:38:04] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-07-04 03:38:04] INFO root fetch - processPackages [cdk-lambda-subminute]: Start processing: gutenberg2kindle
+[2023-07-04 03:38:04] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-07-04 03:38:04] INFO root fetch - processPackages [flux-burst]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-07-04 03:38:04] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/e4/32/3009de495b81199c55777ac930451de3668c1376c10419a03ac2a283582d/swarms-0.2.0.tar.gz
+[2023-07-04 03:38:04] INFO root fetch - processPackages [flux-burst-eks]: Remove: archive file [/home/abi/fetcher/tmp/flux-burst-eks-0.0.0.tar.gz]
+[2023-07-04 03:38:04] INFO root fetch - processPackages [flux-burst-eks]: Remove: archive file [/home/abi/fetcher/tmp/flux-burst-eks-0.0.1.tar.gz]
+[2023-07-04 03:38:04] INFO root fetch - main [MainThread]: End processing [flux-burst-eks]: success
+[2023-07-04 03:38:04] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 03:38:04] INFO root fetch - processPackages [SPLayout]: Remove: archive file [/home/abi/fetcher/tmp/SPLayout-0.4.8.tar.gz]
+[2023-07-04 03:38:04] INFO root fetch - processPackages [SPLayout]: Remove: archive file [/home/abi/fetcher/tmp/SPLayout-0.4.9.tar.gz]
+[2023-07-04 03:38:04] INFO root fetch - main [MainThread]: End processing [SPLayout]: success
+[2023-07-04 03:38:04] INFO root fetch - processPackages [flux-burst]: Downloading https://files.pythonhosted.org/packages/7f/6c/86eb6824b1c4f15625809efe20870c884ebf7727c88444f407f04ed7d7f6/flux-burst-0.0.11.tar.gz
+[2023-07-04 03:38:04] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-04 03:38:04] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-04 03:38:04] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-04 03:38:04] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-04 03:38:04] INFO root fetch - processPackages [notion2medium]: Remove: archive file [/home/abi/fetcher/tmp/notion2medium-1.0.0.tar.gz]
+[2023-07-04 03:38:04] INFO root fetch - processPackages [notion2medium]: Remove: archive file [/home/abi/fetcher/tmp/notion2medium-1.0.1.tar.gz]
+[2023-07-04 03:38:04] INFO root fetch - main [MainThread]: End processing [notion2medium]: success
+[2023-07-04 03:38:04] INFO root fetch - processPackages [gutenberg2kindle]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-04 03:38:04] INFO root fetch - processPackages [HALchemy]: Downloading https://files.pythonhosted.org/packages/d4/2e/91d50dc8b6e6fa8744a01fb3413479ad824a0055cfe2785fa6a4bf8fda43/HALchemy-0.1.3-py3-none-any.whl
+[2023-07-04 03:38:04] INFO root fetch - processPackages [HALchemy]: executing diffoscope
+[2023-07-04 03:38:04] INFO root fetch - processPackages [HALchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HALchemy-0.1.2-py3-none-any.whl.zip tmp/HALchemy-0.1.3-py3-none-any.whl.zip --markdown 20230704/H/HALchemy/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-04 03:38:04] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-04 03:38:04] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/2e/b1/30b9c2908a6e48d576210aad947b405f92a7ba0875b2a3194da48ced2a9d/swarms-0.2.2.tar.gz
+[2023-07-04 03:38:04] INFO root fetch - processPackages [gutenberg2kindle]: Downloading https://files.pythonhosted.org/packages/8b/5d/9c3395178f4daba68600b85af47eaa46ef60582d0a52af7b573cc4a71e0e/gutenberg2kindle-0.4.0.tar.gz
+[2023-07-04 03:38:04] INFO root fetch - processPackages [flux-burst]: Downloading https://files.pythonhosted.org/packages/00/81/3d80fefbb2f901b3ee5fe2672f694fda087eae7ee1f9d7f975dc53baf87f/flux-burst-0.0.12.tar.gz
+[2023-07-04 03:38:04] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-04 03:38:04] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230704/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 03:38:04] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-04 03:38:04] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.2.0.tar.gz tmp/swarms-0.2.2.tar.gz --markdown 20230704/s/swarms/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-07-04 03:38:04] INFO root fetch - processPackages [flux-burst]: executing diffoscope
+[2023-07-04 03:38:04] INFO root fetch - processPackages [flux-burst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flux-burst-0.0.11.tar.gz tmp/flux-burst-0.0.12.tar.gz --markdown 20230704/f/flux-burst/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-07-04 03:38:05] INFO root fetch - processPackages [gutenberg2kindle]: Downloading https://files.pythonhosted.org/packages/48/ff/1c50b16dfc0b80a8c5e002b04747811574638948498578c3ab673c165a6d/gutenberg2kindle-0.5.0.tar.gz
+[2023-07-04 03:38:05] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-04 03:38:05] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-04 03:38:05] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-04 03:38:05] INFO root fetch - processPackages [HALchemy]: Remove: archive file [/home/abi/fetcher/tmp/HALchemy-0.1.2-py3-none-any.whl.zip]
+[2023-07-04 03:38:05] INFO root fetch - processPackages [HALchemy]: Remove: archive file [/home/abi/fetcher/tmp/HALchemy-0.1.3-py3-none-any.whl.zip]
+[2023-07-04 03:38:05] INFO root fetch - main [MainThread]: End processing [HALchemy]: success
+[2023-07-04 03:38:05] INFO root fetch - processPackages [gutenberg2kindle]: executing diffoscope
+[2023-07-04 03:38:05] INFO root fetch - processPackages [gutenberg2kindle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gutenberg2kindle-0.4.0.tar.gz tmp/gutenberg2kindle-0.5.0.tar.gz --markdown 20230704/g/gutenberg2kindle/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-04 03:38:05] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-04 03:38:05] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-04 03:38:05] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-04 03:38:05] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.2.0.tar.gz]
+[2023-07-04 03:38:05] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.2.2.tar.gz]
+[2023-07-04 03:38:05] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-04 03:38:06] INFO root fetch - processPackages [flux-burst]: Remove: archive file [/home/abi/fetcher/tmp/flux-burst-0.0.11.tar.gz]
+[2023-07-04 03:38:06] INFO root fetch - processPackages [flux-burst]: Remove: archive file [/home/abi/fetcher/tmp/flux-burst-0.0.12.tar.gz]
+[2023-07-04 03:38:06] INFO root fetch - main [MainThread]: End processing [flux-burst]: success
+[2023-07-04 03:38:06] INFO root fetch - processPackages [gutenberg2kindle]: Remove: archive file [/home/abi/fetcher/tmp/gutenberg2kindle-0.4.0.tar.gz]
+[2023-07-04 03:38:06] INFO root fetch - processPackages [gutenberg2kindle]: Remove: archive file [/home/abi/fetcher/tmp/gutenberg2kindle-0.5.0.tar.gz]
+[2023-07-04 03:38:06] INFO root fetch - main [MainThread]: End processing [gutenberg2kindle]: success
+[2023-07-04 03:38:06] INFO root fetch - main [MainThread]: Store serial: [18748083]
