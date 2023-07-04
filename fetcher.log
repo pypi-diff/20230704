@@ -5229,3 +5229,141 @@
 [2023-07-04 03:12:02] INFO root fetch - processPackages [raydp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/raydp_nightly-2023.7.4.dev0-py3-none-any.whl.zip]
 [2023-07-04 03:12:02] INFO root fetch - main [MainThread]: End processing [raydp-nightly]: success
 [2023-07-04 03:12:02] INFO root fetch - main [MainThread]: Store serial: [18747879]
+[2023-07-04 03:17:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18747879]
+[2023-07-04 03:17:11] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-04 03:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psh-pytorch
+[2023-07-04 03:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: awsx
+[2023-07-04 03:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HALchemy
+[2023-07-04 03:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyagrum-nightly
+[2023-07-04 03:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aemcmc-nightly
+[2023-07-04 03:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nats-py-worker
+[2023-07-04 03:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-lambda-layer-curl
+[2023-07-04 03:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyGameAutoAndroid
+[2023-07-04 03:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dry-scraper
+[2023-07-04 03:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xiaopy
+[2023-07-04 03:17:11] INFO root fetch - processPackages [nats-py-worker]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-04 03:17:11] INFO root fetch - processPackages [awsx]: New version: [0.3] Old Version: [0.2]
+[2023-07-04 03:17:11] INFO root fetch - processPackages [HALchemy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-04 03:17:11] INFO root fetch - processPackages [psh-pytorch]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-04 03:17:11] INFO root fetch - processPackages [dry-scraper]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-04 03:17:11] INFO root fetch - processPackages [PyGameAutoAndroid]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 03:17:11] INFO root fetch - processPackages [xiaopy]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-07-04 03:17:11] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.3.dev202306121686326557] Old Version: [1.8.3.dev202306111686326557]
+[2023-07-04 03:17:11] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230703] Old Version: [0.0.8.dev20230702]
+[2023-07-04 03:17:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-04 03:17:11] INFO root fetch - processPackages [nats-py-worker]: Downloading https://files.pythonhosted.org/packages/81/5b/d21f27eb4e926f11a1f112ddb01c77ce01bd04f07cba06531015bc664fae/nats-py-worker-0.0.3.tar.gz
+[2023-07-04 03:17:11] INFO root fetch - processPackages [dry-scraper]: Downloading https://files.pythonhosted.org/packages/4d/09/1d2fa40137790f70c42fb1b5c62e6baabb87ba48cbe124219a2b888ced6f/dry_scraper-0.1.6.tar.gz
+[2023-07-04 03:17:11] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/07/46/270b8b245feb59d5f249e10ced72a02b0db3ac8b574dbdc1c90e197d19b0/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl
+[2023-07-04 03:17:12] INFO root fetch - processPackages [HALchemy]: Downloading https://files.pythonhosted.org/packages/c3/66/1ebce5713adc65144bc511046761a060f5129bfd0109297bb51e08aa952d/HALchemy-0.1.1-py3-none-any.whl
+[2023-07-04 03:17:12] INFO root fetch - processPackages [awsx]: Downloading https://files.pythonhosted.org/packages/3d/0d/4337cbb362040ececbd0adc9c58f58ec0ebb26fd8ff87d55ca2beff8d5f6/awsx-0.2.tar.gz
+[2023-07-04 03:17:12] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/e4/16/6789a2ab4716b878a066a74e79cf3368441df6eb8e95f208bfb1f35b39a0/aemcmc-nightly-0.0.8.dev20230702.tar.gz
+[2023-07-04 03:17:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-04 03:17:12] INFO root fetch - processPackages [xiaopy]: Downloading https://files.pythonhosted.org/packages/8f/0b/ffd19028ed85cf357e88b78747b53a486c0ebe1a48c6f245680d37613efb/xiaopy-0.0.20.tar.gz
+[2023-07-04 03:17:12] INFO root fetch - processPackages [psh-pytorch]: Downloading https://files.pythonhosted.org/packages/a9/08/2b2b90d1a9b99cb2f555de05d99da0fecfc771c086411243549b864da1ba/psh-pytorch-0.0.1.tar.gz
+[2023-07-04 03:17:12] INFO root fetch - processPackages [PyGameAutoAndroid]: Downloading https://files.pythonhosted.org/packages/9c/20/fdc661fcca0def729058daa01da91df0692b5241dbbde5836efdd22f3c8b/PyGameAutoAndroid-0.0.8.tar.gz
+[2023-07-04 03:17:12] INFO root fetch - processPackages [nats-py-worker]: Downloading https://files.pythonhosted.org/packages/a4/bc/d7e563c838522b99243c553faed7571190a376aabcd6fde9716807931f89/nats-py-worker-0.0.4.tar.gz
+[2023-07-04 03:17:12] INFO root fetch - processPackages [dry-scraper]: Downloading https://files.pythonhosted.org/packages/ae/2b/bc1bbc77029bfcb0d339beb69bc09fedc45854d76b50deb6b55dd4c4c902/dry_scraper-0.1.7.tar.gz
+[2023-07-04 03:17:12] INFO root fetch - processPackages [awsx]: Downloading https://files.pythonhosted.org/packages/47/2e/a5ac9c8db5218753606f272880835fb1782e1e297d24b64d157ab10bdcdf/awsx-0.3.tar.gz
+[2023-07-04 03:17:12] INFO root fetch - processPackages [HALchemy]: Downloading https://files.pythonhosted.org/packages/66/57/11be7c41a4016ffadda7f96ebe8dcb5ec5f6eefa9f44599ab8d223f74b42/HALchemy-0.1.2-py3-none-any.whl
+[2023-07-04 03:17:12] INFO root fetch - processPackages [PyGameAutoAndroid]: Downloading https://files.pythonhosted.org/packages/3c/f6/fb5f63a5be04eef4079fb7b07bc2545213570736d5468ba33f19f93e1f64/PyGameAutoAndroid-0.0.9-py3-none-any.whl
+[2023-07-04 03:17:12] INFO root fetch - processPackages [xiaopy]: Downloading https://files.pythonhosted.org/packages/06/64/4916ae26a0f1339c6fe74f0d092b7c7826047acb7bc1392101d97cd98d48/xiaopy-0.0.21.tar.gz
+[2023-07-04 03:17:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-04 03:17:12] INFO root fetch - processPackages [psh-pytorch]: Downloading https://files.pythonhosted.org/packages/cc/0a/42240a1fb0588be954a40ed46ea3b5c4446172b14caf40176888c4e9a3cf/psh-pytorch-0.0.2.tar.gz
+[2023-07-04 03:17:12] INFO root fetch - processPackages [nats-py-worker]: executing diffoscope
+[2023-07-04 03:17:12] INFO root fetch - processPackages [nats-py-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nats-py-worker-0.0.3.tar.gz tmp/nats-py-worker-0.0.4.tar.gz --markdown 20230704/n/nats-py-worker/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-04 03:17:12] INFO root fetch - processPackages [awsx]: executing diffoscope
+[2023-07-04 03:17:12] INFO root fetch - processPackages [awsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsx-0.2.tar.gz tmp/awsx-0.3.tar.gz --markdown 20230704/a/awsx/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-04 03:17:12] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/fb/88/a688d084e1b30913adad4113461c30267c2b31f5c24a4a0bbcc5d8650b96/aemcmc-nightly-0.0.8.dev20230703.tar.gz
+[2023-07-04 03:17:12] INFO root fetch - processPackages [HALchemy]: executing diffoscope
+[2023-07-04 03:17:12] INFO root fetch - processPackages [HALchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HALchemy-0.1.1-py3-none-any.whl.zip tmp/HALchemy-0.1.2-py3-none-any.whl.zip --markdown 20230704/H/HALchemy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-04 03:17:12] INFO root fetch - processPackages [PyGameAutoAndroid]: executing diffoscope
+[2023-07-04 03:17:12] INFO root fetch - processPackages [PyGameAutoAndroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGameAutoAndroid-0.0.8.tar.gz tmp/PyGameAutoAndroid-0.0.9-py3-none-any.whl.zip --markdown 20230704/P/PyGameAutoAndroid/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 03:17:12] INFO root fetch - processPackages [dry-scraper]: executing diffoscope
+[2023-07-04 03:17:12] INFO root fetch - processPackages [dry-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dry_scraper-0.1.6.tar.gz tmp/dry_scraper-0.1.7.tar.gz --markdown 20230704/d/dry-scraper/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-04 03:17:12] INFO root fetch - processPackages [xiaopy]: executing diffoscope
+[2023-07-04 03:17:12] INFO root fetch - processPackages [xiaopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaopy-0.0.20.tar.gz tmp/xiaopy-0.0.21.tar.gz --markdown 20230704/x/xiaopy/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-07-04 03:17:12] INFO root fetch - processPackages [psh-pytorch]: executing diffoscope
+[2023-07-04 03:17:12] INFO root fetch - processPackages [psh-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psh-pytorch-0.0.1.tar.gz tmp/psh-pytorch-0.0.2.tar.gz --markdown 20230704/p/psh-pytorch/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-04 03:17:12] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-07-04 03:17:12] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230702.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230703.tar.gz --markdown 20230704/a/aemcmc-nightly/0.0.8.dev20230702-0.0.8.dev20230703/diff.md --exclude *.pyd
+[2023-07-04 03:17:13] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/c0/d4/20a48d2f9b4e252fe76b5a7e22de84caa21e8f08934645676fb47376de73/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl
+[2023-07-04 03:17:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-04 03:17:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230704/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-04 03:17:13] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-07-04 03:17:13] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip --markdown 20230704/p/pyagrum-nightly/1.8.3.dev202306111686326557-1.8.3.dev202306121686326557/diff.md --exclude *.pyd
+[2023-07-04 03:17:14] INFO root fetch - processPackages [nats-py-worker]: Remove: archive file [/home/abi/fetcher/tmp/nats-py-worker-0.0.3.tar.gz]
+[2023-07-04 03:17:14] INFO root fetch - processPackages [nats-py-worker]: Remove: archive file [/home/abi/fetcher/tmp/nats-py-worker-0.0.4.tar.gz]
+[2023-07-04 03:17:14] INFO root fetch - processPackages [nats-py-worker]: Start processing: langchain-interpreter
+[2023-07-04 03:17:14] INFO root fetch - main [MainThread]: End processing [nats-py-worker]: success
+[2023-07-04 03:17:14] INFO root fetch - processPackages [langchain-interpreter]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-04 03:17:14] INFO root fetch - processPackages [awsx]: Remove: archive file [/home/abi/fetcher/tmp/awsx-0.2.tar.gz]
+[2023-07-04 03:17:14] INFO root fetch - processPackages [awsx]: Remove: archive file [/home/abi/fetcher/tmp/awsx-0.3.tar.gz]
+[2023-07-04 03:17:14] INFO root fetch - processPackages [awsx]: Start processing: swarms
+[2023-07-04 03:17:14] INFO root fetch - main [MainThread]: End processing [awsx]: success
+[2023-07-04 03:17:14] INFO root fetch - processPackages [PyGameAutoAndroid]: Remove: archive file [/home/abi/fetcher/tmp/PyGameAutoAndroid-0.0.8.tar.gz]
+[2023-07-04 03:17:14] INFO root fetch - processPackages [PyGameAutoAndroid]: Remove: archive file [/home/abi/fetcher/tmp/PyGameAutoAndroid-0.0.9-py3-none-any.whl.zip]
+[2023-07-04 03:17:14] INFO root fetch - processPackages [PyGameAutoAndroid]: Start processing: ai2-kit
+[2023-07-04 03:17:14] INFO root fetch - main [MainThread]: End processing [PyGameAutoAndroid]: success
+[2023-07-04 03:17:14] INFO root fetch - processPackages [swarms]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-04 03:17:14] INFO root fetch - processPackages [HALchemy]: Remove: archive file [/home/abi/fetcher/tmp/HALchemy-0.1.1-py3-none-any.whl.zip]
+[2023-07-04 03:17:14] INFO root fetch - processPackages [HALchemy]: Remove: archive file [/home/abi/fetcher/tmp/HALchemy-0.1.2-py3-none-any.whl.zip]
+[2023-07-04 03:17:14] INFO root fetch - processPackages [HALchemy]: Start processing: quarkstudio
+[2023-07-04 03:17:14] INFO root fetch - main [MainThread]: End processing [HALchemy]: success
+[2023-07-04 03:17:14] INFO root fetch - processPackages [ai2-kit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-04 03:17:14] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/1f/f4/775f945ffca40301b352c758e06ae028b291f0a5c14e14f3143e241d8963/swarms-0.1.9.tar.gz
+[2023-07-04 03:17:14] INFO root fetch - processPackages [quarkstudio]: New version: [6.5.0rc13] Old Version: [6.5.0]
+[2023-07-04 03:17:14] INFO root fetch - processPackages [dry-scraper]: Remove: archive file [/home/abi/fetcher/tmp/dry_scraper-0.1.6.tar.gz]
+[2023-07-04 03:17:14] INFO root fetch - processPackages [dry-scraper]: Remove: archive file [/home/abi/fetcher/tmp/dry_scraper-0.1.7.tar.gz]
+[2023-07-04 03:17:14] INFO root fetch - processPackages [dry-scraper]: Start processing: awsx
+[2023-07-04 03:17:14] INFO root fetch - main [MainThread]: End processing [dry-scraper]: success
+[2023-07-04 03:17:14] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/eb/f4/ea38d8c9f78873edcbb17216f185baee2019ecb183cd80b334c593f2b1bc/ai2_kit-0.3.8.tar.gz
+[2023-07-04 03:17:14] INFO root fetch - processPackages [langchain-interpreter]: Downloading https://files.pythonhosted.org/packages/69/f1/fd89ab233fb41b555a49fbf9968219dd834b284c4b45224c353cb8885702/langchain_interpreter-0.0.2.tar.gz
+[2023-07-04 03:17:14] INFO root fetch - processPackages [xiaopy]: Remove: archive file [/home/abi/fetcher/tmp/xiaopy-0.0.20.tar.gz]
+[2023-07-04 03:17:14] INFO root fetch - processPackages [xiaopy]: Remove: archive file [/home/abi/fetcher/tmp/xiaopy-0.0.21.tar.gz]
+[2023-07-04 03:17:14] INFO root fetch - main [MainThread]: End processing [xiaopy]: success
+[2023-07-04 03:17:14] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230702.tar.gz]
+[2023-07-04 03:17:14] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230703.tar.gz]
+[2023-07-04 03:17:14] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-07-04 03:17:14] INFO root fetch - processPackages [psh-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/psh-pytorch-0.0.1.tar.gz]
+[2023-07-04 03:17:14] INFO root fetch - processPackages [psh-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/psh-pytorch-0.0.2.tar.gz]
+[2023-07-04 03:17:14] INFO root fetch - main [MainThread]: End processing [psh-pytorch]: success
+[2023-07-04 03:17:14] INFO root fetch - processPackages [awsx]: New version: [0.3] Old Version: [0.2]
+[2023-07-04 03:17:14] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/c5/13/0eae112a55dc5e7dcb4033c76d942a8031d55e44fd48a75b642a87187109/quarkstudio-6.5.0-cp311-none-win_amd64.whl
+[2023-07-04 03:17:14] INFO root fetch - processPackages [awsx]: Downloading https://files.pythonhosted.org/packages/3d/0d/4337cbb362040ececbd0adc9c58f58ec0ebb26fd8ff87d55ca2beff8d5f6/awsx-0.2.tar.gz
+[2023-07-04 03:17:14] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-07-04 03:17:14] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-07-04 03:17:14] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-07-04 03:17:14] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/e4/32/3009de495b81199c55777ac930451de3668c1376c10419a03ac2a283582d/swarms-0.2.0.tar.gz
+[2023-07-04 03:17:14] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/f8/ec/3044fde579418570279eb9f4c2d60facdbd573ed724ec7fa07e3a4c940aa/ai2_kit-0.3.9.tar.gz
+[2023-07-04 03:17:14] INFO root fetch - processPackages [langchain-interpreter]: Downloading https://files.pythonhosted.org/packages/0d/a4/82a3ab5857fc0e57a8941262ea876eee5b0c9996f1213207d1662317ff0a/langchain_interpreter-0.0.3.tar.gz
+[2023-07-04 03:17:14] INFO root fetch - processPackages [awsx]: Downloading https://files.pythonhosted.org/packages/47/2e/a5ac9c8db5218753606f272880835fb1782e1e297d24b64d157ab10bdcdf/awsx-0.3.tar.gz
+[2023-07-04 03:17:15] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-04 03:17:15] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.1.9.tar.gz tmp/swarms-0.2.0.tar.gz --markdown 20230704/s/swarms/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-04 03:17:15] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-04 03:17:15] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-04 03:17:15] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-04 03:17:15] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-07-04 03:17:15] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.3.8.tar.gz tmp/ai2_kit-0.3.9.tar.gz --markdown 20230704/a/ai2-kit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-04 03:17:15] INFO root fetch - processPackages [langchain-interpreter]: executing diffoscope
+[2023-07-04 03:17:15] INFO root fetch - processPackages [langchain-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_interpreter-0.0.2.tar.gz tmp/langchain_interpreter-0.0.3.tar.gz --markdown 20230704/l/langchain-interpreter/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-04 03:17:15] INFO root fetch - processPackages [awsx]: executing diffoscope
+[2023-07-04 03:17:15] INFO root fetch - processPackages [awsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsx-0.2.tar.gz tmp/awsx-0.3.tar.gz --markdown 20230704/a/awsx/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-04 03:17:15] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/32/28/a2636bb949090f66f4bdae549e18fc14c5c52c2edc3257954114bb9a734a/quarkstudio-6.5.0rc13-cp311-cp311-win_amd64.whl
+[2023-07-04 03:17:15] INFO root fetch - processPackages [awsx]: Remove: archive file [/home/abi/fetcher/tmp/awsx-0.2.tar.gz]
+[2023-07-04 03:17:15] INFO root fetch - processPackages [awsx]: Remove: archive file [/home/abi/fetcher/tmp/awsx-0.3.tar.gz]
+[2023-07-04 03:17:15] INFO root fetch - main [MainThread]: End processing [awsx]: success
+[2023-07-04 03:17:15] INFO root fetch - processPackages [langchain-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/langchain_interpreter-0.0.2.tar.gz]
+[2023-07-04 03:17:15] INFO root fetch - processPackages [langchain-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/langchain_interpreter-0.0.3.tar.gz]
+[2023-07-04 03:17:15] INFO root fetch - main [MainThread]: End processing [langchain-interpreter]: success
+[2023-07-04 03:17:15] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.1.9.tar.gz]
+[2023-07-04 03:17:15] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.2.0.tar.gz]
+[2023-07-04 03:17:15] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-04 03:17:16] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.8.tar.gz]
+[2023-07-04 03:17:16] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.9.tar.gz]
+[2023-07-04 03:17:16] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-07-04 03:17:16] INFO root fetch - processPackages [quarkstudio]: executing diffoscope
+[2023-07-04 03:17:16] INFO root fetch - processPackages [quarkstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarkstudio-6.5.0-cp311-none-win_amd64.whl.zip tmp/quarkstudio-6.5.0rc13-cp311-cp311-win_amd64.whl.zip --markdown 20230704/q/quarkstudio/6.5.0-6.5.0rc13/diff.md --exclude *.pyd
+[2023-07-04 03:17:18] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.5.0-cp311-none-win_amd64.whl.zip]
+[2023-07-04 03:17:18] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.5.0rc13-cp311-cp311-win_amd64.whl.zip]
+[2023-07-04 03:17:18] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
+[2023-07-04 03:17:18] INFO root fetch - main [MainThread]: Store serial: [18747943]
