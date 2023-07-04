@@ -9349,3 +9349,63 @@
 [2023-07-04 04:08:29] INFO root fetch - processPackages [agentverse]: Remove: archive file [/home/abi/fetcher/tmp/agentverse-0.1.2.tar.gz]
 [2023-07-04 04:08:29] INFO root fetch - main [MainThread]: End processing [agentverse]: success
 [2023-07-04 04:08:29] INFO root fetch - main [MainThread]: Store serial: [18749406]
+[2023-07-04 04:13:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18749406]
+[2023-07-04 04:13:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-04 04:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: calamine-tablib
+[2023-07-04 04:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cjm-yolox-pytorch
+[2023-07-04 04:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dry-scraper
+[2023-07-04 04:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dry-scraper
+[2023-07-04 04:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cjm-yolox-pytorch
+[2023-07-04 04:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: homeassistant-stubs
+[2023-07-04 04:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: calamine-tablib
+[2023-07-04 04:13:38] INFO root fetch - processPackages [dry-scraper]: New version: [0.1.8.4] Old Version: [0.1.8.3]
+[2023-07-04 04:13:38] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 04:13:38] INFO root fetch - processPackages [calamine-tablib]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-04 04:13:38] INFO root fetch - processPackages [dry-scraper]: New version: [0.1.8.4] Old Version: [0.1.8.3]
+[2023-07-04 04:13:38] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 04:13:38] INFO root fetch - processPackages [calamine-tablib]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-04 04:13:38] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.7.0b5] Old Version: [2023.7.0b4]
+[2023-07-04 04:13:38] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/24/6f/5f70f3c172bc178d720d61952ac04347b8950d13950ea397dd8784379a83/homeassistant_stubs-2023.7.0b4.tar.gz
+[2023-07-04 04:13:38] INFO root fetch - processPackages [dry-scraper]: Downloading https://files.pythonhosted.org/packages/26/cd/fb4938516267b190f70b5c2e1c6dff45184b50dd559be4dc59a742dc4180/dry_scraper-0.1.8.3.tar.gz
+[2023-07-04 04:13:38] INFO root fetch - processPackages [dry-scraper]: Downloading https://files.pythonhosted.org/packages/26/cd/fb4938516267b190f70b5c2e1c6dff45184b50dd559be4dc59a742dc4180/dry_scraper-0.1.8.3.tar.gz
+[2023-07-04 04:13:38] INFO root fetch - processPackages [calamine-tablib]: Downloading https://files.pythonhosted.org/packages/8f/fd/5fbf44e7b5418ae45cc59d889bb67babc0249927a870432a0713c78681c4/calamine_tablib-0.1.0.tar.gz
+[2023-07-04 04:13:38] INFO root fetch - processPackages [calamine-tablib]: Downloading https://files.pythonhosted.org/packages/8f/fd/5fbf44e7b5418ae45cc59d889bb67babc0249927a870432a0713c78681c4/calamine_tablib-0.1.0.tar.gz
+[2023-07-04 04:13:38] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-04 04:13:38] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-04 04:13:38] INFO root fetch - processPackages [dry-scraper]: Downloading https://files.pythonhosted.org/packages/63/fd/2c499c2f052e9357ce0d6d1d12ee397bb35773b682d9607c3462bddd5df9/dry_scraper-0.1.8.4.tar.gz
+[2023-07-04 04:13:38] INFO root fetch - processPackages [dry-scraper]: Downloading https://files.pythonhosted.org/packages/63/fd/2c499c2f052e9357ce0d6d1d12ee397bb35773b682d9607c3462bddd5df9/dry_scraper-0.1.8.4.tar.gz
+[2023-07-04 04:13:38] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/1c/35/e086d5ccd3640a7a967f3195ca945303e1b21bc0292d63c586ba0f2907bb/homeassistant_stubs-2023.7.0b5.tar.gz
+[2023-07-04 04:13:38] INFO root fetch - processPackages [calamine-tablib]: Downloading https://files.pythonhosted.org/packages/89/d4/fd68c6b5c1b42765f0513063364139169490e0852992e868e3b680fcf98c/calamine_tablib-0.1.1.tar.gz
+[2023-07-04 04:13:38] INFO root fetch - processPackages [dry-scraper]: executing diffoscope
+[2023-07-04 04:13:38] INFO root fetch - processPackages [dry-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dry_scraper-0.1.8.3.tar.gz tmp/dry_scraper-0.1.8.4.tar.gz --markdown 20230704/d/dry-scraper/0.1.8.3-0.1.8.4/diff.md --exclude *.pyd
+[2023-07-04 04:13:38] INFO root fetch - processPackages [dry-scraper]: executing diffoscope
+[2023-07-04 04:13:38] INFO root fetch - processPackages [dry-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dry_scraper-0.1.8.3.tar.gz tmp/dry_scraper-0.1.8.4.tar.gz --markdown 20230704/d/dry-scraper/0.1.8.3-0.1.8.4/diff.md --exclude *.pyd
+[2023-07-04 04:13:38] INFO root fetch - processPackages [calamine-tablib]: Downloading https://files.pythonhosted.org/packages/89/d4/fd68c6b5c1b42765f0513063364139169490e0852992e868e3b680fcf98c/calamine_tablib-0.1.1.tar.gz
+[2023-07-04 04:13:39] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-04 04:13:39] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-04 04:13:39] INFO root fetch - processPackages [calamine-tablib]: executing diffoscope
+[2023-07-04 04:13:39] INFO root fetch - processPackages [calamine-tablib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calamine_tablib-0.1.0.tar.gz tmp/calamine_tablib-0.1.1.tar.gz --markdown 20230704/c/calamine-tablib/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-04 04:13:39] INFO root fetch - processPackages [calamine-tablib]: executing diffoscope
+[2023-07-04 04:13:39] INFO root fetch - processPackages [calamine-tablib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calamine_tablib-0.1.0.tar.gz tmp/calamine_tablib-0.1.1.tar.gz --markdown 20230704/c/calamine-tablib/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-04 04:13:39] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-04 04:13:39] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230704/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 04:13:39] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-04 04:13:39] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230704/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 04:13:39] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-07-04 04:13:39] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.7.0b4.tar.gz tmp/homeassistant_stubs-2023.7.0b5.tar.gz --markdown 20230704/h/homeassistant-stubs/2023.7.0b4-2023.7.0b5/diff.md --exclude *.pyd
+[2023-07-04 04:13:40] INFO root fetch - processPackages [dry-scraper]: Remove: archive file [/home/abi/fetcher/tmp/dry_scraper-0.1.8.3.tar.gz]
+[2023-07-04 04:13:40] INFO root fetch - processPackages [dry-scraper]: Remove: archive file [/home/abi/fetcher/tmp/dry_scraper-0.1.8.4.tar.gz]
+[2023-07-04 04:13:40] INFO root fetch - main [MainThread]: End processing [dry-scraper]: success
+[2023-07-04 04:13:40] INFO root fetch - main [MainThread]: End processing [dry-scraper]: success
+[2023-07-04 04:13:40] INFO root fetch - processPackages [calamine-tablib]: Remove: archive file [/home/abi/fetcher/tmp/calamine_tablib-0.1.0.tar.gz]
+[2023-07-04 04:13:40] INFO root fetch - processPackages [calamine-tablib]: Remove: archive file [/home/abi/fetcher/tmp/calamine_tablib-0.1.1.tar.gz]
+[2023-07-04 04:13:40] INFO root fetch - main [MainThread]: End processing [calamine-tablib]: success
+[2023-07-04 04:13:40] INFO root fetch - main [MainThread]: End processing [calamine-tablib]: success
+[2023-07-04 04:13:40] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-04 04:13:40] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-04 04:13:40] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-04 04:13:40] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-04 04:13:55] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.0b4.tar.gz]
+[2023-07-04 04:13:55] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.0b5.tar.gz]
+[2023-07-04 04:13:55] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-07-04 04:13:55] INFO root fetch - main [MainThread]: Store serial: [18749432]
