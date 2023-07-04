@@ -19429,3 +19429,112 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 12:51:37] INFO root fetch - processPackages [zenml]: Remove: archive file [/home/abi/fetcher/tmp/zenml-0.9.0.tar.gz]
 [2023-07-04 12:51:37] INFO root fetch - main [MainThread]: End processing [zenml]: success
 [2023-07-04 12:51:37] INFO root fetch - main [MainThread]: Store serial: [18753616]
+[2023-07-04 12:56:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18753616]
+[2023-07-04 12:56:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-04 12:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hvps
+[2023-07-04 12:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: napalm-nokia-olt
+[2023-07-04 12:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aistudio-scheduler-lock
+[2023-07-04 12:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mypackagelicenseprototype
+[2023-07-04 12:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dz-dynamodb
+[2023-07-04 12:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sharingiscaring
+[2023-07-04 12:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gocardless-pro
+[2023-07-04 12:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: exec-helpers
+[2023-07-04 12:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hvps
+[2023-07-04 12:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: AlphaPeel
+[2023-07-04 12:56:49] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [5.0.8] Old Version: [5.0.7]
+[2023-07-04 12:56:49] INFO root fetch - processPackages [AlphaPeel]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-04 12:56:49] INFO root fetch - processPackages [napalm-nokia-olt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 12:56:49] INFO root fetch - processPackages [hvps]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-04 12:56:49] INFO root fetch - processPackages [hvps]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-04 12:56:49] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-04 12:56:49] INFO root fetch - processPackages [dz-dynamodb]: New version: [1.4.0] Old Version: [1.3.9]
+[2023-07-04 12:56:49] INFO root fetch - processPackages [aistudio-scheduler-lock]: New version: [1.0.7] Old Version: [1.0.6a1]
+[2023-07-04 12:56:49] INFO root fetch - processPackages [gocardless-pro]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-04 12:56:49] INFO root fetch - processPackages [AlphaPeel]: Downloading https://files.pythonhosted.org/packages/22/33/77f7e51c3ff24430158ccbe944596bb42b373e30809c2c98aee395e2e482/AlphaPeel-1.1.1.tar.gz
+[2023-07-04 12:56:49] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/f2/e7/76fe771f9b583c90c353da77e70894eb04e3f78092ccf4c2a426168d91a8/napalm_nokia_olt-0.0.8.tar.gz
+[2023-07-04 12:56:49] INFO root fetch - processPackages [exec-helpers]: New version: [7.4.0] Old Version: [7.3.6]
+[2023-07-04 12:56:49] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/78/59/133a0767874d605310a20e666d6b8f7ab09589baf2631bc1b54bad30fbd7/mypackagelicenseprototype-5.0.7-py3-none-any.whl
+[2023-07-04 12:56:49] INFO root fetch - processPackages [sharingiscaring]: Downloading https://files.pythonhosted.org/packages/ec/8c/18f997c3d361aa358776fa84dc75aa9ae090ce8fbc3f7099d41d86437e2e/sharingiscaring-0.2.8.tar.gz
+[2023-07-04 12:56:49] INFO root fetch - processPackages [hvps]: Downloading https://files.pythonhosted.org/packages/26/38/c5aacd5aac2cb746637f7620b0e30b429ca572d27a302e0b9e01ef7a882a/hvps-0.0.5.tar.gz
+[2023-07-04 12:56:49] INFO root fetch - processPackages [hvps]: Downloading https://files.pythonhosted.org/packages/26/38/c5aacd5aac2cb746637f7620b0e30b429ca572d27a302e0b9e01ef7a882a/hvps-0.0.5.tar.gz
+[2023-07-04 12:56:50] INFO root fetch - processPackages [gocardless-pro]: Downloading https://files.pythonhosted.org/packages/7e/84/7b53e39fd3789556d17d5389e31f2dddde2b1a73f8d5c34f34173366a1b9/gocardless_pro-1.8.0.tar.gz
+[2023-07-04 12:56:50] INFO root fetch - processPackages [aistudio-scheduler-lock]: Downloading https://files.pythonhosted.org/packages/39/58/9ac5931b154ab7b2f0c4193a11670dcc2a33a2edf431527f91a81887357e/aistudio-scheduler-lock-1.0.6a1.tar.gz
+[2023-07-04 12:56:50] INFO root fetch - processPackages [exec-helpers]: Downloading https://files.pythonhosted.org/packages/58/be/9837f19c87720e707fed2db3534d8a73d97ae3ffaadc7c2bf7de7c8c6dc1/exec-helpers-7.3.6.tar.gz
+[2023-07-04 12:56:50] INFO root fetch - processPackages [dz-dynamodb]: Downloading https://files.pythonhosted.org/packages/ef/05/cf357f274eb0eb61bd7b3398506cb285a24a4bf2bef3d866bd23fa704fcb/dz-dynamodb-1.3.9.tar.gz
+[2023-07-04 12:56:50] INFO root fetch - processPackages [AlphaPeel]: Downloading https://files.pythonhosted.org/packages/7d/8c/3087cc0d0eca8b0c2fb18044fcf1517581dde93ce4ec7f2b2adb22003445/AlphaPeel-1.1.2.tar.gz
+[2023-07-04 12:56:50] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/26/2c/2d428aaa0eada11aa4a6c98d7b6ac6a03d899bdc8f46115a074d73a878fe/napalm_nokia_olt-0.0.9.tar.gz
+[2023-07-04 12:56:50] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/ac/5b/568aedd7dcb62e7f5e48528f98776c05635fff81d549bca45a05624f4d45/mypackagelicenseprototype-5.0.8-py3-none-any.whl
+[2023-07-04 12:56:50] INFO root fetch - processPackages [sharingiscaring]: Downloading https://files.pythonhosted.org/packages/3c/51/994c3bf1116cc8b6234cbdc78a444ab9f875f5c3ce1e11c36bc0b2cdfa0e/sharingiscaring-0.2.9.tar.gz
+[2023-07-04 12:56:50] INFO root fetch - processPackages [napalm-nokia-olt]: executing diffoscope
+[2023-07-04 12:56:50] INFO root fetch - processPackages [napalm-nokia-olt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napalm_nokia_olt-0.0.8.tar.gz tmp/napalm_nokia_olt-0.0.9.tar.gz --markdown 20230704/n/napalm-nokia-olt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 12:56:50] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-07-04 12:56:50] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-5.0.7-py3-none-any.whl.zip tmp/mypackagelicenseprototype-5.0.8-py3-none-any.whl.zip --markdown 20230704/m/mypackagelicenseprototype/5.0.7-5.0.8/diff.md --exclude *.pyd
+[2023-07-04 12:56:50] INFO root fetch - processPackages [hvps]: Downloading https://files.pythonhosted.org/packages/91/cc/a2618621be00c57703c4474b62fd7ae7e983e47955a09b9b32854e8ac357/hvps-0.0.6.tar.gz
+[2023-07-04 12:56:50] INFO root fetch - processPackages [hvps]: Downloading https://files.pythonhosted.org/packages/91/cc/a2618621be00c57703c4474b62fd7ae7e983e47955a09b9b32854e8ac357/hvps-0.0.6.tar.gz
+[2023-07-04 12:56:50] INFO root fetch - processPackages [AlphaPeel]: executing diffoscope
+[2023-07-04 12:56:50] INFO root fetch - processPackages [AlphaPeel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlphaPeel-1.1.1.tar.gz tmp/AlphaPeel-1.1.2.tar.gz --markdown 20230704/A/AlphaPeel/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-04 12:56:50] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-07-04 12:56:50] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230704/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-04 12:56:50] INFO root fetch - processPackages [aistudio-scheduler-lock]: Downloading https://files.pythonhosted.org/packages/96/2e/67ee9de4d99d1e4bb40b5e76bee65ed671d88484850f5ac1bb2e52942204/aistudio-scheduler-lock-1.0.7.tar.gz
+[2023-07-04 12:56:50] INFO root fetch - processPackages [dz-dynamodb]: Downloading https://files.pythonhosted.org/packages/47/78/e4313afe1f666ed8f1d6dfe792f320cf4dc59dbbf7928a984dd36cf3e3b2/dz-dynamodb-1.4.0.tar.gz
+[2023-07-04 12:56:50] INFO root fetch - processPackages [exec-helpers]: Downloading https://files.pythonhosted.org/packages/12/6d/65cae871c923f4a222633199b2da6ecfb36444e65ecfe06888248380918c/exec-helpers-7.4.0.tar.gz
+[2023-07-04 12:56:50] INFO root fetch - processPackages [gocardless-pro]: Downloading https://files.pythonhosted.org/packages/26/a3/05fe06a8fb94a48c4096747e7a6f99f4101fcf389ab99f6fe8156d4786fe/gocardless_pro-1.9.0.tar.gz
+[2023-07-04 12:56:50] INFO root fetch - processPackages [hvps]: executing diffoscope
+[2023-07-04 12:56:50] INFO root fetch - processPackages [hvps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hvps-0.0.5.tar.gz tmp/hvps-0.0.6.tar.gz --markdown 20230704/h/hvps/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-04 12:56:50] INFO root fetch - processPackages [aistudio-scheduler-lock]: executing diffoscope
+[2023-07-04 12:56:50] INFO root fetch - processPackages [aistudio-scheduler-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aistudio-scheduler-lock-1.0.6a1.tar.gz tmp/aistudio-scheduler-lock-1.0.7.tar.gz --markdown 20230704/a/aistudio-scheduler-lock/1.0.6a1-1.0.7/diff.md --exclude *.pyd
+[2023-07-04 12:56:50] INFO root fetch - processPackages [hvps]: executing diffoscope
+[2023-07-04 12:56:50] INFO root fetch - processPackages [hvps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hvps-0.0.5.tar.gz tmp/hvps-0.0.6.tar.gz --markdown 20230704/h/hvps/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-04 12:56:50] INFO root fetch - processPackages [dz-dynamodb]: executing diffoscope
+[2023-07-04 12:56:50] INFO root fetch - processPackages [dz-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dz-dynamodb-1.3.9.tar.gz tmp/dz-dynamodb-1.4.0.tar.gz --markdown 20230704/d/dz-dynamodb/1.3.9-1.4.0/diff.md --exclude *.pyd
+[2023-07-04 12:56:50] INFO root fetch - processPackages [gocardless-pro]: executing diffoscope
+[2023-07-04 12:56:50] INFO root fetch - processPackages [gocardless-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gocardless_pro-1.8.0.tar.gz tmp/gocardless_pro-1.9.0.tar.gz --markdown 20230704/g/gocardless-pro/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-04 12:56:50] INFO root fetch - processPackages [exec-helpers]: executing diffoscope
+[2023-07-04 12:56:50] INFO root fetch - processPackages [exec-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exec-helpers-7.3.6.tar.gz tmp/exec-helpers-7.4.0.tar.gz --markdown 20230704/e/exec-helpers/7.3.6-7.4.0/diff.md --exclude *.pyd
+[2023-07-04 12:56:52] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.8.tar.gz]
+[2023-07-04 12:56:52] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.9.tar.gz]
+[2023-07-04 12:56:52] INFO root fetch - processPackages [napalm-nokia-olt]: Start processing: envd
+[2023-07-04 12:56:52] INFO root fetch - main [MainThread]: End processing [napalm-nokia-olt]: success
+[2023-07-04 12:56:52] INFO root fetch - processPackages [envd]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-04 12:56:52] INFO root fetch - processPackages [AlphaPeel]: Remove: archive file [/home/abi/fetcher/tmp/AlphaPeel-1.1.1.tar.gz]
+[2023-07-04 12:56:52] INFO root fetch - processPackages [AlphaPeel]: Remove: archive file [/home/abi/fetcher/tmp/AlphaPeel-1.1.2.tar.gz]
+[2023-07-04 12:56:52] INFO root fetch - processPackages [AlphaPeel]: Start processing: gcp-ng-helpers
+[2023-07-04 12:56:52] INFO root fetch - main [MainThread]: End processing [AlphaPeel]: success
+[2023-07-04 12:56:52] INFO root fetch - processPackages [gcp-ng-helpers]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-04 12:56:52] INFO root fetch - processPackages [envd]: Downloading https://files.pythonhosted.org/packages/40/8f/ca38bcdc6fb6476b2f39f7447c21359ec87ef0ed65e589349a047ed332cd/envd-0.3.8.tar.gz
+[2023-07-04 12:56:52] INFO root fetch - processPackages [gcp-ng-helpers]: Downloading https://files.pythonhosted.org/packages/d9/c6/9ebde4ad9d9a2e2d6e8d259e996a143d395e652d9ce4d7dfb09a0d7037be/gcp_ng_helpers-0.0.6.tar.gz
+[2023-07-04 12:56:52] INFO root fetch - processPackages [hvps]: Remove: archive file [/home/abi/fetcher/tmp/hvps-0.0.5.tar.gz]
+[2023-07-04 12:56:52] INFO root fetch - processPackages [hvps]: Remove: archive file [/home/abi/fetcher/tmp/hvps-0.0.6.tar.gz]
+[2023-07-04 12:56:52] INFO root fetch - main [MainThread]: End processing [hvps]: success
+[2023-07-04 12:56:53] INFO root fetch - processPackages [dz-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/dz-dynamodb-1.3.9.tar.gz]
+[2023-07-04 12:56:53] INFO root fetch - processPackages [dz-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/dz-dynamodb-1.4.0.tar.gz]
+[2023-07-04 12:56:53] INFO root fetch - main [MainThread]: End processing [dz-dynamodb]: success
+[2023-07-04 12:56:53] INFO root fetch - processPackages [aistudio-scheduler-lock]: Remove: archive file [/home/abi/fetcher/tmp/aistudio-scheduler-lock-1.0.6a1.tar.gz]
+[2023-07-04 12:56:53] INFO root fetch - processPackages [aistudio-scheduler-lock]: Remove: archive file [/home/abi/fetcher/tmp/aistudio-scheduler-lock-1.0.7.tar.gz]
+[2023-07-04 12:56:53] INFO root fetch - main [MainThread]: End processing [hvps]: success
+[2023-07-04 12:56:53] INFO root fetch - main [MainThread]: End processing [aistudio-scheduler-lock]: success
+[2023-07-04 12:56:53] INFO root fetch - processPackages [gcp-ng-helpers]: Downloading https://files.pythonhosted.org/packages/e8/b3/677748189c55743c543b3df2684e43c4b93ac28102e4c5e9f869e02ad70d/gcp_ng_helpers-0.0.7.tar.gz
+[2023-07-04 12:56:53] INFO root fetch - processPackages [exec-helpers]: Remove: archive file [/home/abi/fetcher/tmp/exec-helpers-7.3.6.tar.gz]
+[2023-07-04 12:56:53] INFO root fetch - processPackages [exec-helpers]: Remove: archive file [/home/abi/fetcher/tmp/exec-helpers-7.4.0.tar.gz]
+[2023-07-04 12:56:53] INFO root fetch - main [MainThread]: End processing [exec-helpers]: success
+[2023-07-04 12:56:53] INFO root fetch - processPackages [sharingiscaring]: Remove: archive file [/home/abi/fetcher/tmp/sharingiscaring-0.2.8.tar.gz]
+[2023-07-04 12:56:53] INFO root fetch - processPackages [sharingiscaring]: Remove: archive file [/home/abi/fetcher/tmp/sharingiscaring-0.2.9.tar.gz]
+[2023-07-04 12:56:53] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-07-04 12:56:53] INFO root fetch - processPackages [gocardless-pro]: Remove: archive file [/home/abi/fetcher/tmp/gocardless_pro-1.8.0.tar.gz]
+[2023-07-04 12:56:53] INFO root fetch - processPackages [gocardless-pro]: Remove: archive file [/home/abi/fetcher/tmp/gocardless_pro-1.9.0.tar.gz]
+[2023-07-04 12:56:53] INFO root fetch - main [MainThread]: End processing [gocardless-pro]: success
+[2023-07-04 12:56:53] INFO root fetch - processPackages [gcp-ng-helpers]: executing diffoscope
+[2023-07-04 12:56:53] INFO root fetch - processPackages [gcp-ng-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp_ng_helpers-0.0.6.tar.gz tmp/gcp_ng_helpers-0.0.7.tar.gz --markdown 20230704/g/gcp-ng-helpers/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-04 12:56:54] INFO root fetch - processPackages [gcp-ng-helpers]: Remove: archive file [/home/abi/fetcher/tmp/gcp_ng_helpers-0.0.6.tar.gz]
+[2023-07-04 12:56:54] INFO root fetch - processPackages [gcp-ng-helpers]: Remove: archive file [/home/abi/fetcher/tmp/gcp_ng_helpers-0.0.7.tar.gz]
+[2023-07-04 12:56:54] INFO root fetch - main [MainThread]: End processing [gcp-ng-helpers]: success
+[2023-07-04 12:56:54] INFO root fetch - processPackages [envd]: Downloading https://files.pythonhosted.org/packages/6f/e2/02e4db7e4affa6e54962dd795208ba1de5a9bbca208205fca85382498bfa/envd-0.3.9.tar.gz
+[2023-07-04 12:56:55] INFO root fetch - processPackages [envd]: executing diffoscope
+[2023-07-04 12:56:55] INFO root fetch - processPackages [envd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envd-0.3.8.tar.gz tmp/envd-0.3.9.tar.gz --markdown 20230704/e/envd/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-04 12:56:56] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-5.0.7-py3-none-any.whl.zip]
+[2023-07-04 12:56:56] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-5.0.8-py3-none-any.whl.zip]
+[2023-07-04 12:56:56] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-07-04 12:57:52] INFO root fetch - processPackages [envd]: Remove: archive file [/home/abi/fetcher/tmp/envd-0.3.8.tar.gz]
+[2023-07-04 12:57:52] INFO root fetch - processPackages [envd]: Remove: archive file [/home/abi/fetcher/tmp/envd-0.3.9.tar.gz]
+[2023-07-04 12:57:52] INFO root fetch - main [MainThread]: End processing [envd]: success
+[2023-07-04 12:57:52] INFO root fetch - main [MainThread]: Store serial: [18753653]
