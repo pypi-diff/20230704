@@ -11926,3 +11926,87 @@
 [2023-07-04 06:52:26] INFO root fetch - processPackages [robomimic]: Remove: archive file [/home/abi/fetcher/tmp/robomimic-0.3.0.tar.gz]
 [2023-07-04 06:52:26] INFO root fetch - main [MainThread]: End processing [robomimic]: success
 [2023-07-04 06:52:26] INFO root fetch - main [MainThread]: Store serial: [18750479]
+[2023-07-04 06:57:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18750479]
+[2023-07-04 06:57:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-04 06:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo8-addon-bi-view-editor
+[2023-07-04 06:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: n-profile-sdk
+[2023-07-04 06:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emailalert
+[2023-07-04 06:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dank-mids
+[2023-07-04 06:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydantic-loggings
+[2023-07-04 06:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo8-addon-crm-rma-advance-warranty
+[2023-07-04 06:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo8-addon-crm-rma-claim-make-claim
+[2023-07-04 06:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo8-addon-crm-claim-rma
+[2023-07-04 06:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: customized-table
+[2023-07-04 06:57:36] INFO root fetch - processPackages [odoo8-addon-bi-view-editor]: New version: [8.0.1.0.0.99.dev8] Old Version: [8.0.1.0.0.99.dev34]
+[2023-07-04 06:57:36] INFO root fetch - processPackages [n-profile-sdk]: New version: [2.3.4] Old Version: [1.9.8]
+[2023-07-04 06:57:36] INFO root fetch - processPackages [customized-table]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 06:57:36] INFO root fetch - processPackages [pydantic-loggings]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-04 06:57:36] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-04 06:57:36] INFO root fetch - processPackages [odoo8-addon-crm-claim-rma]: New version: [8.0.1.2.0.99.dev6] Old Version: [8.0.1.2.0.99.dev5]
+[2023-07-04 06:57:36] INFO root fetch - processPackages [odoo8-addon-crm-rma-advance-warranty]: New version: [8.0.1.0.0.99.dev8] Old Version: [8.0.1.0.0.99.dev7]
+[2023-07-04 06:57:36] INFO root fetch - processPackages [emailalert]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-04 06:57:36] INFO root fetch - processPackages [customized-table]: Downloading https://files.pythonhosted.org/packages/74/f5/11cce4982efd7bb1e793bd5f4d65a4df5dd1305caa21fac9a154c00e6af3/customized_table-0.1.8.tar.gz
+[2023-07-04 06:57:36] INFO root fetch - processPackages [odoo8-addon-crm-rma-claim-make-claim]: New version: [8.0.1.0.1.99.dev1] Old Version: [8.0.1.0.1]
+[2023-07-04 06:57:36] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/b1/64/d197c742093ea44b86bb75ce714aa898171d4403c10bd73fc14f897c68ea/pydantic-loggings-0.7.0.tar.gz
+[2023-07-04 06:57:36] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-04 06:57:36] INFO root fetch - processPackages [odoo8-addon-bi-view-editor]: Downloading https://files.pythonhosted.org/packages/8a/5a/5ebc5929d85e90e9490b7a88211dc0b11186bb22d3cd72bdad2724d4f8dd/odoo8_addon_bi_view_editor-8.0.1.0.0.99.dev34-py2-none-any.whl
+[2023-07-04 06:57:36] INFO root fetch - processPackages [n-profile-sdk]: Downloading https://files.pythonhosted.org/packages/e8/fd/da6cc71f669c38b8cd0c6462c69cea5a3f701e6035a12d11852e82fcc725/n-profile-sdk-1.9.8.tar.gz
+[2023-07-04 06:57:36] INFO root fetch - processPackages [odoo8-addon-crm-claim-rma]: Downloading https://files.pythonhosted.org/packages/04/0a/707ee863163d9752d6214f481182fecbfba7fd647af7907406ea5a36ce41/odoo8_addon_crm_claim_rma-8.0.1.2.0.99.dev5-py2-none-any.whl
+[2023-07-04 06:57:36] INFO root fetch - processPackages [odoo8-addon-crm-rma-advance-warranty]: Downloading https://files.pythonhosted.org/packages/4b/12/6c898093da62cc9b36e20913e0d1699726e3433c4ee5f5a94cf2a516fd8b/odoo8_addon_crm_rma_advance_warranty-8.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-07-04 06:57:36] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/93/36/96b45a6cf6f0d0a488eccc0da28e9977525d2c1e3675cbdf75e6f471e10f/emailalert-1.4.0.tar.gz
+[2023-07-04 06:57:36] INFO root fetch - processPackages [odoo8-addon-crm-rma-claim-make-claim]: Downloading https://files.pythonhosted.org/packages/07/ed/12f920fd9ee4257babcf125e4ecfc8a37bb55811a731576cd4948b1bb39d/odoo8_addon_crm_rma_claim_make_claim-8.0.1.0.1-py2-none-any.whl
+[2023-07-04 06:57:36] INFO root fetch - processPackages [customized-table]: Downloading https://files.pythonhosted.org/packages/89/16/e28f5539a23e94c547afbb16ecc72fdb7d9a96778b96939995e3d92a2659/customized_table-0.1.9.tar.gz
+[2023-07-04 06:57:36] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-04 06:57:36] INFO root fetch - processPackages [customized-table]: executing diffoscope
+[2023-07-04 06:57:36] INFO root fetch - processPackages [customized-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customized_table-0.1.8.tar.gz tmp/customized_table-0.1.9.tar.gz --markdown 20230704/c/customized-table/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 06:57:36] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/6a/34/b1af92289b1bb1134c7a9a367f5771ead38ee6bcf760e88cac3603fa2702/pydantic-loggings-0.8.0.tar.gz
+[2023-07-04 06:57:36] INFO root fetch - processPackages [n-profile-sdk]: Downloading https://files.pythonhosted.org/packages/9d/58/4b669699a4103c06d83895cb528ce67edad41c4c1046e57d02578db76394/n-profile-sdk-2.3.4.tar.gz
+[2023-07-04 06:57:36] INFO root fetch - processPackages [odoo8-addon-crm-claim-rma]: Downloading https://files.pythonhosted.org/packages/11/93/c640528d90fe75fd64e9670cca0a5607a40cba665b179aea37dee3ed03c2/odoo8_addon_crm_claim_rma-8.0.1.2.0.99.dev6-py2-none-any.whl
+[2023-07-04 06:57:36] INFO root fetch - processPackages [odoo8-addon-bi-view-editor]: Downloading https://files.pythonhosted.org/packages/a9/d2/9e1cf0438dd2da88a0dea24a2432be2277be22dd5235f0eff7285b6500e1/odoo8_addon_bi_view_editor-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-07-04 06:57:36] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-04 06:57:36] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230704/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-04 06:57:36] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/7d/f3/494a7416af54d7e248c74882a1792ac29703bdfb78c864f0d25110197eea/emailalert-1.4.1.tar.gz
+[2023-07-04 06:57:36] INFO root fetch - processPackages [pydantic-loggings]: executing diffoscope
+[2023-07-04 06:57:36] INFO root fetch - processPackages [pydantic-loggings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-loggings-0.7.0.tar.gz tmp/pydantic-loggings-0.8.0.tar.gz --markdown 20230704/p/pydantic-loggings/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-04 06:57:36] INFO root fetch - processPackages [n-profile-sdk]: executing diffoscope
+[2023-07-04 06:57:36] INFO root fetch - processPackages [n-profile-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/n-profile-sdk-1.9.8.tar.gz tmp/n-profile-sdk-2.3.4.tar.gz --markdown 20230704/n/n-profile-sdk/1.9.8-2.3.4/diff.md --exclude *.pyd
+[2023-07-04 06:57:37] INFO root fetch - processPackages [odoo8-addon-crm-rma-claim-make-claim]: Downloading https://files.pythonhosted.org/packages/1f/07/96dcb598ecb33556ec66816532c9b9d256d0040f322d5e4622bf0a3b859a/odoo8_addon_crm_rma_claim_make_claim-8.0.1.0.1.99.dev1-py2-none-any.whl
+[2023-07-04 06:57:37] INFO root fetch - processPackages [odoo8-addon-crm-rma-advance-warranty]: Downloading https://files.pythonhosted.org/packages/21/13/2ac6cde1d8bb0c35a2a4d8e570244f906ffe966d9b5ec92a68c3d7dc5e37/odoo8_addon_crm_rma_advance_warranty-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-07-04 06:57:37] INFO root fetch - processPackages [odoo8-addon-bi-view-editor]: executing diffoscope
+[2023-07-04 06:57:37] INFO root fetch - processPackages [odoo8-addon-bi-view-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_bi_view_editor-8.0.1.0.0.99.dev34-py2-none-any.whl.zip tmp/odoo8_addon_bi_view_editor-8.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230704/o/odoo8-addon-bi-view-editor/8.0.1.0.0.99.dev34-8.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-07-04 06:57:37] INFO root fetch - processPackages [odoo8-addon-crm-claim-rma]: executing diffoscope
+[2023-07-04 06:57:37] INFO root fetch - processPackages [odoo8-addon-crm-claim-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_crm_claim_rma-8.0.1.2.0.99.dev5-py2-none-any.whl.zip tmp/odoo8_addon_crm_claim_rma-8.0.1.2.0.99.dev6-py2-none-any.whl.zip --markdown 20230704/o/odoo8-addon-crm-claim-rma/8.0.1.2.0.99.dev5-8.0.1.2.0.99.dev6/diff.md --exclude *.pyd
+[2023-07-04 06:57:37] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-07-04 06:57:37] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.4.0.tar.gz tmp/emailalert-1.4.1.tar.gz --markdown 20230704/e/emailalert/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-04 06:57:37] INFO root fetch - processPackages [odoo8-addon-crm-rma-advance-warranty]: executing diffoscope
+[2023-07-04 06:57:37] INFO root fetch - processPackages [odoo8-addon-crm-rma-advance-warranty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_crm_rma_advance_warranty-8.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo8_addon_crm_rma_advance_warranty-8.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230704/o/odoo8-addon-crm-rma-advance-warranty/8.0.1.0.0.99.dev7-8.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-07-04 06:57:37] INFO root fetch - processPackages [odoo8-addon-crm-rma-claim-make-claim]: executing diffoscope
+[2023-07-04 06:57:37] INFO root fetch - processPackages [odoo8-addon-crm-rma-claim-make-claim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_crm_rma_claim_make_claim-8.0.1.0.1-py2-none-any.whl.zip tmp/odoo8_addon_crm_rma_claim_make_claim-8.0.1.0.1.99.dev1-py2-none-any.whl.zip --markdown 20230704/o/odoo8-addon-crm-rma-claim-make-claim/8.0.1.0.1-8.0.1.0.1.99.dev1/diff.md --exclude *.pyd
+[2023-07-04 06:57:38] INFO root fetch - processPackages [customized-table]: Remove: archive file [/home/abi/fetcher/tmp/customized_table-0.1.8.tar.gz]
+[2023-07-04 06:57:38] INFO root fetch - processPackages [customized-table]: Remove: archive file [/home/abi/fetcher/tmp/customized_table-0.1.9.tar.gz]
+[2023-07-04 06:57:38] INFO root fetch - main [MainThread]: End processing [customized-table]: success
+[2023-07-04 06:57:38] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-04 06:57:38] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-04 06:57:38] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-04 06:57:38] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.7.0.tar.gz]
+[2023-07-04 06:57:38] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.8.0.tar.gz]
+[2023-07-04 06:57:38] INFO root fetch - main [MainThread]: End processing [pydantic-loggings]: success
+[2023-07-04 06:57:38] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.4.0.tar.gz]
+[2023-07-04 06:57:38] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.4.1.tar.gz]
+[2023-07-04 06:57:38] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-07-04 06:57:38] INFO root fetch - processPackages [odoo8-addon-crm-rma-advance-warranty]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_crm_rma_advance_warranty-8.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-07-04 06:57:38] INFO root fetch - processPackages [odoo8-addon-crm-rma-advance-warranty]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_crm_rma_advance_warranty-8.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-04 06:57:38] INFO root fetch - main [MainThread]: End processing [odoo8-addon-crm-rma-advance-warranty]: success
+[2023-07-04 06:57:38] INFO root fetch - processPackages [odoo8-addon-bi-view-editor]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_bi_view_editor-8.0.1.0.0.99.dev34-py2-none-any.whl.zip]
+[2023-07-04 06:57:38] INFO root fetch - processPackages [odoo8-addon-bi-view-editor]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_bi_view_editor-8.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-04 06:57:38] INFO root fetch - main [MainThread]: End processing [odoo8-addon-bi-view-editor]: success
+[2023-07-04 06:57:38] INFO root fetch - processPackages [n-profile-sdk]: Remove: archive file [/home/abi/fetcher/tmp/n-profile-sdk-1.9.8.tar.gz]
+[2023-07-04 06:57:38] INFO root fetch - processPackages [n-profile-sdk]: Remove: archive file [/home/abi/fetcher/tmp/n-profile-sdk-2.3.4.tar.gz]
+[2023-07-04 06:57:38] INFO root fetch - main [MainThread]: End processing [n-profile-sdk]: success
+[2023-07-04 06:57:38] INFO root fetch - processPackages [odoo8-addon-crm-rma-claim-make-claim]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_crm_rma_claim_make_claim-8.0.1.0.1-py2-none-any.whl.zip]
+[2023-07-04 06:57:38] INFO root fetch - processPackages [odoo8-addon-crm-rma-claim-make-claim]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_crm_rma_claim_make_claim-8.0.1.0.1.99.dev1-py2-none-any.whl.zip]
+[2023-07-04 06:57:38] INFO root fetch - main [MainThread]: End processing [odoo8-addon-crm-rma-claim-make-claim]: success
+[2023-07-04 06:57:38] INFO root fetch - processPackages [odoo8-addon-crm-claim-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_crm_claim_rma-8.0.1.2.0.99.dev5-py2-none-any.whl.zip]
+[2023-07-04 06:57:38] INFO root fetch - processPackages [odoo8-addon-crm-claim-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_crm_claim_rma-8.0.1.2.0.99.dev6-py2-none-any.whl.zip]
+[2023-07-04 06:57:38] INFO root fetch - main [MainThread]: End processing [odoo8-addon-crm-claim-rma]: success
+[2023-07-04 06:57:38] INFO root fetch - main [MainThread]: Store serial: [18750503]
