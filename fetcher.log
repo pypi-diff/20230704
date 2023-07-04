@@ -16124,3 +16124,150 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 10:43:46] INFO root fetch - processPackages [pyOpenRPA]: Remove: archive file [/home/abi/fetcher/tmp/pyOpenRPA-1.4.0-py3-none-any.whl.zip]
 [2023-07-04 10:43:46] INFO root fetch - main [MainThread]: End processing [pyOpenRPA]: success
 [2023-07-04 10:43:46] INFO root fetch - main [MainThread]: Store serial: [18752086]
+[2023-07-04 10:48:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18752086]
+[2023-07-04 10:48:55] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-04 10:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyOpenRPA
+[2023-07-04 10:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pySecDec
+[2023-07-04 10:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acconeer-exptool
+[2023-07-04 10:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyOpenRPA
+[2023-07-04 10:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coffeegrinder
+[2023-07-04 10:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfp-nightly
+[2023-07-04 10:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lesscode-charts
+[2023-07-04 10:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hryvinskiy-amount-in-words
+[2023-07-04 10:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: upstash-ratelimit
+[2023-07-04 10:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pymagento
+[2023-07-04 10:48:55] INFO root fetch - processPackages [coffeegrinder]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-04 10:48:55] INFO root fetch - processPackages [acconeer-exptool]: New version: [7.2.0] Old Version: [7.1.0]
+[2023-07-04 10:48:55] WARNING root fetch - processPackages [hryvinskiy-amount-in-words]: Skipping, unable to determine old version
+[2023-07-04 10:48:55] INFO root fetch - processPackages [hryvinskiy-amount-in-words]: Start processing: reytool
+[2023-07-04 10:48:55] INFO root fetch - main [MainThread]: End processing [hryvinskiy-amount-in-words] error
+[2023-07-04 10:48:55] INFO root fetch - processPackages [lesscode-charts]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-04 10:48:55] INFO root fetch - processPackages [pymagento]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-07-04 10:48:55] INFO root fetch - processPackages [pyOpenRPA]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-04 10:48:55] INFO root fetch - processPackages [upstash-ratelimit]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-04 10:48:55] INFO root fetch - processPackages [pySecDec]: New version: [1.6.post1] Old Version: [1.6.1]
+[2023-07-04 10:48:55] INFO root fetch - processPackages [pyOpenRPA]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-04 10:48:55] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-07-04 10:48:55] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-04 10:48:55] INFO root fetch - processPackages [coffeegrinder]: Downloading https://files.pythonhosted.org/packages/bb/ee/7b32fc10e174d1ec4819fae4a7a95c4bc4560b7b969aeac81ac0bbe2999d/coffeegrinder-0.3.1.tar.gz
+[2023-07-04 10:48:55] INFO root fetch - processPackages [upstash-ratelimit]: Downloading https://files.pythonhosted.org/packages/d0/8b/2094b2773f581d398ac9ea6ddfc471c42bc84ba705bf98e0b13350c67816/upstash_ratelimit-0.4.1.tar.gz
+[2023-07-04 10:48:55] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-07-04 10:48:56] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-04 10:48:56] INFO root fetch - processPackages [pySecDec]: Downloading https://files.pythonhosted.org/packages/80/3f/21014cda122f8d59d5d0dac19f5efba4d632a36bfae8d07c31bc02cff3ca/pySecDec-1.6.1.tar.gz
+[2023-07-04 10:48:56] INFO root fetch - processPackages [pyOpenRPA]: Downloading https://files.pythonhosted.org/packages/53/5d/9cd67817e37f5e1fa2831381f4a2230abbda2967fa8a990b80dd81ff0589/pyOpenRPA-1.4.0.tar.gz
+[2023-07-04 10:48:56] INFO root fetch - processPackages [acconeer-exptool]: Downloading https://files.pythonhosted.org/packages/92/29/074c3d2dd2197a7d9d3fb5d9d1be60d6336f5cf41b15af726aedcc172f9a/acconeer-exptool-7.1.0.tar.gz
+[2023-07-04 10:48:56] INFO root fetch - processPackages [pyOpenRPA]: Downloading https://files.pythonhosted.org/packages/53/5d/9cd67817e37f5e1fa2831381f4a2230abbda2967fa8a990b80dd81ff0589/pyOpenRPA-1.4.0.tar.gz
+[2023-07-04 10:48:56] INFO root fetch - processPackages [lesscode-charts]: Downloading https://files.pythonhosted.org/packages/22/90/d6b8fc0a722bed6abd8d27f4bc53bababe65cb499f9e1b1e4a5b3fdbce87/lesscode_charts-0.0.5.tar.gz
+[2023-07-04 10:48:56] WARNING root fetch - processPackages [pySecDec]: Skipping package: exceeds size limit 22216157>=10485760
+[2023-07-04 10:48:56] INFO root fetch - processPackages [pySecDec]: Start processing: c2cciutils
+[2023-07-04 10:48:56] INFO root fetch - main [MainThread]: End processing [pySecDec] error
+[2023-07-04 10:48:56] INFO root fetch - processPackages [pymagento]: Downloading https://files.pythonhosted.org/packages/06/ac/4146a4e1d198e734093ef037539ad0306d453c46e5d04fe267f5d4055b83/pymagento-1.7.1.tar.gz
+[2023-07-04 10:48:56] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-04 10:48:56] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-04 10:48:56] INFO root fetch - processPackages [coffeegrinder]: Downloading https://files.pythonhosted.org/packages/a5/3d/990c53fd05b6e44ef2b1da5d2337719552b11fc351ac7e775f69476b2f71/coffeegrinder-0.3.2.tar.gz
+[2023-07-04 10:48:56] INFO root fetch - processPackages [upstash-ratelimit]: Downloading https://files.pythonhosted.org/packages/ae/8c/f8010d6b7a0e0ad5ea243823539a46153ac11ffef641a2b3dd218a455c61/upstash_ratelimit-0.4.2.tar.gz
+[2023-07-04 10:48:56] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-04 10:48:56] INFO root fetch - processPackages [lesscode-charts]: Downloading https://files.pythonhosted.org/packages/08/a4/4281cd16e061b7ee92a4c2b2510626d9e8ca60137492b362ca894d807345/lesscode_charts-0.0.6.tar.gz
+[2023-07-04 10:48:56] INFO root fetch - processPackages [coffeegrinder]: executing diffoscope
+[2023-07-04 10:48:56] INFO root fetch - processPackages [coffeegrinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coffeegrinder-0.3.1.tar.gz tmp/coffeegrinder-0.3.2.tar.gz --markdown 20230704/c/coffeegrinder/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-04 10:48:56] INFO root fetch - processPackages [upstash-ratelimit]: executing diffoscope
+[2023-07-04 10:48:56] INFO root fetch - processPackages [upstash-ratelimit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_ratelimit-0.4.1.tar.gz tmp/upstash_ratelimit-0.4.2.tar.gz --markdown 20230704/u/upstash-ratelimit/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-04 10:48:56] INFO root fetch - processPackages [pymagento]: Downloading https://files.pythonhosted.org/packages/b5/d3/316788f32713cf6391e026e9caba6f8f81bc49584a3e36aebdc855e24225/pymagento-1.7.2.tar.gz
+[2023-07-04 10:48:56] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-04 10:48:56] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230704/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-04 10:48:56] INFO root fetch - processPackages [acconeer-exptool]: Downloading https://files.pythonhosted.org/packages/30/bc/5a96f8c1e04998f855a283b78bbe7d382ec8a945d374497f20984483f543/acconeer-exptool-7.2.0.tar.gz
+[2023-07-04 10:48:56] INFO root fetch - processPackages [lesscode-charts]: executing diffoscope
+[2023-07-04 10:48:56] INFO root fetch - processPackages [lesscode-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_charts-0.0.5.tar.gz tmp/lesscode_charts-0.0.6.tar.gz --markdown 20230704/l/lesscode-charts/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-04 10:48:56] INFO root fetch - processPackages [pyOpenRPA]: Downloading https://files.pythonhosted.org/packages/11/59/e3ac0659f68a1d2cd7014feba2f951acb55c93eeb9e065ed5cd15ddb6efa/pyOpenRPA-1.4.1.tar.gz
+[2023-07-04 10:48:56] INFO root fetch - processPackages [pymagento]: executing diffoscope
+[2023-07-04 10:48:56] INFO root fetch - processPackages [pymagento]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymagento-1.7.1.tar.gz tmp/pymagento-1.7.2.tar.gz --markdown 20230704/p/pymagento/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-07-04 10:48:56] INFO root fetch - processPackages [pyOpenRPA]: Downloading https://files.pythonhosted.org/packages/11/59/e3ac0659f68a1d2cd7014feba2f951acb55c93eeb9e065ed5cd15ddb6efa/pyOpenRPA-1.4.1.tar.gz
+[2023-07-04 10:48:57] INFO root fetch - processPackages [pyOpenRPA]: executing diffoscope
+[2023-07-04 10:48:57] INFO root fetch - processPackages [pyOpenRPA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyOpenRPA-1.4.0.tar.gz tmp/pyOpenRPA-1.4.1.tar.gz --markdown 20230704/p/pyOpenRPA/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-04 10:48:57] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-04 10:48:57] INFO root fetch - processPackages [pyOpenRPA]: executing diffoscope
+[2023-07-04 10:48:57] INFO root fetch - processPackages [pyOpenRPA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyOpenRPA-1.4.0.tar.gz tmp/pyOpenRPA-1.4.1.tar.gz --markdown 20230704/p/pyOpenRPA/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-04 10:48:57] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-04 10:48:57] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230704/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-04 10:48:57] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-04 10:48:57] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-04 10:48:57] INFO root fetch - processPackages [reytool]: Start processing: seqhelp
+[2023-07-04 10:48:57] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-04 10:48:57] INFO root fetch - processPackages [seqhelp]: New version: [0.1.31] Old Version: [0.1.29]
+[2023-07-04 10:48:57] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-07-04 10:48:58] INFO root fetch - processPackages [pymagento]: Remove: archive file [/home/abi/fetcher/tmp/pymagento-1.7.1.tar.gz]
+[2023-07-04 10:48:58] INFO root fetch - processPackages [pymagento]: Remove: archive file [/home/abi/fetcher/tmp/pymagento-1.7.2.tar.gz]
+[2023-07-04 10:48:58] INFO root fetch - processPackages [pymagento]: Start processing: dj-jwt-auth
+[2023-07-04 10:48:58] INFO root fetch - main [MainThread]: End processing [pymagento]: success
+[2023-07-04 10:48:58] INFO root fetch - processPackages [upstash-ratelimit]: Remove: archive file [/home/abi/fetcher/tmp/upstash_ratelimit-0.4.1.tar.gz]
+[2023-07-04 10:48:58] INFO root fetch - processPackages [upstash-ratelimit]: Remove: archive file [/home/abi/fetcher/tmp/upstash_ratelimit-0.4.2.tar.gz]
+[2023-07-04 10:48:58] INFO root fetch - processPackages [upstash-ratelimit]: Start processing: bohrium-sdk
+[2023-07-04 10:48:58] INFO root fetch - main [MainThread]: End processing [upstash-ratelimit]: success
+[2023-07-04 10:48:58] INFO root fetch - processPackages [dj-jwt-auth]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-04 10:48:58] INFO root fetch - processPackages [coffeegrinder]: Remove: archive file [/home/abi/fetcher/tmp/coffeegrinder-0.3.1.tar.gz]
+[2023-07-04 10:48:58] INFO root fetch - processPackages [coffeegrinder]: Remove: archive file [/home/abi/fetcher/tmp/coffeegrinder-0.3.2.tar.gz]
+[2023-07-04 10:48:58] INFO root fetch - processPackages [coffeegrinder]: Start processing: groot-shopee
+[2023-07-04 10:48:58] INFO root fetch - main [MainThread]: End processing [coffeegrinder]: success
+[2023-07-04 10:48:58] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-07-04 10:48:58] INFO root fetch - processPackages [seqhelp]: Downloading https://files.pythonhosted.org/packages/86/f5/ac430fa199fd41852cd4388d709844eab65d5abd99d5f1099a4602ae6449/seqhelp-0.1.29.tar.gz
+[2023-07-04 10:48:58] INFO root fetch - processPackages [lesscode-charts]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_charts-0.0.5.tar.gz]
+[2023-07-04 10:48:58] INFO root fetch - processPackages [lesscode-charts]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_charts-0.0.6.tar.gz]
+[2023-07-04 10:48:58] INFO root fetch - processPackages [lesscode-charts]: Start processing: re-it
+[2023-07-04 10:48:58] INFO root fetch - main [MainThread]: End processing [lesscode-charts]: success
+[2023-07-04 10:48:58] INFO root fetch - processPackages [re-it]: New version: [1.0.0.0] Old Version: [0.0.1]
+[2023-07-04 10:48:58] WARNING root fetch - processPackages [groot-shopee]: Skipping, unable to determine old version
+[2023-07-04 10:48:58] INFO root fetch - processPackages [groot-shopee]: Start processing: modelcraft
+[2023-07-04 10:48:58] INFO root fetch - main [MainThread]: End processing [groot-shopee] error
+[2023-07-04 10:48:58] INFO root fetch - processPackages [dj-jwt-auth]: Downloading https://files.pythonhosted.org/packages/fa/4a/098600b1990e57ac64c9df7d31c4efa30a370dd55682e0a8c6aba0a796f9/dj-jwt-auth-1.0.1.tar.gz
+[2023-07-04 10:48:58] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-07-04 10:48:58] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230704/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-07-04 10:48:58] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/6c/1b/93cd52bace89f5176e610429e05d60e5d56b204ac4d521e783404faa0f32/bohrium-sdk-0.2.3.tar.gz
+[2023-07-04 10:48:58] INFO root fetch - processPackages [modelcraft]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-07-04 10:48:58] INFO root fetch - processPackages [re-it]: Downloading https://files.pythonhosted.org/packages/93/c6/641e91ef8e9e14629dde20e2cf02a0c79a182f15c14fdfea37ba94dccfd0/re_it-0.0.1.tar.gz
+[2023-07-04 10:48:58] INFO root fetch - processPackages [dj-jwt-auth]: Downloading https://files.pythonhosted.org/packages/92/e0/8c399f29886f254f74a9c5883e914b0a6ac9660947c4a858582099b8b850/dj-jwt-auth-1.0.2.tar.gz
+[2023-07-04 10:48:58] INFO root fetch - processPackages [modelcraft]: Downloading https://files.pythonhosted.org/packages/ac/1a/787458c39e110fd3532b63fdaff2382213e827e348802cb986ed77c65219/modelcraft-3.1.0.tar.gz
+[2023-07-04 10:48:58] INFO root fetch - processPackages [seqhelp]: Downloading https://files.pythonhosted.org/packages/e8/25/7c94d00a45ce4b871c9d38370a4dae8d6848acad6d52f40ca34ed33972af/seqhelp-0.1.31.tar.gz
+[2023-07-04 10:48:58] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/54/a3/df6f3c246d8e0c32be8ed94515ce5760ce5ae382def9eaf9d90160bb7894/bohrium-sdk-0.3.0.tar.gz
+[2023-07-04 10:48:58] INFO root fetch - processPackages [re-it]: Downloading https://files.pythonhosted.org/packages/42/5b/e4e26cb7ff7df09fa138323c9e2203565fbdb1c0595aeeef2a8ff3a8eeb7/re_it-1.0.0.0.tar.gz
+[2023-07-04 10:48:58] INFO root fetch - processPackages [dj-jwt-auth]: executing diffoscope
+[2023-07-04 10:48:58] INFO root fetch - processPackages [dj-jwt-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-jwt-auth-1.0.1.tar.gz tmp/dj-jwt-auth-1.0.2.tar.gz --markdown 20230704/d/dj-jwt-auth/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-04 10:48:58] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-07-04 10:48:58] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium-sdk-0.2.3.tar.gz tmp/bohrium-sdk-0.3.0.tar.gz --markdown 20230704/b/bohrium-sdk/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-07-04 10:48:58] INFO root fetch - processPackages [re-it]: executing diffoscope
+[2023-07-04 10:48:58] INFO root fetch - processPackages [re-it]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/re_it-0.0.1.tar.gz tmp/re_it-1.0.0.0.tar.gz --markdown 20230704/r/re-it/0.0.1-1.0.0.0/diff.md --exclude *.pyd
+[2023-07-04 10:48:58] INFO root fetch - processPackages [seqhelp]: executing diffoscope
+[2023-07-04 10:48:58] INFO root fetch - processPackages [seqhelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqhelp-0.1.29.tar.gz tmp/seqhelp-0.1.31.tar.gz --markdown 20230704/s/seqhelp/0.1.29-0.1.31/diff.md --exclude *.pyd
+[2023-07-04 10:48:59] INFO root fetch - processPackages [modelcraft]: Downloading https://files.pythonhosted.org/packages/c5/f3/4dc1d11e7cd45815245b9e15ac1ee84c9effabb571b567e3df8a50bf4b84/modelcraft-3.1.1.tar.gz
+[2023-07-04 10:48:59] INFO root fetch - processPackages [modelcraft]: executing diffoscope
+[2023-07-04 10:48:59] INFO root fetch - processPackages [modelcraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelcraft-3.1.0.tar.gz tmp/modelcraft-3.1.1.tar.gz --markdown 20230704/m/modelcraft/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-07-04 10:49:00] INFO root fetch - processPackages [re-it]: Remove: archive file [/home/abi/fetcher/tmp/re_it-0.0.1.tar.gz]
+[2023-07-04 10:49:00] INFO root fetch - processPackages [re-it]: Remove: archive file [/home/abi/fetcher/tmp/re_it-1.0.0.0.tar.gz]
+[2023-07-04 10:49:00] INFO root fetch - main [MainThread]: End processing [re-it]: success
+[2023-07-04 10:49:00] INFO root fetch - processPackages [dj-jwt-auth]: Remove: archive file [/home/abi/fetcher/tmp/dj-jwt-auth-1.0.1.tar.gz]
+[2023-07-04 10:49:00] INFO root fetch - processPackages [dj-jwt-auth]: Remove: archive file [/home/abi/fetcher/tmp/dj-jwt-auth-1.0.2.tar.gz]
+[2023-07-04 10:49:00] INFO root fetch - main [MainThread]: End processing [dj-jwt-auth]: success
+[2023-07-04 10:49:00] INFO root fetch - processPackages [bohrium-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bohrium-sdk-0.2.3.tar.gz]
+[2023-07-04 10:49:00] INFO root fetch - processPackages [bohrium-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bohrium-sdk-0.3.0.tar.gz]
+[2023-07-04 10:49:00] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-07-04 10:49:00] INFO root fetch - processPackages [acconeer-exptool]: executing diffoscope
+[2023-07-04 10:49:00] INFO root fetch - processPackages [acconeer-exptool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acconeer-exptool-7.1.0.tar.gz tmp/acconeer-exptool-7.2.0.tar.gz --markdown 20230704/a/acconeer-exptool/7.1.0-7.2.0/diff.md --exclude *.pyd
+[2023-07-04 10:49:00] INFO root fetch - processPackages [seqhelp]: Remove: archive file [/home/abi/fetcher/tmp/seqhelp-0.1.29.tar.gz]
+[2023-07-04 10:49:00] INFO root fetch - processPackages [seqhelp]: Remove: archive file [/home/abi/fetcher/tmp/seqhelp-0.1.31.tar.gz]
+[2023-07-04 10:49:00] INFO root fetch - main [MainThread]: End processing [seqhelp]: success
+[2023-07-04 10:49:00] INFO root fetch - processPackages [modelcraft]: Remove: archive file [/home/abi/fetcher/tmp/modelcraft-3.1.0.tar.gz]
+[2023-07-04 10:49:00] INFO root fetch - processPackages [modelcraft]: Remove: archive file [/home/abi/fetcher/tmp/modelcraft-3.1.1.tar.gz]
+[2023-07-04 10:49:00] INFO root fetch - main [MainThread]: End processing [modelcraft]: success
+[2023-07-04 10:49:02] INFO root fetch - processPackages [pyOpenRPA]: Remove: archive file [/home/abi/fetcher/tmp/pyOpenRPA-1.4.0.tar.gz]
+[2023-07-04 10:49:02] INFO root fetch - processPackages [pyOpenRPA]: Remove: archive file [/home/abi/fetcher/tmp/pyOpenRPA-1.4.1.tar.gz]
+[2023-07-04 10:49:02] INFO root fetch - main [MainThread]: End processing [pyOpenRPA]: success
+[2023-07-04 10:49:02] INFO root fetch - main [MainThread]: End processing [pyOpenRPA]: success
+[2023-07-04 10:49:02] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-07-04 10:49:02] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-07-04 10:49:02] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-04 10:49:04] INFO root fetch - processPackages [acconeer-exptool]: Remove: archive file [/home/abi/fetcher/tmp/acconeer-exptool-7.1.0.tar.gz]
+[2023-07-04 10:49:04] INFO root fetch - processPackages [acconeer-exptool]: Remove: archive file [/home/abi/fetcher/tmp/acconeer-exptool-7.2.0.tar.gz]
+[2023-07-04 10:49:04] INFO root fetch - main [MainThread]: End processing [acconeer-exptool]: success
+[2023-07-04 10:49:04] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-07-04 10:49:04] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-07-04 10:49:04] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-07-04 10:49:04] INFO root fetch - main [MainThread]: Store serial: [18752141]
