@@ -20235,3 +20235,161 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 13:27:05] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.3.tar.gz]
 [2023-07-04 13:27:05] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
 [2023-07-04 13:27:05] INFO root fetch - main [MainThread]: Store serial: [18753982]
+[2023-07-04 13:32:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18753982]
+[2023-07-04 13:32:15] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-04 13:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: goxlr
+[2023-07-04 13:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wpdetect
+[2023-07-04 13:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: velikafkaclient
+[2023-07-04 13:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchserve-nightly
+[2023-07-04 13:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-model-archiver-nightly
+[2023-07-04 13:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-workflow-archiver-nightly
+[2023-07-04 13:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchrl-nightly
+[2023-07-04 13:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: velikafkaclient
+[2023-07-04 13:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langchain-serve
+[2023-07-04 13:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: leadguru-jobs
+[2023-07-04 13:32:15] WARNING root fetch - processPackages [velikafkaclient]: Skipping, unable to determine old version
+[2023-07-04 13:32:15] INFO root fetch - processPackages [velikafkaclient]: Start processing: inmanta
+[2023-07-04 13:32:15] INFO root fetch - main [MainThread]: End processing [velikafkaclient] error
+[2023-07-04 13:32:15] INFO root fetch - processPackages [wpdetect]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-04 13:32:15] INFO root fetch - processPackages [goxlr]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-04 13:32:15] WARNING root fetch - processPackages [velikafkaclient]: Skipping, unable to determine old version
+[2023-07-04 13:32:15] INFO root fetch - processPackages [velikafkaclient]: Start processing: inmanta-ui
+[2023-07-04 13:32:15] INFO root fetch - main [MainThread]: End processing [velikafkaclient] error
+[2023-07-04 13:32:15] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.7.3] Old Version: [2023.7.2]
+[2023-07-04 13:32:15] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-07-04 13:32:15] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.7.3] Old Version: [2023.7.2]
+[2023-07-04 13:32:15] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-04 13:32:15] INFO root fetch - processPackages [inmanta]: New version: [2023.3] Old Version: [2023.2]
+[2023-07-04 13:32:15] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.7.4] Old Version: [2023.7.3]
+[2023-07-04 13:32:15] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.7.4] Old Version: [2023.7.3]
+[2023-07-04 13:32:15] INFO root fetch - processPackages [inmanta-ui]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-07-04 13:32:15] INFO root fetch - processPackages [goxlr]: Downloading https://files.pythonhosted.org/packages/ff/52/f94323ca16c34178add82cbe57b23dbbf557e549eb9bd6b4f9240fcff267/goxlr-1.0.2.tar.gz
+[2023-07-04 13:32:15] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-07-04 13:32:15] INFO root fetch - processPackages [wpdetect]: Downloading https://files.pythonhosted.org/packages/66/01/676b0f2472bbb71eda572bc21f7ba6b69b6e63829d7547b5b01916e4d40d/wpdetect-1.4.8.tar.gz
+[2023-07-04 13:32:15] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/3b/5f/9daee4eb6c950b300758a97bb4b3f3caf99f62dcc6a00b021a919a43defd/torch_model_archiver_nightly-2023.7.2-py3-none-any.whl
+[2023-07-04 13:32:15] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/f8/22/9f971814d9a5aa5bb14a86401d8b6abade84f8ee58cead8d0bc46090c18e/torchserve_nightly-2023.7.2-py3-none-any.whl
+[2023-07-04 13:32:15] INFO root fetch - processPackages [inmanta]: Downloading https://files.pythonhosted.org/packages/9e/f5/9e304928699c122c72104250120c69f827484ca3f383e5b271733f75ff3b/inmanta-2023.2.tar.gz
+[2023-07-04 13:32:15] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-07-04 13:32:15] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/2a/f9/737ae610b28e029da4e25c3241e4cb1f4e9434b1b39a66176a93502eb26a/torch_workflow_archiver_nightly-2023.7.3-py3-none-any.whl
+[2023-07-04 13:32:15] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23750173>=10485760
+[2023-07-04 13:32:15] INFO root fetch - processPackages [torchserve-nightly]: Start processing: jsonrpc-py
+[2023-07-04 13:32:15] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-07-04 13:32:15] INFO root fetch - processPackages [inmanta-ui]: Downloading https://files.pythonhosted.org/packages/1a/4e/79e050e94cfa1d6166781a38f42af69ca9bb081678fe66113eaeab319609/inmanta-ui-4.0.2.tar.gz
+[2023-07-04 13:32:15] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/68/8f/19dfed4dae132310bdc2ac6a9eed277f212db59c9319cc16449ad8b2593e/torchrl_nightly-2023.7.3-cp39-cp39-win_amd64.whl
+[2023-07-04 13:32:15] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-07-04 13:32:16] INFO root fetch - processPackages [goxlr]: Downloading https://files.pythonhosted.org/packages/e0/61/df2feeb9e6b52caedb32f940f48013e2c9558506e8c6ffa5329dd12d59a2/goxlr-1.0.3.tar.gz
+[2023-07-04 13:32:16] INFO root fetch - processPackages [jsonrpc-py]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-04 13:32:16] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/c5/7b/e72f48e962024f5afa62b676f93c8de1deae85de92bb1be5bad2c424f763/torch_model_archiver_nightly-2023.7.3-py3-none-any.whl
+[2023-07-04 13:32:16] INFO root fetch - processPackages [wpdetect]: Downloading https://files.pythonhosted.org/packages/35/16/a1eed9a759b0681f69410a280c2daa75653672c95ff42ed93454bfdeeaf1/wpdetect-1.4.9.tar.gz
+[2023-07-04 13:32:16] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-07-04 13:32:16] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230704/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-07-04 13:32:16] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/23/82/9dd6e66c894aacbe0249843e9845aba9cc33a22dbaa0542988e09a5b5c3a/torch_workflow_archiver_nightly-2023.7.4-py3-none-any.whl
+[2023-07-04 13:32:16] INFO root fetch - processPackages [inmanta]: Downloading https://files.pythonhosted.org/packages/c0/c0/29ae66ab9b4895beb33c5ec7f5a6d8f17259fea19a33782391115d12db13/inmanta-2023.3.tar.gz
+[2023-07-04 13:32:16] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-07-04 13:32:16] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.7.2-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.7.3-py3-none-any.whl.zip --markdown 20230704/t/torch-model-archiver-nightly/2023.7.2-2023.7.3/diff.md --exclude *.pyd
+[2023-07-04 13:32:16] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-07-04 13:32:16] INFO root fetch - processPackages [inmanta-ui]: Downloading https://files.pythonhosted.org/packages/3f/8d/d780512318d8d7572000532dfd39f671680b8d627efadb75c54869fd421f/inmanta-ui-4.0.3.tar.gz
+[2023-07-04 13:32:16] INFO root fetch - processPackages [jsonrpc-py]: Downloading https://files.pythonhosted.org/packages/42/13/76754b48a05e70abc3dab4adeb6a88f36c60f5cb6ef0ebe35cce9bb489b3/jsonrpc-py-3.0.8.tar.gz
+[2023-07-04 13:32:16] INFO root fetch - processPackages [goxlr]: executing diffoscope
+[2023-07-04 13:32:16] INFO root fetch - processPackages [goxlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goxlr-1.0.2.tar.gz tmp/goxlr-1.0.3.tar.gz --markdown 20230704/g/goxlr/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-04 13:32:16] INFO root fetch - processPackages [wpdetect]: executing diffoscope
+[2023-07-04 13:32:16] INFO root fetch - processPackages [wpdetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wpdetect-1.4.8.tar.gz tmp/wpdetect-1.4.9.tar.gz --markdown 20230704/w/wpdetect/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-04 13:32:16] INFO root fetch - processPackages [inmanta]: executing diffoscope
+[2023-07-04 13:32:16] INFO root fetch - processPackages [inmanta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta-2023.2.tar.gz tmp/inmanta-2023.3.tar.gz --markdown 20230704/i/inmanta/2023.2-2023.3/diff.md --exclude *.pyd
+[2023-07-04 13:32:16] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-07-04 13:32:16] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.7.3-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.7.4-py3-none-any.whl.zip --markdown 20230704/t/torch-workflow-archiver-nightly/2023.7.3-2023.7.4/diff.md --exclude *.pyd
+[2023-07-04 13:32:16] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/00/02/6ca4f118a8d38e27461544c9de58fb911c3b163c8ce7db7d8f4af280f08b/torchrl_nightly-2023.7.4-cp39-cp39-win_amd64.whl
+[2023-07-04 13:32:16] INFO root fetch - processPackages [inmanta-ui]: executing diffoscope
+[2023-07-04 13:32:16] INFO root fetch - processPackages [inmanta-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta-ui-4.0.2.tar.gz tmp/inmanta-ui-4.0.3.tar.gz --markdown 20230704/i/inmanta-ui/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-07-04 13:32:16] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-07-04 13:32:16] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230704/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-04 13:32:16] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-07-04 13:32:16] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.7.3-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.7.4-cp39-cp39-win_amd64.whl.zip --markdown 20230704/t/torchrl-nightly/2023.7.3-2023.7.4/diff.md --exclude *.pyd
+[2023-07-04 13:32:16] INFO root fetch - processPackages [jsonrpc-py]: Downloading https://files.pythonhosted.org/packages/57/e3/86ea8748b5cb245f5185e02399bd64ca33b75971318aca8f2c0b2d34a442/jsonrpc-py-3.0.9.tar.gz
+[2023-07-04 13:32:17] INFO root fetch - processPackages [jsonrpc-py]: executing diffoscope
+[2023-07-04 13:32:17] INFO root fetch - processPackages [jsonrpc-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonrpc-py-3.0.8.tar.gz tmp/jsonrpc-py-3.0.9.tar.gz --markdown 20230704/j/jsonrpc-py/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-04 13:32:17] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.2-py3-none-any.whl.zip]
+[2023-07-04 13:32:17] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.3-py3-none-any.whl.zip]
+[2023-07-04 13:32:17] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: inmanta-core
+[2023-07-04 13:32:17] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-07-04 13:32:17] INFO root fetch - processPackages [goxlr]: Remove: archive file [/home/abi/fetcher/tmp/goxlr-1.0.2.tar.gz]
+[2023-07-04 13:32:17] INFO root fetch - processPackages [goxlr]: Remove: archive file [/home/abi/fetcher/tmp/goxlr-1.0.3.tar.gz]
+[2023-07-04 13:32:17] INFO root fetch - processPackages [goxlr]: Start processing: odoo-addon-base-exception
+[2023-07-04 13:32:17] INFO root fetch - main [MainThread]: End processing [goxlr]: success
+[2023-07-04 13:32:17] INFO root fetch - processPackages [inmanta-core]: New version: [9.3.0] Old Version: [8.3.0]
+[2023-07-04 13:32:17] INFO root fetch - processPackages [odoo-addon-base-exception]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1.8]
+[2023-07-04 13:32:17] INFO root fetch - processPackages [inmanta]: Remove: archive file [/home/abi/fetcher/tmp/inmanta-2023.2.tar.gz]
+[2023-07-04 13:32:17] INFO root fetch - processPackages [inmanta]: Remove: archive file [/home/abi/fetcher/tmp/inmanta-2023.3.tar.gz]
+[2023-07-04 13:32:17] INFO root fetch - processPackages [inmanta]: Start processing: pytest-inmanta-extensions
+[2023-07-04 13:32:17] INFO root fetch - main [MainThread]: End processing [inmanta]: success
+[2023-07-04 13:32:17] INFO root fetch - processPackages [wpdetect]: Remove: archive file [/home/abi/fetcher/tmp/wpdetect-1.4.8.tar.gz]
+[2023-07-04 13:32:17] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-07-04 13:32:17] INFO root fetch - processPackages [wpdetect]: Remove: archive file [/home/abi/fetcher/tmp/wpdetect-1.4.9.tar.gz]
+[2023-07-04 13:32:17] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-07-04 13:32:17] INFO root fetch - processPackages [wpdetect]: Start processing: alibabacloud-dysmsapi20170525-py2
+[2023-07-04 13:32:17] INFO root fetch - main [MainThread]: End processing [wpdetect]: success
+[2023-07-04 13:32:17] INFO root fetch - processPackages [langchain-serve]: Start processing: lecore
+[2023-07-04 13:32:17] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-07-04 13:32:17] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.3-py3-none-any.whl.zip]
+[2023-07-04 13:32:17] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.4-py3-none-any.whl.zip]
+[2023-07-04 13:32:17] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: alibabacloud-dysmsapi20170525
+[2023-07-04 13:32:17] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-07-04 13:32:18] INFO root fetch - processPackages [lecore]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 13:32:18] INFO root fetch - processPackages [inmanta-ui]: Remove: archive file [/home/abi/fetcher/tmp/inmanta-ui-4.0.2.tar.gz]
+[2023-07-04 13:32:18] INFO root fetch - processPackages [inmanta-ui]: Remove: archive file [/home/abi/fetcher/tmp/inmanta-ui-4.0.3.tar.gz]
+[2023-07-04 13:32:18] INFO root fetch - main [MainThread]: End processing [inmanta-ui]: success
+[2023-07-04 13:32:18] INFO root fetch - processPackages [pytest-inmanta-extensions]: New version: [9.3.0] Old Version: [8.3.0]
+[2023-07-04 13:32:18] INFO root fetch - processPackages [alibabacloud-dysmsapi20170525-py2]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-04 13:32:18] INFO root fetch - processPackages [lecore]: Downloading https://files.pythonhosted.org/packages/18/ea/1732f7ad5dca51a7c6234ef2b007e3cef68429b810c4a751ec28dc6e8534/lecore-0.1.8.tar.gz
+[2023-07-04 13:32:18] INFO root fetch - processPackages [odoo-addon-base-exception]: Downloading https://files.pythonhosted.org/packages/46/0e/038dcaf7ff889fa2fc661f826d1998452bf674f9818f491f85cd5e0e4114/odoo_addon_base_exception-16.0.1.0.1.8-py3-none-any.whl
+[2023-07-04 13:32:18] INFO root fetch - processPackages [inmanta-core]: Downloading https://files.pythonhosted.org/packages/d9/e8/0c25f0403462f9be6711acb6a26f2330a8e4022ab58fb580dc5feee7259e/inmanta-core-8.3.0.tar.gz
+[2023-07-04 13:32:18] INFO root fetch - processPackages [alibabacloud-dysmsapi20170525]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-04 13:32:18] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-07-04 13:32:18] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-07-04 13:32:18] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-07-04 13:32:18] INFO root fetch - processPackages [pytest-inmanta-extensions]: Downloading https://files.pythonhosted.org/packages/de/75/91f589e90d12cb85261c275163cf1c20bf8522b6f3948bc3e937cdb0662c/pytest-inmanta-extensions-8.3.0.tar.gz
+[2023-07-04 13:32:18] INFO root fetch - processPackages [lecore]: Downloading https://files.pythonhosted.org/packages/56/da/0be3bd39ce8ddea3485ed8c701705fd8fda1ae0bef057fc39cca0f34ea92/lecore-0.1.9.tar.gz
+[2023-07-04 13:32:18] INFO root fetch - processPackages [alibabacloud-dysmsapi20170525-py2]: Downloading https://files.pythonhosted.org/packages/7a/30/fe2ad1fd64d50155d3902a5e122352fc5e0f89d46ee51cf1eb07989c3348/alibabacloud_dysmsapi20170525_py2-1.0.2.tar.gz
+[2023-07-04 13:32:18] INFO root fetch - processPackages [alibabacloud-dysmsapi20170525]: Downloading https://files.pythonhosted.org/packages/68/ba/f0bd8f1b879d210c393797737f4f025bb83a738ed31244ad367ee959a9b1/alibabacloud_dysmsapi20170525-2.0.8.tar.gz
+[2023-07-04 13:32:18] INFO root fetch - processPackages [jsonrpc-py]: Remove: archive file [/home/abi/fetcher/tmp/jsonrpc-py-3.0.8.tar.gz]
+[2023-07-04 13:32:18] INFO root fetch - processPackages [jsonrpc-py]: Remove: archive file [/home/abi/fetcher/tmp/jsonrpc-py-3.0.9.tar.gz]
+[2023-07-04 13:32:18] INFO root fetch - main [MainThread]: End processing [jsonrpc-py]: success
+[2023-07-04 13:32:18] INFO root fetch - processPackages [lecore]: executing diffoscope
+[2023-07-04 13:32:18] INFO root fetch - processPackages [lecore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lecore-0.1.8.tar.gz tmp/lecore-0.1.9.tar.gz --markdown 20230704/l/lecore/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 13:32:18] INFO root fetch - processPackages [inmanta-core]: Downloading https://files.pythonhosted.org/packages/86/f6/6ef8a66268f93f28019472acba04a564c30685b0b259f2e0725ad1aabc8b/inmanta-core-9.3.0.tar.gz
+[2023-07-04 13:32:18] INFO root fetch - processPackages [odoo-addon-base-exception]: Downloading https://files.pythonhosted.org/packages/d5/ad/dd24aa723d8f9535959fb1514b6e3541c116a88c5e77eeffec28d6a59434/odoo_addon_base_exception-16.0.1.0.2-py3-none-any.whl
+[2023-07-04 13:32:18] INFO root fetch - processPackages [pytest-inmanta-extensions]: Downloading https://files.pythonhosted.org/packages/56/40/a3ee22329e9b3a80882de2bb80dc956fd54e096619e80b69f04108077997/pytest-inmanta-extensions-9.3.0.tar.gz
+[2023-07-04 13:32:18] INFO root fetch - processPackages [inmanta-core]: executing diffoscope
+[2023-07-04 13:32:18] INFO root fetch - processPackages [inmanta-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta-core-8.3.0.tar.gz tmp/inmanta-core-9.3.0.tar.gz --markdown 20230704/i/inmanta-core/8.3.0-9.3.0/diff.md --exclude *.pyd
+[2023-07-04 13:32:18] INFO root fetch - processPackages [alibabacloud-dysmsapi20170525-py2]: Downloading https://files.pythonhosted.org/packages/d0/f3/11111ceee32fb2e510062cf83d59dd45b156963b68ea08417c0dc10da7b9/alibabacloud_dysmsapi20170525_py2-1.0.3.tar.gz
+[2023-07-04 13:32:18] INFO root fetch - processPackages [odoo-addon-base-exception]: executing diffoscope
+[2023-07-04 13:32:18] INFO root fetch - processPackages [odoo-addon-base-exception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_exception-16.0.1.0.1.8-py3-none-any.whl.zip tmp/odoo_addon_base_exception-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230704/o/odoo-addon-base-exception/16.0.1.0.1.8-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-07-04 13:32:18] INFO root fetch - processPackages [pytest-inmanta-extensions]: executing diffoscope
+[2023-07-04 13:32:18] INFO root fetch - processPackages [pytest-inmanta-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-inmanta-extensions-8.3.0.tar.gz tmp/pytest-inmanta-extensions-9.3.0.tar.gz --markdown 20230704/p/pytest-inmanta-extensions/8.3.0-9.3.0/diff.md --exclude *.pyd
+[2023-07-04 13:32:18] INFO root fetch - processPackages [alibabacloud-dysmsapi20170525]: Downloading https://files.pythonhosted.org/packages/19/4e/c2b97a3a3c33e613e6cddf27e1ad413f6cf7c9f3e188c76ddde31d5e1b1b/alibabacloud_dysmsapi20170525-2.0.9.tar.gz
+[2023-07-04 13:32:18] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.3-cp39-cp39-win_amd64.whl.zip]
+[2023-07-04 13:32:18] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.4-cp39-cp39-win_amd64.whl.zip]
+[2023-07-04 13:32:18] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-07-04 13:32:19] INFO root fetch - processPackages [alibabacloud-dysmsapi20170525-py2]: executing diffoscope
+[2023-07-04 13:32:19] INFO root fetch - processPackages [alibabacloud-dysmsapi20170525-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dysmsapi20170525_py2-1.0.2.tar.gz tmp/alibabacloud_dysmsapi20170525_py2-1.0.3.tar.gz --markdown 20230704/a/alibabacloud-dysmsapi20170525-py2/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-04 13:32:19] INFO root fetch - processPackages [alibabacloud-dysmsapi20170525]: executing diffoscope
+[2023-07-04 13:32:19] INFO root fetch - processPackages [alibabacloud-dysmsapi20170525]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dysmsapi20170525-2.0.8.tar.gz tmp/alibabacloud_dysmsapi20170525-2.0.9.tar.gz --markdown 20230704/a/alibabacloud-dysmsapi20170525/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-04 13:32:19] INFO root fetch - processPackages [lecore]: Remove: archive file [/home/abi/fetcher/tmp/lecore-0.1.8.tar.gz]
+[2023-07-04 13:32:19] INFO root fetch - processPackages [lecore]: Remove: archive file [/home/abi/fetcher/tmp/lecore-0.1.9.tar.gz]
+[2023-07-04 13:32:19] INFO root fetch - main [MainThread]: End processing [lecore]: success
+[2023-07-04 13:32:19] INFO root fetch - processPackages [pytest-inmanta-extensions]: Remove: archive file [/home/abi/fetcher/tmp/pytest-inmanta-extensions-8.3.0.tar.gz]
+[2023-07-04 13:32:19] INFO root fetch - processPackages [pytest-inmanta-extensions]: Remove: archive file [/home/abi/fetcher/tmp/pytest-inmanta-extensions-9.3.0.tar.gz]
+[2023-07-04 13:32:19] INFO root fetch - main [MainThread]: End processing [pytest-inmanta-extensions]: success
+[2023-07-04 13:32:20] INFO root fetch - processPackages [alibabacloud-dysmsapi20170525]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dysmsapi20170525-2.0.8.tar.gz]
+[2023-07-04 13:32:20] INFO root fetch - processPackages [alibabacloud-dysmsapi20170525]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dysmsapi20170525-2.0.9.tar.gz]
+[2023-07-04 13:32:20] INFO root fetch - main [MainThread]: End processing [alibabacloud-dysmsapi20170525]: success
+[2023-07-04 13:32:20] INFO root fetch - processPackages [alibabacloud-dysmsapi20170525-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dysmsapi20170525_py2-1.0.2.tar.gz]
+[2023-07-04 13:32:20] INFO root fetch - processPackages [alibabacloud-dysmsapi20170525-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dysmsapi20170525_py2-1.0.3.tar.gz]
+[2023-07-04 13:32:20] INFO root fetch - main [MainThread]: End processing [alibabacloud-dysmsapi20170525-py2]: success
+[2023-07-04 13:32:20] INFO root fetch - processPackages [odoo-addon-base-exception]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_exception-16.0.1.0.1.8-py3-none-any.whl.zip]
+[2023-07-04 13:32:20] INFO root fetch - processPackages [odoo-addon-base-exception]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_exception-16.0.1.0.2-py3-none-any.whl.zip]
+[2023-07-04 13:32:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-exception]: success
+[2023-07-04 13:32:21] INFO root fetch - processPackages [inmanta-core]: Remove: archive file [/home/abi/fetcher/tmp/inmanta-core-8.3.0.tar.gz]
+[2023-07-04 13:32:21] INFO root fetch - processPackages [inmanta-core]: Remove: archive file [/home/abi/fetcher/tmp/inmanta-core-9.3.0.tar.gz]
+[2023-07-04 13:32:21] INFO root fetch - main [MainThread]: End processing [inmanta-core]: success
+[2023-07-04 13:32:21] INFO root fetch - main [MainThread]: Store serial: [18754049]
