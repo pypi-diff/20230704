@@ -19693,3 +19693,127 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 13:03:23] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-5.1.2-py3-none-any.whl.zip]
 [2023-07-04 13:03:23] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
 [2023-07-04 13:03:23] INFO root fetch - main [MainThread]: Store serial: [18753740]
+[2023-07-04 13:08:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18753740]
+[2023-07-04 13:08:32] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-04 13:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mypackagelicenseprototype
+[2023-07-04 13:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: napalm-nokia-olt
+[2023-07-04 13:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ytdld
+[2023-07-04 13:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hotspell
+[2023-07-04 13:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oidc-drf
+[2023-07-04 13:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autoviz
+[2023-07-04 13:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: amulet-map-editor
+[2023-07-04 13:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hvps
+[2023-07-04 13:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: buttonizer
+[2023-07-04 13:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gtfs-parser
+[2023-07-04 13:08:33] INFO root fetch - processPackages [ytdld]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-04 13:08:33] INFO root fetch - processPackages [napalm-nokia-olt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 13:08:33] INFO root fetch - processPackages [oidc-drf]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-07-04 13:08:33] INFO root fetch - processPackages [hvps]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-04 13:08:33] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [5.1.3] Old Version: [5.1.2]
+[2023-07-04 13:08:33] WARNING root fetch - processPackages [gtfs-parser]: Skipping, unable to determine old version
+[2023-07-04 13:08:33] INFO root fetch - processPackages [gtfs-parser]: Start processing: pedurma
+[2023-07-04 13:08:33] INFO root fetch - main [MainThread]: End processing [gtfs-parser] error
+[2023-07-04 13:08:33] WARNING root fetch - processPackages [buttonizer]: Skipping, unable to determine old version
+[2023-07-04 13:08:33] INFO root fetch - processPackages [buttonizer]: Start processing: wiptools
+[2023-07-04 13:08:33] INFO root fetch - main [MainThread]: End processing [buttonizer] error
+[2023-07-04 13:08:33] INFO root fetch - processPackages [hotspell]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-04 13:08:33] INFO root fetch - processPackages [autoviz]: New version: [0.1.730] Old Version: [0.1.73]
+[2023-07-04 13:08:33] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/ab/06/5150b8a15e654a6b6b086caf25810b34cbac0b2748fa3893e650ce572802/oidc_drf-1.2.6.tar.gz
+[2023-07-04 13:08:33] INFO root fetch - processPackages [amulet-map-editor]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-04 13:08:33] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/f2/e7/76fe771f9b583c90c353da77e70894eb04e3f78092ccf4c2a426168d91a8/napalm_nokia_olt-0.0.8.tar.gz
+[2023-07-04 13:08:33] INFO root fetch - processPackages [wiptools]: New version: [1.2.0.dev0] Old Version: [1.1.8.dev0]
+[2023-07-04 13:08:33] INFO root fetch - processPackages [hvps]: Downloading https://files.pythonhosted.org/packages/26/38/c5aacd5aac2cb746637f7620b0e30b429ca572d27a302e0b9e01ef7a882a/hvps-0.0.5.tar.gz
+[2023-07-04 13:08:33] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/23/5f/a15ccb32ca1aa09348686fa1ad4a62559bf00074444ca09837a36a7785d4/mypackagelicenseprototype-5.1.2-py3-none-any.whl
+[2023-07-04 13:08:33] INFO root fetch - processPackages [pedurma]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-04 13:08:33] INFO root fetch - processPackages [ytdld]: Downloading https://files.pythonhosted.org/packages/77/a9/50ed892307d4796a914ef1fc0b6dce1cb8e4d76b94c537219bc847aaec28/ytdld-0.0.1.tar.gz
+[2023-07-04 13:08:33] INFO root fetch - processPackages [autoviz]: Downloading https://files.pythonhosted.org/packages/aa/78/53021a887010a122c18058e0cdbe6e12c037d9f413c6ef7d1427766e780f/autoviz-0.1.73.tar.gz
+[2023-07-04 13:08:33] INFO root fetch - processPackages [wiptools]: Downloading https://files.pythonhosted.org/packages/a7/d2/fe6523132efc16513054156d2f0cae7ae40842b40b9e033480680cffe38c/wiptools-1.1.8.dev0.tar.gz
+[2023-07-04 13:08:33] INFO root fetch - processPackages [hotspell]: Downloading https://files.pythonhosted.org/packages/55/6f/ca26cdcabfb80038d0666c659fd92f88bba38414c7ae2c4f16174ca0d415/hotspell-0.1.3.tar.gz
+[2023-07-04 13:08:33] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/26/2c/2d428aaa0eada11aa4a6c98d7b6ac6a03d899bdc8f46115a074d73a878fe/napalm_nokia_olt-0.0.9.tar.gz
+[2023-07-04 13:08:33] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-04 13:08:33] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.2.6.tar.gz tmp/oidc_drf-1.2.7.tar.gz --markdown 20230704/o/oidc-drf/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-07-04 13:08:33] INFO root fetch - processPackages [amulet-map-editor]: Downloading https://files.pythonhosted.org/packages/3f/22/fe3c93fbda35d1cdacc4caca6d416247cf754bced7899f75801286234efd/amulet-map-editor-0.9.5.tar.gz
+[2023-07-04 13:08:33] INFO root fetch - processPackages [pedurma]: Downloading https://files.pythonhosted.org/packages/d4/cc/a427a0071e703318ee4d71dd2c8da2797c484117e365a5b8e3b14ffbeefd/pedurma-0.1.98.tar.gz
+[2023-07-04 13:08:33] INFO root fetch - processPackages [hvps]: Downloading https://files.pythonhosted.org/packages/91/cc/a2618621be00c57703c4474b62fd7ae7e983e47955a09b9b32854e8ac357/hvps-0.0.6.tar.gz
+[2023-07-04 13:08:33] INFO root fetch - processPackages [napalm-nokia-olt]: executing diffoscope
+[2023-07-04 13:08:33] INFO root fetch - processPackages [napalm-nokia-olt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napalm_nokia_olt-0.0.8.tar.gz tmp/napalm_nokia_olt-0.0.9.tar.gz --markdown 20230704/n/napalm-nokia-olt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 13:08:33] INFO root fetch - processPackages [ytdld]: Downloading https://files.pythonhosted.org/packages/3f/4e/50362ef955ff4a04067a084e86e1a96c5ae918fd1646d7af914d66296b74/ytdld-0.0.2.tar.gz
+[2023-07-04 13:08:33] INFO root fetch - processPackages [hvps]: executing diffoscope
+[2023-07-04 13:08:33] INFO root fetch - processPackages [hvps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hvps-0.0.5.tar.gz tmp/hvps-0.0.6.tar.gz --markdown 20230704/h/hvps/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-04 13:08:33] INFO root fetch - processPackages [wiptools]: Downloading https://files.pythonhosted.org/packages/2f/e8/b05e2e02edf8380f5838aacbf5448e24a54d89356d88ed600436eda94278/wiptools-1.2.0.dev0.tar.gz
+[2023-07-04 13:08:34] INFO root fetch - processPackages [autoviz]: Downloading https://files.pythonhosted.org/packages/66/0d/da0ff9a52f5e809c0d8f6c6bc4a45127dfef8d4fa7727c0cb5def5b7908d/autoviz-0.1.730.tar.gz
+[2023-07-04 13:08:34] INFO root fetch - processPackages [ytdld]: executing diffoscope
+[2023-07-04 13:08:34] INFO root fetch - processPackages [ytdld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytdld-0.0.1.tar.gz tmp/ytdld-0.0.2.tar.gz --markdown 20230704/y/ytdld/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-04 13:08:34] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/55/94/5844ff4c9a97324fc0721d5b060102684738db62139f115e640ac7162146/mypackagelicenseprototype-5.1.3-py3-none-any.whl
+[2023-07-04 13:08:34] INFO root fetch - processPackages [hotspell]: Downloading https://files.pythonhosted.org/packages/d0/d6/7cdf3972d7b9592b3be30c467d84e6ce327e6d18ff865bde67c8c1188363/hotspell-0.1.4.tar.gz
+[2023-07-04 13:08:34] INFO root fetch - processPackages [wiptools]: executing diffoscope
+[2023-07-04 13:08:34] INFO root fetch - processPackages [wiptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiptools-1.1.8.dev0.tar.gz tmp/wiptools-1.2.0.dev0.tar.gz --markdown 20230704/w/wiptools/1.1.8.dev0-1.2.0.dev0/diff.md --exclude *.pyd
+[2023-07-04 13:08:34] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-07-04 13:08:34] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-5.1.2-py3-none-any.whl.zip tmp/mypackagelicenseprototype-5.1.3-py3-none-any.whl.zip --markdown 20230704/m/mypackagelicenseprototype/5.1.2-5.1.3/diff.md --exclude *.pyd
+[2023-07-04 13:08:34] INFO root fetch - processPackages [autoviz]: executing diffoscope
+[2023-07-04 13:08:34] INFO root fetch - processPackages [autoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoviz-0.1.73.tar.gz tmp/autoviz-0.1.730.tar.gz --markdown 20230704/a/autoviz/0.1.73-0.1.730/diff.md --exclude *.pyd
+[2023-07-04 13:08:34] INFO root fetch - processPackages [pedurma]: Downloading https://files.pythonhosted.org/packages/62/26/b6e319dc797228b6fe758f30ff57e7a8358ffeb13151686e5c9385a339bc/pedurma-0.1.99.tar.gz
+[2023-07-04 13:08:34] INFO root fetch - processPackages [hotspell]: executing diffoscope
+[2023-07-04 13:08:34] INFO root fetch - processPackages [hotspell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotspell-0.1.3.tar.gz tmp/hotspell-0.1.4.tar.gz --markdown 20230704/h/hotspell/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-04 13:08:34] INFO root fetch - processPackages [pedurma]: executing diffoscope
+[2023-07-04 13:08:34] INFO root fetch - processPackages [pedurma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pedurma-0.1.98.tar.gz tmp/pedurma-0.1.99.tar.gz --markdown 20230704/p/pedurma/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-04 13:08:34] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.6.tar.gz]
+[2023-07-04 13:08:34] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.7.tar.gz]
+[2023-07-04 13:08:34] INFO root fetch - processPackages [oidc-drf]: Start processing: spotPython
+[2023-07-04 13:08:34] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-04 13:08:34] INFO root fetch - processPackages [spotPython]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-04 13:08:34] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.8.tar.gz]
+[2023-07-04 13:08:34] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.9.tar.gz]
+[2023-07-04 13:08:34] INFO root fetch - processPackages [napalm-nokia-olt]: Start processing: sciopy
+[2023-07-04 13:08:34] INFO root fetch - main [MainThread]: End processing [napalm-nokia-olt]: success
+[2023-07-04 13:08:35] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/fb/18/eefdcdebf7316908129035adffb2569fb6dd5bb4b4e98f6ac2e4b30b7bed/spotPython-0.3.1.tar.gz
+[2023-07-04 13:08:35] INFO root fetch - processPackages [amulet-map-editor]: Downloading https://files.pythonhosted.org/packages/3f/6c/53a1a90d5583a066d8244e345ab522afff85e8fd5acd593d8195f9fcb7b7/amulet-map-editor-0.9.6.tar.gz
+[2023-07-04 13:08:35] WARNING root fetch - processPackages [spotPython]: Skipping package: exceeds size limit 25054974>=10485760
+[2023-07-04 13:08:35] INFO root fetch - processPackages [spotPython]: Start processing: Digital-Farming-Solution
+[2023-07-04 13:08:35] INFO root fetch - main [MainThread]: End processing [spotPython] error
+[2023-07-04 13:08:35] INFO root fetch - processPackages [sciopy]: New version: [0.6.4.8] Old Version: [0.6.4]
+[2023-07-04 13:08:35] INFO root fetch - processPackages [Digital-Farming-Solution]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-04 13:08:35] INFO root fetch - processPackages [hvps]: Remove: archive file [/home/abi/fetcher/tmp/hvps-0.0.5.tar.gz]
+[2023-07-04 13:08:35] INFO root fetch - processPackages [hvps]: Remove: archive file [/home/abi/fetcher/tmp/hvps-0.0.6.tar.gz]
+[2023-07-04 13:08:35] INFO root fetch - processPackages [hvps]: Start processing: segmentheepy-euro
+[2023-07-04 13:08:35] INFO root fetch - main [MainThread]: End processing [hvps]: success
+[2023-07-04 13:08:35] INFO root fetch - processPackages [ytdld]: Remove: archive file [/home/abi/fetcher/tmp/ytdld-0.0.1.tar.gz]
+[2023-07-04 13:08:35] INFO root fetch - processPackages [ytdld]: Remove: archive file [/home/abi/fetcher/tmp/ytdld-0.0.2.tar.gz]
+[2023-07-04 13:08:35] INFO root fetch - main [MainThread]: End processing [ytdld]: success
+[2023-07-04 13:08:35] WARNING root fetch - processPackages [segmentheepy-euro]: Skipping, unable to determine old version
+[2023-07-04 13:08:35] INFO root fetch - main [MainThread]: End processing [segmentheepy-euro] error
+[2023-07-04 13:08:35] INFO root fetch - processPackages [sciopy]: Downloading https://files.pythonhosted.org/packages/7f/b6/4f879b36b6b51aa9c5e78a9c60c8e998234090350ce6668c10ad06cce83e/sciopy-0.6.4-py3-none-any.whl
+[2023-07-04 13:08:35] INFO root fetch - processPackages [Digital-Farming-Solution]: Downloading https://files.pythonhosted.org/packages/d9/ea/37fc134671018c4197bd1f142d1bbdd63ccf591077a56a63eb9120f27111/Digital_Farming_Solution-0.1.3.tar.gz
+[2023-07-04 13:08:35] INFO root fetch - processPackages [hotspell]: Remove: archive file [/home/abi/fetcher/tmp/hotspell-0.1.3.tar.gz]
+[2023-07-04 13:08:35] INFO root fetch - processPackages [hotspell]: Remove: archive file [/home/abi/fetcher/tmp/hotspell-0.1.4.tar.gz]
+[2023-07-04 13:08:35] INFO root fetch - main [MainThread]: End processing [hotspell]: success
+[2023-07-04 13:08:35] INFO root fetch - processPackages [wiptools]: Remove: archive file [/home/abi/fetcher/tmp/wiptools-1.1.8.dev0.tar.gz]
+[2023-07-04 13:08:35] INFO root fetch - processPackages [wiptools]: Remove: archive file [/home/abi/fetcher/tmp/wiptools-1.2.0.dev0.tar.gz]
+[2023-07-04 13:08:35] INFO root fetch - main [MainThread]: End processing [wiptools]: success
+[2023-07-04 13:08:35] INFO root fetch - processPackages [autoviz]: Remove: archive file [/home/abi/fetcher/tmp/autoviz-0.1.73.tar.gz]
+[2023-07-04 13:08:35] INFO root fetch - processPackages [autoviz]: Remove: archive file [/home/abi/fetcher/tmp/autoviz-0.1.730.tar.gz]
+[2023-07-04 13:08:35] INFO root fetch - main [MainThread]: End processing [autoviz]: success
+[2023-07-04 13:08:35] INFO root fetch - processPackages [sciopy]: Downloading https://files.pythonhosted.org/packages/ad/a2/a5701bedeff91f4b330ba5349f2d4c1910100d630f268f4253657c2c8b03/sciopy-0.6.4.8-py3-none-any.whl
+[2023-07-04 13:08:35] INFO root fetch - processPackages [pedurma]: Remove: archive file [/home/abi/fetcher/tmp/pedurma-0.1.98.tar.gz]
+[2023-07-04 13:08:35] INFO root fetch - processPackages [pedurma]: Remove: archive file [/home/abi/fetcher/tmp/pedurma-0.1.99.tar.gz]
+[2023-07-04 13:08:35] INFO root fetch - main [MainThread]: End processing [pedurma]: success
+[2023-07-04 13:08:35] INFO root fetch - processPackages [amulet-map-editor]: executing diffoscope
+[2023-07-04 13:08:35] INFO root fetch - processPackages [amulet-map-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amulet-map-editor-0.9.5.tar.gz tmp/amulet-map-editor-0.9.6.tar.gz --markdown 20230704/a/amulet-map-editor/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-04 13:08:35] INFO root fetch - processPackages [Digital-Farming-Solution]: Downloading https://files.pythonhosted.org/packages/ee/01/dad71825b1945d2a523f258bc43b43a010abc2f12dea20ac138228c86b53/Digital_Farming_Solution-0.1.4.tar.gz
+[2023-07-04 13:08:35] INFO root fetch - processPackages [sciopy]: executing diffoscope
+[2023-07-04 13:08:35] INFO root fetch - processPackages [sciopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciopy-0.6.4-py3-none-any.whl.zip tmp/sciopy-0.6.4.8-py3-none-any.whl.zip --markdown 20230704/s/sciopy/0.6.4-0.6.4.8/diff.md --exclude *.pyd
+[2023-07-04 13:08:36] INFO root fetch - processPackages [Digital-Farming-Solution]: executing diffoscope
+[2023-07-04 13:08:36] INFO root fetch - processPackages [Digital-Farming-Solution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Digital_Farming_Solution-0.1.3.tar.gz tmp/Digital_Farming_Solution-0.1.4.tar.gz --markdown 20230704/D/Digital-Farming-Solution/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-04 13:08:36] INFO root fetch - processPackages [Digital-Farming-Solution]: Remove: archive file [/home/abi/fetcher/tmp/Digital_Farming_Solution-0.1.3.tar.gz]
+[2023-07-04 13:08:36] INFO root fetch - processPackages [Digital-Farming-Solution]: Remove: archive file [/home/abi/fetcher/tmp/Digital_Farming_Solution-0.1.4.tar.gz]
+[2023-07-04 13:08:36] INFO root fetch - main [MainThread]: End processing [Digital-Farming-Solution]: success
+[2023-07-04 13:08:36] INFO root fetch - processPackages [sciopy]: Remove: archive file [/home/abi/fetcher/tmp/sciopy-0.6.4-py3-none-any.whl.zip]
+[2023-07-04 13:08:36] INFO root fetch - processPackages [sciopy]: Remove: archive file [/home/abi/fetcher/tmp/sciopy-0.6.4.8-py3-none-any.whl.zip]
+[2023-07-04 13:08:36] INFO root fetch - main [MainThread]: End processing [sciopy]: success
+[2023-07-04 13:08:38] INFO root fetch - processPackages [amulet-map-editor]: Remove: archive file [/home/abi/fetcher/tmp/amulet-map-editor-0.9.5.tar.gz]
+[2023-07-04 13:08:38] INFO root fetch - processPackages [amulet-map-editor]: Remove: archive file [/home/abi/fetcher/tmp/amulet-map-editor-0.9.6.tar.gz]
+[2023-07-04 13:08:38] INFO root fetch - main [MainThread]: End processing [amulet-map-editor]: success
+[2023-07-04 13:08:39] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-5.1.2-py3-none-any.whl.zip]
+[2023-07-04 13:08:39] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-5.1.3-py3-none-any.whl.zip]
+[2023-07-04 13:08:39] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-07-04 13:08:39] INFO root fetch - main [MainThread]: Store serial: [18753801]
