@@ -13604,3 +13604,150 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 08:38:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
 [2023-07-04 08:38:57] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-07-04 08:38:57] INFO root fetch - main [MainThread]: Store serial: [18751061]
+[2023-07-04 08:44:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18751061]
+[2023-07-04 08:44:06] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-04 08:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sphractal
+[2023-07-04 08:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-07-04 08:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Geode-Common
+[2023-07-04 08:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrtcm
+[2023-07-04 08:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cashocs
+[2023-07-04 08:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: upstash-ratelimit
+[2023-07-04 08:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Finance-Seleya
+[2023-07-04 08:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grassmanntn
+[2023-07-04 08:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pygame-texteditor
+[2023-07-04 08:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: antchain-bot
+[2023-07-04 08:44:06] INFO root fetch - processPackages [Geode-Common]: New version: [26.1.2rc3] Old Version: [26.1.2rc2]
+[2023-07-04 08:44:06] INFO root fetch - processPackages [grassmanntn]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-04 08:44:06] INFO root fetch - processPackages [sphractal]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-04 08:44:06] INFO root fetch - processPackages [pygame-texteditor]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-04 08:44:06] INFO root fetch - processPackages [upstash-ratelimit]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-04 08:44:06] INFO root fetch - processPackages [Finance-Seleya]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-04 08:44:06] INFO root fetch - processPackages [antchain-bot]: New version: [1.8.94] Old Version: [1.8.90]
+[2023-07-04 08:44:06] INFO root fetch - processPackages [pyrtcm]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-04 08:44:06] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-04 08:44:06] INFO root fetch - processPackages [cashocs]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-04 08:44:06] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b3/86/36e94822ec93139a14c97e4cc055aa7343dbffdec6234f73120d8c5b8832/sphractal-0.6.0.tar.gz
+[2023-07-04 08:44:06] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-07-04 08:44:06] INFO root fetch - processPackages [pyrtcm]: Downloading https://files.pythonhosted.org/packages/31/99/5670aa585fc8494bd7872b8886fcbc3efcc4facb36a7669d07029ee3068f/pyrtcm-1.0.8-py3-none-any.whl
+[2023-07-04 08:44:06] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/75/d9/df9df941539ba59091708184f42cbd2d5383394a20ff26c8cbef1ca82243/Geode_Common-26.1.2rc2-cp39-cp39-win_amd64.whl
+[2023-07-04 08:44:06] INFO root fetch - processPackages [upstash-ratelimit]: Downloading https://files.pythonhosted.org/packages/7b/61/f22205a66d90ecbb83f1482a2a6deb9246917eafbc96881e95f11200b1d3/upstash_ratelimit-0.4.0.tar.gz
+[2023-07-04 08:44:06] INFO root fetch - processPackages [pygame-texteditor]: Downloading https://files.pythonhosted.org/packages/44/dc/defb55da83678e70ffa500c8db21dafc952335b62ce4850e84a5f3a2dd6d/pygame_texteditor-0.7.1.tar.gz
+[2023-07-04 08:44:06] INFO root fetch - processPackages [antchain-bot]: Downloading https://files.pythonhosted.org/packages/1d/20/40b9924f0ee63f9db9223315e4f17db962e3e858d0563b5506a2482b88c7/antchain_bot-1.8.90.tar.gz
+[2023-07-04 08:44:06] INFO root fetch - processPackages [cashocs]: Downloading https://files.pythonhosted.org/packages/a4/fb/cd272cdd935d743ed1cda3f526d44fe566014ae21042ba4d96a7ff98be7f/cashocs-2.0.5.tar.gz
+[2023-07-04 08:44:06] INFO root fetch - processPackages [Finance-Seleya]: Downloading https://files.pythonhosted.org/packages/64/a2/ea649023e52b0994e6e0ec97d03f90ebdc52adcf757ebed0fc6682c973e5/Finance-Seleya-1.1.2.tar.gz
+[2023-07-04 08:44:07] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/ce/dc/904d5c9edc59968d081313ddb1ee0a85a9ee8181e79737b6ad3f59d6e9e3/grassmanntn-1.0.2.tar.gz
+[2023-07-04 08:44:07] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-07-04 08:44:07] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/ab/ad/e5137ca33cea7d261f9754de76f81c9be7b8e8434eb8c38e6b2430495595/sphractal-0.6.1.tar.gz
+[2023-07-04 08:44:07] INFO root fetch - processPackages [pyrtcm]: Downloading https://files.pythonhosted.org/packages/75/a3/d3d2fccb0b3397f1b27d3035ccbde12211afd92137575a7ef063b6651593/pyrtcm-1.0.9.tar.gz
+[2023-07-04 08:44:07] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-07-04 08:44:07] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230704/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-04 08:44:07] INFO root fetch - processPackages [upstash-ratelimit]: Downloading https://files.pythonhosted.org/packages/d0/8b/2094b2773f581d398ac9ea6ddfc471c42bc84ba705bf98e0b13350c67816/upstash_ratelimit-0.4.1.tar.gz
+[2023-07-04 08:44:07] INFO root fetch - processPackages [pygame-texteditor]: Downloading https://files.pythonhosted.org/packages/9d/23/8b20d39ce19683d9d2a5090940fd03d29bb14670f26c2b9c02bfb3a56af7/pygame_texteditor-0.7.2.tar.gz
+[2023-07-04 08:44:07] INFO root fetch - processPackages [antchain-bot]: Downloading https://files.pythonhosted.org/packages/8e/54/6ca8ccadab776f4a1e9a4b91925039ec82b4f363be0ae10ceeafebdc8b51/antchain_bot-1.8.94.tar.gz
+[2023-07-04 08:44:07] INFO root fetch - processPackages [Finance-Seleya]: Downloading https://files.pythonhosted.org/packages/56/bd/0dc2ff43b06d1545b0848474b3296aa95af36d152a23874861de6462f937/Finance-Seleya-1.1.3.tar.gz
+[2023-07-04 08:44:07] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/d8/6c/bd3026f8beac3e4a2efcbc40049bfe83764b05a61bbabb5eb55958a65e7c/Geode_Common-26.1.2rc3-cp39-cp39-win_amd64.whl
+[2023-07-04 08:44:07] INFO root fetch - processPackages [cashocs]: Downloading https://files.pythonhosted.org/packages/d9/47/32427e9694e6b15e2688ca23592f1c3c76c73d621a02d5ce75eb8c71bc84/cashocs-2.0.6.tar.gz
+[2023-07-04 08:44:07] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/a8/f7/ec57b975a370b162e8f7b84f620bc7baf8246ffe843847fe190cd1699906/grassmanntn-1.1.0.tar.gz
+[2023-07-04 08:44:07] INFO root fetch - processPackages [pyrtcm]: executing diffoscope
+[2023-07-04 08:44:07] INFO root fetch - processPackages [pyrtcm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrtcm-1.0.8-py3-none-any.whl.zip tmp/pyrtcm-1.0.9.tar.gz --markdown 20230704/p/pyrtcm/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-04 08:44:07] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-07-04 08:44:07] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.6.0.tar.gz tmp/sphractal-0.6.1.tar.gz --markdown 20230704/s/sphractal/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-04 08:44:07] INFO root fetch - processPackages [pygame-texteditor]: executing diffoscope
+[2023-07-04 08:44:07] INFO root fetch - processPackages [pygame-texteditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygame_texteditor-0.7.1.tar.gz tmp/pygame_texteditor-0.7.2.tar.gz --markdown 20230704/p/pygame-texteditor/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-04 08:44:07] INFO root fetch - processPackages [antchain-bot]: executing diffoscope
+[2023-07-04 08:44:07] INFO root fetch - processPackages [antchain-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_bot-1.8.90.tar.gz tmp/antchain_bot-1.8.94.tar.gz --markdown 20230704/a/antchain-bot/1.8.90-1.8.94/diff.md --exclude *.pyd
+[2023-07-04 08:44:07] INFO root fetch - processPackages [Finance-Seleya]: executing diffoscope
+[2023-07-04 08:44:07] INFO root fetch - processPackages [Finance-Seleya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Finance-Seleya-1.1.2.tar.gz tmp/Finance-Seleya-1.1.3.tar.gz --markdown 20230704/F/Finance-Seleya/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-04 08:44:07] INFO root fetch - processPackages [upstash-ratelimit]: executing diffoscope
+[2023-07-04 08:44:07] INFO root fetch - processPackages [upstash-ratelimit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_ratelimit-0.4.0.tar.gz tmp/upstash_ratelimit-0.4.1.tar.gz --markdown 20230704/u/upstash-ratelimit/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-04 08:44:07] INFO root fetch - processPackages [cashocs]: executing diffoscope
+[2023-07-04 08:44:07] INFO root fetch - processPackages [cashocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashocs-2.0.5.tar.gz tmp/cashocs-2.0.6.tar.gz --markdown 20230704/c/cashocs/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-04 08:44:07] INFO root fetch - processPackages [grassmanntn]: executing diffoscope
+[2023-07-04 08:44:07] INFO root fetch - processPackages [grassmanntn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grassmanntn-1.0.2.tar.gz tmp/grassmanntn-1.1.0.tar.gz --markdown 20230704/g/grassmanntn/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-04 08:44:08] INFO root fetch - processPackages [Geode-Common]: executing diffoscope
+[2023-07-04 08:44:08] INFO root fetch - processPackages [Geode-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Common-26.1.2rc2-cp39-cp39-win_amd64.whl.zip tmp/Geode_Common-26.1.2rc3-cp39-cp39-win_amd64.whl.zip --markdown 20230704/G/Geode-Common/26.1.2rc2-26.1.2rc3/diff.md --exclude *.pyd
+[2023-07-04 08:44:09] INFO root fetch - processPackages [pyrtcm]: Remove: archive file [/home/abi/fetcher/tmp/pyrtcm-1.0.8-py3-none-any.whl.zip]
+[2023-07-04 08:44:09] INFO root fetch - processPackages [pyrtcm]: Remove: archive file [/home/abi/fetcher/tmp/pyrtcm-1.0.9.tar.gz]
+[2023-07-04 08:44:09] INFO root fetch - processPackages [pyrtcm]: Start processing: remotivelabs-cli
+[2023-07-04 08:44:09] INFO root fetch - main [MainThread]: End processing [pyrtcm]: success
+[2023-07-04 08:44:09] INFO root fetch - processPackages [remotivelabs-cli]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-04 08:44:09] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/9e/af/b85d4ab12b3ff8b26eeb84f5748bf68a170ccb0483ce464fbc14dfacaa8e/remotivelabs_cli-0.0.1a8.tar.gz
+[2023-07-04 08:44:09] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.6.0.tar.gz]
+[2023-07-04 08:44:09] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.6.1.tar.gz]
+[2023-07-04 08:44:09] INFO root fetch - processPackages [sphractal]: Start processing: MMEdu
+[2023-07-04 08:44:09] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-07-04 08:44:09] INFO root fetch - processPackages [MMEdu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 08:44:10] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.0.2.tar.gz]
+[2023-07-04 08:44:10] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.1.0.tar.gz]
+[2023-07-04 08:44:10] INFO root fetch - processPackages [grassmanntn]: Start processing: hata
+[2023-07-04 08:44:10] INFO root fetch - main [MainThread]: End processing [grassmanntn]: success
+[2023-07-04 08:44:10] INFO root fetch - processPackages [MMEdu]: Downloading https://files.pythonhosted.org/packages/ab/1e/588ba9856221eb0f1fdb52ad1f4ec1112510c4d8806e8ce3fe35dc706347/MMEdu-0.1.8.tar.gz
+[2023-07-04 08:44:10] INFO root fetch - processPackages [pygame-texteditor]: Remove: archive file [/home/abi/fetcher/tmp/pygame_texteditor-0.7.1.tar.gz]
+[2023-07-04 08:44:10] INFO root fetch - processPackages [pygame-texteditor]: Remove: archive file [/home/abi/fetcher/tmp/pygame_texteditor-0.7.2.tar.gz]
+[2023-07-04 08:44:10] INFO root fetch - processPackages [pygame-texteditor]: Start processing: pheme
+[2023-07-04 08:44:10] INFO root fetch - main [MainThread]: End processing [pygame-texteditor]: success
+[2023-07-04 08:44:10] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-07-04 08:44:10] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-07-04 08:44:10] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Start processing: nonebot-plugin-bili-push
+[2023-07-04 08:44:10] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-07-04 08:44:10] INFO root fetch - processPackages [antchain-bot]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bot-1.8.90.tar.gz]
+[2023-07-04 08:44:10] INFO root fetch - processPackages [antchain-bot]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bot-1.8.94.tar.gz]
+[2023-07-04 08:44:10] INFO root fetch - processPackages [antchain-bot]: Start processing: gpt-fn
+[2023-07-04 08:44:10] INFO root fetch - main [MainThread]: End processing [antchain-bot]: success
+[2023-07-04 08:44:10] INFO root fetch - processPackages [upstash-ratelimit]: Remove: archive file [/home/abi/fetcher/tmp/upstash_ratelimit-0.4.0.tar.gz]
+[2023-07-04 08:44:10] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/6e/ec/8b4e17df12c5a2d39a005264591da395be8eae3517772654316d89e40301/remotivelabs_cli-0.0.1a9.tar.gz
+[2023-07-04 08:44:10] INFO root fetch - processPackages [upstash-ratelimit]: Remove: archive file [/home/abi/fetcher/tmp/upstash_ratelimit-0.4.1.tar.gz]
+[2023-07-04 08:44:10] INFO root fetch - main [MainThread]: End processing [upstash-ratelimit]: success
+[2023-07-04 08:44:10] INFO root fetch - processPackages [pheme]: New version: [21.5.0] Old Version: [21.4rc4]
+[2023-07-04 08:44:10] INFO root fetch - processPackages [hata]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-04 08:44:10] INFO root fetch - processPackages [nonebot-plugin-bili-push]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 08:44:10] INFO root fetch - processPackages [gpt-fn]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-04 08:44:10] INFO root fetch - processPackages [remotivelabs-cli]: executing diffoscope
+[2023-07-04 08:44:10] INFO root fetch - processPackages [remotivelabs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotivelabs_cli-0.0.1a8.tar.gz tmp/remotivelabs_cli-0.0.1a9.tar.gz --markdown 20230704/r/remotivelabs-cli/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-04 08:44:10] INFO root fetch - processPackages [Finance-Seleya]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Seleya-1.1.2.tar.gz]
+[2023-07-04 08:44:10] INFO root fetch - processPackages [Finance-Seleya]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Seleya-1.1.3.tar.gz]
+[2023-07-04 08:44:10] INFO root fetch - main [MainThread]: End processing [Finance-Seleya]: success
+[2023-07-04 08:44:10] INFO root fetch - processPackages [pheme]: Downloading https://files.pythonhosted.org/packages/68/96/0192dfe9e3b41c05e89a5ba4c5de29fd2f36b55679c96a32613cff91b0ea/pheme-21.4rc4.tar.gz
+[2023-07-04 08:44:10] INFO root fetch - processPackages [hata]: Downloading https://files.pythonhosted.org/packages/4a/f2/c0100f2b17527fd7c8a6216f876eb9b3db8fd117f96ff46478b7b23e990e/hata-1.3.8.tar.gz
+[2023-07-04 08:44:10] INFO root fetch - processPackages [gpt-fn]: Downloading https://files.pythonhosted.org/packages/14/a4/2fb2d5b16be94339614056cbb340618ff45ce9530d0ee55d50a3d462ed5f/gpt_fn-0.0.6.tar.gz
+[2023-07-04 08:44:10] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/39/39/d1e974268ffd67486d5d2a3a5517b88f829cee0f9b36e9c892d5af45dbf8/nonebot_plugin_bili_push-0.1.8.tar.gz
+[2023-07-04 08:44:10] INFO root fetch - processPackages [MMEdu]: Downloading https://files.pythonhosted.org/packages/47/39/353c28206b6bb14419b0637ed054cdda8882895e90995b407e8ac6891b0e/MMEdu-0.1.9.tar.gz
+[2023-07-04 08:44:10] INFO root fetch - processPackages [MMEdu]: executing diffoscope
+[2023-07-04 08:44:10] INFO root fetch - processPackages [MMEdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MMEdu-0.1.8.tar.gz tmp/MMEdu-0.1.9.tar.gz --markdown 20230704/M/MMEdu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 08:44:10] INFO root fetch - processPackages [pheme]: Downloading https://files.pythonhosted.org/packages/10/88/e3b0e1dc07dc3ed0c23face0c505d9dc8bbcbe9270bbd9116bf1c50d761e/pheme-21.5.0.tar.gz
+[2023-07-04 08:44:10] INFO root fetch - processPackages [gpt-fn]: Downloading https://files.pythonhosted.org/packages/c3/81/3fdd8cf64d8c70252e18be17122de93176c57952db7d707c126d96a7ab33/gpt_fn-0.0.7.tar.gz
+[2023-07-04 08:44:10] INFO root fetch - processPackages [cashocs]: Remove: archive file [/home/abi/fetcher/tmp/cashocs-2.0.5.tar.gz]
+[2023-07-04 08:44:10] INFO root fetch - processPackages [cashocs]: Remove: archive file [/home/abi/fetcher/tmp/cashocs-2.0.6.tar.gz]
+[2023-07-04 08:44:10] INFO root fetch - main [MainThread]: End processing [cashocs]: success
+[2023-07-04 08:44:10] INFO root fetch - processPackages [pheme]: executing diffoscope
+[2023-07-04 08:44:10] INFO root fetch - processPackages [pheme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pheme-21.4rc4.tar.gz tmp/pheme-21.5.0.tar.gz --markdown 20230704/p/pheme/21.4rc4-21.5.0/diff.md --exclude *.pyd
+[2023-07-04 08:44:10] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/7a/de/eb6aaa4df9bfca89e16091310ba9209ee5026d1ad5eaaaa17aa8e4121daf/nonebot_plugin_bili_push-0.1.9.tar.gz
+[2023-07-04 08:44:11] INFO root fetch - processPackages [gpt-fn]: executing diffoscope
+[2023-07-04 08:44:11] INFO root fetch - processPackages [gpt-fn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_fn-0.0.6.tar.gz tmp/gpt_fn-0.0.7.tar.gz --markdown 20230704/g/gpt-fn/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-04 08:44:11] INFO root fetch - processPackages [nonebot-plugin-bili-push]: executing diffoscope
+[2023-07-04 08:44:11] INFO root fetch - processPackages [nonebot-plugin-bili-push]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bili_push-0.1.8.tar.gz tmp/nonebot_plugin_bili_push-0.1.9.tar.gz --markdown 20230704/n/nonebot-plugin-bili-push/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 08:44:11] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.1a8.tar.gz]
+[2023-07-04 08:44:11] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.1a9.tar.gz]
+[2023-07-04 08:44:11] INFO root fetch - main [MainThread]: End processing [remotivelabs-cli]: success
+[2023-07-04 08:44:11] INFO root fetch - processPackages [hata]: Downloading https://files.pythonhosted.org/packages/b5/e0/4cb0546a643922b80592e8b745ce9b6d33d9a414e9540b749a0e2eea2045/hata-1.3.9.tar.gz
+[2023-07-04 08:44:12] INFO root fetch - processPackages [hata]: executing diffoscope
+[2023-07-04 08:44:12] INFO root fetch - processPackages [hata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hata-1.3.8.tar.gz tmp/hata-1.3.9.tar.gz --markdown 20230704/h/hata/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-04 08:44:12] INFO root fetch - processPackages [MMEdu]: Remove: archive file [/home/abi/fetcher/tmp/MMEdu-0.1.8.tar.gz]
+[2023-07-04 08:44:12] INFO root fetch - processPackages [MMEdu]: Remove: archive file [/home/abi/fetcher/tmp/MMEdu-0.1.9.tar.gz]
+[2023-07-04 08:44:12] INFO root fetch - main [MainThread]: End processing [MMEdu]: success
+[2023-07-04 08:44:12] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.8.tar.gz]
+[2023-07-04 08:44:12] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.9.tar.gz]
+[2023-07-04 08:44:12] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bili-push]: success
+[2023-07-04 08:44:12] INFO root fetch - processPackages [gpt-fn]: Remove: archive file [/home/abi/fetcher/tmp/gpt_fn-0.0.6.tar.gz]
+[2023-07-04 08:44:12] INFO root fetch - processPackages [gpt-fn]: Remove: archive file [/home/abi/fetcher/tmp/gpt_fn-0.0.7.tar.gz]
+[2023-07-04 08:44:12] INFO root fetch - main [MainThread]: End processing [gpt-fn]: success
+[2023-07-04 08:44:12] INFO root fetch - processPackages [pheme]: Remove: archive file [/home/abi/fetcher/tmp/pheme-21.4rc4.tar.gz]
+[2023-07-04 08:44:12] INFO root fetch - processPackages [pheme]: Remove: archive file [/home/abi/fetcher/tmp/pheme-21.5.0.tar.gz]
+[2023-07-04 08:44:12] INFO root fetch - main [MainThread]: End processing [pheme]: success
+[2023-07-04 08:44:16] INFO root fetch - processPackages [hata]: Remove: archive file [/home/abi/fetcher/tmp/hata-1.3.8.tar.gz]
+[2023-07-04 08:44:16] INFO root fetch - processPackages [hata]: Remove: archive file [/home/abi/fetcher/tmp/hata-1.3.9.tar.gz]
+[2023-07-04 08:44:16] INFO root fetch - main [MainThread]: End processing [hata]: success
+[2023-07-04 08:44:16] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.2rc2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-04 08:44:16] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.2rc3-cp39-cp39-win_amd64.whl.zip]
+[2023-07-04 08:44:16] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
+[2023-07-04 08:44:16] INFO root fetch - main [MainThread]: Store serial: [18751113]
