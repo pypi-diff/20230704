@@ -21399,3 +21399,140 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 14:25:25] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post879-py3-none-any.whl.zip]
 [2023-07-04 14:25:25] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-07-04 14:25:25] INFO root fetch - main [MainThread]: Store serial: [18754517]
+[2023-07-04 14:30:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18754517]
+[2023-07-04 14:30:36] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-04 14:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: accelbyte-py-sdk
+[2023-07-04 14:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: powertools-oas-validator
+[2023-07-04 14:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oauth2-lib
+[2023-07-04 14:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-route53-health-check
+[2023-07-04 14:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-mist
+[2023-07-04 14:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jina
+[2023-07-04 14:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: layerx-sdk-beta
+[2023-07-04 14:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rstream
+[2023-07-04 14:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyNumeca
+[2023-07-04 14:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oidc-drf
+[2023-07-04 14:30:36] INFO root fetch - processPackages [oidc-drf]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-04 14:30:36] INFO root fetch - processPackages [powertools-oas-validator]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-04 14:30:36] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 14:30:36] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/36/75/0e56487388828f40b0a8d401716a3cd255d3085e731e6ca3745ab28a86d2/oidc_drf-1.2.8.tar.gz
+[2023-07-04 14:30:36] INFO root fetch - processPackages [oauth2-lib]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-04 14:30:36] INFO root fetch - processPackages [PyNumeca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 14:30:36] INFO root fetch - processPackages [powertools-oas-validator]: Downloading https://files.pythonhosted.org/packages/cf/39/b2c39865617e6fda0f6b29ef0291f3be75952ffe6fccc632a03b40648ff1/powertools_oas_validator-0.5.0.tar.gz
+[2023-07-04 14:30:36] INFO root fetch - processPackages [rstream]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-04 14:30:36] INFO root fetch - processPackages [torch-mist]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-04 14:30:36] INFO root fetch - processPackages [accelbyte-py-sdk]: New version: [0.44.0] Old Version: [0.43.0]
+[2023-07-04 14:30:36] INFO root fetch - processPackages [layerx-sdk-beta]: New version: [1.0.9b2] Old Version: [1.0.9b1]
+[2023-07-04 14:30:36] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-07-04 14:30:36] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/a8/f1/c96971e2cc56adcde998c2d7a12c5cfd4591bb08ceefc50e3f6627a7fbab/pepperize.cdk-route53-health-check-0.0.98.tar.gz
+[2023-07-04 14:30:36] INFO root fetch - processPackages [rstream]: Downloading https://files.pythonhosted.org/packages/b9/02/cda6be5ba5d1adb01bada1d2cfaec91e30f2d6ec2a048f9fa170aa87f94d/rstream-0.8.1.tar.gz
+[2023-07-04 14:30:36] INFO root fetch - processPackages [oauth2-lib]: Downloading https://files.pythonhosted.org/packages/dd/b0/b06aa8ea58aa04d019bd3aa1e1093c03c71fc4cc7d05606e291fc42b9cf3/oauth2_lib-1.3.1.tar.gz
+[2023-07-04 14:30:36] INFO root fetch - processPackages [PyNumeca]: Downloading https://files.pythonhosted.org/packages/89/fb/5d31105c58a43eb63084420ac7fa65e3e3085361c4a479b698eaf25c8549/PyNumeca-v0.0.8.tar.gz
+[2023-07-04 14:30:36] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/d7/de/e7417f81d3a2bb32b6f2acb0044fcadd08723cefbe4019f55c809d6c5afe/oidc_drf-1.2.9.tar.gz
+[2023-07-04 14:30:36] INFO root fetch - processPackages [torch-mist]: Downloading https://files.pythonhosted.org/packages/42/42/3d339dcef3829160f4a396388810cbe73a7b5b3951fffec6500fdf72e96c/torch_mist-0.1.0.tar.gz
+[2023-07-04 14:30:36] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/82/30/49db849a17663ef31174e31654b943efd6d652d8fead1d082f103f9ab59e/layerx-sdk-beta-1.0.9b1.tar.gz
+[2023-07-04 14:30:36] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/f0/3b/7e6b8b6de74c936b09ce9a4d7440511734efe64633b3418e61b667257994/jina-3.9.3.dev8.tar.gz
+[2023-07-04 14:30:36] INFO root fetch - processPackages [powertools-oas-validator]: Downloading https://files.pythonhosted.org/packages/d4/34/2af0dc55420f7dad267eaf45d0da4e0bea84db8fed24ab890dde7e3a3d20/powertools_oas_validator-0.5.1.tar.gz
+[2023-07-04 14:30:37] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/9f/92/909a62b351141186c782d8bdc77ece2c0787b84204291ce16a1ddb09b89e/pepperize.cdk-route53-health-check-0.0.99.tar.gz
+[2023-07-04 14:30:37] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-04 14:30:37] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.2.8.tar.gz tmp/oidc_drf-1.2.9.tar.gz --markdown 20230704/o/oidc-drf/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-04 14:30:37] INFO root fetch - processPackages [accelbyte-py-sdk]: Downloading https://files.pythonhosted.org/packages/9f/5b/52ab0f725584344c0d38fe74bdeb152cc3c47d772efe91c0c6494e0d305f/accelbyte_py_sdk-0.44.0.tar.gz
+[2023-07-04 14:30:37] INFO root fetch - processPackages [powertools-oas-validator]: executing diffoscope
+[2023-07-04 14:30:37] INFO root fetch - processPackages [powertools-oas-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powertools_oas_validator-0.5.0.tar.gz tmp/powertools_oas_validator-0.5.1.tar.gz --markdown 20230704/p/powertools-oas-validator/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-04 14:30:37] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-07-04 14:30:37] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230704/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 14:30:37] INFO root fetch - processPackages [rstream]: Downloading https://files.pythonhosted.org/packages/92/ef/61a6ea12a0afe157e759df9abbbb973d4d75526af47b4b5bddf4f613b288/rstream-0.9.0.tar.gz
+[2023-07-04 14:30:37] INFO root fetch - processPackages [oauth2-lib]: Downloading https://files.pythonhosted.org/packages/ac/f1/ebb9e7d6a96e74f7515fbd505ba68e7772a7ae546697856fa27213be031e/oauth2_lib-1.3.2.tar.gz
+[2023-07-04 14:30:37] INFO root fetch - processPackages [accelbyte-py-sdk]: executing diffoscope
+[2023-07-04 14:30:37] INFO root fetch - processPackages [accelbyte-py-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte_py_sdk-0.43.0.tar.gz tmp/accelbyte_py_sdk-0.44.0.tar.gz --markdown 20230704/a/accelbyte-py-sdk/0.43.0-0.44.0/diff.md --exclude *.pyd
+[2023-07-04 14:30:37] INFO root fetch - processPackages [torch-mist]: Downloading https://files.pythonhosted.org/packages/77/d0/c353bb48a4d48ffeff06e75c299ba646c7470096eca944879195d0e66b37/torch_mist-0.1.1.tar.gz
+[2023-07-04 14:30:37] INFO root fetch - processPackages [PyNumeca]: Downloading https://files.pythonhosted.org/packages/cb/4d/71bb3aa775b0b7b13bf2bbd7a68930a1eecebedea249b0604b0c4535c3b1/PyNumeca-v0.0.9.tar.gz
+[2023-07-04 14:30:37] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/89/60/0658aa50da9055ade2f42bd6cecdfa0abdf69ce7f7bd063c628105106538/jina-3.9.3.dev9.tar.gz
+[2023-07-04 14:30:37] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/80/17/9c39f674089d0687a6ebb4bb5cb263194817e74bbf02632c5b1f95ed63ed/layerx-sdk-beta-1.0.9b2.tar.gz
+[2023-07-04 14:30:37] INFO root fetch - processPackages [oauth2-lib]: executing diffoscope
+[2023-07-04 14:30:37] INFO root fetch - processPackages [oauth2-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oauth2_lib-1.3.1.tar.gz tmp/oauth2_lib-1.3.2.tar.gz --markdown 20230704/o/oauth2-lib/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-04 14:30:37] INFO root fetch - processPackages [rstream]: executing diffoscope
+[2023-07-04 14:30:37] INFO root fetch - processPackages [rstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstream-0.8.1.tar.gz tmp/rstream-0.9.0.tar.gz --markdown 20230704/r/rstream/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-04 14:30:37] INFO root fetch - processPackages [PyNumeca]: executing diffoscope
+[2023-07-04 14:30:37] INFO root fetch - processPackages [PyNumeca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNumeca-v0.0.8.tar.gz tmp/PyNumeca-v0.0.9.tar.gz --markdown 20230704/P/PyNumeca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 14:30:37] INFO root fetch - processPackages [torch-mist]: executing diffoscope
+[2023-07-04 14:30:37] INFO root fetch - processPackages [torch-mist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_mist-0.1.0.tar.gz tmp/torch_mist-0.1.1.tar.gz --markdown 20230704/t/torch-mist/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-04 14:30:37] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-07-04 14:30:37] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230704/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-07-04 14:30:37] INFO root fetch - processPackages [layerx-sdk-beta]: executing diffoscope
+[2023-07-04 14:30:37] INFO root fetch - processPackages [layerx-sdk-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerx-sdk-beta-1.0.9b1.tar.gz tmp/layerx-sdk-beta-1.0.9b2.tar.gz --markdown 20230704/l/layerx-sdk-beta/1.0.9b1-1.0.9b2/diff.md --exclude *.pyd
+[2023-07-04 14:30:38] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.8.tar.gz]
+[2023-07-04 14:30:38] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.9.tar.gz]
+[2023-07-04 14:30:38] INFO root fetch - processPackages [oidc-drf]: Start processing: supervisely
+[2023-07-04 14:30:38] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-04 14:30:38] INFO root fetch - processPackages [powertools-oas-validator]: Remove: archive file [/home/abi/fetcher/tmp/powertools_oas_validator-0.5.0.tar.gz]
+[2023-07-04 14:30:38] INFO root fetch - processPackages [powertools-oas-validator]: Remove: archive file [/home/abi/fetcher/tmp/powertools_oas_validator-0.5.1.tar.gz]
+[2023-07-04 14:30:38] INFO root fetch - processPackages [powertools-oas-validator]: Start processing: scikit-cache
+[2023-07-04 14:30:38] INFO root fetch - main [MainThread]: End processing [powertools-oas-validator]: success
+[2023-07-04 14:30:38] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-07-04 14:30:38] INFO root fetch - processPackages [scikit-cache]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-04 14:30:39] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-07-04 14:30:39] INFO root fetch - processPackages [rstream]: Remove: archive file [/home/abi/fetcher/tmp/rstream-0.8.1.tar.gz]
+[2023-07-04 14:30:39] INFO root fetch - processPackages [rstream]: Remove: archive file [/home/abi/fetcher/tmp/rstream-0.9.0.tar.gz]
+[2023-07-04 14:30:39] INFO root fetch - processPackages [rstream]: Start processing: upgini
+[2023-07-04 14:30:39] INFO root fetch - main [MainThread]: End processing [rstream]: success
+[2023-07-04 14:30:39] INFO root fetch - processPackages [PyNumeca]: Remove: archive file [/home/abi/fetcher/tmp/PyNumeca-v0.0.8.tar.gz]
+[2023-07-04 14:30:39] INFO root fetch - processPackages [PyNumeca]: Remove: archive file [/home/abi/fetcher/tmp/PyNumeca-v0.0.9.tar.gz]
+[2023-07-04 14:30:39] INFO root fetch - processPackages [PyNumeca]: Start processing: lightly
+[2023-07-04 14:30:39] INFO root fetch - main [MainThread]: End processing [PyNumeca]: success
+[2023-07-04 14:30:39] INFO root fetch - processPackages [scikit-cache]: Downloading https://files.pythonhosted.org/packages/5b/92/9c001a375c488e0cf9cdda6ea998e8c0438aea32f8fea5a7ae4fc31ba526/scikit-cache-0.1.1.tar.gz
+[2023-07-04 14:30:39] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-04 14:30:39] INFO root fetch - processPackages [oauth2-lib]: Remove: archive file [/home/abi/fetcher/tmp/oauth2_lib-1.3.1.tar.gz]
+[2023-07-04 14:30:39] INFO root fetch - processPackages [oauth2-lib]: Remove: archive file [/home/abi/fetcher/tmp/oauth2_lib-1.3.2.tar.gz]
+[2023-07-04 14:30:39] INFO root fetch - processPackages [oauth2-lib]: Start processing: sentry-sdk
+[2023-07-04 14:30:39] INFO root fetch - main [MainThread]: End processing [oauth2-lib]: success
+[2023-07-04 14:30:39] INFO root fetch - processPackages [lightly]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-07-04 14:30:39] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b1.tar.gz]
+[2023-07-04 14:30:39] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b2.tar.gz]
+[2023-07-04 14:30:39] INFO root fetch - main [MainThread]: End processing [layerx-sdk-beta]: success
+[2023-07-04 14:30:39] INFO root fetch - processPackages [torch-mist]: Remove: archive file [/home/abi/fetcher/tmp/torch_mist-0.1.0.tar.gz]
+[2023-07-04 14:30:39] INFO root fetch - processPackages [torch-mist]: Remove: archive file [/home/abi/fetcher/tmp/torch_mist-0.1.1.tar.gz]
+[2023-07-04 14:30:39] INFO root fetch - main [MainThread]: End processing [torch-mist]: success
+[2023-07-04 14:30:39] INFO root fetch - processPackages [sentry-sdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-04 14:30:39] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-07-04 14:30:39] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2023-07-04 14:30:39] INFO root fetch - processPackages [lightly]: Downloading https://files.pythonhosted.org/packages/d0/34/8f127fd141110cc9eb8862e19287641d86206e9b8b58535bc9168eacedd7/lightly-1.4.7.tar.gz
+[2023-07-04 14:30:39] INFO root fetch - processPackages [scikit-cache]: Downloading https://files.pythonhosted.org/packages/03/0b/e75c651119af7a752239657fb93bba95fc1e3a9a70e14bd9ca31ba60dc1c/scikit-cache-0.1.2.tar.gz
+[2023-07-04 14:30:39] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-07-04 14:30:39] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230704/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-07-04 14:30:39] INFO root fetch - processPackages [scikit-cache]: executing diffoscope
+[2023-07-04 14:30:39] INFO root fetch - processPackages [scikit-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-cache-0.1.1.tar.gz tmp/scikit-cache-0.1.2.tar.gz --markdown 20230704/s/scikit-cache/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-04 14:30:39] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz]
+[2023-07-04 14:30:39] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz]
+[2023-07-04 14:30:39] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-07-04 14:30:39] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/61/00/dd7e41da95c59f4ccf86be60fcbb5889dc7b215ca5e71c8108cb7892c0b8/sentry-sdk-1.9.8.tar.gz
+[2023-07-04 14:30:39] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev8.tar.gz]
+[2023-07-04 14:30:39] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev9.tar.gz]
+[2023-07-04 14:30:39] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-07-04 14:30:40] INFO root fetch - processPackages [lightly]: Downloading https://files.pythonhosted.org/packages/22/4f/08b2315b8a277a13960ced57b9a287366c1b0b543b24ae52aea86d1fec16/lightly-1.4.8.tar.gz
+[2023-07-04 14:30:40] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2023-07-04 14:30:40] INFO root fetch - processPackages [lightly]: executing diffoscope
+[2023-07-04 14:30:40] INFO root fetch - processPackages [lightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightly-1.4.7.tar.gz tmp/lightly-1.4.8.tar.gz --markdown 20230704/l/lightly/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-07-04 14:30:40] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-07-04 14:30:40] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230704/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-04 14:30:40] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/b5/bf/680dccdef2576e85b3773de1acde3d263d2c3f105187562a6653cc550a8b/sentry-sdk-1.9.9.tar.gz
+[2023-07-04 14:30:40] INFO root fetch - processPackages [sentry-sdk]: executing diffoscope
+[2023-07-04 14:30:40] INFO root fetch - processPackages [sentry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-sdk-1.9.8.tar.gz tmp/sentry-sdk-1.9.9.tar.gz --markdown 20230704/s/sentry-sdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-04 14:30:40] INFO root fetch - processPackages [scikit-cache]: Remove: archive file [/home/abi/fetcher/tmp/scikit-cache-0.1.1.tar.gz]
+[2023-07-04 14:30:40] INFO root fetch - processPackages [scikit-cache]: Remove: archive file [/home/abi/fetcher/tmp/scikit-cache-0.1.2.tar.gz]
+[2023-07-04 14:30:40] INFO root fetch - main [MainThread]: End processing [scikit-cache]: success
+[2023-07-04 14:30:41] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2023-07-04 14:30:41] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2023-07-04 14:30:41] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-07-04 14:30:41] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-07-04 14:30:41] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-07-04 14:30:41] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-07-04 14:30:41] INFO root fetch - processPackages [sentry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentry-sdk-1.9.8.tar.gz]
+[2023-07-04 14:30:41] INFO root fetch - processPackages [sentry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentry-sdk-1.9.9.tar.gz]
+[2023-07-04 14:30:41] INFO root fetch - main [MainThread]: End processing [sentry-sdk]: success
+[2023-07-04 14:30:43] INFO root fetch - processPackages [lightly]: Remove: archive file [/home/abi/fetcher/tmp/lightly-1.4.7.tar.gz]
+[2023-07-04 14:30:43] INFO root fetch - processPackages [lightly]: Remove: archive file [/home/abi/fetcher/tmp/lightly-1.4.8.tar.gz]
+[2023-07-04 14:30:43] INFO root fetch - main [MainThread]: End processing [lightly]: success
+[2023-07-04 14:31:59] INFO root fetch - processPackages [accelbyte-py-sdk]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk-0.43.0.tar.gz]
+[2023-07-04 14:31:59] INFO root fetch - processPackages [accelbyte-py-sdk]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk-0.44.0.tar.gz]
+[2023-07-04 14:31:59] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk]: success
+[2023-07-04 14:31:59] INFO root fetch - main [MainThread]: Store serial: [18754572]
