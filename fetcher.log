@@ -13133,3 +13133,43 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 08:07:28] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.9.tar.gz]
 [2023-07-04 08:07:28] INFO root fetch - main [MainThread]: End processing [moptipy]: success
 [2023-07-04 08:07:28] INFO root fetch - main [MainThread]: Store serial: [18750888]
+[2023-07-04 08:12:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18750888]
+[2023-07-04 08:12:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-04 08:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spike2py-preprocess
+[2023-07-04 08:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vulcan-sql
+[2023-07-04 08:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cval-lib
+[2023-07-04 08:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: starlette-apitally
+[2023-07-04 08:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hydrorollcore
+[2023-07-04 08:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fanbookbotapi
+[2023-07-04 08:12:38] INFO root fetch - processPackages [cval-lib]: New version: [0.0.2.3] Old Version: [0.0.1.2]
+[2023-07-04 08:12:38] INFO root fetch - processPackages [starlette-apitally]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-04 08:12:38] WARNING root fetch - processPackages [vulcan-sql]: Skipping, unable to determine old version
+[2023-07-04 08:12:38] ERROR root fetch - processPackages [hydrorollcore]: Unable to get metadata: No such project 'hydrorollcore'
+[2023-07-04 08:12:38] INFO root fetch - main [MainThread]: End processing [vulcan-sql] error
+[2023-07-04 08:12:38] INFO root fetch - processPackages [spike2py-preprocess]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-04 08:12:38] INFO root fetch - main [MainThread]: End processing [hydrorollcore] error
+[2023-07-04 08:12:38] INFO root fetch - processPackages [fanbookbotapi]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-04 08:12:38] INFO root fetch - processPackages [fanbookbotapi]: Downloading https://files.pythonhosted.org/packages/88/bf/981a059787024ef173d9b22b8ef15279e439c2564f4fc9a59fc624077c5b/fanbookbotapi-1.1.1.tar.gz
+[2023-07-04 08:12:38] ERROR root fetch - processPackages [starlette-apitally]: Unable to fetch info: No such project/version 'starlette-apitally' 0.0.0
+[2023-07-04 08:12:38] INFO root fetch - main [MainThread]: End processing [starlette-apitally] error
+[2023-07-04 08:12:38] INFO root fetch - processPackages [spike2py-preprocess]: Downloading https://files.pythonhosted.org/packages/6c/61/6cba51f9ce2b351fcf829e0f205bb46febd79fb71cc20f364829c04535db/spike2py_preprocess-0.0.1.tar.gz
+[2023-07-04 08:12:38] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/5c/01/4b4b71c4ed0a00ee52f8f4e7f3c14ec3f487b011b5b479ff6dcc622b879e/cval-lib-0.0.1.2.tar.gz
+[2023-07-04 08:12:38] INFO root fetch - processPackages [spike2py-preprocess]: Downloading https://files.pythonhosted.org/packages/a7/46/78e332d8a8587681bdc146e231ae398c83773480ca105d8a7a3ba1856ef2/spike2py_preprocess-0.0.2.tar.gz
+[2023-07-04 08:12:39] INFO root fetch - processPackages [fanbookbotapi]: Downloading https://files.pythonhosted.org/packages/e5/c7/2403c5690026a8cb6cc73651982a12ac17e74f6baa9f62595d7d6090a85e/fanbookbotapi-1.1.2.tar.gz
+[2023-07-04 08:12:39] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/f6/79/bad1648d92bcd09356d6a21c8476560c65ff4415133058b3d55b7d9f2afd/cval-lib-0.0.2.3.tar.gz
+[2023-07-04 08:12:39] INFO root fetch - processPackages [spike2py-preprocess]: executing diffoscope
+[2023-07-04 08:12:39] INFO root fetch - processPackages [spike2py-preprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spike2py_preprocess-0.0.1.tar.gz tmp/spike2py_preprocess-0.0.2.tar.gz --markdown 20230704/s/spike2py-preprocess/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-04 08:12:39] INFO root fetch - processPackages [fanbookbotapi]: executing diffoscope
+[2023-07-04 08:12:39] INFO root fetch - processPackages [fanbookbotapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fanbookbotapi-1.1.1.tar.gz tmp/fanbookbotapi-1.1.2.tar.gz --markdown 20230704/f/fanbookbotapi/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-04 08:12:39] INFO root fetch - processPackages [cval-lib]: executing diffoscope
+[2023-07-04 08:12:39] INFO root fetch - processPackages [cval-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cval-lib-0.0.1.2.tar.gz tmp/cval-lib-0.0.2.3.tar.gz --markdown 20230704/c/cval-lib/0.0.1.2-0.0.2.3/diff.md --exclude *.pyd
+[2023-07-04 08:12:39] INFO root fetch - processPackages [fanbookbotapi]: Remove: archive file [/home/abi/fetcher/tmp/fanbookbotapi-1.1.1.tar.gz]
+[2023-07-04 08:12:39] INFO root fetch - processPackages [fanbookbotapi]: Remove: archive file [/home/abi/fetcher/tmp/fanbookbotapi-1.1.2.tar.gz]
+[2023-07-04 08:12:39] INFO root fetch - main [MainThread]: End processing [fanbookbotapi]: success
+[2023-07-04 08:12:39] INFO root fetch - processPackages [spike2py-preprocess]: Remove: archive file [/home/abi/fetcher/tmp/spike2py_preprocess-0.0.1.tar.gz]
+[2023-07-04 08:12:39] INFO root fetch - processPackages [spike2py-preprocess]: Remove: archive file [/home/abi/fetcher/tmp/spike2py_preprocess-0.0.2.tar.gz]
+[2023-07-04 08:12:39] INFO root fetch - main [MainThread]: End processing [spike2py-preprocess]: success
+[2023-07-04 08:12:40] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.1.2.tar.gz]
+[2023-07-04 08:12:40] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.2.3.tar.gz]
+[2023-07-04 08:12:40] INFO root fetch - main [MainThread]: End processing [cval-lib]: success
+[2023-07-04 08:12:40] INFO root fetch - main [MainThread]: Store serial: [18750908]
