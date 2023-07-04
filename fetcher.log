@@ -9681,3 +9681,38 @@
 [2023-07-04 04:29:35] INFO root fetch - processPackages [azure-cli]: Remove: archive file [/home/abi/fetcher/tmp/azure-cli-2.9.1.tar.gz]
 [2023-07-04 04:29:35] INFO root fetch - main [MainThread]: End processing [azure-cli]: success
 [2023-07-04 04:29:35] INFO root fetch - main [MainThread]: Store serial: [18749586]
+[2023-07-04 04:34:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18749586]
+[2023-07-04 04:34:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-04 04:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-spark-gpt
+[2023-07-04 04:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cjm-yolox-pytorch
+[2023-07-04 04:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-cutoff-accrual-subscription
+[2023-07-04 04:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-cutoff-base
+[2023-07-04 04:34:44] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0.3]
+[2023-07-04 04:34:45] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 04:34:45] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0.4]
+[2023-07-04 04:34:45] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-04 04:34:45] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-04 04:34:45] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: Downloading https://files.pythonhosted.org/packages/82/bc/2f75fecced92a68f61d5826a91ec126db9cda6c73d29f9a84ba9ca2c1980/odoo_addon_account_cutoff_accrual_subscription-16.0.1.1.0.3-py3-none-any.whl
+[2023-07-04 04:34:45] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/69/de/1f2646bea42552e28bde3bfced6171c56f5de9b8a7e2124f7b6b31d8acd8/odoo_addon_account_cutoff_base-16.0.1.1.0.4-py3-none-any.whl
+[2023-07-04 04:34:45] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/04/76/d6fe857849fe90235b9ecb64dff6751954c6409989ba8cdf510daea5d4d1/nonebot_plugin_spark_gpt-1.0.7.tar.gz
+[2023-07-04 04:34:45] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 15344812>=10485760
+[2023-07-04 04:34:45] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-07-04 04:34:45] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-04 04:34:45] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: Downloading https://files.pythonhosted.org/packages/f8/69/6773aa1a2182de0dda1411172d765716cbd6f4d8eca76f9dea19d8cfb236/odoo_addon_account_cutoff_accrual_subscription-16.0.1.2.0-py3-none-any.whl
+[2023-07-04 04:34:45] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/15/cf/4065ec62eb6fd93c22dd7726d7198f4d2adc0adcc4bc240e2636b1a36728/odoo_addon_account_cutoff_base-16.0.1.2.0-py3-none-any.whl
+[2023-07-04 04:34:45] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-04 04:34:45] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230704/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 04:34:45] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: executing diffoscope
+[2023-07-04 04:34:45] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cutoff_accrual_subscription-16.0.1.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_cutoff_accrual_subscription-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230704/o/odoo-addon-account-cutoff-accrual-subscription/16.0.1.1.0.3-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-07-04 04:34:45] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: executing diffoscope
+[2023-07-04 04:34:45] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cutoff_base-16.0.1.1.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_cutoff_base-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230704/o/odoo-addon-account-cutoff-base/16.0.1.1.0.4-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-07-04 04:34:46] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-04 04:34:46] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-04 04:34:46] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-04 04:34:46] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_accrual_subscription-16.0.1.1.0.3-py3-none-any.whl.zip]
+[2023-07-04 04:34:46] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_accrual_subscription-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-04 04:34:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-accrual-subscription]: success
+[2023-07-04 04:34:46] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_base-16.0.1.1.0.4-py3-none-any.whl.zip]
+[2023-07-04 04:34:46] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_base-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-04 04:34:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-base]: success
+[2023-07-04 04:34:46] INFO root fetch - main [MainThread]: Store serial: [18749599]
