@@ -20845,3 +20845,119 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 13:58:26] INFO root fetch - processPackages [ima-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/ima-predeployed-2.0.0b3.tar.gz]
 [2023-07-04 13:58:26] INFO root fetch - main [MainThread]: End processing [ima-predeployed]: success
 [2023-07-04 13:58:26] INFO root fetch - main [MainThread]: Store serial: [18754252]
+[2023-07-04 14:03:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18754252]
+[2023-07-04 14:03:35] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-04 14:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyMulti
+[2023-07-04 14:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jolted-cli
+[2023-07-04 14:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: good-converter
+[2023-07-04 14:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: textbasedlib
+[2023-07-04 14:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leadguru-jobs
+[2023-07-04 14:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qwak-core
+[2023-07-04 14:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: leadguru-data
+[2023-07-04 14:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: leadguru-common
+[2023-07-04 14:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-dllib
+[2023-07-04 14:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: idms
+[2023-07-04 14:03:36] WARNING root fetch - processPackages [good-converter]: Skipping, unable to determine old version
+[2023-07-04 14:03:36] INFO root fetch - processPackages [good-converter]: Start processing: bigdl-orca
+[2023-07-04 14:03:36] INFO root fetch - main [MainThread]: End processing [good-converter] error
+[2023-07-04 14:03:36] WARNING root fetch - processPackages [PyMulti]: Skipping, unable to determine old version
+[2023-07-04 14:03:36] INFO root fetch - processPackages [PyMulti]: Start processing: bigdl-friesian
+[2023-07-04 14:03:36] INFO root fetch - main [MainThread]: End processing [PyMulti] error
+[2023-07-04 14:03:36] WARNING root fetch - processPackages [textbasedlib]: Skipping, unable to determine old version
+[2023-07-04 14:03:36] INFO root fetch - processPackages [textbasedlib]: Start processing: taivutin
+[2023-07-04 14:03:36] INFO root fetch - main [MainThread]: End processing [textbasedlib] error
+[2023-07-04 14:03:36] WARNING root fetch - processPackages [jolted-cli]: Skipping, unable to determine old version
+[2023-07-04 14:03:36] INFO root fetch - processPackages [jolted-cli]: Start processing: bigdl
+[2023-07-04 14:03:36] INFO root fetch - main [MainThread]: End processing [jolted-cli] error
+[2023-07-04 14:03:36] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230703] Old Version: [2.4.0b20230702]
+[2023-07-04 14:03:36] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 14:03:36] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-04 14:03:36] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-04 14:03:36] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-04 14:03:36] INFO root fetch - processPackages [leadguru-data]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-04 14:03:36] INFO root fetch - processPackages [idms]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 14:03:36] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230704] Old Version: [2.4.0b20230702]
+[2023-07-04 14:03:36] INFO root fetch - processPackages [taivutin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-04 14:03:36] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-04 14:03:36] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/fc/35/ca8dc82028975cbcb02faead26153071461e5c78a03fb67e0f27256aee8d/leadguru_common-0.98.0.tar.gz
+[2023-07-04 14:03:36] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/81/bf/f4c758210f3132ad36cea5286e4857350dc02f38ded759934614da96bd78/leadguru_data-0.98.0.tar.gz
+[2023-07-04 14:03:36] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/27/4a/223f085318c30489c1a11469507e584cba58ecf03ffc7fcc928997e551a8/bigdl-dllib-2.4.0b20230702.tar.gz
+[2023-07-04 14:03:36] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-07-04 14:03:36] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53637832>=10485760
+[2023-07-04 14:03:36] INFO root fetch - processPackages [bigdl-dllib]: Start processing: bigdl-dllib-spark2
+[2023-07-04 14:03:36] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-07-04 14:03:36] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/6a/99/225ece5655ce8b12e9394f8f8892810344dcd93cdd5eedc05db249ca0140/bigdl_orca-2.4.0b20230701-py3-none-manylinux1_x86_64.whl
+[2023-07-04 14:03:36] INFO root fetch - processPackages [idms]: Downloading https://files.pythonhosted.org/packages/b4/9f/8b1e10d6897cc28c21cf107285420c98684c4f383a8f87c1b3d505b1477c/idms-0.1.8.tar.gz
+[2023-07-04 14:03:36] INFO root fetch - processPackages [taivutin]: Downloading https://files.pythonhosted.org/packages/54/2f/f0e9fac6800cefc25f2d8c95c03764c03bf5ea24a524dfc53e69e832b5fa/taivutin-0.1.1-py3-none-any.whl
+[2023-07-04 14:03:36] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/76/8a/1b7f192b76535f315e4521e2f634a843d78011194e29856d3862e8d34fbe/bigdl_friesian-2.4.0b20230702-py3-none-manylinux1_x86_64.whl
+[2023-07-04 14:03:36] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230704] Old Version: [2.4.0b20230702]
+[2023-07-04 14:03:36] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369601>=10485760
+[2023-07-04 14:03:36] INFO root fetch - processPackages [bigdl-orca]: Start processing: roxbot
+[2023-07-04 14:03:36] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-07-04 14:03:36] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/4e/4f/236c71729e1b70c3c5c202003cf9aa48c1c9b9d202620f8c5e94a7aacdc9/leadguru_common-0.99.0.tar.gz
+[2023-07-04 14:03:36] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-04 14:03:36] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/16/1c/017bcd8f49a9ceed0d36796e84f43cefd77b1a273b4b9807a222b85cb578/leadguru_data-0.99.0.tar.gz
+[2023-07-04 14:03:36] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230704] Old Version: [2.4.0b20230702]
+[2023-07-04 14:03:36] INFO root fetch - processPackages [roxbot]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-07-04 14:03:36] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-07-04 14:03:36] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-07-04 14:03:36] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230704/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-04 14:03:36] INFO root fetch - processPackages [leadguru-data]: executing diffoscope
+[2023-07-04 14:03:36] INFO root fetch - processPackages [leadguru-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_data-0.98.0.tar.gz tmp/leadguru_data-0.99.0.tar.gz --markdown 20230704/l/leadguru-data/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-04 14:03:36] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-04 14:03:36] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230704/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 14:03:36] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/8a/91/c732c0fc02c2503634e0919ebdf34a08737720fc5bdb4b4229601b6cc839/bigdl-2.4.0b20230702-py3-none-manylinux1_x86_64.whl
+[2023-07-04 14:03:37] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/c1/a2/4d837d958b0bb3d77268a6d3c455973e00733063edcd36df62187e78204a/bigdl-dllib-spark2-2.4.0b20230702.tar.gz
+[2023-07-04 14:03:37] INFO root fetch - processPackages [idms]: Downloading https://files.pythonhosted.org/packages/7d/9c/b24fb76a698bc7d2690d65bab162abbb6bd61f67aa44c600512a5f629d78/idms-0.1.9.tar.gz
+[2023-07-04 14:03:37] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-07-04 14:03:37] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230704/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-04 14:03:37] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/45/ee/e8b01905e3def8bc2c99c3c528e3a2919d03b452730316bee7a4b1710e0d/bigdl_friesian-2.4.0b20230704-py3-none-manylinux1_x86_64.whl
+[2023-07-04 14:03:37] INFO root fetch - processPackages [taivutin]: Downloading https://files.pythonhosted.org/packages/98/e3/d84e8bf465e640a04de80a04b288deffa328736adb8e006c6434f9f7aed9/taivutin-0.1.2.tar.gz
+[2023-07-04 14:03:37] INFO root fetch - processPackages [roxbot]: Downloading https://files.pythonhosted.org/packages/8f/94/3c931e7793900125c9e0643cf1709f0841712f431706002ddbaa919e66e8/roxbot-0.6.2.tar.gz
+[2023-07-04 14:03:37] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53637846>=10485760
+[2023-07-04 14:03:37] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: bigdl-orca-spark2
+[2023-07-04 14:03:37] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-07-04 14:03:37] INFO root fetch - processPackages [idms]: executing diffoscope
+[2023-07-04 14:03:37] INFO root fetch - processPackages [idms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idms-0.1.8.tar.gz tmp/idms-0.1.9.tar.gz --markdown 20230704/i/idms/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 14:03:37] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-04 14:03:37] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/45/46/c654064a1320289ab5f840f8e0e77a05e6ffd23049d44b54d19cc5330de7/bigdl-2.4.0b20230704-py3-none-manylinux1_x86_64.whl
+[2023-07-04 14:03:37] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-07-04 14:03:37] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230704-py3-none-manylinux1_x86_64.whl.zip --markdown 20230704/b/bigdl-friesian/2.4.0b20230702-2.4.0b20230704/diff.md --exclude *.pyd
+[2023-07-04 14:03:37] INFO root fetch - processPackages [taivutin]: executing diffoscope
+[2023-07-04 14:03:37] INFO root fetch - processPackages [taivutin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taivutin-0.1.1-py3-none-any.whl.zip tmp/taivutin-0.1.2.tar.gz --markdown 20230704/t/taivutin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-04 14:03:37] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/7b/a5/cd63373d6f1d18378dc3d1572cd46b0d34120eb32a79f82886f83b04dfe5/bigdl_orca_spark2-2.4.0b20230701-py3-none-manylinux1_x86_64.whl
+[2023-07-04 14:03:37] INFO root fetch - processPackages [roxbot]: Downloading https://files.pythonhosted.org/packages/ed/6b/e5294386fed56591570a21e99ad3c4cf4bf57dd5e884e3a78527c60bff78/roxbot-0.7.0.tar.gz
+[2023-07-04 14:03:37] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369681>=10485760
+[2023-07-04 14:03:37] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-07-04 14:03:37] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-07-04 14:03:37] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230704-py3-none-manylinux1_x86_64.whl.zip --markdown 20230704/b/bigdl/2.4.0b20230702-2.4.0b20230704/diff.md --exclude *.pyd
+[2023-07-04 14:03:37] INFO root fetch - processPackages [roxbot]: executing diffoscope
+[2023-07-04 14:03:37] INFO root fetch - processPackages [roxbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roxbot-0.6.2.tar.gz tmp/roxbot-0.7.0.tar.gz --markdown 20230704/r/roxbot/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-07-04 14:03:38] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.98.0.tar.gz]
+[2023-07-04 14:03:38] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.99.0.tar.gz]
+[2023-07-04 14:03:38] INFO root fetch - main [MainThread]: End processing [leadguru-data]: success
+[2023-07-04 14:03:38] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.98.0.tar.gz]
+[2023-07-04 14:03:38] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.99.0.tar.gz]
+[2023-07-04 14:03:38] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-07-04 14:03:38] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-07-04 14:03:38] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-07-04 14:03:38] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-07-04 14:03:38] INFO root fetch - processPackages [idms]: Remove: archive file [/home/abi/fetcher/tmp/idms-0.1.8.tar.gz]
+[2023-07-04 14:03:38] INFO root fetch - processPackages [idms]: Remove: archive file [/home/abi/fetcher/tmp/idms-0.1.9.tar.gz]
+[2023-07-04 14:03:38] INFO root fetch - main [MainThread]: End processing [idms]: success
+[2023-07-04 14:03:38] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-04 14:03:38] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230704-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-04 14:03:38] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-07-04 14:03:38] INFO root fetch - processPackages [taivutin]: Remove: archive file [/home/abi/fetcher/tmp/taivutin-0.1.1-py3-none-any.whl.zip]
+[2023-07-04 14:03:38] INFO root fetch - processPackages [taivutin]: Remove: archive file [/home/abi/fetcher/tmp/taivutin-0.1.2.tar.gz]
+[2023-07-04 14:03:38] INFO root fetch - main [MainThread]: End processing [taivutin]: success
+[2023-07-04 14:03:39] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-04 14:03:39] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230704-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-04 14:03:39] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-07-04 14:03:39] INFO root fetch - processPackages [roxbot]: Remove: archive file [/home/abi/fetcher/tmp/roxbot-0.6.2.tar.gz]
+[2023-07-04 14:03:39] INFO root fetch - processPackages [roxbot]: Remove: archive file [/home/abi/fetcher/tmp/roxbot-0.7.0.tar.gz]
+[2023-07-04 14:03:39] INFO root fetch - main [MainThread]: End processing [roxbot]: success
+[2023-07-04 14:03:40] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-04 14:03:40] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-04 14:03:40] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-04 14:03:40] INFO root fetch - main [MainThread]: Store serial: [18754321]
