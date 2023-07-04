@@ -17017,3 +17017,121 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 11:15:29] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.41.9.tar.gz]
 [2023-07-04 11:15:29] INFO root fetch - main [MainThread]: End processing [mistapi]: success
 [2023-07-04 11:15:29] INFO root fetch - main [MainThread]: Store serial: [18752399]
+[2023-07-04 11:20:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18752399]
+[2023-07-04 11:20:39] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-04 11:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Products.MeetingNamur
+[2023-07-04 11:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: styledlogger
+[2023-07-04 11:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: napalm-nokia-olt
+[2023-07-04 11:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycryptographymodulesV1
+[2023-07-04 11:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neptune-airflow
+[2023-07-04 11:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simple-webbrowser
+[2023-07-04 11:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: satosacontrib.perun
+[2023-07-04 11:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-base-delivery-carrier-label
+[2023-07-04 11:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kcli
+[2023-07-04 11:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kafkaclientveli
+[2023-07-04 11:20:39] INFO root fetch - processPackages [Products.MeetingNamur]: New version: [4.2.0b1] Old Version: [4.2.0a3]
+[2023-07-04 11:20:39] WARNING root fetch - processPackages [neptune-airflow]: Skipping, unable to determine old version
+[2023-07-04 11:20:39] INFO root fetch - processPackages [neptune-airflow]: Start processing: kui
+[2023-07-04 11:20:39] INFO root fetch - main [MainThread]: End processing [neptune-airflow] error
+[2023-07-04 11:20:39] INFO root fetch - processPackages [styledlogger]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-04 11:20:39] WARNING root fetch - processPackages [kafkaclientveli]: Skipping, unable to determine old version
+[2023-07-04 11:20:39] INFO root fetch - processPackages [kafkaclientveli]: Start processing: eodc-faas-sen2like
+[2023-07-04 11:20:39] INFO root fetch - main [MainThread]: End processing [kafkaclientveli] error
+[2023-07-04 11:20:39] INFO root fetch - processPackages [napalm-nokia-olt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 11:20:39] INFO root fetch - processPackages [pycryptographymodulesV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-04 11:20:39] INFO root fetch - processPackages [satosacontrib.perun]: New version: [3.6.0] Old Version: [3.5.0]
+[2023-07-04 11:20:39] WARNING root fetch - processPackages [simple-webbrowser]: Skipping, unable to determine old version
+[2023-07-04 11:20:39] INFO root fetch - processPackages [simple-webbrowser]: Start processing: qontract-reconcile
+[2023-07-04 11:20:39] INFO root fetch - main [MainThread]: End processing [simple-webbrowser] error
+[2023-07-04 11:20:39] INFO root fetch - processPackages [odoo-addon-base-delivery-carrier-label]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.5]
+[2023-07-04 11:20:39] INFO root fetch - processPackages [kui]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-04 11:20:39] INFO root fetch - processPackages [kcli]: New version: [99.0.202307040918] Old Version: [99.0.202307031454]
+[2023-07-04 11:20:39] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2023.6.3rc9] Old Version: [2023.6.3rc8]
+[2023-07-04 11:20:39] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-04 11:20:39] INFO root fetch - processPackages [pycryptographymodulesV1]: Downloading https://files.pythonhosted.org/packages/3b/be/11f1ad07bad91493d56fb9088b490644396e840d88d8515d7be00954dbd2/pycryptographymodulesV1-1.0.0.tar.gz
+[2023-07-04 11:20:39] INFO root fetch - processPackages [Products.MeetingNamur]: Downloading https://files.pythonhosted.org/packages/59/68/5a90b9339ab89f5f29419dda8feeaf417291d946277776d3ccd23b3c33f2/Products.MeetingNamur-4.2.0a3.tar.gz
+[2023-07-04 11:20:39] INFO root fetch - processPackages [styledlogger]: Downloading https://files.pythonhosted.org/packages/d1/e4/fb4da684880a6f1b2ae92964b29f22fbb1fda091dd05728fb9e7f2dd456d/styledlogger-0.1.0.tar.gz
+[2023-07-04 11:20:40] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/11/f4/b2727d96c33d209798f49f8fe737c479349b68736158f7e1424f37f2e354/eodc_faas_sen2like-2023.6.3rc8.tar.gz
+[2023-07-04 11:20:40] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-04 11:20:40] INFO root fetch - processPackages [odoo-addon-base-delivery-carrier-label]: Downloading https://files.pythonhosted.org/packages/a6/3d/82bc80cc444f47787cdd444b4a08e0e02f09fc43a762b76bcfc85bfb86ba/odoo_addon_base_delivery_carrier_label-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-04 11:20:40] INFO root fetch - processPackages [satosacontrib.perun]: Downloading https://files.pythonhosted.org/packages/11/a9/b47748eeaecc8d201be7695f3b324f5eab872683775fd2941df65a281300/satosacontrib.perun-3.5.0.tar.gz
+[2023-07-04 11:20:40] INFO root fetch - processPackages [kui]: Downloading https://files.pythonhosted.org/packages/16/be/e37679cfd82fadd2be6c6266ac095f9c3359d4d5c043f72a8f9c83b3ced7/kui-1.4.0.tar.gz
+[2023-07-04 11:20:40] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/9b/2d/36f51512d49e5d87986018c7dc6c81cd309c5881d8e01aac7fa4ac4023c5/kcli-99.0.202307031454-py3-none-any.whl
+[2023-07-04 11:20:40] INFO root fetch - processPackages [napalm-nokia-olt]: executing diffoscope
+[2023-07-04 11:20:40] INFO root fetch - processPackages [napalm-nokia-olt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napalm_nokia_olt-0.0.8.tar.gz tmp/napalm_nokia_olt-0.0.9.tar.gz --markdown 20230704/n/napalm-nokia-olt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 11:20:40] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/d1/18/1ecffbdd44ed7c22ca7ec29600a01ed80bfc79a601bb05e80e0ca1177eba/eodc_faas_sen2like-2023.6.3rc9.tar.gz
+[2023-07-04 11:20:40] INFO root fetch - processPackages [pycryptographymodulesV1]: Downloading https://files.pythonhosted.org/packages/09/63/51fe6f07f32a0d5e5b8a0f2a5f40e751b01f7aaad4c33da04a7e7198738f/pycryptographymodulesV1-1.1.0.tar.gz
+[2023-07-04 11:20:40] INFO root fetch - processPackages [styledlogger]: Downloading https://files.pythonhosted.org/packages/5d/3d/958499c36b5136f865b4f052be8943409c0ce94bce6b7e450e430dfae365/styledlogger-0.1.1.tar.gz
+[2023-07-04 11:20:40] INFO root fetch - processPackages [Products.MeetingNamur]: Downloading https://files.pythonhosted.org/packages/7f/f9/143ad669d85ac090e247b79295b8c0c0a89d374ce17dde9c5a4a78564a90/Products.MeetingNamur-4.2.0b1.tar.gz
+[2023-07-04 11:20:40] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-04 11:20:40] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2023-07-04 11:20:40] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2023.6.3rc8.tar.gz tmp/eodc_faas_sen2like-2023.6.3rc9.tar.gz --markdown 20230704/e/eodc-faas-sen2like/2023.6.3rc8-2023.6.3rc9/diff.md --exclude *.pyd
+[2023-07-04 11:20:40] INFO root fetch - processPackages [styledlogger]: executing diffoscope
+[2023-07-04 11:20:40] INFO root fetch - processPackages [styledlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/styledlogger-0.1.0.tar.gz tmp/styledlogger-0.1.1.tar.gz --markdown 20230704/s/styledlogger/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-04 11:20:40] INFO root fetch - processPackages [kui]: Downloading https://files.pythonhosted.org/packages/a0/a0/5b388d4a7b133c5a6bd9263bc40ac3d13ed298452bb5064ae398cc091e83/kui-1.5.0.tar.gz
+[2023-07-04 11:20:40] INFO root fetch - processPackages [odoo-addon-base-delivery-carrier-label]: Downloading https://files.pythonhosted.org/packages/61/14/4de29ba95e3fb1bdd4c4b84d3355c2383ee889bb166478aaac9f59936105/odoo_addon_base_delivery_carrier_label-16.0.1.1.0-py3-none-any.whl
+[2023-07-04 11:20:40] INFO root fetch - processPackages [satosacontrib.perun]: Downloading https://files.pythonhosted.org/packages/77/be/8741441f0459970954140859405035e899179e9ee669d9198d56ae6cd9c5/satosacontrib.perun-3.6.0.tar.gz
+[2023-07-04 11:20:40] INFO root fetch - processPackages [pycryptographymodulesV1]: executing diffoscope
+[2023-07-04 11:20:40] INFO root fetch - processPackages [pycryptographymodulesV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycryptographymodulesV1-1.0.0.tar.gz tmp/pycryptographymodulesV1-1.1.0.tar.gz --markdown 20230704/p/pycryptographymodulesV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-04 11:20:40] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a3/3d/d7e413f081f99d6fe91231176734a6190ec9190473a24f1062ae90f46f5c/kcli-99.0.202307040918-py3-none-any.whl
+[2023-07-04 11:20:40] INFO root fetch - processPackages [Products.MeetingNamur]: executing diffoscope
+[2023-07-04 11:20:40] INFO root fetch - processPackages [Products.MeetingNamur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.MeetingNamur-4.2.0a3.tar.gz tmp/Products.MeetingNamur-4.2.0b1.tar.gz --markdown 20230704/P/Products.MeetingNamur/4.2.0a3-4.2.0b1/diff.md --exclude *.pyd
+[2023-07-04 11:20:40] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-04 11:20:40] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230704/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-04 11:20:40] INFO root fetch - processPackages [satosacontrib.perun]: executing diffoscope
+[2023-07-04 11:20:40] INFO root fetch - processPackages [satosacontrib.perun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satosacontrib.perun-3.5.0.tar.gz tmp/satosacontrib.perun-3.6.0.tar.gz --markdown 20230704/s/satosacontrib.perun/3.5.0-3.6.0/diff.md --exclude *.pyd
+[2023-07-04 11:20:40] INFO root fetch - processPackages [kui]: executing diffoscope
+[2023-07-04 11:20:40] INFO root fetch - processPackages [kui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kui-1.4.0.tar.gz tmp/kui-1.5.0.tar.gz --markdown 20230704/k/kui/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-04 11:20:40] INFO root fetch - processPackages [odoo-addon-base-delivery-carrier-label]: executing diffoscope
+[2023-07-04 11:20:40] INFO root fetch - processPackages [odoo-addon-base-delivery-carrier-label]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_delivery_carrier_label-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_base_delivery_carrier_label-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230704/o/odoo-addon-base-delivery-carrier-label/16.0.1.0.0.5-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-07-04 11:20:41] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-04 11:20:41] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307031454-py3-none-any.whl.zip tmp/kcli-99.0.202307040918-py3-none-any.whl.zip --markdown 20230704/k/kcli/99.0.202307031454-99.0.202307040918/diff.md --exclude *.pyd
+[2023-07-04 11:20:41] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.8.tar.gz]
+[2023-07-04 11:20:41] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.9.tar.gz]
+[2023-07-04 11:20:41] INFO root fetch - processPackages [napalm-nokia-olt]: Start processing: nextpcg
+[2023-07-04 11:20:41] INFO root fetch - main [MainThread]: End processing [napalm-nokia-olt]: success
+[2023-07-04 11:20:41] INFO root fetch - processPackages [nextpcg]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-04 11:20:41] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/21/e3/8961a1cf36f2a32bba3be0f2801702c4fb37c36164a44be1749419c9b3e7/nextpcg-0.5.8.tar.gz
+[2023-07-04 11:20:41] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/cf/08/4cf741b08ba79aab0af730a364994d72c10b23055730e8331317a461fdee/nextpcg-0.5.9.tar.gz
+[2023-07-04 11:20:41] INFO root fetch - processPackages [nextpcg]: executing diffoscope
+[2023-07-04 11:20:41] INFO root fetch - processPackages [nextpcg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextpcg-0.5.8.tar.gz tmp/nextpcg-0.5.9.tar.gz --markdown 20230704/n/nextpcg/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-04 11:20:41] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.6.3rc8.tar.gz]
+[2023-07-04 11:20:41] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.6.3rc9.tar.gz]
+[2023-07-04 11:20:41] INFO root fetch - processPackages [eodc-faas-sen2like]: Start processing: pycryptographymodulesV1
+[2023-07-04 11:20:41] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2023-07-04 11:20:41] INFO root fetch - processPackages [pycryptographymodulesV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-04 11:20:42] INFO root fetch - processPackages [pycryptographymodulesV1]: Remove: archive file [/home/abi/fetcher/tmp/pycryptographymodulesV1-1.0.0.tar.gz]
+[2023-07-04 11:20:42] INFO root fetch - processPackages [pycryptographymodulesV1]: Remove: archive file [/home/abi/fetcher/tmp/pycryptographymodulesV1-1.1.0.tar.gz]
+[2023-07-04 11:20:42] INFO root fetch - main [MainThread]: End processing [pycryptographymodulesV1]: success
+[2023-07-04 11:20:42] INFO root fetch - processPackages [styledlogger]: Remove: archive file [/home/abi/fetcher/tmp/styledlogger-0.1.0.tar.gz]
+[2023-07-04 11:20:42] INFO root fetch - processPackages [styledlogger]: Remove: archive file [/home/abi/fetcher/tmp/styledlogger-0.1.1.tar.gz]
+[2023-07-04 11:20:42] INFO root fetch - main [MainThread]: End processing [styledlogger]: success
+[2023-07-04 11:20:42] INFO root fetch - processPackages [pycryptographymodulesV1]: Downloading https://files.pythonhosted.org/packages/09/63/51fe6f07f32a0d5e5b8a0f2a5f40e751b01f7aaad4c33da04a7e7198738f/pycryptographymodulesV1-1.1.0.tar.gz
+[2023-07-04 11:20:42] INFO root fetch - processPackages [pycryptographymodulesV1]: executing diffoscope
+[2023-07-04 11:20:42] INFO root fetch - processPackages [pycryptographymodulesV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycryptographymodulesV1-1.0.0.tar.gz tmp/pycryptographymodulesV1-1.1.0.tar.gz --markdown 20230704/p/pycryptographymodulesV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-04 11:20:42] INFO root fetch - processPackages [satosacontrib.perun]: Remove: archive file [/home/abi/fetcher/tmp/satosacontrib.perun-3.5.0.tar.gz]
+[2023-07-04 11:20:42] INFO root fetch - processPackages [satosacontrib.perun]: Remove: archive file [/home/abi/fetcher/tmp/satosacontrib.perun-3.6.0.tar.gz]
+[2023-07-04 11:20:42] INFO root fetch - main [MainThread]: End processing [satosacontrib.perun]: success
+[2023-07-04 11:20:42] INFO root fetch - processPackages [Products.MeetingNamur]: Remove: archive file [/home/abi/fetcher/tmp/Products.MeetingNamur-4.2.0a3.tar.gz]
+[2023-07-04 11:20:42] INFO root fetch - processPackages [Products.MeetingNamur]: Remove: archive file [/home/abi/fetcher/tmp/Products.MeetingNamur-4.2.0b1.tar.gz]
+[2023-07-04 11:20:42] INFO root fetch - main [MainThread]: End processing [Products.MeetingNamur]: success
+[2023-07-04 11:20:42] INFO root fetch - processPackages [odoo-addon-base-delivery-carrier-label]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_delivery_carrier_label-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-04 11:20:42] INFO root fetch - processPackages [odoo-addon-base-delivery-carrier-label]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_delivery_carrier_label-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-04 11:20:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-delivery-carrier-label]: success
+[2023-07-04 11:20:43] ERROR root fetch - processPackages [pycryptographymodulesV1]: Diffoscope failed: time="2023-07-04T11:20:42+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/pycryptographymodulesV1-1.0.0.tar.gz: No such file or directory
+
+[2023-07-04 11:20:43] INFO root fetch - main [MainThread]: End processing [pycryptographymodulesV1] error
+[2023-07-04 11:20:43] INFO root fetch - processPackages [kui]: Remove: archive file [/home/abi/fetcher/tmp/kui-1.4.0.tar.gz]
+[2023-07-04 11:20:43] INFO root fetch - processPackages [kui]: Remove: archive file [/home/abi/fetcher/tmp/kui-1.5.0.tar.gz]
+[2023-07-04 11:20:43] INFO root fetch - main [MainThread]: End processing [kui]: success
+[2023-07-04 11:20:43] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.8.tar.gz]
+[2023-07-04 11:20:43] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.9.tar.gz]
+[2023-07-04 11:20:43] INFO root fetch - main [MainThread]: End processing [nextpcg]: success
+[2023-07-04 11:20:44] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-04 11:20:44] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-04 11:20:44] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-04 11:20:45] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307031454-py3-none-any.whl.zip]
+[2023-07-04 11:20:45] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307040918-py3-none-any.whl.zip]
+[2023-07-04 11:20:45] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-04 11:20:45] INFO root fetch - main [MainThread]: Store serial: [18752466]
