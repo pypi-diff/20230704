@@ -19961,3 +19961,113 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 13:13:57] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-5.1.5-py3-none-any.whl.zip]
 [2023-07-04 13:13:57] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
 [2023-07-04 13:13:57] INFO root fetch - main [MainThread]: Store serial: [18753874]
+[2023-07-04 13:19:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18753874]
+[2023-07-04 13:19:06] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-04 13:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: groovy-parser
+[2023-07-04 13:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: order
+[2023-07-04 13:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oidc-drf
+[2023-07-04 13:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moto-ext
+[2023-07-04 13:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: recon-lw
+[2023-07-04 13:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cmem-cmempy
+[2023-07-04 13:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oidc-drf
+[2023-07-04 13:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: omicverse
+[2023-07-04 13:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: comet-maths
+[2023-07-04 13:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finflo
+[2023-07-04 13:19:07] INFO root fetch - processPackages [oidc-drf]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-04 13:19:07] INFO root fetch - processPackages [omicverse]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-04 13:19:07] INFO root fetch - processPackages [oidc-drf]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-04 13:19:07] INFO root fetch - processPackages [cmem-cmempy]: New version: [23.1.2rc1] Old Version: [23.1.1]
+[2023-07-04 13:19:07] INFO root fetch - processPackages [omicverse]: Downloading https://files.pythonhosted.org/packages/65/e7/7af99817b6a4daeccfd1d730da16caa5534e801d1a03773924bcef64cfe9/omicverse-1.4.8.tar.gz
+[2023-07-04 13:19:07] WARNING root fetch - processPackages [groovy-parser]: Skipping, unable to determine old version
+[2023-07-04 13:19:07] INFO root fetch - processPackages [groovy-parser]: Start processing: trading212-rest
+[2023-07-04 13:19:07] INFO root fetch - main [MainThread]: End processing [groovy-parser] error
+[2023-07-04 13:19:07] INFO root fetch - processPackages [comet-maths]: New version: [0.9] Old Version: [0.8]
+[2023-07-04 13:19:07] INFO root fetch - processPackages [order]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-07-04 13:19:07] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5454052804] Old Version: [2.0.0.dev5424354261]
+[2023-07-04 13:19:07] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/36/75/0e56487388828f40b0a8d401716a3cd255d3085e731e6ca3745ab28a86d2/oidc_drf-1.2.8.tar.gz
+[2023-07-04 13:19:07] INFO root fetch - processPackages [finflo]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-04 13:19:07] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/36/75/0e56487388828f40b0a8d401716a3cd255d3085e731e6ca3745ab28a86d2/oidc_drf-1.2.8.tar.gz
+[2023-07-04 13:19:07] INFO root fetch - processPackages [cmem-cmempy]: Downloading https://files.pythonhosted.org/packages/b5/94/5447978cdaf24e0bd9d2fb010c12cc7159cb10320f0f98c55e2797914628/cmem_cmempy-23.1.1.tar.gz
+[2023-07-04 13:19:07] INFO root fetch - processPackages [moto-ext]: New version: [4.1.9.post1] Old Version: [4.1.8.post1]
+[2023-07-04 13:19:07] INFO root fetch - processPackages [trading212-rest]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-04 13:19:07] INFO root fetch - processPackages [order]: Downloading https://files.pythonhosted.org/packages/91/25/dda12ae6cdec84290b299911ea69b9c0181ae447b4ba3a9436032bcbf673/order-2.1.1.tar.gz
+[2023-07-04 13:19:07] INFO root fetch - processPackages [finflo]: Downloading https://files.pythonhosted.org/packages/04/d4/473c3170b2653947ae4fdf747350d5d9da37102ff9e555728fe31155c998/finflo-2.0.8.tar.gz
+[2023-07-04 13:19:07] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/59/76/1318d480c7fc45c5d120a261bbb421c66e6555f96144363297a5f95bac64/recon_lw-2.0.0.dev5424354261.tar.gz
+[2023-07-04 13:19:07] INFO root fetch - processPackages [comet-maths]: Downloading https://files.pythonhosted.org/packages/a0/9d/10de8a8610929b5e518ad469fbe5f79b5741949de43cb299129d8d099452/comet_maths-0.8.tar.gz
+[2023-07-04 13:19:07] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/d7/de/e7417f81d3a2bb32b6f2acb0044fcadd08723cefbe4019f55c809d6c5afe/oidc_drf-1.2.9.tar.gz
+[2023-07-04 13:19:07] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/d7/de/e7417f81d3a2bb32b6f2acb0044fcadd08723cefbe4019f55c809d6c5afe/oidc_drf-1.2.9.tar.gz
+[2023-07-04 13:19:07] INFO root fetch - processPackages [trading212-rest]: Downloading https://files.pythonhosted.org/packages/dd/7a/289333ee03f2d595a1d403808977a25b8d2143403091d084a1f80f28f791/trading212-rest-0.1.0.tar.gz
+[2023-07-04 13:19:07] INFO root fetch - processPackages [cmem-cmempy]: Downloading https://files.pythonhosted.org/packages/da/f9/2689786265567dfa432608c4036021bad4ad589488a11ed570661a17e0d4/cmem_cmempy-23.1.2rc1.tar.gz
+[2023-07-04 13:19:07] INFO root fetch - processPackages [omicverse]: Downloading https://files.pythonhosted.org/packages/66/c8/f57e969d7ae412b92fa97e857ccb04286c18bd60cd1464a2e1ef11fb5351/omicverse-1.4.9.tar.gz
+[2023-07-04 13:19:07] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-04 13:19:07] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.2.8.tar.gz tmp/oidc_drf-1.2.9.tar.gz --markdown 20230704/o/oidc-drf/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-04 13:19:07] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-04 13:19:07] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.2.8.tar.gz tmp/oidc_drf-1.2.9.tar.gz --markdown 20230704/o/oidc-drf/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-04 13:19:07] INFO root fetch - processPackages [moto-ext]: executing diffoscope
+[2023-07-04 13:19:07] INFO root fetch - processPackages [moto-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-ext-4.1.8.post1.tar.gz tmp/moto-ext-4.1.9.post1.tar.gz --markdown 20230704/m/moto-ext/4.1.8.post1-4.1.9.post1/diff.md --exclude *.pyd
+[2023-07-04 13:19:08] INFO root fetch - processPackages [cmem-cmempy]: executing diffoscope
+[2023-07-04 13:19:08] INFO root fetch - processPackages [cmem-cmempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_cmempy-23.1.1.tar.gz tmp/cmem_cmempy-23.1.2rc1.tar.gz --markdown 20230704/c/cmem-cmempy/23.1.1-23.1.2rc1/diff.md --exclude *.pyd
+[2023-07-04 13:19:08] INFO root fetch - processPackages [order]: Downloading https://files.pythonhosted.org/packages/09/04/03de939a336fce38b7b8ba9f0bf1a3a6e67b6867f4ce1122b107fc5199d6/order-2.1.2.tar.gz
+[2023-07-04 13:19:08] INFO root fetch - processPackages [comet-maths]: Downloading https://files.pythonhosted.org/packages/cf/a7/a9877e8a9b60f1dea120f60fa85520f52bf5d43e689e40c0cc4cc604c78f/comet_maths-0.9.tar.gz
+[2023-07-04 13:19:08] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/6e/e6/78538a08cfb3c0bd3feb9bb64df090afc15b6f0a4ca5f7b61d4bb9a71ff1/recon_lw-2.0.0.dev5454052804.tar.gz
+[2023-07-04 13:19:08] INFO root fetch - processPackages [finflo]: Downloading https://files.pythonhosted.org/packages/cc/e5/9200013d5fdb9d58e796c4748484e51997a114364e5fea45f180325456db/finflo-2.0.9.tar.gz
+[2023-07-04 13:19:08] INFO root fetch - processPackages [omicverse]: executing diffoscope
+[2023-07-04 13:19:08] INFO root fetch - processPackages [omicverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omicverse-1.4.8.tar.gz tmp/omicverse-1.4.9.tar.gz --markdown 20230704/o/omicverse/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-04 13:19:08] INFO root fetch - processPackages [trading212-rest]: Downloading https://files.pythonhosted.org/packages/f3/87/505fc2cbc1289d346a73b8933399297fe8c292072053883e88c8a5f5e13c/trading212-rest-0.2.0.tar.gz
+[2023-07-04 13:19:08] INFO root fetch - processPackages [comet-maths]: executing diffoscope
+[2023-07-04 13:19:08] INFO root fetch - processPackages [comet-maths]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_maths-0.8.tar.gz tmp/comet_maths-0.9.tar.gz --markdown 20230704/c/comet-maths/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-04 13:19:08] INFO root fetch - processPackages [order]: executing diffoscope
+[2023-07-04 13:19:08] INFO root fetch - processPackages [order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/order-2.1.1.tar.gz tmp/order-2.1.2.tar.gz --markdown 20230704/o/order/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-07-04 13:19:08] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-07-04 13:19:08] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5424354261.tar.gz tmp/recon_lw-2.0.0.dev5454052804.tar.gz --markdown 20230704/r/recon-lw/2.0.0.dev5424354261-2.0.0.dev5454052804/diff.md --exclude *.pyd
+[2023-07-04 13:19:08] INFO root fetch - processPackages [trading212-rest]: executing diffoscope
+[2023-07-04 13:19:08] INFO root fetch - processPackages [trading212-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trading212-rest-0.1.0.tar.gz tmp/trading212-rest-0.2.0.tar.gz --markdown 20230704/t/trading212-rest/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-04 13:19:08] INFO root fetch - processPackages [finflo]: executing diffoscope
+[2023-07-04 13:19:08] INFO root fetch - processPackages [finflo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finflo-2.0.8.tar.gz tmp/finflo-2.0.9.tar.gz --markdown 20230704/f/finflo/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-04 13:19:09] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.8.tar.gz]
+[2023-07-04 13:19:09] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.9.tar.gz]
+[2023-07-04 13:19:09] INFO root fetch - processPackages [oidc-drf]: Start processing: fhirpy
+[2023-07-04 13:19:09] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-04 13:19:09] INFO root fetch - processPackages [fhirpy]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-04 13:19:09] INFO root fetch - processPackages [oidc-drf]: Start processing: batch-processing-discovery
+[2023-07-04 13:19:09] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-04 13:19:09] INFO root fetch - processPackages [batch-processing-discovery]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-04 13:19:09] INFO root fetch - processPackages [fhirpy]: Downloading https://files.pythonhosted.org/packages/33/6f/5d2f4ad0e35c180defc996a10be3e5fe6875158b3d06eefe31f0b300e637/fhirpy-1.3.1.tar.gz
+[2023-07-04 13:19:09] INFO root fetch - processPackages [trading212-rest]: Remove: archive file [/home/abi/fetcher/tmp/trading212-rest-0.1.0.tar.gz]
+[2023-07-04 13:19:09] INFO root fetch - processPackages [trading212-rest]: Remove: archive file [/home/abi/fetcher/tmp/trading212-rest-0.2.0.tar.gz]
+[2023-07-04 13:19:09] INFO root fetch - main [MainThread]: End processing [trading212-rest]: success
+[2023-07-04 13:19:09] INFO root fetch - processPackages [comet-maths]: Remove: archive file [/home/abi/fetcher/tmp/comet_maths-0.8.tar.gz]
+[2023-07-04 13:19:09] INFO root fetch - processPackages [comet-maths]: Remove: archive file [/home/abi/fetcher/tmp/comet_maths-0.9.tar.gz]
+[2023-07-04 13:19:09] INFO root fetch - main [MainThread]: End processing [comet-maths]: success
+[2023-07-04 13:19:09] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5424354261.tar.gz]
+[2023-07-04 13:19:09] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5454052804.tar.gz]
+[2023-07-04 13:19:09] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-07-04 13:19:09] INFO root fetch - processPackages [cmem-cmempy]: Remove: archive file [/home/abi/fetcher/tmp/cmem_cmempy-23.1.1.tar.gz]
+[2023-07-04 13:19:09] INFO root fetch - processPackages [cmem-cmempy]: Remove: archive file [/home/abi/fetcher/tmp/cmem_cmempy-23.1.2rc1.tar.gz]
+[2023-07-04 13:19:09] INFO root fetch - main [MainThread]: End processing [cmem-cmempy]: success
+[2023-07-04 13:19:10] INFO root fetch - processPackages [batch-processing-discovery]: Downloading https://files.pythonhosted.org/packages/5b/65/4c5d791e296b4cac87e87454f9602c4a2188d4eadd5cc96298456e3c9a0f/batch_processing_discovery-0.4.2.tar.gz
+[2023-07-04 13:19:10] INFO root fetch - processPackages [order]: Remove: archive file [/home/abi/fetcher/tmp/order-2.1.1.tar.gz]
+[2023-07-04 13:19:10] INFO root fetch - processPackages [order]: Remove: archive file [/home/abi/fetcher/tmp/order-2.1.2.tar.gz]
+[2023-07-04 13:19:10] INFO root fetch - main [MainThread]: End processing [order]: success
+[2023-07-04 13:19:10] INFO root fetch - processPackages [finflo]: Remove: archive file [/home/abi/fetcher/tmp/finflo-2.0.8.tar.gz]
+[2023-07-04 13:19:10] INFO root fetch - processPackages [finflo]: Remove: archive file [/home/abi/fetcher/tmp/finflo-2.0.9.tar.gz]
+[2023-07-04 13:19:10] INFO root fetch - main [MainThread]: End processing [finflo]: success
+[2023-07-04 13:19:10] INFO root fetch - processPackages [fhirpy]: Downloading https://files.pythonhosted.org/packages/59/5a/ef92200b428170a64b43e62904204891b606bd911ec1df8deb5bc354372c/fhirpy-1.3.2.tar.gz
+[2023-07-04 13:19:10] INFO root fetch - processPackages [fhirpy]: executing diffoscope
+[2023-07-04 13:19:10] INFO root fetch - processPackages [fhirpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fhirpy-1.3.1.tar.gz tmp/fhirpy-1.3.2.tar.gz --markdown 20230704/f/fhirpy/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-04 13:19:10] INFO root fetch - processPackages [batch-processing-discovery]: Downloading https://files.pythonhosted.org/packages/0a/f4/5e229f04281d1df4d85ca6892556d29ef2858043c106004a4ed5062626e9/batch_processing_discovery-0.4.3.tar.gz
+[2023-07-04 13:19:10] INFO root fetch - processPackages [batch-processing-discovery]: executing diffoscope
+[2023-07-04 13:19:10] INFO root fetch - processPackages [batch-processing-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batch_processing_discovery-0.4.2.tar.gz tmp/batch_processing_discovery-0.4.3.tar.gz --markdown 20230704/b/batch-processing-discovery/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-04 13:19:10] INFO root fetch - processPackages [omicverse]: Remove: archive file [/home/abi/fetcher/tmp/omicverse-1.4.8.tar.gz]
+[2023-07-04 13:19:10] INFO root fetch - processPackages [omicverse]: Remove: archive file [/home/abi/fetcher/tmp/omicverse-1.4.9.tar.gz]
+[2023-07-04 13:19:10] INFO root fetch - main [MainThread]: End processing [omicverse]: success
+[2023-07-04 13:19:11] INFO root fetch - processPackages [fhirpy]: Remove: archive file [/home/abi/fetcher/tmp/fhirpy-1.3.1.tar.gz]
+[2023-07-04 13:19:11] INFO root fetch - processPackages [fhirpy]: Remove: archive file [/home/abi/fetcher/tmp/fhirpy-1.3.2.tar.gz]
+[2023-07-04 13:19:11] INFO root fetch - main [MainThread]: End processing [fhirpy]: success
+[2023-07-04 13:19:11] INFO root fetch - processPackages [batch-processing-discovery]: Remove: archive file [/home/abi/fetcher/tmp/batch_processing_discovery-0.4.2.tar.gz]
+[2023-07-04 13:19:11] INFO root fetch - processPackages [batch-processing-discovery]: Remove: archive file [/home/abi/fetcher/tmp/batch_processing_discovery-0.4.3.tar.gz]
+[2023-07-04 13:19:11] INFO root fetch - main [MainThread]: End processing [batch-processing-discovery]: success
+[2023-07-04 13:21:50] INFO root fetch - processPackages [moto-ext]: Remove: archive file [/home/abi/fetcher/tmp/moto-ext-4.1.8.post1.tar.gz]
+[2023-07-04 13:21:50] INFO root fetch - processPackages [moto-ext]: Remove: archive file [/home/abi/fetcher/tmp/moto-ext-4.1.9.post1.tar.gz]
+[2023-07-04 13:21:50] INFO root fetch - main [MainThread]: End processing [moto-ext]: success
+[2023-07-04 13:21:50] INFO root fetch - main [MainThread]: Store serial: [18753921]
