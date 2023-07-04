@@ -12994,3 +12994,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 07:55:00] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.3.0.1.dev1-py3-none-any.whl.zip]
 [2023-07-04 07:55:00] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor]: success
 [2023-07-04 07:55:00] INFO root fetch - main [MainThread]: Store serial: [18750830]
+[2023-07-04 08:00:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18750830]
+[2023-07-04 08:00:09] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-04 08:00:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-tomselect
+[2023-07-04 08:00:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: frost-sta-client
+[2023-07-04 08:00:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: example990420
+[2023-07-04 08:00:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: event-dispatching
+[2023-07-04 08:00:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: starwhale
+[2023-07-04 08:00:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SC-Track
+[2023-07-04 08:00:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain-interpreter
+[2023-07-04 08:00:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain-interpreter
+[2023-07-04 08:00:10] INFO root fetch - processPackages [event-dispatching]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-04 08:00:10] INFO root fetch - processPackages [langchain-interpreter]: New version: [0.0.4] Old Version: [0.0.3.post1]
+[2023-07-04 08:00:10] INFO root fetch - processPackages [django-tomselect]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-04 08:00:10] WARNING root fetch - processPackages [example990420]: Skipping, unable to determine old version
+[2023-07-04 08:00:10] INFO root fetch - main [MainThread]: End processing [example990420] error
+[2023-07-04 08:00:10] INFO root fetch - processPackages [langchain-interpreter]: New version: [0.0.4] Old Version: [0.0.3.post1]
+[2023-07-04 08:00:10] WARNING root fetch - processPackages [SC-Track]: Skipping, unable to determine old version
+[2023-07-04 08:00:10] INFO root fetch - main [MainThread]: End processing [SC-Track] error
+[2023-07-04 08:00:10] INFO root fetch - processPackages [frost-sta-client]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-04 08:00:10] INFO root fetch - processPackages [starwhale]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-04 08:00:10] INFO root fetch - processPackages [django-tomselect]: Downloading https://files.pythonhosted.org/packages/57/aa/03a915675cf1c93b0ab2e61b5f0bbe8c3c4994174b5e18f9bc40d373a000/django-tomselect-0.4.2.tar.gz
+[2023-07-04 08:00:10] INFO root fetch - processPackages [langchain-interpreter]: Downloading https://files.pythonhosted.org/packages/bd/d8/272cd909eb36d42b077458e360ec6f3aa71b8c7c3e14fd102dc72ae0313e/langchain_interpreter-0.0.3.post1.tar.gz
+[2023-07-04 08:00:10] INFO root fetch - processPackages [langchain-interpreter]: Downloading https://files.pythonhosted.org/packages/bd/d8/272cd909eb36d42b077458e360ec6f3aa71b8c7c3e14fd102dc72ae0313e/langchain_interpreter-0.0.3.post1.tar.gz
+[2023-07-04 08:00:10] INFO root fetch - processPackages [event-dispatching]: Downloading https://files.pythonhosted.org/packages/d0/4e/46aa3b3aac0d5d630db498d7afc9be5fccd5969539eea36d0d84f1730123/event_dispatching-0.1.1.tar.gz
+[2023-07-04 08:00:10] INFO root fetch - processPackages [frost-sta-client]: Downloading https://files.pythonhosted.org/packages/f4/b9/0a53a34ca925ae37ddd150b95ff8eb34b8de2e46bf39af38385af7fed5cf/frost_sta_client-1.1.8.tar.gz
+[2023-07-04 08:00:10] INFO root fetch - processPackages [starwhale]: Downloading https://files.pythonhosted.org/packages/02/71/60eda301f27c6991eb24e3a6cbbb5dffca4074bc588933894e8878c2837a/starwhale-0.5.2.tar.gz
+[2023-07-04 08:00:10] INFO root fetch - processPackages [django-tomselect]: Downloading https://files.pythonhosted.org/packages/f8/49/9a0301720fb1216decf514476144dbd2b2acce0f6242191577aaaeab0c0b/django-tomselect-0.4.3.tar.gz
+[2023-07-04 08:00:10] INFO root fetch - processPackages [langchain-interpreter]: Downloading https://files.pythonhosted.org/packages/3e/99/6a3a92988618be2c47887f62a9fe9afbd9f39df6ce6cff735594cec2d47a/langchain_interpreter-0.0.4.tar.gz
+[2023-07-04 08:00:10] INFO root fetch - processPackages [langchain-interpreter]: Downloading https://files.pythonhosted.org/packages/3e/99/6a3a92988618be2c47887f62a9fe9afbd9f39df6ce6cff735594cec2d47a/langchain_interpreter-0.0.4.tar.gz
+[2023-07-04 08:00:10] INFO root fetch - processPackages [django-tomselect]: executing diffoscope
+[2023-07-04 08:00:10] INFO root fetch - processPackages [django-tomselect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-tomselect-0.4.2.tar.gz tmp/django-tomselect-0.4.3.tar.gz --markdown 20230704/d/django-tomselect/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-04 08:00:10] INFO root fetch - processPackages [event-dispatching]: Downloading https://files.pythonhosted.org/packages/7a/bd/8ee3b9d624c337d5615b132ef87261414b00a0e995c3d9d64f304389e808/event_dispatching-0.1.2.tar.gz
+[2023-07-04 08:00:10] INFO root fetch - processPackages [langchain-interpreter]: executing diffoscope
+[2023-07-04 08:00:10] INFO root fetch - processPackages [langchain-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_interpreter-0.0.3.post1.tar.gz tmp/langchain_interpreter-0.0.4.tar.gz --markdown 20230704/l/langchain-interpreter/0.0.3.post1-0.0.4/diff.md --exclude *.pyd
+[2023-07-04 08:00:10] INFO root fetch - processPackages [frost-sta-client]: Downloading https://files.pythonhosted.org/packages/c1/da/20e3ed8d764ebaebac4c1d8b507d9f9072539dc1205575e111490d1690d6/frost_sta_client-1.1.9.tar.gz
+[2023-07-04 08:00:10] INFO root fetch - processPackages [langchain-interpreter]: executing diffoscope
+[2023-07-04 08:00:10] INFO root fetch - processPackages [langchain-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_interpreter-0.0.3.post1.tar.gz tmp/langchain_interpreter-0.0.4.tar.gz --markdown 20230704/l/langchain-interpreter/0.0.3.post1-0.0.4/diff.md --exclude *.pyd
+[2023-07-04 08:00:11] INFO root fetch - processPackages [event-dispatching]: executing diffoscope
+[2023-07-04 08:00:11] INFO root fetch - processPackages [event-dispatching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/event_dispatching-0.1.1.tar.gz tmp/event_dispatching-0.1.2.tar.gz --markdown 20230704/e/event-dispatching/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-04 08:00:11] INFO root fetch - processPackages [starwhale]: Downloading https://files.pythonhosted.org/packages/03/4b/c5c87fb0235c071d749f22e545ea48db694d9bcb1c2d7c5ed71b5fddd4c7/starwhale-0.5.3.tar.gz
+[2023-07-04 08:00:11] INFO root fetch - processPackages [frost-sta-client]: executing diffoscope
+[2023-07-04 08:00:11] INFO root fetch - processPackages [frost-sta-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frost_sta_client-1.1.8.tar.gz tmp/frost_sta_client-1.1.9.tar.gz --markdown 20230704/f/frost-sta-client/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-04 08:00:11] INFO root fetch - processPackages [starwhale]: executing diffoscope
+[2023-07-04 08:00:11] INFO root fetch - processPackages [starwhale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starwhale-0.5.2.tar.gz tmp/starwhale-0.5.3.tar.gz --markdown 20230704/s/starwhale/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-04 08:00:12] INFO root fetch - processPackages [langchain-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/langchain_interpreter-0.0.3.post1.tar.gz]
+[2023-07-04 08:00:12] INFO root fetch - processPackages [langchain-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/langchain_interpreter-0.0.4.tar.gz]
+[2023-07-04 08:00:12] INFO root fetch - main [MainThread]: End processing [langchain-interpreter]: success
+[2023-07-04 08:00:12] INFO root fetch - main [MainThread]: End processing [langchain-interpreter]: success
+[2023-07-04 08:00:12] INFO root fetch - processPackages [event-dispatching]: Remove: archive file [/home/abi/fetcher/tmp/event_dispatching-0.1.1.tar.gz]
+[2023-07-04 08:00:12] INFO root fetch - processPackages [event-dispatching]: Remove: archive file [/home/abi/fetcher/tmp/event_dispatching-0.1.2.tar.gz]
+[2023-07-04 08:00:12] INFO root fetch - main [MainThread]: End processing [event-dispatching]: success
+[2023-07-04 08:00:12] INFO root fetch - processPackages [frost-sta-client]: Remove: archive file [/home/abi/fetcher/tmp/frost_sta_client-1.1.8.tar.gz]
+[2023-07-04 08:00:12] INFO root fetch - processPackages [frost-sta-client]: Remove: archive file [/home/abi/fetcher/tmp/frost_sta_client-1.1.9.tar.gz]
+[2023-07-04 08:00:12] INFO root fetch - main [MainThread]: End processing [frost-sta-client]: success
+[2023-07-04 08:00:12] INFO root fetch - processPackages [django-tomselect]: Remove: archive file [/home/abi/fetcher/tmp/django-tomselect-0.4.2.tar.gz]
+[2023-07-04 08:00:12] INFO root fetch - processPackages [django-tomselect]: Remove: archive file [/home/abi/fetcher/tmp/django-tomselect-0.4.3.tar.gz]
+[2023-07-04 08:00:12] INFO root fetch - main [MainThread]: End processing [django-tomselect]: success
+[2023-07-04 08:02:14] INFO root fetch - processPackages [starwhale]: Remove: archive file [/home/abi/fetcher/tmp/starwhale-0.5.2.tar.gz]
+[2023-07-04 08:02:14] INFO root fetch - processPackages [starwhale]: Remove: archive file [/home/abi/fetcher/tmp/starwhale-0.5.3.tar.gz]
+[2023-07-04 08:02:14] INFO root fetch - main [MainThread]: End processing [starwhale]: success
+[2023-07-04 08:02:14] INFO root fetch - main [MainThread]: Store serial: [18750860]
