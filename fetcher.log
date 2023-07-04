@@ -10809,3 +10809,77 @@
 [2023-07-04 05:49:42] INFO root fetch - processPackages [jdcloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/jdcloud_sdk-1.6.99.tar.gz]
 [2023-07-04 05:49:42] INFO root fetch - main [MainThread]: End processing [jdcloud-sdk]: success
 [2023-07-04 05:49:42] INFO root fetch - main [MainThread]: Store serial: [18749970]
+[2023-07-04 05:54:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18749970]
+[2023-07-04 05:54:51] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-04 05:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: universal-framework-vk
+[2023-07-04 05:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ops
+[2023-07-04 05:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo8-addon-l10n-it-withholding-tax-payment
+[2023-07-04 05:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo8-addon-l10n-it-account
+[2023-07-04 05:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocs-jupyter
+[2023-07-04 05:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tesseract-robotics
+[2023-07-04 05:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autopack-tools
+[2023-07-04 05:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: QuBuilders
+[2023-07-04 05:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: performancetest
+[2023-07-04 05:54:51] INFO root fetch - processPackages [tesseract-robotics]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-07-04 05:54:51] INFO root fetch - processPackages [mkdocs-jupyter]: New version: [0.9.0] Old Version: [0.24.2]
+[2023-07-04 05:54:52] INFO root fetch - processPackages [autopack-tools]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-04 05:54:52] INFO root fetch - processPackages [ops]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-04 05:54:52] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax-payment]: New version: [8.0.2.1.0.99.dev7] Old Version: [8.0.2.1.0.99.dev6]
+[2023-07-04 05:54:52] INFO root fetch - processPackages [performancetest]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-07-04 05:54:52] WARNING root fetch - processPackages [universal-framework-vk]: Skipping, unable to determine old version
+[2023-07-04 05:54:52] INFO root fetch - main [MainThread]: End processing [universal-framework-vk] error
+[2023-07-04 05:54:52] INFO root fetch - processPackages [QuBuilders]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-04 05:54:52] INFO root fetch - processPackages [odoo8-addon-l10n-it-account]: New version: [8.0.1.1.0.99.dev1] Old Version: [8.0.1.1.0]
+[2023-07-04 05:54:52] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/d2/b8/36fe0ef6e63234b72029820a3a239139ffa327bac0caec027a32b447090a/autopack_tools-0.2.3.tar.gz
+[2023-07-04 05:54:52] INFO root fetch - processPackages [mkdocs-jupyter]: Downloading https://files.pythonhosted.org/packages/98/6d/e2367bdd3662a2a1cf15d61ad11548394fbef55a393fbdcceddbb59e4deb/mkdocs_jupyter-0.24.2.tar.gz
+[2023-07-04 05:54:52] INFO root fetch - processPackages [tesseract-robotics]: Downloading https://files.pythonhosted.org/packages/bf/ad/d46a6dba0d6e3743e24608aa0e786d252ed340f48babae334659f1ba1753/tesseract_robotics-0.1.8-cp39-cp39-win_amd64.whl
+[2023-07-04 05:54:52] INFO root fetch - processPackages [QuBuilders]: Downloading https://files.pythonhosted.org/packages/84/53/3c9ec88282b052b6f12984b08257268cfc6c57501f75ecb17f508ef67f48/qubuilders-0.0.1.tar.gz
+[2023-07-04 05:54:52] INFO root fetch - processPackages [ops]: Downloading https://files.pythonhosted.org/packages/15/cb/bda6101240768fdeeea9074c444a8f775fbc71572a64f79bea64bef22af3/ops-2.3.0.tar.gz
+[2023-07-04 05:54:52] INFO root fetch - processPackages [odoo8-addon-l10n-it-account]: Downloading https://files.pythonhosted.org/packages/14/39/1360d4a4d5198ccd1e186403704b87ece018a259ce20120b77f7d026179a/odoo8_addon_l10n_it_account-8.0.1.1.0-py2-none-any.whl
+[2023-07-04 05:54:52] INFO root fetch - processPackages [performancetest]: Downloading https://files.pythonhosted.org/packages/42/57/b0645915e985d4306f1d9c45d060d9d7fe54612caa790e5cd2c33ac3c31a/performancetest-0.0.11.tar.gz
+[2023-07-04 05:54:52] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax-payment]: Downloading https://files.pythonhosted.org/packages/9c/9e/d6b7f2922bf903ee612b904137375f61d30cedb98badb0087bd7d4ac8975/odoo8_addon_l10n_it_withholding_tax_payment-8.0.2.1.0.99.dev6-py2-none-any.whl
+[2023-07-04 05:54:52] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/dd/ff/b76eed9066f7fc02e8e122c8fd36b89baee2258f9591fa9a08add541aef7/autopack_tools-0.2.4.tar.gz
+[2023-07-04 05:54:52] INFO root fetch - processPackages [QuBuilders]: Downloading https://files.pythonhosted.org/packages/10/43/a4d7280c7618b460881db69af7a49774fa0aecb63ae2322bab4737cebdca/qubuilders-0.0.2.tar.gz
+[2023-07-04 05:54:52] INFO root fetch - processPackages [autopack-tools]: executing diffoscope
+[2023-07-04 05:54:52] INFO root fetch - processPackages [autopack-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopack_tools-0.2.3.tar.gz tmp/autopack_tools-0.2.4.tar.gz --markdown 20230704/a/autopack-tools/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-04 05:54:52] INFO root fetch - processPackages [performancetest]: Downloading https://files.pythonhosted.org/packages/29/05/eed177c193aae056e4e771ec54111e14fb89d12fe0be48d607c13bf44aef/performancetest-0.0.12.tar.gz
+[2023-07-04 05:54:52] INFO root fetch - processPackages [ops]: Downloading https://files.pythonhosted.org/packages/94/ee/65c2e7daaf1a4fd21e6ba37b65dd09d78a554d0056409609ae99bbe9f9fe/ops-2.4.0.tar.gz
+[2023-07-04 05:54:52] WARNING root fetch - processPackages [tesseract-robotics]: Skipping package: exceeds size limit 18028012>=10485760
+[2023-07-04 05:54:52] INFO root fetch - main [MainThread]: End processing [tesseract-robotics] error
+[2023-07-04 05:54:52] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax-payment]: Downloading https://files.pythonhosted.org/packages/07/f2/c993c7526de33804f7ee67d811d1b44d1dcd6d502e218420a69cbf248136/odoo8_addon_l10n_it_withholding_tax_payment-8.0.2.1.0.99.dev7-py2-none-any.whl
+[2023-07-04 05:54:52] INFO root fetch - processPackages [odoo8-addon-l10n-it-account]: Downloading https://files.pythonhosted.org/packages/db/a5/c7aa7aecde10a3247b7d0a01aade023b308d8e62cea35dcd10889e5a4450/odoo8_addon_l10n_it_account-8.0.1.1.0.99.dev1-py2-none-any.whl
+[2023-07-04 05:54:52] INFO root fetch - processPackages [performancetest]: executing diffoscope
+[2023-07-04 05:54:52] INFO root fetch - processPackages [performancetest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/performancetest-0.0.11.tar.gz tmp/performancetest-0.0.12.tar.gz --markdown 20230704/p/performancetest/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-07-04 05:54:52] INFO root fetch - processPackages [ops]: executing diffoscope
+[2023-07-04 05:54:52] INFO root fetch - processPackages [ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops-2.3.0.tar.gz tmp/ops-2.4.0.tar.gz --markdown 20230704/o/ops/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-04 05:54:52] INFO root fetch - processPackages [mkdocs-jupyter]: Downloading https://files.pythonhosted.org/packages/77/47/c38d6d412c6ae0b8c112a60d39faf81ee5dd504f50b831de791883cbf085/mkdocs-jupyter-0.9.0.tar.gz
+[2023-07-04 05:54:52] INFO root fetch - processPackages [odoo8-addon-l10n-it-account]: executing diffoscope
+[2023-07-04 05:54:52] INFO root fetch - processPackages [odoo8-addon-l10n-it-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_l10n_it_account-8.0.1.1.0-py2-none-any.whl.zip tmp/odoo8_addon_l10n_it_account-8.0.1.1.0.99.dev1-py2-none-any.whl.zip --markdown 20230704/o/odoo8-addon-l10n-it-account/8.0.1.1.0-8.0.1.1.0.99.dev1/diff.md --exclude *.pyd
+[2023-07-04 05:54:52] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax-payment]: executing diffoscope
+[2023-07-04 05:54:52] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_l10n_it_withholding_tax_payment-8.0.2.1.0.99.dev6-py2-none-any.whl.zip tmp/odoo8_addon_l10n_it_withholding_tax_payment-8.0.2.1.0.99.dev7-py2-none-any.whl.zip --markdown 20230704/o/odoo8-addon-l10n-it-withholding-tax-payment/8.0.2.1.0.99.dev6-8.0.2.1.0.99.dev7/diff.md --exclude *.pyd
+[2023-07-04 05:54:52] INFO root fetch - processPackages [QuBuilders]: executing diffoscope
+[2023-07-04 05:54:52] INFO root fetch - processPackages [QuBuilders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qubuilders-0.0.1.tar.gz tmp/qubuilders-0.0.2.tar.gz --markdown 20230704/Q/QuBuilders/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-04 05:54:53] INFO root fetch - processPackages [mkdocs-jupyter]: executing diffoscope
+[2023-07-04 05:54:53] INFO root fetch - processPackages [mkdocs-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_jupyter-0.24.2.tar.gz tmp/mkdocs-jupyter-0.9.0.tar.gz --markdown 20230704/m/mkdocs-jupyter/0.24.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-04 05:54:53] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.2.3.tar.gz]
+[2023-07-04 05:54:53] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.2.4.tar.gz]
+[2023-07-04 05:54:53] INFO root fetch - main [MainThread]: End processing [autopack-tools]: success
+[2023-07-04 05:54:54] INFO root fetch - processPackages [odoo8-addon-l10n-it-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_it_account-8.0.1.1.0-py2-none-any.whl.zip]
+[2023-07-04 05:54:54] INFO root fetch - processPackages [odoo8-addon-l10n-it-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_it_account-8.0.1.1.0.99.dev1-py2-none-any.whl.zip]
+[2023-07-04 05:54:54] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-it-account]: success
+[2023-07-04 05:54:54] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_it_withholding_tax_payment-8.0.2.1.0.99.dev6-py2-none-any.whl.zip]
+[2023-07-04 05:54:54] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_it_withholding_tax_payment-8.0.2.1.0.99.dev7-py2-none-any.whl.zip]
+[2023-07-04 05:54:54] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-it-withholding-tax-payment]: success
+[2023-07-04 05:54:54] INFO root fetch - processPackages [performancetest]: Remove: archive file [/home/abi/fetcher/tmp/performancetest-0.0.11.tar.gz]
+[2023-07-04 05:54:54] INFO root fetch - processPackages [performancetest]: Remove: archive file [/home/abi/fetcher/tmp/performancetest-0.0.12.tar.gz]
+[2023-07-04 05:54:54] INFO root fetch - main [MainThread]: End processing [performancetest]: success
+[2023-07-04 05:54:54] INFO root fetch - processPackages [QuBuilders]: Remove: archive file [/home/abi/fetcher/tmp/qubuilders-0.0.1.tar.gz]
+[2023-07-04 05:54:54] INFO root fetch - processPackages [QuBuilders]: Remove: archive file [/home/abi/fetcher/tmp/qubuilders-0.0.2.tar.gz]
+[2023-07-04 05:54:54] INFO root fetch - main [MainThread]: End processing [QuBuilders]: success
+[2023-07-04 05:54:54] INFO root fetch - processPackages [ops]: Remove: archive file [/home/abi/fetcher/tmp/ops-2.3.0.tar.gz]
+[2023-07-04 05:54:54] INFO root fetch - processPackages [ops]: Remove: archive file [/home/abi/fetcher/tmp/ops-2.4.0.tar.gz]
+[2023-07-04 05:54:54] INFO root fetch - main [MainThread]: End processing [ops]: success
+[2023-07-04 05:54:54] INFO root fetch - processPackages [mkdocs-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_jupyter-0.24.2.tar.gz]
+[2023-07-04 05:54:54] INFO root fetch - processPackages [mkdocs-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-jupyter-0.9.0.tar.gz]
+[2023-07-04 05:54:54] INFO root fetch - main [MainThread]: End processing [mkdocs-jupyter]: success
+[2023-07-04 05:54:54] INFO root fetch - main [MainThread]: Store serial: [18750005]
