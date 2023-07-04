@@ -9903,3 +9903,110 @@
 [2023-07-04 04:45:33] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.354.0.tar.gz]
 [2023-07-04 04:45:33] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-04 04:45:33] INFO root fetch - main [MainThread]: Store serial: [18749662]
+[2023-07-04 04:50:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18749662]
+[2023-07-04 04:50:42] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-04 04:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai2-kit
+[2023-07-04 04:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-25
+[2023-07-04 04:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: naif-eop-high-prec
+[2023-07-04 04:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-move-tier-validation
+[2023-07-04 04:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: esphome
+[2023-07-04 04:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-account-invoicing
+[2023-07-04 04:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sphractal
+[2023-07-04 04:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-07-04 04:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SCALECAST
+[2023-07-04 04:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addons-oca-account-reconcile
+[2023-07-04 04:50:42] INFO root fetch - processPackages [ai2-kit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-04 04:50:42] INFO root fetch - processPackages [odoo-addon-account-move-tier-validation]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-07-04 04:50:42] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-07-04 04:50:42] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.4] Old Version: [2023.7.3]
+[2023-07-04 04:50:42] INFO root fetch - processPackages [esphome]: New version: [2023.6.4] Old Version: [2023.6.3]
+[2023-07-04 04:50:42] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-04 04:50:42] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: New version: [16.0.20230703.0] Old Version: [16.0.20230609.0]
+[2023-07-04 04:50:42] INFO root fetch - processPackages [sphractal]: New version: [0.6.0] Old Version: [0.4.4]
+[2023-07-04 04:50:42] INFO root fetch - processPackages [odoo-addons-oca-account-reconcile]: New version: [16.0.20230331.0] Old Version: [16.0.20230330.0]
+[2023-07-04 04:50:42] INFO root fetch - processPackages [SCALECAST]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-04 04:50:42] INFO root fetch - processPackages [odoo-addon-account-move-tier-validation]: Downloading https://files.pythonhosted.org/packages/30/20/b4528288eb93cdd3b66f6514b19ce030a856e715db016299b587907ceb00/odoo_addon_account_move_tier_validation-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-04 04:50:42] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-07-04 04:50:43] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/94/55/9d5119ef88fceb0539602bb096b25e5fad8c8c0647ef60801386be14dec6/naif_eop_high_prec-2023.7.3.tar.gz
+[2023-07-04 04:50:43] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/eb/f4/ea38d8c9f78873edcbb17216f185baee2019ecb183cd80b334c593f2b1bc/ai2_kit-0.3.8.tar.gz
+[2023-07-04 04:50:43] INFO root fetch - processPackages [odoo-addons-oca-account-reconcile]: Downloading https://files.pythonhosted.org/packages/81/25/ae5c3dc38d9e9605ca4726bb6f5d543b1b75c5397f708e277ba77767fc13/odoo_addons_oca_account_reconcile-16.0.20230330.0-py3-none-any.whl
+[2023-07-04 04:50:43] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/f2/aa/75f4bad7fc004903aaa85b52b392c9996ab5b43a2b315c18b06947862bff/sphractal-0.4.4.tar.gz
+[2023-07-04 04:50:43] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Downloading https://files.pythonhosted.org/packages/9f/8a/8d45c7228a278ce736c38d2337c7cda6e4f180468f8dd66a0e62e539b6b4/odoo_addons_oca_account_invoicing-16.0.20230609.0-py3-none-any.whl
+[2023-07-04 04:50:43] INFO root fetch - processPackages [SCALECAST]: Downloading https://files.pythonhosted.org/packages/73/06/0be2546f7ab47d5f04df64688f9e7e15e62ba9a76512c61f1fbe4203f198/SCALECAST-0.9.8.tar.gz
+[2023-07-04 04:50:43] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-07-04 04:50:43] INFO root fetch - processPackages [odoo-addon-account-move-tier-validation]: Downloading https://files.pythonhosted.org/packages/68/5a/351a49be66355ff84f8ffb2cf2a08d26b1db412579e5c1416d93b7e36097/odoo_addon_account_move_tier_validation-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-04 04:50:43] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/97/e4/5571fef37faa70ea89815c57b0ef3a5a17a860265fbfcc818ae81ca2de26/esphome-2023.6.4.tar.gz
+[2023-07-04 04:50:43] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-07-04 04:50:43] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230704/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-04 04:50:43] INFO root fetch - processPackages [odoo-addon-account-move-tier-validation]: executing diffoscope
+[2023-07-04 04:50:43] INFO root fetch - processPackages [odoo-addon-account-move-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_tier_validation-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_move_tier_validation-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230704/o/odoo-addon-account-move-tier-validation/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-04 04:50:43] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b3/86/36e94822ec93139a14c97e4cc055aa7343dbffdec6234f73120d8c5b8832/sphractal-0.6.0.tar.gz
+[2023-07-04 04:50:43] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/f8/ec/3044fde579418570279eb9f4c2d60facdbd573ed724ec7fa07e3a4c940aa/ai2_kit-0.3.9.tar.gz
+[2023-07-04 04:50:43] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Downloading https://files.pythonhosted.org/packages/b4/94/65a699906c85e148f1666d19899f82887cda130328c46b8471b2495c10b4/odoo_addons_oca_account_invoicing-16.0.20230703.0-py3-none-any.whl
+[2023-07-04 04:50:43] INFO root fetch - processPackages [odoo-addons-oca-account-reconcile]: Downloading https://files.pythonhosted.org/packages/2e/b5/6a917e079bb5ff7a7fb2a1e10e38d2bf76864b6e4326406174d223a7a3fa/odoo_addons_oca_account_reconcile-16.0.20230331.0-py3-none-any.whl
+[2023-07-04 04:50:43] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2023-07-04 04:50:43] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2023.6.3.tar.gz tmp/esphome-2023.6.4.tar.gz --markdown 20230704/e/esphome/2023.6.3-2023.6.4/diff.md --exclude *.pyd
+[2023-07-04 04:50:43] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/aa/dc/8567a242cf663cfdde1ea750ff47ea410acff938841627fec6120649013b/naif_eop_high_prec-2023.7.4.tar.gz
+[2023-07-04 04:50:43] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-07-04 04:50:43] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.4.4.tar.gz tmp/sphractal-0.6.0.tar.gz --markdown 20230704/s/sphractal/0.4.4-0.6.0/diff.md --exclude *.pyd
+[2023-07-04 04:50:43] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: executing diffoscope
+[2023-07-04 04:50:43] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_invoicing-16.0.20230609.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_invoicing-16.0.20230703.0-py3-none-any.whl.zip --markdown 20230704/o/odoo-addons-oca-account-invoicing/16.0.20230609.0-16.0.20230703.0/diff.md --exclude *.pyd
+[2023-07-04 04:50:43] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-07-04 04:50:43] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.3.8.tar.gz tmp/ai2_kit-0.3.9.tar.gz --markdown 20230704/a/ai2-kit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-04 04:50:43] INFO root fetch - processPackages [odoo-addons-oca-account-reconcile]: executing diffoscope
+[2023-07-04 04:50:43] INFO root fetch - processPackages [odoo-addons-oca-account-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_reconcile-16.0.20230330.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_reconcile-16.0.20230331.0-py3-none-any.whl.zip --markdown 20230704/o/odoo-addons-oca-account-reconcile/16.0.20230330.0-16.0.20230331.0/diff.md --exclude *.pyd
+[2023-07-04 04:50:43] INFO root fetch - processPackages [SCALECAST]: Downloading https://files.pythonhosted.org/packages/97/84/a40b0cf229ccc710ac89d010acac4e409d1a556ce05bedf45679f58d1719/SCALECAST-0.9.9.tar.gz
+[2023-07-04 04:50:43] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-07-04 04:50:44] INFO root fetch - processPackages [SCALECAST]: executing diffoscope
+[2023-07-04 04:50:44] INFO root fetch - processPackages [SCALECAST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SCALECAST-0.9.8.tar.gz tmp/SCALECAST-0.9.9.tar.gz --markdown 20230704/S/SCALECAST/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-04 04:50:44] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-04 04:50:44] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.3.tar.gz tmp/naif_eop_high_prec-2023.7.4.tar.gz --markdown 20230704/n/naif-eop-high-prec/2023.7.3-2023.7.4/diff.md --exclude *.pyd
+[2023-07-04 04:50:44] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-07-04 04:50:45] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-07-04 04:50:45] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230704/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-07-04 04:50:45] INFO root fetch - processPackages [odoo-addon-account-move-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_tier_validation-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-04 04:50:45] INFO root fetch - processPackages [odoo-addon-account-move-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_tier_validation-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-04 04:50:45] INFO root fetch - processPackages [odoo-addon-account-move-tier-validation]: Start processing: spark-plotting-tools
+[2023-07-04 04:50:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-tier-validation]: success
+[2023-07-04 04:50:45] WARNING root fetch - processPackages [spark-plotting-tools]: Skipping, unable to determine old version
+[2023-07-04 04:50:45] INFO root fetch - processPackages [spark-plotting-tools]: Start processing: GuineaSender
+[2023-07-04 04:50:45] INFO root fetch - main [MainThread]: End processing [spark-plotting-tools] error
+[2023-07-04 04:50:45] INFO root fetch - processPackages [odoo-addons-oca-account-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_reconcile-16.0.20230330.0-py3-none-any.whl.zip]
+[2023-07-04 04:50:45] INFO root fetch - processPackages [odoo-addons-oca-account-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_reconcile-16.0.20230331.0-py3-none-any.whl.zip]
+[2023-07-04 04:50:45] INFO root fetch - processPackages [odoo-addons-oca-account-reconcile]: Start processing: zit
+[2023-07-04 04:50:45] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-reconcile]: success
+[2023-07-04 04:50:45] WARNING root fetch - processPackages [GuineaSender]: Skipping, unable to determine old version
+[2023-07-04 04:50:45] INFO root fetch - main [MainThread]: End processing [GuineaSender] error
+[2023-07-04 04:50:45] INFO root fetch - processPackages [zit]: New version: [0.0.2a5] Old Version: [0.0.2a4]
+[2023-07-04 04:50:45] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-07-04 04:50:45] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-07-04 04:50:45] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-07-04 04:50:45] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/f6/3a/e7ba907cecb7f8d08af3f15a0c5901d0703b09bf621595c43060ffaf1304/zit-0.0.2a4.tar.gz
+[2023-07-04 04:50:45] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_invoicing-16.0.20230609.0-py3-none-any.whl.zip]
+[2023-07-04 04:50:45] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_invoicing-16.0.20230703.0-py3-none-any.whl.zip]
+[2023-07-04 04:50:45] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-invoicing]: success
+[2023-07-04 04:50:45] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.4.4.tar.gz]
+[2023-07-04 04:50:45] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.6.0.tar.gz]
+[2023-07-04 04:50:45] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-07-04 04:50:45] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.8.tar.gz]
+[2023-07-04 04:50:45] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.9.tar.gz]
+[2023-07-04 04:50:45] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-07-04 04:50:45] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.6.3.tar.gz]
+[2023-07-04 04:50:45] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.6.4.tar.gz]
+[2023-07-04 04:50:45] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2023-07-04 04:50:45] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/58/b5/c03ae922bc602e5b3c8b295c229d4986ac4d0615981cf4fcfe4366e5a21c/zit-0.0.2a5.tar.gz
+[2023-07-04 04:50:45] INFO root fetch - processPackages [SCALECAST]: Remove: archive file [/home/abi/fetcher/tmp/SCALECAST-0.9.8.tar.gz]
+[2023-07-04 04:50:45] INFO root fetch - processPackages [zit]: executing diffoscope
+[2023-07-04 04:50:45] INFO root fetch - processPackages [zit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zit-0.0.2a4.tar.gz tmp/zit-0.0.2a5.tar.gz --markdown 20230704/z/zit/0.0.2a4-0.0.2a5/diff.md --exclude *.pyd
+[2023-07-04 04:50:45] INFO root fetch - processPackages [SCALECAST]: Remove: archive file [/home/abi/fetcher/tmp/SCALECAST-0.9.9.tar.gz]
+[2023-07-04 04:50:45] INFO root fetch - main [MainThread]: End processing [SCALECAST]: success
+[2023-07-04 04:50:46] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-07-04 04:50:46] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-07-04 04:50:46] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-07-04 04:50:46] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.2a4.tar.gz]
+[2023-07-04 04:50:46] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.2a5.tar.gz]
+[2023-07-04 04:50:46] INFO root fetch - main [MainThread]: End processing [zit]: success
+[2023-07-04 04:50:47] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.3.tar.gz]
+[2023-07-04 04:50:47] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.4.tar.gz]
+[2023-07-04 04:50:47] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-04 04:50:47] INFO root fetch - main [MainThread]: Store serial: [18749695]
