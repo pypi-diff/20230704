@@ -14995,3 +14995,145 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 09:47:26] INFO root fetch - processPackages [blosc2]: Remove: archive file [/home/abi/fetcher/tmp/blosc2-2.2.5.tar.gz]
 [2023-07-04 09:47:26] INFO root fetch - main [MainThread]: End processing [blosc2]: success
 [2023-07-04 09:47:26] INFO root fetch - main [MainThread]: Store serial: [18751598]
+[2023-07-04 09:52:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18751598]
+[2023-07-04 09:52:36] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-04 09:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zenkai
+[2023-07-04 09:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OptiPRISMS
+[2023-07-04 09:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mypackagelicenseprototype
+[2023-07-04 09:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: excel-splitter
+[2023-07-04 09:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: as-dynamodb
+[2023-07-04 09:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chellow
+[2023-07-04 09:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: uEdition
+[2023-07-04 09:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mypackagelicenseprototype
+[2023-07-04 09:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spyral-cli
+[2023-07-04 09:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tf-nightly-cpu
+[2023-07-04 09:52:36] INFO root fetch - processPackages [excel-splitter]: New version: [0.6] Old Version: [0.0.9]
+[2023-07-04 09:52:36] WARNING root fetch - processPackages [as-dynamodb]: Skipping, unable to determine old version
+[2023-07-04 09:52:36] INFO root fetch - processPackages [as-dynamodb]: Start processing: similarity-check
+[2023-07-04 09:52:36] INFO root fetch - main [MainThread]: End processing [as-dynamodb] error
+[2023-07-04 09:52:36] INFO root fetch - processPackages [spyral-cli]: New version: [1.0.0] Old Version: [0.5.3]
+[2023-07-04 09:52:36] WARNING root fetch - processPackages [zenkai]: Skipping, unable to determine old version
+[2023-07-04 09:52:36] INFO root fetch - processPackages [zenkai]: Start processing: recordclass
+[2023-07-04 09:52:36] INFO root fetch - main [MainThread]: End processing [zenkai] error
+[2023-07-04 09:52:36] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [5.0.5] Old Version: [5.0.4]
+[2023-07-04 09:52:36] INFO root fetch - processPackages [uEdition]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-04 09:52:36] INFO root fetch - processPackages [OptiPRISMS]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-04 09:52:36] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [5.0.5] Old Version: [5.0.4]
+[2023-07-04 09:52:36] INFO root fetch - processPackages [similarity-check]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-04 09:52:36] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2023-07-04 09:52:36] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230704] Old Version: [2.14.0.dev20230703]
+[2023-07-04 09:52:36] INFO root fetch - processPackages [recordclass]: New version: [0.9] Old Version: [0.8.5]
+[2023-07-04 09:52:36] INFO root fetch - processPackages [excel-splitter]: Downloading https://files.pythonhosted.org/packages/4f/3a/b8a4e246e1edea227f84085cbf8d6084611390e8c343c2dda5392953442f/excel_splitter-0.0.9.tar.gz
+[2023-07-04 09:52:36] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/72/56/1a4a0a934f8d559ccf50d58df88740bbf4032ae872c4f6f82dafc40aaf3d/mypackagelicenseprototype-5.0.4-py3-none-any.whl
+[2023-07-04 09:52:36] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/72/56/1a4a0a934f8d559ccf50d58df88740bbf4032ae872c4f6f82dafc40aaf3d/mypackagelicenseprototype-5.0.4-py3-none-any.whl
+[2023-07-04 09:52:36] INFO root fetch - processPackages [similarity-check]: Downloading https://files.pythonhosted.org/packages/ed/c8/3def67f1ac2230913188b73464550b297fe1bfa27d2ae1821ba883a8dc49/similarity_check-0.2.0.tar.gz
+[2023-07-04 09:52:36] INFO root fetch - processPackages [spyral-cli]: Downloading https://files.pythonhosted.org/packages/de/d6/973571e4a2aa1898353350a1f419af694075f45ce7a125e02569c20284d9/spyral_cli-0.5.3.tar.gz
+[2023-07-04 09:52:36] INFO root fetch - processPackages [OptiPRISMS]: Downloading https://files.pythonhosted.org/packages/7e/82/dcc2aa7e4805ffd1871c5a00a4783dbd434924a3b68cdea40cbbe3c99fd2/OptiPRISMS-1.1.0.tar.gz
+[2023-07-04 09:52:37] INFO root fetch - processPackages [uEdition]: Downloading https://files.pythonhosted.org/packages/01/c7/47dafdd9bd0d5a9cde46e5f412ecbe762f930990d1524d82fd0d8dca3ca4/uedition-0.5.0.tar.gz
+[2023-07-04 09:52:37] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2023-07-04 09:52:37] INFO root fetch - processPackages [recordclass]: Downloading https://files.pythonhosted.org/packages/92/48/64ea5d4d0aa7266a4715411099bd0cfaa0e13e8f8e60592f9c8733dbdb44/recordclass-0.8.5.tar.gz
+[2023-07-04 09:52:37] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/1c/1a/c3e0e6631aca2af329569300d16bcec7759c2abe13226aad47e9e15b9672/tf_nightly_cpu-2.14.0.dev20230703-cp39-cp39-win_amd64.whl
+[2023-07-04 09:52:37] INFO root fetch - processPackages [similarity-check]: Downloading https://files.pythonhosted.org/packages/63/20/10eb55a273fe85af1fcb15ae76f94d231dd96af2d6b6e8d9d110193016c2/similarity_check-0.2.1.tar.gz
+[2023-07-04 09:52:37] INFO root fetch - processPackages [excel-splitter]: Downloading https://files.pythonhosted.org/packages/8e/bd/89803f989df76f6c2f061e45d82ad340fb6cab642796417186fda550d4ef/excel-splitter-0.6.tar.gz
+[2023-07-04 09:52:37] INFO root fetch - processPackages [spyral-cli]: Downloading https://files.pythonhosted.org/packages/4b/86/1b8b289033f6712df017a4ee2430514f7ee1fd7aa2aa43e7736fe662d5c3/spyral_cli-1.0.0.tar.gz
+[2023-07-04 09:52:37] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2023-07-04 09:52:37] INFO root fetch - processPackages [OptiPRISMS]: Downloading https://files.pythonhosted.org/packages/a8/fa/2322fc0ccf54e840a8c4dfa5797771939348ca76c3e48bb4476424c357a2/OptiPRISMS-1.1.1.tar.gz
+[2023-07-04 09:52:37] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/d8/a8/729bf9ba3b64cf767ac8891fb2455d6441eb86cf3c2b65f1c3524e927ff5/mypackagelicenseprototype-5.0.5-py3-none-any.whl
+[2023-07-04 09:52:37] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/d8/a8/729bf9ba3b64cf767ac8891fb2455d6441eb86cf3c2b65f1c3524e927ff5/mypackagelicenseprototype-5.0.5-py3-none-any.whl
+[2023-07-04 09:52:37] INFO root fetch - processPackages [uEdition]: Downloading https://files.pythonhosted.org/packages/39/6e/698c0efbc0804ba3629a0412569f87855c78c0cefa8258e485ea05f55b06/uedition-0.6.0.tar.gz
+[2023-07-04 09:52:37] INFO root fetch - processPackages [excel-splitter]: executing diffoscope
+[2023-07-04 09:52:37] INFO root fetch - processPackages [excel-splitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excel_splitter-0.0.9.tar.gz tmp/excel-splitter-0.6.tar.gz --markdown 20230704/e/excel-splitter/0.0.9-0.6/diff.md --exclude *.pyd
+[2023-07-04 09:52:37] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/74/8f/c432266388f047dbf4e8438acf9244c4eae4da46a6d5de52dce7ebba22b4/tf_nightly_cpu-2.14.0.dev20230704-cp39-cp39-win_amd64.whl
+[2023-07-04 09:52:37] INFO root fetch - processPackages [spyral-cli]: executing diffoscope
+[2023-07-04 09:52:37] INFO root fetch - processPackages [spyral-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyral_cli-0.5.3.tar.gz tmp/spyral_cli-1.0.0.tar.gz --markdown 20230704/s/spyral-cli/0.5.3-1.0.0/diff.md --exclude *.pyd
+[2023-07-04 09:52:37] INFO root fetch - processPackages [similarity-check]: executing diffoscope
+[2023-07-04 09:52:37] INFO root fetch - processPackages [similarity-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/similarity_check-0.2.0.tar.gz tmp/similarity_check-0.2.1.tar.gz --markdown 20230704/s/similarity-check/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-04 09:52:37] INFO root fetch - processPackages [OptiPRISMS]: executing diffoscope
+[2023-07-04 09:52:37] INFO root fetch - processPackages [OptiPRISMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OptiPRISMS-1.1.0.tar.gz tmp/OptiPRISMS-1.1.1.tar.gz --markdown 20230704/O/OptiPRISMS/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-04 09:52:37] INFO root fetch - processPackages [recordclass]: Downloading https://files.pythonhosted.org/packages/54/4a/7b9e117feb363b7b795bf31c4516e1a53e8a1d22e996e1e5c733b5ffdfd6/recordclass-0.9.tar.gz
+[2023-07-04 09:52:37] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2023-07-04 09:52:37] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20230704/c/chellow/2826-2827/diff.md --exclude *.pyd
+[2023-07-04 09:52:37] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-07-04 09:52:37] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-5.0.4-py3-none-any.whl.zip tmp/mypackagelicenseprototype-5.0.5-py3-none-any.whl.zip --markdown 20230704/m/mypackagelicenseprototype/5.0.4-5.0.5/diff.md --exclude *.pyd
+[2023-07-04 09:52:37] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-07-04 09:52:37] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-5.0.4-py3-none-any.whl.zip tmp/mypackagelicenseprototype-5.0.5-py3-none-any.whl.zip --markdown 20230704/m/mypackagelicenseprototype/5.0.4-5.0.5/diff.md --exclude *.pyd
+[2023-07-04 09:52:37] INFO root fetch - processPackages [uEdition]: executing diffoscope
+[2023-07-04 09:52:37] INFO root fetch - processPackages [uEdition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uedition-0.5.0.tar.gz tmp/uedition-0.6.0.tar.gz --markdown 20230704/u/uEdition/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-04 09:52:37] INFO root fetch - processPackages [recordclass]: executing diffoscope
+[2023-07-04 09:52:37] INFO root fetch - processPackages [recordclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recordclass-0.8.5.tar.gz tmp/recordclass-0.9.tar.gz --markdown 20230704/r/recordclass/0.8.5-0.9/diff.md --exclude *.pyd
+[2023-07-04 09:52:37] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-04 09:52:37] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230703-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230704-cp39-cp39-win_amd64.whl.zip --markdown 20230704/t/tf-nightly-cpu/2.14.0.dev20230703-2.14.0.dev20230704/diff.md --exclude *.pyd
+[2023-07-04 09:52:39] INFO root fetch - processPackages [excel-splitter]: Remove: archive file [/home/abi/fetcher/tmp/excel_splitter-0.0.9.tar.gz]
+[2023-07-04 09:52:39] INFO root fetch - processPackages [excel-splitter]: Remove: archive file [/home/abi/fetcher/tmp/excel-splitter-0.6.tar.gz]
+[2023-07-04 09:52:39] INFO root fetch - processPackages [excel-splitter]: Start processing: optionvisualizer
+[2023-07-04 09:52:39] INFO root fetch - main [MainThread]: End processing [excel-splitter]: success
+[2023-07-04 09:52:39] INFO root fetch - processPackages [optionvisualizer]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-04 09:52:39] INFO root fetch - processPackages [spyral-cli]: Remove: archive file [/home/abi/fetcher/tmp/spyral_cli-0.5.3.tar.gz]
+[2023-07-04 09:52:39] INFO root fetch - processPackages [spyral-cli]: Remove: archive file [/home/abi/fetcher/tmp/spyral_cli-1.0.0.tar.gz]
+[2023-07-04 09:52:39] INFO root fetch - processPackages [spyral-cli]: Start processing: news-signals
+[2023-07-04 09:52:39] INFO root fetch - main [MainThread]: End processing [spyral-cli]: success
+[2023-07-04 09:52:39] INFO root fetch - processPackages [similarity-check]: Remove: archive file [/home/abi/fetcher/tmp/similarity_check-0.2.0.tar.gz]
+[2023-07-04 09:52:39] INFO root fetch - processPackages [similarity-check]: Remove: archive file [/home/abi/fetcher/tmp/similarity_check-0.2.1.tar.gz]
+[2023-07-04 09:52:39] INFO root fetch - processPackages [similarity-check]: Start processing: keras-nightly
+[2023-07-04 09:52:39] INFO root fetch - main [MainThread]: End processing [similarity-check]: success
+[2023-07-04 09:52:39] INFO root fetch - processPackages [news-signals]: New version: [0.2.6] Old Version: [0.2.0]
+[2023-07-04 09:52:39] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-04 09:52:39] INFO root fetch - processPackages [optionvisualizer]: Downloading https://files.pythonhosted.org/packages/66/b4/2f2e8d77317a016d7461ac24ecb5dbcd592b04152bc25697f04bc0cb54ed/optionvisualizer-1.1.7-py3-none-any.whl
+[2023-07-04 09:52:39] INFO root fetch - processPackages [uEdition]: Remove: archive file [/home/abi/fetcher/tmp/uedition-0.5.0.tar.gz]
+[2023-07-04 09:52:39] INFO root fetch - processPackages [uEdition]: Remove: archive file [/home/abi/fetcher/tmp/uedition-0.6.0.tar.gz]
+[2023-07-04 09:52:39] INFO root fetch - processPackages [uEdition]: Start processing: parking-env
+[2023-07-04 09:52:39] INFO root fetch - main [MainThread]: End processing [uEdition]: success
+[2023-07-04 09:52:39] INFO root fetch - processPackages [news-signals]: Downloading https://files.pythonhosted.org/packages/5f/e6/cd40fb16e3631613d12ab3c8d040fd0a5b681f5841b4193ede8f1718586a/news-signals-0.2.0.tar.gz
+[2023-07-04 09:52:39] INFO root fetch - processPackages [OptiPRISMS]: Remove: archive file [/home/abi/fetcher/tmp/OptiPRISMS-1.1.0.tar.gz]
+[2023-07-04 09:52:39] INFO root fetch - processPackages [OptiPRISMS]: Remove: archive file [/home/abi/fetcher/tmp/OptiPRISMS-1.1.1.tar.gz]
+[2023-07-04 09:52:39] INFO root fetch - processPackages [OptiPRISMS]: Start processing: lemmy-nhl
+[2023-07-04 09:52:39] INFO root fetch - main [MainThread]: End processing [OptiPRISMS]: success
+[2023-07-04 09:52:39] INFO root fetch - processPackages [parking-env]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-04 09:52:39] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230703-cp39-cp39-win_amd64.whl.zip]
+[2023-07-04 09:52:39] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230704-cp39-cp39-win_amd64.whl.zip]
+[2023-07-04 09:52:39] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-04 09:52:39] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-04 09:52:39] INFO root fetch - processPackages [recordclass]: Remove: archive file [/home/abi/fetcher/tmp/recordclass-0.8.5.tar.gz]
+[2023-07-04 09:52:39] INFO root fetch - processPackages [recordclass]: Remove: archive file [/home/abi/fetcher/tmp/recordclass-0.9.tar.gz]
+[2023-07-04 09:52:39] INFO root fetch - main [MainThread]: End processing [recordclass]: success
+[2023-07-04 09:52:39] INFO root fetch - processPackages [optionvisualizer]: Downloading https://files.pythonhosted.org/packages/8a/af/21396f378d7735ac8a4da619839979903e6591c6ec254e128bb3c251ffc6/optionvisualizer-1.1.8-py3-none-any.whl
+[2023-07-04 09:52:39] INFO root fetch - processPackages [lemmy-nhl]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-04 09:52:39] INFO root fetch - processPackages [parking-env]: Downloading https://files.pythonhosted.org/packages/7c/62/f8b2b4559f1ac478f2e5a748b63aa97195a5e2b6baa2c2a18564627379c2/parking-env-0.0.2.tar.gz
+[2023-07-04 09:52:39] INFO root fetch - processPackages [optionvisualizer]: executing diffoscope
+[2023-07-04 09:52:39] INFO root fetch - processPackages [optionvisualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optionvisualizer-1.1.7-py3-none-any.whl.zip tmp/optionvisualizer-1.1.8-py3-none-any.whl.zip --markdown 20230704/o/optionvisualizer/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-04 09:52:39] INFO root fetch - processPackages [news-signals]: Downloading https://files.pythonhosted.org/packages/28/54/6c8f2baf11a5f1a89708b25674eeaf73ea07bbff9468d08895e71c0954df/news-signals-0.2.6.tar.gz
+[2023-07-04 09:52:40] INFO root fetch - processPackages [lemmy-nhl]: Downloading https://files.pythonhosted.org/packages/94/3e/55cd77e09c008facf619d298856b11c6d0b7e7dba8ab2bf23d70cac3b0fa/lemmy_nhl-1.5.3.tar.gz
+[2023-07-04 09:52:40] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-04 09:52:40] INFO root fetch - processPackages [parking-env]: Downloading https://files.pythonhosted.org/packages/a7/69/937d0329a17c2d5fef04932c77babc2fee73c5fecddef41b24ccd94ec82f/parking-env-0.0.3.tar.gz
+[2023-07-04 09:52:40] INFO root fetch - processPackages [news-signals]: executing diffoscope
+[2023-07-04 09:52:40] INFO root fetch - processPackages [news-signals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/news-signals-0.2.0.tar.gz tmp/news-signals-0.2.6.tar.gz --markdown 20230704/n/news-signals/0.2.0-0.2.6/diff.md --exclude *.pyd
+[2023-07-04 09:52:40] INFO root fetch - processPackages [parking-env]: executing diffoscope
+[2023-07-04 09:52:40] INFO root fetch - processPackages [parking-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parking-env-0.0.2.tar.gz tmp/parking-env-0.0.3.tar.gz --markdown 20230704/p/parking-env/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-04 09:52:40] INFO root fetch - processPackages [lemmy-nhl]: Downloading https://files.pythonhosted.org/packages/db/81/6a442b3f0785d02f77e66f0ec6f85b94f96910bbca7c3563cea0250b25fa/lemmy_nhl-1.5.4.tar.gz
+[2023-07-04 09:52:40] INFO root fetch - processPackages [lemmy-nhl]: executing diffoscope
+[2023-07-04 09:52:40] INFO root fetch - processPackages [lemmy-nhl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lemmy_nhl-1.5.3.tar.gz tmp/lemmy_nhl-1.5.4.tar.gz --markdown 20230704/l/lemmy-nhl/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-07-04 09:52:40] INFO root fetch - processPackages [optionvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/optionvisualizer-1.1.7-py3-none-any.whl.zip]
+[2023-07-04 09:52:40] INFO root fetch - processPackages [optionvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/optionvisualizer-1.1.8-py3-none-any.whl.zip]
+[2023-07-04 09:52:40] INFO root fetch - main [MainThread]: End processing [optionvisualizer]: success
+[2023-07-04 09:52:41] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-04 09:52:41] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230704/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-04 09:52:41] INFO root fetch - processPackages [parking-env]: Remove: archive file [/home/abi/fetcher/tmp/parking-env-0.0.2.tar.gz]
+[2023-07-04 09:52:41] INFO root fetch - processPackages [parking-env]: Remove: archive file [/home/abi/fetcher/tmp/parking-env-0.0.3.tar.gz]
+[2023-07-04 09:52:41] INFO root fetch - main [MainThread]: End processing [parking-env]: success
+[2023-07-04 09:52:41] INFO root fetch - processPackages [news-signals]: Remove: archive file [/home/abi/fetcher/tmp/news-signals-0.2.0.tar.gz]
+[2023-07-04 09:52:41] INFO root fetch - processPackages [news-signals]: Remove: archive file [/home/abi/fetcher/tmp/news-signals-0.2.6.tar.gz]
+[2023-07-04 09:52:41] INFO root fetch - main [MainThread]: End processing [news-signals]: success
+[2023-07-04 09:52:41] INFO root fetch - processPackages [lemmy-nhl]: Remove: archive file [/home/abi/fetcher/tmp/lemmy_nhl-1.5.3.tar.gz]
+[2023-07-04 09:52:41] INFO root fetch - processPackages [lemmy-nhl]: Remove: archive file [/home/abi/fetcher/tmp/lemmy_nhl-1.5.4.tar.gz]
+[2023-07-04 09:52:41] INFO root fetch - main [MainThread]: End processing [lemmy-nhl]: success
+[2023-07-04 09:52:41] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2023-07-04 09:52:41] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2023-07-04 09:52:41] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2023-07-04 09:52:43] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-5.0.4-py3-none-any.whl.zip]
+[2023-07-04 09:52:43] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-5.0.5-py3-none-any.whl.zip]
+[2023-07-04 09:52:43] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-07-04 09:52:43] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-07-04 09:52:44] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-04 09:52:44] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-04 09:52:44] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-04 09:52:44] INFO root fetch - main [MainThread]: Store serial: [18751663]
