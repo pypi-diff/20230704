@@ -13884,3 +13884,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 08:54:42] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a4.tar.gz]
 [2023-07-04 08:54:42] INFO root fetch - main [MainThread]: End processing [resolwe]: success
 [2023-07-04 08:54:42] INFO root fetch - main [MainThread]: Store serial: [18751152]
+[2023-07-04 08:59:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18751152]
+[2023-07-04 08:59:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-04 08:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-aiccs20230516-py2
+[2023-07-04 08:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-aiccs20230516
+[2023-07-04 08:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odh-core
+[2023-07-04 08:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyfi
+[2023-07-04 08:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scitq
+[2023-07-04 08:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ccdt
+[2023-07-04 08:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: experimaestro
+[2023-07-04 08:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cashocs
+[2023-07-04 08:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ir-digit
+[2023-07-04 08:59:53] WARNING root fetch - processPackages [alibabacloud-aiccs20230516-py2]: Skipping, unable to determine old version
+[2023-07-04 08:59:53] INFO root fetch - main [MainThread]: End processing [alibabacloud-aiccs20230516-py2] error
+[2023-07-04 08:59:53] WARNING root fetch - processPackages [alibabacloud-aiccs20230516]: Skipping, unable to determine old version
+[2023-07-04 08:59:53] INFO root fetch - main [MainThread]: End processing [alibabacloud-aiccs20230516] error
+[2023-07-04 08:59:53] INFO root fetch - processPackages [odh-core]: New version: [0.1.9] Old Version: [0.1.26]
+[2023-07-04 08:59:53] INFO root fetch - processPackages [cashocs]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-04 08:59:53] INFO root fetch - processPackages [ir-digit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 08:59:53] INFO root fetch - processPackages [hyfi]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-04 08:59:53] INFO root fetch - processPackages [scitq]: New version: [1.0rc9] Old Version: [1.0rc8]
+[2023-07-04 08:59:53] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-04 08:59:53] INFO root fetch - processPackages [experimaestro]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-04 08:59:53] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/ec/e5/f2836dca5049a262b874c2263655041c873aed439829328c2f81df36dda4/hyfi-1.0.1.tar.gz
+[2023-07-04 08:59:53] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/13/8d/28f7eda19d06a28525737eac0126409e56176e1a3db989013d202807f091/ir_digit-0.0.8.tar.gz
+[2023-07-04 08:59:53] INFO root fetch - processPackages [cashocs]: Downloading https://files.pythonhosted.org/packages/a4/fb/cd272cdd935d743ed1cda3f526d44fe566014ae21042ba4d96a7ff98be7f/cashocs-2.0.5.tar.gz
+[2023-07-04 08:59:53] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-07-04 08:59:53] INFO root fetch - processPackages [odh-core]: Downloading https://files.pythonhosted.org/packages/23/81/4a070e2e856e5f9ae1a593639c6b79fe06e48f0d7a025788bda14b56fca5/odh_core-0.1.26.tar.gz
+[2023-07-04 08:59:53] INFO root fetch - processPackages [scitq]: Downloading https://files.pythonhosted.org/packages/bc/46/748ad23ab691e84c80895bcc4e0e302512b9f9e98ddef9bba62292ce54fd/scitq-1.0rc8.tar.gz
+[2023-07-04 08:59:53] INFO root fetch - processPackages [experimaestro]: Downloading https://files.pythonhosted.org/packages/a3/39/e8bf0f2c57679fd9746b8f077f5ada6fdfaffb0d246930aefadb8b96d604/experimaestro-0.9.8-py2.py3-none-any.whl
+[2023-07-04 08:59:53] INFO root fetch - processPackages [cashocs]: Downloading https://files.pythonhosted.org/packages/d9/47/32427e9694e6b15e2688ca23592f1c3c76c73d621a02d5ce75eb8c71bc84/cashocs-2.0.6.tar.gz
+[2023-07-04 08:59:53] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/e5/94/bb652ea0a21d54a956cd979ee234d5e81f70aa2bdc0d8cc26ee5f9152ba1/hyfi-1.0.2.tar.gz
+[2023-07-04 08:59:53] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/c0/e1/8cdd06668f7ad179caab43915da3e6ca91882c998be4777dc2b190a0b1fd/ir_digit-0.0.9.tar.gz
+[2023-07-04 08:59:53] INFO root fetch - processPackages [odh-core]: Downloading https://files.pythonhosted.org/packages/e2/59/84e2244bc7adbdda6de71553b6c508d191ca90e12c18b6a253e6672be9c0/odh_core-0.1.9.tar.gz
+[2023-07-04 08:59:53] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-07-04 08:59:54] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-04 08:59:54] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.0.1.tar.gz tmp/hyfi-1.0.2.tar.gz --markdown 20230704/h/hyfi/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-04 08:59:54] INFO root fetch - processPackages [cashocs]: executing diffoscope
+[2023-07-04 08:59:54] INFO root fetch - processPackages [cashocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashocs-2.0.5.tar.gz tmp/cashocs-2.0.6.tar.gz --markdown 20230704/c/cashocs/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-04 08:59:54] INFO root fetch - processPackages [ir-digit]: executing diffoscope
+[2023-07-04 08:59:54] INFO root fetch - processPackages [ir-digit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ir_digit-0.0.8.tar.gz tmp/ir_digit-0.0.9.tar.gz --markdown 20230704/i/ir-digit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 08:59:54] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-07-04 08:59:54] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230704/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-04 08:59:54] INFO root fetch - processPackages [scitq]: Downloading https://files.pythonhosted.org/packages/db/b2/e3083ce7561f361619d42d9a0649380c6b1290db44aa2f184a1136d8263c/scitq-1.0rc9.tar.gz
+[2023-07-04 08:59:54] INFO root fetch - processPackages [scitq]: executing diffoscope
+[2023-07-04 08:59:54] INFO root fetch - processPackages [scitq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scitq-1.0rc8.tar.gz tmp/scitq-1.0rc9.tar.gz --markdown 20230704/s/scitq/1.0rc8-1.0rc9/diff.md --exclude *.pyd
+[2023-07-04 08:59:54] INFO root fetch - processPackages [experimaestro]: Downloading https://files.pythonhosted.org/packages/01/8f/03545ff21231a99d4620e2c8cea78638225e661012da7e67c5f46c291a0d/experimaestro-0.9.9-py2.py3-none-any.whl
+[2023-07-04 08:59:55] INFO root fetch - processPackages [odh-core]: executing diffoscope
+[2023-07-04 08:59:55] INFO root fetch - processPackages [odh-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odh_core-0.1.26.tar.gz tmp/odh_core-0.1.9.tar.gz --markdown 20230704/o/odh-core/0.1.26-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 08:59:55] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-07-04 08:59:55] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-07-04 08:59:55] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-07-04 08:59:55] INFO root fetch - processPackages [ir-digit]: Remove: archive file [/home/abi/fetcher/tmp/ir_digit-0.0.8.tar.gz]
+[2023-07-04 08:59:55] INFO root fetch - processPackages [ir-digit]: Remove: archive file [/home/abi/fetcher/tmp/ir_digit-0.0.9.tar.gz]
+[2023-07-04 08:59:55] INFO root fetch - main [MainThread]: End processing [ir-digit]: success
+[2023-07-04 08:59:55] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.0.1.tar.gz]
+[2023-07-04 08:59:55] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.0.2.tar.gz]
+[2023-07-04 08:59:55] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-04 08:59:55] INFO root fetch - processPackages [experimaestro]: executing diffoscope
+[2023-07-04 08:59:55] INFO root fetch - processPackages [experimaestro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experimaestro-0.9.8-py2.py3-none-any.whl.zip tmp/experimaestro-0.9.9-py2.py3-none-any.whl.zip --markdown 20230704/e/experimaestro/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-04 08:59:55] INFO root fetch - processPackages [scitq]: Remove: archive file [/home/abi/fetcher/tmp/scitq-1.0rc8.tar.gz]
+[2023-07-04 08:59:55] INFO root fetch - processPackages [scitq]: Remove: archive file [/home/abi/fetcher/tmp/scitq-1.0rc9.tar.gz]
+[2023-07-04 08:59:55] INFO root fetch - main [MainThread]: End processing [scitq]: success
+[2023-07-04 08:59:56] INFO root fetch - processPackages [odh-core]: Remove: archive file [/home/abi/fetcher/tmp/odh_core-0.1.26.tar.gz]
+[2023-07-04 08:59:56] INFO root fetch - processPackages [odh-core]: Remove: archive file [/home/abi/fetcher/tmp/odh_core-0.1.9.tar.gz]
+[2023-07-04 08:59:56] INFO root fetch - main [MainThread]: End processing [odh-core]: success
+[2023-07-04 08:59:56] INFO root fetch - processPackages [cashocs]: Remove: archive file [/home/abi/fetcher/tmp/cashocs-2.0.5.tar.gz]
+[2023-07-04 08:59:56] INFO root fetch - processPackages [cashocs]: Remove: archive file [/home/abi/fetcher/tmp/cashocs-2.0.6.tar.gz]
+[2023-07-04 08:59:56] INFO root fetch - main [MainThread]: End processing [cashocs]: success
+[2023-07-04 08:59:57] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-0.9.8-py2.py3-none-any.whl.zip]
+[2023-07-04 08:59:57] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-0.9.9-py2.py3-none-any.whl.zip]
+[2023-07-04 08:59:57] INFO root fetch - main [MainThread]: End processing [experimaestro]: success
+[2023-07-04 08:59:57] INFO root fetch - main [MainThread]: Store serial: [18751179]
