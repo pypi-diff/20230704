@@ -13277,3 +13277,70 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 08:17:59] INFO root fetch - processPackages [PyGithub]: Remove: archive file [/home/abi/fetcher/tmp/PyGithub-2.0.0rc0.tar.gz]
 [2023-07-04 08:17:59] INFO root fetch - main [MainThread]: End processing [PyGithub]: success
 [2023-07-04 08:17:59] INFO root fetch - main [MainThread]: Store serial: [18750942]
+[2023-07-04 08:23:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18750942]
+[2023-07-04 08:23:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-04 08:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ir-digit
+[2023-07-04 08:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flxtrd
+[2023-07-04 08:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ir-digit
+[2023-07-04 08:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oarepo-cli
+[2023-07-04 08:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deepllm
+[2023-07-04 08:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: waivek
+[2023-07-04 08:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: performancetest
+[2023-07-04 08:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: omnata-plugin-runtime
+[2023-07-04 08:23:11] INFO root fetch - processPackages [oarepo-cli]: New version: [11.1.9] Old Version: [11.1.8]
+[2023-07-04 08:23:11] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 08:23:11] INFO root fetch - processPackages [waivek]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 08:23:11] INFO root fetch - processPackages [flxtrd]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-04 08:23:11] WARNING root fetch - processPackages [deepllm]: Skipping, unable to determine old version
+[2023-07-04 08:23:11] INFO root fetch - main [MainThread]: End processing [deepllm] error
+[2023-07-04 08:23:11] INFO root fetch - processPackages [performancetest]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-07-04 08:23:11] INFO root fetch - processPackages [ir-digit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 08:23:11] INFO root fetch - processPackages [ir-digit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 08:23:11] INFO root fetch - processPackages [flxtrd]: Downloading https://files.pythonhosted.org/packages/bc/27/df3207281ef9cafa2ef9d8beba17cec473ded67b578cb821bf87dad904e8/flxtrd-0.2.1.tar.gz
+[2023-07-04 08:23:11] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-07-04 08:23:11] INFO root fetch - processPackages [waivek]: Downloading https://files.pythonhosted.org/packages/8c/d1/949e523dd2d5b53ef756c740c7633425f3adeb94ad2c376cf81a62587e2e/waivek-0.1.8.tar.gz
+[2023-07-04 08:23:11] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/af/a7/2733a476ea08d89fb2f474b4da4c3e1bcd0256c07baebfab128540be8be1/oarepo-cli-11.1.8.tar.gz
+[2023-07-04 08:23:11] INFO root fetch - processPackages [performancetest]: Downloading https://files.pythonhosted.org/packages/1f/2f/e116f64d159b137e331b55b0030a3a27c468ff2d529ad7db2cbe15de00bc/performancetest-0.0.14.tar.gz
+[2023-07-04 08:23:11] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/13/8d/28f7eda19d06a28525737eac0126409e56176e1a3db989013d202807f091/ir_digit-0.0.8.tar.gz
+[2023-07-04 08:23:11] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/13/8d/28f7eda19d06a28525737eac0126409e56176e1a3db989013d202807f091/ir_digit-0.0.8.tar.gz
+[2023-07-04 08:23:12] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-07-04 08:23:12] INFO root fetch - processPackages [flxtrd]: Downloading https://files.pythonhosted.org/packages/b2/5a/6620f1bd52f47d18d8e9e015542d561db3e0a55bc3b3bb7b017cc1aa1bb1/flxtrd-0.2.2.tar.gz
+[2023-07-04 08:23:12] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-07-04 08:23:12] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230704/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 08:23:12] INFO root fetch - processPackages [flxtrd]: executing diffoscope
+[2023-07-04 08:23:12] INFO root fetch - processPackages [flxtrd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flxtrd-0.2.1.tar.gz tmp/flxtrd-0.2.2.tar.gz --markdown 20230704/f/flxtrd/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-04 08:23:12] INFO root fetch - processPackages [waivek]: Downloading https://files.pythonhosted.org/packages/a4/ea/4c15b5c565a13175de2213d36052b88233e76e92301d40a51c483f4f346c/waivek-0.1.9.tar.gz
+[2023-07-04 08:23:12] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/c0/e1/8cdd06668f7ad179caab43915da3e6ca91882c998be4777dc2b190a0b1fd/ir_digit-0.0.9.tar.gz
+[2023-07-04 08:23:12] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/c0/e1/8cdd06668f7ad179caab43915da3e6ca91882c998be4777dc2b190a0b1fd/ir_digit-0.0.9.tar.gz
+[2023-07-04 08:23:12] INFO root fetch - processPackages [performancetest]: Downloading https://files.pythonhosted.org/packages/f2/aa/665562b9906d06edf40c4b5617fad7e4b3e1709fe95c478e76e635774b09/performancetest-0.0.15.tar.gz
+[2023-07-04 08:23:12] INFO root fetch - processPackages [waivek]: executing diffoscope
+[2023-07-04 08:23:12] INFO root fetch - processPackages [waivek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waivek-0.1.8.tar.gz tmp/waivek-0.1.9.tar.gz --markdown 20230704/w/waivek/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 08:23:12] INFO root fetch - processPackages [performancetest]: executing diffoscope
+[2023-07-04 08:23:12] INFO root fetch - processPackages [performancetest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/performancetest-0.0.14.tar.gz tmp/performancetest-0.0.15.tar.gz --markdown 20230704/p/performancetest/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-07-04 08:23:12] INFO root fetch - processPackages [ir-digit]: executing diffoscope
+[2023-07-04 08:23:12] INFO root fetch - processPackages [ir-digit]: executing diffoscope
+[2023-07-04 08:23:12] INFO root fetch - processPackages [ir-digit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ir_digit-0.0.8.tar.gz tmp/ir_digit-0.0.9.tar.gz --markdown 20230704/i/ir-digit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 08:23:12] INFO root fetch - processPackages [ir-digit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ir_digit-0.0.8.tar.gz tmp/ir_digit-0.0.9.tar.gz --markdown 20230704/i/ir-digit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 08:23:12] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/c1/07/390f9767ed13e63ef97918ed09945b5501685e21d178f8f10dfc1cd2a54c/oarepo-cli-11.1.9.tar.gz
+[2023-07-04 08:23:13] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-07-04 08:23:13] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.1.8.tar.gz tmp/oarepo-cli-11.1.9.tar.gz --markdown 20230704/o/oarepo-cli/11.1.8-11.1.9/diff.md --exclude *.pyd
+[2023-07-04 08:23:13] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-07-04 08:23:13] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-07-04 08:23:13] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-07-04 08:23:13] INFO root fetch - processPackages [flxtrd]: Remove: archive file [/home/abi/fetcher/tmp/flxtrd-0.2.1.tar.gz]
+[2023-07-04 08:23:13] INFO root fetch - processPackages [flxtrd]: Remove: archive file [/home/abi/fetcher/tmp/flxtrd-0.2.2.tar.gz]
+[2023-07-04 08:23:13] INFO root fetch - main [MainThread]: End processing [flxtrd]: success
+[2023-07-04 08:23:13] INFO root fetch - processPackages [ir-digit]: Remove: archive file [/home/abi/fetcher/tmp/ir_digit-0.0.8.tar.gz]
+[2023-07-04 08:23:13] INFO root fetch - processPackages [ir-digit]: Remove: archive file [/home/abi/fetcher/tmp/ir_digit-0.0.9.tar.gz]
+[2023-07-04 08:23:13] INFO root fetch - main [MainThread]: End processing [ir-digit]: success
+[2023-07-04 08:23:14] INFO root fetch - processPackages [waivek]: Remove: archive file [/home/abi/fetcher/tmp/waivek-0.1.8.tar.gz]
+[2023-07-04 08:23:14] INFO root fetch - main [MainThread]: End processing [ir-digit]: success
+[2023-07-04 08:23:14] INFO root fetch - processPackages [waivek]: Remove: archive file [/home/abi/fetcher/tmp/waivek-0.1.9.tar.gz]
+[2023-07-04 08:23:14] INFO root fetch - main [MainThread]: End processing [waivek]: success
+[2023-07-04 08:23:14] INFO root fetch - processPackages [performancetest]: Remove: archive file [/home/abi/fetcher/tmp/performancetest-0.0.14.tar.gz]
+[2023-07-04 08:23:14] INFO root fetch - processPackages [performancetest]: Remove: archive file [/home/abi/fetcher/tmp/performancetest-0.0.15.tar.gz]
+[2023-07-04 08:23:14] INFO root fetch - main [MainThread]: End processing [performancetest]: success
+[2023-07-04 08:23:16] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.8.tar.gz]
+[2023-07-04 08:23:16] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.9.tar.gz]
+[2023-07-04 08:23:16] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-07-04 08:23:16] INFO root fetch - main [MainThread]: Store serial: [18750967]
