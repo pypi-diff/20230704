@@ -11324,3 +11324,90 @@
 [2023-07-04 06:26:12] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip]
 [2023-07-04 06:26:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2023-07-04 06:26:12] INFO root fetch - main [MainThread]: Store serial: [18750181]
+[2023-07-04 06:31:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18750181]
+[2023-07-04 06:31:21] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-04 06:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vesselapi
+[2023-07-04 06:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: KrakenOS
+[2023-07-04 06:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: napari
+[2023-07-04 06:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: labcrawler
+[2023-07-04 06:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyroFork
+[2023-07-04 06:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: universal-framework-vk
+[2023-07-04 06:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swarms
+[2023-07-04 06:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iformat
+[2023-07-04 06:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kade-drive
+[2023-07-04 06:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lakeapi2sql
+[2023-07-04 06:31:21] INFO root fetch - processPackages [iformat]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-04 06:31:21] INFO root fetch - processPackages [PyroFork]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-07-04 06:31:21] INFO root fetch - processPackages [labcrawler]: New version: [1.0.6] Old Version: [1.0.4]
+[2023-07-04 06:31:21] INFO root fetch - processPackages [swarms]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-04 06:31:21] INFO root fetch - processPackages [lakeapi2sql]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-04 06:31:21] WARNING root fetch - processPackages [kade-drive]: Skipping, unable to determine old version
+[2023-07-04 06:31:21] INFO root fetch - main [MainThread]: End processing [kade-drive] error
+[2023-07-04 06:31:21] INFO root fetch - processPackages [universal-framework-vk]: New version: [0.3] Old Version: [0.23]
+[2023-07-04 06:31:21] INFO root fetch - processPackages [KrakenOS]: New version: [1.0.0.9] Old Version: [1.0.0.7]
+[2023-07-04 06:31:21] INFO root fetch - processPackages [vesselapi]: New version: [3.5.2] Old Version: [3.33.1]
+[2023-07-04 06:31:21] INFO root fetch - processPackages [napari]: New version: [0.4.9rc3] Old Version: [0.4.9rc2]
+[2023-07-04 06:31:21] INFO root fetch - processPackages [iformat]: Downloading https://files.pythonhosted.org/packages/bd/b4/ec053e28ce877b8ccc1a470d8c39171f786e375d29bcd916ff237bdb03ed/iformat-0.0.2.tar.gz
+[2023-07-04 06:31:21] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/e7/6c/9f555c11c2e02f5274e888bc6d4efb8f43826ee9f45512a32b972554fabe/swarms-0.3.1.tar.gz
+[2023-07-04 06:31:21] INFO root fetch - processPackages [KrakenOS]: Downloading https://files.pythonhosted.org/packages/9d/8a/1f1279095e4a2f69b69ced027d04fc1187efea348aaec93b4fd7d8ca833b/KrakenOS-1.0.0.7.tar.gz
+[2023-07-04 06:31:21] INFO root fetch - processPackages [universal-framework-vk]: Downloading https://files.pythonhosted.org/packages/96/84/4ca1814dcb08d2929dd6607c5ac1c80e31ccdda603ce1bbee9180fe58cf3/universal_framework_vk-0.23.tar.gz
+[2023-07-04 06:31:21] INFO root fetch - processPackages [lakeapi2sql]: Downloading https://files.pythonhosted.org/packages/ee/37/33442a461b5079388e187d38a14f78797c667d5a1a68550427e87a8d92ff/lakeapi2sql-0.3.0.tar.gz
+[2023-07-04 06:31:21] INFO root fetch - processPackages [labcrawler]: Downloading https://files.pythonhosted.org/packages/30/23/f04e3914560fe440ffa34befe94e8d0997867e457087cfcd8971df35513a/labcrawler-1.0.4.tar.gz
+[2023-07-04 06:31:21] INFO root fetch - processPackages [PyroFork]: Downloading https://files.pythonhosted.org/packages/a4/cb/1108e0d8e89983d1a4f06b0a50c744db041608b53047e07a42ed1d79ba61/PyroFork-2.2.4.tar.gz
+[2023-07-04 06:31:22] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/76/86/3126dafa63a8a4ac3beee2e0d2bcfbf307fcf1f2c110a6b1151e5e809c68/vesselapi-3.33.1.tar.gz
+[2023-07-04 06:31:22] INFO root fetch - processPackages [napari]: Downloading https://files.pythonhosted.org/packages/94/ac/67158daa5bba519575c9e11e0808998d7f4ee311acffd1b8512e91cffcdf/napari-0.4.9rc2.tar.gz
+[2023-07-04 06:31:22] INFO root fetch - processPackages [iformat]: Downloading https://files.pythonhosted.org/packages/13/30/4f26fa1836a9c3b965df0b5255c6c27c51838de5740863b6dd45b0738257/iformat-0.0.3.tar.gz
+[2023-07-04 06:31:22] INFO root fetch - processPackages [universal-framework-vk]: Downloading https://files.pythonhosted.org/packages/31/3e/46c599686e04b179715d1971681efec6d5aae651be587a52c8778f312576/universal_framework_vk-0.3.tar.gz
+[2023-07-04 06:31:22] INFO root fetch - processPackages [labcrawler]: Downloading https://files.pythonhosted.org/packages/16/79/e52291ed59fff66cf5a4b1a1e0621fa1ee45a58775f5e6eebe5dcf4e0c32/labcrawler-1.0.6.tar.gz
+[2023-07-04 06:31:22] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/c6/cf/2029a9a1d3cb1ed1414de88cc53a32c8414e0364b59438ab746beb5f4d0b/swarms-0.3.2.tar.gz
+[2023-07-04 06:31:22] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/82/f2/105170d36bec43bbe554de48bf20f0f1727c0db0e62b44a2412f0e180fa6/vesselapi-3.5.2.tar.gz
+[2023-07-04 06:31:22] INFO root fetch - processPackages [lakeapi2sql]: Downloading https://files.pythonhosted.org/packages/af/0f/b62340524d2464adbdde9857fb9c9973fea0d5c19645fbd3a022f9ae2fa7/lakeapi2sql-0.3.1.tar.gz
+[2023-07-04 06:31:22] INFO root fetch - processPackages [PyroFork]: Downloading https://files.pythonhosted.org/packages/19/16/7d3244fde0048714a2120d26468aa2eed6a42c4ad16f4d3e45398e25be17/PyroFork-2.2.5.tar.gz
+[2023-07-04 06:31:22] INFO root fetch - processPackages [iformat]: executing diffoscope
+[2023-07-04 06:31:22] INFO root fetch - processPackages [iformat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iformat-0.0.2.tar.gz tmp/iformat-0.0.3.tar.gz --markdown 20230704/i/iformat/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-04 06:31:22] INFO root fetch - processPackages [universal-framework-vk]: executing diffoscope
+[2023-07-04 06:31:22] INFO root fetch - processPackages [universal-framework-vk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universal_framework_vk-0.23.tar.gz tmp/universal_framework_vk-0.3.tar.gz --markdown 20230704/u/universal-framework-vk/0.23-0.3/diff.md --exclude *.pyd
+[2023-07-04 06:31:22] INFO root fetch - processPackages [KrakenOS]: Downloading https://files.pythonhosted.org/packages/d9/d9/dce13ee42f800b84b70b9e70373cd13d02fa9eb3876b1c7215b857953e68/KrakenOS-1.0.0.9.tar.gz
+[2023-07-04 06:31:22] INFO root fetch - processPackages [labcrawler]: executing diffoscope
+[2023-07-04 06:31:22] INFO root fetch - processPackages [labcrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labcrawler-1.0.4.tar.gz tmp/labcrawler-1.0.6.tar.gz --markdown 20230704/l/labcrawler/1.0.4-1.0.6/diff.md --exclude *.pyd
+[2023-07-04 06:31:22] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-04 06:31:22] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.3.1.tar.gz tmp/swarms-0.3.2.tar.gz --markdown 20230704/s/swarms/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-04 06:31:22] INFO root fetch - processPackages [lakeapi2sql]: executing diffoscope
+[2023-07-04 06:31:22] INFO root fetch - processPackages [lakeapi2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakeapi2sql-0.3.0.tar.gz tmp/lakeapi2sql-0.3.1.tar.gz --markdown 20230704/l/lakeapi2sql/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-04 06:31:22] INFO root fetch - processPackages [PyroFork]: executing diffoscope
+[2023-07-04 06:31:22] INFO root fetch - processPackages [PyroFork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-2.2.4.tar.gz tmp/PyroFork-2.2.5.tar.gz --markdown 20230704/P/PyroFork/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-07-04 06:31:23] INFO root fetch - processPackages [KrakenOS]: executing diffoscope
+[2023-07-04 06:31:23] INFO root fetch - processPackages [KrakenOS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KrakenOS-1.0.0.7.tar.gz tmp/KrakenOS-1.0.0.9.tar.gz --markdown 20230704/K/KrakenOS/1.0.0.7-1.0.0.9/diff.md --exclude *.pyd
+[2023-07-04 06:31:23] INFO root fetch - processPackages [vesselapi]: executing diffoscope
+[2023-07-04 06:31:23] INFO root fetch - processPackages [vesselapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselapi-3.33.1.tar.gz tmp/vesselapi-3.5.2.tar.gz --markdown 20230704/v/vesselapi/3.33.1-3.5.2/diff.md --exclude *.pyd
+[2023-07-04 06:31:23] INFO root fetch - processPackages [napari]: Downloading https://files.pythonhosted.org/packages/1b/4c/d0eb81702c5009d60f3ef04222671898f04d97d6cf073aac05a3b7376526/napari-0.4.9rc3.tar.gz
+[2023-07-04 06:31:23] INFO root fetch - processPackages [iformat]: Remove: archive file [/home/abi/fetcher/tmp/iformat-0.0.2.tar.gz]
+[2023-07-04 06:31:23] INFO root fetch - processPackages [iformat]: Remove: archive file [/home/abi/fetcher/tmp/iformat-0.0.3.tar.gz]
+[2023-07-04 06:31:23] INFO root fetch - main [MainThread]: End processing [iformat]: success
+[2023-07-04 06:31:23] INFO root fetch - processPackages [universal-framework-vk]: Remove: archive file [/home/abi/fetcher/tmp/universal_framework_vk-0.23.tar.gz]
+[2023-07-04 06:31:23] INFO root fetch - processPackages [universal-framework-vk]: Remove: archive file [/home/abi/fetcher/tmp/universal_framework_vk-0.3.tar.gz]
+[2023-07-04 06:31:23] INFO root fetch - main [MainThread]: End processing [universal-framework-vk]: success
+[2023-07-04 06:31:23] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.3.1.tar.gz]
+[2023-07-04 06:31:23] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.3.2.tar.gz]
+[2023-07-04 06:31:23] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-04 06:31:23] INFO root fetch - processPackages [labcrawler]: Remove: archive file [/home/abi/fetcher/tmp/labcrawler-1.0.4.tar.gz]
+[2023-07-04 06:31:23] INFO root fetch - processPackages [labcrawler]: Remove: archive file [/home/abi/fetcher/tmp/labcrawler-1.0.6.tar.gz]
+[2023-07-04 06:31:23] INFO root fetch - main [MainThread]: End processing [labcrawler]: success
+[2023-07-04 06:31:24] INFO root fetch - processPackages [lakeapi2sql]: Remove: archive file [/home/abi/fetcher/tmp/lakeapi2sql-0.3.0.tar.gz]
+[2023-07-04 06:31:24] INFO root fetch - processPackages [lakeapi2sql]: Remove: archive file [/home/abi/fetcher/tmp/lakeapi2sql-0.3.1.tar.gz]
+[2023-07-04 06:31:24] INFO root fetch - main [MainThread]: End processing [lakeapi2sql]: success
+[2023-07-04 06:31:24] INFO root fetch - processPackages [napari]: executing diffoscope
+[2023-07-04 06:31:24] INFO root fetch - processPackages [napari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-0.4.9rc2.tar.gz tmp/napari-0.4.9rc3.tar.gz --markdown 20230704/n/napari/0.4.9rc2-0.4.9rc3/diff.md --exclude *.pyd
+[2023-07-04 06:31:25] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.33.1.tar.gz]
+[2023-07-04 06:31:25] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.5.2.tar.gz]
+[2023-07-04 06:31:25] INFO root fetch - main [MainThread]: End processing [vesselapi]: success
+[2023-07-04 06:31:25] INFO root fetch - processPackages [KrakenOS]: Remove: archive file [/home/abi/fetcher/tmp/KrakenOS-1.0.0.7.tar.gz]
+[2023-07-04 06:31:25] INFO root fetch - processPackages [KrakenOS]: Remove: archive file [/home/abi/fetcher/tmp/KrakenOS-1.0.0.9.tar.gz]
+[2023-07-04 06:31:25] INFO root fetch - main [MainThread]: End processing [KrakenOS]: success
+[2023-07-04 06:31:26] INFO root fetch - processPackages [PyroFork]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-2.2.4.tar.gz]
+[2023-07-04 06:31:26] INFO root fetch - processPackages [PyroFork]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-2.2.5.tar.gz]
+[2023-07-04 06:31:26] INFO root fetch - main [MainThread]: End processing [PyroFork]: success
+[2023-07-04 06:31:27] INFO root fetch - processPackages [napari]: Remove: archive file [/home/abi/fetcher/tmp/napari-0.4.9rc2.tar.gz]
+[2023-07-04 06:31:27] INFO root fetch - processPackages [napari]: Remove: archive file [/home/abi/fetcher/tmp/napari-0.4.9rc3.tar.gz]
+[2023-07-04 06:31:27] INFO root fetch - main [MainThread]: End processing [napari]: success
+[2023-07-04 06:31:27] INFO root fetch - main [MainThread]: Store serial: [18750209]
