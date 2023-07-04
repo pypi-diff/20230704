@@ -14538,3 +14538,158 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 09:26:18] INFO root fetch - processPackages [eventiq]: Remove: archive file [/home/abi/fetcher/tmp/eventiq-0.1.9.tar.gz]
 [2023-07-04 09:26:18] INFO root fetch - main [MainThread]: End processing [eventiq]: success
 [2023-07-04 09:26:18] INFO root fetch - main [MainThread]: Store serial: [18751399]
+[2023-07-04 09:31:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18751399]
+[2023-07-04 09:31:29] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-04 09:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eventiq
+[2023-07-04 09:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-pipelines-cli
+[2023-07-04 09:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mend-ignore-alerts
+[2023-07-04 09:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bmsdna-lakeapi
+[2023-07-04 09:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bilibili-up
+[2023-07-04 09:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dsw-database
+[2023-07-04 09:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dsw-config
+[2023-07-04 09:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dsw-command-queue
+[2023-07-04 09:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dsw-models
+[2023-07-04 09:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: puput
+[2023-07-04 09:31:29] INFO root fetch - processPackages [eventiq]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 09:31:29] INFO root fetch - processPackages [bilibili-up]: New version: [1.2.0.0] Old Version: [1.0.0.0]
+[2023-07-04 09:31:29] INFO root fetch - processPackages [dsw-models]: New version: [3.25.0] Old Version: [3.24.0rc1]
+[2023-07-04 09:31:29] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-04 09:31:29] INFO root fetch - processPackages [mend-ignore-alerts]: New version: [0.3.1] Old Version: [0.3]
+[2023-07-04 09:31:29] INFO root fetch - processPackages [dsw-command-queue]: New version: [3.25.0] Old Version: [3.24.0rc1]
+[2023-07-04 09:31:29] INFO root fetch - processPackages [dsw-database]: New version: [3.25.0] Old Version: [3.24.0rc1]
+[2023-07-04 09:31:29] INFO root fetch - processPackages [dsw-config]: New version: [3.25.0] Old Version: [3.24.0rc1]
+[2023-07-04 09:31:29] INFO root fetch - processPackages [data-pipelines-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-04 09:31:29] INFO root fetch - processPackages [puput]: New version: [2.0.0] Old Version: [1.2.1]
+[2023-07-04 09:31:29] INFO root fetch - processPackages [eventiq]: Downloading https://files.pythonhosted.org/packages/90/a3/cb1bacaf8d97248e075185987fd4455791309421ee2873607737275ef34e/eventiq-0.1.8.tar.gz
+[2023-07-04 09:31:29] INFO root fetch - processPackages [bilibili-up]: Downloading https://files.pythonhosted.org/packages/a4/d5/a0471c2a5b8c21959ae8eb400784f3c5ce9c429368da3b1014045f67b687/bilibili_up-1.0.0.0.tar.gz
+[2023-07-04 09:31:29] INFO root fetch - processPackages [data-pipelines-cli]: Downloading https://files.pythonhosted.org/packages/cd/6c/a0fb36a514ebe5af4488426d929bb2898873282a5fe6c968aea1647e1890/data_pipelines_cli-0.8.0.tar.gz
+[2023-07-04 09:31:29] INFO root fetch - processPackages [dsw-models]: Downloading https://files.pythonhosted.org/packages/4c/59/3bce46ef04803e4a0f03b7cb061f0b884097a701561727ccfcd987e823c4/dsw-models-3.24.0rc1.tar.gz
+[2023-07-04 09:31:29] INFO root fetch - processPackages [mend-ignore-alerts]: Downloading https://files.pythonhosted.org/packages/d5/94/039e6a8b0cfee25fd1ccbbce2639d2af9caa0e41111a6164a89eb44ca3ae/mend_ignore_alerts-0.3-py3-none-any.whl
+[2023-07-04 09:31:29] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/7f/5f/eea3ac48f4f959f8520ef8fd9d0503362334694dc4a9e5d07013ca260af8/bmsdna_lakeapi-0.9.4.tar.gz
+[2023-07-04 09:31:29] INFO root fetch - processPackages [dsw-command-queue]: Downloading https://files.pythonhosted.org/packages/b9/54/7221b653547f68413b703c1b288bc5bf0dfa2eb21bdb3db604cced398f67/dsw-command-queue-3.24.0rc1.tar.gz
+[2023-07-04 09:31:29] INFO root fetch - processPackages [dsw-database]: Downloading https://files.pythonhosted.org/packages/8e/7d/fb77d9d0671e4ec01197a44aaed51b87718627ee744238cd95be6a804644/dsw-database-3.24.0rc1.tar.gz
+[2023-07-04 09:31:29] INFO root fetch - processPackages [dsw-config]: Downloading https://files.pythonhosted.org/packages/1c/b1/cc4b3c7e0293f9d7fcb101ab64edb239cb0e8e15f2e69284a3b005d81008/dsw-config-3.24.0rc1.tar.gz
+[2023-07-04 09:31:29] INFO root fetch - processPackages [puput]: Downloading https://files.pythonhosted.org/packages/2c/b2/7513c0e96a1b4f787a2e5866b5393a233fc28c5ddd076670e09468bd8fb4/puput-1.2.1.tar.gz
+[2023-07-04 09:31:30] INFO root fetch - processPackages [bilibili-up]: Downloading https://files.pythonhosted.org/packages/73/c9/5d1e1d9f9c605f14757eabedac1e9608c38bbb8ec17cc58ba7cde8040743/bilibili_up-1.2.0.0.tar.gz
+[2023-07-04 09:31:30] INFO root fetch - processPackages [eventiq]: Downloading https://files.pythonhosted.org/packages/d9/70/b75adec1b4c90b8e8555825ef7ddb7424e1c7503f0fd8961247e4f1b66d9/eventiq-0.1.9.tar.gz
+[2023-07-04 09:31:30] INFO root fetch - processPackages [data-pipelines-cli]: Downloading https://files.pythonhosted.org/packages/e4/75/9be2188d5177d2fa3fa4a50c9b1fbf660d93d8701c94ee6a8df6dcdf9a4b/data_pipelines_cli-0.9.0.tar.gz
+[2023-07-04 09:31:30] INFO root fetch - processPackages [dsw-models]: Downloading https://files.pythonhosted.org/packages/61/3c/e8c4dd44afa62dc5da804da4970d7a9387222004b25c6a1f0f94f7178f15/dsw-models-3.25.0.tar.gz
+[2023-07-04 09:31:30] INFO root fetch - processPackages [mend-ignore-alerts]: Downloading https://files.pythonhosted.org/packages/96/f0/3bef940621edee43e955e5993be244624c058af9d19ce0068d76632b84a6/mend_ignore_alerts-0.3.1-py3-none-any.whl
+[2023-07-04 09:31:30] INFO root fetch - processPackages [eventiq]: executing diffoscope
+[2023-07-04 09:31:30] INFO root fetch - processPackages [eventiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventiq-0.1.8.tar.gz tmp/eventiq-0.1.9.tar.gz --markdown 20230704/e/eventiq/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 09:31:30] INFO root fetch - processPackages [bilibili-up]: executing diffoscope
+[2023-07-04 09:31:30] INFO root fetch - processPackages [bilibili-up]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilibili_up-1.0.0.0.tar.gz tmp/bilibili_up-1.2.0.0.tar.gz --markdown 20230704/b/bilibili-up/1.0.0.0-1.2.0.0/diff.md --exclude *.pyd
+[2023-07-04 09:31:30] INFO root fetch - processPackages [dsw-command-queue]: Downloading https://files.pythonhosted.org/packages/c5/ea/6a22e094d3958983f487f6c859e6f83825da2cbe0b1fb1526f10c9bd1c5c/dsw-command-queue-3.25.0.tar.gz
+[2023-07-04 09:31:30] INFO root fetch - processPackages [dsw-config]: Downloading https://files.pythonhosted.org/packages/2b/ca/bec67c0dbaa74dd706877bec3423c0f84cd6e601dac508487604ba8b7637/dsw-config-3.25.0.tar.gz
+[2023-07-04 09:31:30] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/67/89/5490bf9706b55871f565103c6fb3c7ceb93151ec4fb743f5347695fa2d98/bmsdna_lakeapi-0.9.5.tar.gz
+[2023-07-04 09:31:30] INFO root fetch - processPackages [dsw-database]: Downloading https://files.pythonhosted.org/packages/6b/97/7069567015ae89146b7f57146b20ac54f86aaf82f35d0ffb5ca603ae5573/dsw-database-3.25.0.tar.gz
+[2023-07-04 09:31:30] INFO root fetch - processPackages [puput]: Downloading https://files.pythonhosted.org/packages/2e/6a/7d1ec421b91a105d94123c96a9d9b11ad3332f19db92174f12a64ae1a252/puput-2.0.0.tar.gz
+[2023-07-04 09:31:30] INFO root fetch - processPackages [data-pipelines-cli]: executing diffoscope
+[2023-07-04 09:31:30] INFO root fetch - processPackages [data-pipelines-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_pipelines_cli-0.8.0.tar.gz tmp/data_pipelines_cli-0.9.0.tar.gz --markdown 20230704/d/data-pipelines-cli/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-04 09:31:30] INFO root fetch - processPackages [dsw-models]: executing diffoscope
+[2023-07-04 09:31:30] INFO root fetch - processPackages [dsw-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-models-3.24.0rc1.tar.gz tmp/dsw-models-3.25.0.tar.gz --markdown 20230704/d/dsw-models/3.24.0rc1-3.25.0/diff.md --exclude *.pyd
+[2023-07-04 09:31:30] INFO root fetch - processPackages [mend-ignore-alerts]: executing diffoscope
+[2023-07-04 09:31:30] INFO root fetch - processPackages [mend-ignore-alerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mend_ignore_alerts-0.3-py3-none-any.whl.zip tmp/mend_ignore_alerts-0.3.1-py3-none-any.whl.zip --markdown 20230704/m/mend-ignore-alerts/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-07-04 09:31:30] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-07-04 09:31:30] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.9.4.tar.gz tmp/bmsdna_lakeapi-0.9.5.tar.gz --markdown 20230704/b/bmsdna-lakeapi/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-04 09:31:30] INFO root fetch - processPackages [dsw-database]: executing diffoscope
+[2023-07-04 09:31:30] INFO root fetch - processPackages [dsw-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-database-3.24.0rc1.tar.gz tmp/dsw-database-3.25.0.tar.gz --markdown 20230704/d/dsw-database/3.24.0rc1-3.25.0/diff.md --exclude *.pyd
+[2023-07-04 09:31:30] INFO root fetch - processPackages [dsw-config]: executing diffoscope
+[2023-07-04 09:31:30] INFO root fetch - processPackages [dsw-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-config-3.24.0rc1.tar.gz tmp/dsw-config-3.25.0.tar.gz --markdown 20230704/d/dsw-config/3.24.0rc1-3.25.0/diff.md --exclude *.pyd
+[2023-07-04 09:31:30] INFO root fetch - processPackages [dsw-command-queue]: executing diffoscope
+[2023-07-04 09:31:30] INFO root fetch - processPackages [dsw-command-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-command-queue-3.24.0rc1.tar.gz tmp/dsw-command-queue-3.25.0.tar.gz --markdown 20230704/d/dsw-command-queue/3.24.0rc1-3.25.0/diff.md --exclude *.pyd
+[2023-07-04 09:31:30] INFO root fetch - processPackages [puput]: executing diffoscope
+[2023-07-04 09:31:30] INFO root fetch - processPackages [puput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/puput-1.2.1.tar.gz tmp/puput-2.0.0.tar.gz --markdown 20230704/p/puput/1.2.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-04 09:31:31] INFO root fetch - processPackages [bilibili-up]: Remove: archive file [/home/abi/fetcher/tmp/bilibili_up-1.0.0.0.tar.gz]
+[2023-07-04 09:31:31] INFO root fetch - processPackages [bilibili-up]: Remove: archive file [/home/abi/fetcher/tmp/bilibili_up-1.2.0.0.tar.gz]
+[2023-07-04 09:31:31] INFO root fetch - processPackages [bilibili-up]: Start processing: certora-cli-alpha-master
+[2023-07-04 09:31:31] INFO root fetch - main [MainThread]: End processing [bilibili-up]: success
+[2023-07-04 09:31:31] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230704.7.29.595621] Old Version: [20230704.6.50.178479]
+[2023-07-04 09:31:32] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/40/80/38be2d87cb62245111bd442d7ec751063022330afe2148c06b94429a2092/certora-cli-alpha-master-20230704.6.50.178479.tar.gz
+[2023-07-04 09:31:32] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 40633129>=10485760
+[2023-07-04 09:31:32] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: example990420
+[2023-07-04 09:31:32] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-04 09:31:32] INFO root fetch - processPackages [example990420]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-04 09:31:32] INFO root fetch - processPackages [eventiq]: Remove: archive file [/home/abi/fetcher/tmp/eventiq-0.1.8.tar.gz]
+[2023-07-04 09:31:32] INFO root fetch - processPackages [eventiq]: Remove: archive file [/home/abi/fetcher/tmp/eventiq-0.1.9.tar.gz]
+[2023-07-04 09:31:32] INFO root fetch - processPackages [eventiq]: Start processing: dsw-storage
+[2023-07-04 09:31:32] INFO root fetch - main [MainThread]: End processing [eventiq]: success
+[2023-07-04 09:31:32] INFO root fetch - processPackages [mend-ignore-alerts]: Remove: archive file [/home/abi/fetcher/tmp/mend_ignore_alerts-0.3-py3-none-any.whl.zip]
+[2023-07-04 09:31:32] INFO root fetch - processPackages [mend-ignore-alerts]: Remove: archive file [/home/abi/fetcher/tmp/mend_ignore_alerts-0.3.1-py3-none-any.whl.zip]
+[2023-07-04 09:31:32] INFO root fetch - processPackages [mend-ignore-alerts]: Start processing: dsw-tdk
+[2023-07-04 09:31:32] INFO root fetch - main [MainThread]: End processing [mend-ignore-alerts]: success
+[2023-07-04 09:31:32] INFO root fetch - processPackages [dsw-storage]: New version: [3.25.0] Old Version: [3.24.0rc1]
+[2023-07-04 09:31:32] INFO root fetch - processPackages [dsw-tdk]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-07-04 09:31:32] INFO root fetch - processPackages [dsw-models]: Remove: archive file [/home/abi/fetcher/tmp/dsw-models-3.24.0rc1.tar.gz]
+[2023-07-04 09:31:32] INFO root fetch - processPackages [dsw-models]: Remove: archive file [/home/abi/fetcher/tmp/dsw-models-3.25.0.tar.gz]
+[2023-07-04 09:31:32] INFO root fetch - processPackages [dsw-models]: Start processing: mypackagelicenseprototype
+[2023-07-04 09:31:32] INFO root fetch - main [MainThread]: End processing [dsw-models]: success
+[2023-07-04 09:31:32] INFO root fetch - processPackages [dsw-config]: Remove: archive file [/home/abi/fetcher/tmp/dsw-config-3.24.0rc1.tar.gz]
+[2023-07-04 09:31:32] INFO root fetch - processPackages [dsw-config]: Remove: archive file [/home/abi/fetcher/tmp/dsw-config-3.25.0.tar.gz]
+[2023-07-04 09:31:32] INFO root fetch - processPackages [dsw-config]: Start processing: c2cwsgiutils
+[2023-07-04 09:31:32] INFO root fetch - main [MainThread]: End processing [dsw-config]: success
+[2023-07-04 09:31:32] INFO root fetch - processPackages [data-pipelines-cli]: Remove: archive file [/home/abi/fetcher/tmp/data_pipelines_cli-0.8.0.tar.gz]
+[2023-07-04 09:31:32] INFO root fetch - processPackages [data-pipelines-cli]: Remove: archive file [/home/abi/fetcher/tmp/data_pipelines_cli-0.9.0.tar.gz]
+[2023-07-04 09:31:32] INFO root fetch - processPackages [data-pipelines-cli]: Start processing: tonpy
+[2023-07-04 09:31:32] INFO root fetch - main [MainThread]: End processing [data-pipelines-cli]: success
+[2023-07-04 09:31:32] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [4.0.5] Old Version: [4.0.3]
+[2023-07-04 09:31:32] INFO root fetch - processPackages [dsw-database]: Remove: archive file [/home/abi/fetcher/tmp/dsw-database-3.24.0rc1.tar.gz]
+[2023-07-04 09:31:32] INFO root fetch - processPackages [dsw-database]: Remove: archive file [/home/abi/fetcher/tmp/dsw-database-3.25.0.tar.gz]
+[2023-07-04 09:31:32] INFO root fetch - processPackages [dsw-database]: Start processing: SELDOMpy
+[2023-07-04 09:31:32] INFO root fetch - main [MainThread]: End processing [dsw-database]: success
+[2023-07-04 09:31:32] WARNING root fetch - processPackages [tonpy]: Skipping, unable to determine old version
+[2023-07-04 09:31:32] INFO root fetch - main [MainThread]: End processing [tonpy] error
+[2023-07-04 09:31:32] INFO root fetch - processPackages [example990420]: Downloading https://files.pythonhosted.org/packages/3a/1b/8e218625cb6d468b2e2a2cd47bf6dc8435d6c2664a5c7faf8d66dc4de26c/example990420-0.0.2.tar.gz
+[2023-07-04 09:31:32] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.4.tar.gz]
+[2023-07-04 09:31:32] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.5.tar.gz]
+[2023-07-04 09:31:32] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-07-04 09:31:32] INFO root fetch - processPackages [SELDOMpy]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-07-04 09:31:32] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.0.0.dev99] Old Version: [6.0.0.dev97]
+[2023-07-04 09:31:32] INFO root fetch - processPackages [dsw-command-queue]: Remove: archive file [/home/abi/fetcher/tmp/dsw-command-queue-3.24.0rc1.tar.gz]
+[2023-07-04 09:31:32] INFO root fetch - processPackages [dsw-command-queue]: Remove: archive file [/home/abi/fetcher/tmp/dsw-command-queue-3.25.0.tar.gz]
+[2023-07-04 09:31:32] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/d9/b0/fd14fecd784d4c5604cdcd981ef1ef071d7eb065a4cf28df0d832070989e/mypackagelicenseprototype-4.0.3-py3-none-any.whl
+[2023-07-04 09:31:32] INFO root fetch - main [MainThread]: End processing [dsw-command-queue]: success
+[2023-07-04 09:31:32] INFO root fetch - processPackages [dsw-tdk]: Downloading https://files.pythonhosted.org/packages/49/a5/97e62ad725a08a351055c0dec289369428ed8405344fa96af05e8d02e5ea/dsw-tdk-3.8.0.tar.gz
+[2023-07-04 09:31:32] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/7e/19/e64dc0870291f601e6d1f041424eef5a28112c1c9b7be627a7f01c80ebab/c2cwsgiutils-6.0.0.dev97.tar.gz
+[2023-07-04 09:31:32] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/a2/1e/60fedb7735e099deaa0c34ebbef878696f48c4005f3589e01d4137773a5f/SELDOMpy-0.6.9.tar.gz
+[2023-07-04 09:31:32] INFO root fetch - processPackages [dsw-storage]: Downloading https://files.pythonhosted.org/packages/61/6a/7b5ec711e5250f2e8b7f0f8ec6b4bee1c1f86294680a0711aadb6884155f/dsw-storage-3.24.0rc1.tar.gz
+[2023-07-04 09:31:32] INFO root fetch - processPackages [example990420]: Downloading https://files.pythonhosted.org/packages/18/37/27992f16775a38aa536ebdc4988876a5a26a613fbd1466c49023937f65c3/example990420-0.0.3.tar.gz
+[2023-07-04 09:31:32] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/ad/c6/8a7e3769a0a00822703adbc6471d3b5c810f362bff45d538e2a843261fb4/mypackagelicenseprototype-4.0.5-py3-none-any.whl
+[2023-07-04 09:31:32] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/bc/fc/caed9a3b8aa535ab83ce1fdf048ce861e9039ac24958fa3ddf9049b3f2b6/c2cwsgiutils-6.0.0.dev99.tar.gz
+[2023-07-04 09:31:32] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/81/68/bde0b6cce73f3e9fc14803a58adfddbde7416ad3515c80e097839ec57ce5/SELDOMpy-0.7.0-py3.8-win-amd64.egg
+[2023-07-04 09:31:32] INFO root fetch - processPackages [dsw-storage]: Downloading https://files.pythonhosted.org/packages/32/84/e35aec2086d45226603918afa17fa99ead9e9906a4b8b4ca6c51960fec3d/dsw-storage-3.25.0.tar.gz
+[2023-07-04 09:31:33] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2023-07-04 09:31:33] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.0.0.dev97.tar.gz tmp/c2cwsgiutils-6.0.0.dev99.tar.gz --markdown 20230704/c/c2cwsgiutils/6.0.0.dev97-6.0.0.dev99/diff.md --exclude *.pyd
+[2023-07-04 09:31:33] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-07-04 09:31:33] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-4.0.3-py3-none-any.whl.zip tmp/mypackagelicenseprototype-4.0.5-py3-none-any.whl.zip --markdown 20230704/m/mypackagelicenseprototype/4.0.3-4.0.5/diff.md --exclude *.pyd
+[2023-07-04 09:31:33] INFO root fetch - processPackages [example990420]: executing diffoscope
+[2023-07-04 09:31:33] INFO root fetch - processPackages [example990420]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/example990420-0.0.2.tar.gz tmp/example990420-0.0.3.tar.gz --markdown 20230704/e/example990420/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-04 09:31:33] INFO root fetch - processPackages [dsw-tdk]: Downloading https://files.pythonhosted.org/packages/e6/22/1df5f0817ea3b3e038995c9fd42ba3152c3cef9595e173d161482976f698/dsw-tdk-3.9.0.tar.gz
+[2023-07-04 09:31:33] INFO root fetch - processPackages [dsw-storage]: executing diffoscope
+[2023-07-04 09:31:33] INFO root fetch - processPackages [dsw-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-storage-3.24.0rc1.tar.gz tmp/dsw-storage-3.25.0.tar.gz --markdown 20230704/d/dsw-storage/3.24.0rc1-3.25.0/diff.md --exclude *.pyd
+[2023-07-04 09:31:33] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-04 09:31:33] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.6.9.tar.gz tmp/SELDOMpy-0.7.0-py3.8-win-amd64.egg --markdown 20230704/S/SELDOMpy/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-07-04 09:31:33] INFO root fetch - processPackages [dsw-tdk]: executing diffoscope
+[2023-07-04 09:31:33] INFO root fetch - processPackages [dsw-tdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-tdk-3.8.0.tar.gz tmp/dsw-tdk-3.9.0.tar.gz --markdown 20230704/d/dsw-tdk/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-04 09:31:33] INFO root fetch - processPackages [puput]: Remove: archive file [/home/abi/fetcher/tmp/puput-1.2.1.tar.gz]
+[2023-07-04 09:31:33] INFO root fetch - processPackages [puput]: Remove: archive file [/home/abi/fetcher/tmp/puput-2.0.0.tar.gz]
+[2023-07-04 09:31:33] INFO root fetch - main [MainThread]: End processing [puput]: success
+[2023-07-04 09:31:34] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-4.0.3-py3-none-any.whl.zip]
+[2023-07-04 09:31:34] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-4.0.5-py3-none-any.whl.zip]
+[2023-07-04 09:31:34] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-07-04 09:31:34] INFO root fetch - processPackages [example990420]: Remove: archive file [/home/abi/fetcher/tmp/example990420-0.0.2.tar.gz]
+[2023-07-04 09:31:34] INFO root fetch - processPackages [example990420]: Remove: archive file [/home/abi/fetcher/tmp/example990420-0.0.3.tar.gz]
+[2023-07-04 09:31:34] INFO root fetch - main [MainThread]: End processing [example990420]: success
+[2023-07-04 09:31:34] INFO root fetch - processPackages [dsw-storage]: Remove: archive file [/home/abi/fetcher/tmp/dsw-storage-3.24.0rc1.tar.gz]
+[2023-07-04 09:31:34] INFO root fetch - processPackages [dsw-storage]: Remove: archive file [/home/abi/fetcher/tmp/dsw-storage-3.25.0.tar.gz]
+[2023-07-04 09:31:34] INFO root fetch - main [MainThread]: End processing [dsw-storage]: success
+[2023-07-04 09:31:34] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev97.tar.gz]
+[2023-07-04 09:31:34] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev99.tar.gz]
+[2023-07-04 09:31:34] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2023-07-04 09:31:34] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.6.9.tar.gz]
+[2023-07-04 09:31:34] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.7.0-py3.8-win-amd64.egg]
+[2023-07-04 09:31:34] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-04 09:31:34] INFO root fetch - processPackages [dsw-tdk]: Remove: archive file [/home/abi/fetcher/tmp/dsw-tdk-3.8.0.tar.gz]
+[2023-07-04 09:31:34] INFO root fetch - processPackages [dsw-tdk]: Remove: archive file [/home/abi/fetcher/tmp/dsw-tdk-3.9.0.tar.gz]
+[2023-07-04 09:31:34] INFO root fetch - main [MainThread]: End processing [dsw-tdk]: success
+[2023-07-04 09:31:34] INFO root fetch - main [MainThread]: Store serial: [18751450]
