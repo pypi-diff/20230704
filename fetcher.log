@@ -9789,3 +9789,117 @@
 [2023-07-04 04:39:58] INFO root fetch - processPackages [rez-pip]: Remove: archive file [/home/abi/fetcher/tmp/rez_pip-0.2.0.tar.gz]
 [2023-07-04 04:39:58] INFO root fetch - main [MainThread]: End processing [rez-pip]: success
 [2023-07-04 04:39:58] INFO root fetch - main [MainThread]: Store serial: [18749622]
+[2023-07-04 04:45:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18749622]
+[2023-07-04 04:45:07] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-04 04:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: laok
+[2023-07-04 04:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SunIdea
+[2023-07-04 04:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-07-04 04:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ats-case
+[2023-07-04 04:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: policyengine-us
+[2023-07-04 04:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lightning-toolbox
+[2023-07-04 04:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-plus-24
+[2023-07-04 04:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: card-component
+[2023-07-04 04:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cjm-yolox-pytorch
+[2023-07-04 04:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sanic-security
+[2023-07-04 04:45:07] INFO root fetch - processPackages [SunIdea]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-04 04:45:07] INFO root fetch - processPackages [laok]: New version: [0.2.18] Old Version: [0.2.17]
+[2023-07-04 04:45:07] INFO root fetch - processPackages [lightning-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 04:45:07] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 04:45:07] INFO root fetch - processPackages [ats-case]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-04 04:45:07] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-04 04:45:07] WARNING root fetch - processPackages [card-component]: Skipping, unable to determine old version
+[2023-07-04 04:45:07] INFO root fetch - processPackages [card-component]: Start processing: markdownparser
+[2023-07-04 04:45:07] INFO root fetch - main [MainThread]: End processing [card-component] error
+[2023-07-04 04:45:07] INFO root fetch - processPackages [sanic-security]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-04 04:45:08] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-07-04 04:45:08] INFO root fetch - processPackages [policyengine-us]: New version: [0.354.0] Old Version: [0.353.0]
+[2023-07-04 04:45:08] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-04 04:45:08] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-07-04 04:45:08] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-07-04 04:45:08] INFO root fetch - processPackages [SunIdea]: Downloading https://files.pythonhosted.org/packages/c4/7a/6d4e5a17a16d5df18e817ad2f6b25522ff18be630d32f8d6de81eb0dab36/sunidea-0.0.2.tar.gz
+[2023-07-04 04:45:08] INFO root fetch - processPackages [markdownparser]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-04 04:45:08] INFO root fetch - processPackages [sanic-security]: Downloading https://files.pythonhosted.org/packages/97/8e/010d8c95f266d46ae059b7f411b03fbed45c3d397825f7ef0ffac6082682/sanic-security-1.9.8.tar.gz
+[2023-07-04 04:45:08] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/4d/22/f2b4ed8dd6814f26ef3fb3301e83af1c08094a516d6d3f176d5fb39f7cac/policyengine-us-0.353.0.tar.gz
+[2023-07-04 04:45:08] INFO root fetch - processPackages [laok]: Downloading https://files.pythonhosted.org/packages/a6/9d/203a6421fdc0ee83d9a43ee7b39654683810fb5e5286620989a9161eee3a/laok-0.2.17.tar.gz
+[2023-07-04 04:45:08] INFO root fetch - processPackages [lightning-toolbox]: Downloading https://files.pythonhosted.org/packages/0e/a2/e33a2f505b9b8fa696b16975fe34a55c42dc96902865f16c6627044aa9b8/lightning_toolbox-0.0.8.tar.gz
+[2023-07-04 04:45:08] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/04/da/b171ada6344192f8d804a421bc8808a47ee94e5d1f28c7daca14485ad4a7/ats_case-0.9.8.tar.gz
+[2023-07-04 04:45:08] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-04 04:45:08] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-04 04:45:08] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230704/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 04:45:08] INFO root fetch - processPackages [sanic-security]: Downloading https://files.pythonhosted.org/packages/e6/51/bf5adbbe544913e29a8d4c0897a46e3f89761245b8b6f5e613a08badbc01/sanic-security-1.9.9.tar.gz
+[2023-07-04 04:45:08] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-07-04 04:45:08] INFO root fetch - processPackages [markdownparser]: Downloading https://files.pythonhosted.org/packages/82/c3/2f9f1715e2c72de1ac3e1fce76ae7fae2890f472f487e13b727ca63e7091/markdownparser-0.5.1.tar.gz
+[2023-07-04 04:45:08] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/f2/bc/9b7831c3492fc34bcfed2333dc1c410ed602536218f5e57df44f29794d36/policyengine-us-0.354.0.tar.gz
+[2023-07-04 04:45:08] INFO root fetch - processPackages [sanic-security]: executing diffoscope
+[2023-07-04 04:45:08] INFO root fetch - processPackages [sanic-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanic-security-1.9.8.tar.gz tmp/sanic-security-1.9.9.tar.gz --markdown 20230704/s/sanic-security/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-04 04:45:08] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/7f/68/87f6eca1406e5f35351915c2062c1db2b77cdfcaebb646e255d7baf5e023/ats_case-0.9.9.tar.gz
+[2023-07-04 04:45:08] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-07-04 04:45:08] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230704/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-04 04:45:08] INFO root fetch - processPackages [laok]: Downloading https://files.pythonhosted.org/packages/c1/33/f102f4a3b259365ddfe77179621528cf48dae1ef96dc62395620bd9d66bf/laok-0.2.18.tar.gz
+[2023-07-04 04:45:08] INFO root fetch - processPackages [lightning-toolbox]: Downloading https://files.pythonhosted.org/packages/c9/f1/39547b268254026a2f0a4856694ac92d2cb143183580588cfd3696575465/lightning_toolbox-0.0.9.tar.gz
+[2023-07-04 04:45:08] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-04 04:45:08] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.353.0.tar.gz tmp/policyengine-us-0.354.0.tar.gz --markdown 20230704/p/policyengine-us/0.353.0-0.354.0/diff.md --exclude *.pyd
+[2023-07-04 04:45:08] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-07-04 04:45:08] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.9.8.tar.gz tmp/ats_case-0.9.9.tar.gz --markdown 20230704/a/ats-case/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-04 04:45:08] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-07-04 04:45:09] INFO root fetch - processPackages [laok]: executing diffoscope
+[2023-07-04 04:45:09] INFO root fetch - processPackages [laok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laok-0.2.17.tar.gz tmp/laok-0.2.18.tar.gz --markdown 20230704/l/laok/0.2.17-0.2.18/diff.md --exclude *.pyd
+[2023-07-04 04:45:09] INFO root fetch - processPackages [markdownparser]: Downloading https://files.pythonhosted.org/packages/9a/23/77079b49a70ef6a0c2fd25cdc66c9317e5d832dfd692c8dd3c2026db9e20/markdownparser-0.5.2.tar.gz
+[2023-07-04 04:45:09] INFO root fetch - processPackages [lightning-toolbox]: executing diffoscope
+[2023-07-04 04:45:09] INFO root fetch - processPackages [lightning-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_toolbox-0.0.8.tar.gz tmp/lightning_toolbox-0.0.9.tar.gz --markdown 20230704/l/lightning-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 04:45:09] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-07-04 04:45:09] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230704/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-07-04 04:45:09] INFO root fetch - processPackages [markdownparser]: executing diffoscope
+[2023-07-04 04:45:09] INFO root fetch - processPackages [markdownparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdownparser-0.5.1.tar.gz tmp/markdownparser-0.5.2.tar.gz --markdown 20230704/m/markdownparser/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-04 04:45:09] INFO root fetch - processPackages [SunIdea]: Downloading https://files.pythonhosted.org/packages/f1/67/6c9717b8be492a9d90001e07c18efa491ea15ce06af63a54866763947a92/sunidea-0.0.3.tar.gz
+[2023-07-04 04:45:09] INFO root fetch - processPackages [SunIdea]: executing diffoscope
+[2023-07-04 04:45:09] INFO root fetch - processPackages [SunIdea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunidea-0.0.2.tar.gz tmp/sunidea-0.0.3.tar.gz --markdown 20230704/S/SunIdea/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-04 04:45:09] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-04 04:45:09] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-04 04:45:09] INFO root fetch - processPackages [cjm-yolox-pytorch]: Start processing: cdk8s-plus-26
+[2023-07-04 04:45:09] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-04 04:45:09] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-04 04:45:09] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-07-04 04:45:10] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.8.tar.gz]
+[2023-07-04 04:45:10] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.9.tar.gz]
+[2023-07-04 04:45:10] INFO root fetch - processPackages [ats-case]: Start processing: SunIdea
+[2023-07-04 04:45:10] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-07-04 04:45:10] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-07-04 04:45:10] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-07-04 04:45:10] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-07-04 04:45:10] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-07-04 04:45:10] INFO root fetch - processPackages [sanic-security]: Remove: archive file [/home/abi/fetcher/tmp/sanic-security-1.9.8.tar.gz]
+[2023-07-04 04:45:10] INFO root fetch - processPackages [sanic-security]: Remove: archive file [/home/abi/fetcher/tmp/sanic-security-1.9.9.tar.gz]
+[2023-07-04 04:45:10] INFO root fetch - main [MainThread]: End processing [sanic-security]: success
+[2023-07-04 04:45:10] INFO root fetch - processPackages [SunIdea]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-04 04:45:10] INFO root fetch - processPackages [lightning-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/lightning_toolbox-0.0.8.tar.gz]
+[2023-07-04 04:45:10] INFO root fetch - processPackages [lightning-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/lightning_toolbox-0.0.9.tar.gz]
+[2023-07-04 04:45:10] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-04 04:45:10] INFO root fetch - main [MainThread]: End processing [lightning-toolbox]: success
+[2023-07-04 04:45:10] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230704/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-07-04 04:45:10] INFO root fetch - processPackages [markdownparser]: Remove: archive file [/home/abi/fetcher/tmp/markdownparser-0.5.1.tar.gz]
+[2023-07-04 04:45:10] INFO root fetch - processPackages [markdownparser]: Remove: archive file [/home/abi/fetcher/tmp/markdownparser-0.5.2.tar.gz]
+[2023-07-04 04:45:10] INFO root fetch - processPackages [SunIdea]: Downloading https://files.pythonhosted.org/packages/94/55/b3078f9bbef34acd7e5e952b1f399a67ab8fc72ccfc7fe14c2b60197d06d/sunidea-0.0.4.tar.gz
+[2023-07-04 04:45:10] INFO root fetch - main [MainThread]: End processing [markdownparser]: success
+[2023-07-04 04:45:10] INFO root fetch - processPackages [laok]: Remove: archive file [/home/abi/fetcher/tmp/laok-0.2.17.tar.gz]
+[2023-07-04 04:45:10] INFO root fetch - processPackages [laok]: Remove: archive file [/home/abi/fetcher/tmp/laok-0.2.18.tar.gz]
+[2023-07-04 04:45:10] INFO root fetch - main [MainThread]: End processing [laok]: success
+[2023-07-04 04:45:10] INFO root fetch - processPackages [SunIdea]: executing diffoscope
+[2023-07-04 04:45:10] INFO root fetch - processPackages [SunIdea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunidea-0.0.3.tar.gz tmp/sunidea-0.0.4.tar.gz --markdown 20230704/S/SunIdea/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-04 04:45:11] INFO root fetch - processPackages [SunIdea]: Remove: archive file [/home/abi/fetcher/tmp/sunidea-0.0.2.tar.gz]
+[2023-07-04 04:45:11] INFO root fetch - processPackages [SunIdea]: Remove: archive file [/home/abi/fetcher/tmp/sunidea-0.0.3.tar.gz]
+[2023-07-04 04:45:11] INFO root fetch - main [MainThread]: End processing [SunIdea]: success
+[2023-07-04 04:45:11] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-07-04 04:45:11] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-07-04 04:45:11] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-07-04 04:45:11] ERROR root fetch - processPackages [SunIdea]: Diffoscope failed: time="2023-07-04T04:45:10+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/sunidea-0.0.3.tar.gz: No such file or directory
+
+[2023-07-04 04:45:11] INFO root fetch - main [MainThread]: End processing [SunIdea] error
+[2023-07-04 04:45:11] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-07-04 04:45:11] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-07-04 04:45:11] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-04 04:45:33] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.353.0.tar.gz]
+[2023-07-04 04:45:33] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.354.0.tar.gz]
+[2023-07-04 04:45:33] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-04 04:45:33] INFO root fetch - main [MainThread]: Store serial: [18749662]
