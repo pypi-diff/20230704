@@ -14094,3 +14094,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 09:05:11] INFO root fetch - processPackages [algokit]: Remove: archive file [/home/abi/fetcher/tmp/algokit-1.2.0-py3-none-any.whl.zip]
 [2023-07-04 09:05:11] INFO root fetch - main [MainThread]: End processing [algokit]: success
 [2023-07-04 09:05:11] INFO root fetch - main [MainThread]: Store serial: [18751241]
+[2023-07-04 09:10:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18751241]
+[2023-07-04 09:10:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-04 09:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CurvPy
+[2023-07-04 09:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SELDOMpy
+[2023-07-04 09:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Calkulate
+[2023-07-04 09:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-04 09:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omicverse
+[2023-07-04 09:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ir-digit
+[2023-07-04 09:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: minty
+[2023-07-04 09:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: engression
+[2023-07-04 09:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CORS-Analyzer
+[2023-07-04 09:10:20] WARNING root fetch - processPackages [CurvPy]: Skipping, unable to determine old version
+[2023-07-04 09:10:20] INFO root fetch - main [MainThread]: End processing [CurvPy] error
+[2023-07-04 09:10:20] INFO root fetch - processPackages [SELDOMpy]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-07-04 09:10:20] WARNING root fetch - processPackages [CORS-Analyzer]: Skipping, unable to determine old version
+[2023-07-04 09:10:20] INFO root fetch - main [MainThread]: End processing [CORS-Analyzer] error
+[2023-07-04 09:10:20] INFO root fetch - processPackages [Calkulate]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-07-04 09:10:20] INFO root fetch - processPackages [omicverse]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-07-04 09:10:20] INFO root fetch - processPackages [ir-digit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 09:10:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-04 09:10:21] INFO root fetch - processPackages [minty]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-04 09:10:21] INFO root fetch - processPackages [engression]: New version: [0.0.1] Old Version: [0.0.0.dev0]
+[2023-07-04 09:10:21] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/13/8d/28f7eda19d06a28525737eac0126409e56176e1a3db989013d202807f091/ir_digit-0.0.8.tar.gz
+[2023-07-04 09:10:21] INFO root fetch - processPackages [omicverse]: Downloading https://files.pythonhosted.org/packages/43/73/fe32501fd606e03cb4c995df426b598a9359db926d5a18f98111af8d72d8/omicverse-1.4.7.tar.gz
+[2023-07-04 09:10:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-04 09:10:21] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/a2/1e/60fedb7735e099deaa0c34ebbef878696f48c4005f3589e01d4137773a5f/SELDOMpy-0.6.9.tar.gz
+[2023-07-04 09:10:21] INFO root fetch - processPackages [Calkulate]: Downloading https://files.pythonhosted.org/packages/b3/b1/b5fde9f309e7b0a2316c35413b670399ba7279dd3558e1661cd01b04cc2f/Calkulate-3.0.1.tar.gz
+[2023-07-04 09:10:21] INFO root fetch - processPackages [minty]: Downloading https://files.pythonhosted.org/packages/80/23/b6520e4805f1835bf0205e1e79ed5c3b66c4b059d186b4209993ce9802c1/minty-3.0.8.tar.gz
+[2023-07-04 09:10:21] INFO root fetch - processPackages [engression]: Downloading https://files.pythonhosted.org/packages/78/82/eab20d79ae79e9707b3a864dc8744b21eee830cb8ccb9543f3796dde9bb1/engression-0.0.0.dev0.tar.gz
+[2023-07-04 09:10:21] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/c0/e1/8cdd06668f7ad179caab43915da3e6ca91882c998be4777dc2b190a0b1fd/ir_digit-0.0.9.tar.gz
+[2023-07-04 09:10:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-04 09:10:21] INFO root fetch - processPackages [ir-digit]: executing diffoscope
+[2023-07-04 09:10:21] INFO root fetch - processPackages [ir-digit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ir_digit-0.0.8.tar.gz tmp/ir_digit-0.0.9.tar.gz --markdown 20230704/i/ir-digit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 09:10:21] INFO root fetch - processPackages [omicverse]: Downloading https://files.pythonhosted.org/packages/65/e7/7af99817b6a4daeccfd1d730da16caa5534e801d1a03773924bcef64cfe9/omicverse-1.4.8.tar.gz
+[2023-07-04 09:10:21] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/81/68/bde0b6cce73f3e9fc14803a58adfddbde7416ad3515c80e097839ec57ce5/SELDOMpy-0.7.0-py3.8-win-amd64.egg
+[2023-07-04 09:10:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-04 09:10:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230704/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 09:10:21] INFO root fetch - processPackages [Calkulate]: Downloading https://files.pythonhosted.org/packages/1d/b1/99bd76f9eb38d249875865e79af1f91752008f5c3ef504e048bb7f2eb16d/Calkulate-3.1.0.tar.gz
+[2023-07-04 09:10:21] INFO root fetch - processPackages [omicverse]: executing diffoscope
+[2023-07-04 09:10:21] INFO root fetch - processPackages [omicverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omicverse-1.4.7.tar.gz tmp/omicverse-1.4.8.tar.gz --markdown 20230704/o/omicverse/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-07-04 09:10:21] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-04 09:10:21] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.6.9.tar.gz tmp/SELDOMpy-0.7.0-py3.8-win-amd64.egg --markdown 20230704/S/SELDOMpy/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-07-04 09:10:21] INFO root fetch - processPackages [minty]: Downloading https://files.pythonhosted.org/packages/b7/18/2e3813414322487a46a33aef42b6655f1936f17586c9e2d3b37766bbbbcb/minty-3.0.9.tar.gz
+[2023-07-04 09:10:21] INFO root fetch - processPackages [engression]: Downloading https://files.pythonhosted.org/packages/2d/af/d00eeedbad88a06fb41a17702c3ba76cdddd449ae3a189070ea24305b4ea/engression-0.0.1.tar.gz
+[2023-07-04 09:10:21] INFO root fetch - processPackages [Calkulate]: executing diffoscope
+[2023-07-04 09:10:21] INFO root fetch - processPackages [Calkulate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Calkulate-3.0.1.tar.gz tmp/Calkulate-3.1.0.tar.gz --markdown 20230704/C/Calkulate/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-07-04 09:10:22] INFO root fetch - processPackages [minty]: executing diffoscope
+[2023-07-04 09:10:22] INFO root fetch - processPackages [minty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minty-3.0.8.tar.gz tmp/minty-3.0.9.tar.gz --markdown 20230704/m/minty/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-04 09:10:22] INFO root fetch - processPackages [engression]: executing diffoscope
+[2023-07-04 09:10:22] INFO root fetch - processPackages [engression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/engression-0.0.0.dev0.tar.gz tmp/engression-0.0.1.tar.gz --markdown 20230704/e/engression/0.0.0.dev0-0.0.1/diff.md --exclude *.pyd
+[2023-07-04 09:10:22] INFO root fetch - processPackages [ir-digit]: Remove: archive file [/home/abi/fetcher/tmp/ir_digit-0.0.8.tar.gz]
+[2023-07-04 09:10:22] INFO root fetch - processPackages [ir-digit]: Remove: archive file [/home/abi/fetcher/tmp/ir_digit-0.0.9.tar.gz]
+[2023-07-04 09:10:22] INFO root fetch - main [MainThread]: End processing [ir-digit]: success
+[2023-07-04 09:10:22] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-04 09:10:22] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-04 09:10:22] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-04 09:10:23] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.6.9.tar.gz]
+[2023-07-04 09:10:23] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.7.0-py3.8-win-amd64.egg]
+[2023-07-04 09:10:23] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-04 09:10:23] INFO root fetch - processPackages [engression]: Remove: archive file [/home/abi/fetcher/tmp/engression-0.0.0.dev0.tar.gz]
+[2023-07-04 09:10:23] INFO root fetch - processPackages [engression]: Remove: archive file [/home/abi/fetcher/tmp/engression-0.0.1.tar.gz]
+[2023-07-04 09:10:23] INFO root fetch - main [MainThread]: End processing [engression]: success
+[2023-07-04 09:10:23] INFO root fetch - processPackages [minty]: Remove: archive file [/home/abi/fetcher/tmp/minty-3.0.8.tar.gz]
+[2023-07-04 09:10:23] INFO root fetch - processPackages [minty]: Remove: archive file [/home/abi/fetcher/tmp/minty-3.0.9.tar.gz]
+[2023-07-04 09:10:23] INFO root fetch - main [MainThread]: End processing [minty]: success
+[2023-07-04 09:10:23] INFO root fetch - processPackages [Calkulate]: Remove: archive file [/home/abi/fetcher/tmp/Calkulate-3.0.1.tar.gz]
+[2023-07-04 09:10:23] INFO root fetch - processPackages [Calkulate]: Remove: archive file [/home/abi/fetcher/tmp/Calkulate-3.1.0.tar.gz]
+[2023-07-04 09:10:23] INFO root fetch - main [MainThread]: End processing [Calkulate]: success
+[2023-07-04 09:10:23] INFO root fetch - processPackages [omicverse]: Remove: archive file [/home/abi/fetcher/tmp/omicverse-1.4.7.tar.gz]
+[2023-07-04 09:10:23] INFO root fetch - processPackages [omicverse]: Remove: archive file [/home/abi/fetcher/tmp/omicverse-1.4.8.tar.gz]
+[2023-07-04 09:10:23] INFO root fetch - main [MainThread]: End processing [omicverse]: success
+[2023-07-04 09:10:23] INFO root fetch - main [MainThread]: Store serial: [18751270]
