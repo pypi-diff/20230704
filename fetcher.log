@@ -10277,3 +10277,45 @@
 [2023-07-04 05:11:48] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.3.dev202307040309.tar.gz]
 [2023-07-04 05:11:48] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
 [2023-07-04 05:11:48] INFO root fetch - main [MainThread]: Store serial: [18749789]
+[2023-07-04 05:16:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18749789]
+[2023-07-04 05:16:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-04 05:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xgorn-api
+[2023-07-04 05:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rotman-ncs
+[2023-07-04 05:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psex
+[2023-07-04 05:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vercel-kv
+[2023-07-04 05:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: httpie-mauth
+[2023-07-04 05:16:57] INFO root fetch - processPackages [vercel-kv]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-04 05:16:57] INFO root fetch - processPackages [xgorn-api]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-04 05:16:57] WARNING root fetch - processPackages [rotman-ncs]: Skipping, unable to determine old version
+[2023-07-04 05:16:57] INFO root fetch - main [MainThread]: End processing [rotman-ncs] error
+[2023-07-04 05:16:57] INFO root fetch - processPackages [psex]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-04 05:16:57] INFO root fetch - processPackages [vercel-kv]: Downloading https://files.pythonhosted.org/packages/d9/13/b8ab9ddd9892d530f1081189e9f98818abc9d56273a61b787bf19ee28618/vercel_kv-0.1.2.tar.gz
+[2023-07-04 05:16:57] INFO root fetch - processPackages [httpie-mauth]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-04 05:16:57] INFO root fetch - processPackages [vercel-kv]: Downloading https://files.pythonhosted.org/packages/fd/cc/7f27480269a00085a14dc9ed060fc161ebb890c2aa19d0a9af8e4c5f3748/vercel_kv-0.1.3.tar.gz
+[2023-07-04 05:16:57] INFO root fetch - processPackages [xgorn-api]: Downloading https://files.pythonhosted.org/packages/9c/cb/e6826ff513967f31f45fe78447c7cd5aeb359f232b016a84ab530db9c66c/xgorn-api-1.0.0.tar.gz
+[2023-07-04 05:16:57] INFO root fetch - processPackages [psex]: Downloading https://files.pythonhosted.org/packages/27/b8/894408d1f261451311ec4c4054136031fb3da3acdbcd94396fdbd3eede4e/psex-0.1.3.tar.gz
+[2023-07-04 05:16:57] INFO root fetch - processPackages [httpie-mauth]: Downloading https://files.pythonhosted.org/packages/89/92/071b0fd6aee22a80224e39fc007389aa45a7bd917b4998d3a3046ee1404e/httpie_mauth-0.0.3.tar.gz
+[2023-07-04 05:16:57] INFO root fetch - processPackages [vercel-kv]: executing diffoscope
+[2023-07-04 05:16:57] INFO root fetch - processPackages [vercel-kv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vercel_kv-0.1.2.tar.gz tmp/vercel_kv-0.1.3.tar.gz --markdown 20230704/v/vercel-kv/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-04 05:16:57] INFO root fetch - processPackages [xgorn-api]: Downloading https://files.pythonhosted.org/packages/b1/37/7938902eecc63cf106137b5b5559cceb234438e161e5ed84e4401e996d54/xgorn-api-1.0.1.tar.gz
+[2023-07-04 05:16:57] INFO root fetch - processPackages [httpie-mauth]: Downloading https://files.pythonhosted.org/packages/a9/b5/e78a21382c8a2bc4313bb1e9d088c9146694bbf20baac8def089cb073471/httpie_mauth-0.0.4.tar.gz
+[2023-07-04 05:16:58] INFO root fetch - processPackages [psex]: Downloading https://files.pythonhosted.org/packages/bd/1b/74c1ecaf3d882e2cf27865ddbb0724fb798124aaa1ff9020b8ce774b6d32/psex-0.1.4.tar.gz
+[2023-07-04 05:16:58] INFO root fetch - processPackages [xgorn-api]: executing diffoscope
+[2023-07-04 05:16:58] INFO root fetch - processPackages [xgorn-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xgorn-api-1.0.0.tar.gz tmp/xgorn-api-1.0.1.tar.gz --markdown 20230704/x/xgorn-api/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-04 05:16:58] INFO root fetch - processPackages [httpie-mauth]: executing diffoscope
+[2023-07-04 05:16:58] INFO root fetch - processPackages [httpie-mauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpie_mauth-0.0.3.tar.gz tmp/httpie_mauth-0.0.4.tar.gz --markdown 20230704/h/httpie-mauth/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-04 05:16:58] INFO root fetch - processPackages [psex]: executing diffoscope
+[2023-07-04 05:16:58] INFO root fetch - processPackages [psex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psex-0.1.3.tar.gz tmp/psex-0.1.4.tar.gz --markdown 20230704/p/psex/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-04 05:16:58] INFO root fetch - processPackages [vercel-kv]: Remove: archive file [/home/abi/fetcher/tmp/vercel_kv-0.1.2.tar.gz]
+[2023-07-04 05:16:58] INFO root fetch - processPackages [vercel-kv]: Remove: archive file [/home/abi/fetcher/tmp/vercel_kv-0.1.3.tar.gz]
+[2023-07-04 05:16:58] INFO root fetch - main [MainThread]: End processing [vercel-kv]: success
+[2023-07-04 05:16:58] INFO root fetch - processPackages [xgorn-api]: Remove: archive file [/home/abi/fetcher/tmp/xgorn-api-1.0.0.tar.gz]
+[2023-07-04 05:16:58] INFO root fetch - processPackages [xgorn-api]: Remove: archive file [/home/abi/fetcher/tmp/xgorn-api-1.0.1.tar.gz]
+[2023-07-04 05:16:58] INFO root fetch - main [MainThread]: End processing [xgorn-api]: success
+[2023-07-04 05:16:59] INFO root fetch - processPackages [psex]: Remove: archive file [/home/abi/fetcher/tmp/psex-0.1.3.tar.gz]
+[2023-07-04 05:16:59] INFO root fetch - processPackages [psex]: Remove: archive file [/home/abi/fetcher/tmp/psex-0.1.4.tar.gz]
+[2023-07-04 05:16:59] INFO root fetch - main [MainThread]: End processing [psex]: success
+[2023-07-04 05:16:59] INFO root fetch - processPackages [httpie-mauth]: Remove: archive file [/home/abi/fetcher/tmp/httpie_mauth-0.0.3.tar.gz]
+[2023-07-04 05:16:59] INFO root fetch - processPackages [httpie-mauth]: Remove: archive file [/home/abi/fetcher/tmp/httpie_mauth-0.0.4.tar.gz]
+[2023-07-04 05:16:59] INFO root fetch - main [MainThread]: End processing [httpie-mauth]: success
+[2023-07-04 05:16:59] INFO root fetch - main [MainThread]: Store serial: [18749808]
