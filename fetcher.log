@@ -13055,3 +13055,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 08:02:14] INFO root fetch - processPackages [starwhale]: Remove: archive file [/home/abi/fetcher/tmp/starwhale-0.5.3.tar.gz]
 [2023-07-04 08:02:14] INFO root fetch - main [MainThread]: End processing [starwhale]: success
 [2023-07-04 08:02:14] INFO root fetch - main [MainThread]: Store serial: [18750860]
+[2023-07-04 08:07:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18750860]
+[2023-07-04 08:07:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-04 08:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: msgtools
+[2023-07-04 08:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moptipy
+[2023-07-04 08:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fanbookbotapi
+[2023-07-04 08:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prompt-pilot
+[2023-07-04 08:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-game-collection
+[2023-07-04 08:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omicverse
+[2023-07-04 08:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: remotivelabs-broker
+[2023-07-04 08:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: doc-spell
+[2023-07-04 08:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ytdld
+[2023-07-04 08:07:24] INFO root fetch - processPackages [omicverse]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-07-04 08:07:24] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-04 08:07:24] WARNING root fetch - processPackages [ytdld]: Skipping, unable to determine old version
+[2023-07-04 08:07:24] INFO root fetch - main [MainThread]: End processing [ytdld] error
+[2023-07-04 08:07:24] INFO root fetch - processPackages [msgtools]: New version: [0.37.9] Old Version: [0.37.8]
+[2023-07-04 08:07:24] INFO root fetch - processPackages [remotivelabs-broker]: New version: [0.2.0b2] Old Version: [0.2.0b1]
+[2023-07-04 08:07:24] INFO root fetch - processPackages [fanbookbotapi]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-04 08:07:24] INFO root fetch - processPackages [doc-spell]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-04 08:07:24] INFO root fetch - processPackages [prompt-pilot]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-04 08:07:24] INFO root fetch - processPackages [moptipy]: New version: [0.9.9] Old Version: [0.9.81]
+[2023-07-04 08:07:24] INFO root fetch - processPackages [remotivelabs-broker]: Downloading https://files.pythonhosted.org/packages/c2/39/1d8216935c0a14f874a0e24c15eb3c4baf2a6042bb4f8b7bda932001bb16/remotivelabs_broker-0.2.0b1.tar.gz
+[2023-07-04 08:07:24] INFO root fetch - processPackages [fanbookbotapi]: Downloading https://files.pythonhosted.org/packages/b0/38/5a3f43ccb7419ec7860db3eef4369910f8bfab2b1e865843ac575e37951a/fanbookbotapi-1.1.0.tar.gz
+[2023-07-04 08:07:24] INFO root fetch - processPackages [omicverse]: Downloading https://files.pythonhosted.org/packages/f6/88/0ed8d81f1ff32be1ac89a51c29295a89bcf9d96ca19e803f7c44af3836c4/omicverse-1.4.6.tar.gz
+[2023-07-04 08:07:24] INFO root fetch - processPackages [prompt-pilot]: Downloading https://files.pythonhosted.org/packages/80/30/785fdb04256cbf80e8d802d7e92654263d9684bce4d595b50b2e99b1aaf7/prompt_pilot-0.0.1.tar.gz
+[2023-07-04 08:07:24] INFO root fetch - processPackages [msgtools]: Downloading https://files.pythonhosted.org/packages/7d/59/9696702004790478037795e29ddee31ec985188032bea29a55bd2b57a49f/msgtools-0.37.8.tar.gz
+[2023-07-04 08:07:24] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-07-04 08:07:24] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/b5/63/c027aa2843e07c36dce826c3e46d9f6e46e0bc0a47108d55d6bfb31d5db5/moptipy-0.9.81.tar.gz
+[2023-07-04 08:07:24] INFO root fetch - processPackages [doc-spell]: Downloading https://files.pythonhosted.org/packages/67/38/773a7c0e0f1ffd7eb6ccf0ec294c94bc751a4a1409be38080f640eb41f2b/doc_spell-0.1.0-py3-none-any.whl
+[2023-07-04 08:07:24] INFO root fetch - processPackages [fanbookbotapi]: Downloading https://files.pythonhosted.org/packages/88/bf/981a059787024ef173d9b22b8ef15279e439c2564f4fc9a59fc624077c5b/fanbookbotapi-1.1.1.tar.gz
+[2023-07-04 08:07:24] INFO root fetch - processPackages [prompt-pilot]: Downloading https://files.pythonhosted.org/packages/4a/a0/42974a8e92baafb9073703559c32bdb4740a2d210f47f592481f5ade172f/prompt_pilot-0.0.2.tar.gz
+[2023-07-04 08:07:24] INFO root fetch - processPackages [msgtools]: Downloading https://files.pythonhosted.org/packages/d3/70/2af7ea5f6cf914e873391bbc1a91d620ec0350535ff65d69e6bc6c108d4a/msgtools-0.37.9.tar.gz
+[2023-07-04 08:07:24] INFO root fetch - processPackages [doc-spell]: Downloading https://files.pythonhosted.org/packages/b2/a3/db9cc5cb3c2cd897ab42d789398dd2448075c22b3e942c203dceb91649b7/doc_spell-0.2.0-py3-none-any.whl
+[2023-07-04 08:07:24] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-07-04 08:07:24] INFO root fetch - processPackages [remotivelabs-broker]: Downloading https://files.pythonhosted.org/packages/92/a3/76a73a6257506fba8febd62c925cbfd4139501fed37a33399f5ecbe4948a/remotivelabs_broker-0.2.0b2.tar.gz
+[2023-07-04 08:07:24] INFO root fetch - processPackages [prompt-pilot]: executing diffoscope
+[2023-07-04 08:07:24] INFO root fetch - processPackages [prompt-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt_pilot-0.0.1.tar.gz tmp/prompt_pilot-0.0.2.tar.gz --markdown 20230704/p/prompt-pilot/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-04 08:07:24] INFO root fetch - processPackages [fanbookbotapi]: executing diffoscope
+[2023-07-04 08:07:24] INFO root fetch - processPackages [fanbookbotapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fanbookbotapi-1.1.0.tar.gz tmp/fanbookbotapi-1.1.1.tar.gz --markdown 20230704/f/fanbookbotapi/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-04 08:07:24] INFO root fetch - processPackages [omicverse]: Downloading https://files.pythonhosted.org/packages/43/73/fe32501fd606e03cb4c995df426b598a9359db926d5a18f98111af8d72d8/omicverse-1.4.7.tar.gz
+[2023-07-04 08:07:25] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/86/d3/45297bbff0974d528e5da780bc1bf48f8418230162685da0ba8212246056/moptipy-0.9.9.tar.gz
+[2023-07-04 08:07:25] INFO root fetch - processPackages [doc-spell]: executing diffoscope
+[2023-07-04 08:07:25] INFO root fetch - processPackages [doc-spell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doc_spell-0.1.0-py3-none-any.whl.zip tmp/doc_spell-0.2.0-py3-none-any.whl.zip --markdown 20230704/d/doc-spell/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-04 08:07:25] INFO root fetch - processPackages [msgtools]: executing diffoscope
+[2023-07-04 08:07:25] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-04 08:07:25] INFO root fetch - processPackages [msgtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgtools-0.37.8.tar.gz tmp/msgtools-0.37.9.tar.gz --markdown 20230704/m/msgtools/0.37.8-0.37.9/diff.md --exclude *.pyd
+[2023-07-04 08:07:25] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230704/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-04 08:07:25] INFO root fetch - processPackages [remotivelabs-broker]: executing diffoscope
+[2023-07-04 08:07:25] INFO root fetch - processPackages [remotivelabs-broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotivelabs_broker-0.2.0b1.tar.gz tmp/remotivelabs_broker-0.2.0b2.tar.gz --markdown 20230704/r/remotivelabs-broker/0.2.0b1-0.2.0b2/diff.md --exclude *.pyd
+[2023-07-04 08:07:25] INFO root fetch - processPackages [moptipy]: executing diffoscope
+[2023-07-04 08:07:25] INFO root fetch - processPackages [moptipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipy-0.9.81.tar.gz tmp/moptipy-0.9.9.tar.gz --markdown 20230704/m/moptipy/0.9.81-0.9.9/diff.md --exclude *.pyd
+[2023-07-04 08:07:25] INFO root fetch - processPackages [omicverse]: executing diffoscope
+[2023-07-04 08:07:25] INFO root fetch - processPackages [omicverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omicverse-1.4.6.tar.gz tmp/omicverse-1.4.7.tar.gz --markdown 20230704/o/omicverse/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2023-07-04 08:07:26] INFO root fetch - processPackages [fanbookbotapi]: Remove: archive file [/home/abi/fetcher/tmp/fanbookbotapi-1.1.0.tar.gz]
+[2023-07-04 08:07:26] INFO root fetch - processPackages [fanbookbotapi]: Remove: archive file [/home/abi/fetcher/tmp/fanbookbotapi-1.1.1.tar.gz]
+[2023-07-04 08:07:26] INFO root fetch - main [MainThread]: End processing [fanbookbotapi]: success
+[2023-07-04 08:07:26] INFO root fetch - processPackages [prompt-pilot]: Remove: archive file [/home/abi/fetcher/tmp/prompt_pilot-0.0.1.tar.gz]
+[2023-07-04 08:07:26] INFO root fetch - processPackages [prompt-pilot]: Remove: archive file [/home/abi/fetcher/tmp/prompt_pilot-0.0.2.tar.gz]
+[2023-07-04 08:07:26] INFO root fetch - main [MainThread]: End processing [prompt-pilot]: success
+[2023-07-04 08:07:26] INFO root fetch - processPackages [doc-spell]: Remove: archive file [/home/abi/fetcher/tmp/doc_spell-0.1.0-py3-none-any.whl.zip]
+[2023-07-04 08:07:26] INFO root fetch - processPackages [doc-spell]: Remove: archive file [/home/abi/fetcher/tmp/doc_spell-0.2.0-py3-none-any.whl.zip]
+[2023-07-04 08:07:26] INFO root fetch - main [MainThread]: End processing [doc-spell]: success
+[2023-07-04 08:07:26] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-07-04 08:07:26] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-07-04 08:07:26] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-04 08:07:26] INFO root fetch - processPackages [remotivelabs-broker]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_broker-0.2.0b1.tar.gz]
+[2023-07-04 08:07:26] INFO root fetch - processPackages [remotivelabs-broker]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_broker-0.2.0b2.tar.gz]
+[2023-07-04 08:07:26] INFO root fetch - main [MainThread]: End processing [remotivelabs-broker]: success
+[2023-07-04 08:07:26] INFO root fetch - processPackages [msgtools]: Remove: archive file [/home/abi/fetcher/tmp/msgtools-0.37.8.tar.gz]
+[2023-07-04 08:07:26] INFO root fetch - processPackages [msgtools]: Remove: archive file [/home/abi/fetcher/tmp/msgtools-0.37.9.tar.gz]
+[2023-07-04 08:07:26] INFO root fetch - main [MainThread]: End processing [msgtools]: success
+[2023-07-04 08:07:27] INFO root fetch - processPackages [omicverse]: Remove: archive file [/home/abi/fetcher/tmp/omicverse-1.4.6.tar.gz]
+[2023-07-04 08:07:27] INFO root fetch - processPackages [omicverse]: Remove: archive file [/home/abi/fetcher/tmp/omicverse-1.4.7.tar.gz]
+[2023-07-04 08:07:27] INFO root fetch - main [MainThread]: End processing [omicverse]: success
+[2023-07-04 08:07:28] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.81.tar.gz]
+[2023-07-04 08:07:28] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.9.tar.gz]
+[2023-07-04 08:07:28] INFO root fetch - main [MainThread]: End processing [moptipy]: success
+[2023-07-04 08:07:28] INFO root fetch - main [MainThread]: Store serial: [18750888]
