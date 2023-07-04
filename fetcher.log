@@ -4968,3 +4968,69 @@
 [2023-07-04 02:55:33] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.8.tar.gz]
 [2023-07-04 02:55:33] INFO root fetch - main [MainThread]: End processing [ats-case]: success
 [2023-07-04 02:55:33] INFO root fetch - main [MainThread]: Store serial: [18747782]
+[2023-07-04 03:00:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18747782]
+[2023-07-04 03:00:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-04 03:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aioesphomeapi
+[2023-07-04 03:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sccd45ra
+[2023-07-04 03:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autopack-tools
+[2023-07-04 03:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lib-pybroker
+[2023-07-04 03:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omnata-plugin-runtime
+[2023-07-04 03:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ats-base
+[2023-07-04 03:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-slack-chatbot
+[2023-07-04 03:00:42] INFO root fetch - processPackages [sccd45ra]: New version: [0.3] Old Version: [0.2.1]
+[2023-07-04 03:00:42] INFO root fetch - processPackages [autopack-tools]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-04 03:00:42] INFO root fetch - processPackages [lib-pybroker]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-04 03:00:42] INFO root fetch - processPackages [aioesphomeapi]: New version: [9.1.5] Old Version: [9.1.4]
+[2023-07-04 03:00:42] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 03:00:42] INFO root fetch - processPackages [ats-base]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-07-04 03:00:42] INFO root fetch - processPackages [lib-pybroker]: Downloading https://files.pythonhosted.org/packages/34/3c/7a7a15f5a575198f5681a2eacd112a20ad5dca5783c6e8b758896a6818cf/lib-pybroker-1.1.8.tar.gz
+[2023-07-04 03:00:42] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-04 03:00:42] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-07-04 03:00:42] INFO root fetch - processPackages [sccd45ra]: Downloading https://files.pythonhosted.org/packages/2a/8e/ed68b328b4fc7813810d805f2a742b4b49458ba394611d929ad68c3ea6b6/sccd45ra-0.2.1.tar.gz
+[2023-07-04 03:00:42] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/62/7f/d2cc3b95dfe936bbad8f3956f274147389d6625de031d1105261491bffd9/aioesphomeapi-9.1.4.tar.gz
+[2023-07-04 03:00:42] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/5d/98/8840280aecc335cd4f4553eeee6736b046226e00a27aed9eadba6e9c91f8/autopack_tools-0.2.1.tar.gz
+[2023-07-04 03:00:42] INFO root fetch - processPackages [ats-base]: Downloading https://files.pythonhosted.org/packages/1d/a9/115b4cfcfe6366ff8a708d60bbfa6b3e08e0a0f4224799d2743167e1f613/ats_base-1.1.6.tar.gz
+[2023-07-04 03:00:42] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/18/e1/39c7ef0a63f08b4cdd9206beb69861062b890aa42bf0ead00ce61f92d7e4/cdk-slack-chatbot-1.0.98.tar.gz
+[2023-07-04 03:00:42] INFO root fetch - processPackages [lib-pybroker]: Downloading https://files.pythonhosted.org/packages/92/47/5d3c2f878c1e65d38032b9450a585161c2761a80814b046f502951c65eed/lib-pybroker-1.1.9.tar.gz
+[2023-07-04 03:00:42] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-07-04 03:00:42] INFO root fetch - processPackages [sccd45ra]: Downloading https://files.pythonhosted.org/packages/ca/a1/30104d863f4ebc9ac0d2452bb22a2c72b47c9abf0d113847607dd1cacdaa/sccd45ra-0.3.tar.gz
+[2023-07-04 03:00:42] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-07-04 03:00:42] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230704/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 03:00:42] INFO root fetch - processPackages [lib-pybroker]: executing diffoscope
+[2023-07-04 03:00:42] INFO root fetch - processPackages [lib-pybroker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib-pybroker-1.1.8.tar.gz tmp/lib-pybroker-1.1.9.tar.gz --markdown 20230704/l/lib-pybroker/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-04 03:00:42] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/25/98/cbf2041b8fb3632d8c814c5a736eef2c5282a911d232ee50d75f5789ae93/autopack_tools-0.2.2.tar.gz
+[2023-07-04 03:00:42] INFO root fetch - processPackages [ats-base]: Downloading https://files.pythonhosted.org/packages/ce/8c/5c33f8e808508c636b088c959c948fb0e67f39a6ace64a501c9b9c50a7ff/ats_base-1.1.7.tar.gz
+[2023-07-04 03:00:42] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/95/57/381c894380ec58a8c891a923696dc0d97d7af266921f326f942ec3332685/aioesphomeapi-9.1.5.tar.gz
+[2023-07-04 03:00:42] INFO root fetch - processPackages [sccd45ra]: executing diffoscope
+[2023-07-04 03:00:42] INFO root fetch - processPackages [sccd45ra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sccd45ra-0.2.1.tar.gz tmp/sccd45ra-0.3.tar.gz --markdown 20230704/s/sccd45ra/0.2.1-0.3/diff.md --exclude *.pyd
+[2023-07-04 03:00:43] INFO root fetch - processPackages [autopack-tools]: executing diffoscope
+[2023-07-04 03:00:43] INFO root fetch - processPackages [autopack-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopack_tools-0.2.1.tar.gz tmp/autopack_tools-0.2.2.tar.gz --markdown 20230704/a/autopack-tools/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-04 03:00:43] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/12/72/dc851f78a8ed85e11196ca9ee9dd0d9524d10ba5e6a193ae2ce79645cb38/cdk-slack-chatbot-1.0.99.tar.gz
+[2023-07-04 03:00:43] INFO root fetch - processPackages [ats-base]: executing diffoscope
+[2023-07-04 03:00:43] INFO root fetch - processPackages [ats-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_base-1.1.6.tar.gz tmp/ats_base-1.1.7.tar.gz --markdown 20230704/a/ats-base/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-07-04 03:00:43] INFO root fetch - processPackages [aioesphomeapi]: executing diffoscope
+[2023-07-04 03:00:43] INFO root fetch - processPackages [aioesphomeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioesphomeapi-9.1.4.tar.gz tmp/aioesphomeapi-9.1.5.tar.gz --markdown 20230704/a/aioesphomeapi/9.1.4-9.1.5/diff.md --exclude *.pyd
+[2023-07-04 03:00:43] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-07-04 03:00:43] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230704/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-04 03:00:44] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-07-04 03:00:44] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-07-04 03:00:44] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-07-04 03:00:44] INFO root fetch - processPackages [lib-pybroker]: Remove: archive file [/home/abi/fetcher/tmp/lib-pybroker-1.1.8.tar.gz]
+[2023-07-04 03:00:44] INFO root fetch - processPackages [lib-pybroker]: Remove: archive file [/home/abi/fetcher/tmp/lib-pybroker-1.1.9.tar.gz]
+[2023-07-04 03:00:44] INFO root fetch - main [MainThread]: End processing [lib-pybroker]: success
+[2023-07-04 03:00:44] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.2.1.tar.gz]
+[2023-07-04 03:00:44] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.2.2.tar.gz]
+[2023-07-04 03:00:44] INFO root fetch - main [MainThread]: End processing [autopack-tools]: success
+[2023-07-04 03:00:44] INFO root fetch - processPackages [sccd45ra]: Remove: archive file [/home/abi/fetcher/tmp/sccd45ra-0.2.1.tar.gz]
+[2023-07-04 03:00:44] INFO root fetch - processPackages [sccd45ra]: Remove: archive file [/home/abi/fetcher/tmp/sccd45ra-0.3.tar.gz]
+[2023-07-04 03:00:44] INFO root fetch - main [MainThread]: End processing [sccd45ra]: success
+[2023-07-04 03:00:44] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.4.tar.gz]
+[2023-07-04 03:00:44] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.5.tar.gz]
+[2023-07-04 03:00:44] INFO root fetch - main [MainThread]: End processing [aioesphomeapi]: success
+[2023-07-04 03:00:44] INFO root fetch - processPackages [ats-base]: Remove: archive file [/home/abi/fetcher/tmp/ats_base-1.1.6.tar.gz]
+[2023-07-04 03:00:44] INFO root fetch - processPackages [ats-base]: Remove: archive file [/home/abi/fetcher/tmp/ats_base-1.1.7.tar.gz]
+[2023-07-04 03:00:44] INFO root fetch - main [MainThread]: End processing [ats-base]: success
+[2023-07-04 03:00:44] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.98.tar.gz]
+[2023-07-04 03:00:44] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.99.tar.gz]
+[2023-07-04 03:00:44] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-07-04 03:00:44] INFO root fetch - main [MainThread]: Store serial: [18747804]
