@@ -12204,3 +12204,93 @@
 [2023-07-04 07:08:07] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202307030508.tar.gz]
 [2023-07-04 07:08:07] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
 [2023-07-04 07:08:07] INFO root fetch - main [MainThread]: Store serial: [18750565]
+[2023-07-04 07:13:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18750565]
+[2023-07-04 07:13:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-04 07:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yunxiao
+[2023-07-04 07:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hvdvpdq
+[2023-07-04 07:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-server-backend
+[2023-07-04 07:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gremlin-python-tutorial
+[2023-07-04 07:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: one-api-tool
+[2023-07-04 07:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: psychoanalyze
+[2023-07-04 07:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bilibili-up
+[2023-07-04 07:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ops
+[2023-07-04 07:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-homeassistant-custom-component
+[2023-07-04 07:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mltlk
+[2023-07-04 07:13:16] INFO root fetch - processPackages [hvdvpdq]: New version: [0.0.9] Old Version: [0.0.11]
+[2023-07-04 07:13:16] INFO root fetch - processPackages [yunxiao]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-04 07:13:16] INFO root fetch - processPackages [psychoanalyze]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-04 07:13:16] INFO root fetch - processPackages [gremlin-python-tutorial]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-04 07:13:16] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: New version: [16.0.20230618.0] Old Version: [16.0.20230617.0]
+[2023-07-04 07:13:16] INFO root fetch - processPackages [one-api-tool]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-04 07:13:16] INFO root fetch - processPackages [bilibili-up]: New version: [0.2.1.2] Old Version: [0.2.1.1]
+[2023-07-04 07:13:16] INFO root fetch - processPackages [ops]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-04 07:13:16] INFO root fetch - processPackages [mltlk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-04 07:13:16] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/1f/34/b6403b834bf20c937c93e29d82f0130971864aa291c5c8a22e9e690c4565/one-api-tool-0.4.4.tar.gz
+[2023-07-04 07:13:16] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/1a/84/3f5c08f7e193907b191921687f34111fdd19b4fdba5a84a80ef8d761cbbb/psychoanalyze-0.4.4.tar.gz
+[2023-07-04 07:13:16] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-04 07:13:16] INFO root fetch - processPackages [hvdvpdq]: Downloading https://files.pythonhosted.org/packages/64/d2/d699a5be65ebccab08b3a99a4c903def77f5ea858d27fe6f7ea63ecfaf59/hvdvpdq-0.0.11.tar.gz
+[2023-07-04 07:13:16] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/41/6b/4e30b3d3043ecd4dc33de713cc7005c3d42d2bb5ae46e48a5966591589b9/mltlk-0.1.7.tar.gz
+[2023-07-04 07:13:16] INFO root fetch - processPackages [ops]: Downloading https://files.pythonhosted.org/packages/15/cb/bda6101240768fdeeea9074c444a8f775fbc71572a64f79bea64bef22af3/ops-2.3.0.tar.gz
+[2023-07-04 07:13:16] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/3d/86/0b9a4398b54edc1294844e9c1566ef0ae932b608bb07a747e0401b1392f1/yunxiao-0.3.3.tar.gz
+[2023-07-04 07:13:16] INFO root fetch - processPackages [gremlin-python-tutorial]: Downloading https://files.pythonhosted.org/packages/ff/91/5a6e9d9409f7e1fc001d4c914492c80987cfe7a53f489816380bcbc9b8a8/gremlin_python_tutorial-0.0.5.tar.gz
+[2023-07-04 07:13:16] INFO root fetch - processPackages [bilibili-up]: Downloading https://files.pythonhosted.org/packages/16/6d/8f4175998f490452b2651766dbffba7a5eb164d73bc0a95bc8e82f5d4b7e/bilibili_up-0.2.1.1.tar.gz
+[2023-07-04 07:13:16] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Downloading https://files.pythonhosted.org/packages/39/f7/dae595564b40fa4e76b17f847bdc357fc7498e549ed3e471e4517cd57f1c/odoo_addons_oca_server_backend-16.0.20230617.0-py3-none-any.whl
+[2023-07-04 07:13:17] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2023-07-04 07:13:17] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/ed/e4/7c1721e46458562d85b9f739a128a4b41c8dd14df9daee9b761de9ed5fe9/one-api-tool-0.4.5.tar.gz
+[2023-07-04 07:13:17] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/81/f2/efed862efd1dfde70522c12935f4bd2db3deedf756a862352f8a43ca4237/psychoanalyze-0.4.5.tar.gz
+[2023-07-04 07:13:17] INFO root fetch - processPackages [hvdvpdq]: Downloading https://files.pythonhosted.org/packages/41/e3/a33bae776437e66d13432a329218389fc46e83e10d255523de9a152c98c1/hvdvpdq-0.0.9.tar.gz
+[2023-07-04 07:13:17] INFO root fetch - processPackages [ops]: Downloading https://files.pythonhosted.org/packages/94/ee/65c2e7daaf1a4fd21e6ba37b65dd09d78a554d0056409609ae99bbe9f9fe/ops-2.4.0.tar.gz
+[2023-07-04 07:13:17] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/f1/10/4dae498b5104f316f6bf5c2a3f6258f6177cfefa7cd8f0b1c20e8ff8344e/yunxiao-0.3.4.tar.gz
+[2023-07-04 07:13:17] INFO root fetch - processPackages [psychoanalyze]: executing diffoscope
+[2023-07-04 07:13:17] INFO root fetch - processPackages [psychoanalyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychoanalyze-0.4.4.tar.gz tmp/psychoanalyze-0.4.5.tar.gz --markdown 20230704/p/psychoanalyze/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-04 07:13:17] WARNING root fetch - processPackages [hvdvpdq]: Skipping package: exceeds size limit 14331975>=10485760
+[2023-07-04 07:13:17] INFO root fetch - main [MainThread]: End processing [hvdvpdq] error
+[2023-07-04 07:13:17] INFO root fetch - processPackages [gremlin-python-tutorial]: Downloading https://files.pythonhosted.org/packages/eb/4c/0561f2d0b3d1be4244b20f92e53268fa69200b7a5e896c0d60930ad053ff/gremlin_python_tutorial-0.0.6.tar.gz
+[2023-07-04 07:13:17] INFO root fetch - processPackages [bilibili-up]: Downloading https://files.pythonhosted.org/packages/52/86/750dd0e99f4530e0a0637aa892bf3df49e86f8acaab09ef204d4e1237b6d/bilibili_up-0.2.1.2.tar.gz
+[2023-07-04 07:13:17] INFO root fetch - processPackages [one-api-tool]: executing diffoscope
+[2023-07-04 07:13:17] INFO root fetch - processPackages [one-api-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-api-tool-0.4.4.tar.gz tmp/one-api-tool-0.4.5.tar.gz --markdown 20230704/o/one-api-tool/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-04 07:13:17] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Downloading https://files.pythonhosted.org/packages/f8/a5/a7ac2c1573d933da33ec19ed53c1882ced076edc15f3f3182271990aa129/odoo_addons_oca_server_backend-16.0.20230618.0-py3-none-any.whl
+[2023-07-04 07:13:17] INFO root fetch - processPackages [yunxiao]: executing diffoscope
+[2023-07-04 07:13:17] INFO root fetch - processPackages [yunxiao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunxiao-0.3.3.tar.gz tmp/yunxiao-0.3.4.tar.gz --markdown 20230704/y/yunxiao/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-04 07:13:17] INFO root fetch - processPackages [ops]: executing diffoscope
+[2023-07-04 07:13:17] INFO root fetch - processPackages [ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops-2.3.0.tar.gz tmp/ops-2.4.0.tar.gz --markdown 20230704/o/ops/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-04 07:13:17] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2023-07-04 07:13:17] INFO root fetch - processPackages [gremlin-python-tutorial]: executing diffoscope
+[2023-07-04 07:13:17] INFO root fetch - processPackages [gremlin-python-tutorial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gremlin_python_tutorial-0.0.5.tar.gz tmp/gremlin_python_tutorial-0.0.6.tar.gz --markdown 20230704/g/gremlin-python-tutorial/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-04 07:13:17] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: executing diffoscope
+[2023-07-04 07:13:17] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_backend-16.0.20230617.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_backend-16.0.20230618.0-py3-none-any.whl.zip --markdown 20230704/o/odoo-addons-oca-server-backend/16.0.20230617.0-16.0.20230618.0/diff.md --exclude *.pyd
+[2023-07-04 07:13:17] INFO root fetch - processPackages [bilibili-up]: executing diffoscope
+[2023-07-04 07:13:17] INFO root fetch - processPackages [bilibili-up]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilibili_up-0.2.1.1.tar.gz tmp/bilibili_up-0.2.1.2.tar.gz --markdown 20230704/b/bilibili-up/0.2.1.1-0.2.1.2/diff.md --exclude *.pyd
+[2023-07-04 07:13:17] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/a3/43/9f4afc1db775be90fa51d830a740d6aa8de155b1838d1c5480c183ce1c56/mltlk-0.1.8.tar.gz
+[2023-07-04 07:13:17] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2023-07-04 07:13:17] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20230704/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-04 07:13:18] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-07-04 07:13:18] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.7.tar.gz tmp/mltlk-0.1.8.tar.gz --markdown 20230704/m/mltlk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-04 07:13:18] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.4.4.tar.gz]
+[2023-07-04 07:13:18] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.4.5.tar.gz]
+[2023-07-04 07:13:18] INFO root fetch - main [MainThread]: End processing [one-api-tool]: success
+[2023-07-04 07:13:18] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.3.3.tar.gz]
+[2023-07-04 07:13:18] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.3.4.tar.gz]
+[2023-07-04 07:13:18] INFO root fetch - main [MainThread]: End processing [yunxiao]: success
+[2023-07-04 07:13:18] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.4.4.tar.gz]
+[2023-07-04 07:13:18] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.4.5.tar.gz]
+[2023-07-04 07:13:18] INFO root fetch - main [MainThread]: End processing [psychoanalyze]: success
+[2023-07-04 07:13:18] INFO root fetch - processPackages [bilibili-up]: Remove: archive file [/home/abi/fetcher/tmp/bilibili_up-0.2.1.1.tar.gz]
+[2023-07-04 07:13:18] INFO root fetch - processPackages [bilibili-up]: Remove: archive file [/home/abi/fetcher/tmp/bilibili_up-0.2.1.2.tar.gz]
+[2023-07-04 07:13:18] INFO root fetch - main [MainThread]: End processing [bilibili-up]: success
+[2023-07-04 07:13:18] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_backend-16.0.20230617.0-py3-none-any.whl.zip]
+[2023-07-04 07:13:18] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_backend-16.0.20230618.0-py3-none-any.whl.zip]
+[2023-07-04 07:13:18] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-backend]: success
+[2023-07-04 07:13:19] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz]
+[2023-07-04 07:13:19] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
+[2023-07-04 07:13:19] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2023-07-04 07:13:19] INFO root fetch - processPackages [ops]: Remove: archive file [/home/abi/fetcher/tmp/ops-2.3.0.tar.gz]
+[2023-07-04 07:13:19] INFO root fetch - processPackages [ops]: Remove: archive file [/home/abi/fetcher/tmp/ops-2.4.0.tar.gz]
+[2023-07-04 07:13:19] INFO root fetch - main [MainThread]: End processing [ops]: success
+[2023-07-04 07:13:19] INFO root fetch - processPackages [gremlin-python-tutorial]: Remove: archive file [/home/abi/fetcher/tmp/gremlin_python_tutorial-0.0.5.tar.gz]
+[2023-07-04 07:13:19] INFO root fetch - processPackages [gremlin-python-tutorial]: Remove: archive file [/home/abi/fetcher/tmp/gremlin_python_tutorial-0.0.6.tar.gz]
+[2023-07-04 07:13:19] INFO root fetch - main [MainThread]: End processing [gremlin-python-tutorial]: success
+[2023-07-04 07:13:19] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.7.tar.gz]
+[2023-07-04 07:13:19] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.8.tar.gz]
+[2023-07-04 07:13:19] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-07-04 07:13:19] INFO root fetch - main [MainThread]: Store serial: [18750597]
