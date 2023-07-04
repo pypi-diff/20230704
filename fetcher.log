@@ -18066,3 +18066,152 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 11:52:33] INFO root fetch - processPackages [sfctools]: Remove: archive file [/home/abi/fetcher/tmp/sfctools-1.1.0.2.tar.gz]
 [2023-07-04 11:52:33] INFO root fetch - main [MainThread]: End processing [sfctools]: success
 [2023-07-04 11:52:33] INFO root fetch - main [MainThread]: Store serial: [18752896]
+[2023-07-04 11:57:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18752896]
+[2023-07-04 11:57:43] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-04 11:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aicli
+[2023-07-04 11:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apache-airflow-providers-sktvane
+[2023-07-04 11:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pywa
+[2023-07-04 11:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-07-04 11:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: earthkit-data
+[2023-07-04 11:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: refoss-ha
+[2023-07-04 11:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvfuser-cu121
+[2023-07-04 11:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oarepo-vocabularies
+[2023-07-04 11:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nvfuser-cu118
+[2023-07-04 11:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flypp
+[2023-07-04 11:57:44] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: New version: [1.0.0] Old Version: [0.2.2]
+[2023-07-04 11:57:44] INFO root fetch - processPackages [aicli]: New version: [99.0.202307031453] Old Version: [99.0.202307030637]
+[2023-07-04 11:57:44] INFO root fetch - processPackages [oarepo-vocabularies]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-07-04 11:57:44] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-04 11:57:44] INFO root fetch - processPackages [pywa]: New version: [0.0.1rc15] Old Version: [0.0.1rc14]
+[2023-07-04 11:57:44] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-04 11:57:44] WARNING root fetch - processPackages [refoss-ha]: Skipping, unable to determine old version
+[2023-07-04 11:57:44] INFO root fetch - processPackages [refoss-ha]: Start processing: pyamihtml
+[2023-07-04 11:57:44] INFO root fetch - main [MainThread]: End processing [refoss-ha] error
+[2023-07-04 11:57:44] WARNING root fetch - processPackages [flypp]: Skipping, unable to determine old version
+[2023-07-04 11:57:44] INFO root fetch - processPackages [flypp]: Start processing: uasset-dump
+[2023-07-04 11:57:44] INFO root fetch - main [MainThread]: End processing [flypp] error
+[2023-07-04 11:57:44] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Downloading https://files.pythonhosted.org/packages/ef/5e/4ccd71c966b511ba272c6106fc2f458fb6984b9a56b95c969e59c966ed91/apache-airflow-providers-sktvane-0.2.2.tar.gz
+[2023-07-04 11:57:44] INFO root fetch - processPackages [earthkit-data]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-07-04 11:57:44] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/d6/30/cc29697582f7e421651c8201a9720809282011141ac09bdeb869d3142146/oarepo-vocabularies-2.0.4.tar.gz
+[2023-07-04 11:57:44] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/94/ce/986ecdb7f10c7ef2c3de2a6815c8599d7ea127cb855047cf0d8328222851/aicli-99.0.202307030637-py3-none-any.whl
+[2023-07-04 11:57:44] INFO root fetch - processPackages [kcli]: New version: [99.0.202307040954] Old Version: [99.0.202307040918]
+[2023-07-04 11:57:44] INFO root fetch - processPackages [pyamihtml]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-04 11:57:44] INFO root fetch - processPackages [uasset-dump]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 11:57:44] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-04 11:57:44] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-04 11:57:44] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a3/3d/d7e413f081f99d6fe91231176734a6190ec9190473a24f1062ae90f46f5c/kcli-99.0.202307040918-py3-none-any.whl
+[2023-07-04 11:57:44] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/a5/0a/56b51c4f77cbc747b9672cd9b97fb7774bf76e08110da2d4297410937b03/pywa-0.0.1rc14-py3-none-any.whl
+[2023-07-04 11:57:44] INFO root fetch - processPackages [pyamihtml]: Downloading https://files.pythonhosted.org/packages/45/b0/009c6e92ae5be50f05397f7d9d043eebbb34ebabc8cea85c1e9effba0f97/pyamihtml-0.0.1.tar.gz
+[2023-07-04 11:57:44] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/fe/9b/195da905dc17cf6f687704695ce993e02bdd209ced7ecc6e8689c050a039/uasset_dump-0.0.8.tar.gz
+[2023-07-04 11:57:44] INFO root fetch - processPackages [earthkit-data]: Downloading https://files.pythonhosted.org/packages/af/3e/df59da14db3798873d54c932da2f228c2f10cc49e7f3d48cf894e6e3d309/earthkit-data-0.1.3.tar.gz
+[2023-07-04 11:57:44] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Downloading https://files.pythonhosted.org/packages/77/25/b2082307f544006106ede457f5b824a05cff2300ec05b495f4c821b92dbe/apache-airflow-providers-sktvane-1.0.0.tar.gz
+[2023-07-04 11:57:44] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/4d/6f/76b0e71583436686217307f3b45d4c1195dbff64c858000111bfeadf036d/oarepo-vocabularies-2.0.5.tar.gz
+[2023-07-04 11:57:45] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/bd/f7/d2b11df718072e57370a52f5415c4665d36b1be458fb03f3fa82aa45dcd3/aicli-99.0.202307031453-py3-none-any.whl
+[2023-07-04 11:57:45] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: executing diffoscope
+[2023-07-04 11:57:45] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-sktvane-0.2.2.tar.gz tmp/apache-airflow-providers-sktvane-1.0.0.tar.gz --markdown 20230704/a/apache-airflow-providers-sktvane/0.2.2-1.0.0/diff.md --exclude *.pyd
+[2023-07-04 11:57:45] INFO root fetch - processPackages [oarepo-vocabularies]: executing diffoscope
+[2023-07-04 11:57:45] INFO root fetch - processPackages [oarepo-vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-vocabularies-2.0.4.tar.gz tmp/oarepo-vocabularies-2.0.5.tar.gz --markdown 20230704/o/oarepo-vocabularies/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-07-04 11:57:45] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/be/6b/bc8d3d4a7ddb2d849c3954c046ae9e0e44299a77c61b795472d89dc2f63b/uasset_dump-0.0.9.tar.gz
+[2023-07-04 11:57:45] INFO root fetch - processPackages [pyamihtml]: Downloading https://files.pythonhosted.org/packages/47/5f/c1b98723e8583eebee8ea10247a5bf06f0c8abe4df84ba834dda0d81e6b1/pyamihtml-0.0.2.tar.gz
+[2023-07-04 11:57:45] INFO root fetch - processPackages [aicli]: executing diffoscope
+[2023-07-04 11:57:45] INFO root fetch - processPackages [aicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicli-99.0.202307030637-py3-none-any.whl.zip tmp/aicli-99.0.202307031453-py3-none-any.whl.zip --markdown 20230704/a/aicli/99.0.202307030637-99.0.202307031453/diff.md --exclude *.pyd
+[2023-07-04 11:57:45] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/65/55/0fc0374b62e9e112ef066c67a83ea9b92df511842523d189c4152f313066/pywa-0.0.1rc15-py3-none-any.whl
+[2023-07-04 11:57:45] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/2f/3e/e7e06cb86b82e9d2461a2b86ed1b7c1611f724784c31aea9b60f3a176d8b/kcli-99.0.202307040954-py3-none-any.whl
+[2023-07-04 11:57:45] INFO root fetch - processPackages [uasset-dump]: executing diffoscope
+[2023-07-04 11:57:45] INFO root fetch - processPackages [uasset-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uasset_dump-0.0.8.tar.gz tmp/uasset_dump-0.0.9.tar.gz --markdown 20230704/u/uasset-dump/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 11:57:45] INFO root fetch - processPackages [pyamihtml]: executing diffoscope
+[2023-07-04 11:57:45] INFO root fetch - processPackages [pyamihtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyamihtml-0.0.1.tar.gz tmp/pyamihtml-0.0.2.tar.gz --markdown 20230704/p/pyamihtml/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-04 11:57:45] INFO root fetch - processPackages [earthkit-data]: Downloading https://files.pythonhosted.org/packages/80/85/28c9f2e1a6c1d2cfdcf7e41dfa5f19376f3e0a25e8de235f69ac5993229b/earthkit-data-0.2.0.tar.gz
+[2023-07-04 11:57:45] INFO root fetch - processPackages [pywa]: executing diffoscope
+[2023-07-04 11:57:45] INFO root fetch - processPackages [pywa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywa-0.0.1rc14-py3-none-any.whl.zip tmp/pywa-0.0.1rc15-py3-none-any.whl.zip --markdown 20230704/p/pywa/0.0.1rc14-0.0.1rc15/diff.md --exclude *.pyd
+[2023-07-04 11:57:45] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-04 11:57:45] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307040918-py3-none-any.whl.zip tmp/kcli-99.0.202307040954-py3-none-any.whl.zip --markdown 20230704/k/kcli/99.0.202307040918-99.0.202307040954/diff.md --exclude *.pyd
+[2023-07-04 11:57:45] INFO root fetch - processPackages [earthkit-data]: executing diffoscope
+[2023-07-04 11:57:45] INFO root fetch - processPackages [earthkit-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earthkit-data-0.1.3.tar.gz tmp/earthkit-data-0.2.0.tar.gz --markdown 20230704/e/earthkit-data/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-07-04 11:57:46] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-04 11:57:46] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-sktvane-0.2.2.tar.gz]
+[2023-07-04 11:57:46] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-sktvane-1.0.0.tar.gz]
+[2023-07-04 11:57:46] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Start processing: xw-utils
+[2023-07-04 11:57:46] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-sktvane]: success
+[2023-07-04 11:57:46] INFO root fetch - processPackages [xw-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-04 11:57:46] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-04 11:57:46] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202307030637-py3-none-any.whl.zip]
+[2023-07-04 11:57:46] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202307031453-py3-none-any.whl.zip]
+[2023-07-04 11:57:46] INFO root fetch - processPackages [aicli]: Start processing: kfish
+[2023-07-04 11:57:46] INFO root fetch - main [MainThread]: End processing [aicli]: success
+[2023-07-04 11:57:46] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.8.tar.gz]
+[2023-07-04 11:57:46] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.9.tar.gz]
+[2023-07-04 11:57:46] INFO root fetch - processPackages [uasset-dump]: Start processing: target-permutation-importances
+[2023-07-04 11:57:46] INFO root fetch - main [MainThread]: End processing [uasset-dump]: success
+[2023-07-04 11:57:46] INFO root fetch - processPackages [kfish]: New version: [99.0.202307040920] Old Version: [99.0.202307031456]
+[2023-07-04 11:57:46] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc14-py3-none-any.whl.zip]
+[2023-07-04 11:57:46] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc15-py3-none-any.whl.zip]
+[2023-07-04 11:57:46] INFO root fetch - processPackages [pywa]: Start processing: pyautd3
+[2023-07-04 11:57:46] INFO root fetch - main [MainThread]: End processing [pywa]: success
+[2023-07-04 11:57:46] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/fe/6a/4adb1a18c46efb5e2bdec2dbb1d8cda45a342c20effbcfe579760726dfcb/kfish-99.0.202307031456-py3-none-any.whl
+[2023-07-04 11:57:46] INFO root fetch - processPackages [target-permutation-importances]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-04 11:57:46] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/dc/1a/2d247adaa50a2a75132b1cd25cb5a1ad15d734a7f0c3861ea12f42bd85d2/xw_utils-1.0.8-cp39-cp39-win_amd64.whl
+[2023-07-04 11:57:46] INFO root fetch - processPackages [pyautd3]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-07-04 11:57:47] INFO root fetch - processPackages [pyautd3]: Downloading https://files.pythonhosted.org/packages/e8/71/a7e782b3fd39d71bc7d9f5c5bc4c935f52b63b87e0680f3ec000d5ae1545/pyautd3-9.0.0.tar.gz
+[2023-07-04 11:57:47] WARNING root fetch - processPackages [pyautd3]: Skipping package: exceeds size limit 25360257>=10485760
+[2023-07-04 11:57:47] INFO root fetch - processPackages [pyautd3]: Start processing: nvfuser-cu117
+[2023-07-04 11:57:47] INFO root fetch - main [MainThread]: End processing [pyautd3] error
+[2023-07-04 11:57:47] INFO root fetch - processPackages [target-permutation-importances]: Downloading https://files.pythonhosted.org/packages/44/3c/3b31ceb99798d2be4dc7e7cd4953490cfd835ed7d6d6a592ef95dba2e984/target_permutation_importances-1.0.8.tar.gz
+[2023-07-04 11:57:47] INFO root fetch - processPackages [pyamihtml]: Remove: archive file [/home/abi/fetcher/tmp/pyamihtml-0.0.1.tar.gz]
+[2023-07-04 11:57:47] INFO root fetch - processPackages [pyamihtml]: Remove: archive file [/home/abi/fetcher/tmp/pyamihtml-0.0.2.tar.gz]
+[2023-07-04 11:57:47] INFO root fetch - processPackages [pyamihtml]: Start processing: odoo14-addon-account-move-line-sale-info
+[2023-07-04 11:57:47] INFO root fetch - main [MainThread]: End processing [pyamihtml]: success
+[2023-07-04 11:57:47] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/68/e1/d325461897a28a0b926d09a45c850efd83b745e28a3453af679c6f5bc066/kfish-99.0.202307040920-py3-none-any.whl
+[2023-07-04 11:57:47] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-04 11:57:47] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-vocabularies-2.0.4.tar.gz]
+[2023-07-04 11:57:47] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-vocabularies-2.0.5.tar.gz]
+[2023-07-04 11:57:47] INFO root fetch - main [MainThread]: End processing [oarepo-vocabularies]: success
+[2023-07-04 11:57:47] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/83/1f/866660569301b9d9d645f2b7de1eb5dfbeb24c1e5a749d7e4b2cd36dcdc6/xw_utils-1.0.9-cp39-cp39-win_amd64.whl
+[2023-07-04 11:57:47] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-04 11:57:47] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307031456-py3-none-any.whl.zip tmp/kfish-99.0.202307040920-py3-none-any.whl.zip --markdown 20230704/k/kfish/99.0.202307031456-99.0.202307040920/diff.md --exclude *.pyd
+[2023-07-04 11:57:47] INFO root fetch - processPackages [odoo14-addon-account-move-line-sale-info]: New version: [14.0.1.0.4.dev4] Old Version: [14.0.1.0.4.dev2]
+[2023-07-04 11:57:47] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/97/5f/a04da4d60f1816efafaa93531502bc7956df43f23ed210d62d175d8ae006/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-04 11:57:47] INFO root fetch - processPackages [target-permutation-importances]: Downloading https://files.pythonhosted.org/packages/c8/2e/0adf5d1b25bbd228db5b4fef951bafd1e29a2615910abdb7f1cd5578c947/target_permutation_importances-1.0.9.tar.gz
+[2023-07-04 11:57:47] INFO root fetch - processPackages [xw-utils]: executing diffoscope
+[2023-07-04 11:57:47] INFO root fetch - processPackages [xw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230704/x/xw-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-04 11:57:47] INFO root fetch - processPackages [odoo14-addon-account-move-line-sale-info]: Downloading https://files.pythonhosted.org/packages/50/19/4b58ac3b37571310095f026919f5fd690cfb8dfe9512324809d36788163b/odoo14_addon_account_move_line_sale_info-14.0.1.0.4.dev2-py3-none-any.whl
+[2023-07-04 11:57:47] INFO root fetch - processPackages [target-permutation-importances]: executing diffoscope
+[2023-07-04 11:57:47] INFO root fetch - processPackages [target-permutation-importances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_permutation_importances-1.0.8.tar.gz tmp/target_permutation_importances-1.0.9.tar.gz --markdown 20230704/t/target-permutation-importances/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-04 11:57:47] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-07-04 11:57:47] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230704/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-04 11:57:48] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-07-04 11:57:48] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230704/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-04 11:57:48] INFO root fetch - processPackages [odoo14-addon-account-move-line-sale-info]: Downloading https://files.pythonhosted.org/packages/1f/fc/2d53d7ae0d58d76735f609493293d0823bb0bdcf4a6d247eed7897662b5a/odoo14_addon_account_move_line_sale_info-14.0.1.0.4.dev4-py3-none-any.whl
+[2023-07-04 11:57:48] INFO root fetch - processPackages [odoo14-addon-account-move-line-sale-info]: executing diffoscope
+[2023-07-04 11:57:48] INFO root fetch - processPackages [odoo14-addon-account-move-line-sale-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_move_line_sale_info-14.0.1.0.4.dev2-py3-none-any.whl.zip tmp/odoo14_addon_account_move_line_sale_info-14.0.1.0.4.dev4-py3-none-any.whl.zip --markdown 20230704/o/odoo14-addon-account-move-line-sale-info/14.0.1.0.4.dev2-14.0.1.0.4.dev4/diff.md --exclude *.pyd
+[2023-07-04 11:57:48] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307031456-py3-none-any.whl.zip]
+[2023-07-04 11:57:48] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307040920-py3-none-any.whl.zip]
+[2023-07-04 11:57:48] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-04 11:57:48] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-04 11:57:48] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-04 11:57:48] INFO root fetch - main [MainThread]: End processing [xw-utils]: success
+[2023-07-04 11:57:49] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-04 11:57:49] INFO root fetch - processPackages [target-permutation-importances]: Remove: archive file [/home/abi/fetcher/tmp/target_permutation_importances-1.0.8.tar.gz]
+[2023-07-04 11:57:49] INFO root fetch - processPackages [target-permutation-importances]: Remove: archive file [/home/abi/fetcher/tmp/target_permutation_importances-1.0.9.tar.gz]
+[2023-07-04 11:57:49] INFO root fetch - main [MainThread]: End processing [target-permutation-importances]: success
+[2023-07-04 11:57:49] INFO root fetch - processPackages [odoo14-addon-account-move-line-sale-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_line_sale_info-14.0.1.0.4.dev2-py3-none-any.whl.zip]
+[2023-07-04 11:57:49] INFO root fetch - processPackages [odoo14-addon-account-move-line-sale-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_line_sale_info-14.0.1.0.4.dev4-py3-none-any.whl.zip]
+[2023-07-04 11:57:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-move-line-sale-info]: success
+[2023-07-04 11:57:49] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-04 11:57:49] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-04 11:57:49] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-07-04 11:57:50] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-04 11:57:50] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-04 11:57:50] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-07-04 11:57:50] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-07-04 11:57:50] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230704/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-04 11:57:50] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307040918-py3-none-any.whl.zip]
+[2023-07-04 11:57:50] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307040954-py3-none-any.whl.zip]
+[2023-07-04 11:57:50] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-04 11:57:51] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-04 11:57:51] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-04 11:57:51] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-07-04 11:58:00] INFO root fetch - processPackages [earthkit-data]: Remove: archive file [/home/abi/fetcher/tmp/earthkit-data-0.1.3.tar.gz]
+[2023-07-04 11:58:00] INFO root fetch - processPackages [earthkit-data]: Remove: archive file [/home/abi/fetcher/tmp/earthkit-data-0.2.0.tar.gz]
+[2023-07-04 11:58:00] INFO root fetch - main [MainThread]: End processing [earthkit-data]: success
+[2023-07-04 11:58:00] INFO root fetch - main [MainThread]: Store serial: [18752974]
