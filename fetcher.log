@@ -18741,3 +18741,150 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 12:19:32] INFO root fetch - processPackages [sarus]: Remove: archive file [/home/abi/fetcher/tmp/sarus-0.7.4.dev2.tar.gz]
 [2023-07-04 12:19:32] INFO root fetch - main [MainThread]: End processing [sarus]: success
 [2023-07-04 12:19:32] INFO root fetch - main [MainThread]: Store serial: [18753281]
+[2023-07-04 12:24:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18753281]
+[2023-07-04 12:24:42] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-04 12:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: random-socks5-proxy
+[2023-07-04 12:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quarchpy
+[2023-07-04 12:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: JBioSeqTools
+[2023-07-04 12:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uasset-dump
+[2023-07-04 12:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: awkward-cpp
+[2023-07-04 12:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gordo
+[2023-07-04 12:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zeroros
+[2023-07-04 12:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: uasset-dump
+[2023-07-04 12:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oidc-drf
+[2023-07-04 12:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gy-multiprocessing
+[2023-07-04 12:24:42] INFO root fetch - processPackages [uasset-dump]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 12:24:42] INFO root fetch - processPackages [JBioSeqTools]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-04 12:24:42] WARNING root fetch - processPackages [random-socks5-proxy]: Skipping, unable to determine old version
+[2023-07-04 12:24:42] INFO root fetch - processPackages [random-socks5-proxy]: Start processing: jenkins-job-builder
+[2023-07-04 12:24:42] INFO root fetch - main [MainThread]: End processing [random-socks5-proxy] error
+[2023-07-04 12:24:42] INFO root fetch - processPackages [gy-multiprocessing]: New version: [0.3] Old Version: [0.2.4.3]
+[2023-07-04 12:24:42] INFO root fetch - processPackages [uasset-dump]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 12:24:42] INFO root fetch - processPackages [zeroros]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-04 12:24:42] INFO root fetch - processPackages [oidc-drf]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-04 12:24:42] INFO root fetch - processPackages [gordo]: New version: [5.1.3] Old Version: [5.1.2]
+[2023-07-04 12:24:42] INFO root fetch - processPackages [quarchpy]: New version: [2.1.9.dev3] Old Version: [2.1.9.dev2]
+[2023-07-04 12:24:42] INFO root fetch - processPackages [awkward-cpp]: New version: [9] Old Version: [8]
+[2023-07-04 12:24:43] INFO root fetch - processPackages [jenkins-job-builder]: New version: [5.0.3] Old Version: [5.0.2]
+[2023-07-04 12:24:43] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/fe/9b/195da905dc17cf6f687704695ce993e02bdd209ced7ecc6e8689c050a039/uasset_dump-0.0.8.tar.gz
+[2023-07-04 12:24:43] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/a8/e4/3501b8682791ef48690c22dee3a139baa414a474e1502056adfbd3d20333/JBioSeqTools-1.1.4.tar.gz
+[2023-07-04 12:24:43] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/fe/9b/195da905dc17cf6f687704695ce993e02bdd209ced7ecc6e8689c050a039/uasset_dump-0.0.8.tar.gz
+[2023-07-04 12:24:43] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/bb/d0/c291dce8a91f06a013d28702df1f72b8f594ba5b317b8ac46137e0e8331f/oidc_drf-1.2.5.tar.gz
+[2023-07-04 12:24:43] INFO root fetch - processPackages [gy-multiprocessing]: Downloading https://files.pythonhosted.org/packages/e6/69/8d752b93e09eaf816260666a50a3d5f7ca66fe360becd3f5a3fe4df57d85/gy_multiprocessing-0.2.4.3.tar.gz
+[2023-07-04 12:24:43] INFO root fetch - processPackages [zeroros]: Downloading https://files.pythonhosted.org/packages/35/5f/8f805fcb6242737c9b2b8907cc3ece27f026cd518ab2a97ba9e5f76f03bf/zeroros-1.0.1.tar.gz
+[2023-07-04 12:24:43] INFO root fetch - processPackages [quarchpy]: Downloading https://files.pythonhosted.org/packages/4c/58/57c71932b71449bc466e74bd8478a30bedf723227a6aa33c2934896c2345/quarchpy-2.1.9.dev2-py2.py3-none-any.whl
+[2023-07-04 12:24:43] INFO root fetch - processPackages [gordo]: Downloading https://files.pythonhosted.org/packages/d9/17/842298c1361da82789b47a696f4549de23ec8301407407d9ea5eb8747a22/gordo-5.1.2.tar.gz
+[2023-07-04 12:24:43] INFO root fetch - processPackages [awkward-cpp]: Downloading https://files.pythonhosted.org/packages/aa/f5/64adc43fa8ade78ad35bf90276c8741d996c40c25626e9900d611f752446/awkward-cpp-8.tar.gz
+[2023-07-04 12:24:43] INFO root fetch - processPackages [jenkins-job-builder]: Downloading https://files.pythonhosted.org/packages/b3/69/5c52ca511cdedbb95b674b3dacef6e80086efc5924b80a097dea3861b830/jenkins-job-builder-5.0.2.tar.gz
+[2023-07-04 12:24:43] WARNING root fetch - processPackages [quarchpy]: Skipping package: exceeds size limit 34469980>=10485760
+[2023-07-04 12:24:43] INFO root fetch - processPackages [quarchpy]: Start processing: awsiotclient
+[2023-07-04 12:24:43] INFO root fetch - main [MainThread]: End processing [quarchpy] error
+[2023-07-04 12:24:43] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/be/6b/bc8d3d4a7ddb2d849c3954c046ae9e0e44299a77c61b795472d89dc2f63b/uasset_dump-0.0.9.tar.gz
+[2023-07-04 12:24:43] INFO root fetch - processPackages [awsiotclient]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-04 12:24:43] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/99/31/8b7871379640bf5ac681d1c0d8603513c2075d52ddce2a3dbadef78a3692/JBioSeqTools-1.1.5.tar.gz
+[2023-07-04 12:24:43] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/be/6b/bc8d3d4a7ddb2d849c3954c046ae9e0e44299a77c61b795472d89dc2f63b/uasset_dump-0.0.9.tar.gz
+[2023-07-04 12:24:43] INFO root fetch - processPackages [uasset-dump]: executing diffoscope
+[2023-07-04 12:24:43] INFO root fetch - processPackages [uasset-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uasset_dump-0.0.8.tar.gz tmp/uasset_dump-0.0.9.tar.gz --markdown 20230704/u/uasset-dump/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 12:24:43] INFO root fetch - processPackages [awsiotclient]: Downloading https://files.pythonhosted.org/packages/10/ab/9565ea1481a1e7c16529cebefee845f82d18c2cb3bd329b66784db727799/awsiotclient-0.1.1.tar.gz
+[2023-07-04 12:24:43] INFO root fetch - processPackages [gy-multiprocessing]: Downloading https://files.pythonhosted.org/packages/fd/36/87767b7e3465a4eb1277d82b2f668130a4d85af915aa3c314ce2f9b8cf73/gy_multiprocessing-0.3.tar.gz
+[2023-07-04 12:24:43] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/ab/06/5150b8a15e654a6b6b086caf25810b34cbac0b2748fa3893e650ce572802/oidc_drf-1.2.6.tar.gz
+[2023-07-04 12:24:43] INFO root fetch - processPackages [uasset-dump]: executing diffoscope
+[2023-07-04 12:24:43] INFO root fetch - processPackages [uasset-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uasset_dump-0.0.8.tar.gz tmp/uasset_dump-0.0.9.tar.gz --markdown 20230704/u/uasset-dump/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 12:24:43] INFO root fetch - processPackages [JBioSeqTools]: executing diffoscope
+[2023-07-04 12:24:43] INFO root fetch - processPackages [JBioSeqTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBioSeqTools-1.1.4.tar.gz tmp/JBioSeqTools-1.1.5.tar.gz --markdown 20230704/J/JBioSeqTools/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-04 12:24:43] INFO root fetch - processPackages [gordo]: Downloading https://files.pythonhosted.org/packages/51/c2/7f8c5bfc0ab2b2c436e9fbd1b74c4304c0ad4b711b236f4a0e24e38c0bfb/gordo-5.1.3.tar.gz
+[2023-07-04 12:24:43] INFO root fetch - processPackages [zeroros]: Downloading https://files.pythonhosted.org/packages/43/52/2eb72ee72e58bcd10f0e4208eaa7fec169f3b335ab35102092f0807fd7c5/zeroros-1.0.2.tar.gz
+[2023-07-04 12:24:44] INFO root fetch - processPackages [jenkins-job-builder]: Downloading https://files.pythonhosted.org/packages/e5/e4/ac2d2b5c134935265b85e50e38edef0fc201f1beea862a6db7111d95abe5/jenkins-job-builder-5.0.3.tar.gz
+[2023-07-04 12:24:44] INFO root fetch - processPackages [gy-multiprocessing]: executing diffoscope
+[2023-07-04 12:24:44] INFO root fetch - processPackages [gy-multiprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gy_multiprocessing-0.2.4.3.tar.gz tmp/gy_multiprocessing-0.3.tar.gz --markdown 20230704/g/gy-multiprocessing/0.2.4.3-0.3/diff.md --exclude *.pyd
+[2023-07-04 12:24:44] INFO root fetch - processPackages [zeroros]: executing diffoscope
+[2023-07-04 12:24:44] INFO root fetch - processPackages [zeroros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroros-1.0.1.tar.gz tmp/zeroros-1.0.2.tar.gz --markdown 20230704/z/zeroros/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-04 12:24:44] INFO root fetch - processPackages [awkward-cpp]: Downloading https://files.pythonhosted.org/packages/5c/ed/9ea65e3121ca03b329734a45c17b4ba0cda78345f533ba43a30dc9fd4dd8/awkward-cpp-9.tar.gz
+[2023-07-04 12:24:44] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-04 12:24:44] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.2.5.tar.gz tmp/oidc_drf-1.2.6.tar.gz --markdown 20230704/o/oidc-drf/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-04 12:24:44] INFO root fetch - processPackages [gordo]: executing diffoscope
+[2023-07-04 12:24:44] INFO root fetch - processPackages [gordo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gordo-5.1.2.tar.gz tmp/gordo-5.1.3.tar.gz --markdown 20230704/g/gordo/5.1.2-5.1.3/diff.md --exclude *.pyd
+[2023-07-04 12:24:44] INFO root fetch - processPackages [jenkins-job-builder]: executing diffoscope
+[2023-07-04 12:24:44] INFO root fetch - processPackages [jenkins-job-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jenkins-job-builder-5.0.2.tar.gz tmp/jenkins-job-builder-5.0.3.tar.gz --markdown 20230704/j/jenkins-job-builder/5.0.2-5.0.3/diff.md --exclude *.pyd
+[2023-07-04 12:24:44] INFO root fetch - processPackages [awsiotclient]: Downloading https://files.pythonhosted.org/packages/b4/4a/83aadc7c742195ca0348eeb96843f1e18c4266a0719f778abb5c76db1645/awsiotclient-0.2.0.tar.gz
+[2023-07-04 12:24:44] INFO root fetch - processPackages [awsiotclient]: executing diffoscope
+[2023-07-04 12:24:44] INFO root fetch - processPackages [awsiotclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsiotclient-0.1.1.tar.gz tmp/awsiotclient-0.2.0.tar.gz --markdown 20230704/a/awsiotclient/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-04 12:24:44] INFO root fetch - processPackages [awkward-cpp]: executing diffoscope
+[2023-07-04 12:24:44] INFO root fetch - processPackages [awkward-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awkward-cpp-8.tar.gz tmp/awkward-cpp-9.tar.gz --markdown 20230704/a/awkward-cpp/8-9/diff.md --exclude *.pyd
+[2023-07-04 12:24:45] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.8.tar.gz]
+[2023-07-04 12:24:45] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.9.tar.gz]
+[2023-07-04 12:24:45] INFO root fetch - processPackages [uasset-dump]: Start processing: nonebot-adapter-villa
+[2023-07-04 12:24:45] INFO root fetch - main [MainThread]: End processing [uasset-dump]: success
+[2023-07-04 12:24:45] INFO root fetch - processPackages [nonebot-adapter-villa]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-04 12:24:45] INFO root fetch - processPackages [uasset-dump]: Start processing: oidc-drf
+[2023-07-04 12:24:45] INFO root fetch - main [MainThread]: End processing [uasset-dump]: success
+[2023-07-04 12:24:45] INFO root fetch - processPackages [oidc-drf]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-07-04 12:24:45] INFO root fetch - processPackages [gy-multiprocessing]: Remove: archive file [/home/abi/fetcher/tmp/gy_multiprocessing-0.2.4.3.tar.gz]
+[2023-07-04 12:24:45] INFO root fetch - processPackages [gy-multiprocessing]: Remove: archive file [/home/abi/fetcher/tmp/gy_multiprocessing-0.3.tar.gz]
+[2023-07-04 12:24:45] INFO root fetch - processPackages [gy-multiprocessing]: Start processing: sphinxcontrib-matlabdomain
+[2023-07-04 12:24:45] INFO root fetch - main [MainThread]: End processing [gy-multiprocessing]: success
+[2023-07-04 12:24:45] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-1.1.4.tar.gz]
+[2023-07-04 12:24:45] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-1.1.5.tar.gz]
+[2023-07-04 12:24:45] INFO root fetch - processPackages [JBioSeqTools]: Start processing: wpp-bavapi
+[2023-07-04 12:24:45] INFO root fetch - main [MainThread]: End processing [JBioSeqTools]: success
+[2023-07-04 12:24:45] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/5f/38/2b3353b14db8eb0b9f3134e12d07d253caa4a2921cd7e04d9bc7d33908c3/nonebot_adapter_villa-0.5.0.tar.gz
+[2023-07-04 12:24:45] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-07-04 12:24:45] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.5.tar.gz]
+[2023-07-04 12:24:45] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.6.tar.gz]
+[2023-07-04 12:24:45] INFO root fetch - processPackages [oidc-drf]: Start processing: uasset-dump
+[2023-07-04 12:24:45] INFO root fetch - processPackages [zeroros]: Remove: archive file [/home/abi/fetcher/tmp/zeroros-1.0.1.tar.gz]
+[2023-07-04 12:24:45] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-04 12:24:45] INFO root fetch - processPackages [zeroros]: Remove: archive file [/home/abi/fetcher/tmp/zeroros-1.0.2.tar.gz]
+[2023-07-04 12:24:45] INFO root fetch - processPackages [zeroros]: Start processing: xj-enroll
+[2023-07-04 12:24:45] INFO root fetch - main [MainThread]: End processing [zeroros]: success
+[2023-07-04 12:24:45] INFO root fetch - processPackages [uasset-dump]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 12:24:45] WARNING root fetch - processPackages [wpp-bavapi]: Skipping, unable to determine old version
+[2023-07-04 12:24:45] INFO root fetch - main [MainThread]: End processing [wpp-bavapi] error
+[2023-07-04 12:24:45] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/b1/e6/3edd8fe17d3281af4232db2d92b8b1ba5f37a89161c94227c441e65a5979/oidc_drf-1.2.7.tar.gz
+[2023-07-04 12:24:45] INFO root fetch - processPackages [awsiotclient]: Remove: archive file [/home/abi/fetcher/tmp/awsiotclient-0.1.1.tar.gz]
+[2023-07-04 12:24:45] INFO root fetch - processPackages [awsiotclient]: Remove: archive file [/home/abi/fetcher/tmp/awsiotclient-0.2.0.tar.gz]
+[2023-07-04 12:24:45] INFO root fetch - main [MainThread]: End processing [awsiotclient]: success
+[2023-07-04 12:24:45] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/fe/9b/195da905dc17cf6f687704695ce993e02bdd209ced7ecc6e8689c050a039/uasset_dump-0.0.8.tar.gz
+[2023-07-04 12:24:46] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Downloading https://files.pythonhosted.org/packages/27/9f/400da890f1d17b5a3eadcb477d83d44b79ab59e95ac28b04e1f8019c30f2/sphinxcontrib-matlabdomain-0.7.1.tar.gz
+[2023-07-04 12:24:46] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-04 12:24:46] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-04 12:24:46] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.2.6.tar.gz tmp/oidc_drf-1.2.7.tar.gz --markdown 20230704/o/oidc-drf/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-07-04 12:24:46] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/7b/48/9774b3c77a566758ad5dfe924f46458cfaaa211bb26232baff209550d874/nonebot_adapter_villa-0.5.1.tar.gz
+[2023-07-04 12:24:46] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/be/6b/bc8d3d4a7ddb2d849c3954c046ae9e0e44299a77c61b795472d89dc2f63b/uasset_dump-0.0.9.tar.gz
+[2023-07-04 12:24:46] INFO root fetch - processPackages [nonebot-adapter-villa]: executing diffoscope
+[2023-07-04 12:24:46] INFO root fetch - processPackages [nonebot-adapter-villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_villa-0.5.0.tar.gz tmp/nonebot_adapter_villa-0.5.1.tar.gz --markdown 20230704/n/nonebot-adapter-villa/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-04 12:24:46] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/5f/55/043c01a1a9d5f4d1bc26501f84e1b44b3f001a7d69f9bfbcf23c512659ae/xj_enroll-1.0.98.tar.gz
+[2023-07-04 12:24:46] INFO root fetch - processPackages [uasset-dump]: executing diffoscope
+[2023-07-04 12:24:46] INFO root fetch - processPackages [uasset-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uasset_dump-0.0.8.tar.gz tmp/uasset_dump-0.0.9.tar.gz --markdown 20230704/u/uasset-dump/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 12:24:46] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Downloading https://files.pythonhosted.org/packages/02/17/576fe56ac8622a964e69f7f314c46c1235b2a8447151a3df20102e5b45bc/sphinxcontrib-matlabdomain-0.8.0.tar.gz
+[2023-07-04 12:24:46] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: executing diffoscope
+[2023-07-04 12:24:46] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-matlabdomain-0.7.1.tar.gz tmp/sphinxcontrib-matlabdomain-0.8.0.tar.gz --markdown 20230704/s/sphinxcontrib-matlabdomain/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-07-04 12:24:46] ERROR root fetch - processPackages [oidc-drf]: Diffoscope failed: time="2023-07-04T12:24:46+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/oidc_drf-1.2.6.tar.gz: No such file or directory
+
+[2023-07-04 12:24:46] INFO root fetch - main [MainThread]: End processing [oidc-drf] error
+[2023-07-04 12:24:47] INFO root fetch - processPackages [gordo]: Remove: archive file [/home/abi/fetcher/tmp/gordo-5.1.2.tar.gz]
+[2023-07-04 12:24:47] INFO root fetch - processPackages [gordo]: Remove: archive file [/home/abi/fetcher/tmp/gordo-5.1.3.tar.gz]
+[2023-07-04 12:24:47] INFO root fetch - main [MainThread]: End processing [gordo]: success
+[2023-07-04 12:24:47] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/10/ba/d433d5e19456323afc65c6931bf6856d7357d50aca4073aa4b8c1dd1dd4b/xj_enroll-1.0.99.tar.gz
+[2023-07-04 12:24:47] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-07-04 12:24:47] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230704/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-04 12:24:47] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.5.0.tar.gz]
+[2023-07-04 12:24:47] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.5.1.tar.gz]
+[2023-07-04 12:24:47] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-villa]: success
+[2023-07-04 12:24:47] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.8.tar.gz]
+[2023-07-04 12:24:47] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.9.tar.gz]
+[2023-07-04 12:24:47] INFO root fetch - main [MainThread]: End processing [uasset-dump]: success
+[2023-07-04 12:24:47] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-matlabdomain-0.7.1.tar.gz]
+[2023-07-04 12:24:47] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-matlabdomain-0.8.0.tar.gz]
+[2023-07-04 12:24:47] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-matlabdomain]: success
+[2023-07-04 12:24:48] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.98.tar.gz]
+[2023-07-04 12:24:48] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.99.tar.gz]
+[2023-07-04 12:24:48] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-07-04 12:24:57] INFO root fetch - processPackages [awkward-cpp]: Remove: archive file [/home/abi/fetcher/tmp/awkward-cpp-8.tar.gz]
+[2023-07-04 12:24:57] INFO root fetch - processPackages [awkward-cpp]: Remove: archive file [/home/abi/fetcher/tmp/awkward-cpp-9.tar.gz]
+[2023-07-04 12:24:57] INFO root fetch - main [MainThread]: End processing [awkward-cpp]: success
+[2023-07-04 12:25:02] INFO root fetch - processPackages [jenkins-job-builder]: Remove: archive file [/home/abi/fetcher/tmp/jenkins-job-builder-5.0.2.tar.gz]
+[2023-07-04 12:25:02] INFO root fetch - processPackages [jenkins-job-builder]: Remove: archive file [/home/abi/fetcher/tmp/jenkins-job-builder-5.0.3.tar.gz]
+[2023-07-04 12:25:02] INFO root fetch - main [MainThread]: End processing [jenkins-job-builder]: success
+[2023-07-04 12:25:02] INFO root fetch - main [MainThread]: Store serial: [18753369]
