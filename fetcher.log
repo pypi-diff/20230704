@@ -22575,3 +22575,172 @@ AssertionError: tmp/pp_project_pkg-1.0.202307041312-py3-none-any.whl.zip does no
 [2023-07-04 15:15:27] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.0.9.tar.gz]
 [2023-07-04 15:15:27] INFO root fetch - main [MainThread]: End processing [design.plone.contenttypes]: success
 [2023-07-04 15:15:27] INFO root fetch - main [MainThread]: Store serial: [18754965]
+[2023-07-04 15:20:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18754965]
+[2023-07-04 15:20:37] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-04 15:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-pytorch
+[2023-07-04 15:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SELDOMpy
+[2023-07-04 15:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crtoolbox
+[2023-07-04 15:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-scipy
+[2023-07-04 15:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Bigsansar
+[2023-07-04 15:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: JBioSeqTools
+[2023-07-04 15:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: the-compiler
+[2023-07-04 15:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ovos-utils
+[2023-07-04 15:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: azure-recommendations
+[2023-07-04 15:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: medkit-lib
+[2023-07-04 15:20:37] INFO root fetch - processPackages [Bigsansar]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-07-04 15:20:38] INFO root fetch - processPackages [azure-recommendations]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-04 15:20:38] INFO root fetch - processPackages [the-compiler]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-04 15:20:38] INFO root fetch - processPackages [ovos-utils]: New version: [0.0.9a1] Old Version: [0.0.9]
+[2023-07-04 15:20:38] INFO root fetch - processPackages [JBioSeqTools]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-04 15:20:38] INFO root fetch - processPackages [SELDOMpy]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-04 15:20:38] INFO root fetch - processPackages [crtoolbox]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-04 15:20:38] INFO root fetch - processPackages [medkit-lib]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-04 15:20:38] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 15:20:38] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 15:20:38] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/11/c2/f9d084a2056a3317482f21679a5faeab5490456b581b87a829f5862afac8/JBioSeqTools-1.1.9.tar.gz
+[2023-07-04 15:20:38] INFO root fetch - processPackages [the-compiler]: Downloading https://files.pythonhosted.org/packages/24/14/541aee917cc4fc35bbe1d64c4af9cec41023680c80ee7428953469131283/the-compiler-0.1.6.tar.gz
+[2023-07-04 15:20:38] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/b5/19/e5874e4147620079e0e5bc8aa9a2715e969496ff0886e54f972eb52d1118/Bigsansar-1.8.0.tar.gz
+[2023-07-04 15:20:38] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-04 15:20:38] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/a2/fd/c04aa6d97002efa8a365e9cd68e66481f399b970b508680b776771c41d80/SELDOMpy-0.8.1-cp38-cp38-win_amd64.whl
+[2023-07-04 15:20:38] INFO root fetch - processPackages [crtoolbox]: Downloading https://files.pythonhosted.org/packages/71/bf/81f413b88afa64908f92a844e4d4b49ccf8b77bfbee73038f2646b9658c8/crtoolbox-0.1.5.tar.gz
+[2023-07-04 15:20:38] INFO root fetch - processPackages [azure-recommendations]: Downloading https://files.pythonhosted.org/packages/e0/3a/7f4cf15f42e848d8e917b8bb7e1bbd31a5988287e68c68351ae87530b668/azure_recommendations-0.3.3.tar.gz
+[2023-07-04 15:20:38] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-04 15:20:38] INFO root fetch - processPackages [medkit-lib]: Downloading https://files.pythonhosted.org/packages/66/ae/994d615464e22180157f245eafc992940aa8d148ffe336a596eab3df2c6f/medkit_lib-0.7.0.tar.gz
+[2023-07-04 15:20:38] INFO root fetch - processPackages [the-compiler]: Downloading https://files.pythonhosted.org/packages/9b/47/2eca2e55cfde597a82985333c3e99ce083051ddeb1e368d575e8edb2bfa6/the-compiler-0.1.7.tar.gz
+[2023-07-04 15:20:38] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-04 15:20:38] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/87/9d/c7af9928fb6171d7e60e27dbecddcf315051e77bf920c0809ca45db3dd99/Bigsansar-1.8.1.tar.gz
+[2023-07-04 15:20:38] INFO root fetch - processPackages [ovos-utils]: executing diffoscope
+[2023-07-04 15:20:38] INFO root fetch - processPackages [ovos-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_utils-0.0.9.tar.gz tmp/ovos_utils-0.0.9a1.tar.gz --markdown 20230704/o/ovos-utils/0.0.9-0.0.9a1/diff.md --exclude *.pyd
+[2023-07-04 15:20:38] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/4d/e5/ff47895d92dd8df00e9c4feaee0a21c69337b0162a293c518393112b2db5/JBioSeqTools-1.2.0.tar.gz
+[2023-07-04 15:20:38] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-04 15:20:38] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/24/1e/60025ceb8fa9dc6c9d731e6f87b891de50d4b4bd055b41725f368751f66a/SELDOMpy-0.8.2.tar.gz
+[2023-07-04 15:20:38] INFO root fetch - processPackages [the-compiler]: executing diffoscope
+[2023-07-04 15:20:38] INFO root fetch - processPackages [the-compiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/the-compiler-0.1.6.tar.gz tmp/the-compiler-0.1.7.tar.gz --markdown 20230704/t/the-compiler/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-04 15:20:38] INFO root fetch - processPackages [azure-recommendations]: Downloading https://files.pythonhosted.org/packages/d0/24/5f5436d97838f3ceb8b73d4403fcefcb56d1dede71ea2dff3947f5a5a254/azure_recommendations-0.3.4.tar.gz
+[2023-07-04 15:20:38] INFO root fetch - processPackages [crtoolbox]: Downloading https://files.pythonhosted.org/packages/15/3b/0cd3ad487cf89f16994f4505f84c54f31f2dea8eb2bf045884e413f14110/crtoolbox-0.1.6.tar.gz
+[2023-07-04 15:20:39] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-04 15:20:39] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230704/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 15:20:39] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-07-04 15:20:39] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.8.0.tar.gz tmp/Bigsansar-1.8.1.tar.gz --markdown 20230704/B/Bigsansar/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-07-04 15:20:39] INFO root fetch - processPackages [medkit-lib]: Downloading https://files.pythonhosted.org/packages/3f/ba/0dda8d740f20034d0f54755b8ab1541795d9f3f724176091623a14f15a6a/medkit_lib-0.7.1.tar.gz
+[2023-07-04 15:20:39] INFO root fetch - processPackages [JBioSeqTools]: executing diffoscope
+[2023-07-04 15:20:39] INFO root fetch - processPackages [JBioSeqTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBioSeqTools-1.1.9.tar.gz tmp/JBioSeqTools-1.2.0.tar.gz --markdown 20230704/J/JBioSeqTools/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-04 15:20:39] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-04 15:20:39] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230704/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 15:20:39] INFO root fetch - processPackages [crtoolbox]: executing diffoscope
+[2023-07-04 15:20:39] INFO root fetch - processPackages [crtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crtoolbox-0.1.5.tar.gz tmp/crtoolbox-0.1.6.tar.gz --markdown 20230704/c/crtoolbox/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-04 15:20:39] INFO root fetch - processPackages [medkit-lib]: executing diffoscope
+[2023-07-04 15:20:39] INFO root fetch - processPackages [medkit-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medkit_lib-0.7.0.tar.gz tmp/medkit_lib-0.7.1.tar.gz --markdown 20230704/m/medkit-lib/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-04 15:20:39] INFO root fetch - processPackages [azure-recommendations]: executing diffoscope
+[2023-07-04 15:20:39] INFO root fetch - processPackages [azure-recommendations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_recommendations-0.3.3.tar.gz tmp/azure_recommendations-0.3.4.tar.gz --markdown 20230704/a/azure-recommendations/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-04 15:20:39] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-04 15:20:39] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.8.1-cp38-cp38-win_amd64.whl.zip tmp/SELDOMpy-0.8.2.tar.gz --markdown 20230704/S/SELDOMpy/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-04 15:20:40] INFO root fetch - processPackages [ovos-utils]: Remove: archive file [/home/abi/fetcher/tmp/ovos_utils-0.0.9.tar.gz]
+[2023-07-04 15:20:40] INFO root fetch - processPackages [ovos-utils]: Remove: archive file [/home/abi/fetcher/tmp/ovos_utils-0.0.9a1.tar.gz]
+[2023-07-04 15:20:40] INFO root fetch - processPackages [ovos-utils]: Start processing: dbsqlclone
+[2023-07-04 15:20:40] INFO root fetch - main [MainThread]: End processing [ovos-utils]: success
+[2023-07-04 15:20:40] INFO root fetch - processPackages [dbsqlclone]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 15:20:40] INFO root fetch - processPackages [the-compiler]: Remove: archive file [/home/abi/fetcher/tmp/the-compiler-0.1.6.tar.gz]
+[2023-07-04 15:20:40] INFO root fetch - processPackages [the-compiler]: Remove: archive file [/home/abi/fetcher/tmp/the-compiler-0.1.7.tar.gz]
+[2023-07-04 15:20:40] INFO root fetch - processPackages [the-compiler]: Start processing: nbdev-sphinx
+[2023-07-04 15:20:40] INFO root fetch - main [MainThread]: End processing [the-compiler]: success
+[2023-07-04 15:20:40] INFO root fetch - processPackages [dbsqlclone]: Downloading https://files.pythonhosted.org/packages/5c/3b/25d077adf5009895ff92187030733c4f9d9d67c733a8adf52441ed94deb9/dbsqlclone-0.1.8-py3-none-any.whl
+[2023-07-04 15:20:40] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 15:20:40] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-04 15:20:40] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-04 15:20:40] INFO root fetch - processPackages [nbdev-scipy]: Start processing: SELDOMpy
+[2023-07-04 15:20:40] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-04 15:20:40] INFO root fetch - processPackages [SELDOMpy]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-04 15:20:40] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-07-04 15:20:40] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-04 15:20:40] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-04 15:20:40] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: recurtx
+[2023-07-04 15:20:40] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-04 15:20:40] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-1.1.9.tar.gz]
+[2023-07-04 15:20:40] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-1.2.0.tar.gz]
+[2023-07-04 15:20:40] INFO root fetch - processPackages [JBioSeqTools]: Start processing: tutor-contrib-aspects
+[2023-07-04 15:20:40] INFO root fetch - main [MainThread]: End processing [JBioSeqTools]: success
+[2023-07-04 15:20:40] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-04 15:20:40] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.8.1-cp38-cp38-win_amd64.whl.zip tmp/SELDOMpy-0.8.2.tar.gz --markdown 20230704/S/SELDOMpy/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-04 15:20:40] INFO root fetch - processPackages [recurtx]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-04 15:20:40] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-07-04 15:20:40] INFO root fetch - processPackages [tutor-contrib-aspects]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-04 15:20:40] INFO root fetch - processPackages [azure-recommendations]: Remove: archive file [/home/abi/fetcher/tmp/azure_recommendations-0.3.3.tar.gz]
+[2023-07-04 15:20:40] INFO root fetch - processPackages [azure-recommendations]: Remove: archive file [/home/abi/fetcher/tmp/azure_recommendations-0.3.4.tar.gz]
+[2023-07-04 15:20:40] INFO root fetch - processPackages [azure-recommendations]: Start processing: the-compiler
+[2023-07-04 15:20:40] INFO root fetch - main [MainThread]: End processing [azure-recommendations]: success
+[2023-07-04 15:20:40] INFO root fetch - processPackages [the-compiler]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-04 15:20:40] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-07-04 15:20:40] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230704/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 15:20:40] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.1-cp38-cp38-win_amd64.whl.zip]
+[2023-07-04 15:20:40] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.2.tar.gz]
+[2023-07-04 15:20:40] INFO root fetch - processPackages [SELDOMpy]: Start processing: ckanmirror
+[2023-07-04 15:20:40] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-04 15:20:40] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.8.0.tar.gz]
+[2023-07-04 15:20:40] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.8.1.tar.gz]
+[2023-07-04 15:20:40] INFO root fetch - processPackages [Bigsansar]: Start processing: nbdev-django
+[2023-07-04 15:20:40] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-07-04 15:20:41] WARNING root fetch - processPackages [ckanmirror]: Skipping, unable to determine old version
+[2023-07-04 15:20:41] INFO root fetch - processPackages [ckanmirror]: Start processing: felimination
+[2023-07-04 15:20:41] INFO root fetch - main [MainThread]: End processing [ckanmirror] error
+[2023-07-04 15:20:41] INFO root fetch - processPackages [the-compiler]: Downloading https://files.pythonhosted.org/packages/24/14/541aee917cc4fc35bbe1d64c4af9cec41023680c80ee7428953469131283/the-compiler-0.1.6.tar.gz
+[2023-07-04 15:20:41] INFO root fetch - processPackages [recurtx]: Downloading https://files.pythonhosted.org/packages/e5/5b/07d5c399060d2507547e2f30da2c5d119955f0cbbd99a8f07a46f73ce884/recurtx-0.0.7.tar.gz
+[2023-07-04 15:20:41] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 15:20:41] INFO root fetch - processPackages [tutor-contrib-aspects]: Downloading https://files.pythonhosted.org/packages/94/ac/445f23b29de13e4921f2ee7c219e5ddaa1ac05ccad64f42010d3158b2d0b/tutor-contrib-aspects-0.3.0.tar.gz
+[2023-07-04 15:20:41] WARNING root fetch - processPackages [felimination]: Skipping, unable to determine old version
+[2023-07-04 15:20:41] INFO root fetch - processPackages [felimination]: Start processing: odoo-addon-fieldservice-skill
+[2023-07-04 15:20:41] INFO root fetch - main [MainThread]: End processing [felimination] error
+[2023-07-04 15:20:41] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-04 15:20:41] INFO root fetch - processPackages [medkit-lib]: Remove: archive file [/home/abi/fetcher/tmp/medkit_lib-0.7.0.tar.gz]
+[2023-07-04 15:20:41] INFO root fetch - processPackages [medkit-lib]: Remove: archive file [/home/abi/fetcher/tmp/medkit_lib-0.7.1.tar.gz]
+[2023-07-04 15:20:41] INFO root fetch - main [MainThread]: End processing [medkit-lib]: success
+[2023-07-04 15:20:41] INFO root fetch - processPackages [the-compiler]: Downloading https://files.pythonhosted.org/packages/9b/47/2eca2e55cfde597a82985333c3e99ce083051ddeb1e368d575e8edb2bfa6/the-compiler-0.1.7.tar.gz
+[2023-07-04 15:20:41] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.9]
+[2023-07-04 15:20:41] ERROR root fetch - processPackages [SELDOMpy]: Diffoscope failed: time="2023-07-04T15:20:40+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/SELDOMpy-0.8.1-cp38-cp38-win_amd64.whl.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/SELDOMpy-0.8.2.tar.gz: No such file or directory
+
+[2023-07-04 15:20:41] INFO root fetch - main [MainThread]: End processing [SELDOMpy] error
+[2023-07-04 15:20:41] INFO root fetch - processPackages [recurtx]: Downloading https://files.pythonhosted.org/packages/ab/59/b82ba7d49c54887f177173c12a9e573fe3e686201963afa7b48857ff4ed7/recurtx-0.0.8.tar.gz
+[2023-07-04 15:20:41] INFO root fetch - processPackages [dbsqlclone]: Downloading https://files.pythonhosted.org/packages/97/66/ab70f5efb866ced4bd1cb01cad991391c38de6937f1f060ec3ab1791a180/dbsqlclone-0.1.9-py3-none-any.whl
+[2023-07-04 15:20:41] INFO root fetch - processPackages [the-compiler]: executing diffoscope
+[2023-07-04 15:20:41] INFO root fetch - processPackages [the-compiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/the-compiler-0.1.6.tar.gz tmp/the-compiler-0.1.7.tar.gz --markdown 20230704/t/the-compiler/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-04 15:20:41] INFO root fetch - processPackages [crtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/crtoolbox-0.1.5.tar.gz]
+[2023-07-04 15:20:41] INFO root fetch - processPackages [crtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/crtoolbox-0.1.6.tar.gz]
+[2023-07-04 15:20:41] INFO root fetch - main [MainThread]: End processing [crtoolbox]: success
+[2023-07-04 15:20:41] INFO root fetch - processPackages [tutor-contrib-aspects]: Downloading https://files.pythonhosted.org/packages/02/c5/b813500da919f1f0b450a02ccd65225b27814c808c5c7b86a2b2b84f5442/tutor-contrib-aspects-0.4.0.tar.gz
+[2023-07-04 15:20:41] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: Downloading https://files.pythonhosted.org/packages/af/38/11400eb3ab3a6e5765609365441685338e0170ab5ea67d837b39c01ecb7d/odoo_addon_fieldservice_skill-15.0.1.0.0.9-py3-none-any.whl
+[2023-07-04 15:20:41] INFO root fetch - processPackages [recurtx]: executing diffoscope
+[2023-07-04 15:20:41] INFO root fetch - processPackages [recurtx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recurtx-0.0.7.tar.gz tmp/recurtx-0.0.8.tar.gz --markdown 20230704/r/recurtx/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-04 15:20:41] INFO root fetch - processPackages [tutor-contrib-aspects]: executing diffoscope
+[2023-07-04 15:20:41] INFO root fetch - processPackages [tutor-contrib-aspects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-contrib-aspects-0.3.0.tar.gz tmp/tutor-contrib-aspects-0.4.0.tar.gz --markdown 20230704/t/tutor-contrib-aspects/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-04 15:20:41] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-04 15:20:41] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-07-04 15:20:41] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-07-04 15:20:41] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-07-04 15:20:42] INFO root fetch - processPackages [dbsqlclone]: executing diffoscope
+[2023-07-04 15:20:42] INFO root fetch - processPackages [dbsqlclone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbsqlclone-0.1.8-py3-none-any.whl.zip tmp/dbsqlclone-0.1.9-py3-none-any.whl.zip --markdown 20230704/d/dbsqlclone/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 15:20:42] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: Downloading https://files.pythonhosted.org/packages/9b/7e/f3029214accde96a14c17777dfe4265060c738f0bf81c44f0052125038c5/odoo_addon_fieldservice_skill-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-04 15:20:42] INFO root fetch - processPackages [the-compiler]: Remove: archive file [/home/abi/fetcher/tmp/the-compiler-0.1.6.tar.gz]
+[2023-07-04 15:20:42] INFO root fetch - processPackages [the-compiler]: Remove: archive file [/home/abi/fetcher/tmp/the-compiler-0.1.7.tar.gz]
+[2023-07-04 15:20:42] INFO root fetch - main [MainThread]: End processing [the-compiler]: success
+[2023-07-04 15:20:42] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: executing diffoscope
+[2023-07-04 15:20:42] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_skill-15.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_skill-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230704/o/odoo-addon-fieldservice-skill/15.0.1.0.0.9-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-04 15:20:42] INFO root fetch - processPackages [recurtx]: Remove: archive file [/home/abi/fetcher/tmp/recurtx-0.0.7.tar.gz]
+[2023-07-04 15:20:42] INFO root fetch - processPackages [recurtx]: Remove: archive file [/home/abi/fetcher/tmp/recurtx-0.0.8.tar.gz]
+[2023-07-04 15:20:42] INFO root fetch - main [MainThread]: End processing [recurtx]: success
+[2023-07-04 15:20:42] INFO root fetch - processPackages [tutor-contrib-aspects]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-aspects-0.3.0.tar.gz]
+[2023-07-04 15:20:42] INFO root fetch - processPackages [tutor-contrib-aspects]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-aspects-0.4.0.tar.gz]
+[2023-07-04 15:20:42] INFO root fetch - main [MainThread]: End processing [tutor-contrib-aspects]: success
+[2023-07-04 15:20:42] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-04 15:20:42] INFO root fetch - processPackages [dbsqlclone]: Remove: archive file [/home/abi/fetcher/tmp/dbsqlclone-0.1.8-py3-none-any.whl.zip]
+[2023-07-04 15:20:42] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230704/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 15:20:42] INFO root fetch - processPackages [dbsqlclone]: Remove: archive file [/home/abi/fetcher/tmp/dbsqlclone-0.1.9-py3-none-any.whl.zip]
+[2023-07-04 15:20:42] INFO root fetch - main [MainThread]: End processing [dbsqlclone]: success
+[2023-07-04 15:20:43] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_skill-15.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-04 15:20:43] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_skill-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-04 15:20:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-skill]: success
+[2023-07-04 15:20:43] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-04 15:20:43] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-04 15:20:43] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-04 15:20:43] INFO root fetch - main [MainThread]: Store serial: [18755025]
