@@ -22002,3 +22002,172 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 14:53:48] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.355.0.tar.gz]
 [2023-07-04 14:53:48] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-04 14:53:48] INFO root fetch - main [MainThread]: Store serial: [18754759]
+[2023-07-04 14:58:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18754759]
+[2023-07-04 14:59:00] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-04 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pwasopt
+[2023-07-04 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: manticore
+[2023-07-04 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2023-07-04 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gundi-client-v2
+[2023-07-04 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zerotheorem-python
+[2023-07-04 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-allauth-2fa
+[2023-07-04 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tensorcircuit-nightly
+[2023-07-04 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zerotheorem-python
+[2023-07-04 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tibert
+[2023-07-04 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rdfdf
+[2023-07-04 14:59:01] INFO root fetch - processPackages [pwasopt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 14:59:01] INFO root fetch - processPackages [django-allauth-2fa]: New version: [0.9rc1] Old Version: [0.9]
+[2023-07-04 14:59:01] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230703164808] Old Version: [2.1.1.dev20230703163917]
+[2023-07-04 14:59:01] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230704] Old Version: [0.3.8.dev230703]
+[2023-07-04 14:59:01] INFO root fetch - processPackages [zerotheorem-python]: New version: [2.4] Old Version: [1.4]
+[2023-07-04 14:59:01] INFO root fetch - processPackages [zerotheorem-python]: New version: [2.4] Old Version: [1.4]
+[2023-07-04 14:59:01] INFO root fetch - processPackages [gundi-client-v2]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-04 14:59:01] WARNING root fetch - processPackages [tibert]: Skipping, unable to determine old version
+[2023-07-04 14:59:01] INFO root fetch - processPackages [tibert]: Start processing: revolution.py
+[2023-07-04 14:59:01] INFO root fetch - main [MainThread]: End processing [tibert] error
+[2023-07-04 14:59:01] INFO root fetch - processPackages [rdfdf]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-04 14:59:01] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/1d/38/940cd74508b9d48ea6e02c3d979ff0a3968f5e1af5e7b42668198858e0a9/localstack-core-2.1.1.dev20230703163917.tar.gz
+[2023-07-04 14:59:01] INFO root fetch - processPackages [pwasopt]: Downloading https://files.pythonhosted.org/packages/ae/d3/8acc2ca24b0c5762d47eed6da9cedd7e6c2e1278d38a92152dd818daca6c/pwasopt-0.0.8.tar.gz
+[2023-07-04 14:59:01] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/63/15/1322c381a46f1f0ff7a5e8aea17e765dd60fc3a46058a98b50824371540d/manticore-0.3.8.dev230703.tar.gz
+[2023-07-04 14:59:01] INFO root fetch - processPackages [revolution.py]: New version: [5.0.1.1] Old Version: [5.0.1.0]
+[2023-07-04 14:59:01] INFO root fetch - processPackages [zerotheorem-python]: Downloading https://files.pythonhosted.org/packages/f9/5c/15964e643794ffe940e1e57f193fb40a1df9b23287197b5c415fc01d1d12/zerotheorem_python-1.4-py3-none-any.whl
+[2023-07-04 14:59:01] INFO root fetch - processPackages [zerotheorem-python]: Downloading https://files.pythonhosted.org/packages/f9/5c/15964e643794ffe940e1e57f193fb40a1df9b23287197b5c415fc01d1d12/zerotheorem_python-1.4-py3-none-any.whl
+[2023-07-04 14:59:01] INFO root fetch - processPackages [django-allauth-2fa]: Downloading https://files.pythonhosted.org/packages/7d/6b/e4450c69502de3cbd39a6cefe84c193070faa351beefea0adb42a68eaf46/django-allauth-2fa-0.9.tar.gz
+[2023-07-04 14:59:01] INFO root fetch - processPackages [gundi-client-v2]: Downloading https://files.pythonhosted.org/packages/69/b6/1935f22e7ebb202eb417350c5cee0d1bdca7c39baab045b406f0a56df2dd/gundi_client_v2-2.0.0.tar.gz
+[2023-07-04 14:59:01] INFO root fetch - processPackages [rdfdf]: Downloading https://files.pythonhosted.org/packages/fb/7b/e9ed8a90e03c7d35cc284272931fa4e20adaa1241e08442b3540117ffd2e/rdfdf-0.1.4.tar.gz
+[2023-07-04 14:59:01] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-07-04 14:59:01] INFO root fetch - processPackages [revolution.py]: Downloading https://files.pythonhosted.org/packages/b0/fc/b8315c0a3f19c930c400dbe918f618bada4cd4b8e5bb7781fc8add5a4ec8/revolution.py-5.0.1.0.tar.gz
+[2023-07-04 14:59:01] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/d7/1f/c15ae6ebd5ae69456beec0ceda20c5b1b6ad7cd840fca8d1207b32660bde/manticore-0.3.8.dev230704.tar.gz
+[2023-07-04 14:59:01] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-07-04 14:59:01] INFO root fetch - processPackages [pwasopt]: Downloading https://files.pythonhosted.org/packages/8c/44/c8a60c3cc2f8e07ff12acc4bdfb14e04f7c193eea8f81e8ddd165d9378ef/pwasopt-0.0.9.tar.gz
+[2023-07-04 14:59:01] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/5c/d1/d6b8873fe8ca60a3a86210156b2ec5d16d83a7dca8dfaa2546853edb73a4/localstack-core-2.1.1.dev20230703164808.tar.gz
+[2023-07-04 14:59:02] INFO root fetch - processPackages [zerotheorem-python]: Downloading https://files.pythonhosted.org/packages/8b/16/e84a238554beb056cd2e6553137ab4c96a98093fe1d8c5496c06ce5f7628/zerotheorem_python-2.4-py3-none-any.whl
+[2023-07-04 14:59:02] INFO root fetch - processPackages [zerotheorem-python]: Downloading https://files.pythonhosted.org/packages/8b/16/e84a238554beb056cd2e6553137ab4c96a98093fe1d8c5496c06ce5f7628/zerotheorem_python-2.4-py3-none-any.whl
+[2023-07-04 14:59:02] INFO root fetch - processPackages [gundi-client-v2]: Downloading https://files.pythonhosted.org/packages/c8/e8/5477c955100b0c12ef4ccc8d4fb128b4c1e7b6fc4390d863511d372914d7/gundi_client_v2-2.0.1.tar.gz
+[2023-07-04 14:59:02] INFO root fetch - processPackages [pwasopt]: executing diffoscope
+[2023-07-04 14:59:02] INFO root fetch - processPackages [pwasopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwasopt-0.0.8.tar.gz tmp/pwasopt-0.0.9.tar.gz --markdown 20230704/p/pwasopt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 14:59:02] INFO root fetch - processPackages [rdfdf]: Downloading https://files.pythonhosted.org/packages/21/6c/dc7c425bf25daefbd0d3a6f277e8ca1cd07b5e427a47b16bf4feda067404/rdfdf-0.1.5.tar.gz
+[2023-07-04 14:59:02] INFO root fetch - processPackages [django-allauth-2fa]: Downloading https://files.pythonhosted.org/packages/04/7b/96c3bb87de27b4df74e07d6dc6f467dd628d9b3cbee5ed1d1b0955d7ca38/django_allauth_2fa-0.9rc1-py3-none-any.whl
+[2023-07-04 14:59:02] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-07-04 14:59:02] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230703.tar.gz tmp/manticore-0.3.8.dev230704.tar.gz --markdown 20230704/m/manticore/0.3.8.dev230703-0.3.8.dev230704/diff.md --exclude *.pyd
+[2023-07-04 14:59:02] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-04 14:59:02] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230703163917.tar.gz tmp/localstack-core-2.1.1.dev20230703164808.tar.gz --markdown 20230704/l/localstack-core/2.1.1.dev20230703163917-2.1.1.dev20230703164808/diff.md --exclude *.pyd
+[2023-07-04 14:59:02] INFO root fetch - processPackages [zerotheorem-python]: executing diffoscope
+[2023-07-04 14:59:02] INFO root fetch - processPackages [zerotheorem-python]: executing diffoscope
+[2023-07-04 14:59:02] INFO root fetch - processPackages [zerotheorem-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerotheorem_python-1.4-py3-none-any.whl.zip tmp/zerotheorem_python-2.4-py3-none-any.whl.zip --markdown 20230704/z/zerotheorem-python/1.4-2.4/diff.md --exclude *.pyd
+[2023-07-04 14:59:02] INFO root fetch - processPackages [zerotheorem-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerotheorem_python-1.4-py3-none-any.whl.zip tmp/zerotheorem_python-2.4-py3-none-any.whl.zip --markdown 20230704/z/zerotheorem-python/1.4-2.4/diff.md --exclude *.pyd
+[2023-07-04 14:59:02] INFO root fetch - processPackages [gundi-client-v2]: executing diffoscope
+[2023-07-04 14:59:02] INFO root fetch - processPackages [gundi-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gundi_client_v2-2.0.0.tar.gz tmp/gundi_client_v2-2.0.1.tar.gz --markdown 20230704/g/gundi-client-v2/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-04 14:59:02] INFO root fetch - processPackages [revolution.py]: Downloading https://files.pythonhosted.org/packages/c0/f1/2f5e26c377e7355a249186f819850756a16d7a551d560f6be6e2d93e7498/revolution.py-5.0.1.1.tar.gz
+[2023-07-04 14:59:02] INFO root fetch - processPackages [rdfdf]: executing diffoscope
+[2023-07-04 14:59:02] INFO root fetch - processPackages [rdfdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfdf-0.1.4.tar.gz tmp/rdfdf-0.1.5.tar.gz --markdown 20230704/r/rdfdf/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-04 14:59:02] INFO root fetch - processPackages [django-allauth-2fa]: executing diffoscope
+[2023-07-04 14:59:02] INFO root fetch - processPackages [django-allauth-2fa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-allauth-2fa-0.9.tar.gz tmp/django_allauth_2fa-0.9rc1-py3-none-any.whl.zip --markdown 20230704/d/django-allauth-2fa/0.9-0.9rc1/diff.md --exclude *.pyd
+[2023-07-04 14:59:02] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-07-04 14:59:02] INFO root fetch - processPackages [revolution.py]: executing diffoscope
+[2023-07-04 14:59:02] INFO root fetch - processPackages [revolution.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revolution.py-5.0.1.0.tar.gz tmp/revolution.py-5.0.1.1.tar.gz --markdown 20230704/r/revolution.py/5.0.1.0-5.0.1.1/diff.md --exclude *.pyd
+[2023-07-04 14:59:03] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-07-04 14:59:03] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230704/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-07-04 14:59:03] INFO root fetch - processPackages [pwasopt]: Remove: archive file [/home/abi/fetcher/tmp/pwasopt-0.0.8.tar.gz]
+[2023-07-04 14:59:03] INFO root fetch - processPackages [pwasopt]: Remove: archive file [/home/abi/fetcher/tmp/pwasopt-0.0.9.tar.gz]
+[2023-07-04 14:59:03] INFO root fetch - processPackages [pwasopt]: Start processing: pp-project-pkg
+[2023-07-04 14:59:03] INFO root fetch - main [MainThread]: End processing [pwasopt]: success
+[2023-07-04 14:59:03] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202307040935] Old Version: [1.0.202307020131]
+[2023-07-04 14:59:03] INFO root fetch - processPackages [zerotheorem-python]: Remove: archive file [/home/abi/fetcher/tmp/zerotheorem_python-1.4-py3-none-any.whl.zip]
+[2023-07-04 14:59:03] INFO root fetch - processPackages [zerotheorem-python]: Remove: archive file [/home/abi/fetcher/tmp/zerotheorem_python-2.4-py3-none-any.whl.zip]
+[2023-07-04 14:59:03] INFO root fetch - processPackages [zerotheorem-python]: Start processing: swh.graphql
+[2023-07-04 14:59:03] INFO root fetch - main [MainThread]: End processing [zerotheorem-python]: success
+[2023-07-04 14:59:03] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/80/a1/a594b4c88ff9a64b956514f45cc6b391d11e8a127181cf496c78b1cd1e17/pp_project_pkg-1.0.202307020131-py3-none-any.whl
+[2023-07-04 14:59:03] INFO root fetch - processPackages [gundi-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/gundi_client_v2-2.0.0.tar.gz]
+[2023-07-04 14:59:03] INFO root fetch - processPackages [gundi-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/gundi_client_v2-2.0.1.tar.gz]
+[2023-07-04 14:59:03] INFO root fetch - processPackages [gundi-client-v2]: Start processing: swarms
+[2023-07-04 14:59:03] INFO root fetch - main [MainThread]: End processing [gundi-client-v2]: success
+[2023-07-04 14:59:03] INFO root fetch - processPackages [swh.graphql]: New version: [0.0.97] Old Version: [0.0.96]
+[2023-07-04 14:59:03] INFO root fetch - processPackages [swarms]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-04 14:59:04] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/c6/cf/2029a9a1d3cb1ed1414de88cc53a32c8414e0364b59438ab746beb5f4d0b/swarms-0.3.2.tar.gz
+[2023-07-04 14:59:04] INFO root fetch - processPackages [django-allauth-2fa]: Remove: archive file [/home/abi/fetcher/tmp/django-allauth-2fa-0.9.tar.gz]
+[2023-07-04 14:59:04] INFO root fetch - processPackages [django-allauth-2fa]: Remove: archive file [/home/abi/fetcher/tmp/django_allauth_2fa-0.9rc1-py3-none-any.whl.zip]
+[2023-07-04 14:59:04] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/04/34/537962eaa5e0aa8a7dc1ba5cb466ab602d1a15ba34227c933a1de6115b16/pp_project_pkg-1.0.202307040935-py3-none-any.whl
+[2023-07-04 14:59:04] INFO root fetch - processPackages [django-allauth-2fa]: Start processing: dk
+[2023-07-04 14:59:04] INFO root fetch - main [MainThread]: End processing [django-allauth-2fa]: success
+[2023-07-04 14:59:04] INFO root fetch - processPackages [revolution.py]: Remove: archive file [/home/abi/fetcher/tmp/revolution.py-5.0.1.0.tar.gz]
+[2023-07-04 14:59:04] INFO root fetch - processPackages [revolution.py]: Remove: archive file [/home/abi/fetcher/tmp/revolution.py-5.0.1.1.tar.gz]
+[2023-07-04 14:59:04] INFO root fetch - processPackages [revolution.py]: Start processing: ephysiopy
+[2023-07-04 14:59:04] INFO root fetch - main [MainThread]: End processing [revolution.py]: success
+[2023-07-04 14:59:04] INFO root fetch - processPackages [swh.graphql]: Downloading https://files.pythonhosted.org/packages/1a/d9/5e257f6afa6ff3e14944ad151f4b5fe926b0e9a00d1bb80fafc1d468d835/swh.graphql-0.0.96.tar.gz
+[2023-07-04 14:59:04] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-07-04 14:59:04] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202307020131-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202307040935-py3-none-any.whl.zip --markdown 20230704/p/pp-project-pkg/1.0.202307020131-1.0.202307040935/diff.md --exclude *.pyd
+[2023-07-04 14:59:04] INFO root fetch - processPackages [dk]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-04 14:59:04] INFO root fetch - processPackages [zerotheorem-python]: Start processing: layerx-sdk-beta
+[2023-07-04 14:59:04] INFO root fetch - main [MainThread]: End processing [zerotheorem-python]: success
+[2023-07-04 14:59:04] INFO root fetch - processPackages [rdfdf]: Remove: archive file [/home/abi/fetcher/tmp/rdfdf-0.1.4.tar.gz]
+[2023-07-04 14:59:04] INFO root fetch - processPackages [rdfdf]: Remove: archive file [/home/abi/fetcher/tmp/rdfdf-0.1.5.tar.gz]
+[2023-07-04 14:59:04] INFO root fetch - processPackages [rdfdf]: Start processing: OpenFisca-France-Local
+[2023-07-04 14:59:04] INFO root fetch - main [MainThread]: End processing [rdfdf]: success
+[2023-07-04 14:59:04] INFO root fetch - processPackages [layerx-sdk-beta]: New version: [1.0.9b2] Old Version: [1.0.9b1]
+[2023-07-04 14:59:04] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/13/3b/96b811835f3d548cd622de758246c7b2e06de31f75a632495fa2edfebad5/swarms-0.3.3.tar.gz
+[2023-07-04 14:59:04] INFO root fetch - processPackages [OpenFisca-France-Local]: New version: [5.2.1] Old Version: [5.2.0]
+[2023-07-04 14:59:04] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230703.tar.gz]
+[2023-07-04 14:59:04] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230704.tar.gz]
+[2023-07-04 14:59:04] INFO root fetch - processPackages [manticore]: Start processing: primechecker
+[2023-07-04 14:59:04] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-07-04 14:59:04] WARNING root fetch - processPackages [primechecker]: Skipping, unable to determine old version
+[2023-07-04 14:59:04] INFO root fetch - processPackages [primechecker]: Start processing: flet-ivid-hks
+[2023-07-04 14:59:04] INFO root fetch - main [MainThread]: End processing [primechecker] error
+[2023-07-04 14:59:04] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/82/30/49db849a17663ef31174e31654b943efd6d652d8fead1d082f103f9ab59e/layerx-sdk-beta-1.0.9b1.tar.gz
+[2023-07-04 14:59:04] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-04 14:59:04] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.3.2.tar.gz tmp/swarms-0.3.3.tar.gz --markdown 20230704/s/swarms/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-04 14:59:04] INFO root fetch - processPackages [OpenFisca-France-Local]: Downloading https://files.pythonhosted.org/packages/2b/4c/25909f617b75736bed2fc2303fceecf7e60c84f8a0b37fe9acd566823010/OpenFisca-France-Local-5.2.0.tar.gz
+[2023-07-04 14:59:04] INFO root fetch - processPackages [dk]: Downloading https://files.pythonhosted.org/packages/54/bc/ab2f4e69d479944a22fdb4d5a14f2a56cc938897083b67d57d8e0bf6441b/dk-1.2.0.tar.gz
+[2023-07-04 14:59:04] INFO root fetch - processPackages [swh.graphql]: Downloading https://files.pythonhosted.org/packages/0b/33/03bcf3fab943934cd5d98c3aff46048deb73594e59beb9f2bf45bf2cac63/swh.graphql-0.0.97.tar.gz
+[2023-07-04 14:59:04] INFO root fetch - processPackages [flet-ivid-hks]: New version: [1.5] Old Version: [1.4]
+[2023-07-04 14:59:04] INFO root fetch - processPackages [ephysiopy]: New version: [1.9.22] Old Version: [1.9.21]
+[2023-07-04 14:59:04] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/80/17/9c39f674089d0687a6ebb4bb5cb263194817e74bbf02632c5b1f95ed63ed/layerx-sdk-beta-1.0.9b2.tar.gz
+[2023-07-04 14:59:04] INFO root fetch - processPackages [swh.graphql]: executing diffoscope
+[2023-07-04 14:59:04] INFO root fetch - processPackages [swh.graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.graphql-0.0.96.tar.gz tmp/swh.graphql-0.0.97.tar.gz --markdown 20230704/s/swh.graphql/0.0.96-0.0.97/diff.md --exclude *.pyd
+[2023-07-04 14:59:04] INFO root fetch - processPackages [flet-ivid-hks]: Downloading https://files.pythonhosted.org/packages/af/65/a7d00a095041d632c2b03650d7feb6a6121f00b89eb4788bbf3e0231668f/flet_ivid_hks-1.4.tar.gz
+[2023-07-04 14:59:04] INFO root fetch - processPackages [layerx-sdk-beta]: executing diffoscope
+[2023-07-04 14:59:04] INFO root fetch - processPackages [layerx-sdk-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerx-sdk-beta-1.0.9b1.tar.gz tmp/layerx-sdk-beta-1.0.9b2.tar.gz --markdown 20230704/l/layerx-sdk-beta/1.0.9b1-1.0.9b2/diff.md --exclude *.pyd
+[2023-07-04 14:59:04] INFO root fetch - processPackages [ephysiopy]: Downloading https://files.pythonhosted.org/packages/82/44/6eec159bf3c3ba60896765181e18d73657b2921b64c72418be356ec3be39/ephysiopy-1.9.21.tar.gz
+[2023-07-04 14:59:04] INFO root fetch - processPackages [dk]: Downloading https://files.pythonhosted.org/packages/fc/f8/71c2084a05c9dfdaeb58e3cb283d4ae146520ee83d7fc670d2b69f2c417d/dk-1.2.1.tar.gz
+[2023-07-04 14:59:05] INFO root fetch - processPackages [dk]: executing diffoscope
+[2023-07-04 14:59:05] INFO root fetch - processPackages [dk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dk-1.2.0.tar.gz tmp/dk-1.2.1.tar.gz --markdown 20230704/d/dk/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-04 14:59:05] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-07-04 14:59:05] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-07-04 14:59:05] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-07-04 14:59:05] INFO root fetch - processPackages [flet-ivid-hks]: Downloading https://files.pythonhosted.org/packages/e9/3b/4b036b515f54c0f32213f548221f70de2d71062d378eedd65575d59b772d/flet_ivid_hks-1.5.tar.gz
+[2023-07-04 14:59:05] INFO root fetch - processPackages [ephysiopy]: Downloading https://files.pythonhosted.org/packages/26/23/0af1b7a1b81a3202b1eefc8038d9e8884fe47135dbb0af107ba6484944fb/ephysiopy-1.9.22.tar.gz
+[2023-07-04 14:59:05] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202307020131-py3-none-any.whl.zip]
+[2023-07-04 14:59:05] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202307040935-py3-none-any.whl.zip]
+[2023-07-04 14:59:05] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-07-04 14:59:05] INFO root fetch - processPackages [flet-ivid-hks]: executing diffoscope
+[2023-07-04 14:59:05] INFO root fetch - processPackages [flet-ivid-hks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_ivid_hks-1.4.tar.gz tmp/flet_ivid_hks-1.5.tar.gz --markdown 20230704/f/flet-ivid-hks/1.4-1.5/diff.md --exclude *.pyd
+[2023-07-04 14:59:05] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.3.2.tar.gz]
+[2023-07-04 14:59:05] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.3.3.tar.gz]
+[2023-07-04 14:59:05] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-04 14:59:05] INFO root fetch - processPackages [ephysiopy]: executing diffoscope
+[2023-07-04 14:59:05] INFO root fetch - processPackages [ephysiopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephysiopy-1.9.21.tar.gz tmp/ephysiopy-1.9.22.tar.gz --markdown 20230704/e/ephysiopy/1.9.21-1.9.22/diff.md --exclude *.pyd
+[2023-07-04 14:59:06] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b1.tar.gz]
+[2023-07-04 14:59:06] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b2.tar.gz]
+[2023-07-04 14:59:06] INFO root fetch - main [MainThread]: End processing [layerx-sdk-beta]: success
+[2023-07-04 14:59:06] INFO root fetch - processPackages [dk]: Remove: archive file [/home/abi/fetcher/tmp/dk-1.2.0.tar.gz]
+[2023-07-04 14:59:06] INFO root fetch - processPackages [dk]: Remove: archive file [/home/abi/fetcher/tmp/dk-1.2.1.tar.gz]
+[2023-07-04 14:59:06] INFO root fetch - main [MainThread]: End processing [dk]: success
+[2023-07-04 14:59:06] INFO root fetch - processPackages [OpenFisca-France-Local]: Downloading https://files.pythonhosted.org/packages/95/22/cc38ca50457305ada350a076d68a212d7ce622332a67e63649efd37cf849/OpenFisca-France-Local-5.2.1.tar.gz
+[2023-07-04 14:59:06] INFO root fetch - processPackages [swh.graphql]: Remove: archive file [/home/abi/fetcher/tmp/swh.graphql-0.0.96.tar.gz]
+[2023-07-04 14:59:06] INFO root fetch - processPackages [swh.graphql]: Remove: archive file [/home/abi/fetcher/tmp/swh.graphql-0.0.97.tar.gz]
+[2023-07-04 14:59:06] INFO root fetch - main [MainThread]: End processing [swh.graphql]: success
+[2023-07-04 14:59:06] INFO root fetch - processPackages [flet-ivid-hks]: Remove: archive file [/home/abi/fetcher/tmp/flet_ivid_hks-1.4.tar.gz]
+[2023-07-04 14:59:06] INFO root fetch - processPackages [flet-ivid-hks]: Remove: archive file [/home/abi/fetcher/tmp/flet_ivid_hks-1.5.tar.gz]
+[2023-07-04 14:59:06] INFO root fetch - main [MainThread]: End processing [flet-ivid-hks]: success
+[2023-07-04 14:59:06] INFO root fetch - processPackages [OpenFisca-France-Local]: executing diffoscope
+[2023-07-04 14:59:06] INFO root fetch - processPackages [OpenFisca-France-Local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca-France-Local-5.2.0.tar.gz tmp/OpenFisca-France-Local-5.2.1.tar.gz --markdown 20230704/O/OpenFisca-France-Local/5.2.0-5.2.1/diff.md --exclude *.pyd
+[2023-07-04 14:59:06] INFO root fetch - processPackages [ephysiopy]: Remove: archive file [/home/abi/fetcher/tmp/ephysiopy-1.9.21.tar.gz]
+[2023-07-04 14:59:06] INFO root fetch - processPackages [ephysiopy]: Remove: archive file [/home/abi/fetcher/tmp/ephysiopy-1.9.22.tar.gz]
+[2023-07-04 14:59:06] INFO root fetch - main [MainThread]: End processing [ephysiopy]: success
+[2023-07-04 14:59:07] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230703163917.tar.gz]
+[2023-07-04 14:59:07] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230703164808.tar.gz]
+[2023-07-04 14:59:07] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-04 14:59:09] INFO root fetch - processPackages [OpenFisca-France-Local]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Local-5.2.0.tar.gz]
+[2023-07-04 14:59:09] INFO root fetch - processPackages [OpenFisca-France-Local]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Local-5.2.1.tar.gz]
+[2023-07-04 14:59:09] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Local]: success
+[2023-07-04 14:59:09] INFO root fetch - main [MainThread]: Store serial: [18754821]
