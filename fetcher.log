@@ -18374,3 +18374,137 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 12:03:17] INFO root fetch - processPackages [syne-tune]: Remove: archive file [/home/abi/fetcher/tmp/syne_tune-0.9.0.tar.gz]
 [2023-07-04 12:03:17] INFO root fetch - main [MainThread]: End processing [syne-tune]: success
 [2023-07-04 12:03:17] INFO root fetch - main [MainThread]: Store serial: [18753057]
+[2023-07-04 12:08:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18753057]
+[2023-07-04 12:08:26] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-04 12:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fast-align-audio
+[2023-07-04 12:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-dict-display-filter
+[2023-07-04 12:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cpi-tools
+[2023-07-04 12:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyi40aas
+[2023-07-04 12:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testdwg
+[2023-07-04 12:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: target-permutation-importances
+[2023-07-04 12:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-persistence
+[2023-07-04 12:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scw-serverless
+[2023-07-04 12:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: inference-server
+[2023-07-04 12:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finbourne-access-sdk
+[2023-07-04 12:08:26] INFO root fetch - processPackages [target-permutation-importances]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-04 12:08:26] INFO root fetch - processPackages [pyi40aas]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-04 12:08:26] INFO root fetch - processPackages [fast-align-audio]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-04 12:08:26] INFO root fetch - processPackages [pytest-persistence]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 12:08:26] INFO root fetch - processPackages [testdwg]: New version: [0.3] Old Version: [0.2.0]
+[2023-07-04 12:08:26] INFO root fetch - processPackages [python-dict-display-filter]: New version: [1.0.0] Old Version: [0.9.9]
+[2023-07-04 12:08:26] INFO root fetch - processPackages [inference-server]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-04 12:08:26] INFO root fetch - processPackages [scw-serverless]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-04 12:08:26] INFO root fetch - processPackages [cpi-tools]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-04 12:08:26] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-07-04 12:08:26] INFO root fetch - processPackages [target-permutation-importances]: Downloading https://files.pythonhosted.org/packages/44/3c/3b31ceb99798d2be4dc7e7cd4953490cfd835ed7d6d6a592ef95dba2e984/target_permutation_importances-1.0.8.tar.gz
+[2023-07-04 12:08:26] INFO root fetch - processPackages [testdwg]: Downloading https://files.pythonhosted.org/packages/8b/61/38195444d221ac89ae63b97c50d74f06b7172ee79484bc267ae59e1fcb99/testdwg-0.2.0.tar.gz
+[2023-07-04 12:08:26] INFO root fetch - processPackages [pyi40aas]: Downloading https://files.pythonhosted.org/packages/84/97/37baa062276495918f373e88577b8408829742fa169c66d13a21ee341ab0/pyi40aas-0.2.2.tar.gz
+[2023-07-04 12:08:26] INFO root fetch - processPackages [python-dict-display-filter]: Downloading https://files.pythonhosted.org/packages/0a/6e/40a9c38acaf8f3403e34b9b8d1a24fb28463dde5f861744f73bffcd14e26/python-dict-display-filter-0.9.9.tar.gz
+[2023-07-04 12:08:26] INFO root fetch - processPackages [fast-align-audio]: Downloading https://files.pythonhosted.org/packages/b2/b1/a51646442da7249f923d44e716a7f759cd6cb1adee93a739ec3105444af5/fast_align_audio-0.1.1-pp39-pypy39_pp73-win_amd64.whl
+[2023-07-04 12:08:26] INFO root fetch - processPackages [pytest-persistence]: Downloading https://files.pythonhosted.org/packages/b8/91/70db54b1043e3f62d0792c1f4dc8a20f98ff4cee90d0f374616bbe37ce74/pytest-persistence-0.1.8.tar.gz
+[2023-07-04 12:08:26] INFO root fetch - processPackages [inference-server]: Downloading https://files.pythonhosted.org/packages/61/b3/59ba9989f55df3c7b67bf933c8a28b5200ddb7df29829aec855d486c1c0e/inference-server-1.0.4.tar.gz
+[2023-07-04 12:08:26] INFO root fetch - processPackages [scw-serverless]: Downloading https://files.pythonhosted.org/packages/6e/a2/bcef3f2817d93c6190f71a4a3d6019350bd137d6e562e1e882b2c61add1b/scw_serverless-1.1.0.tar.gz
+[2023-07-04 12:08:26] INFO root fetch - processPackages [target-permutation-importances]: Downloading https://files.pythonhosted.org/packages/c8/2e/0adf5d1b25bbd228db5b4fef951bafd1e29a2615910abdb7f1cd5578c947/target_permutation_importances-1.0.9.tar.gz
+[2023-07-04 12:08:26] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-07-04 12:08:26] INFO root fetch - processPackages [cpi-tools]: Downloading https://files.pythonhosted.org/packages/5e/ed/abcd97ba9b2503af591f805ea4f1757ee442e065e9ea4b2f65a8eb50317d/cpi_tools-0.2.6.tar.gz
+[2023-07-04 12:08:27] INFO root fetch - processPackages [target-permutation-importances]: executing diffoscope
+[2023-07-04 12:08:27] INFO root fetch - processPackages [target-permutation-importances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_permutation_importances-1.0.8.tar.gz tmp/target_permutation_importances-1.0.9.tar.gz --markdown 20230704/t/target-permutation-importances/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-04 12:08:27] INFO root fetch - processPackages [testdwg]: Downloading https://files.pythonhosted.org/packages/4d/6b/1cce5a71f8a97c0ed22c070ac873997126ec57a3fe9ce37024b8581b96a8/testdwg-0.3.tar.gz
+[2023-07-04 12:08:27] INFO root fetch - processPackages [python-dict-display-filter]: Downloading https://files.pythonhosted.org/packages/24/ea/fd79fed36b547ac85578c18ea66b527ea61767deb7a797ad9c98945669fc/python-dict-display-filter-1.0.0.tar.gz
+[2023-07-04 12:08:27] INFO root fetch - processPackages [fast-align-audio]: Downloading https://files.pythonhosted.org/packages/35/d3/731ad52eed782927522720a2f71510bb40cbb7fbd2859a9a9978e770ab24/fast_align_audio-0.1.2-pp39-pypy39_pp73-win_amd64.whl
+[2023-07-04 12:08:27] INFO root fetch - processPackages [pyi40aas]: Downloading https://files.pythonhosted.org/packages/7b/ca/54c202ad6b323fe4b9e3c5f206e5b3077413ca7b13f5c567f827f69924fa/pyi40aas-0.2.3.tar.gz
+[2023-07-04 12:08:27] INFO root fetch - processPackages [testdwg]: executing diffoscope
+[2023-07-04 12:08:27] INFO root fetch - processPackages [testdwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testdwg-0.2.0.tar.gz tmp/testdwg-0.3.tar.gz --markdown 20230704/t/testdwg/0.2.0-0.3/diff.md --exclude *.pyd
+[2023-07-04 12:08:27] INFO root fetch - processPackages [python-dict-display-filter]: executing diffoscope
+[2023-07-04 12:08:27] INFO root fetch - processPackages [python-dict-display-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-dict-display-filter-0.9.9.tar.gz tmp/python-dict-display-filter-1.0.0.tar.gz --markdown 20230704/p/python-dict-display-filter/0.9.9-1.0.0/diff.md --exclude *.pyd
+[2023-07-04 12:08:27] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-07-04 12:08:27] INFO root fetch - processPackages [inference-server]: Downloading https://files.pythonhosted.org/packages/86/0e/32486a4e52bf3089fc74181c7ecc80f027a361a2e6096b7bdd70a690a463/inference-server-1.0.5.tar.gz
+[2023-07-04 12:08:27] INFO root fetch - processPackages [pytest-persistence]: Downloading https://files.pythonhosted.org/packages/81/4e/90a9e7348b3a72fdf509516f4888fcc62f2fc222ddde234654a9615b5c98/pytest-persistence-0.1.9.tar.gz
+[2023-07-04 12:08:27] INFO root fetch - processPackages [scw-serverless]: Downloading https://files.pythonhosted.org/packages/28/a5/ac9e69fa569a1881e08c11ed26020be2463603d02a5ea3889757ca9c6516/scw_serverless-1.2.0.tar.gz
+[2023-07-04 12:08:27] INFO root fetch - processPackages [cpi-tools]: Downloading https://files.pythonhosted.org/packages/c7/11/ccfbe5f2f1acab394badc30599cf92ef5c8ec8f6610b7b9c20eee6007959/cpi_tools-0.2.7.tar.gz
+[2023-07-04 12:08:27] INFO root fetch - processPackages [fast-align-audio]: executing diffoscope
+[2023-07-04 12:08:27] INFO root fetch - processPackages [fast-align-audio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_align_audio-0.1.1-pp39-pypy39_pp73-win_amd64.whl.zip tmp/fast_align_audio-0.1.2-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230704/f/fast-align-audio/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-04 12:08:27] INFO root fetch - processPackages [pyi40aas]: executing diffoscope
+[2023-07-04 12:08:27] INFO root fetch - processPackages [pyi40aas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyi40aas-0.2.2.tar.gz tmp/pyi40aas-0.2.3.tar.gz --markdown 20230704/p/pyi40aas/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-04 12:08:27] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-07-04 12:08:27] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230704/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-07-04 12:08:27] INFO root fetch - processPackages [inference-server]: executing diffoscope
+[2023-07-04 12:08:27] INFO root fetch - processPackages [inference-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inference-server-1.0.4.tar.gz tmp/inference-server-1.0.5.tar.gz --markdown 20230704/i/inference-server/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-04 12:08:27] INFO root fetch - processPackages [pytest-persistence]: executing diffoscope
+[2023-07-04 12:08:27] INFO root fetch - processPackages [pytest-persistence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-persistence-0.1.8.tar.gz tmp/pytest-persistence-0.1.9.tar.gz --markdown 20230704/p/pytest-persistence/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 12:08:27] INFO root fetch - processPackages [cpi-tools]: executing diffoscope
+[2023-07-04 12:08:27] INFO root fetch - processPackages [cpi-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpi_tools-0.2.6.tar.gz tmp/cpi_tools-0.2.7.tar.gz --markdown 20230704/c/cpi-tools/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-04 12:08:27] INFO root fetch - processPackages [scw-serverless]: executing diffoscope
+[2023-07-04 12:08:27] INFO root fetch - processPackages [scw-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scw_serverless-1.1.0.tar.gz tmp/scw_serverless-1.2.0.tar.gz --markdown 20230704/s/scw-serverless/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-04 12:08:28] INFO root fetch - processPackages [target-permutation-importances]: Remove: archive file [/home/abi/fetcher/tmp/target_permutation_importances-1.0.8.tar.gz]
+[2023-07-04 12:08:28] INFO root fetch - processPackages [target-permutation-importances]: Remove: archive file [/home/abi/fetcher/tmp/target_permutation_importances-1.0.9.tar.gz]
+[2023-07-04 12:08:28] INFO root fetch - processPackages [target-permutation-importances]: Start processing: kafkaclientveli
+[2023-07-04 12:08:28] INFO root fetch - main [MainThread]: End processing [target-permutation-importances]: success
+[2023-07-04 12:08:28] INFO root fetch - processPackages [kafkaclientveli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-04 12:08:28] INFO root fetch - processPackages [kafkaclientveli]: Downloading https://files.pythonhosted.org/packages/d6/15/3421c27275e5810088608fddca1beac11e90466752040f3dca4fdbab6eba/kafkaclientveli-1.0.8.tar.gz
+[2023-07-04 12:08:28] INFO root fetch - processPackages [kafkaclientveli]: Downloading https://files.pythonhosted.org/packages/6e/77/a870121819a5b0e1b97d7d1054e5132118c51de83a4252f645360b7cb7cc/kafkaclientveli-1.0.9.tar.gz
+[2023-07-04 12:08:28] INFO root fetch - processPackages [testdwg]: Remove: archive file [/home/abi/fetcher/tmp/testdwg-0.2.0.tar.gz]
+[2023-07-04 12:08:28] INFO root fetch - processPackages [testdwg]: Remove: archive file [/home/abi/fetcher/tmp/testdwg-0.3.tar.gz]
+[2023-07-04 12:08:28] INFO root fetch - processPackages [testdwg]: Start processing: boticordpy
+[2023-07-04 12:08:28] INFO root fetch - main [MainThread]: End processing [testdwg]: success
+[2023-07-04 12:08:28] INFO root fetch - processPackages [boticordpy]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-04 12:08:28] INFO root fetch - processPackages [kafkaclientveli]: executing diffoscope
+[2023-07-04 12:08:28] INFO root fetch - processPackages [kafkaclientveli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafkaclientveli-1.0.8.tar.gz tmp/kafkaclientveli-1.0.9.tar.gz --markdown 20230704/k/kafkaclientveli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-04 12:08:29] INFO root fetch - processPackages [fast-align-audio]: Remove: archive file [/home/abi/fetcher/tmp/fast_align_audio-0.1.1-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-07-04 12:08:29] INFO root fetch - processPackages [fast-align-audio]: Remove: archive file [/home/abi/fetcher/tmp/fast_align_audio-0.1.2-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-07-04 12:08:29] INFO root fetch - processPackages [fast-align-audio]: Start processing: uasset-dump
+[2023-07-04 12:08:29] INFO root fetch - main [MainThread]: End processing [fast-align-audio]: success
+[2023-07-04 12:08:29] INFO root fetch - processPackages [boticordpy]: Downloading https://files.pythonhosted.org/packages/1e/5d/a233c043eb41b3167f847f73ad4bb43e72d6367d567896755edd8b973d5e/boticordpy-3.0.0.tar.gz
+[2023-07-04 12:08:29] INFO root fetch - processPackages [uasset-dump]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 12:08:29] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/fe/9b/195da905dc17cf6f687704695ce993e02bdd209ced7ecc6e8689c050a039/uasset_dump-0.0.8.tar.gz
+[2023-07-04 12:08:29] INFO root fetch - processPackages [cpi-tools]: Remove: archive file [/home/abi/fetcher/tmp/cpi_tools-0.2.6.tar.gz]
+[2023-07-04 12:08:29] INFO root fetch - processPackages [cpi-tools]: Remove: archive file [/home/abi/fetcher/tmp/cpi_tools-0.2.7.tar.gz]
+[2023-07-04 12:08:29] INFO root fetch - processPackages [cpi-tools]: Start processing: pytket
+[2023-07-04 12:08:29] INFO root fetch - main [MainThread]: End processing [cpi-tools]: success
+[2023-07-04 12:08:29] INFO root fetch - processPackages [pytest-persistence]: Remove: archive file [/home/abi/fetcher/tmp/pytest-persistence-0.1.8.tar.gz]
+[2023-07-04 12:08:29] INFO root fetch - processPackages [pytest-persistence]: Remove: archive file [/home/abi/fetcher/tmp/pytest-persistence-0.1.9.tar.gz]
+[2023-07-04 12:08:29] INFO root fetch - processPackages [pytest-persistence]: Start processing: jijmodeling
+[2023-07-04 12:08:29] INFO root fetch - main [MainThread]: End processing [pytest-persistence]: success
+[2023-07-04 12:08:29] INFO root fetch - processPackages [python-dict-display-filter]: Remove: archive file [/home/abi/fetcher/tmp/python-dict-display-filter-0.9.9.tar.gz]
+[2023-07-04 12:08:29] INFO root fetch - processPackages [python-dict-display-filter]: Remove: archive file [/home/abi/fetcher/tmp/python-dict-display-filter-1.0.0.tar.gz]
+[2023-07-04 12:08:29] INFO root fetch - main [MainThread]: End processing [python-dict-display-filter]: success
+[2023-07-04 12:08:29] INFO root fetch - processPackages [scw-serverless]: Remove: archive file [/home/abi/fetcher/tmp/scw_serverless-1.1.0.tar.gz]
+[2023-07-04 12:08:29] INFO root fetch - processPackages [scw-serverless]: Remove: archive file [/home/abi/fetcher/tmp/scw_serverless-1.2.0.tar.gz]
+[2023-07-04 12:08:29] INFO root fetch - main [MainThread]: End processing [scw-serverless]: success
+[2023-07-04 12:08:29] INFO root fetch - processPackages [boticordpy]: Downloading https://files.pythonhosted.org/packages/19/38/32d7d8833954c754e8af3344d99f88412bb857085add678f99fd991b3cc5/boticordpy-3.0.1.tar.gz
+[2023-07-04 12:08:29] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/be/6b/bc8d3d4a7ddb2d849c3954c046ae9e0e44299a77c61b795472d89dc2f63b/uasset_dump-0.0.9.tar.gz
+[2023-07-04 12:08:29] INFO root fetch - processPackages [inference-server]: Remove: archive file [/home/abi/fetcher/tmp/inference-server-1.0.4.tar.gz]
+[2023-07-04 12:08:29] INFO root fetch - processPackages [inference-server]: Remove: archive file [/home/abi/fetcher/tmp/inference-server-1.0.5.tar.gz]
+[2023-07-04 12:08:29] INFO root fetch - main [MainThread]: End processing [inference-server]: success
+[2023-07-04 12:08:29] INFO root fetch - processPackages [boticordpy]: executing diffoscope
+[2023-07-04 12:08:29] INFO root fetch - processPackages [boticordpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boticordpy-3.0.0.tar.gz tmp/boticordpy-3.0.1.tar.gz --markdown 20230704/b/boticordpy/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-04 12:08:29] INFO root fetch - processPackages [uasset-dump]: executing diffoscope
+[2023-07-04 12:08:29] INFO root fetch - processPackages [uasset-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uasset_dump-0.0.8.tar.gz tmp/uasset_dump-0.0.9.tar.gz --markdown 20230704/u/uasset-dump/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 12:08:29] INFO root fetch - processPackages [pytket]: New version: [1.9.1rc0] Old Version: [1.9.1]
+[2023-07-04 12:08:29] INFO root fetch - processPackages [pyi40aas]: Remove: archive file [/home/abi/fetcher/tmp/pyi40aas-0.2.2.tar.gz]
+[2023-07-04 12:08:29] INFO root fetch - processPackages [pyi40aas]: Remove: archive file [/home/abi/fetcher/tmp/pyi40aas-0.2.3.tar.gz]
+[2023-07-04 12:08:29] INFO root fetch - main [MainThread]: End processing [pyi40aas]: success
+[2023-07-04 12:08:29] INFO root fetch - processPackages [pytket]: Downloading https://files.pythonhosted.org/packages/0b/0f/8db0fcfa7fde7115dd5863cd5b1f5533be347fbad99aaa158e2c9fa0a3a5/pytket-1.9.1-cp39-cp39-win_amd64.whl
+[2023-07-04 12:08:29] INFO root fetch - processPackages [kafkaclientveli]: Remove: archive file [/home/abi/fetcher/tmp/kafkaclientveli-1.0.8.tar.gz]
+[2023-07-04 12:08:29] INFO root fetch - processPackages [kafkaclientveli]: Remove: archive file [/home/abi/fetcher/tmp/kafkaclientveli-1.0.9.tar.gz]
+[2023-07-04 12:08:29] INFO root fetch - main [MainThread]: End processing [kafkaclientveli]: success
+[2023-07-04 12:08:30] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-07-04 12:08:30] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-07-04 12:08:30] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-07-04 12:08:30] WARNING root fetch - processPackages [pytket]: Skipping package: exceeds size limit 10528667>=10485760
+[2023-07-04 12:08:30] INFO root fetch - main [MainThread]: End processing [pytket] error
+[2023-07-04 12:08:30] INFO root fetch - processPackages [jijmodeling]: New version: [1.0.0rc1] Old Version: [0.9.9]
+[2023-07-04 12:08:30] INFO root fetch - processPackages [jijmodeling]: Downloading https://files.pythonhosted.org/packages/89/d0/6cb71561aecdb852259cf24ad501a533d6d8ff22ba4e5836ab18377e567f/jijmodeling-0.9.9-cp39-cp39-win_amd64.whl
+[2023-07-04 12:08:30] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.8.tar.gz]
+[2023-07-04 12:08:30] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.9.tar.gz]
+[2023-07-04 12:08:30] INFO root fetch - main [MainThread]: End processing [uasset-dump]: success
+[2023-07-04 12:08:30] INFO root fetch - processPackages [boticordpy]: Remove: archive file [/home/abi/fetcher/tmp/boticordpy-3.0.0.tar.gz]
+[2023-07-04 12:08:30] INFO root fetch - processPackages [boticordpy]: Remove: archive file [/home/abi/fetcher/tmp/boticordpy-3.0.1.tar.gz]
+[2023-07-04 12:08:30] INFO root fetch - main [MainThread]: End processing [boticordpy]: success
+[2023-07-04 12:08:31] INFO root fetch - processPackages [jijmodeling]: Downloading https://files.pythonhosted.org/packages/0b/66/64b0be391b1ca0e0b0e5953812ef8ae296fd51b5ed7d674f018a0756fbfb/jijmodeling-1.0.0rc1-cp310-cp310-manylinux_2_28_aarch64.whl
+[2023-07-04 12:08:32] INFO root fetch - processPackages [jijmodeling]: executing diffoscope
+[2023-07-04 12:08:32] INFO root fetch - processPackages [jijmodeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijmodeling-0.9.9-cp39-cp39-win_amd64.whl.zip tmp/jijmodeling-1.0.0rc1-cp310-cp310-manylinux_2_28_aarch64.whl.zip --markdown 20230704/j/jijmodeling/0.9.9-1.0.0rc1/diff.md --exclude *.pyd
+[2023-07-04 12:08:32] INFO root fetch - processPackages [jijmodeling]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling-0.9.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-04 12:08:32] INFO root fetch - processPackages [jijmodeling]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling-1.0.0rc1-cp310-cp310-manylinux_2_28_aarch64.whl.zip]
+[2023-07-04 12:08:32] INFO root fetch - main [MainThread]: End processing [jijmodeling]: success
+[2023-07-04 12:08:32] INFO root fetch - main [MainThread]: Store serial: [18753126]
