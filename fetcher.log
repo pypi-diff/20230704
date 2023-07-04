@@ -15915,3 +15915,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 10:33:15] INFO root fetch - processPackages [geotribu]: Remove: archive file [/home/abi/fetcher/tmp/geotribu-0.9.1.tar.gz]
 [2023-07-04 10:33:15] INFO root fetch - main [MainThread]: End processing [geotribu]: success
 [2023-07-04 10:33:15] INFO root fetch - main [MainThread]: Store serial: [18752006]
+[2023-07-04 10:38:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18752006]
+[2023-07-04 10:38:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-04 10:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbh15
+[2023-07-04 10:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: baysalt-christmas
+[2023-07-04 10:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biodatatypes
+[2023-07-04 10:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asp-chef-cli
+[2023-07-04 10:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fsrs4anki-optimizer
+[2023-07-04 10:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hawkflow
+[2023-07-04 10:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-estimator-nightly
+[2023-07-04 10:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: re-it
+[2023-07-04 10:38:25] INFO root fetch - processPackages [fsrs4anki-optimizer]: New version: [3.26.0] Old Version: [3.25.9]
+[2023-07-04 10:38:25] INFO root fetch - processPackages [lbh15]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-04 10:38:25] INFO root fetch - processPackages [biodatatypes]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-07-04 10:38:25] INFO root fetch - processPackages [hawkflow]: New version: [0.0.91] Old Version: [0.0.9]
+[2023-07-04 10:38:25] INFO root fetch - processPackages [baysalt-christmas]: New version: [0.1.8.3] Old Version: [0.1.8.2]
+[2023-07-04 10:38:25] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-04 10:38:25] INFO root fetch - processPackages [asp-chef-cli]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-04 10:38:25] WARNING root fetch - processPackages [re-it]: Skipping, unable to determine old version
+[2023-07-04 10:38:25] INFO root fetch - main [MainThread]: End processing [re-it] error
+[2023-07-04 10:38:25] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/ff/74/7b6c73be78cf27ce4288aede709a9009123ff5eb967c414749e580118012/fsrs4anki_optimizer-3.25.9.tar.gz
+[2023-07-04 10:38:25] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-04 10:38:25] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/74/7a/4e55f4a7bc0454c4ce6b9f316e8ad1bf8cd4a28831226960086fb0098437/baysalt_christmas-0.1.8.2.tar.gz
+[2023-07-04 10:38:25] INFO root fetch - processPackages [hawkflow]: Downloading https://files.pythonhosted.org/packages/39/e2/a2ac27555cfe50cacf509dd5a6c0d1f36dc858be8ad8f785310c2b5871c3/hawkflow-0.0.9.tar.gz
+[2023-07-04 10:38:25] INFO root fetch - processPackages [asp-chef-cli]: Downloading https://files.pythonhosted.org/packages/80/46/a3f2d6de74c783553381fd990d37f93cb73d5249944fb694937686979d42/asp_chef_cli-0.1.6.tar.gz
+[2023-07-04 10:38:25] INFO root fetch - processPackages [biodatatypes]: Downloading https://files.pythonhosted.org/packages/4c/f9/8a993b3f972344da03370e98b6d262c66b66098b4e953b327254ae351ea4/biodatatypes-0.1.1.tar.gz
+[2023-07-04 10:38:25] INFO root fetch - processPackages [lbh15]: Downloading https://files.pythonhosted.org/packages/35/bf/3f1afb7af2388eec132ef814e5bfa061ca41135aa1160fe4e92428438335/lbh15-1.1.1.tar.gz
+[2023-07-04 10:38:25] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-04 10:38:25] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/26/0f/6087a212be9f1a88c67fdcf90e79103fcf22aa65b5883a680f7cef13e588/fsrs4anki_optimizer-3.26.0.tar.gz
+[2023-07-04 10:38:25] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/3f/ed/5f238764f5bc185bc4a4d8a022fadeca90833b5801a661523e4258695366/baysalt_christmas-0.1.8.3.tar.gz
+[2023-07-04 10:38:25] INFO root fetch - processPackages [fsrs4anki-optimizer]: executing diffoscope
+[2023-07-04 10:38:25] INFO root fetch - processPackages [fsrs4anki-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs4anki_optimizer-3.25.9.tar.gz tmp/fsrs4anki_optimizer-3.26.0.tar.gz --markdown 20230704/f/fsrs4anki-optimizer/3.25.9-3.26.0/diff.md --exclude *.pyd
+[2023-07-04 10:38:25] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-04 10:38:25] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230704/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-04 10:38:25] INFO root fetch - processPackages [asp-chef-cli]: Downloading https://files.pythonhosted.org/packages/55/88/78fe6f8f00accee6b1e5f31fff4042845bbed1d50c17df75d7cb44ea5e50/asp_chef_cli-0.1.7.tar.gz
+[2023-07-04 10:38:25] INFO root fetch - processPackages [baysalt-christmas]: executing diffoscope
+[2023-07-04 10:38:25] INFO root fetch - processPackages [baysalt-christmas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baysalt_christmas-0.1.8.2.tar.gz tmp/baysalt_christmas-0.1.8.3.tar.gz --markdown 20230704/b/baysalt-christmas/0.1.8.2-0.1.8.3/diff.md --exclude *.pyd
+[2023-07-04 10:38:25] INFO root fetch - processPackages [asp-chef-cli]: executing diffoscope
+[2023-07-04 10:38:25] INFO root fetch - processPackages [asp-chef-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asp_chef_cli-0.1.6.tar.gz tmp/asp_chef_cli-0.1.7.tar.gz --markdown 20230704/a/asp-chef-cli/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-04 10:38:25] INFO root fetch - processPackages [hawkflow]: Downloading https://files.pythonhosted.org/packages/0e/12/1a020e59f00d72180fe8af4e85b210faa96b03e06d95bf78338587589618/hawkflow-0.0.91.tar.gz
+[2023-07-04 10:38:26] INFO root fetch - processPackages [lbh15]: Downloading https://files.pythonhosted.org/packages/2c/a3/317f7ad4bf610069b4ecc8307d422d72f2c8ee28cfde997efbf849238120/lbh15-1.2.0.tar.gz
+[2023-07-04 10:38:26] INFO root fetch - processPackages [biodatatypes]: Downloading https://files.pythonhosted.org/packages/6e/35/836cf7ac1b327b56ac86aaa41b9eab470e52654e93447c28aeccb09d3087/biodatatypes-0.2.1.tar.gz
+[2023-07-04 10:38:26] INFO root fetch - processPackages [lbh15]: executing diffoscope
+[2023-07-04 10:38:26] INFO root fetch - processPackages [lbh15]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbh15-1.1.1.tar.gz tmp/lbh15-1.2.0.tar.gz --markdown 20230704/l/lbh15/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-04 10:38:26] INFO root fetch - processPackages [hawkflow]: executing diffoscope
+[2023-07-04 10:38:26] INFO root fetch - processPackages [hawkflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hawkflow-0.0.9.tar.gz tmp/hawkflow-0.0.91.tar.gz --markdown 20230704/h/hawkflow/0.0.9-0.0.91/diff.md --exclude *.pyd
+[2023-07-04 10:38:26] INFO root fetch - processPackages [biodatatypes]: executing diffoscope
+[2023-07-04 10:38:26] INFO root fetch - processPackages [biodatatypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biodatatypes-0.1.1.tar.gz tmp/biodatatypes-0.2.1.tar.gz --markdown 20230704/b/biodatatypes/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-07-04 10:38:26] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.25.9.tar.gz]
+[2023-07-04 10:38:26] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.26.0.tar.gz]
+[2023-07-04 10:38:26] INFO root fetch - main [MainThread]: End processing [fsrs4anki-optimizer]: success
+[2023-07-04 10:38:27] INFO root fetch - processPackages [asp-chef-cli]: Remove: archive file [/home/abi/fetcher/tmp/asp_chef_cli-0.1.6.tar.gz]
+[2023-07-04 10:38:27] INFO root fetch - processPackages [asp-chef-cli]: Remove: archive file [/home/abi/fetcher/tmp/asp_chef_cli-0.1.7.tar.gz]
+[2023-07-04 10:38:27] INFO root fetch - main [MainThread]: End processing [asp-chef-cli]: success
+[2023-07-04 10:38:27] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-0.1.8.2.tar.gz]
+[2023-07-04 10:38:27] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-0.1.8.3.tar.gz]
+[2023-07-04 10:38:27] INFO root fetch - main [MainThread]: End processing [baysalt-christmas]: success
+[2023-07-04 10:38:27] INFO root fetch - processPackages [hawkflow]: Remove: archive file [/home/abi/fetcher/tmp/hawkflow-0.0.9.tar.gz]
+[2023-07-04 10:38:27] INFO root fetch - processPackages [hawkflow]: Remove: archive file [/home/abi/fetcher/tmp/hawkflow-0.0.91.tar.gz]
+[2023-07-04 10:38:27] INFO root fetch - main [MainThread]: End processing [hawkflow]: success
+[2023-07-04 10:38:27] INFO root fetch - processPackages [lbh15]: Remove: archive file [/home/abi/fetcher/tmp/lbh15-1.1.1.tar.gz]
+[2023-07-04 10:38:27] INFO root fetch - processPackages [lbh15]: Remove: archive file [/home/abi/fetcher/tmp/lbh15-1.2.0.tar.gz]
+[2023-07-04 10:38:27] INFO root fetch - main [MainThread]: End processing [lbh15]: success
+[2023-07-04 10:38:27] INFO root fetch - processPackages [biodatatypes]: Remove: archive file [/home/abi/fetcher/tmp/biodatatypes-0.1.1.tar.gz]
+[2023-07-04 10:38:27] INFO root fetch - processPackages [biodatatypes]: Remove: archive file [/home/abi/fetcher/tmp/biodatatypes-0.2.1.tar.gz]
+[2023-07-04 10:38:27] INFO root fetch - main [MainThread]: End processing [biodatatypes]: success
+[2023-07-04 10:38:27] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-04 10:38:27] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-04 10:38:27] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-04 10:38:27] INFO root fetch - main [MainThread]: Store serial: [18752032]
