@@ -20520,3 +20520,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 13:42:46] INFO root fetch - processPackages [look-like-scanned]: Remove: archive file [/home/abi/fetcher/tmp/look_like_scanned-0.2.5.tar.gz]
 [2023-07-04 13:42:46] INFO root fetch - main [MainThread]: End processing [look-like-scanned]: success
 [2023-07-04 13:42:46] INFO root fetch - main [MainThread]: Store serial: [18754103]
+[2023-07-04 13:47:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18754103]
+[2023-07-04 13:47:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-04 13:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-oz-cli-by-os
+[2023-07-04 13:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: napalm-nokia-olt
+[2023-07-04 13:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unbelievaboat
+[2023-07-04 13:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agixt
+[2023-07-04 13:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-openupgrade-scripts
+[2023-07-04 13:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cognite-pygen
+[2023-07-04 13:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-drive-sdk-preview
+[2023-07-04 13:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lusid-drive-sdk
+[2023-07-04 13:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Products.urban
+[2023-07-04 13:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: digiflow
+[2023-07-04 13:47:55] INFO root fetch - processPackages [Products.urban]: New version: [2.6.2] Old Version: [2.6.1]
+[2023-07-04 13:47:55] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [16.0.1.0.3.9] Old Version: [16.0.1.0.3.7]
+[2023-07-04 13:47:55] INFO root fetch - processPackages [unbelievaboat]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-04 13:47:55] INFO root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: New version: [20230704.11.42.540592] Old Version: [20230703.13.32.625504]
+[2023-07-04 13:47:55] INFO root fetch - processPackages [cognite-pygen]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-04 13:47:55] INFO root fetch - processPackages [napalm-nokia-olt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 13:47:55] INFO root fetch - processPackages [agixt]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-04 13:47:55] INFO root fetch - processPackages [lusid-drive-sdk-preview]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-07-04 13:47:55] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/d2/29/e2cb7ea93979e027e6d5309d7a314ee9e6d65f7021f477e355ae236a55c9/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl
+[2023-07-04 13:47:55] INFO root fetch - processPackages [lusid-drive-sdk]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-07-04 13:47:55] WARNING root fetch - processPackages [digiflow]: Skipping, unable to determine old version
+[2023-07-04 13:47:55] INFO root fetch - processPackages [digiflow]: Start processing: bigdl-dllib-spark3
+[2023-07-04 13:47:55] INFO root fetch - main [MainThread]: End processing [digiflow] error
+[2023-07-04 13:47:55] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230703] Old Version: [2.4.0b20230702]
+[2023-07-04 13:47:55] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/f2/e7/76fe771f9b583c90c353da77e70894eb04e3f78092ccf4c2a426168d91a8/napalm_nokia_olt-0.0.8.tar.gz
+[2023-07-04 13:47:55] INFO root fetch - processPackages [cognite-pygen]: Downloading https://files.pythonhosted.org/packages/00/1d/45e130588e398bb316a98f0e6793ef0d61220b74c7d14db5213e3f9f977e/cognite_pygen-0.9.0.tar.gz
+[2023-07-04 13:47:55] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/de/c4/d650d6220b8a796e210b789647cfcab1357ab3bd9085ea87d503604999f7/lusid-drive-sdk-0.1.95.tar.gz
+[2023-07-04 13:47:55] INFO root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: Downloading https://files.pythonhosted.org/packages/21/36/511fc6fb3d7ab27fe25c4a95b5d3db32edcb0511c3cb9b4842539ca82e1f/certora-cli-alpha-oz-cli-by-os-20230703.13.32.625504.tar.gz
+[2023-07-04 13:47:55] INFO root fetch - processPackages [Products.urban]: Downloading https://files.pythonhosted.org/packages/a9/b0/4c2199809d9a35ce80d589a3103f43540f34b389012ef63600bb43ee7f6f/Products.urban-2.6.1.tar.gz
+[2023-07-04 13:47:55] INFO root fetch - processPackages [unbelievaboat]: Downloading https://files.pythonhosted.org/packages/04/8d/98f73f9474ac08d04bb2250208bd1ee9ccf16c583246e211ec9fc680da7c/unbelievaboat-1.1.2.tar.gz
+[2023-07-04 13:47:55] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Downloading https://files.pythonhosted.org/packages/3c/36/7ba764c059e4db444f6cf2e73cd8a04b8f90fa2ed8bc8e663f775912d783/lusid-drive-sdk-preview-0.1.95.tar.gz
+[2023-07-04 13:47:55] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/57/7d/e0dbe5553b1f67de7609bdf6e002ce1dc19a34e50ab0a12f66f0e1eafcb3/agixt-1.3.1.tar.gz
+[2023-07-04 13:47:55] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/0a/89/2bff2d247071e0dae2d0da043788e7bf15e708403789de4602b4209ab78c/bigdl-dllib-spark3-2.4.0b20230702.tar.gz
+[2023-07-04 13:47:56] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/17/81/574f2d588623a030241dff9b1e5a89ed58aca17a00ce25c81995ecf57f8c/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl
+[2023-07-04 13:47:56] WARNING root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: Skipping package: exceeds size limit 37436204>=10485760
+[2023-07-04 13:47:56] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-cli-by-os] error
+[2023-07-04 13:47:56] WARNING root fetch - processPackages [Products.urban]: Skipping package: exceeds size limit 22166080>=10485760
+[2023-07-04 13:47:56] INFO root fetch - main [MainThread]: End processing [Products.urban] error
+[2023-07-04 13:47:56] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/26/2c/2d428aaa0eada11aa4a6c98d7b6ac6a03d899bdc8f46115a074d73a878fe/napalm_nokia_olt-0.0.9.tar.gz
+[2023-07-04 13:47:56] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/df/40/34d8137d43f70f7a96037ba54cbbab838b9ae0bc84531d2be22cb7d3a967/lusid-drive-sdk-0.1.96.tar.gz
+[2023-07-04 13:47:56] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61328813>=10485760
+[2023-07-04 13:47:56] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-07-04 13:47:56] INFO root fetch - processPackages [cognite-pygen]: Downloading https://files.pythonhosted.org/packages/ce/02/7ecd0882d447246a79ac11eff331b1c4e7890eb9fd3e85568a959aef9aa9/cognite_pygen-0.9.1.tar.gz
+[2023-07-04 13:47:56] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Downloading https://files.pythonhosted.org/packages/61/f8/d24acce70923cfb6b98f767d1ae2f0c298d30f53032363ce65751be8b091/lusid-drive-sdk-preview-0.1.96.tar.gz
+[2023-07-04 13:47:56] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2023-07-04 13:47:56] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip --markdown 20230704/o/odoo-addon-openupgrade-scripts/16.0.1.0.3.7-16.0.1.0.3.9/diff.md --exclude *.pyd
+[2023-07-04 13:47:56] INFO root fetch - processPackages [napalm-nokia-olt]: executing diffoscope
+[2023-07-04 13:47:56] INFO root fetch - processPackages [napalm-nokia-olt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napalm_nokia_olt-0.0.8.tar.gz tmp/napalm_nokia_olt-0.0.9.tar.gz --markdown 20230704/n/napalm-nokia-olt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 13:47:56] INFO root fetch - processPackages [unbelievaboat]: Downloading https://files.pythonhosted.org/packages/ee/fb/e37f5b61753cab5fdeb68f3d8db255737ac991d673df5bcdd66028a52acf/unbelievaboat-1.1.3.tar.gz
+[2023-07-04 13:47:56] INFO root fetch - processPackages [lusid-drive-sdk]: executing diffoscope
+[2023-07-04 13:47:56] INFO root fetch - processPackages [lusid-drive-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-drive-sdk-0.1.95.tar.gz tmp/lusid-drive-sdk-0.1.96.tar.gz --markdown 20230704/l/lusid-drive-sdk/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-07-04 13:47:56] INFO root fetch - processPackages [cognite-pygen]: executing diffoscope
+[2023-07-04 13:47:56] INFO root fetch - processPackages [cognite-pygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_pygen-0.9.0.tar.gz tmp/cognite_pygen-0.9.1.tar.gz --markdown 20230704/c/cognite-pygen/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-04 13:47:56] INFO root fetch - processPackages [lusid-drive-sdk-preview]: executing diffoscope
+[2023-07-04 13:47:56] INFO root fetch - processPackages [lusid-drive-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-drive-sdk-preview-0.1.95.tar.gz tmp/lusid-drive-sdk-preview-0.1.96.tar.gz --markdown 20230704/l/lusid-drive-sdk-preview/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-07-04 13:47:56] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/17/67/c7ce6e3cec9a2f0d5a873316c403a8f2923aeb3e00d887f8c30e8356100f/agixt-1.3.2.tar.gz
+[2023-07-04 13:47:56] INFO root fetch - processPackages [unbelievaboat]: executing diffoscope
+[2023-07-04 13:47:56] INFO root fetch - processPackages [unbelievaboat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unbelievaboat-1.1.2.tar.gz tmp/unbelievaboat-1.1.3.tar.gz --markdown 20230704/u/unbelievaboat/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-04 13:47:56] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-07-04 13:47:56] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.3.1.tar.gz tmp/agixt-1.3.2.tar.gz --markdown 20230704/a/agixt/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-04 13:47:57] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.8.tar.gz]
+[2023-07-04 13:47:57] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.9.tar.gz]
+[2023-07-04 13:47:57] INFO root fetch - main [MainThread]: End processing [napalm-nokia-olt]: success
+[2023-07-04 13:47:57] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.9.0.tar.gz]
+[2023-07-04 13:47:57] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.9.1.tar.gz]
+[2023-07-04 13:47:57] INFO root fetch - main [MainThread]: End processing [cognite-pygen]: success
+[2023-07-04 13:47:57] INFO root fetch - processPackages [unbelievaboat]: Remove: archive file [/home/abi/fetcher/tmp/unbelievaboat-1.1.2.tar.gz]
+[2023-07-04 13:47:57] INFO root fetch - processPackages [unbelievaboat]: Remove: archive file [/home/abi/fetcher/tmp/unbelievaboat-1.1.3.tar.gz]
+[2023-07-04 13:47:57] INFO root fetch - main [MainThread]: End processing [unbelievaboat]: success
+[2023-07-04 13:47:57] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-0.1.95.tar.gz]
+[2023-07-04 13:47:57] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-0.1.96.tar.gz]
+[2023-07-04 13:47:57] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk]: success
+[2023-07-04 13:47:57] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-preview-0.1.95.tar.gz]
+[2023-07-04 13:47:57] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-preview-0.1.96.tar.gz]
+[2023-07-04 13:47:57] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk-preview]: success
+[2023-07-04 13:47:58] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.1.tar.gz]
+[2023-07-04 13:47:58] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.2.tar.gz]
+[2023-07-04 13:47:58] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-07-04 13:47:59] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl.zip]
+[2023-07-04 13:47:59] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip]
+[2023-07-04 13:47:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2023-07-04 13:47:59] INFO root fetch - main [MainThread]: Store serial: [18754140]
