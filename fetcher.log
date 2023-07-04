@@ -5110,3 +5110,122 @@
 [2023-07-04 03:05:57] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
 [2023-07-04 03:05:57] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
 [2023-07-04 03:05:57] INFO root fetch - main [MainThread]: Store serial: [18747836]
+[2023-07-04 03:11:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18747836]
+[2023-07-04 03:11:06] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-04 03:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastdatasets
+[2023-07-04 03:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: policyengine-us
+[2023-07-04 03:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-07-04 03:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bioversions
+[2023-07-04 03:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-sns-notify
+[2023-07-04 03:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml-starter
+[2023-07-04 03:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iformat
+[2023-07-04 03:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ovos-core
+[2023-07-04 03:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-organizations
+[2023-07-04 03:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hyfi-template
+[2023-07-04 03:11:07] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-07-04 03:11:07] WARNING root fetch - processPackages [iformat]: Skipping, unable to determine old version
+[2023-07-04 03:11:07] INFO root fetch - processPackages [iformat]: Start processing: qick
+[2023-07-04 03:11:07] INFO root fetch - main [MainThread]: End processing [iformat] error
+[2023-07-04 03:11:07] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-07-04 03:11:07] INFO root fetch - processPackages [fastdatasets]: New version: [0.9.9.post0] Old Version: [0.9.9]
+[2023-07-04 03:11:07] INFO root fetch - processPackages [hyfi-template]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-04 03:11:07] INFO root fetch - processPackages [ml-starter]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 03:11:07] INFO root fetch - processPackages [ovos-core]: New version: [0.0.8a9] Old Version: [0.0.8a8]
+[2023-07-04 03:11:07] INFO root fetch - processPackages [qick]: New version: [0.2.161] Old Version: [0.2.160]
+[2023-07-04 03:11:07] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 03:11:07] INFO root fetch - processPackages [policyengine-us]: New version: [0.353.0] Old Version: [0.352.0]
+[2023-07-04 03:11:07] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-04 03:11:07] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/a9/68/e62c6c5c7fdd23768365390c54286d74a6b17b60c8d764d076ad45e63665/policyengine-us-0.352.0.tar.gz
+[2023-07-04 03:11:07] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2023-07-04 03:11:07] INFO root fetch - processPackages [fastdatasets]: Downloading https://files.pythonhosted.org/packages/ed/f0/8d4ae8c973115bec20261c6cbbe41b9db84edefd982957e48b4b0a972e30/fastdatasets-0.9.9-py3-none-any.whl
+[2023-07-04 03:11:07] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-04 03:11:07] INFO root fetch - processPackages [qick]: Downloading https://files.pythonhosted.org/packages/30/70/fc06be7719f1a44e73add3e02160b1c2364342c17f33fe9553bab9c4e7f1/qick-0.2.160.tar.gz
+[2023-07-04 03:11:07] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-07-04 03:11:07] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/f1/6e/ab5edbd173735efb035421e439282ab35dea267430a8049f476e1d08ff16/ml-starter-0.1.8.tar.gz
+[2023-07-04 03:11:07] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/82/23/98df3c8c8d524bda01cb1c3a67818a06e07a6ee9fa213db969c36cf285db/hyfi_template-0.4.0.tar.gz
+[2023-07-04 03:11:07] WARNING root fetch - processPackages [qick]: Skipping package: exceeds size limit 13561230>=10485760
+[2023-07-04 03:11:07] INFO root fetch - processPackages [qick]: Start processing: numpy-io
+[2023-07-04 03:11:07] INFO root fetch - main [MainThread]: End processing [qick] error
+[2023-07-04 03:11:07] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/dd/9c/0945c96587052dea91a0ceedf6f8aca8fb29db6717064aa852e7e73917ad/ovos_core-0.0.8a8-py3-none-any.whl
+[2023-07-04 03:11:07] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2023-07-04 03:11:07] INFO root fetch - processPackages [numpy-io]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-04 03:11:07] INFO root fetch - processPackages [fastdatasets]: Downloading https://files.pythonhosted.org/packages/65/30/d1e7d5ef82d3002c7bad796f1b5a58090fab5042710a409eeeb1f1f215e4/fastdatasets-0.9.9.post0-py3-none-any.whl
+[2023-07-04 03:11:07] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-04 03:11:08] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2023-07-04 03:11:08] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/4d/22/f2b4ed8dd6814f26ef3fb3301e83af1c08094a516d6d3f176d5fb39f7cac/policyengine-us-0.353.0.tar.gz
+[2023-07-04 03:11:08] INFO root fetch - processPackages [fastdatasets]: executing diffoscope
+[2023-07-04 03:11:08] INFO root fetch - processPackages [fastdatasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdatasets-0.9.9-py3-none-any.whl.zip tmp/fastdatasets-0.9.9.post0-py3-none-any.whl.zip --markdown 20230704/f/fastdatasets/0.9.9-0.9.9.post0/diff.md --exclude *.pyd
+[2023-07-04 03:11:08] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/44/d9/88a433adb0f3305e176d42c35ffbf4226a4a31c6e59c787c9be93d322eca/hyfi_template-0.4.1.tar.gz
+[2023-07-04 03:11:08] INFO root fetch - processPackages [numpy-io]: Downloading https://files.pythonhosted.org/packages/21/7d/7e853cba2953346d63df5239430468f0a636e66f85986de4ed65d2708893/numpy_io-0.0.3-py3-none-any.whl
+[2023-07-04 03:11:08] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-04 03:11:08] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230704/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-04 03:11:08] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/44/9f/ffb6ae287f30a52a4bcc5aae269e948d3ffcd9bd7ab6aafda6ce73f567c8/ml-starter-0.1.9.tar.gz
+[2023-07-04 03:11:08] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-07-04 03:11:08] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/51/ee/52ce34726935c8c4c45d526690a3c83e2b71585a918b26cc886d29b8bf0b/ovos_core-0.0.8a9-py3-none-any.whl
+[2023-07-04 03:11:08] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2023-07-04 03:11:08] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-07-04 03:11:08] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230704/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-07-04 03:11:08] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-07-04 03:11:08] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.4.0.tar.gz tmp/hyfi_template-0.4.1.tar.gz --markdown 20230704/h/hyfi-template/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-04 03:11:08] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-04 03:11:08] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.352.0.tar.gz tmp/policyengine-us-0.353.0.tar.gz --markdown 20230704/p/policyengine-us/0.352.0-0.353.0/diff.md --exclude *.pyd
+[2023-07-04 03:11:08] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-07-04 03:11:08] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230704/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 03:11:08] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-07-04 03:11:08] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230704/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-07-04 03:11:08] INFO root fetch - processPackages [ovos-core]: executing diffoscope
+[2023-07-04 03:11:08] INFO root fetch - processPackages [ovos-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_core-0.0.8a8-py3-none-any.whl.zip tmp/ovos_core-0.0.8a9-py3-none-any.whl.zip --markdown 20230704/o/ovos-core/0.0.8a8-0.0.8a9/diff.md --exclude *.pyd
+[2023-07-04 03:11:08] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-07-04 03:11:08] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.8.tar.gz tmp/ml-starter-0.1.9.tar.gz --markdown 20230704/m/ml-starter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 03:11:08] INFO root fetch - processPackages [numpy-io]: Downloading https://files.pythonhosted.org/packages/f8/2d/844f45a3bb510d995075b94b0a9776d32a7cbed4805292d4f02fc91e7e44/numpy_io-0.0.4-py3-none-any.whl
+[2023-07-04 03:11:08] INFO root fetch - processPackages [numpy-io]: executing diffoscope
+[2023-07-04 03:11:08] INFO root fetch - processPackages [numpy-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numpy_io-0.0.3-py3-none-any.whl.zip tmp/numpy_io-0.0.4-py3-none-any.whl.zip --markdown 20230704/n/numpy-io/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-04 03:11:09] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.4.0.tar.gz]
+[2023-07-04 03:11:09] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.4.1.tar.gz]
+[2023-07-04 03:11:09] INFO root fetch - processPackages [hyfi-template]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-07-04 03:11:09] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-07-04 03:11:09] INFO root fetch - processPackages [fastdatasets]: Remove: archive file [/home/abi/fetcher/tmp/fastdatasets-0.9.9-py3-none-any.whl.zip]
+[2023-07-04 03:11:09] INFO root fetch - processPackages [fastdatasets]: Remove: archive file [/home/abi/fetcher/tmp/fastdatasets-0.9.9.post0-py3-none-any.whl.zip]
+[2023-07-04 03:11:09] INFO root fetch - processPackages [fastdatasets]: Start processing: raydp-nightly
+[2023-07-04 03:11:09] INFO root fetch - main [MainThread]: End processing [fastdatasets]: success
+[2023-07-04 03:11:09] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-04 03:11:09] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2023-07-04 03:11:09] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2023-07-04 03:11:09] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-07-04 03:11:10] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-04 03:11:10] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-04 03:11:10] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-04 03:11:10] INFO root fetch - processPackages [raydp-nightly]: New version: [2023.7.4.dev0] Old Version: [2023.6.8.dev0]
+[2023-07-04 03:11:10] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-07-04 03:11:10] INFO root fetch - processPackages [numpy-io]: Remove: archive file [/home/abi/fetcher/tmp/numpy_io-0.0.3-py3-none-any.whl.zip]
+[2023-07-04 03:11:10] INFO root fetch - processPackages [numpy-io]: Remove: archive file [/home/abi/fetcher/tmp/numpy_io-0.0.4-py3-none-any.whl.zip]
+[2023-07-04 03:11:10] INFO root fetch - main [MainThread]: End processing [numpy-io]: success
+[2023-07-04 03:11:10] INFO root fetch - processPackages [raydp-nightly]: Downloading https://files.pythonhosted.org/packages/ec/f8/04753a6a7c3224c83d610b130fe15ddf35b1c481c55564992b81086e83f0/raydp_nightly-2023.6.8.dev0-py3-none-any.whl
+[2023-07-04 03:11:10] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-07-04 03:11:10] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.8.tar.gz]
+[2023-07-04 03:11:10] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.9.tar.gz]
+[2023-07-04 03:11:10] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-07-04 03:11:10] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-07-04 03:11:10] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230704/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-04 03:11:11] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-07-04 03:11:11] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-07-04 03:11:11] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-07-04 03:11:11] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-07-04 03:11:11] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-07-04 03:11:11] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-07-04 03:11:13] INFO root fetch - processPackages [raydp-nightly]: Downloading https://files.pythonhosted.org/packages/ac/3c/062297c4eaa774969d41e96b11e2a4cea3cf0ac8c2d2bb77e81667ed1bb7/raydp_nightly-2023.7.4.dev0-py3-none-any.whl
+[2023-07-04 03:11:14] INFO root fetch - processPackages [ovos-core]: Remove: archive file [/home/abi/fetcher/tmp/ovos_core-0.0.8a8-py3-none-any.whl.zip]
+[2023-07-04 03:11:14] INFO root fetch - processPackages [ovos-core]: Remove: archive file [/home/abi/fetcher/tmp/ovos_core-0.0.8a9-py3-none-any.whl.zip]
+[2023-07-04 03:11:14] INFO root fetch - main [MainThread]: End processing [ovos-core]: success
+[2023-07-04 03:11:16] INFO root fetch - processPackages [raydp-nightly]: executing diffoscope
+[2023-07-04 03:11:16] INFO root fetch - processPackages [raydp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raydp_nightly-2023.6.8.dev0-py3-none-any.whl.zip tmp/raydp_nightly-2023.7.4.dev0-py3-none-any.whl.zip --markdown 20230704/r/raydp-nightly/2023.6.8.dev0-2023.7.4.dev0/diff.md --exclude *.pyd
+[2023-07-04 03:11:28] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2023-07-04 03:11:28] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2023-07-04 03:11:28] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-07-04 03:11:35] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.352.0.tar.gz]
+[2023-07-04 03:11:35] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.353.0.tar.gz]
+[2023-07-04 03:11:35] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-04 03:12:02] INFO root fetch - processPackages [raydp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/raydp_nightly-2023.6.8.dev0-py3-none-any.whl.zip]
+[2023-07-04 03:12:02] INFO root fetch - processPackages [raydp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/raydp_nightly-2023.7.4.dev0-py3-none-any.whl.zip]
+[2023-07-04 03:12:02] INFO root fetch - main [MainThread]: End processing [raydp-nightly]: success
+[2023-07-04 03:12:02] INFO root fetch - main [MainThread]: Store serial: [18747879]
