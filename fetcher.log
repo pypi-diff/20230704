@@ -17998,3 +17998,71 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 11:47:16] INFO root fetch - processPackages [akida]: Remove: archive file [/home/abi/fetcher/tmp/akida-2.4.0-cp39-cp39-win_amd64.whl.zip]
 [2023-07-04 11:47:16] INFO root fetch - main [MainThread]: End processing [akida]: success
 [2023-07-04 11:47:16] INFO root fetch - main [MainThread]: Store serial: [18752859]
+[2023-07-04 11:52:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18752859]
+[2023-07-04 11:52:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-04 11:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sfctools
+[2023-07-04 11:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gdsync666
+[2023-07-04 11:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uasset-dump
+[2023-07-04 11:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ogc-na
+[2023-07-04 11:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thanosql-magic
+[2023-07-04 11:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bohrium-sdk
+[2023-07-04 11:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: antchain-yunqing
+[2023-07-04 11:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: n2t-hardware-tester-test1
+[2023-07-04 11:52:30] INFO root fetch - processPackages [uasset-dump]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 11:52:30] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-04 11:52:30] INFO root fetch - processPackages [thanosql-magic]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-04 11:52:30] WARNING root fetch - processPackages [n2t-hardware-tester-test1]: Skipping, unable to determine old version
+[2023-07-04 11:52:30] INFO root fetch - main [MainThread]: End processing [n2t-hardware-tester-test1] error
+[2023-07-04 11:52:30] INFO root fetch - processPackages [ogc-na]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-04 11:52:30] INFO root fetch - processPackages [sfctools]: New version: [1.1.0.2] Old Version: [1.1.0.1]
+[2023-07-04 11:52:30] INFO root fetch - processPackages [gdsync666]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-04 11:52:30] INFO root fetch - processPackages [antchain-yunqing]: New version: [4.0.5] Old Version: [3.14.18]
+[2023-07-04 11:52:30] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/54/a3/df6f3c246d8e0c32be8ed94515ce5760ce5ae382def9eaf9d90160bb7894/bohrium-sdk-0.3.0.tar.gz
+[2023-07-04 11:52:30] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/fe/9b/195da905dc17cf6f687704695ce993e02bdd209ced7ecc6e8689c050a039/uasset_dump-0.0.8.tar.gz
+[2023-07-04 11:52:31] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/6f/1b/a35ac17c9749cc1cf599391bfd4eab6ac44746f5fbff779a67e85b5af2bb/ogc_na-0.2.8.tar.gz
+[2023-07-04 11:52:31] INFO root fetch - processPackages [thanosql-magic]: Downloading https://files.pythonhosted.org/packages/11/97/0c375a43c48ab59b3fa880995f8ee21c03c6bfb5e4f87c4b2eb78e3547e0/thanosql-magic-0.3.6.tar.gz
+[2023-07-04 11:52:31] INFO root fetch - processPackages [antchain-yunqing]: Downloading https://files.pythonhosted.org/packages/37/24/05033df0bd7819f0e3c35f4b461c266407f197abac33138208f4c1e0e67c/antchain_yunqing-3.14.18.tar.gz
+[2023-07-04 11:52:31] INFO root fetch - processPackages [gdsync666]: Downloading https://files.pythonhosted.org/packages/5f/da/a71f4346a8acd4c7f943098439a80fa73bd3b2dd5fd7527ce6eaf843770a/gdsync666-0.0.1.tar.gz
+[2023-07-04 11:52:31] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/be/6b/bc8d3d4a7ddb2d849c3954c046ae9e0e44299a77c61b795472d89dc2f63b/uasset_dump-0.0.9.tar.gz
+[2023-07-04 11:52:31] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/fa/d5/3a1d5062a8a2223cb43f728c878aab02f06e8f3d116c387300141c3a7b31/bohrium-sdk-0.3.1.tar.gz
+[2023-07-04 11:52:31] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/08/7b/d1a326265898c9d52f3a526697d9f0f458664b7dd04889cf4b95fcae2b5a/ogc_na-0.2.9.tar.gz
+[2023-07-04 11:52:31] INFO root fetch - processPackages [sfctools]: Downloading https://files.pythonhosted.org/packages/f2/c3/88fb1901509114b319a08bfceecb3fdcb9c0d8eedc9bef7528bda73aab75/sfctools-1.1.0.2.tar.gz
+[2023-07-04 11:52:31] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-07-04 11:52:31] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium-sdk-0.3.0.tar.gz tmp/bohrium-sdk-0.3.1.tar.gz --markdown 20230704/b/bohrium-sdk/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-04 11:52:31] INFO root fetch - processPackages [uasset-dump]: executing diffoscope
+[2023-07-04 11:52:31] INFO root fetch - processPackages [uasset-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uasset_dump-0.0.8.tar.gz tmp/uasset_dump-0.0.9.tar.gz --markdown 20230704/u/uasset-dump/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 11:52:31] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-07-04 11:52:31] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.2.8.tar.gz tmp/ogc_na-0.2.9.tar.gz --markdown 20230704/o/ogc-na/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-04 11:52:31] INFO root fetch - processPackages [thanosql-magic]: Downloading https://files.pythonhosted.org/packages/59/be/04834e60d325c6188f699b2f962a367eb630006b3f8307c731e4be1ce7f2/thanosql-magic-0.3.7.tar.gz
+[2023-07-04 11:52:31] INFO root fetch - processPackages [antchain-yunqing]: Downloading https://files.pythonhosted.org/packages/7c/a8/d0dbd61c2254d5bfe12cb357a1d8680d87a61f95e06c44040d141ba4726f/antchain_yunqing-4.0.5.tar.gz
+[2023-07-04 11:52:31] INFO root fetch - processPackages [gdsync666]: Downloading https://files.pythonhosted.org/packages/06/bd/dfa91c7836ca0be0128c441b9bd1d9003beaf8f2db3be7052c56833c2ddf/gdsync666-0.0.2.tar.gz
+[2023-07-04 11:52:31] INFO root fetch - processPackages [antchain-yunqing]: executing diffoscope
+[2023-07-04 11:52:31] INFO root fetch - processPackages [antchain-yunqing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_yunqing-3.14.18.tar.gz tmp/antchain_yunqing-4.0.5.tar.gz --markdown 20230704/a/antchain-yunqing/3.14.18-4.0.5/diff.md --exclude *.pyd
+[2023-07-04 11:52:31] INFO root fetch - processPackages [gdsync666]: executing diffoscope
+[2023-07-04 11:52:31] INFO root fetch - processPackages [thanosql-magic]: executing diffoscope
+[2023-07-04 11:52:31] INFO root fetch - processPackages [gdsync666]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsync666-0.0.1.tar.gz tmp/gdsync666-0.0.2.tar.gz --markdown 20230704/g/gdsync666/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-04 11:52:31] INFO root fetch - processPackages [thanosql-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thanosql-magic-0.3.6.tar.gz tmp/thanosql-magic-0.3.7.tar.gz --markdown 20230704/t/thanosql-magic/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-04 11:52:31] INFO root fetch - processPackages [sfctools]: executing diffoscope
+[2023-07-04 11:52:31] INFO root fetch - processPackages [sfctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfctools-1.1.0.1.tar.gz tmp/sfctools-1.1.0.2.tar.gz --markdown 20230704/s/sfctools/1.1.0.1-1.1.0.2/diff.md --exclude *.pyd
+[2023-07-04 11:52:32] INFO root fetch - processPackages [bohrium-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bohrium-sdk-0.3.0.tar.gz]
+[2023-07-04 11:52:32] INFO root fetch - processPackages [bohrium-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bohrium-sdk-0.3.1.tar.gz]
+[2023-07-04 11:52:32] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-07-04 11:52:32] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.8.tar.gz]
+[2023-07-04 11:52:32] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.9.tar.gz]
+[2023-07-04 11:52:32] INFO root fetch - main [MainThread]: End processing [uasset-dump]: success
+[2023-07-04 11:52:32] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.8.tar.gz]
+[2023-07-04 11:52:32] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.9.tar.gz]
+[2023-07-04 11:52:32] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-07-04 11:52:33] INFO root fetch - processPackages [gdsync666]: Remove: archive file [/home/abi/fetcher/tmp/gdsync666-0.0.1.tar.gz]
+[2023-07-04 11:52:33] INFO root fetch - processPackages [gdsync666]: Remove: archive file [/home/abi/fetcher/tmp/gdsync666-0.0.2.tar.gz]
+[2023-07-04 11:52:33] INFO root fetch - main [MainThread]: End processing [gdsync666]: success
+[2023-07-04 11:52:33] INFO root fetch - processPackages [thanosql-magic]: Remove: archive file [/home/abi/fetcher/tmp/thanosql-magic-0.3.6.tar.gz]
+[2023-07-04 11:52:33] INFO root fetch - processPackages [thanosql-magic]: Remove: archive file [/home/abi/fetcher/tmp/thanosql-magic-0.3.7.tar.gz]
+[2023-07-04 11:52:33] INFO root fetch - main [MainThread]: End processing [thanosql-magic]: success
+[2023-07-04 11:52:33] INFO root fetch - processPackages [antchain-yunqing]: Remove: archive file [/home/abi/fetcher/tmp/antchain_yunqing-3.14.18.tar.gz]
+[2023-07-04 11:52:33] INFO root fetch - processPackages [antchain-yunqing]: Remove: archive file [/home/abi/fetcher/tmp/antchain_yunqing-4.0.5.tar.gz]
+[2023-07-04 11:52:33] INFO root fetch - main [MainThread]: End processing [antchain-yunqing]: success
+[2023-07-04 11:52:33] INFO root fetch - processPackages [sfctools]: Remove: archive file [/home/abi/fetcher/tmp/sfctools-1.1.0.1.tar.gz]
+[2023-07-04 11:52:33] INFO root fetch - processPackages [sfctools]: Remove: archive file [/home/abi/fetcher/tmp/sfctools-1.1.0.2.tar.gz]
+[2023-07-04 11:52:33] INFO root fetch - main [MainThread]: End processing [sfctools]: success
+[2023-07-04 11:52:33] INFO root fetch - main [MainThread]: Store serial: [18752896]
