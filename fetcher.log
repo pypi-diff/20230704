@@ -10931,3 +10931,45 @@
 [2023-07-04 06:00:06] INFO root fetch - processPackages [pre-commit-vauxoo]: Remove: archive file [/home/abi/fetcher/tmp/pre-commit-vauxoo-7.0.9.tar.gz]
 [2023-07-04 06:00:06] INFO root fetch - main [MainThread]: End processing [pre-commit-vauxoo]: success
 [2023-07-04 06:00:06] INFO root fetch - main [MainThread]: Store serial: [18750024]
+[2023-07-04 06:05:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18750024]
+[2023-07-04 06:05:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-04 06:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evals-nightly
+[2023-07-04 06:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Sample2
+[2023-07-04 06:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addons-oca-l10n-spain
+[2023-07-04 06:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: excel-splitter
+[2023-07-04 06:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: universal-framework-vk
+[2023-07-04 06:05:15] INFO root fetch - processPackages [odoo12-addons-oca-l10n-spain]: New version: [12.0.20230703.0] Old Version: [12.0.20221221.0]
+[2023-07-04 06:05:15] INFO root fetch - processPackages [excel-splitter]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-07-04 06:05:15] WARNING root fetch - processPackages [Sample2]: Skipping, unable to determine old version
+[2023-07-04 06:05:15] INFO root fetch - main [MainThread]: End processing [Sample2] error
+[2023-07-04 06:05:15] INFO root fetch - processPackages [universal-framework-vk]: New version: [0.21] Old Version: [0.1]
+[2023-07-04 06:05:15] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230703] Old Version: [1.0.3.dev20230702]
+[2023-07-04 06:05:15] INFO root fetch - processPackages [odoo12-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/37/87/4a0b461ebbba0fbebd84d5f994a4332dc2eef87292aacbd569b60bc6721f/odoo12_addons_oca_l10n_spain-12.0.20221221.0-py3-none-any.whl
+[2023-07-04 06:05:15] INFO root fetch - processPackages [universal-framework-vk]: Downloading https://files.pythonhosted.org/packages/00/59/4e36470c85c71493dca90dba636649aa74e9ffa621c1af0208c36297fc55/universal_framework_vk-0.1.tar.gz
+[2023-07-04 06:05:15] INFO root fetch - processPackages [excel-splitter]: Downloading https://files.pythonhosted.org/packages/95/96/54c08d58a51a55796432144afcc1b0ac99b2d8e966641c1ad9ef97fd36ff/excel_splitter-0.0.1.tar.gz
+[2023-07-04 06:05:15] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/a9/82/ef3f438fa2c662e9e7a22d3d4415dff4ef47bfec325dde45a144c4109326/evals-nightly-1.0.3.dev20230702.tar.gz
+[2023-07-04 06:05:15] INFO root fetch - processPackages [odoo12-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/5b/a2/e667bb191c9fed95abe1b1caa6b72558af6b6f663cda86da819c56ec16b8/odoo12_addons_oca_l10n_spain-12.0.20230703.0-py3-none-any.whl
+[2023-07-04 06:05:15] INFO root fetch - processPackages [universal-framework-vk]: Downloading https://files.pythonhosted.org/packages/29/7e/658b1aba82dcede411e4b4ec1acf4e23b4e7de770eebe2c80d40d97488e8/universal_framework_vk-0.21.tar.gz
+[2023-07-04 06:05:15] INFO root fetch - processPackages [excel-splitter]: Downloading https://files.pythonhosted.org/packages/ea/64/9a2d9dea774ad52940d4060a609276c9fcdc83276cb17fc4fe6ab767b0df/excel_splitter-0.0.3.tar.gz
+[2023-07-04 06:05:15] INFO root fetch - processPackages [odoo12-addons-oca-l10n-spain]: executing diffoscope
+[2023-07-04 06:05:15] INFO root fetch - processPackages [odoo12-addons-oca-l10n-spain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addons_oca_l10n_spain-12.0.20221221.0-py3-none-any.whl.zip tmp/odoo12_addons_oca_l10n_spain-12.0.20230703.0-py3-none-any.whl.zip --markdown 20230704/o/odoo12-addons-oca-l10n-spain/12.0.20221221.0-12.0.20230703.0/diff.md --exclude *.pyd
+[2023-07-04 06:05:16] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/6c/57/5a45081bbf0f1fd126f993462b6c24c87ed51233b645201b37c67d35c578/evals-nightly-1.0.3.dev20230703.tar.gz
+[2023-07-04 06:05:16] INFO root fetch - processPackages [universal-framework-vk]: executing diffoscope
+[2023-07-04 06:05:16] INFO root fetch - processPackages [universal-framework-vk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universal_framework_vk-0.1.tar.gz tmp/universal_framework_vk-0.21.tar.gz --markdown 20230704/u/universal-framework-vk/0.1-0.21/diff.md --exclude *.pyd
+[2023-07-04 06:05:16] INFO root fetch - processPackages [excel-splitter]: executing diffoscope
+[2023-07-04 06:05:16] INFO root fetch - processPackages [excel-splitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excel_splitter-0.0.1.tar.gz tmp/excel_splitter-0.0.3.tar.gz --markdown 20230704/e/excel-splitter/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-07-04 06:05:16] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-07-04 06:05:16] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230702.tar.gz tmp/evals-nightly-1.0.3.dev20230703.tar.gz --markdown 20230704/e/evals-nightly/1.0.3.dev20230702-1.0.3.dev20230703/diff.md --exclude *.pyd
+[2023-07-04 06:05:16] INFO root fetch - processPackages [universal-framework-vk]: Remove: archive file [/home/abi/fetcher/tmp/universal_framework_vk-0.1.tar.gz]
+[2023-07-04 06:05:16] INFO root fetch - processPackages [universal-framework-vk]: Remove: archive file [/home/abi/fetcher/tmp/universal_framework_vk-0.21.tar.gz]
+[2023-07-04 06:05:16] INFO root fetch - main [MainThread]: End processing [universal-framework-vk]: success
+[2023-07-04 06:05:16] INFO root fetch - processPackages [excel-splitter]: Remove: archive file [/home/abi/fetcher/tmp/excel_splitter-0.0.1.tar.gz]
+[2023-07-04 06:05:16] INFO root fetch - processPackages [excel-splitter]: Remove: archive file [/home/abi/fetcher/tmp/excel_splitter-0.0.3.tar.gz]
+[2023-07-04 06:05:16] INFO root fetch - main [MainThread]: End processing [excel-splitter]: success
+[2023-07-04 06:05:16] INFO root fetch - processPackages [odoo12-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addons_oca_l10n_spain-12.0.20221221.0-py3-none-any.whl.zip]
+[2023-07-04 06:05:16] INFO root fetch - processPackages [odoo12-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addons_oca_l10n_spain-12.0.20230703.0-py3-none-any.whl.zip]
+[2023-07-04 06:05:16] INFO root fetch - main [MainThread]: End processing [odoo12-addons-oca-l10n-spain]: success
+[2023-07-04 06:05:17] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230702.tar.gz]
+[2023-07-04 06:05:17] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230703.tar.gz]
+[2023-07-04 06:05:17] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-07-04 06:05:17] INFO root fetch - main [MainThread]: Store serial: [18750042]
