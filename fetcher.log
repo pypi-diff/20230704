@@ -21907,3 +21907,98 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 14:48:11] INFO root fetch - processPackages [argus-api]: Remove: archive file [/home/abi/fetcher/tmp/argus_api-3.9.0.tar.gz]
 [2023-07-04 14:48:11] INFO root fetch - main [MainThread]: End processing [argus-api]: success
 [2023-07-04 14:48:11] INFO root fetch - main [MainThread]: Store serial: [18754715]
+[2023-07-04 14:53:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18754715]
+[2023-07-04 14:53:20] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-04 14:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stock-price-simulator
+[2023-07-04 14:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libcnmc
+[2023-07-04 14:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: policyengine-us
+[2023-07-04 14:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cycless
+[2023-07-04 14:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: napari
+[2023-07-04 14:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lfinancial
+[2023-07-04 14:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyConSolv
+[2023-07-04 14:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apysc
+[2023-07-04 14:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bofire-converters
+[2023-07-04 14:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ccxt
+[2023-07-04 14:53:21] INFO root fetch - processPackages [napari]: New version: [0.4.9rc3] Old Version: [0.4.9rc2]
+[2023-07-04 14:53:21] INFO root fetch - processPackages [lfinancial]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-04 14:53:21] INFO root fetch - processPackages [policyengine-us]: New version: [0.355.0] Old Version: [0.354.0]
+[2023-07-04 14:53:21] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-07-04 14:53:21] INFO root fetch - processPackages [ccxt]: New version: [4.0.5] Old Version: [4.0.4]
+[2023-07-04 14:53:21] WARNING root fetch - processPackages [stock-price-simulator]: Skipping, unable to determine old version
+[2023-07-04 14:53:21] WARNING root fetch - processPackages [bofire-converters]: Skipping, unable to determine old version
+[2023-07-04 14:53:21] INFO root fetch - processPackages [stock-price-simulator]: Start processing: JBioSeqTools
+[2023-07-04 14:53:21] INFO root fetch - processPackages [bofire-converters]: Start processing: elastic-apm
+[2023-07-04 14:53:21] INFO root fetch - main [MainThread]: End processing [stock-price-simulator] error
+[2023-07-04 14:53:21] INFO root fetch - processPackages [apysc]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-07-04 14:53:21] INFO root fetch - processPackages [PyConSolv]: New version: [0.9.2.2] Old Version: [0.9.2.1]
+[2023-07-04 14:53:21] INFO root fetch - main [MainThread]: End processing [bofire-converters] error
+[2023-07-04 14:53:21] INFO root fetch - processPackages [cycless]: New version: [0.3.1] Old Version: [0.2]
+[2023-07-04 14:53:21] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/f2/bc/9b7831c3492fc34bcfed2333dc1c410ed602536218f5e57df44f29794d36/policyengine-us-0.354.0.tar.gz
+[2023-07-04 14:53:21] INFO root fetch - processPackages [napari]: Downloading https://files.pythonhosted.org/packages/94/ac/67158daa5bba519575c9e11e0808998d7f4ee311acffd1b8512e91cffcdf/napari-0.4.9rc2.tar.gz
+[2023-07-04 14:53:21] INFO root fetch - processPackages [elastic-apm]: New version: [6.9.1] Old Version: [6.9.0]
+[2023-07-04 14:53:21] INFO root fetch - processPackages [JBioSeqTools]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-04 14:53:21] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/33/90/1ef4a94e7b98caf68e36cffc258ac43b494ac521789a79a0027b0d407750/apysc-3.1.8.tar.gz
+[2023-07-04 14:53:21] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/f8/0f/d6f4a2707935f0dff250deb6c50591237ad7a5cf3b3b23bfd689f1982e2c/lfinancial-0.1.5.tar.gz
+[2023-07-04 14:53:21] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-07-04 14:53:21] INFO root fetch - processPackages [PyConSolv]: Downloading https://files.pythonhosted.org/packages/2b/a1/4c72f001bff766fe6438ba29a7e8d617ffc5800e7e9604097d09a3e50c2a/pyconsolv-0.9.2.1.tar.gz
+[2023-07-04 14:53:21] INFO root fetch - processPackages [cycless]: Downloading https://files.pythonhosted.org/packages/c3/fd/66d27ec3b80bfd37707a60f7b29497fc40512cb5061fc2d232efcc28f3f6/cycless-0.2.tar.gz
+[2023-07-04 14:53:21] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/99/31/8b7871379640bf5ac681d1c0d8603513c2075d52ddce2a3dbadef78a3692/JBioSeqTools-1.1.5.tar.gz
+[2023-07-04 14:53:21] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/c6/74/966c3c518b8e917a331cc55ab89c9c5b2f78877f7112731735b33eec9c41/ccxt-4.0.4.tar.gz
+[2023-07-04 14:53:21] INFO root fetch - processPackages [elastic-apm]: Downloading https://files.pythonhosted.org/packages/ef/65/e78bd18a8362e68fcb6f9090380e7e17423e2bea884e3779dceccb425634/elastic-apm-6.9.0.tar.gz
+[2023-07-04 14:53:21] WARNING root fetch - processPackages [PyConSolv]: Skipping package: exceeds size limit 82191481>=10485760
+[2023-07-04 14:53:21] INFO root fetch - main [MainThread]: End processing [PyConSolv] error
+[2023-07-04 14:53:21] INFO root fetch - processPackages [napari]: Downloading https://files.pythonhosted.org/packages/1b/4c/d0eb81702c5009d60f3ef04222671898f04d97d6cf073aac05a3b7376526/napari-0.4.9rc3.tar.gz
+[2023-07-04 14:53:21] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/dc/2b/63f2d80fe5a37b4e0944b4b7497f4d73457790cdeea7ab6d44e0201ae1fb/lfinancial-0.1.6.tar.gz
+[2023-07-04 14:53:21] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/d6/86/b29ac7a03994c0b06ef29d4f71bc20763546b85e71cce7aef112706e64d0/policyengine-us-0.355.0.tar.gz
+[2023-07-04 14:53:21] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/88/bf/40579474110ab86897c2b0db5930ef686ce4a95a1d25b0694f14aaea49aa/apysc-3.1.9.tar.gz
+[2023-07-04 14:53:21] INFO root fetch - processPackages [cycless]: Downloading https://files.pythonhosted.org/packages/a2/10/387091a4b55f14cbcacf7fc4eb755e0c2576e5d598c3edd5f780f08f83e9/cycless-0.3.1.tar.gz
+[2023-07-04 14:53:21] INFO root fetch - processPackages [lfinancial]: executing diffoscope
+[2023-07-04 14:53:21] INFO root fetch - processPackages [lfinancial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfinancial-0.1.5.tar.gz tmp/lfinancial-0.1.6.tar.gz --markdown 20230704/l/lfinancial/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-04 14:53:22] INFO root fetch - processPackages [napari]: executing diffoscope
+[2023-07-04 14:53:22] INFO root fetch - processPackages [napari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-0.4.9rc2.tar.gz tmp/napari-0.4.9rc3.tar.gz --markdown 20230704/n/napari/0.4.9rc2-0.4.9rc3/diff.md --exclude *.pyd
+[2023-07-04 14:53:22] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/68/78/51a104927dcade61a0d306235e4ce45877f8ce5659d946541f3acc565ffb/JBioSeqTools-1.1.6.tar.gz
+[2023-07-04 14:53:22] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-07-04 14:53:22] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/9d/b9/fd63f5e45ee4d89b310019b5df8c25a9fef7e0da3b2026041b0a787fadb4/ccxt-4.0.5.tar.gz
+[2023-07-04 14:53:22] INFO root fetch - processPackages [cycless]: executing diffoscope
+[2023-07-04 14:53:22] INFO root fetch - processPackages [cycless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycless-0.2.tar.gz tmp/cycless-0.3.1.tar.gz --markdown 20230704/c/cycless/0.2-0.3.1/diff.md --exclude *.pyd
+[2023-07-04 14:53:22] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-07-04 14:53:22] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-3.1.8.tar.gz tmp/apysc-3.1.9.tar.gz --markdown 20230704/a/apysc/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-07-04 14:53:22] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-04 14:53:22] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.354.0.tar.gz tmp/policyengine-us-0.355.0.tar.gz --markdown 20230704/p/policyengine-us/0.354.0-0.355.0/diff.md --exclude *.pyd
+[2023-07-04 14:53:22] INFO root fetch - processPackages [JBioSeqTools]: executing diffoscope
+[2023-07-04 14:53:22] INFO root fetch - processPackages [JBioSeqTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBioSeqTools-1.1.5.tar.gz tmp/JBioSeqTools-1.1.6.tar.gz --markdown 20230704/J/JBioSeqTools/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-04 14:53:22] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-07-04 14:53:22] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230704/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-07-04 14:53:22] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-04 14:53:22] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.4.tar.gz tmp/ccxt-4.0.5.tar.gz --markdown 20230704/c/ccxt/4.0.4-4.0.5/diff.md --exclude *.pyd
+[2023-07-04 14:53:22] INFO root fetch - processPackages [elastic-apm]: Downloading https://files.pythonhosted.org/packages/60/0d/4372d19289be610189bb041001dd097ffa933e5955b03232b88b8630a03f/elastic-apm-6.9.1.tar.gz
+[2023-07-04 14:53:22] INFO root fetch - processPackages [elastic-apm]: executing diffoscope
+[2023-07-04 14:53:22] INFO root fetch - processPackages [elastic-apm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elastic-apm-6.9.0.tar.gz tmp/elastic-apm-6.9.1.tar.gz --markdown 20230704/e/elastic-apm/6.9.0-6.9.1/diff.md --exclude *.pyd
+[2023-07-04 14:53:23] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.1.5.tar.gz]
+[2023-07-04 14:53:23] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.1.6.tar.gz]
+[2023-07-04 14:53:23] INFO root fetch - main [MainThread]: End processing [lfinancial]: success
+[2023-07-04 14:53:23] INFO root fetch - processPackages [cycless]: Remove: archive file [/home/abi/fetcher/tmp/cycless-0.2.tar.gz]
+[2023-07-04 14:53:23] INFO root fetch - processPackages [cycless]: Remove: archive file [/home/abi/fetcher/tmp/cycless-0.3.1.tar.gz]
+[2023-07-04 14:53:23] INFO root fetch - main [MainThread]: End processing [cycless]: success
+[2023-07-04 14:53:23] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-1.1.5.tar.gz]
+[2023-07-04 14:53:23] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-1.1.6.tar.gz]
+[2023-07-04 14:53:23] INFO root fetch - main [MainThread]: End processing [JBioSeqTools]: success
+[2023-07-04 14:53:24] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.0.tar.gz]
+[2023-07-04 14:53:24] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.1.tar.gz]
+[2023-07-04 14:53:24] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-07-04 14:53:24] INFO root fetch - processPackages [elastic-apm]: Remove: archive file [/home/abi/fetcher/tmp/elastic-apm-6.9.0.tar.gz]
+[2023-07-04 14:53:24] INFO root fetch - processPackages [elastic-apm]: Remove: archive file [/home/abi/fetcher/tmp/elastic-apm-6.9.1.tar.gz]
+[2023-07-04 14:53:24] INFO root fetch - main [MainThread]: End processing [elastic-apm]: success
+[2023-07-04 14:53:26] INFO root fetch - processPackages [napari]: Remove: archive file [/home/abi/fetcher/tmp/napari-0.4.9rc2.tar.gz]
+[2023-07-04 14:53:26] INFO root fetch - processPackages [napari]: Remove: archive file [/home/abi/fetcher/tmp/napari-0.4.9rc3.tar.gz]
+[2023-07-04 14:53:26] INFO root fetch - main [MainThread]: End processing [napari]: success
+[2023-07-04 14:53:27] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.8.tar.gz]
+[2023-07-04 14:53:27] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.9.tar.gz]
+[2023-07-04 14:53:27] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-07-04 14:53:32] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.4.tar.gz]
+[2023-07-04 14:53:32] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.5.tar.gz]
+[2023-07-04 14:53:32] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-04 14:53:48] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.354.0.tar.gz]
+[2023-07-04 14:53:48] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.355.0.tar.gz]
+[2023-07-04 14:53:48] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-04 14:53:48] INFO root fetch - main [MainThread]: Store serial: [18754759]
