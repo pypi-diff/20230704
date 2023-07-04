@@ -12010,3 +12010,110 @@
 [2023-07-04 06:57:38] INFO root fetch - processPackages [odoo8-addon-crm-claim-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_crm_claim_rma-8.0.1.2.0.99.dev6-py2-none-any.whl.zip]
 [2023-07-04 06:57:38] INFO root fetch - main [MainThread]: End processing [odoo8-addon-crm-claim-rma]: success
 [2023-07-04 06:57:38] INFO root fetch - main [MainThread]: Store serial: [18750503]
+[2023-07-04 07:02:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18750503]
+[2023-07-04 07:02:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-04 07:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyfi
+[2023-07-04 07:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-file-explorer
+[2023-07-04 07:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omicverse
+[2023-07-04 07:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: st-blogpost-component
+[2023-07-04 07:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qps-limit
+[2023-07-04 07:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: microviewer
+[2023-07-04 07:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo8-addon-sale-line-price-properties-based
+[2023-07-04 07:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo9-addon-sale-exception
+[2023-07-04 07:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo8-addon-sale-line-quantity-properties-based
+[2023-07-04 07:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rosetta-ce
+[2023-07-04 07:02:48] INFO root fetch - processPackages [omicverse]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-07-04 07:02:48] INFO root fetch - processPackages [django-file-explorer]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-07-04 07:02:48] INFO root fetch - processPackages [hyfi]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-04 07:02:48] INFO root fetch - processPackages [st-blogpost-component]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-04 07:02:48] INFO root fetch - processPackages [odoo9-addon-sale-exception]: New version: [9.0.1.1.0.99.dev9] Old Version: [9.0.1.1.0.99.dev8]
+[2023-07-04 07:02:48] INFO root fetch - processPackages [rosetta-ce]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-04 07:02:48] INFO root fetch - processPackages [microviewer]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-04 07:02:48] INFO root fetch - processPackages [qps-limit]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-04 07:02:48] INFO root fetch - processPackages [odoo8-addon-sale-line-quantity-properties-based]: New version: [8.0.1.0.0.99.dev9] Old Version: [8.0.1.0.0.99.dev8]
+[2023-07-04 07:02:48] INFO root fetch - processPackages [odoo8-addon-sale-line-price-properties-based]: New version: [8.0.1.0.0.99.dev9] Old Version: [8.0.1.0.0.99.dev8]
+[2023-07-04 07:02:48] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/b4/68/6f44c7ffae494a31e5ef1af8c5db8a84b15874ae4d7c484d0947121d47c5/rosetta-ce-1.5.2.tar.gz
+[2023-07-04 07:02:48] INFO root fetch - processPackages [microviewer]: Downloading https://files.pythonhosted.org/packages/be/78/804db98e381fa104da7bbff06cbfab84372d999d27624d836c28e1888715/microviewer-1.6.0.tar.gz
+[2023-07-04 07:02:48] INFO root fetch - processPackages [st-blogpost-component]: Downloading https://files.pythonhosted.org/packages/68/9d/34db5598b090f302c09b7a630cc39b6937baa3488c8ddd13e92e12816ffb/st_blogpost_component-0.0.1-py3-none-any.whl
+[2023-07-04 07:02:48] INFO root fetch - processPackages [django-file-explorer]: Downloading https://files.pythonhosted.org/packages/0b/bf/7f42661f1b5d6103b52f2af846f5464408cce4303c1d73411764ccb7ac0f/django-file-explorer-1.5.0.tar.gz
+[2023-07-04 07:02:48] INFO root fetch - processPackages [omicverse]: Downloading https://files.pythonhosted.org/packages/8e/86/8e56749b0da55715a03b7f1415aece4dbc2a1819198102b93543faf37486/omicverse-1.4.5.tar.gz
+[2023-07-04 07:02:48] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/c4/e2/d1d528ce2bfd7d44ec5bf182d1f5ad766b5589ea992d489bcde2d90b3a42/hyfi-1.0.0.tar.gz
+[2023-07-04 07:02:48] INFO root fetch - processPackages [odoo8-addon-sale-line-quantity-properties-based]: Downloading https://files.pythonhosted.org/packages/be/53/39928d19e671f465e708449836ed53bd3bcd32fc36283a7e0db4d4606023/odoo8_addon_sale_line_quantity_properties_based-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-07-04 07:02:48] INFO root fetch - processPackages [odoo8-addon-sale-line-price-properties-based]: Downloading https://files.pythonhosted.org/packages/b2/85/8213a1fe1754d3301f74b32307e46372168966d5363e7198cac356aee9b1/odoo8_addon_sale_line_price_properties_based-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-07-04 07:02:48] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/1c/ba/658571e160fbc85b6280b8f34a43127fd414e6b03d4d2c5328dea34bb717/qps_limit-1.0.6-py3-none-any.whl
+[2023-07-04 07:02:48] INFO root fetch - processPackages [odoo9-addon-sale-exception]: Downloading https://files.pythonhosted.org/packages/1c/5d/e2ac0c0ef90b9804877d6482fd92cc03b5574152314bca0de9ac5e2e12e8/odoo9_addon_sale_exception-9.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-07-04 07:02:48] WARNING root fetch - processPackages [omicverse]: Skipping package: exceeds size limit 16081523>=10485760
+[2023-07-04 07:02:48] INFO root fetch - processPackages [omicverse]: Start processing: odoo8-addon-sale-exceptions
+[2023-07-04 07:02:48] INFO root fetch - main [MainThread]: End processing [omicverse] error
+[2023-07-04 07:02:48] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/e8/eb/84dd069d4c5e4140b884b2a18fe82151d940d4b3115a20145aec43517ce1/rosetta-ce-1.5.3.tar.gz
+[2023-07-04 07:02:48] INFO root fetch - processPackages [microviewer]: Downloading https://files.pythonhosted.org/packages/9f/a8/62037d6269cf319e8f5cee97b63b555e695d070cd5d4a92b85fbea711072/microviewer-1.6.1.tar.gz
+[2023-07-04 07:02:48] INFO root fetch - processPackages [odoo8-addon-sale-exceptions]: New version: [8.0.1.0.0.99.dev9] Old Version: [8.0.1.0.0.99.dev8]
+[2023-07-04 07:02:48] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/d4/61/a0baf4789a79886e901cdc7af406a4be563e03f1b50dd27574142783bf25/qps_limit-1.0.7-py3-none-any.whl
+[2023-07-04 07:02:48] INFO root fetch - processPackages [st-blogpost-component]: Downloading https://files.pythonhosted.org/packages/eb/f1/9b80ba58dbf9f1ce4903123b2b03ec3c486381d5144904e02b0da6c279c5/st_blogpost_component-0.0.2.tar.gz
+[2023-07-04 07:02:49] INFO root fetch - processPackages [microviewer]: executing diffoscope
+[2023-07-04 07:02:49] INFO root fetch - processPackages [microviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microviewer-1.6.0.tar.gz tmp/microviewer-1.6.1.tar.gz --markdown 20230704/m/microviewer/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-04 07:02:49] INFO root fetch - processPackages [rosetta-ce]: executing diffoscope
+[2023-07-04 07:02:49] INFO root fetch - processPackages [rosetta-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosetta-ce-1.5.2.tar.gz tmp/rosetta-ce-1.5.3.tar.gz --markdown 20230704/r/rosetta-ce/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-04 07:02:49] INFO root fetch - processPackages [django-file-explorer]: Downloading https://files.pythonhosted.org/packages/ab/e0/615bb7771858b6c754f13eb53bc2e39da9b281d17b37866976716aed1705/django-file-explorer-1.6.0.tar.gz
+[2023-07-04 07:02:49] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/ec/e5/f2836dca5049a262b874c2263655041c873aed439829328c2f81df36dda4/hyfi-1.0.1.tar.gz
+[2023-07-04 07:02:49] INFO root fetch - processPackages [odoo8-addon-sale-line-price-properties-based]: Downloading https://files.pythonhosted.org/packages/35/76/cde3d570d015262a27f95784bdb9459b23c87813a492a68727949e3b90a7/odoo8_addon_sale_line_price_properties_based-8.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-07-04 07:02:49] INFO root fetch - processPackages [odoo8-addon-sale-exceptions]: Downloading https://files.pythonhosted.org/packages/f6/0a/a5019ea3a567d96bdfb79596ac26701a1ad5b0b9545498c5eba9b2d49df9/odoo8_addon_sale_exceptions-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-07-04 07:02:49] INFO root fetch - processPackages [qps-limit]: executing diffoscope
+[2023-07-04 07:02:49] INFO root fetch - processPackages [qps-limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qps_limit-1.0.6-py3-none-any.whl.zip tmp/qps_limit-1.0.7-py3-none-any.whl.zip --markdown 20230704/q/qps-limit/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-04 07:02:49] INFO root fetch - processPackages [odoo8-addon-sale-line-quantity-properties-based]: Downloading https://files.pythonhosted.org/packages/50/13/a4fc3cf5d1596dfd9f30e3c158075e49adf9e1846dd868ce832b326dcd3d/odoo8_addon_sale_line_quantity_properties_based-8.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-07-04 07:02:49] INFO root fetch - processPackages [st-blogpost-component]: executing diffoscope
+[2023-07-04 07:02:49] INFO root fetch - processPackages [st-blogpost-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_blogpost_component-0.0.1-py3-none-any.whl.zip tmp/st_blogpost_component-0.0.2.tar.gz --markdown 20230704/s/st-blogpost-component/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-04 07:02:49] INFO root fetch - processPackages [odoo9-addon-sale-exception]: Downloading https://files.pythonhosted.org/packages/b5/17/05b5afa875bf61833cf44da1729c172886f9efab3d8a1f460e6cbfe3680f/odoo9_addon_sale_exception-9.0.1.1.0.99.dev9-py2-none-any.whl
+[2023-07-04 07:02:49] INFO root fetch - processPackages [django-file-explorer]: executing diffoscope
+[2023-07-04 07:02:49] INFO root fetch - processPackages [django-file-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-file-explorer-1.5.0.tar.gz tmp/django-file-explorer-1.6.0.tar.gz --markdown 20230704/d/django-file-explorer/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-07-04 07:02:49] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-04 07:02:49] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.0.0.tar.gz tmp/hyfi-1.0.1.tar.gz --markdown 20230704/h/hyfi/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-04 07:02:49] INFO root fetch - processPackages [odoo8-addon-sale-line-price-properties-based]: executing diffoscope
+[2023-07-04 07:02:49] INFO root fetch - processPackages [odoo8-addon-sale-line-price-properties-based]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_sale_line_price_properties_based-8.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_sale_line_price_properties_based-8.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230704/o/odoo8-addon-sale-line-price-properties-based/8.0.1.0.0.99.dev8-8.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-04 07:02:49] INFO root fetch - processPackages [odoo8-addon-sale-line-quantity-properties-based]: executing diffoscope
+[2023-07-04 07:02:49] INFO root fetch - processPackages [odoo8-addon-sale-line-quantity-properties-based]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_sale_line_quantity_properties_based-8.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_sale_line_quantity_properties_based-8.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230704/o/odoo8-addon-sale-line-quantity-properties-based/8.0.1.0.0.99.dev8-8.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-04 07:02:49] INFO root fetch - processPackages [odoo9-addon-sale-exception]: executing diffoscope
+[2023-07-04 07:02:49] INFO root fetch - processPackages [odoo9-addon-sale-exception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_sale_exception-9.0.1.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_sale_exception-9.0.1.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230704/o/odoo9-addon-sale-exception/9.0.1.1.0.99.dev8-9.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-04 07:02:49] INFO root fetch - processPackages [odoo8-addon-sale-exceptions]: Downloading https://files.pythonhosted.org/packages/c3/aa/e12a02141885383dc487157907e754037b8fe36af455241aa0047631d0e1/odoo8_addon_sale_exceptions-8.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-07-04 07:02:49] INFO root fetch - processPackages [odoo8-addon-sale-exceptions]: executing diffoscope
+[2023-07-04 07:02:49] INFO root fetch - processPackages [odoo8-addon-sale-exceptions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_sale_exceptions-8.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_sale_exceptions-8.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230704/o/odoo8-addon-sale-exceptions/8.0.1.0.0.99.dev8-8.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-04 07:02:50] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.5.2.tar.gz]
+[2023-07-04 07:02:50] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.5.3.tar.gz]
+[2023-07-04 07:02:50] INFO root fetch - processPackages [rosetta-ce]: Start processing: pydantic-loggings
+[2023-07-04 07:02:50] INFO root fetch - main [MainThread]: End processing [rosetta-ce]: success
+[2023-07-04 07:02:50] INFO root fetch - processPackages [pydantic-loggings]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-04 07:02:50] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/6a/34/b1af92289b1bb1134c7a9a367f5771ead38ee6bcf760e88cac3603fa2702/pydantic-loggings-0.8.0.tar.gz
+[2023-07-04 07:02:50] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-1.0.6-py3-none-any.whl.zip]
+[2023-07-04 07:02:50] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-1.0.7-py3-none-any.whl.zip]
+[2023-07-04 07:02:50] INFO root fetch - main [MainThread]: End processing [qps-limit]: success
+[2023-07-04 07:02:50] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/ab/c8/085b6ffd91326548ba3b355e72cc410286860516c34310924a6182dab40b/pydantic-loggings-0.9.0.tar.gz
+[2023-07-04 07:02:50] INFO root fetch - processPackages [odoo8-addon-sale-line-price-properties-based]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_line_price_properties_based-8.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-04 07:02:50] INFO root fetch - processPackages [odoo8-addon-sale-line-price-properties-based]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_line_price_properties_based-8.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-04 07:02:50] INFO root fetch - main [MainThread]: End processing [odoo8-addon-sale-line-price-properties-based]: success
+[2023-07-04 07:02:51] INFO root fetch - processPackages [pydantic-loggings]: executing diffoscope
+[2023-07-04 07:02:51] INFO root fetch - processPackages [pydantic-loggings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-loggings-0.8.0.tar.gz tmp/pydantic-loggings-0.9.0.tar.gz --markdown 20230704/p/pydantic-loggings/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-04 07:02:51] INFO root fetch - processPackages [odoo8-addon-sale-line-quantity-properties-based]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_line_quantity_properties_based-8.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-04 07:02:51] INFO root fetch - processPackages [odoo8-addon-sale-line-quantity-properties-based]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_line_quantity_properties_based-8.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-04 07:02:51] INFO root fetch - main [MainThread]: End processing [odoo8-addon-sale-line-quantity-properties-based]: success
+[2023-07-04 07:02:51] INFO root fetch - processPackages [microviewer]: Remove: archive file [/home/abi/fetcher/tmp/microviewer-1.6.0.tar.gz]
+[2023-07-04 07:02:51] INFO root fetch - processPackages [microviewer]: Remove: archive file [/home/abi/fetcher/tmp/microviewer-1.6.1.tar.gz]
+[2023-07-04 07:02:51] INFO root fetch - main [MainThread]: End processing [microviewer]: success
+[2023-07-04 07:02:51] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.0.0.tar.gz]
+[2023-07-04 07:02:51] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.0.1.tar.gz]
+[2023-07-04 07:02:51] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-04 07:02:51] INFO root fetch - processPackages [st-blogpost-component]: Remove: archive file [/home/abi/fetcher/tmp/st_blogpost_component-0.0.1-py3-none-any.whl.zip]
+[2023-07-04 07:02:51] INFO root fetch - processPackages [st-blogpost-component]: Remove: archive file [/home/abi/fetcher/tmp/st_blogpost_component-0.0.2.tar.gz]
+[2023-07-04 07:02:51] INFO root fetch - main [MainThread]: End processing [st-blogpost-component]: success
+[2023-07-04 07:02:51] INFO root fetch - processPackages [django-file-explorer]: Remove: archive file [/home/abi/fetcher/tmp/django-file-explorer-1.5.0.tar.gz]
+[2023-07-04 07:02:51] INFO root fetch - processPackages [django-file-explorer]: Remove: archive file [/home/abi/fetcher/tmp/django-file-explorer-1.6.0.tar.gz]
+[2023-07-04 07:02:51] INFO root fetch - main [MainThread]: End processing [django-file-explorer]: success
+[2023-07-04 07:02:51] INFO root fetch - processPackages [odoo8-addon-sale-exceptions]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_exceptions-8.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-04 07:02:51] INFO root fetch - processPackages [odoo8-addon-sale-exceptions]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_exceptions-8.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-04 07:02:51] INFO root fetch - main [MainThread]: End processing [odoo8-addon-sale-exceptions]: success
+[2023-07-04 07:02:51] INFO root fetch - processPackages [odoo9-addon-sale-exception]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_sale_exception-9.0.1.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-04 07:02:51] INFO root fetch - processPackages [odoo9-addon-sale-exception]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_sale_exception-9.0.1.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-04 07:02:51] INFO root fetch - main [MainThread]: End processing [odoo9-addon-sale-exception]: success
+[2023-07-04 07:02:52] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.8.0.tar.gz]
+[2023-07-04 07:02:52] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.9.0.tar.gz]
+[2023-07-04 07:02:52] INFO root fetch - main [MainThread]: End processing [pydantic-loggings]: success
+[2023-07-04 07:02:52] INFO root fetch - main [MainThread]: Store serial: [18750535]
