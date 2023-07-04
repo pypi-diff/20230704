@@ -20393,3 +20393,77 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 13:32:21] INFO root fetch - processPackages [inmanta-core]: Remove: archive file [/home/abi/fetcher/tmp/inmanta-core-9.3.0.tar.gz]
 [2023-07-04 13:32:21] INFO root fetch - main [MainThread]: End processing [inmanta-core]: success
 [2023-07-04 13:32:21] INFO root fetch - main [MainThread]: Store serial: [18754049]
+[2023-07-04 13:37:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18754049]
+[2023-07-04 13:37:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-04 13:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-nano
+[2023-07-04 13:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudstorageio
+[2023-07-04 13:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-llm
+[2023-07-04 13:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-chronos
+[2023-07-04 13:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyBluesky
+[2023-07-04 13:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-serving
+[2023-07-04 13:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datawhispers
+[2023-07-04 13:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: replicate
+[2023-07-04 13:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyre-check-nightly
+[2023-07-04 13:37:31] WARNING root fetch - processPackages [PyBluesky]: Skipping, unable to determine old version
+[2023-07-04 13:37:31] INFO root fetch - main [MainThread]: End processing [PyBluesky] error
+[2023-07-04 13:37:31] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230703] Old Version: [2.4.0b20230702]
+[2023-07-04 13:37:31] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230703] Old Version: [2.4.0b20230702]
+[2023-07-04 13:37:31] INFO root fetch - processPackages [cloudstorageio]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-04 13:37:31] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230704] Old Version: [2.4.0b20230703]
+[2023-07-04 13:37:31] INFO root fetch - processPackages [datawhispers]: New version: [0.2.8.3] Old Version: [0.2.8.2]
+[2023-07-04 13:37:31] INFO root fetch - processPackages [replicate]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-07-04 13:37:31] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/d0/44/0ebbf5ce064c42aec0a0c04f6f864e17ee0f6e822b4ac397ed1acd7e8f41/bigdl_serving-2.4.0b20230702-py2.py3-none-any.whl
+[2023-07-04 13:37:31] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/c9/43/7807c7da715baf22f71e892586b9868b96fd5d4a92ed8d30e32a1d22e285/bigdl_chronos-2.4.0b20230702-py3-none-win_amd64.whl
+[2023-07-04 13:37:31] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230704] Old Version: [2.4.0b20230703]
+[2023-07-04 13:37:31] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101688469066] Old Version: [0.0.101688382755]
+[2023-07-04 13:37:31] INFO root fetch - processPackages [cloudstorageio]: Downloading https://files.pythonhosted.org/packages/2c/b4/33388306f870362688ba1c2e88460239352c0160710df302ac0fd008da0f/cloudstorageio-1.2.8.tar.gz
+[2023-07-04 13:37:31] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/85/4b/d09c13ebe9884352c569efe6193a99a248b7e4c777b6a2793c8ba0107579/datawhispers-0.2.8.2.tar.gz
+[2023-07-04 13:37:31] INFO root fetch - processPackages [replicate]: Downloading https://files.pythonhosted.org/packages/a6/81/fa001b548a53634e9f90073823230294ff24e661a33149efbdfcd908e588/replicate-0.8.3.tar.gz
+[2023-07-04 13:37:31] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/da/de/c003b6b1247f4f401412f79ad1fda1cdf9aab307421a3aed0fd2de8e868e/bigdl_llm-2.4.0b20230703-py3-none-win_amd64.whl
+[2023-07-04 13:37:31] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/8b/7f/4df93edc84525b16470a7e4fa5321928ff96d05faad3c23b4f28ef5cc916/bigdl_nano-2.4.0b20230703-py3-none-win_amd64.whl
+[2023-07-04 13:37:31] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/7e/c2/fb78394648c9782f47650e6bb5df89c2239240d6d670b718774d70840e10/pyre-check-nightly-0.0.101688382755.tar.gz
+[2023-07-04 13:37:31] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/ea/0a/54f2cddda91607c58ec1fc2a056826e13688cbe9e30eba265184dccde3ac/bigdl_serving-2.4.0b20230703-py2.py3-none-any.whl
+[2023-07-04 13:37:31] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23762639>=10485760
+[2023-07-04 13:37:31] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-07-04 13:37:32] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/40/b7/eba3249c8bf6efc17b79b341a9858555bf26c5016227f9f942a7f89f4a23/datawhispers-0.2.8.3.tar.gz
+[2023-07-04 13:37:32] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/1f/4e/42d0194f1d69db942e6f09e6c43f7add95fc36dd1e102819f086486b77d9/bigdl_chronos-2.4.0b20230703-py3-none-win_amd64.whl
+[2023-07-04 13:37:32] INFO root fetch - processPackages [replicate]: Downloading https://files.pythonhosted.org/packages/15/02/54ed32c50a43b3704ebe971c98b9157e5e882a715fb1e21ce1bc8d91cf9c/replicate-0.8.4.tar.gz
+[2023-07-04 13:37:32] INFO root fetch - processPackages [cloudstorageio]: Downloading https://files.pythonhosted.org/packages/e6/b3/71f1de20e503067b9b2b06889f3919f67b9c0c66ef17a535d37e36650b46/cloudstorageio-1.2.9.tar.gz
+[2023-07-04 13:37:32] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-07-04 13:37:32] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230702-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230703-py2.py3-none-any.whl.zip --markdown 20230704/b/bigdl-serving/2.4.0b20230702-2.4.0b20230703/diff.md --exclude *.pyd
+[2023-07-04 13:37:32] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/14/b5/8315519fd05f2bb66c741b7a966748601097f808fcb492a83c74bd4f4c57/bigdl_llm-2.4.0b20230704-py3-none-win_amd64.whl
+[2023-07-04 13:37:32] INFO root fetch - processPackages [datawhispers]: executing diffoscope
+[2023-07-04 13:37:32] INFO root fetch - processPackages [datawhispers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawhispers-0.2.8.2.tar.gz tmp/datawhispers-0.2.8.3.tar.gz --markdown 20230704/d/datawhispers/0.2.8.2-0.2.8.3/diff.md --exclude *.pyd
+[2023-07-04 13:37:32] INFO root fetch - processPackages [replicate]: executing diffoscope
+[2023-07-04 13:37:32] INFO root fetch - processPackages [replicate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replicate-0.8.3.tar.gz tmp/replicate-0.8.4.tar.gz --markdown 20230704/r/replicate/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-07-04 13:37:32] INFO root fetch - processPackages [cloudstorageio]: executing diffoscope
+[2023-07-04 13:37:32] INFO root fetch - processPackages [cloudstorageio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudstorageio-1.2.8.tar.gz tmp/cloudstorageio-1.2.9.tar.gz --markdown 20230704/c/cloudstorageio/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-04 13:37:32] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-07-04 13:37:32] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230702-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230703-py3-none-win_amd64.whl.zip --markdown 20230704/b/bigdl-chronos/2.4.0b20230702-2.4.0b20230703/diff.md --exclude *.pyd
+[2023-07-04 13:37:32] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-07-04 13:37:32] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230703-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230704-py3-none-win_amd64.whl.zip --markdown 20230704/b/bigdl-llm/2.4.0b20230703-2.4.0b20230704/diff.md --exclude *.pyd
+[2023-07-04 13:37:32] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/0d/43/3ab3e45c4c97df279644a7a9bcc45127e51489caed3c75bba5da4c26bf09/bigdl_nano-2.4.0b20230704-py3-none-win_amd64.whl
+[2023-07-04 13:37:33] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230702-py2.py3-none-any.whl.zip]
+[2023-07-04 13:37:33] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230703-py2.py3-none-any.whl.zip]
+[2023-07-04 13:37:33] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-07-04 13:37:33] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.8.2.tar.gz]
+[2023-07-04 13:37:33] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.8.3.tar.gz]
+[2023-07-04 13:37:33] INFO root fetch - main [MainThread]: End processing [datawhispers]: success
+[2023-07-04 13:37:33] INFO root fetch - processPackages [cloudstorageio]: Remove: archive file [/home/abi/fetcher/tmp/cloudstorageio-1.2.8.tar.gz]
+[2023-07-04 13:37:33] INFO root fetch - processPackages [cloudstorageio]: Remove: archive file [/home/abi/fetcher/tmp/cloudstorageio-1.2.9.tar.gz]
+[2023-07-04 13:37:33] INFO root fetch - main [MainThread]: End processing [cloudstorageio]: success
+[2023-07-04 13:37:33] INFO root fetch - processPackages [replicate]: Remove: archive file [/home/abi/fetcher/tmp/replicate-0.8.3.tar.gz]
+[2023-07-04 13:37:33] INFO root fetch - processPackages [replicate]: Remove: archive file [/home/abi/fetcher/tmp/replicate-0.8.4.tar.gz]
+[2023-07-04 13:37:33] INFO root fetch - main [MainThread]: End processing [replicate]: success
+[2023-07-04 13:37:33] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-07-04 13:37:33] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230703-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230704-py3-none-win_amd64.whl.zip --markdown 20230704/b/bigdl-nano/2.4.0b20230703-2.4.0b20230704/diff.md --exclude *.pyd
+[2023-07-04 13:37:33] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230703-py3-none-win_amd64.whl.zip]
+[2023-07-04 13:37:33] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230704-py3-none-win_amd64.whl.zip]
+[2023-07-04 13:37:33] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-07-04 13:37:34] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230702-py3-none-win_amd64.whl.zip]
+[2023-07-04 13:37:34] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230703-py3-none-win_amd64.whl.zip]
+[2023-07-04 13:37:34] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-07-04 13:37:35] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230703-py3-none-win_amd64.whl.zip]
+[2023-07-04 13:37:35] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230704-py3-none-win_amd64.whl.zip]
+[2023-07-04 13:37:35] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-07-04 13:37:35] INFO root fetch - main [MainThread]: Store serial: [18754081]
