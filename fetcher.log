@@ -13344,3 +13344,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 08:23:16] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.9.tar.gz]
 [2023-07-04 08:23:16] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
 [2023-07-04 08:23:16] INFO root fetch - main [MainThread]: Store serial: [18750967]
+[2023-07-04 08:28:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18750967]
+[2023-07-04 08:28:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-04 08:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: event-dispatching
+[2023-07-04 08:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-game-collection
+[2023-07-04 08:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reytool
+[2023-07-04 08:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinybird-cli
+[2023-07-04 08:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hotpot-zzy
+[2023-07-04 08:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-07-04 08:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aigc-zoo
+[2023-07-04 08:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ccdt
+[2023-07-04 08:28:24] INFO root fetch - processPackages [hotpot-zzy]: New version: [0.3.0.8] Old Version: [0.3.0.7]
+[2023-07-04 08:28:24] INFO root fetch - processPackages [event-dispatching]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-04 08:28:24] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-04 08:28:24] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-04 08:28:24] WARNING root fetch - processPackages [aigc-zoo]: Skipping, unable to determine old version
+[2023-07-04 08:28:24] INFO root fetch - main [MainThread]: End processing [aigc-zoo] error
+[2023-07-04 08:28:24] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-07-04 08:28:24] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-04 08:28:24] INFO root fetch - processPackages [event-dispatching]: Downloading https://files.pythonhosted.org/packages/7a/bd/8ee3b9d624c337d5615b132ef87261414b00a0e995c3d9d64f304389e808/event_dispatching-0.1.2.tar.gz
+[2023-07-04 08:28:24] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-04 08:28:24] INFO root fetch - processPackages [hotpot-zzy]: Downloading https://files.pythonhosted.org/packages/8d/e5/6cf9d3215725cace49c52ce5c11e0eb71161242c6bc59bd19e90eef66161/hotpot-zzy-0.3.0.7.tar.gz
+[2023-07-04 08:28:24] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-04 08:28:24] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-07-04 08:28:24] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-07-04 08:28:25] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-07-04 08:28:25] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-07-04 08:28:25] INFO root fetch - processPackages [event-dispatching]: Downloading https://files.pythonhosted.org/packages/12/bc/a230351a8882c273ab13794e7a243a38798b05e179fde34233a83118d285/event_dispatching-0.1.3.tar.gz
+[2023-07-04 08:28:25] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-04 08:28:25] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-07-04 08:28:25] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-07-04 08:28:25] INFO root fetch - processPackages [hotpot-zzy]: Downloading https://files.pythonhosted.org/packages/30/a0/e65cf7198b70495f1ec7dcaa9dca574427bd173170aace4462a769f3b8e3/hotpot-zzy-0.3.0.8.tar.gz
+[2023-07-04 08:28:25] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-07-04 08:28:25] INFO root fetch - processPackages [event-dispatching]: executing diffoscope
+[2023-07-04 08:28:25] INFO root fetch - processPackages [event-dispatching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/event_dispatching-0.1.2.tar.gz tmp/event_dispatching-0.1.3.tar.gz --markdown 20230704/e/event-dispatching/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-04 08:28:25] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-07-04 08:28:25] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-07-04 08:28:25] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230704/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-07-04 08:28:25] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-04 08:28:25] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230704/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-04 08:28:25] INFO root fetch - processPackages [hotpot-zzy]: executing diffoscope
+[2023-07-04 08:28:25] INFO root fetch - processPackages [hotpot-zzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotpot-zzy-0.3.0.7.tar.gz tmp/hotpot-zzy-0.3.0.8.tar.gz --markdown 20230704/h/hotpot-zzy/0.3.0.7-0.3.0.8/diff.md --exclude *.pyd
+[2023-07-04 08:28:25] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-04 08:28:25] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230704/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-04 08:28:25] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-07-04 08:28:25] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230704/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-04 08:28:25] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-07-04 08:28:25] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230704/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-04 08:28:26] INFO root fetch - processPackages [event-dispatching]: Remove: archive file [/home/abi/fetcher/tmp/event_dispatching-0.1.2.tar.gz]
+[2023-07-04 08:28:26] INFO root fetch - processPackages [event-dispatching]: Remove: archive file [/home/abi/fetcher/tmp/event_dispatching-0.1.3.tar.gz]
+[2023-07-04 08:28:26] INFO root fetch - main [MainThread]: End processing [event-dispatching]: success
+[2023-07-04 08:28:26] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-04 08:28:26] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-04 08:28:26] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-04 08:28:27] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-07-04 08:28:27] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-07-04 08:28:27] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-04 08:28:27] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-07-04 08:28:27] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-07-04 08:28:27] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-07-04 08:28:27] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-07-04 08:28:27] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-07-04 08:28:27] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-07-04 08:28:27] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-07-04 08:28:27] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-07-04 08:28:27] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-07-04 08:28:27] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.3.0.7.tar.gz]
+[2023-07-04 08:28:27] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.3.0.8.tar.gz]
+[2023-07-04 08:28:27] INFO root fetch - main [MainThread]: End processing [hotpot-zzy]: success
+[2023-07-04 08:28:27] INFO root fetch - main [MainThread]: Store serial: [18750993]
