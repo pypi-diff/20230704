@@ -17135,3 +17135,135 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 11:20:45] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307040918-py3-none-any.whl.zip]
 [2023-07-04 11:20:45] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-04 11:20:45] INFO root fetch - main [MainThread]: Store serial: [18752466]
+[2023-07-04 11:25:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18752466]
+[2023-07-04 11:25:55] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-04 11:25:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-quicksight-lineage
+[2023-07-04 11:25:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stamina
+[2023-07-04 11:25:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kfish
+[2023-07-04 11:25:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unicms-template-unical
+[2023-07-04 11:25:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smdb-web-interface
+[2023-07-04 11:25:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kafkaclientveli
+[2023-07-04 11:25:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nextpcg
+[2023-07-04 11:25:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ocean-contracts
+[2023-07-04 11:25:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: uEdition
+[2023-07-04 11:25:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spanishconjugator
+[2023-07-04 11:25:55] WARNING root fetch - processPackages [smdb-web-interface]: Skipping, unable to determine old version
+[2023-07-04 11:25:55] INFO root fetch - processPackages [smdb-web-interface]: Start processing: ats-case
+[2023-07-04 11:25:55] INFO root fetch - main [MainThread]: End processing [smdb-web-interface] error
+[2023-07-04 11:25:55] INFO root fetch - processPackages [nextpcg]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-04 11:25:55] INFO root fetch - processPackages [dbt-quicksight-lineage]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-04 11:25:55] INFO root fetch - processPackages [stamina]: New version: [23.1.0] Old Version: [22.2.0]
+[2023-07-04 11:25:55] INFO root fetch - processPackages [uEdition]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-04 11:25:55] INFO root fetch - processPackages [unicms-template-unical]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-04 11:25:55] INFO root fetch - processPackages [kafkaclientveli]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-04 11:25:55] INFO root fetch - processPackages [kfish]: New version: [99.0.202307040920] Old Version: [99.0.202307031456]
+[2023-07-04 11:25:55] INFO root fetch - processPackages [ocean-contracts]: New version: [2.0.0a1] Old Version: [1.1.8]
+[2023-07-04 11:25:55] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-04 11:25:55] INFO root fetch - processPackages [ats-case]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-04 11:25:55] INFO root fetch - processPackages [dbt-quicksight-lineage]: Downloading https://files.pythonhosted.org/packages/f1/a1/ece1653625f1134f8d7a5b82350091b6837fdf22f795fa28bbd1b2f1b5d2/dbt_quicksight_lineage-0.0.2.tar.gz
+[2023-07-04 11:25:55] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/21/e3/8961a1cf36f2a32bba3be0f2801702c4fb37c36164a44be1749419c9b3e7/nextpcg-0.5.8.tar.gz
+[2023-07-04 11:25:55] INFO root fetch - processPackages [ocean-contracts]: Downloading https://files.pythonhosted.org/packages/3b/be/7c8c9c63523e5543ff537cd221b47a36a84eecb9ab19a8e6b4fb31dd67df/ocean-contracts-1.1.8.tar.gz
+[2023-07-04 11:25:55] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-04 11:25:55] INFO root fetch - processPackages [uEdition]: Downloading https://files.pythonhosted.org/packages/39/6e/698c0efbc0804ba3629a0412569f87855c78c0cefa8258e485ea05f55b06/uedition-0.6.0.tar.gz
+[2023-07-04 11:25:56] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/fe/6a/4adb1a18c46efb5e2bdec2dbb1d8cda45a342c20effbcfe579760726dfcb/kfish-99.0.202307031456-py3-none-any.whl
+[2023-07-04 11:25:56] INFO root fetch - processPackages [stamina]: Downloading https://files.pythonhosted.org/packages/99/36/be63373747885f8aff9220e71d0496456bae4d74bd29d9760c6895d5ef4e/stamina-22.2.0.tar.gz
+[2023-07-04 11:25:56] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/04/da/b171ada6344192f8d804a421bc8808a47ee94e5d1f28c7daca14485ad4a7/ats_case-0.9.8.tar.gz
+[2023-07-04 11:25:56] INFO root fetch - processPackages [kafkaclientveli]: Downloading https://files.pythonhosted.org/packages/e1/cb/054be9a5010b72f17d937818ce0214f79a6728eee9c68b4f6c17344a990d/kafkaclientveli-1.0.3.tar.gz
+[2023-07-04 11:25:56] INFO root fetch - processPackages [unicms-template-unical]: Downloading https://files.pythonhosted.org/packages/a2/50/73991667840d34d2c7183d0fc93368694d31d66457fd87c1d739af209d70/unicms_template_unical-1.2.2.tar.gz
+[2023-07-04 11:25:56] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/cf/08/4cf741b08ba79aab0af730a364994d72c10b23055730e8331317a461fdee/nextpcg-0.5.9.tar.gz
+[2023-07-04 11:25:56] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/7f/68/87f6eca1406e5f35351915c2062c1db2b77cdfcaebb646e255d7baf5e023/ats_case-0.9.9.tar.gz
+[2023-07-04 11:25:56] INFO root fetch - processPackages [ocean-contracts]: Downloading https://files.pythonhosted.org/packages/ac/60/78a19281a473643d9a7373204e75e699165ddc6bb62866d7062eef7401d5/ocean-contracts-2.0.0a1.tar.gz
+[2023-07-04 11:25:56] INFO root fetch - processPackages [dbt-quicksight-lineage]: Downloading https://files.pythonhosted.org/packages/c5/9b/5ef2521a3c9bc9f86e03f1db9b420cc55ab6dd1465e988a2f741ccf080ab/dbt_quicksight_lineage-0.1.0.tar.gz
+[2023-07-04 11:25:56] INFO root fetch - processPackages [uEdition]: Downloading https://files.pythonhosted.org/packages/0d/f6/03ebaf6387666609870d6d90ca4bcbf83d8bff0be3f1234a398abcdec526/uedition-0.6.1.tar.gz
+[2023-07-04 11:25:56] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-04 11:25:56] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/68/e1/d325461897a28a0b926d09a45c850efd83b745e28a3453af679c6f5bc066/kfish-99.0.202307040920-py3-none-any.whl
+[2023-07-04 11:25:56] INFO root fetch - processPackages [stamina]: Downloading https://files.pythonhosted.org/packages/a5/78/590d11c8f97f24ef67983d8f931ac86455d71e144eba4433259b058b5a43/stamina-23.1.0.tar.gz
+[2023-07-04 11:25:56] INFO root fetch - processPackages [kafkaclientveli]: Downloading https://files.pythonhosted.org/packages/71/6c/b122c85a7c2737e23b36695600d0f21e6d9a5e39f6ddd3f6d0fa392ac87e/kafkaclientveli-1.0.4.tar.gz
+[2023-07-04 11:25:56] INFO root fetch - processPackages [nextpcg]: executing diffoscope
+[2023-07-04 11:25:56] INFO root fetch - processPackages [nextpcg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextpcg-0.5.8.tar.gz tmp/nextpcg-0.5.9.tar.gz --markdown 20230704/n/nextpcg/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-04 11:25:56] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-07-04 11:25:56] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.9.8.tar.gz tmp/ats_case-0.9.9.tar.gz --markdown 20230704/a/ats-case/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-04 11:25:56] INFO root fetch - processPackages [ocean-contracts]: executing diffoscope
+[2023-07-04 11:25:56] INFO root fetch - processPackages [ocean-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocean-contracts-1.1.8.tar.gz tmp/ocean-contracts-2.0.0a1.tar.gz --markdown 20230704/o/ocean-contracts/1.1.8-2.0.0a1/diff.md --exclude *.pyd
+[2023-07-04 11:25:56] INFO root fetch - processPackages [dbt-quicksight-lineage]: executing diffoscope
+[2023-07-04 11:25:56] INFO root fetch - processPackages [dbt-quicksight-lineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_quicksight_lineage-0.0.2.tar.gz tmp/dbt_quicksight_lineage-0.1.0.tar.gz --markdown 20230704/d/dbt-quicksight-lineage/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-04 11:25:56] INFO root fetch - processPackages [uEdition]: executing diffoscope
+[2023-07-04 11:25:56] INFO root fetch - processPackages [uEdition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uedition-0.6.0.tar.gz tmp/uedition-0.6.1.tar.gz --markdown 20230704/u/uEdition/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-04 11:25:56] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-04 11:25:56] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307031456-py3-none-any.whl.zip tmp/kfish-99.0.202307040920-py3-none-any.whl.zip --markdown 20230704/k/kfish/99.0.202307031456-99.0.202307040920/diff.md --exclude *.pyd
+[2023-07-04 11:25:56] INFO root fetch - processPackages [stamina]: executing diffoscope
+[2023-07-04 11:25:56] INFO root fetch - processPackages [stamina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stamina-22.2.0.tar.gz tmp/stamina-23.1.0.tar.gz --markdown 20230704/s/stamina/22.2.0-23.1.0/diff.md --exclude *.pyd
+[2023-07-04 11:25:56] INFO root fetch - processPackages [kafkaclientveli]: executing diffoscope
+[2023-07-04 11:25:56] INFO root fetch - processPackages [kafkaclientveli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafkaclientveli-1.0.3.tar.gz tmp/kafkaclientveli-1.0.4.tar.gz --markdown 20230704/k/kafkaclientveli/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-04 11:25:56] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-04 11:25:56] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230704/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-04 11:25:57] INFO root fetch - processPackages [unicms-template-unical]: Downloading https://files.pythonhosted.org/packages/6e/c5/d82d4f85f1a13b024002172584b8453e689d3c252adc9c4b1ecb24b6117f/unicms_template_unical-1.2.3.tar.gz
+[2023-07-04 11:25:57] INFO root fetch - processPackages [unicms-template-unical]: executing diffoscope
+[2023-07-04 11:25:57] INFO root fetch - processPackages [unicms-template-unical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicms_template_unical-1.2.2.tar.gz tmp/unicms_template_unical-1.2.3.tar.gz --markdown 20230704/u/unicms-template-unical/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-04 11:25:58] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.8.tar.gz]
+[2023-07-04 11:25:58] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.9.tar.gz]
+[2023-07-04 11:25:58] INFO root fetch - processPackages [nextpcg]: Start processing: akshare
+[2023-07-04 11:25:58] INFO root fetch - main [MainThread]: End processing [nextpcg]: success
+[2023-07-04 11:25:58] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-07-04 11:25:58] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.8.tar.gz]
+[2023-07-04 11:25:58] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.9.tar.gz]
+[2023-07-04 11:25:58] INFO root fetch - processPackages [ats-case]: Start processing: kafkaclientveli
+[2023-07-04 11:25:58] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-07-04 11:25:58] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-07-04 11:25:58] INFO root fetch - processPackages [kafkaclientveli]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-04 11:25:58] INFO root fetch - processPackages [stamina]: Remove: archive file [/home/abi/fetcher/tmp/stamina-22.2.0.tar.gz]
+[2023-07-04 11:25:58] INFO root fetch - processPackages [stamina]: Remove: archive file [/home/abi/fetcher/tmp/stamina-23.1.0.tar.gz]
+[2023-07-04 11:25:58] INFO root fetch - processPackages [stamina]: Start processing: spanishconjugator
+[2023-07-04 11:25:58] INFO root fetch - main [MainThread]: End processing [stamina]: success
+[2023-07-04 11:25:58] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307031456-py3-none-any.whl.zip]
+[2023-07-04 11:25:58] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307040920-py3-none-any.whl.zip]
+[2023-07-04 11:25:58] INFO root fetch - processPackages [kfish]: Start processing: odoo13-addon-web-widget-one2many-product-picker
+[2023-07-04 11:25:58] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-04 11:25:58] INFO root fetch - processPackages [kafkaclientveli]: Remove: archive file [/home/abi/fetcher/tmp/kafkaclientveli-1.0.3.tar.gz]
+[2023-07-04 11:25:58] INFO root fetch - processPackages [kafkaclientveli]: Remove: archive file [/home/abi/fetcher/tmp/kafkaclientveli-1.0.4.tar.gz]
+[2023-07-04 11:25:58] INFO root fetch - main [MainThread]: End processing [kafkaclientveli]: success
+[2023-07-04 11:25:58] INFO root fetch - processPackages [dbt-quicksight-lineage]: Remove: archive file [/home/abi/fetcher/tmp/dbt_quicksight_lineage-0.0.2.tar.gz]
+[2023-07-04 11:25:58] INFO root fetch - processPackages [dbt-quicksight-lineage]: Remove: archive file [/home/abi/fetcher/tmp/dbt_quicksight_lineage-0.1.0.tar.gz]
+[2023-07-04 11:25:58] INFO root fetch - main [MainThread]: End processing [dbt-quicksight-lineage]: success
+[2023-07-04 11:25:58] INFO root fetch - processPackages [kafkaclientveli]: Downloading https://files.pythonhosted.org/packages/71/6c/b122c85a7c2737e23b36695600d0f21e6d9a5e39f6ddd3f6d0fa392ac87e/kafkaclientveli-1.0.4.tar.gz
+[2023-07-04 11:25:58] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-04 11:25:58] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-04 11:25:58] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-04 11:25:58] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-04 11:25:58] INFO root fetch - processPackages [uEdition]: Remove: archive file [/home/abi/fetcher/tmp/uedition-0.6.0.tar.gz]
+[2023-07-04 11:25:58] INFO root fetch - processPackages [uEdition]: Remove: archive file [/home/abi/fetcher/tmp/uedition-0.6.1.tar.gz]
+[2023-07-04 11:25:58] INFO root fetch - main [MainThread]: End processing [uEdition]: success
+[2023-07-04 11:25:58] INFO root fetch - processPackages [odoo13-addon-web-widget-one2many-product-picker]: New version: [13.0.2.0.3] Old Version: [13.0.2.0.2.dev1]
+[2023-07-04 11:25:58] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-04 11:25:58] INFO root fetch - processPackages [kafkaclientveli]: executing diffoscope
+[2023-07-04 11:25:58] INFO root fetch - processPackages [kafkaclientveli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafkaclientveli-1.0.3.tar.gz tmp/kafkaclientveli-1.0.4.tar.gz --markdown 20230704/k/kafkaclientveli/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-04 11:25:59] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-07-04 11:25:59] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-04 11:25:59] INFO root fetch - processPackages [odoo13-addon-web-widget-one2many-product-picker]: Downloading https://files.pythonhosted.org/packages/b9/39/7be8af07a522056c4ac41607687b8805ff87d6553046f29ec3adaf937675/odoo13_addon_web_widget_one2many_product_picker-13.0.2.0.2.dev1-py3-none-any.whl
+[2023-07-04 11:25:59] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-04 11:25:59] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230704/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-04 11:25:59] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-07-04 11:25:59] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230704/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-07-04 11:25:59] ERROR root fetch - processPackages [kafkaclientveli]: Diffoscope failed: time="2023-07-04T11:25:58+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/kafkaclientveli-1.0.3.tar.gz: No such file or directory
+
+[2023-07-04 11:25:59] INFO root fetch - main [MainThread]: End processing [kafkaclientveli] error
+[2023-07-04 11:25:59] INFO root fetch - processPackages [unicms-template-unical]: Remove: archive file [/home/abi/fetcher/tmp/unicms_template_unical-1.2.2.tar.gz]
+[2023-07-04 11:25:59] INFO root fetch - processPackages [unicms-template-unical]: Remove: archive file [/home/abi/fetcher/tmp/unicms_template_unical-1.2.3.tar.gz]
+[2023-07-04 11:25:59] INFO root fetch - main [MainThread]: End processing [unicms-template-unical]: success
+[2023-07-04 11:25:59] INFO root fetch - processPackages [odoo13-addon-web-widget-one2many-product-picker]: Downloading https://files.pythonhosted.org/packages/6a/60/f3ffcbbe4559728e21d42c52da3facc72a6e073a5e03e5c8ecbf9340d13c/odoo13_addon_web_widget_one2many_product_picker-13.0.2.0.3-py3-none-any.whl
+[2023-07-04 11:26:00] INFO root fetch - processPackages [odoo13-addon-web-widget-one2many-product-picker]: executing diffoscope
+[2023-07-04 11:26:00] INFO root fetch - processPackages [odoo13-addon-web-widget-one2many-product-picker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_web_widget_one2many_product_picker-13.0.2.0.2.dev1-py3-none-any.whl.zip tmp/odoo13_addon_web_widget_one2many_product_picker-13.0.2.0.3-py3-none-any.whl.zip --markdown 20230704/o/odoo13-addon-web-widget-one2many-product-picker/13.0.2.0.2.dev1-13.0.2.0.3/diff.md --exclude *.pyd
+[2023-07-04 11:26:00] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-04 11:26:00] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-04 11:26:00] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-04 11:26:00] INFO root fetch - processPackages [ocean-contracts]: Remove: archive file [/home/abi/fetcher/tmp/ocean-contracts-1.1.8.tar.gz]
+[2023-07-04 11:26:00] INFO root fetch - processPackages [ocean-contracts]: Remove: archive file [/home/abi/fetcher/tmp/ocean-contracts-2.0.0a1.tar.gz]
+[2023-07-04 11:26:00] INFO root fetch - main [MainThread]: End processing [ocean-contracts]: success
+[2023-07-04 11:26:01] INFO root fetch - processPackages [odoo13-addon-web-widget-one2many-product-picker]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_web_widget_one2many_product_picker-13.0.2.0.2.dev1-py3-none-any.whl.zip]
+[2023-07-04 11:26:01] INFO root fetch - processPackages [odoo13-addon-web-widget-one2many-product-picker]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_web_widget_one2many_product_picker-13.0.2.0.3-py3-none-any.whl.zip]
+[2023-07-04 11:26:01] INFO root fetch - main [MainThread]: End processing [odoo13-addon-web-widget-one2many-product-picker]: success
+[2023-07-04 11:26:02] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-07-04 11:26:02] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-07-04 11:26:02] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-07-04 11:26:02] INFO root fetch - main [MainThread]: Store serial: [18752512]
