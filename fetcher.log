@@ -22264,3 +22264,94 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 15:04:31] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.9.tar.gz]
 [2023-07-04 15:04:31] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2023-07-04 15:04:31] INFO root fetch - main [MainThread]: Store serial: [18754868]
+[2023-07-04 15:09:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18754868]
+[2023-07-04 15:09:40] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-04 15:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auditLogger-abhishekzopper
+[2023-07-04 15:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Orange-Spectroscopy
+[2023-07-04 15:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-learngual
+[2023-07-04 15:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-07-04 15:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nameless-deploy-tools
+[2023-07-04 15:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: auditLogger-abhishekzopper
+[2023-07-04 15:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mini-rec-sys
+[2023-07-04 15:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: phlearn
+[2023-07-04 15:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-game-collection
+[2023-07-04 15:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pp-project-pkg
+[2023-07-04 15:09:40] INFO root fetch - processPackages [django-learngual]: New version: [0.13.5] Old Version: [0.13.4]
+[2023-07-04 15:09:41] INFO root fetch - processPackages [auditLogger-abhishekzopper]: New version: [2.2] Old Version: [2.1]
+[2023-07-04 15:09:41] INFO root fetch - processPackages [auditLogger-abhishekzopper]: New version: [2.2] Old Version: [2.1]
+[2023-07-04 15:09:41] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202307041256] Old Version: [1.0.202307040935]
+[2023-07-04 15:09:41] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-04 15:09:41] INFO root fetch - processPackages [mini-rec-sys]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-04 15:09:41] INFO root fetch - processPackages [phlearn]: New version: [1.1.2] Old Version: [1.1.0]
+[2023-07-04 15:09:41] INFO root fetch - processPackages [nameless-deploy-tools]: New version: [1.99] Old Version: [1.98]
+[2023-07-04 15:09:41] INFO root fetch - processPackages [Orange-Spectroscopy]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-04 15:09:41] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.7.4] Old Version: [2023.7.3]
+[2023-07-04 15:09:41] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/04/34/537962eaa5e0aa8a7dc1ba5cb466ab602d1a15ba34227c933a1de6115b16/pp_project_pkg-1.0.202307040935-py3-none-any.whl
+[2023-07-04 15:09:41] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-07-04 15:09:41] INFO root fetch - processPackages [auditLogger-abhishekzopper]: Downloading https://files.pythonhosted.org/packages/8c/e2/5d2d2e11b67a174b5df7d89e16b2f4e4cf3aed76e06fdd406eee55e3ffd3/auditLogger-abhishekzopper-2.1.tar.gz
+[2023-07-04 15:09:41] INFO root fetch - processPackages [auditLogger-abhishekzopper]: Downloading https://files.pythonhosted.org/packages/8c/e2/5d2d2e11b67a174b5df7d89e16b2f4e4cf3aed76e06fdd406eee55e3ffd3/auditLogger-abhishekzopper-2.1.tar.gz
+[2023-07-04 15:09:41] INFO root fetch - processPackages [django-learngual]: Downloading https://files.pythonhosted.org/packages/d0/84/08fa619402b3fc027ef51ee47336e3dd6bd894702bd90e1eb048ea7de376/django-learngual-0.13.4.tar.gz
+[2023-07-04 15:09:41] INFO root fetch - processPackages [phlearn]: Downloading https://files.pythonhosted.org/packages/09/cb/67f4ff43f394828782edd05e51407b2bac4ed02a9d24ceca1220bd1b2860/phlearn-1.1.0.tar.gz
+[2023-07-04 15:09:41] INFO root fetch - processPackages [mini-rec-sys]: Downloading https://files.pythonhosted.org/packages/40/4a/1e2a2128c57ecc0a1ad67b38c17225c907312a8f4ed910226df7d24fc26c/mini_rec_sys-0.1.0.tar.gz
+[2023-07-04 15:09:41] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/df/3f/c6f00152af948c2033652e9189c77d7d690201361932b3c46fa59b46c2e0/fbgemm_gpu_nightly_cpu-2023.7.3-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-04 15:09:41] INFO root fetch - processPackages [nameless-deploy-tools]: Downloading https://files.pythonhosted.org/packages/0d/c8/8c3c9f7254326f089bfaaf17c4f26d37fda0baf5993e7674c3c324a4ddc8/nameless-deploy-tools-1.98.tar.gz
+[2023-07-04 15:09:41] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-07-04 15:09:41] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/59/e6/84e3fae0489c8641d3e0350c82c027527b7509d8b9427a832c19f5b0d224/pp_project_pkg-1.0.202307041256-py3-none-any.whl
+[2023-07-04 15:09:41] INFO root fetch - processPackages [auditLogger-abhishekzopper]: Downloading https://files.pythonhosted.org/packages/97/4f/f46547d6afd4c84721929358b80d88c3f9aec87e8726762099a1d8721339/auditLogger-abhishekzopper-2.2.tar.gz
+[2023-07-04 15:09:41] INFO root fetch - processPackages [auditLogger-abhishekzopper]: Downloading https://files.pythonhosted.org/packages/97/4f/f46547d6afd4c84721929358b80d88c3f9aec87e8726762099a1d8721339/auditLogger-abhishekzopper-2.2.tar.gz
+[2023-07-04 15:09:41] INFO root fetch - processPackages [django-learngual]: Downloading https://files.pythonhosted.org/packages/1c/69/45d5e3504fdc79b726b1408e9e7e92bb72ad97eff2ffc6e07d7d24104c6c/django-learngual-0.13.5.tar.gz
+[2023-07-04 15:09:41] INFO root fetch - processPackages [Orange-Spectroscopy]: Downloading https://files.pythonhosted.org/packages/40/82/5b2090d292d8d70dc63130449f809889dbc51682b82f0d6955e797308b6c/Orange-Spectroscopy-0.6.8.tar.gz
+[2023-07-04 15:09:41] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-04 15:09:41] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230704/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-04 15:09:41] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-07-04 15:09:41] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202307040935-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202307041256-py3-none-any.whl.zip --markdown 20230704/p/pp-project-pkg/1.0.202307040935-1.0.202307041256/diff.md --exclude *.pyd
+[2023-07-04 15:09:41] INFO root fetch - processPackages [mini-rec-sys]: Downloading https://files.pythonhosted.org/packages/04/af/0d9c0a1fbeff3d14e6c2cae0069976170bda1746ec9142cf4c707e26f0b6/mini_rec_sys-0.1.1.tar.gz
+[2023-07-04 15:09:41] INFO root fetch - processPackages [phlearn]: Downloading https://files.pythonhosted.org/packages/15/cc/909715f568335ed5fac0061abda6df9ef359c3a488ce3a4914096d82a65d/phlearn-1.1.2.tar.gz
+[2023-07-04 15:09:41] INFO root fetch - processPackages [django-learngual]: executing diffoscope
+[2023-07-04 15:09:41] INFO root fetch - processPackages [django-learngual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-learngual-0.13.4.tar.gz tmp/django-learngual-0.13.5.tar.gz --markdown 20230704/d/django-learngual/0.13.4-0.13.5/diff.md --exclude *.pyd
+[2023-07-04 15:09:42] INFO root fetch - processPackages [auditLogger-abhishekzopper]: executing diffoscope
+[2023-07-04 15:09:42] INFO root fetch - processPackages [auditLogger-abhishekzopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auditLogger-abhishekzopper-2.1.tar.gz tmp/auditLogger-abhishekzopper-2.2.tar.gz --markdown 20230704/a/auditLogger-abhishekzopper/2.1-2.2/diff.md --exclude *.pyd
+[2023-07-04 15:09:42] INFO root fetch - processPackages [auditLogger-abhishekzopper]: executing diffoscope
+[2023-07-04 15:09:42] INFO root fetch - processPackages [auditLogger-abhishekzopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auditLogger-abhishekzopper-2.1.tar.gz tmp/auditLogger-abhishekzopper-2.2.tar.gz --markdown 20230704/a/auditLogger-abhishekzopper/2.1-2.2/diff.md --exclude *.pyd
+[2023-07-04 15:09:42] INFO root fetch - processPackages [mini-rec-sys]: executing diffoscope
+[2023-07-04 15:09:42] INFO root fetch - processPackages [mini-rec-sys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mini_rec_sys-0.1.0.tar.gz tmp/mini_rec_sys-0.1.1.tar.gz --markdown 20230704/m/mini-rec-sys/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-04 15:09:42] INFO root fetch - processPackages [nameless-deploy-tools]: Downloading https://files.pythonhosted.org/packages/fe/19/ea262f36b269c4dbb14250dd1ad53e26d137416f57251e88cd4db4227090/nameless-deploy-tools-1.99.tar.gz
+[2023-07-04 15:09:42] INFO root fetch - processPackages [phlearn]: executing diffoscope
+[2023-07-04 15:09:42] INFO root fetch - processPackages [phlearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phlearn-1.1.0.tar.gz tmp/phlearn-1.1.2.tar.gz --markdown 20230704/p/phlearn/1.1.0-1.1.2/diff.md --exclude *.pyd
+[2023-07-04 15:09:42] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/93/5d/2128df0be5a0bf13d88789ee731550c4e5879bfc380fb50b914ec3209dfb/fbgemm_gpu_nightly_cpu-2023.7.4-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-04 15:09:42] INFO root fetch - processPackages [nameless-deploy-tools]: executing diffoscope
+[2023-07-04 15:09:42] INFO root fetch - processPackages [nameless-deploy-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nameless-deploy-tools-1.98.tar.gz tmp/nameless-deploy-tools-1.99.tar.gz --markdown 20230704/n/nameless-deploy-tools/1.98-1.99/diff.md --exclude *.pyd
+[2023-07-04 15:09:42] INFO root fetch - processPackages [Orange-Spectroscopy]: Downloading https://files.pythonhosted.org/packages/10/bc/8bed752f56f8399aa097953392bd89445ec0953d901c6cb142966f40122f/Orange-Spectroscopy-0.6.9.tar.gz
+[2023-07-04 15:09:43] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202307040935-py3-none-any.whl.zip]
+[2023-07-04 15:09:43] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202307041256-py3-none-any.whl.zip]
+[2023-07-04 15:09:43] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-07-04 15:09:43] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-07-04 15:09:43] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-07-04 15:09:43] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-04 15:09:43] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-07-04 15:09:43] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.7.3-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.7.4-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230704/f/fbgemm-gpu-nightly-cpu/2023.7.3-2023.7.4/diff.md --exclude *.pyd
+[2023-07-04 15:09:43] INFO root fetch - processPackages [django-learngual]: Remove: archive file [/home/abi/fetcher/tmp/django-learngual-0.13.4.tar.gz]
+[2023-07-04 15:09:43] INFO root fetch - processPackages [django-learngual]: Remove: archive file [/home/abi/fetcher/tmp/django-learngual-0.13.5.tar.gz]
+[2023-07-04 15:09:43] INFO root fetch - main [MainThread]: End processing [django-learngual]: success
+[2023-07-04 15:09:43] INFO root fetch - processPackages [auditLogger-abhishekzopper]: Remove: archive file [/home/abi/fetcher/tmp/auditLogger-abhishekzopper-2.1.tar.gz]
+[2023-07-04 15:09:43] INFO root fetch - processPackages [auditLogger-abhishekzopper]: Remove: archive file [/home/abi/fetcher/tmp/auditLogger-abhishekzopper-2.2.tar.gz]
+[2023-07-04 15:09:43] INFO root fetch - main [MainThread]: End processing [auditLogger-abhishekzopper]: success
+[2023-07-04 15:09:43] INFO root fetch - processPackages [mini-rec-sys]: Remove: archive file [/home/abi/fetcher/tmp/mini_rec_sys-0.1.0.tar.gz]
+[2023-07-04 15:09:43] INFO root fetch - processPackages [mini-rec-sys]: Remove: archive file [/home/abi/fetcher/tmp/mini_rec_sys-0.1.1.tar.gz]
+[2023-07-04 15:09:43] INFO root fetch - main [MainThread]: End processing [mini-rec-sys]: success
+[2023-07-04 15:09:43] INFO root fetch - main [MainThread]: End processing [auditLogger-abhishekzopper]: success
+[2023-07-04 15:09:43] INFO root fetch - processPackages [Orange-Spectroscopy]: executing diffoscope
+[2023-07-04 15:09:43] INFO root fetch - processPackages [Orange-Spectroscopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Orange-Spectroscopy-0.6.8.tar.gz tmp/Orange-Spectroscopy-0.6.9.tar.gz --markdown 20230704/O/Orange-Spectroscopy/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-04 15:09:43] INFO root fetch - processPackages [phlearn]: Remove: archive file [/home/abi/fetcher/tmp/phlearn-1.1.0.tar.gz]
+[2023-07-04 15:09:43] INFO root fetch - processPackages [phlearn]: Remove: archive file [/home/abi/fetcher/tmp/phlearn-1.1.2.tar.gz]
+[2023-07-04 15:09:43] INFO root fetch - main [MainThread]: End processing [phlearn]: success
+[2023-07-04 15:09:44] INFO root fetch - processPackages [nameless-deploy-tools]: Remove: archive file [/home/abi/fetcher/tmp/nameless-deploy-tools-1.98.tar.gz]
+[2023-07-04 15:09:44] INFO root fetch - processPackages [nameless-deploy-tools]: Remove: archive file [/home/abi/fetcher/tmp/nameless-deploy-tools-1.99.tar.gz]
+[2023-07-04 15:09:44] INFO root fetch - main [MainThread]: End processing [nameless-deploy-tools]: success
+[2023-07-04 15:09:46] INFO root fetch - processPackages [Orange-Spectroscopy]: Remove: archive file [/home/abi/fetcher/tmp/Orange-Spectroscopy-0.6.8.tar.gz]
+[2023-07-04 15:09:46] INFO root fetch - processPackages [Orange-Spectroscopy]: Remove: archive file [/home/abi/fetcher/tmp/Orange-Spectroscopy-0.6.9.tar.gz]
+[2023-07-04 15:09:46] INFO root fetch - main [MainThread]: End processing [Orange-Spectroscopy]: success
+[2023-07-04 15:10:08] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.3-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-04 15:10:08] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.4-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-04 15:10:08] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-07-04 15:10:08] INFO root fetch - main [MainThread]: Store serial: [18754898]
