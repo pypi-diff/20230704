@@ -12799,3 +12799,53 @@
 [2023-07-04 07:44:34] INFO root fetch - processPackages [deep-training]: Remove: archive file [/home/abi/fetcher/tmp/deep_training-0.1.9-py3-none-any.whl.zip]
 [2023-07-04 07:44:34] INFO root fetch - main [MainThread]: End processing [deep-training]: success
 [2023-07-04 07:44:34] INFO root fetch - main [MainThread]: Store serial: [18750775]
+[2023-07-04 07:49:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18750775]
+[2023-07-04 07:49:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-04 07:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: microviewer
+[2023-07-04 07:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ledidi
+[2023-07-04 07:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-web-send-message-popup
+[2023-07-04 07:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mvtech-plugin
+[2023-07-04 07:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-web
+[2023-07-04 07:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: interval-search
+[2023-07-04 07:49:44] INFO root fetch - processPackages [microviewer]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-07-04 07:49:44] INFO root fetch - processPackages [odoo-addons-oca-web]: New version: [16.0.20230614.0] Old Version: [16.0.20230610.0]
+[2023-07-04 07:49:44] INFO root fetch - processPackages [odoo-addon-web-send-message-popup]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-07-04 07:49:44] INFO root fetch - processPackages [ledidi]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-04 07:49:44] INFO root fetch - processPackages [interval-search]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-04 07:49:44] WARNING root fetch - processPackages [mvtech-plugin]: Skipping, unable to determine old version
+[2023-07-04 07:49:44] INFO root fetch - main [MainThread]: End processing [mvtech-plugin] error
+[2023-07-04 07:49:44] INFO root fetch - processPackages [microviewer]: Downloading https://files.pythonhosted.org/packages/9f/a8/62037d6269cf319e8f5cee97b63b555e695d070cd5d4a92b85fbea711072/microviewer-1.6.1.tar.gz
+[2023-07-04 07:49:44] INFO root fetch - processPackages [odoo-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/84/e0/0b7793c3720ee52dd58d46358db29c44221ded0ffebce85027a528e2e318/odoo_addons_oca_web-16.0.20230610.0-py3-none-any.whl
+[2023-07-04 07:49:44] INFO root fetch - processPackages [odoo-addon-web-send-message-popup]: Downloading https://files.pythonhosted.org/packages/0a/1c/a8c39b6966ede5009821cf9f3049a68ac13f3ee824830067bc85b5cc4dc5/odoo_addon_web_send_message_popup-15.0.1.0.0.2-py3-none-any.whl
+[2023-07-04 07:49:44] INFO root fetch - processPackages [interval-search]: Downloading https://files.pythonhosted.org/packages/0e/4c/e6abe69ff7fc4ca9d2f97d6008a0041279313037c1a21f5f153e804aeb26/interval-search-0.5.0.tar.gz
+[2023-07-04 07:49:45] INFO root fetch - processPackages [ledidi]: Downloading https://files.pythonhosted.org/packages/db/6e/c50177838437d2386846947aef8f9e0e7f7d536371e26d5bd350357cd216/ledidi-1.1.0.tar.gz
+[2023-07-04 07:49:45] INFO root fetch - processPackages [ledidi]: executing diffoscope
+[2023-07-04 07:49:45] INFO root fetch - processPackages [ledidi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ledidi-1.0.0.tar.gz tmp/ledidi-1.1.0.tar.gz --markdown 20230704/l/ledidi/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-04 07:49:45] INFO root fetch - processPackages [microviewer]: Downloading https://files.pythonhosted.org/packages/d9/a4/52f93cc2841247fa2261f8f684ac5527bfedbbf8c9b2d4e9503cbcdb57d5/microviewer-1.6.2.tar.gz
+[2023-07-04 07:49:45] INFO root fetch - processPackages [odoo-addon-web-send-message-popup]: Downloading https://files.pythonhosted.org/packages/36/8c/ea2b89f63df8afd088a3d72f33ff54143f4be366f49eaf52094dd9c215ef/odoo_addon_web_send_message_popup-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-04 07:49:45] INFO root fetch - processPackages [interval-search]: Downloading https://files.pythonhosted.org/packages/2c/ab/55f505ff981951a64319ecdbafd2045c91209cffab0452d18aed0a030626/interval-search-0.5.1.tar.gz
+[2023-07-04 07:49:45] INFO root fetch - processPackages [odoo-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/93/5f/853a4c3065a73ae96c32f12ec91eee73e11a5142213f37e89bfbd4c20572/odoo_addons_oca_web-16.0.20230614.0-py3-none-any.whl
+[2023-07-04 07:49:45] INFO root fetch - processPackages [odoo-addon-web-send-message-popup]: executing diffoscope
+[2023-07-04 07:49:45] INFO root fetch - processPackages [odoo-addon-web-send-message-popup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_send_message_popup-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_web_send_message_popup-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230704/o/odoo-addon-web-send-message-popup/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-04 07:49:45] INFO root fetch - processPackages [interval-search]: executing diffoscope
+[2023-07-04 07:49:45] INFO root fetch - processPackages [interval-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interval-search-0.5.0.tar.gz tmp/interval-search-0.5.1.tar.gz --markdown 20230704/i/interval-search/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-04 07:49:45] INFO root fetch - processPackages [odoo-addons-oca-web]: executing diffoscope
+[2023-07-04 07:49:45] INFO root fetch - processPackages [odoo-addons-oca-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_web-16.0.20230610.0-py3-none-any.whl.zip tmp/odoo_addons_oca_web-16.0.20230614.0-py3-none-any.whl.zip --markdown 20230704/o/odoo-addons-oca-web/16.0.20230610.0-16.0.20230614.0/diff.md --exclude *.pyd
+[2023-07-04 07:49:45] INFO root fetch - processPackages [microviewer]: executing diffoscope
+[2023-07-04 07:49:45] INFO root fetch - processPackages [microviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microviewer-1.6.1.tar.gz tmp/microviewer-1.6.2.tar.gz --markdown 20230704/m/microviewer/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-07-04 07:49:45] INFO root fetch - processPackages [ledidi]: Remove: archive file [/home/abi/fetcher/tmp/ledidi-1.0.0.tar.gz]
+[2023-07-04 07:49:45] INFO root fetch - processPackages [ledidi]: Remove: archive file [/home/abi/fetcher/tmp/ledidi-1.1.0.tar.gz]
+[2023-07-04 07:49:45] INFO root fetch - main [MainThread]: End processing [ledidi]: success
+[2023-07-04 07:49:46] INFO root fetch - processPackages [odoo-addon-web-send-message-popup]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_send_message_popup-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-04 07:49:46] INFO root fetch - processPackages [odoo-addon-web-send-message-popup]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_send_message_popup-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-04 07:49:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-send-message-popup]: success
+[2023-07-04 07:49:46] INFO root fetch - processPackages [odoo-addons-oca-web]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_web-16.0.20230610.0-py3-none-any.whl.zip]
+[2023-07-04 07:49:46] INFO root fetch - processPackages [odoo-addons-oca-web]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_web-16.0.20230614.0-py3-none-any.whl.zip]
+[2023-07-04 07:49:46] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-web]: success
+[2023-07-04 07:49:46] INFO root fetch - processPackages [interval-search]: Remove: archive file [/home/abi/fetcher/tmp/interval-search-0.5.0.tar.gz]
+[2023-07-04 07:49:46] INFO root fetch - processPackages [interval-search]: Remove: archive file [/home/abi/fetcher/tmp/interval-search-0.5.1.tar.gz]
+[2023-07-04 07:49:46] INFO root fetch - main [MainThread]: End processing [interval-search]: success
+[2023-07-04 07:49:47] INFO root fetch - processPackages [microviewer]: Remove: archive file [/home/abi/fetcher/tmp/microviewer-1.6.1.tar.gz]
+[2023-07-04 07:49:47] INFO root fetch - processPackages [microviewer]: Remove: archive file [/home/abi/fetcher/tmp/microviewer-1.6.2.tar.gz]
+[2023-07-04 07:49:47] INFO root fetch - main [MainThread]: End processing [microviewer]: success
+[2023-07-04 07:49:47] INFO root fetch - main [MainThread]: Store serial: [18750797]
