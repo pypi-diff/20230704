@@ -11087,3 +11087,103 @@
 [2023-07-04 06:10:33] INFO root fetch - processPackages [KrakenOS]: Remove: archive file [/home/abi/fetcher/tmp/KrakenOS-1.0.0.9.tar.gz]
 [2023-07-04 06:10:33] INFO root fetch - main [MainThread]: End processing [KrakenOS]: success
 [2023-07-04 06:10:33] INFO root fetch - main [MainThread]: Store serial: [18750086]
+[2023-07-04 06:15:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18750086]
+[2023-07-04 06:15:42] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-04 06:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dank-mids
+[2023-07-04 06:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rubi
+[2023-07-04 06:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mathkit
+[2023-07-04 06:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: excel-splitter
+[2023-07-04 06:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-google
+[2023-07-04 06:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chatllm
+[2023-07-04 06:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdktf-cdktf-provider-google-beta
+[2023-07-04 06:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: waveforms
+[2023-07-04 06:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mathkit
+[2023-07-04 06:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gravitorch
+[2023-07-04 06:15:42] INFO root fetch - processPackages [excel-splitter]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-04 06:15:42] INFO root fetch - processPackages [mathkit]: New version: [3.3.2] Old Version: [3.2.2]
+[2023-07-04 06:15:42] INFO root fetch - processPackages [rubi]: New version: [2.0.7b1] Old Version: [2.0.6]
+[2023-07-04 06:15:42] INFO root fetch - processPackages [waveforms]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-07-04 06:15:42] INFO root fetch - processPackages [mathkit]: New version: [3.3.2] Old Version: [3.2.2]
+[2023-07-04 06:15:42] INFO root fetch - processPackages [gravitorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 06:15:42] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-04 06:15:42] INFO root fetch - processPackages [chatllm]: New version: [2023.7.4.12.13.14] Old Version: [2023.7.3.17.18.57]
+[2023-07-04 06:15:42] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: New version: [8.0.3] Old Version: [8.0.2]
+[2023-07-04 06:15:42] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: New version: [8.0.3] Old Version: [8.0.2]
+[2023-07-04 06:15:42] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/3c/eb/d596884cdb31e5198aa387878eb8ef895802e567d7d679b97f4a406e21ae/gravitorch-0.0.8.tar.gz
+[2023-07-04 06:15:42] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/49/ad/e606ccacca2ae2e5747364d05b5b7a83a7bf81c99a813e85c3dc8c0d4415/chatllm-2023.7.3.17.18.57.tar.gz
+[2023-07-04 06:15:42] INFO root fetch - processPackages [excel-splitter]: Downloading https://files.pythonhosted.org/packages/ea/64/9a2d9dea774ad52940d4060a609276c9fcdc83276cb17fc4fe6ab767b0df/excel_splitter-0.0.3.tar.gz
+[2023-07-04 06:15:42] INFO root fetch - processPackages [mathkit]: Downloading https://files.pythonhosted.org/packages/34/b9/db3ce858806cda47874b7fb76ae80982864c84019fa830cb09b8374f048d/mathkit-3.2.2.tar.gz
+[2023-07-04 06:15:42] INFO root fetch - processPackages [mathkit]: Downloading https://files.pythonhosted.org/packages/34/b9/db3ce858806cda47874b7fb76ae80982864c84019fa830cb09b8374f048d/mathkit-3.2.2.tar.gz
+[2023-07-04 06:15:42] INFO root fetch - processPackages [rubi]: Downloading https://files.pythonhosted.org/packages/3e/f8/4dabce88352ef858986d79a1b795d2753fd5779c43b941ed168e6a0fb835/rubi-2.0.6.tar.gz
+[2023-07-04 06:15:42] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11933593>=10485760
+[2023-07-04 06:15:42] INFO root fetch - processPackages [chatllm]: Start processing: odoo8-addon-mrp-production-estimated-cost
+[2023-07-04 06:15:42] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-04 06:15:42] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-04 06:15:42] INFO root fetch - processPackages [waveforms]: Downloading https://files.pythonhosted.org/packages/ed/ca/e436e739a472450d2133b0ebdf6617c7b5debc687df889967136386d10a0/waveforms-1.6.2.tar.gz
+[2023-07-04 06:15:42] INFO root fetch - processPackages [odoo8-addon-mrp-production-estimated-cost]: New version: [8.0.1.2.1.99.dev9] Old Version: [8.0.1.2.1.99.dev8]
+[2023-07-04 06:15:42] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: Downloading https://files.pythonhosted.org/packages/37/d8/06fb2099361f5adae35c183491fc008b5ffb594686f2b761fd5c5341cbca/cdktf-cdktf-provider-google-8.0.2.tar.gz
+[2023-07-04 06:15:42] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Downloading https://files.pythonhosted.org/packages/48/00/8b4da8e77ab845546898506bfbcbc0c4ae34bd0d978ddb8ce31e31473be1/cdktf-cdktf-provider-google_beta-8.0.2.tar.gz
+[2023-07-04 06:15:43] WARNING root fetch - processPackages [cdktf-cdktf-provider-google]: Skipping package: exceeds size limit 20229850>=10485760
+[2023-07-04 06:15:43] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: Start processing: odoo8-addon-mrp-project
+[2023-07-04 06:15:43] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google] error
+[2023-07-04 06:15:43] WARNING root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Skipping package: exceeds size limit 23104346>=10485760
+[2023-07-04 06:15:43] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Start processing: sumpackagesonar
+[2023-07-04 06:15:43] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google-beta] error
+[2023-07-04 06:15:43] INFO root fetch - processPackages [odoo8-addon-mrp-project]: New version: [8.0.1.2.1.99.dev2] Old Version: [8.0.1.2.1.99.dev1]
+[2023-07-04 06:15:43] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/d8/af/12bd29b316e1abfd4a89affc84ab78a2b03aaa0ebdf20315c6dc8c4c3886/gravitorch-0.0.9.tar.gz
+[2023-07-04 06:15:43] INFO root fetch - processPackages [odoo8-addon-mrp-production-estimated-cost]: Downloading https://files.pythonhosted.org/packages/db/3c/16dfcddd8db6ae1014bb50694e444d1af24563aa9855fcf1307fc82056e8/odoo8_addon_mrp_production_estimated_cost-8.0.1.2.1.99.dev8-py2-none-any.whl
+[2023-07-04 06:15:43] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-04 06:15:43] WARNING root fetch - processPackages [sumpackagesonar]: Skipping, unable to determine old version
+[2023-07-04 06:15:43] INFO root fetch - main [MainThread]: End processing [sumpackagesonar] error
+[2023-07-04 06:15:43] INFO root fetch - processPackages [mathkit]: Downloading https://files.pythonhosted.org/packages/29/96/5fab5f9b2368542bc0f4584cff103401b66e2d89ef2d82480a87139847aa/mathkit-3.3.2.tar.gz
+[2023-07-04 06:15:43] INFO root fetch - processPackages [excel-splitter]: Downloading https://files.pythonhosted.org/packages/13/93/67c2c4369084daf5bb49a0e6d00ae6ccff7a083b4a6e93c437d7fa3a6d30/excel_splitter-0.0.4.tar.gz
+[2023-07-04 06:15:43] INFO root fetch - processPackages [mathkit]: Downloading https://files.pythonhosted.org/packages/29/96/5fab5f9b2368542bc0f4584cff103401b66e2d89ef2d82480a87139847aa/mathkit-3.3.2.tar.gz
+[2023-07-04 06:15:43] INFO root fetch - processPackages [gravitorch]: executing diffoscope
+[2023-07-04 06:15:43] INFO root fetch - processPackages [rubi]: Downloading https://files.pythonhosted.org/packages/72/db/57824896cbfd4ef9f3a9482f2e3a133e142cbf15b8d4395809b982080526/rubi-2.0.7b1.tar.gz
+[2023-07-04 06:15:43] INFO root fetch - processPackages [gravitorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitorch-0.0.8.tar.gz tmp/gravitorch-0.0.9.tar.gz --markdown 20230704/g/gravitorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 06:15:43] INFO root fetch - processPackages [odoo8-addon-mrp-project]: Downloading https://files.pythonhosted.org/packages/18/ea/90d718529602f6ad73232a12d679808e40caa6b32fc4f0f11529bfd14df1/odoo8_addon_mrp_project-8.0.1.2.1.99.dev1-py2-none-any.whl
+[2023-07-04 06:15:43] INFO root fetch - processPackages [mathkit]: executing diffoscope
+[2023-07-04 06:15:43] INFO root fetch - processPackages [mathkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathkit-3.2.2.tar.gz tmp/mathkit-3.3.2.tar.gz --markdown 20230704/m/mathkit/3.2.2-3.3.2/diff.md --exclude *.pyd
+[2023-07-04 06:15:43] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-04 06:15:43] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230704/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-04 06:15:43] INFO root fetch - processPackages [excel-splitter]: executing diffoscope
+[2023-07-04 06:15:43] INFO root fetch - processPackages [excel-splitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excel_splitter-0.0.3.tar.gz tmp/excel_splitter-0.0.4.tar.gz --markdown 20230704/e/excel-splitter/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-04 06:15:43] INFO root fetch - processPackages [waveforms]: Downloading https://files.pythonhosted.org/packages/39/ff/bae1dddbdbb7bc32c0a453bfca6e5cedfd02cd30402df60bb90e0823e844/waveforms-1.6.3.tar.gz
+[2023-07-04 06:15:43] INFO root fetch - processPackages [mathkit]: executing diffoscope
+[2023-07-04 06:15:43] INFO root fetch - processPackages [mathkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathkit-3.2.2.tar.gz tmp/mathkit-3.3.2.tar.gz --markdown 20230704/m/mathkit/3.2.2-3.3.2/diff.md --exclude *.pyd
+[2023-07-04 06:15:43] INFO root fetch - processPackages [rubi]: executing diffoscope
+[2023-07-04 06:15:43] INFO root fetch - processPackages [rubi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubi-2.0.6.tar.gz tmp/rubi-2.0.7b1.tar.gz --markdown 20230704/r/rubi/2.0.6-2.0.7b1/diff.md --exclude *.pyd
+[2023-07-04 06:15:43] INFO root fetch - processPackages [waveforms]: executing diffoscope
+[2023-07-04 06:15:43] INFO root fetch - processPackages [waveforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveforms-1.6.2.tar.gz tmp/waveforms-1.6.3.tar.gz --markdown 20230704/w/waveforms/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-07-04 06:15:43] INFO root fetch - processPackages [odoo8-addon-mrp-production-estimated-cost]: Downloading https://files.pythonhosted.org/packages/02/b0/023aaee1edc5c9e6e45331a04a038b4f26fe34a71ec0fea6e51fb3d3ef34/odoo8_addon_mrp_production_estimated_cost-8.0.1.2.1.99.dev9-py2-none-any.whl
+[2023-07-04 06:15:43] INFO root fetch - processPackages [odoo8-addon-mrp-project]: Downloading https://files.pythonhosted.org/packages/b2/73/5e91178adb7bb9040dda46a7e94bf590989fec04bebe75232f16937cc752/odoo8_addon_mrp_project-8.0.1.2.1.99.dev2-py2-none-any.whl
+[2023-07-04 06:15:44] INFO root fetch - processPackages [odoo8-addon-mrp-project]: executing diffoscope
+[2023-07-04 06:15:44] INFO root fetch - processPackages [odoo8-addon-mrp-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_mrp_project-8.0.1.2.1.99.dev1-py2-none-any.whl.zip tmp/odoo8_addon_mrp_project-8.0.1.2.1.99.dev2-py2-none-any.whl.zip --markdown 20230704/o/odoo8-addon-mrp-project/8.0.1.2.1.99.dev1-8.0.1.2.1.99.dev2/diff.md --exclude *.pyd
+[2023-07-04 06:15:44] INFO root fetch - processPackages [odoo8-addon-mrp-production-estimated-cost]: executing diffoscope
+[2023-07-04 06:15:44] INFO root fetch - processPackages [odoo8-addon-mrp-production-estimated-cost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_mrp_production_estimated_cost-8.0.1.2.1.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_mrp_production_estimated_cost-8.0.1.2.1.99.dev9-py2-none-any.whl.zip --markdown 20230704/o/odoo8-addon-mrp-production-estimated-cost/8.0.1.2.1.99.dev8-8.0.1.2.1.99.dev9/diff.md --exclude *.pyd
+[2023-07-04 06:15:44] INFO root fetch - processPackages [mathkit]: Remove: archive file [/home/abi/fetcher/tmp/mathkit-3.2.2.tar.gz]
+[2023-07-04 06:15:44] INFO root fetch - processPackages [mathkit]: Remove: archive file [/home/abi/fetcher/tmp/mathkit-3.3.2.tar.gz]
+[2023-07-04 06:15:44] INFO root fetch - main [MainThread]: End processing [mathkit]: success
+[2023-07-04 06:15:44] INFO root fetch - main [MainThread]: End processing [mathkit]: success
+[2023-07-04 06:15:44] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-04 06:15:44] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-04 06:15:44] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-04 06:15:45] INFO root fetch - processPackages [excel-splitter]: Remove: archive file [/home/abi/fetcher/tmp/excel_splitter-0.0.3.tar.gz]
+[2023-07-04 06:15:45] INFO root fetch - processPackages [excel-splitter]: Remove: archive file [/home/abi/fetcher/tmp/excel_splitter-0.0.4.tar.gz]
+[2023-07-04 06:15:45] INFO root fetch - main [MainThread]: End processing [excel-splitter]: success
+[2023-07-04 06:15:45] INFO root fetch - processPackages [rubi]: Remove: archive file [/home/abi/fetcher/tmp/rubi-2.0.6.tar.gz]
+[2023-07-04 06:15:45] INFO root fetch - processPackages [rubi]: Remove: archive file [/home/abi/fetcher/tmp/rubi-2.0.7b1.tar.gz]
+[2023-07-04 06:15:45] INFO root fetch - main [MainThread]: End processing [rubi]: success
+[2023-07-04 06:15:45] INFO root fetch - processPackages [odoo8-addon-mrp-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_mrp_project-8.0.1.2.1.99.dev1-py2-none-any.whl.zip]
+[2023-07-04 06:15:45] INFO root fetch - processPackages [odoo8-addon-mrp-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_mrp_project-8.0.1.2.1.99.dev2-py2-none-any.whl.zip]
+[2023-07-04 06:15:45] INFO root fetch - main [MainThread]: End processing [odoo8-addon-mrp-project]: success
+[2023-07-04 06:15:45] INFO root fetch - processPackages [odoo8-addon-mrp-production-estimated-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_mrp_production_estimated_cost-8.0.1.2.1.99.dev8-py2-none-any.whl.zip]
+[2023-07-04 06:15:45] INFO root fetch - processPackages [odoo8-addon-mrp-production-estimated-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_mrp_production_estimated_cost-8.0.1.2.1.99.dev9-py2-none-any.whl.zip]
+[2023-07-04 06:15:45] INFO root fetch - main [MainThread]: End processing [odoo8-addon-mrp-production-estimated-cost]: success
+[2023-07-04 06:15:45] INFO root fetch - processPackages [waveforms]: Remove: archive file [/home/abi/fetcher/tmp/waveforms-1.6.2.tar.gz]
+[2023-07-04 06:15:45] INFO root fetch - processPackages [waveforms]: Remove: archive file [/home/abi/fetcher/tmp/waveforms-1.6.3.tar.gz]
+[2023-07-04 06:15:45] INFO root fetch - main [MainThread]: End processing [waveforms]: success
+[2023-07-04 06:15:46] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.8.tar.gz]
+[2023-07-04 06:15:46] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.9.tar.gz]
+[2023-07-04 06:15:46] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
+[2023-07-04 06:15:46] INFO root fetch - main [MainThread]: Store serial: [18750132]
