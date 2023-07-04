@@ -15227,3 +15227,126 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 09:58:00] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-5.0.5-py3-none-any.whl.zip]
 [2023-07-04 09:58:00] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
 [2023-07-04 09:58:00] INFO root fetch - main [MainThread]: Store serial: [18751708]
+[2023-07-04 10:03:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18751708]
+[2023-07-04 10:03:09] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-04 10:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zcbot-predict-sdk
+[2023-07-04 10:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: few-shot-priming
+[2023-07-04 10:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mypackagelicenseprototype
+[2023-07-04 10:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CORS-Analyzer
+[2023-07-04 10:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: customLogger-abhishekzopper
+[2023-07-04 10:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: enebootools
+[2023-07-04 10:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vlite
+[2023-07-04 10:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lakeapi2sql
+[2023-07-04 10:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ocatari
+[2023-07-04 10:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: osgpy
+[2023-07-04 10:03:09] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [5.0.6] Old Version: [5.0.5]
+[2023-07-04 10:03:09] INFO root fetch - processPackages [CORS-Analyzer]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-04 10:03:09] INFO root fetch - processPackages [lakeapi2sql]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-04 10:03:09] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-04 10:03:09] WARNING root fetch - processPackages [vlite]: Skipping, unable to determine old version
+[2023-07-04 10:03:09] INFO root fetch - processPackages [vlite]: Start processing: inductance
+[2023-07-04 10:03:09] INFO root fetch - main [MainThread]: End processing [vlite] error
+[2023-07-04 10:03:09] INFO root fetch - processPackages [osgpy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-04 10:03:09] ERROR root fetch - processPackages [customLogger-abhishekzopper]: Unable to get metadata: No such project 'customLogger-abhishekzopper'
+[2023-07-04 10:03:09] INFO root fetch - processPackages [customLogger-abhishekzopper]: Start processing: newenvreader
+[2023-07-04 10:03:09] INFO root fetch - main [MainThread]: End processing [customLogger-abhishekzopper] error
+[2023-07-04 10:03:09] WARNING root fetch - processPackages [ocatari]: Skipping, unable to determine old version
+[2023-07-04 10:03:09] INFO root fetch - processPackages [ocatari]: Start processing: mypackagelicenseprototype
+[2023-07-04 10:03:09] INFO root fetch - main [MainThread]: End processing [ocatari] error
+[2023-07-04 10:03:09] INFO root fetch - processPackages [enebootools]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-04 10:03:09] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/d8/a8/729bf9ba3b64cf767ac8891fb2455d6441eb86cf3c2b65f1c3524e927ff5/mypackagelicenseprototype-5.0.5-py3-none-any.whl
+[2023-07-04 10:03:09] INFO root fetch - processPackages [CORS-Analyzer]: Downloading https://files.pythonhosted.org/packages/a2/54/7ed1adeb1dfac6cf0afe78a97cf5c2ee9dcfb0141a4cd4326c31db4ac467/CORS-Analyzer-1.0.4.tar.gz
+[2023-07-04 10:03:09] INFO root fetch - processPackages [lakeapi2sql]: Downloading https://files.pythonhosted.org/packages/af/0f/b62340524d2464adbdde9857fb9c9973fea0d5c19645fbd3a022f9ae2fa7/lakeapi2sql-0.3.1.tar.gz
+[2023-07-04 10:03:10] WARNING root fetch - processPackages [newenvreader]: Skipping, unable to determine old version
+[2023-07-04 10:03:10] INFO root fetch - processPackages [newenvreader]: Start processing: get-eyedata
+[2023-07-04 10:03:10] INFO root fetch - main [MainThread]: End processing [newenvreader] error
+[2023-07-04 10:03:10] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [5.0.8] Old Version: [5.0.7]
+[2023-07-04 10:03:10] INFO root fetch - processPackages [inductance]: New version: [0.1.2] Old Version: [0.1.1a3]
+[2023-07-04 10:03:10] INFO root fetch - processPackages [zcbot-predict-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 10:03:10] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-04 10:03:10] INFO root fetch - processPackages [get-eyedata]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-04 10:03:10] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/96/a6/f5dbde2a17640259ee0c244a670ffca24661530f548753a68de5b812a140/enebootools-2.0.8.tar.gz
+[2023-07-04 10:03:10] INFO root fetch - processPackages [osgpy]: Downloading https://files.pythonhosted.org/packages/c8/15/449cfda3c9a5f59930d07b1e707cf2d7037c39bf8290147d0cd6a57ef82d/osgpy-0.1.3.tar.gz
+[2023-07-04 10:03:10] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/78/59/133a0767874d605310a20e666d6b8f7ab09589baf2631bc1b54bad30fbd7/mypackagelicenseprototype-5.0.7-py3-none-any.whl
+[2023-07-04 10:03:10] INFO root fetch - processPackages [CORS-Analyzer]: Downloading https://files.pythonhosted.org/packages/90/f9/bcf3e09ed59b4a5ff39b016cb579837ef0517633e8f9768274dc1eff3eb1/CORS-Analyzer-1.0.5.tar.gz
+[2023-07-04 10:03:10] INFO root fetch - processPackages [inductance]: Downloading https://files.pythonhosted.org/packages/65/48/83f1e0aee2f77c9268792c0d0ea7bb93398bc4515834b070fa0f107c9fa8/inductance-0.1.1a3.tar.gz
+[2023-07-04 10:03:10] INFO root fetch - processPackages [lakeapi2sql]: Downloading https://files.pythonhosted.org/packages/49/45/563b0ec37fa64c59080aa237478f9d6a544345baaffe9cbb39d6e7129292/lakeapi2sql-0.3.2.tar.gz
+[2023-07-04 10:03:10] INFO root fetch - processPackages [get-eyedata]: Downloading https://files.pythonhosted.org/packages/3a/44/7b154f4682f63fb467412bc025ac569b6d0267be38e7b7aa9e3eacf2bc6a/get_eyedata-1.3.3-py3-none-any.whl
+[2023-07-04 10:03:10] INFO root fetch - processPackages [zcbot-predict-sdk]: Downloading https://files.pythonhosted.org/packages/7d/6e/9e65ce9f340a92e3b3cb8aaeb4734cda61695713be50bb6b46770a3a587a/zcbot-predict-sdk-0.0.8.tar.gz
+[2023-07-04 10:03:10] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/13/5d/12bd047aae936ca31df8c063b3f5a6d9b58139b1cc6295b7e3e4b3b728a7/mypackagelicenseprototype-5.0.6-py3-none-any.whl
+[2023-07-04 10:03:10] INFO root fetch - processPackages [CORS-Analyzer]: executing diffoscope
+[2023-07-04 10:03:10] INFO root fetch - processPackages [CORS-Analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CORS-Analyzer-1.0.4.tar.gz tmp/CORS-Analyzer-1.0.5.tar.gz --markdown 20230704/C/CORS-Analyzer/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-04 10:03:10] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-04 10:03:10] INFO root fetch - processPackages [lakeapi2sql]: executing diffoscope
+[2023-07-04 10:03:10] INFO root fetch - processPackages [lakeapi2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakeapi2sql-0.3.1.tar.gz tmp/lakeapi2sql-0.3.2.tar.gz --markdown 20230704/l/lakeapi2sql/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-04 10:03:10] INFO root fetch - processPackages [osgpy]: Downloading https://files.pythonhosted.org/packages/43/27/d92b76bf4dbbfe2f7aaff0d2d3a9fea9dcbd1ace221a8f08c789b012e064/osgpy-0.1.4-py3-none-any.whl
+[2023-07-04 10:03:10] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/0b/50/a98ff2d478f2b96df200e7e6a5c0ff28fe92712c685482f5ce0bd910c066/enebootools-2.0.9.tar.gz
+[2023-07-04 10:03:10] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/ac/5b/568aedd7dcb62e7f5e48528f98776c05635fff81d549bca45a05624f4d45/mypackagelicenseprototype-5.0.8-py3-none-any.whl
+[2023-07-04 10:03:10] INFO root fetch - processPackages [osgpy]: executing diffoscope
+[2023-07-04 10:03:10] INFO root fetch - processPackages [osgpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osgpy-0.1.3.tar.gz tmp/osgpy-0.1.4-py3-none-any.whl.zip --markdown 20230704/o/osgpy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-04 10:03:10] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-07-04 10:03:10] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-5.0.5-py3-none-any.whl.zip tmp/mypackagelicenseprototype-5.0.6-py3-none-any.whl.zip --markdown 20230704/m/mypackagelicenseprototype/5.0.5-5.0.6/diff.md --exclude *.pyd
+[2023-07-04 10:03:10] INFO root fetch - processPackages [inductance]: Downloading https://files.pythonhosted.org/packages/ac/7b/0e95a22d3c646fdd83b62a157eec0c724f4dd7d9e6f29c1f277f41706a6e/inductance-0.1.2.tar.gz
+[2023-07-04 10:03:11] INFO root fetch - processPackages [get-eyedata]: Downloading https://files.pythonhosted.org/packages/b3/2c/e6092e4848ba0f525389174df8fea61a5478e7deb3f873e6ba36441d6961/get_eyedata-1.3.4-py3-none-any.whl
+[2023-07-04 10:03:11] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-04 10:03:11] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230704/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 10:03:11] INFO root fetch - processPackages [zcbot-predict-sdk]: Downloading https://files.pythonhosted.org/packages/b3/fa/c78fca334a791ad8ba00725d1b676d3000e6e1160fcd28fee2ac88852932/zcbot-predict-sdk-0.0.9.tar.gz
+[2023-07-04 10:03:11] INFO root fetch - processPackages [enebootools]: executing diffoscope
+[2023-07-04 10:03:11] INFO root fetch - processPackages [enebootools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enebootools-2.0.8.tar.gz tmp/enebootools-2.0.9.tar.gz --markdown 20230704/e/enebootools/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-04 10:03:11] INFO root fetch - processPackages [inductance]: executing diffoscope
+[2023-07-04 10:03:11] INFO root fetch - processPackages [inductance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inductance-0.1.1a3.tar.gz tmp/inductance-0.1.2.tar.gz --markdown 20230704/i/inductance/0.1.1a3-0.1.2/diff.md --exclude *.pyd
+[2023-07-04 10:03:11] INFO root fetch - processPackages [get-eyedata]: executing diffoscope
+[2023-07-04 10:03:11] INFO root fetch - processPackages [get-eyedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get_eyedata-1.3.3-py3-none-any.whl.zip tmp/get_eyedata-1.3.4-py3-none-any.whl.zip --markdown 20230704/g/get-eyedata/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-04 10:03:11] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-07-04 10:03:11] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-5.0.7-py3-none-any.whl.zip tmp/mypackagelicenseprototype-5.0.8-py3-none-any.whl.zip --markdown 20230704/m/mypackagelicenseprototype/5.0.7-5.0.8/diff.md --exclude *.pyd
+[2023-07-04 10:03:11] INFO root fetch - processPackages [zcbot-predict-sdk]: executing diffoscope
+[2023-07-04 10:03:11] INFO root fetch - processPackages [zcbot-predict-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-predict-sdk-0.0.8.tar.gz tmp/zcbot-predict-sdk-0.0.9.tar.gz --markdown 20230704/z/zcbot-predict-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 10:03:11] INFO root fetch - processPackages [CORS-Analyzer]: Remove: archive file [/home/abi/fetcher/tmp/CORS-Analyzer-1.0.4.tar.gz]
+[2023-07-04 10:03:11] INFO root fetch - processPackages [CORS-Analyzer]: Remove: archive file [/home/abi/fetcher/tmp/CORS-Analyzer-1.0.5.tar.gz]
+[2023-07-04 10:03:11] INFO root fetch - processPackages [CORS-Analyzer]: Start processing: translucenttb
+[2023-07-04 10:03:11] INFO root fetch - main [MainThread]: End processing [CORS-Analyzer]: success
+[2023-07-04 10:03:12] INFO root fetch - processPackages [translucenttb]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-04 10:03:12] INFO root fetch - processPackages [translucenttb]: Downloading https://files.pythonhosted.org/packages/85/ce/d7851b9ceb099c63a5ea44ceb9707373d8e906bbbf1bd46bc0c884d62e45/translucenttb-0.0.3.tar.gz
+[2023-07-04 10:03:12] INFO root fetch - processPackages [lakeapi2sql]: Remove: archive file [/home/abi/fetcher/tmp/lakeapi2sql-0.3.1.tar.gz]
+[2023-07-04 10:03:12] INFO root fetch - processPackages [lakeapi2sql]: Remove: archive file [/home/abi/fetcher/tmp/lakeapi2sql-0.3.2.tar.gz]
+[2023-07-04 10:03:12] INFO root fetch - processPackages [lakeapi2sql]: Start processing: openapi-python-generator
+[2023-07-04 10:03:12] INFO root fetch - main [MainThread]: End processing [lakeapi2sql]: success
+[2023-07-04 10:03:12] INFO root fetch - processPackages [openapi-python-generator]: New version: [0.4.7.dev1688457736] Old Version: [0.4.7.dev1686934781]
+[2023-07-04 10:03:12] INFO root fetch - processPackages [osgpy]: Remove: archive file [/home/abi/fetcher/tmp/osgpy-0.1.3.tar.gz]
+[2023-07-04 10:03:12] INFO root fetch - processPackages [osgpy]: Remove: archive file [/home/abi/fetcher/tmp/osgpy-0.1.4-py3-none-any.whl.zip]
+[2023-07-04 10:03:12] INFO root fetch - main [MainThread]: End processing [osgpy]: success
+[2023-07-04 10:03:12] INFO root fetch - processPackages [translucenttb]: Downloading https://files.pythonhosted.org/packages/71/e9/1172d94dad1f0f714a2b1de4160b1cb538a47918a61786ae06af4bbc1c48/translucenttb-0.0.4.tar.gz
+[2023-07-04 10:03:12] INFO root fetch - processPackages [openapi-python-generator]: Downloading https://files.pythonhosted.org/packages/da/c5/af253960e9eae603a3893018c4c3ac1ec4e238f738e3abc323e627c842b0/openapi_python_generator-0.4.7.dev1686934781.tar.gz
+[2023-07-04 10:03:12] INFO root fetch - processPackages [translucenttb]: executing diffoscope
+[2023-07-04 10:03:12] INFO root fetch - processPackages [translucenttb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translucenttb-0.0.3.tar.gz tmp/translucenttb-0.0.4.tar.gz --markdown 20230704/t/translucenttb/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-04 10:03:12] INFO root fetch - processPackages [get-eyedata]: Remove: archive file [/home/abi/fetcher/tmp/get_eyedata-1.3.3-py3-none-any.whl.zip]
+[2023-07-04 10:03:12] INFO root fetch - processPackages [get-eyedata]: Remove: archive file [/home/abi/fetcher/tmp/get_eyedata-1.3.4-py3-none-any.whl.zip]
+[2023-07-04 10:03:12] INFO root fetch - main [MainThread]: End processing [get-eyedata]: success
+[2023-07-04 10:03:13] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-04 10:03:13] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-04 10:03:13] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-04 10:03:13] INFO root fetch - processPackages [zcbot-predict-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-predict-sdk-0.0.8.tar.gz]
+[2023-07-04 10:03:13] INFO root fetch - processPackages [zcbot-predict-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-predict-sdk-0.0.9.tar.gz]
+[2023-07-04 10:03:13] INFO root fetch - main [MainThread]: End processing [zcbot-predict-sdk]: success
+[2023-07-04 10:03:13] INFO root fetch - processPackages [inductance]: Remove: archive file [/home/abi/fetcher/tmp/inductance-0.1.1a3.tar.gz]
+[2023-07-04 10:03:13] INFO root fetch - processPackages [inductance]: Remove: archive file [/home/abi/fetcher/tmp/inductance-0.1.2.tar.gz]
+[2023-07-04 10:03:13] INFO root fetch - main [MainThread]: End processing [inductance]: success
+[2023-07-04 10:03:13] INFO root fetch - processPackages [openapi-python-generator]: Downloading https://files.pythonhosted.org/packages/48/db/06de270cf85555ce8aa807b5f5dba3dd9b0e9be5dcf60bd6cfb77a1323a5/openapi_python_generator-0.4.7.dev1688457736.tar.gz
+[2023-07-04 10:03:13] INFO root fetch - processPackages [enebootools]: Remove: archive file [/home/abi/fetcher/tmp/enebootools-2.0.8.tar.gz]
+[2023-07-04 10:03:13] INFO root fetch - processPackages [enebootools]: Remove: archive file [/home/abi/fetcher/tmp/enebootools-2.0.9.tar.gz]
+[2023-07-04 10:03:13] INFO root fetch - main [MainThread]: End processing [enebootools]: success
+[2023-07-04 10:03:13] INFO root fetch - processPackages [openapi-python-generator]: executing diffoscope
+[2023-07-04 10:03:13] INFO root fetch - processPackages [openapi-python-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_python_generator-0.4.7.dev1686934781.tar.gz tmp/openapi_python_generator-0.4.7.dev1688457736.tar.gz --markdown 20230704/o/openapi-python-generator/0.4.7.dev1686934781-0.4.7.dev1688457736/diff.md --exclude *.pyd
+[2023-07-04 10:03:13] INFO root fetch - processPackages [translucenttb]: Remove: archive file [/home/abi/fetcher/tmp/translucenttb-0.0.3.tar.gz]
+[2023-07-04 10:03:13] INFO root fetch - processPackages [translucenttb]: Remove: archive file [/home/abi/fetcher/tmp/translucenttb-0.0.4.tar.gz]
+[2023-07-04 10:03:13] INFO root fetch - main [MainThread]: End processing [translucenttb]: success
+[2023-07-04 10:03:14] INFO root fetch - processPackages [openapi-python-generator]: Remove: archive file [/home/abi/fetcher/tmp/openapi_python_generator-0.4.7.dev1686934781.tar.gz]
+[2023-07-04 10:03:14] INFO root fetch - processPackages [openapi-python-generator]: Remove: archive file [/home/abi/fetcher/tmp/openapi_python_generator-0.4.7.dev1688457736.tar.gz]
+[2023-07-04 10:03:14] INFO root fetch - main [MainThread]: End processing [openapi-python-generator]: success
+[2023-07-04 10:03:16] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-5.0.5-py3-none-any.whl.zip]
+[2023-07-04 10:03:16] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-5.0.6-py3-none-any.whl.zip]
+[2023-07-04 10:03:16] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-07-04 10:03:16] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-5.0.7-py3-none-any.whl.zip]
+[2023-07-04 10:03:16] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-5.0.8-py3-none-any.whl.zip]
+[2023-07-04 10:03:16] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-07-04 10:03:16] INFO root fetch - main [MainThread]: Store serial: [18751770]
