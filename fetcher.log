@@ -21657,3 +21657,143 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 14:37:15] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.9.tar.gz]
 [2023-07-04 14:37:15] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2023-07-04 14:37:15] INFO root fetch - main [MainThread]: Store serial: [18754620]
+[2023-07-04 14:42:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18754620]
+[2023-07-04 14:42:24] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-04 14:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-l10n-br-nfe
+[2023-07-04 14:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-l10n-br-nfe-spec
+[2023-07-04 14:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agixt
+[2023-07-04 14:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbt-snapshot-analysis
+[2023-07-04 14:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oking
+[2023-07-04 14:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nqtgbot
+[2023-07-04 14:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: make-argocd-fly
+[2023-07-04 14:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: json-numpy-sebastian-achim-mueller
+[2023-07-04 14:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gardener-cicd-base
+[2023-07-04 14:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gardener-cicd-cli
+[2023-07-04 14:42:25] INFO root fetch - processPackages [agixt]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-04 14:42:25] INFO root fetch - processPackages [oking]: New version: [4.1.180] Old Version: [4.1.179]
+[2023-07-04 14:42:25] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2105.0] Old Version: [1.2104.0]
+[2023-07-04 14:42:25] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2105.0] Old Version: [1.2104.0]
+[2023-07-04 14:42:25] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe-spec]: New version: [12.0.4.0.1] Old Version: [12.0.4.0.0]
+[2023-07-04 14:42:25] WARNING root fetch - processPackages [make-argocd-fly]: Skipping, unable to determine old version
+[2023-07-04 14:42:25] INFO root fetch - processPackages [make-argocd-fly]: Start processing: gardener-cicd-dso
+[2023-07-04 14:42:25] INFO root fetch - main [MainThread]: End processing [make-argocd-fly] error
+[2023-07-04 14:42:25] INFO root fetch - processPackages [nqtgbot]: New version: [1.0.0a7] Old Version: [1.0.0a6]
+[2023-07-04 14:42:25] WARNING root fetch - processPackages [json-numpy-sebastian-achim-mueller]: Skipping, unable to determine old version
+[2023-07-04 14:42:25] INFO root fetch - processPackages [json-numpy-sebastian-achim-mueller]: Start processing: gardener-cicd-libs
+[2023-07-04 14:42:25] INFO root fetch - main [MainThread]: End processing [json-numpy-sebastian-achim-mueller] error
+[2023-07-04 14:42:25] INFO root fetch - processPackages [dbt-snapshot-analysis]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-04 14:42:25] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe]: New version: [12.0.9.0.1] Old Version: [12.0.9.0.0]
+[2023-07-04 14:42:25] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2105.0] Old Version: [1.2104.0]
+[2023-07-04 14:42:25] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/17/67/c7ce6e3cec9a2f0d5a873316c403a8f2923aeb3e00d887f8c30e8356100f/agixt-1.3.2.tar.gz
+[2023-07-04 14:42:25] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/23/9e/b4b6a829afe7b299510b0b5f804e02faec18e8a1e7f330e84243599fdb2c/gardener-cicd-cli-1.2104.0.tar.gz
+[2023-07-04 14:42:25] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2105.0] Old Version: [1.2104.0]
+[2023-07-04 14:42:25] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/a0/55/f9f730dc267a15c0503ae4003404fb3648e1d5b90d1181297283a1f6fd8e/oking-4.1.179.tar.gz
+[2023-07-04 14:42:25] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/ae/bd/3e8cca5813e5b2272ed917766996543fd952488d73611c49a62d69631bf1/gardener-cicd-libs-1.2104.0.tar.gz
+[2023-07-04 14:42:25] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/34/13/f497d956f7696f2572bc4b1b82cc7a113f99ce8ca109e9f796df1c17c863/gardener-cicd-base-1.2104.0.tar.gz
+[2023-07-04 14:42:25] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82500924>=10485760
+[2023-07-04 14:42:25] INFO root fetch - processPackages [oking]: Start processing: gardener-cicd-whd
+[2023-07-04 14:42:25] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-07-04 14:42:25] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/f3/6f/d3ecab19319c40cdfad03f297bb2a575c924749375afceb2a46f551a642a/gardener-cicd-dso-1.2104.0.tar.gz
+[2023-07-04 14:42:25] INFO root fetch - processPackages [nqtgbot]: Downloading https://files.pythonhosted.org/packages/30/04/4f3c6125f7e8f1347bd933295948073aae3d95d1aab7a7b4cf12fde76526/nqtgbot-1.0.0a6.tar.gz
+[2023-07-04 14:42:25] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2105.0] Old Version: [1.2104.0]
+[2023-07-04 14:42:25] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/a7/7f/5a52abbdb465f5d32e16ecb1f87742e7ba5f178356950bdf6edd416434c5/odoo12_addon_l10n_br_nfe-12.0.9.0.0-py3-none-any.whl
+[2023-07-04 14:42:25] INFO root fetch - processPackages [dbt-snapshot-analysis]: Downloading https://files.pythonhosted.org/packages/b8/92/f01ae41373870a4d520f05249c97846f72dc982373dfdc2cf8f563cd27a8/dbt_snapshot_analysis-0.2.8.tar.gz
+[2023-07-04 14:42:25] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/69/47/c601220c88fc5b71ae107ebcf3de33185debb24ca57b96b4667f777ad02d/gardener-cicd-whd-1.2104.0.tar.gz
+[2023-07-04 14:42:25] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe-spec]: Downloading https://files.pythonhosted.org/packages/27/83/469fb341d48490f0010756d28fa346bdb515dc2122acec65d1d34ad2465c/odoo12_addon_l10n_br_nfe_spec-12.0.4.0.0-py3-none-any.whl
+[2023-07-04 14:42:25] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/cc/68/d90f6dc080ff6c92cec0f3f6b9140c976b6a13f6ab52ec099aa26fbefd03/agixt-1.3.3.tar.gz
+[2023-07-04 14:42:25] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/e1/87/52e14fc26ca785b96f32aba0c47d760de10ad6e0f1842718bfc796e36cd0/gardener-cicd-cli-1.2105.0.tar.gz
+[2023-07-04 14:42:25] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/d6/5c/236efd2ed1de6080bda5497618af7dad2021c781a9285eb5b546d92bdd5d/gardener-cicd-base-1.2105.0.tar.gz
+[2023-07-04 14:42:25] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/47/e1/06437001b17cc2211ef354347f06c755dbdc20a651d84e3b03054e6d0c30/gardener-cicd-libs-1.2105.0.tar.gz
+[2023-07-04 14:42:26] INFO root fetch - processPackages [nqtgbot]: Downloading https://files.pythonhosted.org/packages/a3/e7/6de647f5405c5c2489798635b867341e20c2001fd21c74f073697d9f8a56/nqtgbot-1.0.0a7.tar.gz
+[2023-07-04 14:42:26] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/08/9d/f5a970b3cc50f0d46ea43e91c24c5e5b3f3599edcc02469fc3daf722e0c6/gardener-cicd-dso-1.2105.0.tar.gz
+[2023-07-04 14:42:26] INFO root fetch - processPackages [dbt-snapshot-analysis]: Downloading https://files.pythonhosted.org/packages/1d/1c/9cef2d878f2696c5384127a75a75f483cd2b9791ca74092b26590df0cc99/dbt_snapshot_analysis-0.2.9.tar.gz
+[2023-07-04 14:42:26] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-07-04 14:42:26] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2104.0.tar.gz tmp/gardener-cicd-cli-1.2105.0.tar.gz --markdown 20230704/g/gardener-cicd-cli/1.2104.0-1.2105.0/diff.md --exclude *.pyd
+[2023-07-04 14:42:26] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-07-04 14:42:26] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.3.2.tar.gz tmp/agixt-1.3.3.tar.gz --markdown 20230704/a/agixt/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-04 14:42:26] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/fb/d7/68bde8a4d51da9e8c5c2a8e3eff3d60b63c57aad008ebf231fbdb20fb3f7/odoo12_addon_l10n_br_nfe-12.0.9.0.1-py3-none-any.whl
+[2023-07-04 14:42:26] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-07-04 14:42:26] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2104.0.tar.gz tmp/gardener-cicd-base-1.2105.0.tar.gz --markdown 20230704/g/gardener-cicd-base/1.2104.0-1.2105.0/diff.md --exclude *.pyd
+[2023-07-04 14:42:26] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/0e/1d/c4db3a955522e928006dbbbc4fbd222e5add70a92e48dff952469486445a/gardener-cicd-whd-1.2105.0.tar.gz
+[2023-07-04 14:42:26] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-07-04 14:42:26] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2104.0.tar.gz tmp/gardener-cicd-libs-1.2105.0.tar.gz --markdown 20230704/g/gardener-cicd-libs/1.2104.0-1.2105.0/diff.md --exclude *.pyd
+[2023-07-04 14:42:26] INFO root fetch - processPackages [nqtgbot]: executing diffoscope
+[2023-07-04 14:42:26] INFO root fetch - processPackages [nqtgbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nqtgbot-1.0.0a6.tar.gz tmp/nqtgbot-1.0.0a7.tar.gz --markdown 20230704/n/nqtgbot/1.0.0a6-1.0.0a7/diff.md --exclude *.pyd
+[2023-07-04 14:42:26] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe-spec]: Downloading https://files.pythonhosted.org/packages/ce/ec/2fe5ae4f45c7e0124438d42bc494cb4f014713dfc7b55730a28bed037b95/odoo12_addon_l10n_br_nfe_spec-12.0.4.0.1-py3-none-any.whl
+[2023-07-04 14:42:26] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-07-04 14:42:26] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2104.0.tar.gz tmp/gardener-cicd-dso-1.2105.0.tar.gz --markdown 20230704/g/gardener-cicd-dso/1.2104.0-1.2105.0/diff.md --exclude *.pyd
+[2023-07-04 14:42:26] INFO root fetch - processPackages [dbt-snapshot-analysis]: executing diffoscope
+[2023-07-04 14:42:26] INFO root fetch - processPackages [dbt-snapshot-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_snapshot_analysis-0.2.8.tar.gz tmp/dbt_snapshot_analysis-0.2.9.tar.gz --markdown 20230704/d/dbt-snapshot-analysis/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-04 14:42:26] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe]: executing diffoscope
+[2023-07-04 14:42:26] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_br_nfe-12.0.9.0.0-py3-none-any.whl.zip tmp/odoo12_addon_l10n_br_nfe-12.0.9.0.1-py3-none-any.whl.zip --markdown 20230704/o/odoo12-addon-l10n-br-nfe/12.0.9.0.0-12.0.9.0.1/diff.md --exclude *.pyd
+[2023-07-04 14:42:26] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-07-04 14:42:26] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2104.0.tar.gz tmp/gardener-cicd-whd-1.2105.0.tar.gz --markdown 20230704/g/gardener-cicd-whd/1.2104.0-1.2105.0/diff.md --exclude *.pyd
+[2023-07-04 14:42:26] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe-spec]: executing diffoscope
+[2023-07-04 14:42:26] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_br_nfe_spec-12.0.4.0.0-py3-none-any.whl.zip tmp/odoo12_addon_l10n_br_nfe_spec-12.0.4.0.1-py3-none-any.whl.zip --markdown 20230704/o/odoo12-addon-l10n-br-nfe-spec/12.0.4.0.0-12.0.4.0.1/diff.md --exclude *.pyd
+[2023-07-04 14:42:27] INFO root fetch - processPackages [nqtgbot]: Remove: archive file [/home/abi/fetcher/tmp/nqtgbot-1.0.0a6.tar.gz]
+[2023-07-04 14:42:27] INFO root fetch - processPackages [nqtgbot]: Remove: archive file [/home/abi/fetcher/tmp/nqtgbot-1.0.0a7.tar.gz]
+[2023-07-04 14:42:27] INFO root fetch - processPackages [nqtgbot]: Start processing: gardener-oci
+[2023-07-04 14:42:27] INFO root fetch - main [MainThread]: End processing [nqtgbot]: success
+[2023-07-04 14:42:27] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2104.0.tar.gz]
+[2023-07-04 14:42:27] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2105.0.tar.gz]
+[2023-07-04 14:42:27] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: pepperize.cdk-route53-health-check
+[2023-07-04 14:42:27] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-07-04 14:42:27] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 14:42:27] INFO root fetch - processPackages [dbt-snapshot-analysis]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snapshot_analysis-0.2.8.tar.gz]
+[2023-07-04 14:42:27] INFO root fetch - processPackages [dbt-snapshot-analysis]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snapshot_analysis-0.2.9.tar.gz]
+[2023-07-04 14:42:27] INFO root fetch - processPackages [dbt-snapshot-analysis]: Start processing: dbt-snapshot-analysis
+[2023-07-04 14:42:27] INFO root fetch - main [MainThread]: End processing [dbt-snapshot-analysis]: success
+[2023-07-04 14:42:27] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-07-04 14:42:27] INFO root fetch - processPackages [dbt-snapshot-analysis]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-04 14:42:28] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/a8/f1/c96971e2cc56adcde998c2d7a12c5cfd4591bb08ceefc50e3f6627a7fbab/pepperize.cdk-route53-health-check-0.0.98.tar.gz
+[2023-07-04 14:42:28] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2104.0.tar.gz]
+[2023-07-04 14:42:28] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2105.0.tar.gz]
+[2023-07-04 14:42:28] INFO root fetch - processPackages [gardener-cicd-whd]: Start processing: policyengine-us
+[2023-07-04 14:42:28] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-07-04 14:42:28] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-07-04 14:42:28] INFO root fetch - processPackages [dbt-snapshot-analysis]: Downloading https://files.pythonhosted.org/packages/b8/92/f01ae41373870a4d520f05249c97846f72dc982373dfdc2cf8f563cd27a8/dbt_snapshot_analysis-0.2.8.tar.gz
+[2023-07-04 14:42:28] INFO root fetch - processPackages [policyengine-us]: New version: [0.354.0] Old Version: [0.353.0]
+[2023-07-04 14:42:28] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2104.0.tar.gz]
+[2023-07-04 14:42:28] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2105.0.tar.gz]
+[2023-07-04 14:42:28] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-07-04 14:42:28] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe-spec]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_br_nfe_spec-12.0.4.0.0-py3-none-any.whl.zip]
+[2023-07-04 14:42:28] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe-spec]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_br_nfe_spec-12.0.4.0.1-py3-none-any.whl.zip]
+[2023-07-04 14:42:28] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-br-nfe-spec]: success
+[2023-07-04 14:42:28] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/4d/22/f2b4ed8dd6814f26ef3fb3301e83af1c08094a516d6d3f176d5fb39f7cac/policyengine-us-0.353.0.tar.gz
+[2023-07-04 14:42:28] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.2.tar.gz]
+[2023-07-04 14:42:28] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.3.tar.gz]
+[2023-07-04 14:42:28] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-07-04 14:42:28] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2104.0.tar.gz]
+[2023-07-04 14:42:28] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2105.0.tar.gz]
+[2023-07-04 14:42:28] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-07-04 14:42:28] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/9f/92/909a62b351141186c782d8bdc77ece2c0787b84204291ce16a1ddb09b89e/pepperize.cdk-route53-health-check-0.0.99.tar.gz
+[2023-07-04 14:42:28] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-07-04 14:42:28] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_br_nfe-12.0.9.0.0-py3-none-any.whl.zip]
+[2023-07-04 14:42:28] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_br_nfe-12.0.9.0.1-py3-none-any.whl.zip]
+[2023-07-04 14:42:28] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-br-nfe]: success
+[2023-07-04 14:42:28] INFO root fetch - processPackages [dbt-snapshot-analysis]: Downloading https://files.pythonhosted.org/packages/1d/1c/9cef2d878f2696c5384127a75a75f483cd2b9791ca74092b26590df0cc99/dbt_snapshot_analysis-0.2.9.tar.gz
+[2023-07-04 14:42:28] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-07-04 14:42:28] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230704/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-07-04 14:42:28] INFO root fetch - processPackages [dbt-snapshot-analysis]: executing diffoscope
+[2023-07-04 14:42:28] INFO root fetch - processPackages [dbt-snapshot-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_snapshot_analysis-0.2.8.tar.gz tmp/dbt_snapshot_analysis-0.2.9.tar.gz --markdown 20230704/d/dbt-snapshot-analysis/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-04 14:42:28] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-07-04 14:42:28] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230704/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 14:42:28] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/f2/bc/9b7831c3492fc34bcfed2333dc1c410ed602536218f5e57df44f29794d36/policyengine-us-0.354.0.tar.gz
+[2023-07-04 14:42:28] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-04 14:42:28] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.353.0.tar.gz tmp/policyengine-us-0.354.0.tar.gz --markdown 20230704/p/policyengine-us/0.353.0-0.354.0/diff.md --exclude *.pyd
+[2023-07-04 14:42:29] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2104.0.tar.gz]
+[2023-07-04 14:42:29] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2105.0.tar.gz]
+[2023-07-04 14:42:29] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-07-04 14:42:29] INFO root fetch - processPackages [dbt-snapshot-analysis]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snapshot_analysis-0.2.8.tar.gz]
+[2023-07-04 14:42:29] INFO root fetch - processPackages [dbt-snapshot-analysis]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snapshot_analysis-0.2.9.tar.gz]
+[2023-07-04 14:42:29] INFO root fetch - main [MainThread]: End processing [dbt-snapshot-analysis]: success
+[2023-07-04 14:42:29] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2023-07-04 14:42:29] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2023-07-04 14:42:29] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-07-04 14:42:30] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz]
+[2023-07-04 14:42:30] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz]
+[2023-07-04 14:42:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-07-04 14:42:53] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.353.0.tar.gz]
+[2023-07-04 14:42:53] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.354.0.tar.gz]
+[2023-07-04 14:42:53] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-04 14:42:53] INFO root fetch - main [MainThread]: Store serial: [18754676]
