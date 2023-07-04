@@ -20467,3 +20467,56 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 13:37:35] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230704-py3-none-win_amd64.whl.zip]
 [2023-07-04 13:37:35] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
 [2023-07-04 13:37:35] INFO root fetch - main [MainThread]: Store serial: [18754081]
+[2023-07-04 13:42:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18754081]
+[2023-07-04 13:42:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-04 13:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cognite-power-ops
+[2023-07-04 13:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: akerbp.mlops
+[2023-07-04 13:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: look-like-scanned
+[2023-07-04 13:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bfieldtools
+[2023-07-04 13:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pina-mathlab
+[2023-07-04 13:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pygoogalytics
+[2023-07-04 13:42:44] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.2.1a7] Old Version: [3.2.1a6]
+[2023-07-04 13:42:44] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-04 13:42:44] INFO root fetch - processPackages [look-like-scanned]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-04 13:42:44] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/cc/f1/72c2b3e43452761c72ea8a3b95efe8c5a57bae2149c1a24ce92794896a88/akerbp.mlops-3.2.1a6.tar.gz
+[2023-07-04 13:42:44] INFO root fetch - processPackages [pygoogalytics]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-07-04 13:42:44] INFO root fetch - processPackages [pina-mathlab]: New version: [0.0.3] Old Version: [0.0.2.dev0]
+[2023-07-04 13:42:44] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-07-04 13:42:44] INFO root fetch - processPackages [bfieldtools]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-04 13:42:44] INFO root fetch - processPackages [look-like-scanned]: Downloading https://files.pythonhosted.org/packages/6e/11/38125f141d2419175263ec7d2f3cce636181762eb55494e4590dbd1f9902/look_like_scanned-0.2.4.tar.gz
+[2023-07-04 13:42:44] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-07-04 13:42:44] INFO root fetch - processPackages [bfieldtools]: Downloading https://files.pythonhosted.org/packages/a9/71/c377a34b9613744aedc0d7e3f8187276d160ecbd9f2e7c4f6f47da69caa8/bfieldtools-0.9.4.tar.gz
+[2023-07-04 13:42:44] INFO root fetch - processPackages [pina-mathlab]: Downloading https://files.pythonhosted.org/packages/6a/c1/f7a6ebda6e8aa0c37594e9e6d500a6ae4c193da8fda16392d9f92dbc8948/pina-mathlab-0.0.2.dev0.tar.gz
+[2023-07-04 13:42:44] INFO root fetch - processPackages [pygoogalytics]: Downloading https://files.pythonhosted.org/packages/1f/9c/e1fd5005b933e000df122a46ef61504f657bbd22ba4ba0d1637a49375474/pygoogalytics-0.4.2.tar.gz
+[2023-07-04 13:42:44] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-07-04 13:42:44] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230704/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-04 13:42:45] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/0e/6b/06416fee92c65afa86d83b575b17ccbd63015a7d4a855d8a38f9772e494d/akerbp.mlops-3.2.1a7.tar.gz
+[2023-07-04 13:42:45] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-07-04 13:42:45] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.2.1a6.tar.gz tmp/akerbp.mlops-3.2.1a7.tar.gz --markdown 20230704/a/akerbp.mlops/3.2.1a6-3.2.1a7/diff.md --exclude *.pyd
+[2023-07-04 13:42:45] INFO root fetch - processPackages [pina-mathlab]: Downloading https://files.pythonhosted.org/packages/af/46/dcef87b62e435c3921ffe9b11ed167a744f63a2890e25780dfa37851fb58/pina-mathlab-0.0.3.tar.gz
+[2023-07-04 13:42:45] INFO root fetch - processPackages [pygoogalytics]: Downloading https://files.pythonhosted.org/packages/41/78/c35e3ee26cc30c2c3685d9324947b764eae5d148dbe9a48562db8f51dc24/pygoogalytics-0.5.0.tar.gz
+[2023-07-04 13:42:45] INFO root fetch - processPackages [pina-mathlab]: executing diffoscope
+[2023-07-04 13:42:45] INFO root fetch - processPackages [pina-mathlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pina-mathlab-0.0.2.dev0.tar.gz tmp/pina-mathlab-0.0.3.tar.gz --markdown 20230704/p/pina-mathlab/0.0.2.dev0-0.0.3/diff.md --exclude *.pyd
+[2023-07-04 13:42:45] INFO root fetch - processPackages [look-like-scanned]: Downloading https://files.pythonhosted.org/packages/2e/31/2c5cb08c674e8649313391f17d395225129eba9bd7ea304d9516357bc518/look_like_scanned-0.2.5.tar.gz
+[2023-07-04 13:42:45] INFO root fetch - processPackages [pygoogalytics]: executing diffoscope
+[2023-07-04 13:42:45] INFO root fetch - processPackages [pygoogalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygoogalytics-0.4.2.tar.gz tmp/pygoogalytics-0.5.0.tar.gz --markdown 20230704/p/pygoogalytics/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-07-04 13:42:45] WARNING root fetch - processPackages [bfieldtools]: Skipping package: exceeds size limit 47347392>=10485760
+[2023-07-04 13:42:45] INFO root fetch - main [MainThread]: End processing [bfieldtools] error
+[2023-07-04 13:42:45] INFO root fetch - processPackages [look-like-scanned]: executing diffoscope
+[2023-07-04 13:42:45] INFO root fetch - processPackages [look-like-scanned]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/look_like_scanned-0.2.4.tar.gz tmp/look_like_scanned-0.2.5.tar.gz --markdown 20230704/l/look-like-scanned/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-04 13:42:45] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-07-04 13:42:45] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-07-04 13:42:45] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-07-04 13:42:46] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.1a6.tar.gz]
+[2023-07-04 13:42:46] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.1a7.tar.gz]
+[2023-07-04 13:42:46] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-07-04 13:42:46] INFO root fetch - processPackages [pygoogalytics]: Remove: archive file [/home/abi/fetcher/tmp/pygoogalytics-0.4.2.tar.gz]
+[2023-07-04 13:42:46] INFO root fetch - processPackages [pygoogalytics]: Remove: archive file [/home/abi/fetcher/tmp/pygoogalytics-0.5.0.tar.gz]
+[2023-07-04 13:42:46] INFO root fetch - main [MainThread]: End processing [pygoogalytics]: success
+[2023-07-04 13:42:46] INFO root fetch - processPackages [pina-mathlab]: Remove: archive file [/home/abi/fetcher/tmp/pina-mathlab-0.0.2.dev0.tar.gz]
+[2023-07-04 13:42:46] INFO root fetch - processPackages [pina-mathlab]: Remove: archive file [/home/abi/fetcher/tmp/pina-mathlab-0.0.3.tar.gz]
+[2023-07-04 13:42:46] INFO root fetch - main [MainThread]: End processing [pina-mathlab]: success
+[2023-07-04 13:42:46] INFO root fetch - processPackages [look-like-scanned]: Remove: archive file [/home/abi/fetcher/tmp/look_like_scanned-0.2.4.tar.gz]
+[2023-07-04 13:42:46] INFO root fetch - processPackages [look-like-scanned]: Remove: archive file [/home/abi/fetcher/tmp/look_like_scanned-0.2.5.tar.gz]
+[2023-07-04 13:42:46] INFO root fetch - main [MainThread]: End processing [look-like-scanned]: success
+[2023-07-04 13:42:46] INFO root fetch - main [MainThread]: Store serial: [18754103]
