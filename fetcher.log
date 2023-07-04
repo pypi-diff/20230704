@@ -15350,3 +15350,126 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 10:03:16] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-5.0.8-py3-none-any.whl.zip]
 [2023-07-04 10:03:16] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
 [2023-07-04 10:03:16] INFO root fetch - main [MainThread]: Store serial: [18751770]
+[2023-07-04 10:08:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18751770]
+[2023-07-04 10:08:25] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-04 10:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vlite
+[2023-07-04 10:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ailola
+[2023-07-04 10:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: resfeci
+[2023-07-04 10:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyocs
+[2023-07-04 10:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acoustics-hardware
+[2023-07-04 10:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mvtech-plugin
+[2023-07-04 10:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oc-cdtapi
+[2023-07-04 10:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lazyearth
+[2023-07-04 10:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kubernetes-validate
+[2023-07-04 10:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: t2iapi
+[2023-07-04 10:08:26] WARNING root fetch - processPackages [mvtech-plugin]: Skipping, unable to determine old version
+[2023-07-04 10:08:26] INFO root fetch - processPackages [mvtech-plugin]: Start processing: dijkstra-conda
+[2023-07-04 10:08:26] INFO root fetch - main [MainThread]: End processing [mvtech-plugin] error
+[2023-07-04 10:08:26] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-04 10:08:26] INFO root fetch - processPackages [acoustics-hardware]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-04 10:08:26] INFO root fetch - processPackages [pyocs]: New version: [4.4.8] Old Version: [4.4.7]
+[2023-07-04 10:08:26] INFO root fetch - processPackages [vlite]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-04 10:08:26] INFO root fetch - processPackages [ailola]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-04 10:08:26] INFO root fetch - processPackages [oc-cdtapi]: New version: [3.9.5] Old Version: [3.9.4]
+[2023-07-04 10:08:26] WARNING root fetch - processPackages [resfeci]: Skipping, unable to determine old version
+[2023-07-04 10:08:26] INFO root fetch - processPackages [resfeci]: Start processing: dijkstra-conda
+[2023-07-04 10:08:26] INFO root fetch - main [MainThread]: End processing [resfeci] error
+[2023-07-04 10:08:26] INFO root fetch - processPackages [kubernetes-validate]: New version: [1.27.0] Old Version: [1.26.0]
+[2023-07-04 10:08:26] INFO root fetch - processPackages [t2iapi]: New version: [3.0.0.dev214] Old Version: [3.0.0.dev207]
+[2023-07-04 10:08:26] INFO root fetch - processPackages [dijkstra-conda]: New version: [98567413] Old Version: [97260341]
+[2023-07-04 10:08:26] INFO root fetch - processPackages [dijkstra-conda]: New version: [98567413] Old Version: [97260341]
+[2023-07-04 10:08:26] INFO root fetch - processPackages [ailola]: Downloading https://files.pythonhosted.org/packages/af/e3/0d169038e0fe08ab4cb50913f9adaa0e1e6f352207f72302e37e86888be2/ailola-0.9.8.tar.gz
+[2023-07-04 10:08:26] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/d9/c7/af1d2c78694d1c93c56f540f2905e5ba84ce2e701c057e6ed55b4a5924bd/lazyearth-1.0.7.tar.gz
+[2023-07-04 10:08:26] INFO root fetch - processPackages [vlite]: Downloading https://files.pythonhosted.org/packages/08/4a/dbafea2bad540b2402d159ac5172eb1fe450e6b21a14b27941e9f52f4a44/vlite-0.1.0.tar.gz
+[2023-07-04 10:08:26] INFO root fetch - processPackages [kubernetes-validate]: Downloading https://files.pythonhosted.org/packages/75/66/de414286a0cc236a80c8a830033b29042328062439f7983ca0fd37e6acf8/kubernetes-validate-1.26.0.tar.gz
+[2023-07-04 10:08:26] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/45/c7/739b1b705b93272dd3d81a33bad91bef3822e093802ef381558a35fb1f52/t2iapi-3.0.0.dev207.tar.gz
+[2023-07-04 10:08:26] INFO root fetch - processPackages [acoustics-hardware]: Downloading https://files.pythonhosted.org/packages/18/5b/65a26c1d64e89452dcf5c226eb792cbce11f54935ed2b4b1b417035833ec/acoustics-hardware-0.2.0.tar.gz
+[2023-07-04 10:08:26] INFO root fetch - processPackages [pyocs]: Downloading https://files.pythonhosted.org/packages/0e/1f/db6656f6fac3aea509221898a1318e7bf3b54b5f31abb01c409a6ba2a9af/pyocs-4.4.7-py2.py3-none-any.whl
+[2023-07-04 10:08:26] INFO root fetch - processPackages [oc-cdtapi]: Downloading https://files.pythonhosted.org/packages/1e/98/0bcc299b30418e62a037836854cf01235330d0120fe95c91c8f4f1d11957/oc_cdtapi-3.9.4-py3-none-any.whl
+[2023-07-04 10:08:26] INFO root fetch - processPackages [dijkstra-conda]: Downloading https://files.pythonhosted.org/packages/88/5d/378e6703af2ee0d37f14cfde42692f8262ac624840fee9fa1747bc9f6a0d/dijkstra_conda-97260341.tar.gz
+[2023-07-04 10:08:26] INFO root fetch - processPackages [dijkstra-conda]: Downloading https://files.pythonhosted.org/packages/88/5d/378e6703af2ee0d37f14cfde42692f8262ac624840fee9fa1747bc9f6a0d/dijkstra_conda-97260341.tar.gz
+[2023-07-04 10:08:26] INFO root fetch - processPackages [ailola]: Downloading https://files.pythonhosted.org/packages/0a/02/d1ca04f4904163f75791f299f0615467ccefaa60386ef5034bb9446d8c1e/ailola-0.9.9.tar.gz
+[2023-07-04 10:08:26] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/57/a4/1f336b2de35597565a2417d8be51639317ff136edaf8e169f5f0828f24fc/lazyearth-1.0.8.tar.gz
+[2023-07-04 10:08:26] INFO root fetch - processPackages [vlite]: Downloading https://files.pythonhosted.org/packages/ba/9f/d28fddf28318376ca65dc952fc329daa98e8056a4b8f2066a5100fe5d5ce/vlite-0.1.1.tar.gz
+[2023-07-04 10:08:26] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/b1/19/c5ef568b089ba18a39b534ca827dac757df1096b66d628d22b826a0a0c83/t2iapi-3.0.0.dev214.tar.gz
+[2023-07-04 10:08:27] INFO root fetch - processPackages [ailola]: executing diffoscope
+[2023-07-04 10:08:27] INFO root fetch - processPackages [ailola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailola-0.9.8.tar.gz tmp/ailola-0.9.9.tar.gz --markdown 20230704/a/ailola/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-04 10:08:27] INFO root fetch - processPackages [oc-cdtapi]: Downloading https://files.pythonhosted.org/packages/a3/84/2f52ff952b1ef7c30866c710a59c9870eb31149e784fc821aacaf30fa044/oc_cdtapi-3.9.5-py3-none-any.whl
+[2023-07-04 10:08:27] INFO root fetch - processPackages [acoustics-hardware]: Downloading https://files.pythonhosted.org/packages/fe/be/5ef5af45067a2834720ede9d81d6e2971ed75ac0d488e1bc283c8440e346/acoustics-hardware-0.2.1.tar.gz
+[2023-07-04 10:08:27] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-07-04 10:08:27] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230704/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-04 10:08:27] INFO root fetch - processPackages [dijkstra-conda]: Downloading https://files.pythonhosted.org/packages/fd/55/3855c15b22e78aae1766a7aecd90bd433359198395b473cecfde467a2dd4/dijkstra_conda-98567413.tar.gz
+[2023-07-04 10:08:27] INFO root fetch - processPackages [dijkstra-conda]: Downloading https://files.pythonhosted.org/packages/fd/55/3855c15b22e78aae1766a7aecd90bd433359198395b473cecfde467a2dd4/dijkstra_conda-98567413.tar.gz
+[2023-07-04 10:08:27] INFO root fetch - processPackages [vlite]: executing diffoscope
+[2023-07-04 10:08:27] INFO root fetch - processPackages [vlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vlite-0.1.0.tar.gz tmp/vlite-0.1.1.tar.gz --markdown 20230704/v/vlite/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-04 10:08:27] INFO root fetch - processPackages [pyocs]: Downloading https://files.pythonhosted.org/packages/b5/f3/18c688553f497715deafb8b29867ff9bb71302cea754c4c33c201087e43a/pyocs-4.4.8-py2.py3-none-any.whl
+[2023-07-04 10:08:27] INFO root fetch - processPackages [t2iapi]: executing diffoscope
+[2023-07-04 10:08:27] INFO root fetch - processPackages [t2iapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2iapi-3.0.0.dev207.tar.gz tmp/t2iapi-3.0.0.dev214.tar.gz --markdown 20230704/t/t2iapi/3.0.0.dev207-3.0.0.dev214/diff.md --exclude *.pyd
+[2023-07-04 10:08:27] INFO root fetch - processPackages [oc-cdtapi]: executing diffoscope
+[2023-07-04 10:08:27] INFO root fetch - processPackages [oc-cdtapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_cdtapi-3.9.4-py3-none-any.whl.zip tmp/oc_cdtapi-3.9.5-py3-none-any.whl.zip --markdown 20230704/o/oc-cdtapi/3.9.4-3.9.5/diff.md --exclude *.pyd
+[2023-07-04 10:08:27] INFO root fetch - processPackages [acoustics-hardware]: executing diffoscope
+[2023-07-04 10:08:27] INFO root fetch - processPackages [acoustics-hardware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acoustics-hardware-0.2.0.tar.gz tmp/acoustics-hardware-0.2.1.tar.gz --markdown 20230704/a/acoustics-hardware/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-04 10:08:27] INFO root fetch - processPackages [dijkstra-conda]: executing diffoscope
+[2023-07-04 10:08:27] INFO root fetch - processPackages [dijkstra-conda]: executing diffoscope
+[2023-07-04 10:08:27] INFO root fetch - processPackages [dijkstra-conda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dijkstra_conda-97260341.tar.gz tmp/dijkstra_conda-98567413.tar.gz --markdown 20230704/d/dijkstra-conda/97260341-98567413/diff.md --exclude *.pyd
+[2023-07-04 10:08:27] INFO root fetch - processPackages [dijkstra-conda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dijkstra_conda-97260341.tar.gz tmp/dijkstra_conda-98567413.tar.gz --markdown 20230704/d/dijkstra-conda/97260341-98567413/diff.md --exclude *.pyd
+[2023-07-04 10:08:27] INFO root fetch - processPackages [kubernetes-validate]: Downloading https://files.pythonhosted.org/packages/8e/74/3e5c937179760f234d5bba3536f835001b98caf5dca233dfebd6c31a8f8c/kubernetes-validate-1.27.0.tar.gz
+[2023-07-04 10:08:27] INFO root fetch - processPackages [pyocs]: executing diffoscope
+[2023-07-04 10:08:27] INFO root fetch - processPackages [pyocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyocs-4.4.7-py2.py3-none-any.whl.zip tmp/pyocs-4.4.8-py2.py3-none-any.whl.zip --markdown 20230704/p/pyocs/4.4.7-4.4.8/diff.md --exclude *.pyd
+[2023-07-04 10:08:27] INFO root fetch - processPackages [kubernetes-validate]: executing diffoscope
+[2023-07-04 10:08:27] INFO root fetch - processPackages [kubernetes-validate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernetes-validate-1.26.0.tar.gz tmp/kubernetes-validate-1.27.0.tar.gz --markdown 20230704/k/kubernetes-validate/1.26.0-1.27.0/diff.md --exclude *.pyd
+[2023-07-04 10:08:28] INFO root fetch - processPackages [ailola]: Remove: archive file [/home/abi/fetcher/tmp/ailola-0.9.8.tar.gz]
+[2023-07-04 10:08:28] INFO root fetch - processPackages [ailola]: Remove: archive file [/home/abi/fetcher/tmp/ailola-0.9.9.tar.gz]
+[2023-07-04 10:08:28] INFO root fetch - processPackages [ailola]: Start processing: gov-uk-dashboards
+[2023-07-04 10:08:28] INFO root fetch - main [MainThread]: End processing [ailola]: success
+[2023-07-04 10:08:28] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.9.0] Old Version: [9.8.0]
+[2023-07-04 10:08:28] INFO root fetch - processPackages [vlite]: Remove: archive file [/home/abi/fetcher/tmp/vlite-0.1.0.tar.gz]
+[2023-07-04 10:08:28] INFO root fetch - processPackages [vlite]: Remove: archive file [/home/abi/fetcher/tmp/vlite-0.1.1.tar.gz]
+[2023-07-04 10:08:28] INFO root fetch - processPackages [vlite]: Start processing: pyglove
+[2023-07-04 10:08:28] INFO root fetch - main [MainThread]: End processing [vlite]: success
+[2023-07-04 10:08:28] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230703] Old Version: [0.3.1.dev20230702]
+[2023-07-04 10:08:28] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.7.tar.gz]
+[2023-07-04 10:08:28] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.8.tar.gz]
+[2023-07-04 10:08:28] INFO root fetch - processPackages [lazyearth]: Start processing: CORS-Analyzer
+[2023-07-04 10:08:28] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-07-04 10:08:28] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/15/aa038ec0161f510bba1e81208b6b8fb48174839d812f78343601edd00197/gov_uk_dashboards-9.8.0.tar.gz
+[2023-07-04 10:08:28] INFO root fetch - processPackages [CORS-Analyzer]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-04 10:08:28] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/2c/a6/48777e08a7077f4c502320d8d04f0873dc480dcb1368f95104d3368536c5/pyglove-0.3.1.dev20230702.tar.gz
+[2023-07-04 10:08:28] INFO root fetch - processPackages [CORS-Analyzer]: Downloading https://files.pythonhosted.org/packages/90/f9/bcf3e09ed59b4a5ff39b016cb579837ef0517633e8f9768274dc1eff3eb1/CORS-Analyzer-1.0.5.tar.gz
+[2023-07-04 10:08:28] INFO root fetch - processPackages [dijkstra-conda]: Remove: archive file [/home/abi/fetcher/tmp/dijkstra_conda-97260341.tar.gz]
+[2023-07-04 10:08:28] INFO root fetch - processPackages [dijkstra-conda]: Remove: archive file [/home/abi/fetcher/tmp/dijkstra_conda-98567413.tar.gz]
+[2023-07-04 10:08:28] INFO root fetch - main [MainThread]: End processing [dijkstra-conda]: success
+[2023-07-04 10:08:28] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/ea/814247833cc4320a4963bc9588f46cb3725c05f6064d14ac066bbc574e6d/gov_uk_dashboards-9.9.0.tar.gz
+[2023-07-04 10:08:28] INFO root fetch - processPackages [acoustics-hardware]: Remove: archive file [/home/abi/fetcher/tmp/acoustics-hardware-0.2.0.tar.gz]
+[2023-07-04 10:08:28] INFO root fetch - processPackages [acoustics-hardware]: Remove: archive file [/home/abi/fetcher/tmp/acoustics-hardware-0.2.1.tar.gz]
+[2023-07-04 10:08:28] INFO root fetch - main [MainThread]: End processing [acoustics-hardware]: success
+[2023-07-04 10:08:28] INFO root fetch - processPackages [oc-cdtapi]: Remove: archive file [/home/abi/fetcher/tmp/oc_cdtapi-3.9.4-py3-none-any.whl.zip]
+[2023-07-04 10:08:28] INFO root fetch - processPackages [oc-cdtapi]: Remove: archive file [/home/abi/fetcher/tmp/oc_cdtapi-3.9.5-py3-none-any.whl.zip]
+[2023-07-04 10:08:28] INFO root fetch - main [MainThread]: End processing [oc-cdtapi]: success
+[2023-07-04 10:08:29] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2023-07-04 10:08:29] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.8.0.tar.gz tmp/gov_uk_dashboards-9.9.0.tar.gz --markdown 20230704/g/gov-uk-dashboards/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2023-07-04 10:08:29] INFO root fetch - processPackages [CORS-Analyzer]: Downloading https://files.pythonhosted.org/packages/4e/6e/b970738413fb8aa43bdab22f37afbde80e6564d1629e02d30355124d505a/CORS-Analyzer-1.0.6.tar.gz
+[2023-07-04 10:08:29] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/f5/87/566cee6da71ead6c63c0c418712cccba9242ddebfa0c5866df3924866477/pyglove-0.3.1.dev20230703.tar.gz
+[2023-07-04 10:08:29] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev207.tar.gz]
+[2023-07-04 10:08:29] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev214.tar.gz]
+[2023-07-04 10:08:29] INFO root fetch - main [MainThread]: End processing [t2iapi]: success
+[2023-07-04 10:08:29] INFO root fetch - main [MainThread]: End processing [dijkstra-conda]: success
+[2023-07-04 10:08:29] INFO root fetch - processPackages [CORS-Analyzer]: executing diffoscope
+[2023-07-04 10:08:29] INFO root fetch - processPackages [CORS-Analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CORS-Analyzer-1.0.5.tar.gz tmp/CORS-Analyzer-1.0.6.tar.gz --markdown 20230704/C/CORS-Analyzer/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-04 10:08:29] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-04 10:08:29] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230702.tar.gz tmp/pyglove-0.3.1.dev20230703.tar.gz --markdown 20230704/p/pyglove/0.3.1.dev20230702-0.3.1.dev20230703/diff.md --exclude *.pyd
+[2023-07-04 10:08:30] INFO root fetch - processPackages [CORS-Analyzer]: Remove: archive file [/home/abi/fetcher/tmp/CORS-Analyzer-1.0.5.tar.gz]
+[2023-07-04 10:08:30] INFO root fetch - processPackages [CORS-Analyzer]: Remove: archive file [/home/abi/fetcher/tmp/CORS-Analyzer-1.0.6.tar.gz]
+[2023-07-04 10:08:30] INFO root fetch - main [MainThread]: End processing [CORS-Analyzer]: success
+[2023-07-04 10:08:30] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.8.0.tar.gz]
+[2023-07-04 10:08:30] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.9.0.tar.gz]
+[2023-07-04 10:08:30] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2023-07-04 10:08:30] INFO root fetch - processPackages [pyocs]: Remove: archive file [/home/abi/fetcher/tmp/pyocs-4.4.7-py2.py3-none-any.whl.zip]
+[2023-07-04 10:08:30] INFO root fetch - processPackages [pyocs]: Remove: archive file [/home/abi/fetcher/tmp/pyocs-4.4.8-py2.py3-none-any.whl.zip]
+[2023-07-04 10:08:30] INFO root fetch - main [MainThread]: End processing [pyocs]: success
+[2023-07-04 10:08:31] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230702.tar.gz]
+[2023-07-04 10:08:31] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230703.tar.gz]
+[2023-07-04 10:08:31] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-04 10:11:27] ERROR root fetch - processPackages [kubernetes-validate]: Timeout during execution of pkgdiff
+[2023-07-04 10:11:27] INFO root fetch - main [MainThread]: End processing [kubernetes-validate] error
+[2023-07-04 10:11:27] INFO root fetch - main [MainThread]: Store serial: [18751817]
