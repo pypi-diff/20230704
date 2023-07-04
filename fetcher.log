@@ -10113,3 +10113,38 @@
 [2023-07-04 04:56:08] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
 [2023-07-04 04:56:08] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
 [2023-07-04 04:56:08] INFO root fetch - main [MainThread]: Store serial: [18749734]
+[2023-07-04 05:01:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18749734]
+[2023-07-04 05:01:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-04 05:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iam-actions
+[2023-07-04 05:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: video-process
+[2023-07-04 05:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HALchemy
+[2023-07-04 05:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fiftyone-desktop
+[2023-07-04 05:01:17] INFO root fetch - processPackages [video-process]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-04 05:01:17] INFO root fetch - processPackages [HALchemy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-04 05:01:17] INFO root fetch - processPackages [fiftyone-desktop]: New version: [0.28.1] Old Version: [0.28.0]
+[2023-07-04 05:01:17] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230704] Old Version: [1.2.20230703]
+[2023-07-04 05:01:17] INFO root fetch - processPackages [video-process]: Downloading https://files.pythonhosted.org/packages/4a/a0/c29deccd1cb310e196a81bb099ccac02c4011e4e2a303d43e239e62601c5/video_process-0.2.4.tar.gz
+[2023-07-04 05:01:17] INFO root fetch - processPackages [HALchemy]: Downloading https://files.pythonhosted.org/packages/d4/2e/91d50dc8b6e6fa8744a01fb3413479ad824a0055cfe2785fa6a4bf8fda43/HALchemy-0.1.3-py3-none-any.whl
+[2023-07-04 05:01:17] INFO root fetch - processPackages [fiftyone-desktop]: Downloading https://files.pythonhosted.org/packages/62/d9/91ddb6934d5873f6ecafe2c704445807f84e09e89e8fbc693e4a141a2fff/fiftyone_desktop-0.28.0-py3-none-win_amd64.whl
+[2023-07-04 05:01:17] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/13/f5/b265eee7fd05a333cc3a8c07b5e8fd9346bcf1a7ec37537e26cb09ac7a67/iam_actions-1.2.20230703.tar.gz
+[2023-07-04 05:01:17] WARNING root fetch - processPackages [fiftyone-desktop]: Skipping package: exceeds size limit 63445574>=10485760
+[2023-07-04 05:01:17] INFO root fetch - main [MainThread]: End processing [fiftyone-desktop] error
+[2023-07-04 05:01:17] INFO root fetch - processPackages [HALchemy]: Downloading https://files.pythonhosted.org/packages/24/5b/a0e29c4e8abe0a732176cc4d3f3cfaa9ee4ae34f60ec8a5b7c4e717f7134/HALchemy-0.1.4-py3-none-any.whl
+[2023-07-04 05:01:17] INFO root fetch - processPackages [video-process]: Downloading https://files.pythonhosted.org/packages/60/f3/d2e46f76b449ecb9620969891e1061f2fda0eaa8974fdf51ce8cea88ebd3/video_process-0.2.5.tar.gz
+[2023-07-04 05:01:18] INFO root fetch - processPackages [HALchemy]: executing diffoscope
+[2023-07-04 05:01:18] INFO root fetch - processPackages [HALchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HALchemy-0.1.3-py3-none-any.whl.zip tmp/HALchemy-0.1.4-py3-none-any.whl.zip --markdown 20230704/H/HALchemy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-04 05:01:18] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/39/d7/cf8a87b5ee3d1b8fd42b3a921c44bea69a3bbe62b934952c17608dc44116/iam_actions-1.2.20230704.tar.gz
+[2023-07-04 05:01:18] INFO root fetch - processPackages [video-process]: executing diffoscope
+[2023-07-04 05:01:18] INFO root fetch - processPackages [video-process]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_process-0.2.4.tar.gz tmp/video_process-0.2.5.tar.gz --markdown 20230704/v/video-process/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-04 05:01:18] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-07-04 05:01:18] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230703.tar.gz tmp/iam_actions-1.2.20230704.tar.gz --markdown 20230704/i/iam-actions/1.2.20230703-1.2.20230704/diff.md --exclude *.pyd
+[2023-07-04 05:01:18] INFO root fetch - processPackages [HALchemy]: Remove: archive file [/home/abi/fetcher/tmp/HALchemy-0.1.3-py3-none-any.whl.zip]
+[2023-07-04 05:01:18] INFO root fetch - processPackages [HALchemy]: Remove: archive file [/home/abi/fetcher/tmp/HALchemy-0.1.4-py3-none-any.whl.zip]
+[2023-07-04 05:01:18] INFO root fetch - main [MainThread]: End processing [HALchemy]: success
+[2023-07-04 05:01:18] INFO root fetch - processPackages [video-process]: Remove: archive file [/home/abi/fetcher/tmp/video_process-0.2.4.tar.gz]
+[2023-07-04 05:01:18] INFO root fetch - processPackages [video-process]: Remove: archive file [/home/abi/fetcher/tmp/video_process-0.2.5.tar.gz]
+[2023-07-04 05:01:18] INFO root fetch - main [MainThread]: End processing [video-process]: success
+[2023-07-04 05:01:20] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230703.tar.gz]
+[2023-07-04 05:01:20] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230704.tar.gz]
+[2023-07-04 05:01:20] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-07-04 05:01:20] INFO root fetch - main [MainThread]: Store serial: [18749748]
