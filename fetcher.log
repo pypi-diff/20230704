@@ -20071,3 +20071,167 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 13:21:50] INFO root fetch - processPackages [moto-ext]: Remove: archive file [/home/abi/fetcher/tmp/moto-ext-4.1.9.post1.tar.gz]
 [2023-07-04 13:21:50] INFO root fetch - main [MainThread]: End processing [moto-ext]: success
 [2023-07-04 13:21:50] INFO root fetch - main [MainThread]: Store serial: [18753921]
+[2023-07-04 13:26:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18753921]
+[2023-07-04 13:27:00] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-04 13:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gtfs-parser
+[2023-07-04 13:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docker-shaper
+[2023-07-04 13:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libcnmc
+[2023-07-04 13:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oidc-drf
+[2023-07-04 13:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tb-nightly
+[2023-07-04 13:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hvps
+[2023-07-04 13:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Digital-Farming-Solution
+[2023-07-04 13:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gtfs-parser
+[2023-07-04 13:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aiohttp-s3-client
+[2023-07-04 13:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: showroom-recorder
+[2023-07-04 13:27:00] INFO root fetch - processPackages [aiohttp-s3-client]: New version: [0.8.7] Old Version: [0.8.2]
+[2023-07-04 13:27:00] INFO root fetch - processPackages [oidc-drf]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-04 13:27:00] INFO root fetch - processPackages [docker-shaper]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-04 13:27:00] INFO root fetch - processPackages [hvps]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-04 13:27:00] INFO root fetch - processPackages [gtfs-parser]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-04 13:27:00] INFO root fetch - processPackages [Digital-Farming-Solution]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-04 13:27:00] INFO root fetch - processPackages [showroom-recorder]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-07-04 13:27:00] INFO root fetch - processPackages [gtfs-parser]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-04 13:27:00] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-07-04 13:27:00] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-07-04 13:27:00] INFO root fetch - processPackages [aiohttp-s3-client]: Downloading https://files.pythonhosted.org/packages/63/30/fe4fa3e7ba104cf304f8f5386a339214e5eb8a0b0402c050041ccfcc5686/aiohttp_s3_client-0.8.2.tar.gz
+[2023-07-04 13:27:00] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/36/75/0e56487388828f40b0a8d401716a3cd255d3085e731e6ca3745ab28a86d2/oidc_drf-1.2.8.tar.gz
+[2023-07-04 13:27:00] INFO root fetch - processPackages [hvps]: Downloading https://files.pythonhosted.org/packages/26/38/c5aacd5aac2cb746637f7620b0e30b429ca572d27a302e0b9e01ef7a882a/hvps-0.0.5.tar.gz
+[2023-07-04 13:27:00] INFO root fetch - processPackages [gtfs-parser]: Downloading https://files.pythonhosted.org/packages/52/f7/bdd594738ed490286d36f0a43678c7e51177a2f0d144755ce92915cf0146/gtfs_parser-0.1.1.tar.gz
+[2023-07-04 13:27:00] INFO root fetch - processPackages [Digital-Farming-Solution]: Downloading https://files.pythonhosted.org/packages/ee/01/dad71825b1945d2a523f258bc43b43a010abc2f12dea20ac138228c86b53/Digital_Farming_Solution-0.1.4.tar.gz
+[2023-07-04 13:27:00] INFO root fetch - processPackages [gtfs-parser]: Downloading https://files.pythonhosted.org/packages/52/f7/bdd594738ed490286d36f0a43678c7e51177a2f0d144755ce92915cf0146/gtfs_parser-0.1.1.tar.gz
+[2023-07-04 13:27:00] INFO root fetch - processPackages [showroom-recorder]: Downloading https://files.pythonhosted.org/packages/87/98/ce4f0a365aaaae233b83384f53217102c040fe4881f39d2045546d89537c/showroom-recorder-0.6.6.tar.gz
+[2023-07-04 13:27:00] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-07-04 13:27:00] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-07-04 13:27:01] INFO root fetch - processPackages [docker-shaper]: Downloading https://files.pythonhosted.org/packages/cd/94/237c26354e090df02ecf2a893e8fccf1acf7789e8cfb10003adbe8a7fd12/docker_shaper-0.1.5.tar.gz
+[2023-07-04 13:27:01] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/d7/de/e7417f81d3a2bb32b6f2acb0044fcadd08723cefbe4019f55c809d6c5afe/oidc_drf-1.2.9.tar.gz
+[2023-07-04 13:27:01] INFO root fetch - processPackages [hvps]: Downloading https://files.pythonhosted.org/packages/91/cc/a2618621be00c57703c4474b62fd7ae7e983e47955a09b9b32854e8ac357/hvps-0.0.6.tar.gz
+[2023-07-04 13:27:01] INFO root fetch - processPackages [gtfs-parser]: Downloading https://files.pythonhosted.org/packages/65/41/976affa5b829fd890f4d5726cf25eba53803bd614bb7470915845251e7e1/gtfs_parser-0.1.2.tar.gz
+[2023-07-04 13:27:01] INFO root fetch - processPackages [Digital-Farming-Solution]: Downloading https://files.pythonhosted.org/packages/c4/4b/939e272bbee0b76768e63cee89f7a0d73a7b58a77155806c7aa072c32c53/Digital_Farming_Solution-0.1.5.tar.gz
+[2023-07-04 13:27:01] INFO root fetch - processPackages [showroom-recorder]: Downloading https://files.pythonhosted.org/packages/6b/ce/aa987f16a7e22ba8b7bf5f65fdca27bfa304c90b54b744814504d729490a/showroom-recorder-0.6.7.tar.gz
+[2023-07-04 13:27:01] INFO root fetch - processPackages [gtfs-parser]: Downloading https://files.pythonhosted.org/packages/65/41/976affa5b829fd890f4d5726cf25eba53803bd614bb7470915845251e7e1/gtfs_parser-0.1.2.tar.gz
+[2023-07-04 13:27:01] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-07-04 13:27:01] INFO root fetch - processPackages [hvps]: executing diffoscope
+[2023-07-04 13:27:01] INFO root fetch - processPackages [hvps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hvps-0.0.5.tar.gz tmp/hvps-0.0.6.tar.gz --markdown 20230704/h/hvps/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-04 13:27:01] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-07-04 13:27:01] INFO root fetch - processPackages [aiohttp-s3-client]: Downloading https://files.pythonhosted.org/packages/7a/95/8eb0b9473bc41750b725473422d528651a2765b5b932ccbc69a34a1e7f82/aiohttp_s3_client-0.8.7.tar.gz
+[2023-07-04 13:27:01] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-04 13:27:01] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.2.8.tar.gz tmp/oidc_drf-1.2.9.tar.gz --markdown 20230704/o/oidc-drf/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-04 13:27:01] INFO root fetch - processPackages [gtfs-parser]: executing diffoscope
+[2023-07-04 13:27:01] INFO root fetch - processPackages [gtfs-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtfs_parser-0.1.1.tar.gz tmp/gtfs_parser-0.1.2.tar.gz --markdown 20230704/g/gtfs-parser/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-04 13:27:01] INFO root fetch - processPackages [docker-shaper]: Downloading https://files.pythonhosted.org/packages/10/b4/eedb54db590ab7e29e536050b5a706c9b0c9eb6d3c9311585d5be9099f7e/docker_shaper-0.1.6.tar.gz
+[2023-07-04 13:27:01] INFO root fetch - processPackages [gtfs-parser]: executing diffoscope
+[2023-07-04 13:27:01] INFO root fetch - processPackages [gtfs-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtfs_parser-0.1.1.tar.gz tmp/gtfs_parser-0.1.2.tar.gz --markdown 20230704/g/gtfs-parser/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-04 13:27:01] INFO root fetch - processPackages [Digital-Farming-Solution]: executing diffoscope
+[2023-07-04 13:27:01] INFO root fetch - processPackages [Digital-Farming-Solution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Digital_Farming_Solution-0.1.4.tar.gz tmp/Digital_Farming_Solution-0.1.5.tar.gz --markdown 20230704/D/Digital-Farming-Solution/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-04 13:27:01] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-07-04 13:27:01] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230704/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-07-04 13:27:01] INFO root fetch - processPackages [aiohttp-s3-client]: executing diffoscope
+[2023-07-04 13:27:01] INFO root fetch - processPackages [aiohttp-s3-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp_s3_client-0.8.2.tar.gz tmp/aiohttp_s3_client-0.8.7.tar.gz --markdown 20230704/a/aiohttp-s3-client/0.8.2-0.8.7/diff.md --exclude *.pyd
+[2023-07-04 13:27:01] INFO root fetch - processPackages [showroom-recorder]: executing diffoscope
+[2023-07-04 13:27:01] INFO root fetch - processPackages [showroom-recorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/showroom-recorder-0.6.6.tar.gz tmp/showroom-recorder-0.6.7.tar.gz --markdown 20230704/s/showroom-recorder/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-07-04 13:27:01] INFO root fetch - processPackages [docker-shaper]: executing diffoscope
+[2023-07-04 13:27:01] INFO root fetch - processPackages [docker-shaper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_shaper-0.1.5.tar.gz tmp/docker_shaper-0.1.6.tar.gz --markdown 20230704/d/docker-shaper/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-04 13:27:01] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-07-04 13:27:01] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230704/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-07-04 13:27:03] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.8.tar.gz]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.9.tar.gz]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [oidc-drf]: Start processing: session-repository
+[2023-07-04 13:27:03] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-04 13:27:03] INFO root fetch - processPackages [gtfs-parser]: Remove: archive file [/home/abi/fetcher/tmp/gtfs_parser-0.1.1.tar.gz]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [gtfs-parser]: Remove: archive file [/home/abi/fetcher/tmp/gtfs_parser-0.1.2.tar.gz]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [gtfs-parser]: Start processing: OpenGeode-core
+[2023-07-04 13:27:03] INFO root fetch - main [MainThread]: End processing [gtfs-parser]: success
+[2023-07-04 13:27:03] INFO root fetch - processPackages [aiohttp-s3-client]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_s3_client-0.8.2.tar.gz]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [aiohttp-s3-client]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_s3_client-0.8.7.tar.gz]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [aiohttp-s3-client]: Start processing: pycof
+[2023-07-04 13:27:03] INFO root fetch - main [MainThread]: End processing [aiohttp-s3-client]: success
+[2023-07-04 13:27:03] INFO root fetch - processPackages [hvps]: Remove: archive file [/home/abi/fetcher/tmp/hvps-0.0.5.tar.gz]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [hvps]: Remove: archive file [/home/abi/fetcher/tmp/hvps-0.0.6.tar.gz]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [hvps]: Start processing: rmas
+[2023-07-04 13:27:03] INFO root fetch - main [MainThread]: End processing [hvps]: success
+[2023-07-04 13:27:03] INFO root fetch - processPackages [session-repository]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [gtfs-parser]: Start processing: torchtnt-nightly
+[2023-07-04 13:27:03] INFO root fetch - main [MainThread]: End processing [gtfs-parser]: success
+[2023-07-04 13:27:03] INFO root fetch - processPackages [showroom-recorder]: Remove: archive file [/home/abi/fetcher/tmp/showroom-recorder-0.6.6.tar.gz]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [showroom-recorder]: Remove: archive file [/home/abi/fetcher/tmp/showroom-recorder-0.6.7.tar.gz]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [showroom-recorder]: Start processing: hvps
+[2023-07-04 13:27:03] INFO root fetch - main [MainThread]: End processing [showroom-recorder]: success
+[2023-07-04 13:27:03] INFO root fetch - processPackages [Digital-Farming-Solution]: Remove: archive file [/home/abi/fetcher/tmp/Digital_Farming_Solution-0.1.4.tar.gz]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [Digital-Farming-Solution]: Remove: archive file [/home/abi/fetcher/tmp/Digital_Farming_Solution-0.1.5.tar.gz]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [Digital-Farming-Solution]: Start processing: kafkaclientveli
+[2023-07-04 13:27:03] INFO root fetch - processPackages [pycof]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-07-04 13:27:03] INFO root fetch - main [MainThread]: End processing [Digital-Farming-Solution]: success
+[2023-07-04 13:27:03] INFO root fetch - processPackages [hvps]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.7.3] Old Version: [2023.7.2]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [rmas]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [docker-shaper]: Remove: archive file [/home/abi/fetcher/tmp/docker_shaper-0.1.5.tar.gz]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [docker-shaper]: Remove: archive file [/home/abi/fetcher/tmp/docker_shaper-0.1.6.tar.gz]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.4.0rc4]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [docker-shaper]: Start processing: uEdition
+[2023-07-04 13:27:03] INFO root fetch - main [MainThread]: End processing [docker-shaper]: success
+[2023-07-04 13:27:03] INFO root fetch - processPackages [hvps]: Downloading https://files.pythonhosted.org/packages/26/38/c5aacd5aac2cb746637f7620b0e30b429ca572d27a302e0b9e01ef7a882a/hvps-0.0.5.tar.gz
+[2023-07-04 13:27:03] INFO root fetch - processPackages [kafkaclientveli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [session-repository]: Downloading https://files.pythonhosted.org/packages/8d/8a/e7550468ad89aaa28b830dc4ea2831e0d0ac73437628f306115a6d6e7122/session-repository-0.1.5.tar.gz
+[2023-07-04 13:27:03] INFO root fetch - processPackages [uEdition]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/ab/c4/7333bfb6c15fd418f43a1171f43113a4118b486aab558cdc8b0d9e11ce2d/torchtnt-nightly-2023.7.2.tar.gz
+[2023-07-04 13:27:03] INFO root fetch - processPackages [kafkaclientveli]: Downloading https://files.pythonhosted.org/packages/d6/15/3421c27275e5810088608fddca1beac11e90466752040f3dca4fdbab6eba/kafkaclientveli-1.0.8.tar.gz
+[2023-07-04 13:27:03] INFO root fetch - processPackages [pycof]: Downloading https://files.pythonhosted.org/packages/89/cd/0f4b1c8373288b4c9f88596c785dac1b8ae7d584cadfcd0d7c26dc9008c4/pycof-1.5.4.tar.gz
+[2023-07-04 13:27:03] INFO root fetch - processPackages [rmas]: Downloading https://files.pythonhosted.org/packages/73/82/342ca3c3863e72ef12a313b332e0651bde174206df55d0b89a5c9cb15066/rmas-0.1.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-04 13:27:03] INFO root fetch - processPackages [uEdition]: Downloading https://files.pythonhosted.org/packages/39/6e/698c0efbc0804ba3629a0412569f87855c78c0cefa8258e485ea05f55b06/uedition-0.6.0.tar.gz
+[2023-07-04 13:27:03] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/0e/9a/0cf5a248203ba12f3848dfc58eaf0b43540d6277d630cb75cdc9e4168648/OpenGeode_core-14.4.0rc4-cp39-cp39-win_amd64.whl
+[2023-07-04 13:27:03] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.0.tar.gz]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.1.tar.gz]
+[2023-07-04 13:27:03] INFO root fetch - processPackages [libcnmc]: Start processing: flxtrd
+[2023-07-04 13:27:03] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-07-04 13:27:03] INFO root fetch - processPackages [hvps]: Downloading https://files.pythonhosted.org/packages/91/cc/a2618621be00c57703c4474b62fd7ae7e983e47955a09b9b32854e8ac357/hvps-0.0.6.tar.gz
+[2023-07-04 13:27:03] INFO root fetch - processPackages [flxtrd]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-04 13:27:03] WARNING root fetch - processPackages [rmas]: Skipping package: exceeds size limit 91507313>=10485760
+[2023-07-04 13:27:03] INFO root fetch - main [MainThread]: End processing [rmas] error
+[2023-07-04 13:27:03] INFO root fetch - processPackages [kafkaclientveli]: Downloading https://files.pythonhosted.org/packages/6e/77/a870121819a5b0e1b97d7d1054e5132118c51de83a4252f645360b7cb7cc/kafkaclientveli-1.0.9.tar.gz
+[2023-07-04 13:27:04] INFO root fetch - processPackages [hvps]: executing diffoscope
+[2023-07-04 13:27:04] INFO root fetch - processPackages [hvps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hvps-0.0.5.tar.gz tmp/hvps-0.0.6.tar.gz --markdown 20230704/h/hvps/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-04 13:27:04] INFO root fetch - processPackages [session-repository]: Downloading https://files.pythonhosted.org/packages/c3/0e/b9225fcf8c265af2a44e1be3157b8a6c5c06f3c581584ddfcec97997d0ec/session-repository-0.1.6.tar.gz
+[2023-07-04 13:27:04] INFO root fetch - processPackages [uEdition]: Downloading https://files.pythonhosted.org/packages/0d/f6/03ebaf6387666609870d6d90ca4bcbf83d8bff0be3f1234a398abcdec526/uedition-0.6.1.tar.gz
+[2023-07-04 13:27:04] INFO root fetch - processPackages [flxtrd]: Downloading https://files.pythonhosted.org/packages/bc/27/df3207281ef9cafa2ef9d8beba17cec473ded67b578cb821bf87dad904e8/flxtrd-0.2.1.tar.gz
+[2023-07-04 13:27:04] INFO root fetch - processPackages [kafkaclientveli]: executing diffoscope
+[2023-07-04 13:27:04] INFO root fetch - processPackages [kafkaclientveli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafkaclientveli-1.0.8.tar.gz tmp/kafkaclientveli-1.0.9.tar.gz --markdown 20230704/k/kafkaclientveli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-04 13:27:04] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/c6/b2/acacb82af6171e68ca19bd1f92a27b2f7480387e1817cad1a4286e97fdf3/torchtnt-nightly-2023.7.3.tar.gz
+[2023-07-04 13:27:04] INFO root fetch - processPackages [uEdition]: executing diffoscope
+[2023-07-04 13:27:04] INFO root fetch - processPackages [uEdition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uedition-0.6.0.tar.gz tmp/uedition-0.6.1.tar.gz --markdown 20230704/u/uEdition/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-04 13:27:04] INFO root fetch - processPackages [pycof]: Downloading https://files.pythonhosted.org/packages/ba/bf/bdc94f3ae721c1bb5d94950449543e31c8cbc388712683488533b9728662/pycof-1.5.5.tar.gz
+[2023-07-04 13:27:04] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 17570391>=10485760
+[2023-07-04 13:27:04] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-07-04 13:27:04] INFO root fetch - processPackages [session-repository]: executing diffoscope
+[2023-07-04 13:27:04] INFO root fetch - processPackages [session-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/session-repository-0.1.5.tar.gz tmp/session-repository-0.1.6.tar.gz --markdown 20230704/s/session-repository/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-04 13:27:04] INFO root fetch - processPackages [flxtrd]: Downloading https://files.pythonhosted.org/packages/b2/5a/6620f1bd52f47d18d8e9e015542d561db3e0a55bc3b3bb7b017cc1aa1bb1/flxtrd-0.2.2.tar.gz
+[2023-07-04 13:27:04] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-07-04 13:27:04] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.7.2.tar.gz tmp/torchtnt-nightly-2023.7.3.tar.gz --markdown 20230704/t/torchtnt-nightly/2023.7.2-2023.7.3/diff.md --exclude *.pyd
+[2023-07-04 13:27:04] INFO root fetch - processPackages [flxtrd]: executing diffoscope
+[2023-07-04 13:27:04] INFO root fetch - processPackages [flxtrd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flxtrd-0.2.1.tar.gz tmp/flxtrd-0.2.2.tar.gz --markdown 20230704/f/flxtrd/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-04 13:27:04] INFO root fetch - processPackages [pycof]: executing diffoscope
+[2023-07-04 13:27:04] INFO root fetch - processPackages [pycof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycof-1.5.4.tar.gz tmp/pycof-1.5.5.tar.gz --markdown 20230704/p/pycof/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-07-04 13:27:04] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-07-04 13:27:04] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-07-04 13:27:04] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-07-04 13:27:05] INFO root fetch - processPackages [kafkaclientveli]: Remove: archive file [/home/abi/fetcher/tmp/kafkaclientveli-1.0.8.tar.gz]
+[2023-07-04 13:27:05] INFO root fetch - processPackages [kafkaclientveli]: Remove: archive file [/home/abi/fetcher/tmp/kafkaclientveli-1.0.9.tar.gz]
+[2023-07-04 13:27:05] INFO root fetch - main [MainThread]: End processing [kafkaclientveli]: success
+[2023-07-04 13:27:05] INFO root fetch - processPackages [session-repository]: Remove: archive file [/home/abi/fetcher/tmp/session-repository-0.1.5.tar.gz]
+[2023-07-04 13:27:05] INFO root fetch - processPackages [session-repository]: Remove: archive file [/home/abi/fetcher/tmp/session-repository-0.1.6.tar.gz]
+[2023-07-04 13:27:05] INFO root fetch - main [MainThread]: End processing [session-repository]: success
+[2023-07-04 13:27:05] INFO root fetch - processPackages [hvps]: Remove: archive file [/home/abi/fetcher/tmp/hvps-0.0.5.tar.gz]
+[2023-07-04 13:27:05] INFO root fetch - processPackages [hvps]: Remove: archive file [/home/abi/fetcher/tmp/hvps-0.0.6.tar.gz]
+[2023-07-04 13:27:05] INFO root fetch - main [MainThread]: End processing [hvps]: success
+[2023-07-04 13:27:05] INFO root fetch - processPackages [pycof]: Remove: archive file [/home/abi/fetcher/tmp/pycof-1.5.4.tar.gz]
+[2023-07-04 13:27:05] INFO root fetch - processPackages [pycof]: Remove: archive file [/home/abi/fetcher/tmp/pycof-1.5.5.tar.gz]
+[2023-07-04 13:27:05] INFO root fetch - main [MainThread]: End processing [pycof]: success
+[2023-07-04 13:27:05] INFO root fetch - processPackages [flxtrd]: Remove: archive file [/home/abi/fetcher/tmp/flxtrd-0.2.1.tar.gz]
+[2023-07-04 13:27:05] INFO root fetch - processPackages [flxtrd]: Remove: archive file [/home/abi/fetcher/tmp/flxtrd-0.2.2.tar.gz]
+[2023-07-04 13:27:05] INFO root fetch - main [MainThread]: End processing [flxtrd]: success
+[2023-07-04 13:27:05] INFO root fetch - processPackages [uEdition]: Remove: archive file [/home/abi/fetcher/tmp/uedition-0.6.0.tar.gz]
+[2023-07-04 13:27:05] INFO root fetch - processPackages [uEdition]: Remove: archive file [/home/abi/fetcher/tmp/uedition-0.6.1.tar.gz]
+[2023-07-04 13:27:05] INFO root fetch - main [MainThread]: End processing [uEdition]: success
+[2023-07-04 13:27:05] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.2.tar.gz]
+[2023-07-04 13:27:05] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.3.tar.gz]
+[2023-07-04 13:27:05] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-07-04 13:27:05] INFO root fetch - main [MainThread]: Store serial: [18753982]
