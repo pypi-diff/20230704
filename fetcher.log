@@ -15663,3 +15663,123 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 10:22:06] INFO root fetch - processPackages [ocean-contracts]: Remove: archive file [/home/abi/fetcher/tmp/ocean-contracts-2.0.0a1.tar.gz]
 [2023-07-04 10:22:06] INFO root fetch - main [MainThread]: End processing [ocean-contracts]: success
 [2023-07-04 10:22:06] INFO root fetch - main [MainThread]: Store serial: [18751909]
+[2023-07-04 10:27:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18751909]
+[2023-07-04 10:27:16] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-04 10:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SELDOMpy
+[2023-07-04 10:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ir-digit
+[2023-07-04 10:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arxiv-latex-cleaner
+[2023-07-04 10:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zit
+[2023-07-04 10:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-model-optimization-nightly
+[2023-07-04 10:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sale-commission
+[2023-07-04 10:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: label-sleuth
+[2023-07-04 10:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cnextb
+[2023-07-04 10:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-base-duplicate-security-group
+[2023-07-04 10:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arxiv-latex-cleaner
+[2023-07-04 10:27:16] INFO root fetch - processPackages [ir-digit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 10:27:16] INFO root fetch - processPackages [odoo-addon-sale-commission]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.5]
+[2023-07-04 10:27:16] INFO root fetch - processPackages [zit]: New version: [0.0.2a7] Old Version: [0.0.2a6]
+[2023-07-04 10:27:16] INFO root fetch - processPackages [arxiv-latex-cleaner]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-04 10:27:16] INFO root fetch - processPackages [SELDOMpy]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-07-04 10:27:16] INFO root fetch - processPackages [odoo-addon-base-duplicate-security-group]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.2]
+[2023-07-04 10:27:16] INFO root fetch - processPackages [label-sleuth]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-04 10:27:16] INFO root fetch - processPackages [cnextb]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-04 10:27:16] INFO root fetch - processPackages [arxiv-latex-cleaner]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-04 10:27:16] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/13/8d/28f7eda19d06a28525737eac0126409e56176e1a3db989013d202807f091/ir_digit-0.0.8.tar.gz
+[2023-07-04 10:27:16] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230704] Old Version: [0.7.5.dev20230702]
+[2023-07-04 10:27:16] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/a0/15/de81991518e0d146ed07e82a94e1167254129a73d55e175f93d6f0f5928c/SELDOMpy-0.7.3-cp38-cp38-win_amd64.whl
+[2023-07-04 10:27:16] INFO root fetch - processPackages [label-sleuth]: Downloading https://files.pythonhosted.org/packages/77/e0/ee99d0650b8f1910bc9bb3c144dd4782f08b149f5a3bd4099f346117368b/label-sleuth-0.9.3.tar.gz
+[2023-07-04 10:27:16] INFO root fetch - processPackages [odoo-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/d3/8d/6c2d13d60cc05a7af0b2b298811cf2b778428289117cf0254cba776e905a/odoo_addon_sale_commission-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-04 10:27:16] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/0e/8d/b3d32f8a8c4f96d981f138f1c61fb20bec6e4835eaa492965a06f584f419/zit-0.0.2a6.tar.gz
+[2023-07-04 10:27:16] INFO root fetch - processPackages [arxiv-latex-cleaner]: Downloading https://files.pythonhosted.org/packages/2c/f7/aee6c3e68fe45fbccb0da75904cbf1e46b6d44e3d52baac9d6e01bf23b80/arxiv_latex_cleaner-1.0.0.tar.gz
+[2023-07-04 10:27:16] INFO root fetch - processPackages [arxiv-latex-cleaner]: Downloading https://files.pythonhosted.org/packages/2c/f7/aee6c3e68fe45fbccb0da75904cbf1e46b6d44e3d52baac9d6e01bf23b80/arxiv_latex_cleaner-1.0.0.tar.gz
+[2023-07-04 10:27:17] INFO root fetch - processPackages [odoo-addon-base-duplicate-security-group]: Downloading https://files.pythonhosted.org/packages/12/1b/61c4998dbdc5a8908b5c6892e870676b762c4e796362c779ed0d2c4e4100/odoo_addon_base_duplicate_security_group-15.0.1.0.0.2-py3-none-any.whl
+[2023-07-04 10:27:17] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/8e/4d/086249dc2535145dd8cd274a916ec71bec84462dca659e43ff9e9bd1153f/tf_model_optimization_nightly-0.7.5.dev20230702-py2.py3-none-any.whl
+[2023-07-04 10:27:17] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/c0/e1/8cdd06668f7ad179caab43915da3e6ca91882c998be4777dc2b190a0b1fd/ir_digit-0.0.9.tar.gz
+[2023-07-04 10:27:17] INFO root fetch - processPackages [cnextb]: Downloading https://files.pythonhosted.org/packages/bc/53/47350d16e67bf864584e0e730195f43a372d729e95a6906ed55b88126772/cnextb-1.0.0.tar.gz
+[2023-07-04 10:27:17] INFO root fetch - processPackages [ir-digit]: executing diffoscope
+[2023-07-04 10:27:17] INFO root fetch - processPackages [ir-digit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ir_digit-0.0.8.tar.gz tmp/ir_digit-0.0.9.tar.gz --markdown 20230704/i/ir-digit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 10:27:17] INFO root fetch - processPackages [odoo-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/96/f5/462425351ecb4f9401ad0bda9cbf509f1646c9fae1486b71aed97951f083/odoo_addon_sale_commission-16.0.1.0.1-py3-none-any.whl
+[2023-07-04 10:27:17] INFO root fetch - processPackages [arxiv-latex-cleaner]: Downloading https://files.pythonhosted.org/packages/ba/75/626014f47d51aad0e6ef39a051ba7fe24a4e4f8b0bf23750909615d62864/arxiv_latex_cleaner-1.0.1.tar.gz
+[2023-07-04 10:27:17] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/6d/ea/f125fda8bdfc03aad9c3e4aaffeeb9da8652d9dff4f71fa3c20c38ec7af8/zit-0.0.2a7.tar.gz
+[2023-07-04 10:27:17] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/88/69/10475cd095136ead751c2e83c7a3e17c464362c0752a6a617fd92608b701/SELDOMpy-0.7.4-cp38-cp38-win_amd64.whl
+[2023-07-04 10:27:17] INFO root fetch - processPackages [arxiv-latex-cleaner]: Downloading https://files.pythonhosted.org/packages/ba/75/626014f47d51aad0e6ef39a051ba7fe24a4e4f8b0bf23750909615d62864/arxiv_latex_cleaner-1.0.1.tar.gz
+[2023-07-04 10:27:17] INFO root fetch - processPackages [odoo-addon-base-duplicate-security-group]: Downloading https://files.pythonhosted.org/packages/62/b4/08e914f43a6a6e06e9a0cb3aca6915a29a220981c5960446f3310f04bac2/odoo_addon_base_duplicate_security_group-15.0.1.0.1-py3-none-any.whl
+[2023-07-04 10:27:17] INFO root fetch - processPackages [cnextb]: Downloading https://files.pythonhosted.org/packages/c0/e4/636d69d7172a285e73ccdc6739e53a75bfaee27ec0dc0c6260c3902fc2a4/cnextb-1.0.1.tar.gz
+[2023-07-04 10:27:17] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/84/07/0a935d0986899e2dc3aef231e0f43cbafc4f881b6e2b4ef7043ad0baa14a/tf_model_optimization_nightly-0.7.5.dev20230704-py2.py3-none-any.whl
+[2023-07-04 10:27:17] INFO root fetch - processPackages [odoo-addon-sale-commission]: executing diffoscope
+[2023-07-04 10:27:17] INFO root fetch - processPackages [odoo-addon-sale-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_commission-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_sale_commission-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230704/o/odoo-addon-sale-commission/16.0.1.0.0.5-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-04 10:27:17] INFO root fetch - processPackages [label-sleuth]: Downloading https://files.pythonhosted.org/packages/dd/ee/ffc7b366823c259f75094f7898e27c3f4ae71d66cd5fa3f5da579f3afbbd/label-sleuth-0.9.4.tar.gz
+[2023-07-04 10:27:17] INFO root fetch - processPackages [odoo-addon-base-duplicate-security-group]: executing diffoscope
+[2023-07-04 10:27:17] INFO root fetch - processPackages [odoo-addon-base-duplicate-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_duplicate_security_group-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_base_duplicate_security_group-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230704/o/odoo-addon-base-duplicate-security-group/15.0.1.0.0.2-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-04 10:27:17] INFO root fetch - processPackages [arxiv-latex-cleaner]: executing diffoscope
+[2023-07-04 10:27:17] INFO root fetch - processPackages [arxiv-latex-cleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxiv_latex_cleaner-1.0.0.tar.gz tmp/arxiv_latex_cleaner-1.0.1.tar.gz --markdown 20230704/a/arxiv-latex-cleaner/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-04 10:27:17] INFO root fetch - processPackages [zit]: executing diffoscope
+[2023-07-04 10:27:17] INFO root fetch - processPackages [zit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zit-0.0.2a6.tar.gz tmp/zit-0.0.2a7.tar.gz --markdown 20230704/z/zit/0.0.2a6-0.0.2a7/diff.md --exclude *.pyd
+[2023-07-04 10:27:17] INFO root fetch - processPackages [arxiv-latex-cleaner]: executing diffoscope
+[2023-07-04 10:27:17] INFO root fetch - processPackages [arxiv-latex-cleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxiv_latex_cleaner-1.0.0.tar.gz tmp/arxiv_latex_cleaner-1.0.1.tar.gz --markdown 20230704/a/arxiv-latex-cleaner/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-04 10:27:17] INFO root fetch - processPackages [cnextb]: executing diffoscope
+[2023-07-04 10:27:17] INFO root fetch - processPackages [cnextb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnextb-1.0.0.tar.gz tmp/cnextb-1.0.1.tar.gz --markdown 20230704/c/cnextb/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-04 10:27:17] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-07-04 10:27:17] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230702-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230704-py2.py3-none-any.whl.zip --markdown 20230704/t/tf-model-optimization-nightly/0.7.5.dev20230702-0.7.5.dev20230704/diff.md --exclude *.pyd
+[2023-07-04 10:27:17] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-04 10:27:17] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.7.3-cp38-cp38-win_amd64.whl.zip tmp/SELDOMpy-0.7.4-cp38-cp38-win_amd64.whl.zip --markdown 20230704/S/SELDOMpy/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-07-04 10:27:18] INFO root fetch - processPackages [label-sleuth]: executing diffoscope
+[2023-07-04 10:27:18] INFO root fetch - processPackages [label-sleuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label-sleuth-0.9.3.tar.gz tmp/label-sleuth-0.9.4.tar.gz --markdown 20230704/l/label-sleuth/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-04 10:27:18] INFO root fetch - processPackages [ir-digit]: Remove: archive file [/home/abi/fetcher/tmp/ir_digit-0.0.8.tar.gz]
+[2023-07-04 10:27:18] INFO root fetch - processPackages [ir-digit]: Remove: archive file [/home/abi/fetcher/tmp/ir_digit-0.0.9.tar.gz]
+[2023-07-04 10:27:18] INFO root fetch - processPackages [ir-digit]: Start processing: SELDOMpy
+[2023-07-04 10:27:18] INFO root fetch - main [MainThread]: End processing [ir-digit]: success
+[2023-07-04 10:27:18] INFO root fetch - processPackages [SELDOMpy]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-07-04 10:27:18] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-04 10:27:18] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.7.3-cp38-cp38-win_amd64.whl.zip tmp/SELDOMpy-0.7.4-cp38-cp38-win_amd64.whl.zip --markdown 20230704/S/SELDOMpy/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-07-04 10:27:19] INFO root fetch - processPackages [odoo-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_commission-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-04 10:27:19] INFO root fetch - processPackages [odoo-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_commission-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-04 10:27:19] INFO root fetch - processPackages [odoo-addon-sale-commission]: Start processing: rdf-doctor
+[2023-07-04 10:27:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-commission]: success
+[2023-07-04 10:27:19] INFO root fetch - processPackages [rdf-doctor]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-07-04 10:27:19] INFO root fetch - processPackages [cnextb]: Remove: archive file [/home/abi/fetcher/tmp/cnextb-1.0.0.tar.gz]
+[2023-07-04 10:27:19] INFO root fetch - processPackages [cnextb]: Remove: archive file [/home/abi/fetcher/tmp/cnextb-1.0.1.tar.gz]
+[2023-07-04 10:27:19] INFO root fetch - processPackages [cnextb]: Start processing: ir-digit
+[2023-07-04 10:27:19] INFO root fetch - main [MainThread]: End processing [cnextb]: success
+[2023-07-04 10:27:19] INFO root fetch - processPackages [ir-digit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 10:27:19] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/46/4f/b33e2c62b941a150ccdbe2e9ca4b0f5e5b676e3463b1f3003ce85550e2ba/rdf_doctor-0.8.4-py3-none-any.whl
+[2023-07-04 10:27:19] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.2a6.tar.gz]
+[2023-07-04 10:27:19] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.2a7.tar.gz]
+[2023-07-04 10:27:19] INFO root fetch - processPackages [zit]: Start processing: odoo14-addon-account-move-transfer-partner
+[2023-07-04 10:27:19] INFO root fetch - main [MainThread]: End processing [zit]: success
+[2023-07-04 10:27:19] INFO root fetch - processPackages [arxiv-latex-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/arxiv_latex_cleaner-1.0.0.tar.gz]
+[2023-07-04 10:27:19] INFO root fetch - processPackages [arxiv-latex-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/arxiv_latex_cleaner-1.0.1.tar.gz]
+[2023-07-04 10:27:19] INFO root fetch - processPackages [arxiv-latex-cleaner]: Start processing: dbt-quicksight-lineage
+[2023-07-04 10:27:19] INFO root fetch - main [MainThread]: End processing [arxiv-latex-cleaner]: success
+[2023-07-04 10:27:19] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/13/8d/28f7eda19d06a28525737eac0126409e56176e1a3db989013d202807f091/ir_digit-0.0.8.tar.gz
+[2023-07-04 10:27:19] INFO root fetch - main [MainThread]: End processing [arxiv-latex-cleaner]: success
+[2023-07-04 10:27:19] WARNING root fetch - processPackages [dbt-quicksight-lineage]: Skipping, unable to determine old version
+[2023-07-04 10:27:19] INFO root fetch - main [MainThread]: End processing [dbt-quicksight-lineage] error
+[2023-07-04 10:27:19] WARNING root fetch - processPackages [odoo14-addon-account-move-transfer-partner]: Skipping, unable to determine old version
+[2023-07-04 10:27:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-move-transfer-partner] error
+[2023-07-04 10:27:19] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/c0/e1/8cdd06668f7ad179caab43915da3e6ca91882c998be4777dc2b190a0b1fd/ir_digit-0.0.9.tar.gz
+[2023-07-04 10:27:19] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/a2/87/dc4347f1c19ab0865864b9f9aa00b02d72ff5fd2315c6fd54212334cb77d/rdf_doctor-0.8.5-py3-none-any.whl
+[2023-07-04 10:27:20] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.7.3-cp38-cp38-win_amd64.whl.zip]
+[2023-07-04 10:27:20] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.7.4-cp38-cp38-win_amd64.whl.zip]
+[2023-07-04 10:27:20] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-04 10:27:20] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230702-py2.py3-none-any.whl.zip]
+[2023-07-04 10:27:20] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230704-py2.py3-none-any.whl.zip]
+[2023-07-04 10:27:20] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-07-04 10:27:20] INFO root fetch - processPackages [ir-digit]: executing diffoscope
+[2023-07-04 10:27:20] INFO root fetch - processPackages [ir-digit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ir_digit-0.0.8.tar.gz tmp/ir_digit-0.0.9.tar.gz --markdown 20230704/i/ir-digit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 10:27:20] INFO root fetch - processPackages [odoo-addon-base-duplicate-security-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_duplicate_security_group-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-04 10:27:20] INFO root fetch - processPackages [odoo-addon-base-duplicate-security-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_duplicate_security_group-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-04 10:27:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-duplicate-security-group]: success
+[2023-07-04 10:27:20] INFO root fetch - processPackages [rdf-doctor]: executing diffoscope
+[2023-07-04 10:27:20] INFO root fetch - processPackages [rdf-doctor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdf_doctor-0.8.4-py3-none-any.whl.zip tmp/rdf_doctor-0.8.5-py3-none-any.whl.zip --markdown 20230704/r/rdf-doctor/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-07-04 10:27:20] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-04 10:27:20] INFO root fetch - processPackages [ir-digit]: Remove: archive file [/home/abi/fetcher/tmp/ir_digit-0.0.8.tar.gz]
+[2023-07-04 10:27:20] INFO root fetch - processPackages [ir-digit]: Remove: archive file [/home/abi/fetcher/tmp/ir_digit-0.0.9.tar.gz]
+[2023-07-04 10:27:20] INFO root fetch - main [MainThread]: End processing [ir-digit]: success
+[2023-07-04 10:27:21] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-0.8.4-py3-none-any.whl.zip]
+[2023-07-04 10:27:21] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-0.8.5-py3-none-any.whl.zip]
+[2023-07-04 10:27:21] INFO root fetch - main [MainThread]: End processing [rdf-doctor]: success
+[2023-07-04 10:28:00] INFO root fetch - processPackages [label-sleuth]: Remove: archive file [/home/abi/fetcher/tmp/label-sleuth-0.9.3.tar.gz]
+[2023-07-04 10:28:00] INFO root fetch - processPackages [label-sleuth]: Remove: archive file [/home/abi/fetcher/tmp/label-sleuth-0.9.4.tar.gz]
+[2023-07-04 10:28:00] INFO root fetch - main [MainThread]: End processing [label-sleuth]: success
+[2023-07-04 10:28:00] INFO root fetch - main [MainThread]: Store serial: [18751950]
