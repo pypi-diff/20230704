@@ -1496,3 +1496,131 @@
 [2023-07-04 02:01:19] INFO root fetch - processPackages [gnssanalysis]: Remove: archive file [/home/abi/fetcher/tmp/gnssanalysis-0.0.9.tar.gz]
 [2023-07-04 02:01:19] INFO root fetch - main [MainThread]: End processing [gnssanalysis]: success
 [2023-07-04 02:01:19] INFO root fetch - main [MainThread]: Store serial: [18746603]
+[2023-07-04 02:06:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18746603]
+[2023-07-04 02:06:27] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-04 02:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: konko
+[2023-07-04 02:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lollms
+[2023-07-04 02:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyMidjourney
+[2023-07-04 02:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: population-trend
+[2023-07-04 02:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yt-dlp-types
+[2023-07-04 02:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cjm-yolox-pytorch
+[2023-07-04 02:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchdatasets-nightly
+[2023-07-04 02:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cjm-yolox-pytorch
+[2023-07-04 02:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mct-nightly
+[2023-07-04 02:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jaxkern-nightly
+[2023-07-04 02:06:27] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1688342617] Old Version: [1688256233]
+[2023-07-04 02:06:28] INFO root fetch - processPackages [population-trend]: New version: [3.0.0] Old Version: [2.0.2]
+[2023-07-04 02:06:28] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 02:06:28] WARNING root fetch - processPackages [PyMidjourney]: Skipping, unable to determine old version
+[2023-07-04 02:06:28] INFO root fetch - processPackages [PyMidjourney]: Start processing: konko
+[2023-07-04 02:06:28] INFO root fetch - main [MainThread]: End processing [PyMidjourney] error
+[2023-07-04 02:06:28] INFO root fetch - processPackages [konko]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 02:06:28] INFO root fetch - processPackages [yt-dlp-types]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-04 02:06:28] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 02:06:28] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-04 02:06:28] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-04 02:06:28] INFO root fetch - processPackages [konko]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 02:06:28] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230704.post446] Old Version: [1.9.0.20230703.post447]
+[2023-07-04 02:06:28] INFO root fetch - processPackages [population-trend]: Downloading https://files.pythonhosted.org/packages/f6/08/096bc5b77f24ff959960ffeebf4f79753b09af63e5e460acdcc112c33093/population_trend-2.0.2.tar.gz
+[2023-07-04 02:06:28] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-04 02:06:28] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-04 02:06:28] INFO root fetch - processPackages [yt-dlp-types]: Downloading https://files.pythonhosted.org/packages/4b/ac/b189bd862e8c9b2721ce4d822e2a7d717aa814a98e068bf087180ad8ac41/yt_dlp_types-0.0.4.tar.gz
+[2023-07-04 02:06:28] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-04 02:06:28] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/51/8e/48083b9d33edbab56d251e04df0d14c1119bc875587c9524f5d2deb8ec2e/torchdatasets-nightly-1688256233.tar.gz
+[2023-07-04 02:06:28] INFO root fetch - processPackages [konko]: Downloading https://files.pythonhosted.org/packages/c8/a1/f558419d79f39e4b5bba5f1d1a77e34a44d9d9097cdba82831aab894ac2c/konko-0.0.8.tar.gz
+[2023-07-04 02:06:28] INFO root fetch - processPackages [konko]: Downloading https://files.pythonhosted.org/packages/c8/a1/f558419d79f39e4b5bba5f1d1a77e34a44d9d9097cdba82831aab894ac2c/konko-0.0.8.tar.gz
+[2023-07-04 02:06:28] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/55/8e/c10a453677812ff66a65c459737c99f6b99cc00da8cc2e27f3a1f924faa0/lollms-2.1.8.tar.gz
+[2023-07-04 02:06:28] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/b8/5c/1489a731bc557045f4dc31b32235e7f43e384383dc9949be15c76b5194e5/mct-nightly-1.9.0.20230703.post447.tar.gz
+[2023-07-04 02:06:28] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-04 02:06:28] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-04 02:06:28] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-04 02:06:28] INFO root fetch - processPackages [population-trend]: Downloading https://files.pythonhosted.org/packages/75/99/3fb43b050969308bd88efb65699a676fd9e4e3645a046677fc093b249941/population_trend-3.0.0.tar.gz
+[2023-07-04 02:06:28] INFO root fetch - processPackages [yt-dlp-types]: Downloading https://files.pythonhosted.org/packages/1c/1b/05529ce5e375449ad9b9ef344a179d81b49a4910ac747db75400baa48d82/yt_dlp_types-0.0.5.tar.gz
+[2023-07-04 02:06:28] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/57/b7/be77afe4591b49209e7f17bd4c16c1ddbc4029e7300d835a95ccffeb536f/torchdatasets-nightly-1688342617.tar.gz
+[2023-07-04 02:06:29] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-04 02:06:29] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230704/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 02:06:29] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-04 02:06:29] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230704/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 02:06:29] INFO root fetch - processPackages [konko]: Downloading https://files.pythonhosted.org/packages/f4/72/675c99375d7380f968817ebe7996076c27e4ea3d454a024720d7f97362e5/konko-0.0.9.tar.gz
+[2023-07-04 02:06:29] INFO root fetch - processPackages [konko]: Downloading https://files.pythonhosted.org/packages/f4/72/675c99375d7380f968817ebe7996076c27e4ea3d454a024720d7f97362e5/konko-0.0.9.tar.gz
+[2023-07-04 02:06:29] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-04 02:06:29] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230704/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-04 02:06:29] INFO root fetch - processPackages [yt-dlp-types]: executing diffoscope
+[2023-07-04 02:06:29] INFO root fetch - processPackages [yt-dlp-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_dlp_types-0.0.4.tar.gz tmp/yt_dlp_types-0.0.5.tar.gz --markdown 20230704/y/yt-dlp-types/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-04 02:06:29] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-04 02:06:29] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1688256233.tar.gz tmp/torchdatasets-nightly-1688342617.tar.gz --markdown 20230704/t/torchdatasets-nightly/1688256233-1688342617/diff.md --exclude *.pyd
+[2023-07-04 02:06:29] INFO root fetch - processPackages [population-trend]: executing diffoscope
+[2023-07-04 02:06:29] INFO root fetch - processPackages [population-trend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/population_trend-2.0.2.tar.gz tmp/population_trend-3.0.0.tar.gz --markdown 20230704/p/population-trend/2.0.2-3.0.0/diff.md --exclude *.pyd
+[2023-07-04 02:06:29] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/48/d9/2d710ff07bf8b4281dfc7f076a0071f206c358906fe0ff7c674208da98a1/mct-nightly-1.9.0.20230704.post446.tar.gz
+[2023-07-04 02:06:29] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/6a/83/7745db4a743155e7a857ec418630027696e10e7fb67dfd6805a2496bdb64/lollms-2.1.9.tar.gz
+[2023-07-04 02:06:29] INFO root fetch - processPackages [konko]: executing diffoscope
+[2023-07-04 02:06:29] INFO root fetch - processPackages [konko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konko-0.0.8.tar.gz tmp/konko-0.0.9.tar.gz --markdown 20230704/k/konko/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 02:06:29] INFO root fetch - processPackages [konko]: executing diffoscope
+[2023-07-04 02:06:29] INFO root fetch - processPackages [konko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konko-0.0.8.tar.gz tmp/konko-0.0.9.tar.gz --markdown 20230704/k/konko/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 02:06:29] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-04 02:06:29] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230704/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-04 02:06:29] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-04 02:06:29] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230703.post447.tar.gz tmp/mct-nightly-1.9.0.20230704.post446.tar.gz --markdown 20230704/m/mct-nightly/1.9.0.20230703.post447-1.9.0.20230704.post446/diff.md --exclude *.pyd
+[2023-07-04 02:06:30] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-04 02:06:30] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-04 02:06:30] INFO root fetch - processPackages [jaxkern-nightly]: Start processing: lollms
+[2023-07-04 02:06:30] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-04 02:06:30] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-04 02:06:30] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-04 02:06:30] INFO root fetch - processPackages [cjm-yolox-pytorch]: Start processing: cmake-common
+[2023-07-04 02:06:30] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-04 02:06:30] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-04 02:06:30] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688256233.tar.gz]
+[2023-07-04 02:06:30] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688342617.tar.gz]
+[2023-07-04 02:06:30] INFO root fetch - processPackages [torchdatasets-nightly]: Start processing: cjm-yolox-pytorch
+[2023-07-04 02:06:30] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-04 02:06:30] INFO root fetch - processPackages [konko]: Remove: archive file [/home/abi/fetcher/tmp/konko-0.0.8.tar.gz]
+[2023-07-04 02:06:30] INFO root fetch - processPackages [konko]: Remove: archive file [/home/abi/fetcher/tmp/konko-0.0.9.tar.gz]
+[2023-07-04 02:06:30] INFO root fetch - processPackages [konko]: Start processing: beam-sdk
+[2023-07-04 02:06:30] INFO root fetch - main [MainThread]: End processing [konko]: success
+[2023-07-04 02:06:30] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 02:06:30] INFO root fetch - processPackages [population-trend]: Remove: archive file [/home/abi/fetcher/tmp/population_trend-2.0.2.tar.gz]
+[2023-07-04 02:06:30] INFO root fetch - processPackages [population-trend]: Remove: archive file [/home/abi/fetcher/tmp/population_trend-3.0.0.tar.gz]
+[2023-07-04 02:06:30] INFO root fetch - main [MainThread]: End processing [population-trend]: success
+[2023-07-04 02:06:30] INFO root fetch - processPackages [cmake-common]: New version: [4.0] Old Version: [3.4.2]
+[2023-07-04 02:06:30] INFO root fetch - main [MainThread]: End processing [konko]: success
+[2023-07-04 02:06:30] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-04 02:06:30] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-04 02:06:30] INFO root fetch - processPackages [beam-sdk]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-04 02:06:30] INFO root fetch - processPackages [yt-dlp-types]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp_types-0.0.4.tar.gz]
+[2023-07-04 02:06:30] INFO root fetch - processPackages [yt-dlp-types]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp_types-0.0.5.tar.gz]
+[2023-07-04 02:06:30] INFO root fetch - main [MainThread]: End processing [yt-dlp-types]: success
+[2023-07-04 02:06:30] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-04 02:06:30] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230704/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-04 02:06:31] INFO root fetch - processPackages [cmake-common]: Downloading https://files.pythonhosted.org/packages/3a/6a/a2ea9dc2ee5e4eac70449772d67e608725c911931ac1385f14242fb4b168/cmake_common-3.4.2.tar.gz
+[2023-07-04 02:06:31] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.8.tar.gz]
+[2023-07-04 02:06:31] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
+[2023-07-04 02:06:31] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-07-04 02:06:31] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-04 02:06:31] INFO root fetch - processPackages [beam-sdk]: Downloading https://files.pythonhosted.org/packages/d6/21/9666fc17e5c5d3b0f75cde3f0ad0a33e2fe3063aa155fc1fc4593572bb8d/beam-sdk-0.9.8.tar.gz
+[2023-07-04 02:06:31] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-04 02:06:31] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230704/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 02:06:31] INFO root fetch - processPackages [cmake-common]: Downloading https://files.pythonhosted.org/packages/aa/fc/f3f15e43208a25e3dbff83daa3d7e4dd31041367d59b8ec8e68f8b6faa64/cmake_common-4.0.tar.gz
+[2023-07-04 02:06:31] ERROR root fetch - processPackages [lollms]: Diffoscope failed: time="2023-07-04T02:06:30+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/lollms-2.1.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/lollms-2.1.9.tar.gz: No such file or directory
+
+[2023-07-04 02:06:31] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-07-04 02:06:31] INFO root fetch - processPackages [cmake-common]: executing diffoscope
+[2023-07-04 02:06:31] INFO root fetch - processPackages [cmake-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmake_common-3.4.2.tar.gz tmp/cmake_common-4.0.tar.gz --markdown 20230704/c/cmake-common/3.4.2-4.0/diff.md --exclude *.pyd
+[2023-07-04 02:06:31] INFO root fetch - processPackages [beam-sdk]: Downloading https://files.pythonhosted.org/packages/64/d7/1ec63c342b9af2c5412a757ed5c8a6c98db462032364060ff95bda50e556/beam-sdk-0.9.9.tar.gz
+[2023-07-04 02:06:31] INFO root fetch - processPackages [beam-sdk]: executing diffoscope
+[2023-07-04 02:06:31] INFO root fetch - processPackages [beam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam-sdk-0.9.8.tar.gz tmp/beam-sdk-0.9.9.tar.gz --markdown 20230704/b/beam-sdk/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-04 02:06:32] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-04 02:06:32] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-04 02:06:32] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-04 02:06:32] INFO root fetch - processPackages [beam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/beam-sdk-0.9.8.tar.gz]
+[2023-07-04 02:06:32] INFO root fetch - processPackages [beam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/beam-sdk-0.9.9.tar.gz]
+[2023-07-04 02:06:32] INFO root fetch - main [MainThread]: End processing [beam-sdk]: success
+[2023-07-04 02:06:32] INFO root fetch - processPackages [cmake-common]: Remove: archive file [/home/abi/fetcher/tmp/cmake_common-3.4.2.tar.gz]
+[2023-07-04 02:06:32] INFO root fetch - processPackages [cmake-common]: Remove: archive file [/home/abi/fetcher/tmp/cmake_common-4.0.tar.gz]
+[2023-07-04 02:06:32] INFO root fetch - main [MainThread]: End processing [cmake-common]: success
+[2023-07-04 02:06:32] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230703.post447.tar.gz]
+[2023-07-04 02:06:32] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230704.post446.tar.gz]
+[2023-07-04 02:06:32] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-04 02:06:32] INFO root fetch - main [MainThread]: Store serial: [18746651]
