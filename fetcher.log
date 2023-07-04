@@ -21536,3 +21536,124 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 14:31:59] INFO root fetch - processPackages [accelbyte-py-sdk]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk-0.44.0.tar.gz]
 [2023-07-04 14:31:59] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk]: success
 [2023-07-04 14:31:59] INFO root fetch - main [MainThread]: Store serial: [18754572]
+[2023-07-04 14:37:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18754572]
+[2023-07-04 14:37:09] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-04 14:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-bailian20230601
+[2023-07-04 14:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-route53-health-check
+[2023-07-04 14:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volvisualizer
+[2023-07-04 14:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: configdict
+[2023-07-04 14:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arclet-alconna
+[2023-07-04 14:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apysc
+[2023-07-04 14:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mykit
+[2023-07-04 14:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: types-setuptools
+[2023-07-04 14:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: types-redis
+[2023-07-04 14:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-route53-health-check
+[2023-07-04 14:37:09] INFO root fetch - processPackages [mykit]: New version: [5.2.0] Old Version: [5.1.0]
+[2023-07-04 14:37:09] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 14:37:09] WARNING root fetch - processPackages [alibabacloud-bailian20230601]: Skipping, unable to determine old version
+[2023-07-04 14:37:09] INFO root fetch - processPackages [alibabacloud-bailian20230601]: Start processing: konfuzio-sdk
+[2023-07-04 14:37:09] INFO root fetch - main [MainThread]: End processing [alibabacloud-bailian20230601] error
+[2023-07-04 14:37:09] INFO root fetch - processPackages [configdict]: New version: [2.8.0] Old Version: [2.7.0]
+[2023-07-04 14:37:09] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 14:37:09] INFO root fetch - processPackages [types-redis]: New version: [4.6.0.2] Old Version: [4.6.0.1]
+[2023-07-04 14:37:09] INFO root fetch - processPackages [types-setuptools]: New version: [68.0.0.1] Old Version: [68.0.0.0]
+[2023-07-04 14:37:09] INFO root fetch - processPackages [volvisualizer]: New version: [1.1.6] Old Version: [1.1.3]
+[2023-07-04 14:37:09] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/55/41/3edda7863b3276133022fee4fe9eeb243a160d6917f23ca5611c3bef03cd/mykit-5.1.0.tar.gz
+[2023-07-04 14:37:09] INFO root fetch - processPackages [arclet-alconna]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-04 14:37:09] INFO root fetch - processPackages [apysc]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-07-04 14:37:09] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-07-04 14:37:09] INFO root fetch - processPackages [configdict]: Downloading https://files.pythonhosted.org/packages/6c/db/9b2c381874ac828826105bd73fd6d7c0141c00d0c25a31bfb0a5f702878d/configdict-2.7.0-py3-none-any.whl
+[2023-07-04 14:37:09] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/a8/f1/c96971e2cc56adcde998c2d7a12c5cfd4591bb08ceefc50e3f6627a7fbab/pepperize.cdk-route53-health-check-0.0.98.tar.gz
+[2023-07-04 14:37:09] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/a8/f1/c96971e2cc56adcde998c2d7a12c5cfd4591bb08ceefc50e3f6627a7fbab/pepperize.cdk-route53-health-check-0.0.98.tar.gz
+[2023-07-04 14:37:10] INFO root fetch - processPackages [types-setuptools]: Downloading https://files.pythonhosted.org/packages/02/3a/a2cc23768db03109c2005d425261ce3665e6f084c35de7b681e78542d1b6/types-setuptools-68.0.0.0.tar.gz
+[2023-07-04 14:37:10] INFO root fetch - processPackages [volvisualizer]: Downloading https://files.pythonhosted.org/packages/7b/79/c2682ce0f59e9472ff03c305a5a5d71e8717e1d937db5337b62454bea0e5/volvisualizer-1.1.3-py3-none-any.whl
+[2023-07-04 14:37:10] INFO root fetch - processPackages [arclet-alconna]: Downloading https://files.pythonhosted.org/packages/c6/db/97e0f4658f256f534a6a058447552b56cfa19b7c961c652ed0fbbad0170b/arclet-alconna-1.7.8.tar.gz
+[2023-07-04 14:37:10] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/33/90/1ef4a94e7b98caf68e36cffc258ac43b494ac521789a79a0027b0d407750/apysc-3.1.8.tar.gz
+[2023-07-04 14:37:10] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/4f/f5/2bfb02274a663fecacfbe56ab6ee52afd2546d489e8da16b681ad48dab1a/mykit-5.2.0.tar.gz
+[2023-07-04 14:37:10] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-07-04 14:37:10] INFO root fetch - processPackages [types-redis]: Downloading https://files.pythonhosted.org/packages/b0/5b/3d514eb5708923dfa5b5a02c2e9f14a41f984b963667c0949978845a50dd/types-redis-4.6.0.1.tar.gz
+[2023-07-04 14:37:10] INFO root fetch - processPackages [configdict]: Downloading https://files.pythonhosted.org/packages/68/64/a8acfb22b6fda5a2db29154cc4a0f710d0447486ba2e37aa934b73ada3d4/configdict-2.8.0-py3-none-any.whl
+[2023-07-04 14:37:10] INFO root fetch - processPackages [mykit]: executing diffoscope
+[2023-07-04 14:37:10] INFO root fetch - processPackages [mykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mykit-5.1.0.tar.gz tmp/mykit-5.2.0.tar.gz --markdown 20230704/m/mykit/5.1.0-5.2.0/diff.md --exclude *.pyd
+[2023-07-04 14:37:10] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/9f/92/909a62b351141186c782d8bdc77ece2c0787b84204291ce16a1ddb09b89e/pepperize.cdk-route53-health-check-0.0.99.tar.gz
+[2023-07-04 14:37:10] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/9f/92/909a62b351141186c782d8bdc77ece2c0787b84204291ce16a1ddb09b89e/pepperize.cdk-route53-health-check-0.0.99.tar.gz
+[2023-07-04 14:37:10] INFO root fetch - processPackages [configdict]: executing diffoscope
+[2023-07-04 14:37:10] INFO root fetch - processPackages [configdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configdict-2.7.0-py3-none-any.whl.zip tmp/configdict-2.8.0-py3-none-any.whl.zip --markdown 20230704/c/configdict/2.7.0-2.8.0/diff.md --exclude *.pyd
+[2023-07-04 14:37:10] INFO root fetch - processPackages [types-setuptools]: Downloading https://files.pythonhosted.org/packages/12/cf/0b2798b98ef1aa9009bbd03bae5fe76fd653ef99afe804db3bc16df600d2/types-setuptools-68.0.0.1.tar.gz
+[2023-07-04 14:37:10] INFO root fetch - processPackages [volvisualizer]: Downloading https://files.pythonhosted.org/packages/fd/5a/1bc8d322a5d157c1ef673b8d0c4004bef5d34aecd7cb9ba3c6286b0220ad/volvisualizer-1.1.6-py3-none-any.whl
+[2023-07-04 14:37:10] INFO root fetch - processPackages [types-redis]: Downloading https://files.pythonhosted.org/packages/eb/a3/07520fefbe92b37261138b6d30c9e713d73968018aa5f9421f4cf645ffef/types-redis-4.6.0.2.tar.gz
+[2023-07-04 14:37:10] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-07-04 14:37:10] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230704/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 14:37:10] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-07-04 14:37:10] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230704/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 14:37:10] INFO root fetch - processPackages [arclet-alconna]: Downloading https://files.pythonhosted.org/packages/01/0c/99507417d89907e5272dd8bcbc39efec86528a0e9c1d4a964b679782767d/arclet_alconna-1.7.9.tar.gz
+[2023-07-04 14:37:10] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/88/bf/40579474110ab86897c2b0db5930ef686ce4a95a1d25b0694f14aaea49aa/apysc-3.1.9.tar.gz
+[2023-07-04 14:37:10] INFO root fetch - processPackages [types-redis]: executing diffoscope
+[2023-07-04 14:37:10] INFO root fetch - processPackages [types-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-redis-4.6.0.1.tar.gz tmp/types-redis-4.6.0.2.tar.gz --markdown 20230704/t/types-redis/4.6.0.1-4.6.0.2/diff.md --exclude *.pyd
+[2023-07-04 14:37:10] INFO root fetch - processPackages [volvisualizer]: executing diffoscope
+[2023-07-04 14:37:10] INFO root fetch - processPackages [volvisualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volvisualizer-1.1.3-py3-none-any.whl.zip tmp/volvisualizer-1.1.6-py3-none-any.whl.zip --markdown 20230704/v/volvisualizer/1.1.3-1.1.6/diff.md --exclude *.pyd
+[2023-07-04 14:37:10] INFO root fetch - processPackages [arclet-alconna]: executing diffoscope
+[2023-07-04 14:37:10] INFO root fetch - processPackages [arclet-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-1.7.8.tar.gz tmp/arclet_alconna-1.7.9.tar.gz --markdown 20230704/a/arclet-alconna/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-04 14:37:10] INFO root fetch - processPackages [types-setuptools]: executing diffoscope
+[2023-07-04 14:37:10] INFO root fetch - processPackages [types-setuptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-setuptools-68.0.0.0.tar.gz tmp/types-setuptools-68.0.0.1.tar.gz --markdown 20230704/t/types-setuptools/68.0.0.0-68.0.0.1/diff.md --exclude *.pyd
+[2023-07-04 14:37:11] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-07-04 14:37:11] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-3.1.8.tar.gz tmp/apysc-3.1.9.tar.gz --markdown 20230704/a/apysc/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-07-04 14:37:11] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-5.1.0.tar.gz]
+[2023-07-04 14:37:11] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-5.2.0.tar.gz]
+[2023-07-04 14:37:11] INFO root fetch - processPackages [mykit]: Start processing: projen
+[2023-07-04 14:37:11] INFO root fetch - main [MainThread]: End processing [mykit]: success
+[2023-07-04 14:37:11] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-07-04 14:37:11] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-04 14:37:11] INFO root fetch - processPackages [configdict]: Remove: archive file [/home/abi/fetcher/tmp/configdict-2.7.0-py3-none-any.whl.zip]
+[2023-07-04 14:37:11] INFO root fetch - processPackages [configdict]: Remove: archive file [/home/abi/fetcher/tmp/configdict-2.8.0-py3-none-any.whl.zip]
+[2023-07-04 14:37:11] INFO root fetch - processPackages [configdict]: Start processing: ome-types
+[2023-07-04 14:37:11] INFO root fetch - main [MainThread]: End processing [configdict]: success
+[2023-07-04 14:37:11] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-04 14:37:11] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-07-04 14:37:11] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230704/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-07-04 14:37:11] INFO root fetch - processPackages [ome-types]: New version: [0.4.0a2] Old Version: [0.4.0a1]
+[2023-07-04 14:37:12] INFO root fetch - processPackages [ome-types]: Downloading https://files.pythonhosted.org/packages/0b/72/a9c05ddb5faa4c04e6af68b1ebd12933d43d21f2b73c04e69e86a6dfc444/ome_types-0.4.0a1.tar.gz
+[2023-07-04 14:37:12] INFO root fetch - processPackages [volvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/volvisualizer-1.1.3-py3-none-any.whl.zip]
+[2023-07-04 14:37:12] INFO root fetch - processPackages [volvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/volvisualizer-1.1.6-py3-none-any.whl.zip]
+[2023-07-04 14:37:12] INFO root fetch - processPackages [volvisualizer]: Start processing: ul-data-aggregator-sdk
+[2023-07-04 14:37:12] INFO root fetch - main [MainThread]: End processing [volvisualizer]: success
+[2023-07-04 14:37:12] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-04 14:37:12] INFO root fetch - processPackages [ul-data-aggregator-sdk]: New version: [8.9.5] Old Version: [8.11.1]
+[2023-07-04 14:37:12] INFO root fetch - processPackages [ome-types]: Downloading https://files.pythonhosted.org/packages/f7/2d/086e042ba85586ff439739adc3358daeddae42af87a59dd22ee7b913c2e9/ome_types-0.4.0a2.tar.gz
+[2023-07-04 14:37:12] INFO root fetch - processPackages [types-redis]: Remove: archive file [/home/abi/fetcher/tmp/types-redis-4.6.0.1.tar.gz]
+[2023-07-04 14:37:12] INFO root fetch - processPackages [types-redis]: Remove: archive file [/home/abi/fetcher/tmp/types-redis-4.6.0.2.tar.gz]
+[2023-07-04 14:37:12] INFO root fetch - main [MainThread]: End processing [types-redis]: success
+[2023-07-04 14:37:12] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/03/92/7e4af38bb4696e1e224fdd860d16a470c50fdae88b1dfa35762b9df1dab1/ul-data-aggregator-sdk-8.11.1.tar.gz
+[2023-07-04 14:37:12] INFO root fetch - processPackages [arclet-alconna]: Remove: archive file [/home/abi/fetcher/tmp/arclet-alconna-1.7.8.tar.gz]
+[2023-07-04 14:37:12] INFO root fetch - processPackages [arclet-alconna]: Remove: archive file [/home/abi/fetcher/tmp/arclet_alconna-1.7.9.tar.gz]
+[2023-07-04 14:37:12] INFO root fetch - main [MainThread]: End processing [arclet-alconna]: success
+[2023-07-04 14:37:12] INFO root fetch - processPackages [types-setuptools]: Remove: archive file [/home/abi/fetcher/tmp/types-setuptools-68.0.0.0.tar.gz]
+[2023-07-04 14:37:12] INFO root fetch - processPackages [types-setuptools]: Remove: archive file [/home/abi/fetcher/tmp/types-setuptools-68.0.0.1.tar.gz]
+[2023-07-04 14:37:12] INFO root fetch - main [MainThread]: End processing [types-setuptools]: success
+[2023-07-04 14:37:12] INFO root fetch - processPackages [ome-types]: executing diffoscope
+[2023-07-04 14:37:12] INFO root fetch - processPackages [ome-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ome_types-0.4.0a1.tar.gz tmp/ome_types-0.4.0a2.tar.gz --markdown 20230704/o/ome-types/0.4.0a1-0.4.0a2/diff.md --exclude *.pyd
+[2023-07-04 14:37:12] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/ae/cf/20ade1e77c7db14608e4ad73e7b31dd0bd4ee46d7222add34aa0ee1abaca/ul-data-aggregator-sdk-8.9.5.tar.gz
+[2023-07-04 14:37:12] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-04 14:37:12] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230704/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-04 14:37:12] INFO root fetch - processPackages [ul-data-aggregator-sdk]: executing diffoscope
+[2023-07-04 14:37:12] INFO root fetch - processPackages [ul-data-aggregator-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-data-aggregator-sdk-8.11.1.tar.gz tmp/ul-data-aggregator-sdk-8.9.5.tar.gz --markdown 20230704/u/ul-data-aggregator-sdk/8.11.1-8.9.5/diff.md --exclude *.pyd
+[2023-07-04 14:37:13] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz]
+[2023-07-04 14:37:13] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz]
+[2023-07-04 14:37:13] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-07-04 14:37:13] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-07-04 14:37:13] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-07-04 14:37:13] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-07-04 14:37:13] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-07-04 14:37:13] INFO root fetch - processPackages [ome-types]: Remove: archive file [/home/abi/fetcher/tmp/ome_types-0.4.0a1.tar.gz]
+[2023-07-04 14:37:13] INFO root fetch - processPackages [ome-types]: Remove: archive file [/home/abi/fetcher/tmp/ome_types-0.4.0a2.tar.gz]
+[2023-07-04 14:37:13] INFO root fetch - main [MainThread]: End processing [ome-types]: success
+[2023-07-04 14:37:13] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.11.1.tar.gz]
+[2023-07-04 14:37:13] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.9.5.tar.gz]
+[2023-07-04 14:37:13] INFO root fetch - main [MainThread]: End processing [ul-data-aggregator-sdk]: success
+[2023-07-04 14:37:14] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-04 14:37:14] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-04 14:37:14] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-04 14:37:15] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.8.tar.gz]
+[2023-07-04 14:37:15] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.9.tar.gz]
+[2023-07-04 14:37:15] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-07-04 14:37:15] INFO root fetch - main [MainThread]: Store serial: [18754620]
