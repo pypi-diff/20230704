@@ -22355,3 +22355,223 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 15:10:08] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.4-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-04 15:10:08] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-07-04 15:10:08] INFO root fetch - main [MainThread]: Store serial: [18754898]
+[2023-07-04 15:15:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18754898]
+[2023-07-04 15:15:19] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-04 15:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auditLogger-abhishekzopper
+[2023-07-04 15:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-game-collection
+[2023-07-04 15:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: JBioSeqTools
+[2023-07-04 15:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eventix
+[2023-07-04 15:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-stdlib
+[2023-07-04 15:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drillvision
+[2023-07-04 15:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: redturtle.volto
+[2023-07-04 15:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bofire-converters
+[2023-07-04 15:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: akerbp.mlops
+[2023-07-04 15:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-numpy
+[2023-07-04 15:15:19] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 15:15:19] INFO root fetch - processPackages [redturtle.volto]: New version: [5.0.1] Old Version: [5.0.0rc1]
+[2023-07-04 15:15:19] INFO root fetch - processPackages [bofire-converters]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-04 15:15:19] INFO root fetch - processPackages [eventix]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-04 15:15:19] INFO root fetch - processPackages [JBioSeqTools]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-04 15:15:19] INFO root fetch - processPackages [auditLogger-abhishekzopper]: New version: [2.3] Old Version: [2.2]
+[2023-07-04 15:15:19] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-04 15:15:19] INFO root fetch - processPackages [drillvision]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-04 15:15:19] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.2.1a9] Old Version: [3.2.1a8]
+[2023-07-04 15:15:19] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 15:15:19] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-04 15:15:19] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-07-04 15:15:19] INFO root fetch - processPackages [auditLogger-abhishekzopper]: Downloading https://files.pythonhosted.org/packages/97/4f/f46547d6afd4c84721929358b80d88c3f9aec87e8726762099a1d8721339/auditLogger-abhishekzopper-2.2.tar.gz
+[2023-07-04 15:15:19] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-04 15:15:19] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/de/0a/ceb3a6dea90f0331e5680ee0aeec282809a7c87dea527072053e77526688/akerbp.mlops-3.2.1a8.tar.gz
+[2023-07-04 15:15:19] INFO root fetch - processPackages [bofire-converters]: Downloading https://files.pythonhosted.org/packages/06/f7/3c22174d4e7d57657f50beb65b2eb3f070dd2d47e14e4750e86fbbff10b1/bofire_converters-0.0.1.tar.gz
+[2023-07-04 15:15:19] INFO root fetch - processPackages [redturtle.volto]: Downloading https://files.pythonhosted.org/packages/4d/2d/cf2f35a90261d22ff47bcb8c4bf750471123313e1fe73268f206a8e4a429/redturtle.volto-5.0.0rc1.tar.gz
+[2023-07-04 15:15:19] INFO root fetch - processPackages [eventix]: Downloading https://files.pythonhosted.org/packages/46/37/60bc485138bf294bbe749e1e21240ea9dc3f857d8005bfdf21d4ab2cc94d/eventix-0.3.3.tar.gz
+[2023-07-04 15:15:19] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/f3/cf/be9c0bb0bc8058a6ffb47a372f8ad40a91ea62906f43245e8877e5475963/JBioSeqTools-1.1.7.tar.gz
+[2023-07-04 15:15:19] INFO root fetch - processPackages [drillvision]: Downloading https://files.pythonhosted.org/packages/f9/25/188ebaf30f56a5abc435e1f39b14787a8afab52c884dff43c9f0c8e1afe3/drillvision-0.1.0.tar.gz
+[2023-07-04 15:15:20] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-04 15:15:20] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-07-04 15:15:20] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-04 15:15:20] INFO root fetch - processPackages [auditLogger-abhishekzopper]: Downloading https://files.pythonhosted.org/packages/d3/57/b16d7b4e213a0f617a5ac27dc4aaa9d4de359ec3317c2798f5ba5fdadc89/auditLogger-abhishekzopper-2.3.tar.gz
+[2023-07-04 15:15:20] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/56/95/04711b6e17b68f1d356005f985c9d4d8dc3443017897f9002907d8cdfc55/akerbp.mlops-3.2.1a9.tar.gz
+[2023-07-04 15:15:20] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-04 15:15:20] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230704/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-04 15:15:20] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-04 15:15:20] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230704/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 15:15:20] INFO root fetch - processPackages [bofire-converters]: Downloading https://files.pythonhosted.org/packages/b8/70/a0e38c8fd91bd2a1a00aa44e88ff3f8748d909a01373860a7b67ccfed369/bofire_converters-0.0.2.tar.gz
+[2023-07-04 15:15:20] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/5d/b2/659d9261e0916bcaa8817450e041c2e8a982df94e3cd4a1475f7db7487d1/JBioSeqTools-1.1.8.tar.gz
+[2023-07-04 15:15:20] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-07-04 15:15:20] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.2.1a8.tar.gz tmp/akerbp.mlops-3.2.1a9.tar.gz --markdown 20230704/a/akerbp.mlops/3.2.1a8-3.2.1a9/diff.md --exclude *.pyd
+[2023-07-04 15:15:20] INFO root fetch - processPackages [drillvision]: Downloading https://files.pythonhosted.org/packages/e1/d8/867c1d13fb9b681bf0b960cca2fecf3908bf0cae10106df3b1d1f3bca986/drillvision-0.1.1.tar.gz
+[2023-07-04 15:15:20] INFO root fetch - processPackages [eventix]: Downloading https://files.pythonhosted.org/packages/ae/1a/34b3a1d64c3dac589eb7f4554ce5a805e6d13387ee4324d9b34f27e52d9c/eventix-0.4.0.tar.gz
+[2023-07-04 15:15:20] INFO root fetch - processPackages [auditLogger-abhishekzopper]: executing diffoscope
+[2023-07-04 15:15:20] INFO root fetch - processPackages [auditLogger-abhishekzopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auditLogger-abhishekzopper-2.2.tar.gz tmp/auditLogger-abhishekzopper-2.3.tar.gz --markdown 20230704/a/auditLogger-abhishekzopper/2.2-2.3/diff.md --exclude *.pyd
+[2023-07-04 15:15:20] INFO root fetch - processPackages [bofire-converters]: executing diffoscope
+[2023-07-04 15:15:20] INFO root fetch - processPackages [bofire-converters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bofire_converters-0.0.1.tar.gz tmp/bofire_converters-0.0.2.tar.gz --markdown 20230704/b/bofire-converters/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-04 15:15:20] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-04 15:15:20] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230704/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 15:15:20] INFO root fetch - processPackages [drillvision]: executing diffoscope
+[2023-07-04 15:15:20] INFO root fetch - processPackages [drillvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drillvision-0.1.0.tar.gz tmp/drillvision-0.1.1.tar.gz --markdown 20230704/d/drillvision/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-04 15:15:20] INFO root fetch - processPackages [JBioSeqTools]: executing diffoscope
+[2023-07-04 15:15:20] INFO root fetch - processPackages [JBioSeqTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBioSeqTools-1.1.7.tar.gz tmp/JBioSeqTools-1.1.8.tar.gz --markdown 20230704/J/JBioSeqTools/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-04 15:15:20] INFO root fetch - processPackages [redturtle.volto]: Downloading https://files.pythonhosted.org/packages/e0/b0/4c03b6b9278bfb58de4c40c9c2c3235a136772ec8daaffada795e412ccd2/redturtle.volto-5.0.1.tar.gz
+[2023-07-04 15:15:20] INFO root fetch - processPackages [redturtle.volto]: executing diffoscope
+[2023-07-04 15:15:20] INFO root fetch - processPackages [redturtle.volto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redturtle.volto-5.0.0rc1.tar.gz tmp/redturtle.volto-5.0.1.tar.gz --markdown 20230704/r/redturtle.volto/5.0.0rc1-5.0.1/diff.md --exclude *.pyd
+[2023-07-04 15:15:20] INFO root fetch - processPackages [eventix]: executing diffoscope
+[2023-07-04 15:15:20] INFO root fetch - processPackages [eventix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventix-0.3.3.tar.gz tmp/eventix-0.4.0.tar.gz --markdown 20230704/e/eventix/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-04 15:15:21] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-04 15:15:21] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-04 15:15:21] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: alibabacloud-aiccs20230516-py2
+[2023-07-04 15:15:21] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-04 15:15:21] INFO root fetch - processPackages [alibabacloud-aiccs20230516-py2]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-04 15:15:21] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-07-04 15:15:21] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-07-04 15:15:21] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Start processing: alibabacloud-aiccs20230516
+[2023-07-04 15:15:21] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-04 15:15:21] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-04 15:15:21] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-04 15:15:21] INFO root fetch - processPackages [nbdev-numpy]: Start processing: tah-data
+[2023-07-04 15:15:21] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-04 15:15:21] INFO root fetch - processPackages [alibabacloud-aiccs20230516-py2]: Downloading https://files.pythonhosted.org/packages/b7/23/ed9399b0fe423a7a5aac5a42b7b1776e4017a960c47b95cb7d960b9df9ff/alibabacloud_aiccs20230516_py2-1.0.0.tar.gz
+[2023-07-04 15:15:21] INFO root fetch - processPackages [bofire-converters]: Remove: archive file [/home/abi/fetcher/tmp/bofire_converters-0.0.1.tar.gz]
+[2023-07-04 15:15:21] INFO root fetch - processPackages [bofire-converters]: Remove: archive file [/home/abi/fetcher/tmp/bofire_converters-0.0.2.tar.gz]
+[2023-07-04 15:15:21] INFO root fetch - processPackages [bofire-converters]: Start processing: pp-project-pkg
+[2023-07-04 15:15:21] INFO root fetch - main [MainThread]: End processing [bofire-converters]: success
+[2023-07-04 15:15:22] INFO root fetch - processPackages [auditLogger-abhishekzopper]: Remove: archive file [/home/abi/fetcher/tmp/auditLogger-abhishekzopper-2.2.tar.gz]
+[2023-07-04 15:15:22] INFO root fetch - processPackages [auditLogger-abhishekzopper]: Remove: archive file [/home/abi/fetcher/tmp/auditLogger-abhishekzopper-2.3.tar.gz]
+[2023-07-04 15:15:22] INFO root fetch - processPackages [auditLogger-abhishekzopper]: Start processing: nbdev-pandas
+[2023-07-04 15:15:22] INFO root fetch - main [MainThread]: End processing [auditLogger-abhishekzopper]: success
+[2023-07-04 15:15:22] INFO root fetch - processPackages [tah-data]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-04 15:15:22] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202307041312] Old Version: [1.0.202307041308]
+[2023-07-04 15:15:22] INFO root fetch - processPackages [alibabacloud-aiccs20230516]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-04 15:15:22] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 15:15:22] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-1.1.7.tar.gz]
+[2023-07-04 15:15:22] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-1.1.8.tar.gz]
+[2023-07-04 15:15:22] INFO root fetch - processPackages [JBioSeqTools]: Start processing: nxstools
+[2023-07-04 15:15:22] INFO root fetch - main [MainThread]: End processing [JBioSeqTools]: success
+[2023-07-04 15:15:22] INFO root fetch - processPackages [drillvision]: Remove: archive file [/home/abi/fetcher/tmp/drillvision-0.1.0.tar.gz]
+[2023-07-04 15:15:22] INFO root fetch - processPackages [drillvision]: Remove: archive file [/home/abi/fetcher/tmp/drillvision-0.1.1.tar.gz]
+[2023-07-04 15:15:22] INFO root fetch - processPackages [drillvision]: Start processing: pydflow
+[2023-07-04 15:15:22] INFO root fetch - main [MainThread]: End processing [drillvision]: success
+[2023-07-04 15:15:22] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.1a8.tar.gz]
+[2023-07-04 15:15:22] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.1a9.tar.gz]
+[2023-07-04 15:15:22] INFO root fetch - processPackages [akerbp.mlops]: Start processing: sdqrcode
+[2023-07-04 15:15:22] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-07-04 15:15:22] INFO root fetch - processPackages [nxstools]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-07-04 15:15:22] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-04 15:15:22] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-04 15:15:22] INFO root fetch - processPackages [sdqrcode]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-04 15:15:22] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/0d/3f/6d9e260aaf351ca42980a50dda2cc21d3eba66de9c0cf63952418b9b7c4b/pp_project_pkg-1.0.202307041308-py3-none-any.whl
+[2023-07-04 15:15:22] INFO root fetch - processPackages [eventix]: Remove: archive file [/home/abi/fetcher/tmp/eventix-0.3.3.tar.gz]
+[2023-07-04 15:15:22] INFO root fetch - processPackages [eventix]: Remove: archive file [/home/abi/fetcher/tmp/eventix-0.4.0.tar.gz]
+[2023-07-04 15:15:22] INFO root fetch - processPackages [eventix]: Start processing: pp-project-pkg
+[2023-07-04 15:15:22] INFO root fetch - main [MainThread]: End processing [eventix]: success
+[2023-07-04 15:15:22] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-04 15:15:22] INFO root fetch - processPackages [alibabacloud-aiccs20230516]: Downloading https://files.pythonhosted.org/packages/bc/72/856e51ea2592e75948ca2420bf8ce4240c5111b5d22b978138252f42ea1d/alibabacloud_aiccs20230516-1.0.0.tar.gz
+[2023-07-04 15:15:22] INFO root fetch - processPackages [tah-data]: Downloading https://files.pythonhosted.org/packages/14/4a/0400becd60fb10a32229a0315e60356c96ebdac6ddbfc97fd45cf54cd534/tah_data-1.1.0.tar.gz
+[2023-07-04 15:15:22] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202307041314] Old Version: [1.0.202307041312]
+[2023-07-04 15:15:22] INFO root fetch - processPackages [sdqrcode]: Downloading https://files.pythonhosted.org/packages/8b/61/d5a9c1badb3401e53211b5363270d6f50059a48933f5621f402b6776215c/sdqrcode-0.3.8.tar.gz
+[2023-07-04 15:15:22] INFO root fetch - processPackages [nxstools]: Downloading https://files.pythonhosted.org/packages/84/46/b2964365a310f4a41c0aeb355140878571512cbc27ccf85f2e26f5f69789/nxstools-3.8.0.tar.gz
+[2023-07-04 15:15:22] INFO root fetch - processPackages [alibabacloud-aiccs20230516-py2]: Downloading https://files.pythonhosted.org/packages/0e/a7/a0281ee606e275b7ed5da85d12b11212706b96ec38e0937ed9e560198e2d/alibabacloud_aiccs20230516_py2-1.0.1.tar.gz
+[2023-07-04 15:15:22] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-04 15:15:22] INFO root fetch - processPackages [redturtle.volto]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.volto-5.0.0rc1.tar.gz]
+[2023-07-04 15:15:22] INFO root fetch - processPackages [redturtle.volto]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.volto-5.0.1.tar.gz]
+[2023-07-04 15:15:22] INFO root fetch - processPackages [redturtle.volto]: Start processing: JBioSeqTools
+[2023-07-04 15:15:22] INFO root fetch - main [MainThread]: End processing [redturtle.volto]: success
+[2023-07-04 15:15:22] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-04 15:15:22] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/be/0c/5d6fe931b4e39859b9ef76b340585946042dcf3310723d2396605b7047cb/pp_project_pkg-1.0.202307041312-py3-none-any.whl
+[2023-07-04 15:15:22] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/be/0c/5d6fe931b4e39859b9ef76b340585946042dcf3310723d2396605b7047cb/pp_project_pkg-1.0.202307041312-py3-none-any.whl
+[2023-07-04 15:15:22] INFO root fetch - processPackages [JBioSeqTools]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-04 15:15:22] INFO root fetch - processPackages [alibabacloud-aiccs20230516-py2]: executing diffoscope
+[2023-07-04 15:15:22] INFO root fetch - processPackages [alibabacloud-aiccs20230516-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aiccs20230516_py2-1.0.0.tar.gz tmp/alibabacloud_aiccs20230516_py2-1.0.1.tar.gz --markdown 20230704/a/alibabacloud-aiccs20230516-py2/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-04 15:15:22] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-04 15:15:22] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230704/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 15:15:22] INFO root fetch - processPackages [sdqrcode]: Downloading https://files.pythonhosted.org/packages/fa/29/532e2c99910c187f54c4e06f7fe9087174e8b7641fd3b4bf7d6014647d6d/sdqrcode-0.3.9.tar.gz
+[2023-07-04 15:15:22] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-07-04 15:15:22] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202307041308-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202307041312-py3-none-any.whl.zip --markdown 20230704/p/pp-project-pkg/1.0.202307041308-1.0.202307041312/diff.md --exclude *.pyd
+[2023-07-04 15:15:22] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-04 15:15:22] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230704/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-04 15:15:22] INFO root fetch - processPackages [tah-data]: Downloading https://files.pythonhosted.org/packages/62/dd/8ab14f8938cb9419d7b93e9639c7d990a31545cab15c7438353b033a11e3/tah_data-1.2.0.tar.gz
+[2023-07-04 15:15:22] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/5d/b2/659d9261e0916bcaa8817450e041c2e8a982df94e3cd4a1475f7db7487d1/JBioSeqTools-1.1.8.tar.gz
+[2023-07-04 15:15:23] INFO root fetch - processPackages [sdqrcode]: executing diffoscope
+[2023-07-04 15:15:23] INFO root fetch - processPackages [sdqrcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdqrcode-0.3.8.tar.gz tmp/sdqrcode-0.3.9.tar.gz --markdown 20230704/s/sdqrcode/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-04 15:15:23] INFO root fetch - processPackages [alibabacloud-aiccs20230516]: Downloading https://files.pythonhosted.org/packages/b5/eb/e28d98e57e7cd3c25db92ab5962c2b02c2571eeac78c467ea58b3ef245fd/alibabacloud_aiccs20230516-1.0.1.tar.gz
+[2023-07-04 15:15:23] INFO root fetch - processPackages [tah-data]: executing diffoscope
+[2023-07-04 15:15:23] INFO root fetch - processPackages [tah-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tah_data-1.1.0.tar.gz tmp/tah_data-1.2.0.tar.gz --markdown 20230704/t/tah-data/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-04 15:15:23] INFO root fetch - processPackages [nxstools]: Downloading https://files.pythonhosted.org/packages/07/02/9c4773f7d22547c1f62765ea915c410a90195e7a3b6a1d4ea0947c516c39/nxstools-3.9.0.tar.gz
+[2023-07-04 15:15:23] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/79/ae/c423259a8ae2df8536f573b10ec5a3e54d7619eb7abf2b7575502e06f7b0/pp_project_pkg-1.0.202307041314-py3-none-any.whl
+[2023-07-04 15:15:23] INFO root fetch - processPackages [alibabacloud-aiccs20230516]: executing diffoscope
+[2023-07-04 15:15:23] INFO root fetch - processPackages [alibabacloud-aiccs20230516]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aiccs20230516-1.0.0.tar.gz tmp/alibabacloud_aiccs20230516-1.0.1.tar.gz --markdown 20230704/a/alibabacloud-aiccs20230516/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-04 15:15:23] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/11/c2/f9d084a2056a3317482f21679a5faeab5490456b581b87a829f5862afac8/JBioSeqTools-1.1.9.tar.gz
+[2023-07-04 15:15:23] INFO root fetch - processPackages [nxstools]: executing diffoscope
+[2023-07-04 15:15:23] INFO root fetch - processPackages [nxstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxstools-3.8.0.tar.gz tmp/nxstools-3.9.0.tar.gz --markdown 20230704/n/nxstools/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-04 15:15:23] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-07-04 15:15:23] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202307041312-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202307041314-py3-none-any.whl.zip --markdown 20230704/p/pp-project-pkg/1.0.202307041312-1.0.202307041314/diff.md --exclude *.pyd
+[2023-07-04 15:15:24] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-04 15:15:24] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-04 15:15:24] INFO root fetch - processPackages [nbdev-pandas]: Start processing: kanonym4text
+[2023-07-04 15:15:24] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-04 15:15:24] INFO root fetch - processPackages [alibabacloud-aiccs20230516-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aiccs20230516_py2-1.0.0.tar.gz]
+[2023-07-04 15:15:24] INFO root fetch - processPackages [alibabacloud-aiccs20230516-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aiccs20230516_py2-1.0.1.tar.gz]
+[2023-07-04 15:15:24] INFO root fetch - processPackages [alibabacloud-aiccs20230516-py2]: Start processing: design.plone.contenttypes
+[2023-07-04 15:15:24] INFO root fetch - main [MainThread]: End processing [alibabacloud-aiccs20230516-py2]: success
+[2023-07-04 15:15:24] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202307041308-py3-none-any.whl.zip]
+[2023-07-04 15:15:24] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202307041312-py3-none-any.whl.zip]
+[2023-07-04 15:15:24] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-07-04 15:15:24] INFO root fetch - processPackages [tah-data]: Remove: archive file [/home/abi/fetcher/tmp/tah_data-1.1.0.tar.gz]
+[2023-07-04 15:15:24] INFO root fetch - processPackages [tah-data]: Remove: archive file [/home/abi/fetcher/tmp/tah_data-1.2.0.tar.gz]
+[2023-07-04 15:15:24] INFO root fetch - main [MainThread]: End processing [tah-data]: success
+[2023-07-04 15:15:24] INFO root fetch - processPackages [design.plone.contenttypes]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-07-04 15:15:24] INFO root fetch - processPackages [sdqrcode]: Remove: archive file [/home/abi/fetcher/tmp/sdqrcode-0.3.8.tar.gz]
+[2023-07-04 15:15:24] INFO root fetch - processPackages [sdqrcode]: Remove: archive file [/home/abi/fetcher/tmp/sdqrcode-0.3.9.tar.gz]
+[2023-07-04 15:15:24] INFO root fetch - main [MainThread]: End processing [sdqrcode]: success
+[2023-07-04 15:15:24] INFO root fetch - processPackages [kanonym4text]: New version: [0.1.7a0] Old Version: [0.1.6]
+[2023-07-04 15:15:24] ERROR root fetch - processPackages [pp-project-pkg]: Diffoscope failed: time="2023-07-04T15:15:23+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/pp_project_pkg-1.0.202307041312-py3-none-any.whl.zip does not exist
+
+[2023-07-04 15:15:24] INFO root fetch - main [MainThread]: End processing [pp-project-pkg] error
+[2023-07-04 15:15:24] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-04 15:15:24] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-04 15:15:24] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-04 15:15:24] INFO root fetch - processPackages [alibabacloud-aiccs20230516]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aiccs20230516-1.0.0.tar.gz]
+[2023-07-04 15:15:24] INFO root fetch - processPackages [alibabacloud-aiccs20230516]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aiccs20230516-1.0.1.tar.gz]
+[2023-07-04 15:15:24] INFO root fetch - main [MainThread]: End processing [alibabacloud-aiccs20230516]: success
+[2023-07-04 15:15:24] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/55/7a/b3d9adf8e72e07ce0dc8b544e82a10bf3f6e2afd264ede3c571ebd362181/design.plone.contenttypes-6.0.8.tar.gz
+[2023-07-04 15:15:24] INFO root fetch - processPackages [kanonym4text]: Downloading https://files.pythonhosted.org/packages/da/a2/59a805f7b5ec22afebc82149584ca18c8c735795359701fee9b387091a6f/kanonym4text-0.1.6.tar.gz
+[2023-07-04 15:15:25] INFO root fetch - processPackages [kanonym4text]: Downloading https://files.pythonhosted.org/packages/4e/9b/b24039b964747f8b5f12c934c7d065ba63c62ed83d856598d47ec876d756/kanonym4text-0.1.7a0-py3-none-any.whl
+[2023-07-04 15:15:25] INFO root fetch - processPackages [nxstools]: Remove: archive file [/home/abi/fetcher/tmp/nxstools-3.8.0.tar.gz]
+[2023-07-04 15:15:25] INFO root fetch - processPackages [nxstools]: Remove: archive file [/home/abi/fetcher/tmp/nxstools-3.9.0.tar.gz]
+[2023-07-04 15:15:25] INFO root fetch - main [MainThread]: End processing [nxstools]: success
+[2023-07-04 15:15:25] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/88/0d/5fca30d525d2cf06215ccd872cb468309acbca97d9de07e8c9c3228f5bd8/design.plone.contenttypes-6.0.9.tar.gz
+[2023-07-04 15:15:25] INFO root fetch - processPackages [kanonym4text]: executing diffoscope
+[2023-07-04 15:15:25] INFO root fetch - processPackages [kanonym4text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kanonym4text-0.1.6.tar.gz tmp/kanonym4text-0.1.7a0-py3-none-any.whl.zip --markdown 20230704/k/kanonym4text/0.1.6-0.1.7a0/diff.md --exclude *.pyd
+[2023-07-04 15:15:25] INFO root fetch - processPackages [design.plone.contenttypes]: executing diffoscope
+[2023-07-04 15:15:25] INFO root fetch - processPackages [design.plone.contenttypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.contenttypes-6.0.8.tar.gz tmp/design.plone.contenttypes-6.0.9.tar.gz --markdown 20230704/d/design.plone.contenttypes/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-07-04 15:15:25] INFO root fetch - processPackages [JBioSeqTools]: executing diffoscope
+[2023-07-04 15:15:25] INFO root fetch - processPackages [JBioSeqTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBioSeqTools-1.1.8.tar.gz tmp/JBioSeqTools-1.1.9.tar.gz --markdown 20230704/J/JBioSeqTools/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-04 15:15:25] INFO root fetch - processPackages [kanonym4text]: Remove: archive file [/home/abi/fetcher/tmp/kanonym4text-0.1.6.tar.gz]
+[2023-07-04 15:15:25] INFO root fetch - processPackages [kanonym4text]: Remove: archive file [/home/abi/fetcher/tmp/kanonym4text-0.1.7a0-py3-none-any.whl.zip]
+[2023-07-04 15:15:25] INFO root fetch - main [MainThread]: End processing [kanonym4text]: success
+[2023-07-04 15:15:26] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-1.1.8.tar.gz]
+[2023-07-04 15:15:26] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-1.1.9.tar.gz]
+[2023-07-04 15:15:26] INFO root fetch - main [MainThread]: End processing [JBioSeqTools]: success
+[2023-07-04 15:15:27] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.0.8.tar.gz]
+[2023-07-04 15:15:27] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.0.9.tar.gz]
+[2023-07-04 15:15:27] INFO root fetch - main [MainThread]: End processing [design.plone.contenttypes]: success
+[2023-07-04 15:15:27] INFO root fetch - main [MainThread]: Store serial: [18754965]
