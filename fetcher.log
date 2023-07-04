@@ -12117,3 +12117,90 @@
 [2023-07-04 07:02:52] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.9.0.tar.gz]
 [2023-07-04 07:02:52] INFO root fetch - main [MainThread]: End processing [pydantic-loggings]: success
 [2023-07-04 07:02:52] INFO root fetch - main [MainThread]: Store serial: [18750535]
+[2023-07-04 07:07:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18750535]
+[2023-07-04 07:08:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-04 07:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: one-api-tool
+[2023-07-04 07:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mcstatus
+[2023-07-04 07:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-bilichat
+[2023-07-04 07:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: taibun
+[2023-07-04 07:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: psychoanalyze
+[2023-07-04 07:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rapid-pe
+[2023-07-04 07:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tflite-model-maker-nightly
+[2023-07-04 07:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bilibili-up
+[2023-07-04 07:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: govtech-data
+[2023-07-04 07:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dask-cuda
+[2023-07-04 07:08:03] INFO root fetch - processPackages [taibun]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-04 07:08:03] INFO root fetch - processPackages [one-api-tool]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-04 07:08:03] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230704] Old Version: [0.1.1.dev20230703]
+[2023-07-04 07:08:03] WARNING root fetch - processPackages [bilibili-up]: Skipping, unable to determine old version
+[2023-07-04 07:08:03] INFO root fetch - main [MainThread]: End processing [bilibili-up] error
+[2023-07-04 07:08:03] INFO root fetch - processPackages [psychoanalyze]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-04 07:08:03] INFO root fetch - processPackages [mcstatus]: New version: [9.4.2] Old Version: [9.4.1]
+[2023-07-04 07:08:03] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-04 07:08:03] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202307030508] Old Version: [0.4.3.dev202307020508]
+[2023-07-04 07:08:03] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230703] Old Version: [23.8.0a230702]
+[2023-07-04 07:08:03] INFO root fetch - processPackages [taibun]: Downloading https://files.pythonhosted.org/packages/d6/35/3c0bace2dd5bea362f6b6de65215aa06a1b687d11c60e7031233544e226a/taibun-0.0.1.tar.gz
+[2023-07-04 07:08:03] INFO root fetch - processPackages [govtech-data]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 07:08:03] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/3a/20/e59c5ee2bb76324de82641dda80757788c4da3ea7ed08413b9107abb903b/dask-cuda-23.8.0a230702.tar.gz
+[2023-07-04 07:08:03] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/25/62/6eea93ff51d6ec5ce75156a3ca1895a3265e7383bf04da5e05933a1edae0/one-api-tool-0.4.3.tar.gz
+[2023-07-04 07:08:03] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/d9/fc/b930ba5eb6a14e553a417c0a52f7867869c3a9654cf13a758b78e5f2876c/rapid_pe-0.1.1.dev20230703.tar.gz
+[2023-07-04 07:08:03] INFO root fetch - processPackages [mcstatus]: Downloading https://files.pythonhosted.org/packages/3c/21/41a9a7aabe19be71fb4c2ec57aad4e46f2b2262aee1a40a7766999f9de16/mcstatus-9.4.1.tar.gz
+[2023-07-04 07:08:03] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/1a/84/3f5c08f7e193907b191921687f34111fdd19b4fdba5a84a80ef8d761cbbb/psychoanalyze-0.4.4.tar.gz
+[2023-07-04 07:08:03] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/47/8e/394ab4c66a3c5fb9c446076756afcb14c47bbd6395f25d80e21efad816da/nonebot_plugin_bilichat-2.9.0.tar.gz
+[2023-07-04 07:08:03] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/72/d5/8ee9e4cddfb653a7f21c844ddb61a67aa867b97dadd44a84187229947872/tflite-model-maker-nightly-0.4.3.dev202307020508.tar.gz
+[2023-07-04 07:08:04] INFO root fetch - processPackages [govtech-data]: Downloading https://files.pythonhosted.org/packages/bb/aa/590dca710c7623f047f33cc26090a8386c7febe4081f0b10e752cd06f244/govtech_data-0.1.8.tar.gz
+[2023-07-04 07:08:04] INFO root fetch - processPackages [taibun]: Downloading https://files.pythonhosted.org/packages/17/d6/c4cbd0187895acfd1a054703121fbe59d7542a9786e87d803ad54de39338/taibun-0.0.2.tar.gz
+[2023-07-04 07:08:04] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/1f/34/b6403b834bf20c937c93e29d82f0130971864aa291c5c8a22e9e690c4565/one-api-tool-0.4.4.tar.gz
+[2023-07-04 07:08:04] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/f7/c9/64116e3958898fb6f1cf2afb4c0bf28c54892d4ae43e5c67a19df64f6acc/rapid_pe-0.1.1.dev20230704.tar.gz
+[2023-07-04 07:08:04] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/55/79/1135abcbfe8bc903af8e2ca1917561a343fe7e05b01a8bb3586fe610b2ec/dask-cuda-23.8.0a230703.tar.gz
+[2023-07-04 07:08:04] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/81/f2/efed862efd1dfde70522c12935f4bd2db3deedf756a862352f8a43ca4237/psychoanalyze-0.4.5.tar.gz
+[2023-07-04 07:08:04] INFO root fetch - processPackages [taibun]: executing diffoscope
+[2023-07-04 07:08:04] INFO root fetch - processPackages [taibun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taibun-0.0.1.tar.gz tmp/taibun-0.0.2.tar.gz --markdown 20230704/t/taibun/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-04 07:08:04] INFO root fetch - processPackages [mcstatus]: Downloading https://files.pythonhosted.org/packages/e3/12/585714215bcdf7eb333f098fc3a2ca37828efb6eeb96901a079aa2ea6e2d/mcstatus-9.4.2.tar.gz
+[2023-07-04 07:08:04] INFO root fetch - processPackages [one-api-tool]: executing diffoscope
+[2023-07-04 07:08:04] INFO root fetch - processPackages [one-api-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-api-tool-0.4.3.tar.gz tmp/one-api-tool-0.4.4.tar.gz --markdown 20230704/o/one-api-tool/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-04 07:08:04] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/31/7f/fb5a9a9f4834e4cb2b7e27172f3ff04783d68be51b4f75dd3a8809ca75a0/tflite-model-maker-nightly-0.4.3.dev202307030508.tar.gz
+[2023-07-04 07:08:04] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/b4/3c/8f5b12dd594cc0001f59a7b4bce5d99d5d145553c4cd12eaef65109a5d78/nonebot_plugin_bilichat-2.9.1.tar.gz
+[2023-07-04 07:08:04] INFO root fetch - processPackages [psychoanalyze]: executing diffoscope
+[2023-07-04 07:08:04] INFO root fetch - processPackages [psychoanalyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychoanalyze-0.4.4.tar.gz tmp/psychoanalyze-0.4.5.tar.gz --markdown 20230704/p/psychoanalyze/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-04 07:08:04] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-04 07:08:04] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230702.tar.gz tmp/dask-cuda-23.8.0a230703.tar.gz --markdown 20230704/d/dask-cuda/23.8.0a230702-23.8.0a230703/diff.md --exclude *.pyd
+[2023-07-04 07:08:04] INFO root fetch - processPackages [govtech-data]: Downloading https://files.pythonhosted.org/packages/38/27/bfc2b116c599d8a7ebd76ab6512ee38a1b5d1a16499059770372bc29e6e2/govtech_data-0.1.9.tar.gz
+[2023-07-04 07:08:04] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-04 07:08:04] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230703.tar.gz tmp/rapid_pe-0.1.1.dev20230704.tar.gz --markdown 20230704/r/rapid-pe/0.1.1.dev20230703-0.1.1.dev20230704/diff.md --exclude *.pyd
+[2023-07-04 07:08:04] INFO root fetch - processPackages [mcstatus]: executing diffoscope
+[2023-07-04 07:08:04] INFO root fetch - processPackages [mcstatus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcstatus-9.4.1.tar.gz tmp/mcstatus-9.4.2.tar.gz --markdown 20230704/m/mcstatus/9.4.1-9.4.2/diff.md --exclude *.pyd
+[2023-07-04 07:08:04] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-07-04 07:08:04] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202307020508.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202307030508.tar.gz --markdown 20230704/t/tflite-model-maker-nightly/0.4.3.dev202307020508-0.4.3.dev202307030508/diff.md --exclude *.pyd
+[2023-07-04 07:08:04] INFO root fetch - processPackages [govtech-data]: executing diffoscope
+[2023-07-04 07:08:04] INFO root fetch - processPackages [govtech-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/govtech_data-0.1.8.tar.gz tmp/govtech_data-0.1.9.tar.gz --markdown 20230704/g/govtech-data/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 07:08:04] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2023-07-04 07:08:04] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-2.9.0.tar.gz tmp/nonebot_plugin_bilichat-2.9.1.tar.gz --markdown 20230704/n/nonebot-plugin-bilichat/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-04 07:08:05] INFO root fetch - processPackages [taibun]: Remove: archive file [/home/abi/fetcher/tmp/taibun-0.0.1.tar.gz]
+[2023-07-04 07:08:05] INFO root fetch - processPackages [taibun]: Remove: archive file [/home/abi/fetcher/tmp/taibun-0.0.2.tar.gz]
+[2023-07-04 07:08:05] INFO root fetch - main [MainThread]: End processing [taibun]: success
+[2023-07-04 07:08:05] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.4.3.tar.gz]
+[2023-07-04 07:08:05] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.4.4.tar.gz]
+[2023-07-04 07:08:05] INFO root fetch - main [MainThread]: End processing [one-api-tool]: success
+[2023-07-04 07:08:05] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.4.4.tar.gz]
+[2023-07-04 07:08:05] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.4.5.tar.gz]
+[2023-07-04 07:08:05] INFO root fetch - main [MainThread]: End processing [psychoanalyze]: success
+[2023-07-04 07:08:05] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230702.tar.gz]
+[2023-07-04 07:08:05] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230703.tar.gz]
+[2023-07-04 07:08:05] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-04 07:08:06] INFO root fetch - processPackages [mcstatus]: Remove: archive file [/home/abi/fetcher/tmp/mcstatus-9.4.1.tar.gz]
+[2023-07-04 07:08:06] INFO root fetch - processPackages [mcstatus]: Remove: archive file [/home/abi/fetcher/tmp/mcstatus-9.4.2.tar.gz]
+[2023-07-04 07:08:06] INFO root fetch - main [MainThread]: End processing [mcstatus]: success
+[2023-07-04 07:08:06] INFO root fetch - processPackages [govtech-data]: Remove: archive file [/home/abi/fetcher/tmp/govtech_data-0.1.8.tar.gz]
+[2023-07-04 07:08:06] INFO root fetch - processPackages [govtech-data]: Remove: archive file [/home/abi/fetcher/tmp/govtech_data-0.1.9.tar.gz]
+[2023-07-04 07:08:06] INFO root fetch - main [MainThread]: End processing [govtech-data]: success
+[2023-07-04 07:08:06] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.9.0.tar.gz]
+[2023-07-04 07:08:06] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.9.1.tar.gz]
+[2023-07-04 07:08:06] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2023-07-04 07:08:06] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230703.tar.gz]
+[2023-07-04 07:08:06] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230704.tar.gz]
+[2023-07-04 07:08:06] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-04 07:08:07] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202307020508.tar.gz]
+[2023-07-04 07:08:07] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202307030508.tar.gz]
+[2023-07-04 07:08:07] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-07-04 07:08:07] INFO root fetch - main [MainThread]: Store serial: [18750565]
