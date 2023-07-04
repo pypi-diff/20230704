@@ -13751,3 +13751,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 08:44:16] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.2rc3-cp39-cp39-win_amd64.whl.zip]
 [2023-07-04 08:44:16] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
 [2023-07-04 08:44:16] INFO root fetch - main [MainThread]: Store serial: [18751113]
+[2023-07-04 08:49:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18751113]
+[2023-07-04 08:49:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-04 08:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zipline-tej
+[2023-07-04 08:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grassmanntn
+[2023-07-04 08:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: download-stats
+[2023-07-04 08:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ir-digit
+[2023-07-04 08:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-serve
+[2023-07-04 08:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ccdt
+[2023-07-04 08:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ir-digit
+[2023-07-04 08:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain-serve
+[2023-07-04 08:49:26] INFO root fetch - processPackages [download-stats]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-04 08:49:26] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-07-04 08:49:26] INFO root fetch - processPackages [ir-digit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 08:49:26] INFO root fetch - processPackages [grassmanntn]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-04 08:49:26] INFO root fetch - processPackages [ir-digit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 08:49:26] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 08:49:26] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-07-04 08:49:26] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-04 08:49:26] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/13/8d/28f7eda19d06a28525737eac0126409e56176e1a3db989013d202807f091/ir_digit-0.0.8.tar.gz
+[2023-07-04 08:49:26] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-07-04 08:49:26] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/13/8d/28f7eda19d06a28525737eac0126409e56176e1a3db989013d202807f091/ir_digit-0.0.8.tar.gz
+[2023-07-04 08:49:26] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-07-04 08:49:26] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-07-04 08:49:26] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/a8/f7/ec57b975a370b162e8f7b84f620bc7baf8246ffe843847fe190cd1699906/grassmanntn-1.1.0.tar.gz
+[2023-07-04 08:49:26] INFO root fetch - processPackages [download-stats]: Downloading https://files.pythonhosted.org/packages/8e/85/b4c31a7710c7c95fb915133e72b0b97a194cf7785064a0109ed305b7eb01/download_stats-1.2.0.tar.gz
+[2023-07-04 08:49:27] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-07-04 08:49:27] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/c0/e1/8cdd06668f7ad179caab43915da3e6ca91882c998be4777dc2b190a0b1fd/ir_digit-0.0.9.tar.gz
+[2023-07-04 08:49:27] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-07-04 08:49:27] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/c0/e1/8cdd06668f7ad179caab43915da3e6ca91882c998be4777dc2b190a0b1fd/ir_digit-0.0.9.tar.gz
+[2023-07-04 08:49:27] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-07-04 08:49:27] INFO root fetch - processPackages [ir-digit]: executing diffoscope
+[2023-07-04 08:49:27] INFO root fetch - processPackages [ir-digit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ir_digit-0.0.8.tar.gz tmp/ir_digit-0.0.9.tar.gz --markdown 20230704/i/ir-digit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 08:49:27] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-07-04 08:49:27] INFO root fetch - processPackages [ir-digit]: executing diffoscope
+[2023-07-04 08:49:27] INFO root fetch - processPackages [ir-digit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ir_digit-0.0.8.tar.gz tmp/ir_digit-0.0.9.tar.gz --markdown 20230704/i/ir-digit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 08:49:27] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/e8/ed/7567b9a9fc94022891ead78431e746cb566c03884b50a1b9fae21e9bc6db/grassmanntn-1.1.1.tar.gz
+[2023-07-04 08:49:27] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-07-04 08:49:27] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230704/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-04 08:49:27] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-07-04 08:49:27] INFO root fetch - processPackages [download-stats]: Downloading https://files.pythonhosted.org/packages/06/bc/241f6ef33bb0b2a2bb0c3b2b9f678f4282d90fabd7e3ee5837b0e29ade0a/download_stats-1.2.1.tar.gz
+[2023-07-04 08:49:27] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230704/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-07-04 08:49:27] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-07-04 08:49:27] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230704/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-07-04 08:49:27] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-07-04 08:49:27] INFO root fetch - processPackages [grassmanntn]: executing diffoscope
+[2023-07-04 08:49:27] INFO root fetch - processPackages [grassmanntn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grassmanntn-1.1.0.tar.gz tmp/grassmanntn-1.1.1.tar.gz --markdown 20230704/g/grassmanntn/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-04 08:49:27] INFO root fetch - processPackages [download-stats]: executing diffoscope
+[2023-07-04 08:49:27] INFO root fetch - processPackages [download-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/download_stats-1.2.0.tar.gz tmp/download_stats-1.2.1.tar.gz --markdown 20230704/d/download-stats/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-04 08:49:27] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-07-04 08:49:27] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230704/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 08:49:29] INFO root fetch - processPackages [ir-digit]: Remove: archive file [/home/abi/fetcher/tmp/ir_digit-0.0.8.tar.gz]
+[2023-07-04 08:49:29] INFO root fetch - processPackages [ir-digit]: Remove: archive file [/home/abi/fetcher/tmp/ir_digit-0.0.9.tar.gz]
+[2023-07-04 08:49:29] INFO root fetch - main [MainThread]: End processing [ir-digit]: success
+[2023-07-04 08:49:29] INFO root fetch - main [MainThread]: End processing [ir-digit]: success
+[2023-07-04 08:49:29] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-07-04 08:49:29] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-07-04 08:49:29] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-07-04 08:49:29] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.1.0.tar.gz]
+[2023-07-04 08:49:29] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.1.1.tar.gz]
+[2023-07-04 08:49:29] INFO root fetch - main [MainThread]: End processing [grassmanntn]: success
+[2023-07-04 08:49:29] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-07-04 08:49:29] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-07-04 08:49:29] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-07-04 08:49:29] INFO root fetch - processPackages [download-stats]: Remove: archive file [/home/abi/fetcher/tmp/download_stats-1.2.0.tar.gz]
+[2023-07-04 08:49:29] INFO root fetch - processPackages [download-stats]: Remove: archive file [/home/abi/fetcher/tmp/download_stats-1.2.1.tar.gz]
+[2023-07-04 08:49:29] INFO root fetch - main [MainThread]: End processing [download-stats]: success
+[2023-07-04 08:49:29] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-07-04 08:49:30] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-07-04 08:49:30] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-07-04 08:49:30] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-07-04 08:49:30] INFO root fetch - main [MainThread]: Store serial: [18751134]
