@@ -9448,3 +9448,119 @@
 [2023-07-04 04:19:06] INFO root fetch - processPackages [alibabacloud-ocr20191230]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ocr20191230-3.0.0.tar.gz]
 [2023-07-04 04:19:06] INFO root fetch - main [MainThread]: End processing [alibabacloud-ocr20191230]: success
 [2023-07-04 04:19:06] INFO root fetch - main [MainThread]: Store serial: [18749444]
+[2023-07-04 04:24:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18749444]
+[2023-07-04 04:24:15] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-04 04:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-ocr20191230
+[2023-07-04 04:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gravitorch
+[2023-07-04 04:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: supra-style
+[2023-07-04 04:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dexie-rewards
+[2023-07-04 04:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: calamine-tablib
+[2023-07-04 04:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pocx
+[2023-07-04 04:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: teamanchorhello
+[2023-07-04 04:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: psd-tools
+[2023-07-04 04:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: GuineaSender
+[2023-07-04 04:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mwplotlib
+[2023-07-04 04:24:15] INFO root fetch - processPackages [dexie-rewards]: New version: [1.8.2b2] Old Version: [1.8.2b1]
+[2023-07-04 04:24:16] INFO root fetch - processPackages [alibabacloud-ocr20191230]: New version: [3.0.0] Old Version: [2.0.9]
+[2023-07-04 04:24:16] WARNING root fetch - processPackages [GuineaSender]: Skipping, unable to determine old version
+[2023-07-04 04:24:16] INFO root fetch - processPackages [GuineaSender]: Start processing: turkey
+[2023-07-04 04:24:16] INFO root fetch - main [MainThread]: End processing [GuineaSender] error
+[2023-07-04 04:24:16] INFO root fetch - processPackages [gravitorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 04:24:16] WARNING root fetch - processPackages [supra-style]: Skipping, unable to determine old version
+[2023-07-04 04:24:16] INFO root fetch - processPackages [supra-style]: Start processing: alibabacloud-nlb20220430
+[2023-07-04 04:24:16] INFO root fetch - main [MainThread]: End processing [supra-style] error
+[2023-07-04 04:24:16] INFO root fetch - processPackages [teamanchorhello]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 04:24:16] INFO root fetch - processPackages [calamine-tablib]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-04 04:24:16] INFO root fetch - processPackages [pocx]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-04 04:24:16] INFO root fetch - processPackages [mwplotlib]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-04 04:24:16] INFO root fetch - processPackages [psd-tools]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-04 04:24:16] WARNING root fetch - processPackages [turkey]: Skipping, unable to determine old version
+[2023-07-04 04:24:16] INFO root fetch - processPackages [turkey]: Start processing: kucoin-python
+[2023-07-04 04:24:16] INFO root fetch - main [MainThread]: End processing [turkey] error
+[2023-07-04 04:24:16] INFO root fetch - processPackages [alibabacloud-nlb20220430]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-04 04:24:16] INFO root fetch - processPackages [kucoin-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-04 04:24:16] INFO root fetch - processPackages [teamanchorhello]: Downloading https://files.pythonhosted.org/packages/21/3f/b81709eefa0229862f082516934c9d26e3e81118031d936917e8cf70267a/teamanchorhello-0.0.8.tar.gz
+[2023-07-04 04:24:16] INFO root fetch - processPackages [calamine-tablib]: Downloading https://files.pythonhosted.org/packages/89/d4/fd68c6b5c1b42765f0513063364139169490e0852992e868e3b680fcf98c/calamine_tablib-0.1.1.tar.gz
+[2023-07-04 04:24:16] INFO root fetch - processPackages [dexie-rewards]: Downloading https://files.pythonhosted.org/packages/58/13/9790b47d13decc82f57f6323f4328c855f74f2d754108cd372ccd31c948c/dexie_rewards-1.8.2b1.tar.gz
+[2023-07-04 04:24:16] INFO root fetch - processPackages [alibabacloud-ocr20191230]: Downloading https://files.pythonhosted.org/packages/39/25/2678592935b8e94c12e8145747cc4367dc51bf8d3584cff801986deba9c4/alibabacloud_ocr20191230-2.0.9.tar.gz
+[2023-07-04 04:24:16] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/3c/eb/d596884cdb31e5198aa387878eb8ef895802e567d7d679b97f4a406e21ae/gravitorch-0.0.8.tar.gz
+[2023-07-04 04:24:16] INFO root fetch - processPackages [pocx]: Downloading https://files.pythonhosted.org/packages/c3/68/e0407081bfea8132c6aa2075dd30df1341ad0843d35ed98ea0231fa1b020/pocx-0.2.2.tar.gz
+[2023-07-04 04:24:16] INFO root fetch - processPackages [mwplotlib]: Downloading https://files.pythonhosted.org/packages/65/01/9bed88c84825262b9f97a678e771ce079f33d21299bc5e2f9110784d5ea7/mwplotlib-1.1.2.tar.gz
+[2023-07-04 04:24:16] INFO root fetch - processPackages [alibabacloud-nlb20220430]: Downloading https://files.pythonhosted.org/packages/b1/d1/aed3adfc010e8a32e4b68c6e5ea3450d740d148599e7583d97cd32c3b458/alibabacloud_nlb20220430-1.0.8.tar.gz
+[2023-07-04 04:24:16] INFO root fetch - processPackages [psd-tools]: Downloading https://files.pythonhosted.org/packages/e9/3a/e078a7ff4d24c2314e08f2bd92d1d476335be3212031d2041e1a8433469e/psd-tools-1.9.8.tar.gz
+[2023-07-04 04:24:16] INFO root fetch - processPackages [kucoin-python]: Downloading https://files.pythonhosted.org/packages/39/ab/0ee959a7e97864773cf92e92353965af3db970675161065bc8baa07468e0/kucoin-python-1.0.8.tar.gz
+[2023-07-04 04:24:16] INFO root fetch - processPackages [teamanchorhello]: Downloading https://files.pythonhosted.org/packages/bc/5d/05a64d8bcc28b884580415522f4d1cd13dd457745d1e9e91163b7dd77d13/teamanchorhello-0.0.9.tar.gz
+[2023-07-04 04:24:16] INFO root fetch - processPackages [calamine-tablib]: Downloading https://files.pythonhosted.org/packages/26/e1/38556dd4e29e9c483e769a6a88412d2d096e156737a642b4f9c4c9a86277/calamine_tablib-0.1.2.tar.gz
+[2023-07-04 04:24:16] INFO root fetch - processPackages [dexie-rewards]: Downloading https://files.pythonhosted.org/packages/12/1c/6c7c640894a4745cbf1bada5ac25f6239dce9a4c9fcfd8b9ed182d6b924a/dexie_rewards-1.8.2b2.tar.gz
+[2023-07-04 04:24:16] INFO root fetch - processPackages [teamanchorhello]: executing diffoscope
+[2023-07-04 04:24:16] INFO root fetch - processPackages [teamanchorhello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teamanchorhello-0.0.8.tar.gz tmp/teamanchorhello-0.0.9.tar.gz --markdown 20230704/t/teamanchorhello/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 04:24:16] INFO root fetch - processPackages [alibabacloud-ocr20191230]: Downloading https://files.pythonhosted.org/packages/ab/4d/4026d06b5a3dc4981649376c27f5bf79946b86da61de033449fadb7bcc69/alibabacloud_ocr20191230-3.0.0.tar.gz
+[2023-07-04 04:24:16] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/d8/af/12bd29b316e1abfd4a89affc84ab78a2b03aaa0ebdf20315c6dc8c4c3886/gravitorch-0.0.9.tar.gz
+[2023-07-04 04:24:16] INFO root fetch - processPackages [calamine-tablib]: executing diffoscope
+[2023-07-04 04:24:16] INFO root fetch - processPackages [calamine-tablib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calamine_tablib-0.1.1.tar.gz tmp/calamine_tablib-0.1.2.tar.gz --markdown 20230704/c/calamine-tablib/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-04 04:24:16] INFO root fetch - processPackages [pocx]: Downloading https://files.pythonhosted.org/packages/3a/db/153d1f2a1402611472d5f59322253e723da435346c4a2a406a3d2be3e1b3/pocx-0.2.3.tar.gz
+[2023-07-04 04:24:16] INFO root fetch - processPackages [mwplotlib]: Downloading https://files.pythonhosted.org/packages/e6/e0/1909719c3f868f970c1704f290a9766a552065ae37b99f347354db07b794/mwplotlib-1.1.3.tar.gz
+[2023-07-04 04:24:17] INFO root fetch - processPackages [dexie-rewards]: executing diffoscope
+[2023-07-04 04:24:17] INFO root fetch - processPackages [dexie-rewards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexie_rewards-1.8.2b1.tar.gz tmp/dexie_rewards-1.8.2b2.tar.gz --markdown 20230704/d/dexie-rewards/1.8.2b1-1.8.2b2/diff.md --exclude *.pyd
+[2023-07-04 04:24:17] INFO root fetch - processPackages [gravitorch]: executing diffoscope
+[2023-07-04 04:24:17] INFO root fetch - processPackages [gravitorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitorch-0.0.8.tar.gz tmp/gravitorch-0.0.9.tar.gz --markdown 20230704/g/gravitorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 04:24:17] INFO root fetch - processPackages [alibabacloud-nlb20220430]: Downloading https://files.pythonhosted.org/packages/e7/e7/20453d9a15c8ac3cd339ec22598703263c778029f2a7de6aded58695aa8c/alibabacloud_nlb20220430-1.0.9.tar.gz
+[2023-07-04 04:24:17] INFO root fetch - processPackages [kucoin-python]: Downloading https://files.pythonhosted.org/packages/20/ec/42f6813133e8b8abdbab7cad9538b5feadb0e097193388bcfd58089587b2/kucoin-python-1.0.9.tar.gz
+[2023-07-04 04:24:17] INFO root fetch - processPackages [alibabacloud-ocr20191230]: executing diffoscope
+[2023-07-04 04:24:17] INFO root fetch - processPackages [alibabacloud-ocr20191230]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ocr20191230-2.0.9.tar.gz tmp/alibabacloud_ocr20191230-3.0.0.tar.gz --markdown 20230704/a/alibabacloud-ocr20191230/2.0.9-3.0.0/diff.md --exclude *.pyd
+[2023-07-04 04:24:17] INFO root fetch - processPackages [mwplotlib]: executing diffoscope
+[2023-07-04 04:24:17] INFO root fetch - processPackages [mwplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwplotlib-1.1.2.tar.gz tmp/mwplotlib-1.1.3.tar.gz --markdown 20230704/m/mwplotlib/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-04 04:24:17] INFO root fetch - processPackages [psd-tools]: Downloading https://files.pythonhosted.org/packages/21/07/dae03fbeb01d7aa1ebf9ff3f12cc45b6cfb59c534e7b62c65f95b3339ac6/psd-tools-1.9.9.tar.gz
+[2023-07-04 04:24:17] INFO root fetch - processPackages [pocx]: executing diffoscope
+[2023-07-04 04:24:17] INFO root fetch - processPackages [pocx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pocx-0.2.2.tar.gz tmp/pocx-0.2.3.tar.gz --markdown 20230704/p/pocx/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-04 04:24:17] INFO root fetch - processPackages [kucoin-python]: executing diffoscope
+[2023-07-04 04:24:17] INFO root fetch - processPackages [kucoin-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kucoin-python-1.0.8.tar.gz tmp/kucoin-python-1.0.9.tar.gz --markdown 20230704/k/kucoin-python/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-04 04:24:17] INFO root fetch - processPackages [alibabacloud-nlb20220430]: executing diffoscope
+[2023-07-04 04:24:17] INFO root fetch - processPackages [alibabacloud-nlb20220430]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_nlb20220430-1.0.8.tar.gz tmp/alibabacloud_nlb20220430-1.0.9.tar.gz --markdown 20230704/a/alibabacloud-nlb20220430/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-04 04:24:17] INFO root fetch - processPackages [psd-tools]: executing diffoscope
+[2023-07-04 04:24:17] INFO root fetch - processPackages [psd-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psd-tools-1.9.8.tar.gz tmp/psd-tools-1.9.9.tar.gz --markdown 20230704/p/psd-tools/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-04 04:24:18] INFO root fetch - processPackages [teamanchorhello]: Remove: archive file [/home/abi/fetcher/tmp/teamanchorhello-0.0.8.tar.gz]
+[2023-07-04 04:24:18] INFO root fetch - processPackages [teamanchorhello]: Remove: archive file [/home/abi/fetcher/tmp/teamanchorhello-0.0.9.tar.gz]
+[2023-07-04 04:24:18] INFO root fetch - processPackages [teamanchorhello]: Start processing: pyautd3
+[2023-07-04 04:24:18] INFO root fetch - main [MainThread]: End processing [teamanchorhello]: success
+[2023-07-04 04:24:18] INFO root fetch - processPackages [pyautd3]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-07-04 04:24:18] INFO root fetch - processPackages [pyautd3]: Downloading https://files.pythonhosted.org/packages/e8/71/a7e782b3fd39d71bc7d9f5c5bc4c935f52b63b87e0680f3ec000d5ae1545/pyautd3-9.0.0.tar.gz
+[2023-07-04 04:24:18] INFO root fetch - processPackages [calamine-tablib]: Remove: archive file [/home/abi/fetcher/tmp/calamine_tablib-0.1.1.tar.gz]
+[2023-07-04 04:24:18] INFO root fetch - processPackages [calamine-tablib]: Remove: archive file [/home/abi/fetcher/tmp/calamine_tablib-0.1.2.tar.gz]
+[2023-07-04 04:24:18] INFO root fetch - processPackages [calamine-tablib]: Start processing: teamanchorhello
+[2023-07-04 04:24:18] INFO root fetch - main [MainThread]: End processing [calamine-tablib]: success
+[2023-07-04 04:24:18] INFO root fetch - processPackages [teamanchorhello]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 04:24:18] WARNING root fetch - processPackages [pyautd3]: Skipping package: exceeds size limit 25360257>=10485760
+[2023-07-04 04:24:18] INFO root fetch - main [MainThread]: End processing [pyautd3] error
+[2023-07-04 04:24:18] INFO root fetch - processPackages [mwplotlib]: Remove: archive file [/home/abi/fetcher/tmp/mwplotlib-1.1.2.tar.gz]
+[2023-07-04 04:24:18] INFO root fetch - processPackages [mwplotlib]: Remove: archive file [/home/abi/fetcher/tmp/mwplotlib-1.1.3.tar.gz]
+[2023-07-04 04:24:18] INFO root fetch - main [MainThread]: End processing [mwplotlib]: success
+[2023-07-04 04:24:18] INFO root fetch - processPackages [dexie-rewards]: Remove: archive file [/home/abi/fetcher/tmp/dexie_rewards-1.8.2b1.tar.gz]
+[2023-07-04 04:24:18] INFO root fetch - processPackages [dexie-rewards]: Remove: archive file [/home/abi/fetcher/tmp/dexie_rewards-1.8.2b2.tar.gz]
+[2023-07-04 04:24:18] INFO root fetch - main [MainThread]: End processing [dexie-rewards]: success
+[2023-07-04 04:24:18] INFO root fetch - processPackages [teamanchorhello]: Downloading https://files.pythonhosted.org/packages/21/3f/b81709eefa0229862f082516934c9d26e3e81118031d936917e8cf70267a/teamanchorhello-0.0.8.tar.gz
+[2023-07-04 04:24:18] INFO root fetch - processPackages [pocx]: Remove: archive file [/home/abi/fetcher/tmp/pocx-0.2.2.tar.gz]
+[2023-07-04 04:24:18] INFO root fetch - processPackages [pocx]: Remove: archive file [/home/abi/fetcher/tmp/pocx-0.2.3.tar.gz]
+[2023-07-04 04:24:18] INFO root fetch - main [MainThread]: End processing [pocx]: success
+[2023-07-04 04:24:18] INFO root fetch - processPackages [teamanchorhello]: Downloading https://files.pythonhosted.org/packages/bc/5d/05a64d8bcc28b884580415522f4d1cd13dd457745d1e9e91163b7dd77d13/teamanchorhello-0.0.9.tar.gz
+[2023-07-04 04:24:18] INFO root fetch - processPackages [alibabacloud-ocr20191230]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ocr20191230-2.0.9.tar.gz]
+[2023-07-04 04:24:18] INFO root fetch - processPackages [kucoin-python]: Remove: archive file [/home/abi/fetcher/tmp/kucoin-python-1.0.8.tar.gz]
+[2023-07-04 04:24:18] INFO root fetch - processPackages [alibabacloud-ocr20191230]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ocr20191230-3.0.0.tar.gz]
+[2023-07-04 04:24:18] INFO root fetch - processPackages [kucoin-python]: Remove: archive file [/home/abi/fetcher/tmp/kucoin-python-1.0.9.tar.gz]
+[2023-07-04 04:24:18] INFO root fetch - main [MainThread]: End processing [alibabacloud-ocr20191230]: success
+[2023-07-04 04:24:18] INFO root fetch - main [MainThread]: End processing [kucoin-python]: success
+[2023-07-04 04:24:18] INFO root fetch - processPackages [alibabacloud-nlb20220430]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_nlb20220430-1.0.8.tar.gz]
+[2023-07-04 04:24:18] INFO root fetch - processPackages [alibabacloud-nlb20220430]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_nlb20220430-1.0.9.tar.gz]
+[2023-07-04 04:24:18] INFO root fetch - main [MainThread]: End processing [alibabacloud-nlb20220430]: success
+[2023-07-04 04:24:18] INFO root fetch - processPackages [teamanchorhello]: executing diffoscope
+[2023-07-04 04:24:18] INFO root fetch - processPackages [teamanchorhello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teamanchorhello-0.0.8.tar.gz tmp/teamanchorhello-0.0.9.tar.gz --markdown 20230704/t/teamanchorhello/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 04:24:19] INFO root fetch - processPackages [psd-tools]: Remove: archive file [/home/abi/fetcher/tmp/psd-tools-1.9.8.tar.gz]
+[2023-07-04 04:24:19] INFO root fetch - processPackages [psd-tools]: Remove: archive file [/home/abi/fetcher/tmp/psd-tools-1.9.9.tar.gz]
+[2023-07-04 04:24:19] INFO root fetch - main [MainThread]: End processing [psd-tools]: success
+[2023-07-04 04:24:19] INFO root fetch - processPackages [teamanchorhello]: Remove: archive file [/home/abi/fetcher/tmp/teamanchorhello-0.0.8.tar.gz]
+[2023-07-04 04:24:19] INFO root fetch - processPackages [teamanchorhello]: Remove: archive file [/home/abi/fetcher/tmp/teamanchorhello-0.0.9.tar.gz]
+[2023-07-04 04:24:19] INFO root fetch - main [MainThread]: End processing [teamanchorhello]: success
+[2023-07-04 04:24:19] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.8.tar.gz]
+[2023-07-04 04:24:19] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.9.tar.gz]
+[2023-07-04 04:24:19] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
+[2023-07-04 04:24:19] INFO root fetch - main [MainThread]: Store serial: [18749543]
