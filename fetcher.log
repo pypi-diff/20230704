@@ -16271,3 +16271,209 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 10:49:04] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-07-04 10:49:04] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-07-04 10:49:04] INFO root fetch - main [MainThread]: Store serial: [18752141]
+[2023-07-04 10:54:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18752141]
+[2023-07-04 10:54:13] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-07-04 10:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lollms
+[2023-07-04 10:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nextpcg
+[2023-07-04 10:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testit-python-commons
+[2023-07-04 10:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testit-adapter-behave
+[2023-07-04 10:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testit-adapter-pytest
+[2023-07-04 10:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: testit-adapter-nose
+[2023-07-04 10:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SELDOMpy
+[2023-07-04 10:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: testit-adapter-robotframework
+[2023-07-04 10:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: napari-stl-exporter
+[2023-07-04 10:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: addition-package
+[2023-07-04 10:54:13] INFO root fetch - processPackages [testit-adapter-robotframework]: New version: [2.2.0] Old Version: [2.1.9]
+[2023-07-04 10:54:13] INFO root fetch - processPackages [testit-adapter-pytest]: New version: [2.2.0] Old Version: [2.1.9]
+[2023-07-04 10:54:13] INFO root fetch - processPackages [nextpcg]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-04 10:54:13] INFO root fetch - processPackages [testit-python-commons]: New version: [2.2.0] Old Version: [2.1.9]
+[2023-07-04 10:54:13] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-04 10:54:13] INFO root fetch - processPackages [napari-stl-exporter]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-04 10:54:13] INFO root fetch - processPackages [SELDOMpy]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-07-04 10:54:13] INFO root fetch - processPackages [testit-adapter-behave]: New version: [2.2.0] Old Version: [2.1.9]
+[2023-07-04 10:54:13] INFO root fetch - processPackages [testit-adapter-nose]: New version: [2.2.0] Old Version: [2.1.9]
+[2023-07-04 10:54:13] WARNING root fetch - processPackages [addition-package]: Skipping, unable to determine old version
+[2023-07-04 10:54:13] INFO root fetch - processPackages [addition-package]: Start processing: qwak-core
+[2023-07-04 10:54:13] INFO root fetch - main [MainThread]: End processing [addition-package] error
+[2023-07-04 10:54:14] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/43/26/d36efafa16503aae2919e83334aaeea2f2147fab88e1866abf4a23cd4510/SELDOMpy-0.7.6-cp38-cp38-win_amd64.whl
+[2023-07-04 10:54:14] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 10:54:14] INFO root fetch - processPackages [testit-adapter-robotframework]: Downloading https://files.pythonhosted.org/packages/f6/b2/8d4a8e2f3856be41ae5aeee244b96adea7086c88acc26d777d84b52edbba/testit-adapter-robotframework-2.1.9.tar.gz
+[2023-07-04 10:54:14] INFO root fetch - processPackages [testit-adapter-pytest]: Downloading https://files.pythonhosted.org/packages/c0/6d/c8ec77570274fc0aa1dc16a9e9d9cfa9863f49c70625552b844a64c8bd1c/testit-adapter-pytest-2.1.9.tar.gz
+[2023-07-04 10:54:14] INFO root fetch - processPackages [testit-python-commons]: Downloading https://files.pythonhosted.org/packages/cd/5c/777ad7b41ee4e1bdd774a7ca0283d345b03e02b6568fcfd30483842924db/testit-python-commons-2.1.9.tar.gz
+[2023-07-04 10:54:14] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-04 10:54:14] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/21/e3/8961a1cf36f2a32bba3be0f2801702c4fb37c36164a44be1749419c9b3e7/nextpcg-0.5.8.tar.gz
+[2023-07-04 10:54:14] INFO root fetch - processPackages [testit-adapter-nose]: Downloading https://files.pythonhosted.org/packages/c6/07/f3f2439c6215cafe3b3e9213a5b9ec0430ee4575963b89d2a5e92beb16d0/testit-adapter-nose-2.1.9.tar.gz
+[2023-07-04 10:54:14] INFO root fetch - processPackages [napari-stl-exporter]: Downloading https://files.pythonhosted.org/packages/d3/01/4f1c06ce7afdf6c014d0d46addc9854f44c9764c32778e058b3018c91653/napari-stl-exporter-0.1.4.tar.gz
+[2023-07-04 10:54:14] INFO root fetch - processPackages [testit-adapter-behave]: Downloading https://files.pythonhosted.org/packages/1a/cf/6b8df8721c624059dc849e3d3c637c6dbdb9b895e8991db7af21fa683738/testit-adapter-behave-2.1.9.tar.gz
+[2023-07-04 10:54:14] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/55/8e/c10a453677812ff66a65c459737c99f6b99cc00da8cc2e27f3a1f924faa0/lollms-2.1.8.tar.gz
+[2023-07-04 10:54:14] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/59/02/74bd348de6e2e43be6ca0cc6a0c95601c9f0316ca0d9345955096b38f225/SELDOMpy-0.7.7-cp38-cp38-win_amd64.whl
+[2023-07-04 10:54:14] INFO root fetch - processPackages [testit-adapter-robotframework]: Downloading https://files.pythonhosted.org/packages/04/b9/5a4e40adc2786a40e61262082f87e42066c77242eb158d2f37271d979f25/testit-adapter-robotframework-2.2.0.tar.gz
+[2023-07-04 10:54:14] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-04 10:54:14] INFO root fetch - processPackages [testit-adapter-pytest]: Downloading https://files.pythonhosted.org/packages/ea/46/b7b80160a08321fea73d9bd0942fc7a80e7870dcc1159842c56a96773eb9/testit-adapter-pytest-2.2.0.tar.gz
+[2023-07-04 10:54:14] INFO root fetch - processPackages [testit-python-commons]: Downloading https://files.pythonhosted.org/packages/62/f3/c085d9eaaaf3a5c22610c9d209db610232cf40947e3e97757677e17cbf09/testit-python-commons-2.2.0.tar.gz
+[2023-07-04 10:54:14] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/cf/08/4cf741b08ba79aab0af730a364994d72c10b23055730e8331317a461fdee/nextpcg-0.5.9.tar.gz
+[2023-07-04 10:54:14] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-04 10:54:14] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.7.6-cp38-cp38-win_amd64.whl.zip tmp/SELDOMpy-0.7.7-cp38-cp38-win_amd64.whl.zip --markdown 20230704/S/SELDOMpy/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-07-04 10:54:14] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-04 10:54:14] INFO root fetch - processPackages [napari-stl-exporter]: Downloading https://files.pythonhosted.org/packages/3c/99/badde0066375f6ab4b8bc903bfb59c557e80fd29cf519739e57afc7bb287/napari-stl-exporter-0.1.5.tar.gz
+[2023-07-04 10:54:14] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230704/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 10:54:14] INFO root fetch - processPackages [testit-adapter-behave]: Downloading https://files.pythonhosted.org/packages/0d/e6/7f43ce7d92760ae0ed42b26318bc6c078f2c2107773bbfd20cf8299f7ec0/testit-adapter-behave-2.2.0.tar.gz
+[2023-07-04 10:54:14] INFO root fetch - processPackages [testit-adapter-robotframework]: executing diffoscope
+[2023-07-04 10:54:14] INFO root fetch - processPackages [testit-adapter-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-robotframework-2.1.9.tar.gz tmp/testit-adapter-robotframework-2.2.0.tar.gz --markdown 20230704/t/testit-adapter-robotframework/2.1.9-2.2.0/diff.md --exclude *.pyd
+[2023-07-04 10:54:14] INFO root fetch - processPackages [testit-adapter-pytest]: executing diffoscope
+[2023-07-04 10:54:14] INFO root fetch - processPackages [testit-adapter-pytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-pytest-2.1.9.tar.gz tmp/testit-adapter-pytest-2.2.0.tar.gz --markdown 20230704/t/testit-adapter-pytest/2.1.9-2.2.0/diff.md --exclude *.pyd
+[2023-07-04 10:54:14] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/6a/83/7745db4a743155e7a857ec418630027696e10e7fb67dfd6805a2496bdb64/lollms-2.1.9.tar.gz
+[2023-07-04 10:54:14] INFO root fetch - processPackages [testit-python-commons]: executing diffoscope
+[2023-07-04 10:54:14] INFO root fetch - processPackages [testit-python-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-python-commons-2.1.9.tar.gz tmp/testit-python-commons-2.2.0.tar.gz --markdown 20230704/t/testit-python-commons/2.1.9-2.2.0/diff.md --exclude *.pyd
+[2023-07-04 10:54:15] INFO root fetch - processPackages [testit-adapter-behave]: executing diffoscope
+[2023-07-04 10:54:15] INFO root fetch - processPackages [testit-adapter-nose]: Downloading https://files.pythonhosted.org/packages/81/f2/0b69a5067e756fbc6987600a5fef2b1293132d3756dc52d1fd6c89444027/testit-adapter-nose-2.2.0.tar.gz
+[2023-07-04 10:54:15] INFO root fetch - processPackages [testit-adapter-behave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-behave-2.1.9.tar.gz tmp/testit-adapter-behave-2.2.0.tar.gz --markdown 20230704/t/testit-adapter-behave/2.1.9-2.2.0/diff.md --exclude *.pyd
+[2023-07-04 10:54:15] INFO root fetch - processPackages [napari-stl-exporter]: executing diffoscope
+[2023-07-04 10:54:15] INFO root fetch - processPackages [napari-stl-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-stl-exporter-0.1.4.tar.gz tmp/napari-stl-exporter-0.1.5.tar.gz --markdown 20230704/n/napari-stl-exporter/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-04 10:54:15] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-04 10:54:15] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230704/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-04 10:54:15] INFO root fetch - processPackages [testit-adapter-nose]: executing diffoscope
+[2023-07-04 10:54:15] INFO root fetch - processPackages [testit-adapter-nose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-nose-2.1.9.tar.gz tmp/testit-adapter-nose-2.2.0.tar.gz --markdown 20230704/t/testit-adapter-nose/2.1.9-2.2.0/diff.md --exclude *.pyd
+[2023-07-04 10:54:15] INFO root fetch - processPackages [nextpcg]: executing diffoscope
+[2023-07-04 10:54:15] INFO root fetch - processPackages [nextpcg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextpcg-0.5.8.tar.gz tmp/nextpcg-0.5.9.tar.gz --markdown 20230704/n/nextpcg/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-04 10:54:16] INFO root fetch - processPackages [testit-adapter-pytest]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-pytest-2.1.9.tar.gz]
+[2023-07-04 10:54:16] INFO root fetch - processPackages [testit-adapter-pytest]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-pytest-2.2.0.tar.gz]
+[2023-07-04 10:54:16] INFO root fetch - processPackages [testit-adapter-pytest]: Start processing: pepperize.projen-awscdk-construct
+[2023-07-04 10:54:16] INFO root fetch - main [MainThread]: End processing [testit-adapter-pytest]: success
+[2023-07-04 10:54:16] INFO root fetch - processPackages [testit-adapter-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-robotframework-2.1.9.tar.gz]
+[2023-07-04 10:54:16] INFO root fetch - processPackages [testit-adapter-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-robotframework-2.2.0.tar.gz]
+[2023-07-04 10:54:16] INFO root fetch - processPackages [testit-adapter-robotframework]: Start processing: ESMValCore
+[2023-07-04 10:54:16] INFO root fetch - main [MainThread]: End processing [testit-adapter-robotframework]: success
+[2023-07-04 10:54:16] INFO root fetch - processPackages [ESMValCore]: New version: [2.9.0rc1] Old Version: [2.9.0]
+[2023-07-04 10:54:16] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 10:54:16] INFO root fetch - processPackages [ESMValCore]: Downloading https://files.pythonhosted.org/packages/14/da/166466302d8665d0bcf38b9ebcd50c3681a953338fbd2c6c2dac862a3d5a/ESMValCore-2.9.0.tar.gz
+[2023-07-04 10:54:16] INFO root fetch - processPackages [testit-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/testit-python-commons-2.1.9.tar.gz]
+[2023-07-04 10:54:16] INFO root fetch - processPackages [testit-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/testit-python-commons-2.2.0.tar.gz]
+[2023-07-04 10:54:16] INFO root fetch - processPackages [testit-python-commons]: Start processing: ats-case
+[2023-07-04 10:54:16] INFO root fetch - main [MainThread]: End processing [testit-python-commons]: success
+[2023-07-04 10:54:16] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-07-04 10:54:16] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.8.tar.gz]
+[2023-07-04 10:54:16] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
+[2023-07-04 10:54:16] INFO root fetch - processPackages [lollms]: Start processing: drf-openapi-tester
+[2023-07-04 10:54:16] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-07-04 10:54:16] INFO root fetch - processPackages [ats-case]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-04 10:54:16] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.7.6-cp38-cp38-win_amd64.whl.zip]
+[2023-07-04 10:54:16] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.7.7-cp38-cp38-win_amd64.whl.zip]
+[2023-07-04 10:54:16] INFO root fetch - processPackages [SELDOMpy]: Start processing: merge-segments
+[2023-07-04 10:54:16] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-04 10:54:16] INFO root fetch - processPackages [testit-adapter-behave]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-behave-2.1.9.tar.gz]
+[2023-07-04 10:54:16] INFO root fetch - processPackages [testit-adapter-behave]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-behave-2.2.0.tar.gz]
+[2023-07-04 10:54:16] INFO root fetch - processPackages [testit-adapter-behave]: Start processing: projen
+[2023-07-04 10:54:16] INFO root fetch - main [MainThread]: End processing [testit-adapter-behave]: success
+[2023-07-04 10:54:16] INFO root fetch - processPackages [drf-openapi-tester]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-07-04 10:54:16] INFO root fetch - processPackages [merge-segments]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-04 10:54:16] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.8.tar.gz]
+[2023-07-04 10:54:16] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.9.tar.gz]
+[2023-07-04 10:54:16] INFO root fetch - processPackages [testit-adapter-nose]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-nose-2.1.9.tar.gz]
+[2023-07-04 10:54:16] INFO root fetch - processPackages [testit-adapter-nose]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-nose-2.2.0.tar.gz]
+[2023-07-04 10:54:16] INFO root fetch - processPackages [nextpcg]: Start processing: SC-Track
+[2023-07-04 10:54:16] INFO root fetch - main [MainThread]: End processing [nextpcg]: success
+[2023-07-04 10:54:16] INFO root fetch - processPackages [testit-adapter-nose]: Start processing: auditLogger-abhishekzopper
+[2023-07-04 10:54:16] INFO root fetch - main [MainThread]: End processing [testit-adapter-nose]: success
+[2023-07-04 10:54:17] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-04 10:54:17] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/04/da/b171ada6344192f8d804a421bc8808a47ee94e5d1f28c7daca14485ad4a7/ats_case-0.9.8.tar.gz
+[2023-07-04 10:54:17] WARNING root fetch - processPackages [auditLogger-abhishekzopper]: Skipping, unable to determine old version
+[2023-07-04 10:54:17] INFO root fetch - processPackages [auditLogger-abhishekzopper]: Start processing: re-it
+[2023-07-04 10:54:17] INFO root fetch - main [MainThread]: End processing [auditLogger-abhishekzopper] error
+[2023-07-04 10:54:17] INFO root fetch - processPackages [re-it]: New version: [1.0.0.0] Old Version: [0.0.1]
+[2023-07-04 10:54:17] INFO root fetch - processPackages [napari-stl-exporter]: Remove: archive file [/home/abi/fetcher/tmp/napari-stl-exporter-0.1.4.tar.gz]
+[2023-07-04 10:54:17] INFO root fetch - processPackages [napari-stl-exporter]: Remove: archive file [/home/abi/fetcher/tmp/napari-stl-exporter-0.1.5.tar.gz]
+[2023-07-04 10:54:17] INFO root fetch - processPackages [napari-stl-exporter]: Start processing: grdwindinversion
+[2023-07-04 10:54:17] INFO root fetch - main [MainThread]: End processing [napari-stl-exporter]: success
+[2023-07-04 10:54:17] INFO root fetch - processPackages [SC-Track]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-04 10:54:17] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-04 10:54:17] INFO root fetch - processPackages [re-it]: Downloading https://files.pythonhosted.org/packages/93/c6/641e91ef8e9e14629dde20e2cf02a0c79a182f15c14fdfea37ba94dccfd0/re_it-0.0.1.tar.gz
+[2023-07-04 10:54:17] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/7f/68/87f6eca1406e5f35351915c2062c1db2b77cdfcaebb646e255d7baf5e023/ats_case-0.9.9.tar.gz
+[2023-07-04 10:54:17] INFO root fetch - processPackages [merge-segments]: Downloading https://files.pythonhosted.org/packages/1e/60/c76823e09f8ffb82dbba3114e098dcb51ac2d43fb7b5b0bbc2b77d29f102/merge_segments-0.6.0.tar.gz
+[2023-07-04 10:54:17] INFO root fetch - processPackages [drf-openapi-tester]: Downloading https://files.pythonhosted.org/packages/61/4b/c62fad2808b424620303f31d9e11f45c255393bce57fd3c5a18fc6cd5ad6/drf_openapi_tester-2.3.1.tar.gz
+[2023-07-04 10:54:17] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-07-04 10:54:17] INFO root fetch - processPackages [grdwindinversion]: New version: [999] Old Version: [0.1.0]
+[2023-07-04 10:54:17] INFO root fetch - processPackages [SC-Track]: Downloading https://files.pythonhosted.org/packages/52/f1/fb0642f663ec9d40e86b43f26d1b5a044d9f8080431139e1ad997d17699c/SC-Track-0.0.2.tar.gz
+[2023-07-04 10:54:17] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-07-04 10:54:17] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.9.8.tar.gz tmp/ats_case-0.9.9.tar.gz --markdown 20230704/a/ats-case/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-04 10:54:17] INFO root fetch - processPackages [ESMValCore]: Downloading https://files.pythonhosted.org/packages/84/2a/254b3902e7d3c8455eab34d84d62b69ca03816de0bea94f7408b334ab529/ESMValCore-2.9.0rc1.tar.gz
+[2023-07-04 10:54:17] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-07-04 10:54:17] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230704/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 10:54:17] INFO root fetch - processPackages [re-it]: Downloading https://files.pythonhosted.org/packages/42/5b/e4e26cb7ff7df09fa138323c9e2203565fbdb1c0595aeeef2a8ff3a8eeb7/re_it-1.0.0.0.tar.gz
+[2023-07-04 10:54:17] INFO root fetch - processPackages [grdwindinversion]: Downloading https://files.pythonhosted.org/packages/5f/02/8ea1f9a6b068d082f3af66b749b334a2d97bf03f34df56e6399b3648989d/grdwindinversion-0.1.0.tar.gz
+[2023-07-04 10:54:17] INFO root fetch - processPackages [re-it]: executing diffoscope
+[2023-07-04 10:54:17] INFO root fetch - processPackages [re-it]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/re_it-0.0.1.tar.gz tmp/re_it-1.0.0.0.tar.gz --markdown 20230704/r/re-it/0.0.1-1.0.0.0/diff.md --exclude *.pyd
+[2023-07-04 10:54:17] INFO root fetch - processPackages [merge-segments]: Downloading https://files.pythonhosted.org/packages/4b/89/f79017cfb9428e8282f57eb4ac97dc8d4634b4d1be66bfbe96661141f0fa/merge_segments-0.6.1.tar.gz
+[2023-07-04 10:54:17] INFO root fetch - processPackages [drf-openapi-tester]: Downloading https://files.pythonhosted.org/packages/d5/46/75554aaddcf36e89a34f895264e6c809b31655d8035a06c618e13e7a5463/drf_openapi_tester-2.3.2.tar.gz
+[2023-07-04 10:54:17] INFO root fetch - processPackages [SC-Track]: Downloading https://files.pythonhosted.org/packages/c6/51/f109b9d9ca22804f40307b0c5dfe264bebf84e27476405b13fc04825554a/SC-Track-0.0.3.tar.gz
+[2023-07-04 10:54:17] INFO root fetch - processPackages [drf-openapi-tester]: executing diffoscope
+[2023-07-04 10:54:17] INFO root fetch - processPackages [drf-openapi-tester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_openapi_tester-2.3.1.tar.gz tmp/drf_openapi_tester-2.3.2.tar.gz --markdown 20230704/d/drf-openapi-tester/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-07-04 10:54:17] INFO root fetch - processPackages [merge-segments]: executing diffoscope
+[2023-07-04 10:54:17] INFO root fetch - processPackages [merge-segments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merge_segments-0.6.0.tar.gz tmp/merge_segments-0.6.1.tar.gz --markdown 20230704/m/merge-segments/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-04 10:54:18] INFO root fetch - processPackages [SC-Track]: executing diffoscope
+[2023-07-04 10:54:18] INFO root fetch - processPackages [SC-Track]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SC-Track-0.0.2.tar.gz tmp/SC-Track-0.0.3.tar.gz --markdown 20230704/S/SC-Track/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-04 10:54:18] INFO root fetch - processPackages [grdwindinversion]: Downloading https://files.pythonhosted.org/packages/95/66/be659f1b39063dc08d003d93a1f8e11d31f523d2615662abdd5412faf101/grdwindinversion-999.tar.gz
+[2023-07-04 10:54:18] INFO root fetch - processPackages [grdwindinversion]: executing diffoscope
+[2023-07-04 10:54:18] INFO root fetch - processPackages [grdwindinversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grdwindinversion-0.1.0.tar.gz tmp/grdwindinversion-999.tar.gz --markdown 20230704/g/grdwindinversion/0.1.0-999/diff.md --exclude *.pyd
+[2023-07-04 10:54:18] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz]
+[2023-07-04 10:54:18] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz]
+[2023-07-04 10:54:18] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Start processing: CORS-Analyzer
+[2023-07-04 10:54:18] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-07-04 10:54:18] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.8.tar.gz]
+[2023-07-04 10:54:18] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.9.tar.gz]
+[2023-07-04 10:54:18] INFO root fetch - processPackages [ats-case]: Start processing: hryvinskiy-amount-in-words
+[2023-07-04 10:54:18] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-07-04 10:54:18] INFO root fetch - processPackages [CORS-Analyzer]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-04 10:54:18] WARNING root fetch - processPackages [hryvinskiy-amount-in-words]: Skipping, unable to determine old version
+[2023-07-04 10:54:18] INFO root fetch - processPackages [hryvinskiy-amount-in-words]: Start processing: dojo-compass
+[2023-07-04 10:54:18] INFO root fetch - main [MainThread]: End processing [hryvinskiy-amount-in-words] error
+[2023-07-04 10:54:18] INFO root fetch - processPackages [CORS-Analyzer]: Downloading https://files.pythonhosted.org/packages/4f/b9/cf53ce8f0fc6d09f441ad4c25b019775910daf5191a4985f525a5323e7a7/CORS-Analyzer-1.0.7.tar.gz
+[2023-07-04 10:54:18] INFO root fetch - processPackages [dojo-compass]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-04 10:54:18] INFO root fetch - processPackages [re-it]: Remove: archive file [/home/abi/fetcher/tmp/re_it-0.0.1.tar.gz]
+[2023-07-04 10:54:18] INFO root fetch - processPackages [re-it]: Remove: archive file [/home/abi/fetcher/tmp/re_it-1.0.0.0.tar.gz]
+[2023-07-04 10:54:18] INFO root fetch - processPackages [re-it]: Start processing: delphai-fastapi
+[2023-07-04 10:54:18] INFO root fetch - main [MainThread]: End processing [re-it]: success
+[2023-07-04 10:54:18] INFO root fetch - processPackages [ESMValCore]: executing diffoscope
+[2023-07-04 10:54:18] INFO root fetch - processPackages [ESMValCore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ESMValCore-2.9.0.tar.gz tmp/ESMValCore-2.9.0rc1.tar.gz --markdown 20230704/E/ESMValCore/2.9.0-2.9.0rc1/diff.md --exclude *.pyd
+[2023-07-04 10:54:18] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-04 10:54:18] INFO root fetch - processPackages [dojo-compass]: Downloading https://files.pythonhosted.org/packages/c3/ed/4760b4a9ef854ba86bd875678f2fb54c4781d188a6279762abbac0cf1e5c/dojo_compass-1.5.2.tar.gz
+[2023-07-04 10:54:18] INFO root fetch - processPackages [delphai-fastapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 10:54:18] INFO root fetch - processPackages [drf-openapi-tester]: Remove: archive file [/home/abi/fetcher/tmp/drf_openapi_tester-2.3.1.tar.gz]
+[2023-07-04 10:54:18] INFO root fetch - processPackages [drf-openapi-tester]: Remove: archive file [/home/abi/fetcher/tmp/drf_openapi_tester-2.3.2.tar.gz]
+[2023-07-04 10:54:18] INFO root fetch - main [MainThread]: End processing [drf-openapi-tester]: success
+[2023-07-04 10:54:19] INFO root fetch - processPackages [CORS-Analyzer]: Downloading https://files.pythonhosted.org/packages/05/4d/309cca78c7cec6d47141fe5f1eaa125eb33cddab6e299fa77c449f8977ec/CORS-Analyzer-1.0.8.tar.gz
+[2023-07-04 10:54:19] INFO root fetch - processPackages [merge-segments]: Remove: archive file [/home/abi/fetcher/tmp/merge_segments-0.6.0.tar.gz]
+[2023-07-04 10:54:19] INFO root fetch - processPackages [merge-segments]: Remove: archive file [/home/abi/fetcher/tmp/merge_segments-0.6.1.tar.gz]
+[2023-07-04 10:54:19] INFO root fetch - main [MainThread]: End processing [merge-segments]: success
+[2023-07-04 10:54:19] INFO root fetch - processPackages [SC-Track]: Remove: archive file [/home/abi/fetcher/tmp/SC-Track-0.0.2.tar.gz]
+[2023-07-04 10:54:19] INFO root fetch - processPackages [SC-Track]: Remove: archive file [/home/abi/fetcher/tmp/SC-Track-0.0.3.tar.gz]
+[2023-07-04 10:54:19] INFO root fetch - main [MainThread]: End processing [SC-Track]: success
+[2023-07-04 10:54:19] INFO root fetch - processPackages [CORS-Analyzer]: executing diffoscope
+[2023-07-04 10:54:19] INFO root fetch - processPackages [CORS-Analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CORS-Analyzer-1.0.7.tar.gz tmp/CORS-Analyzer-1.0.8.tar.gz --markdown 20230704/C/CORS-Analyzer/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-04 10:54:19] INFO root fetch - processPackages [delphai-fastapi]: Downloading https://files.pythonhosted.org/packages/37/cf/cc607c0deb951cad696f28f221d196cdf10dd5df7e116b52a30a16d40624/delphai_fastapi-0.1.8.tar.gz
+[2023-07-04 10:54:19] WARNING root fetch - processPackages [dojo-compass]: Skipping package: exceeds size limit 28116024>=10485760
+[2023-07-04 10:54:19] INFO root fetch - main [MainThread]: End processing [dojo-compass] error
+[2023-07-04 10:54:19] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-04 10:54:19] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-04 10:54:19] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-04 10:54:19] INFO root fetch - processPackages [grdwindinversion]: Remove: archive file [/home/abi/fetcher/tmp/grdwindinversion-0.1.0.tar.gz]
+[2023-07-04 10:54:19] INFO root fetch - processPackages [grdwindinversion]: Remove: archive file [/home/abi/fetcher/tmp/grdwindinversion-999.tar.gz]
+[2023-07-04 10:54:19] INFO root fetch - main [MainThread]: End processing [grdwindinversion]: success
+[2023-07-04 10:54:19] INFO root fetch - processPackages [delphai-fastapi]: Downloading https://files.pythonhosted.org/packages/f9/10/93f5a6e84f4308960063a1c131b9675ca6ae228b346c89ac486362e7de36/delphai_fastapi-0.1.9.tar.gz
+[2023-07-04 10:54:19] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-04 10:54:19] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230704/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-04 10:54:19] INFO root fetch - processPackages [delphai-fastapi]: executing diffoscope
+[2023-07-04 10:54:19] INFO root fetch - processPackages [delphai-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphai_fastapi-0.1.8.tar.gz tmp/delphai_fastapi-0.1.9.tar.gz --markdown 20230704/d/delphai-fastapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 10:54:20] INFO root fetch - processPackages [CORS-Analyzer]: Remove: archive file [/home/abi/fetcher/tmp/CORS-Analyzer-1.0.7.tar.gz]
+[2023-07-04 10:54:20] INFO root fetch - processPackages [CORS-Analyzer]: Remove: archive file [/home/abi/fetcher/tmp/CORS-Analyzer-1.0.8.tar.gz]
+[2023-07-04 10:54:20] INFO root fetch - main [MainThread]: End processing [CORS-Analyzer]: success
+[2023-07-04 10:54:20] INFO root fetch - processPackages [delphai-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/delphai_fastapi-0.1.8.tar.gz]
+[2023-07-04 10:54:20] INFO root fetch - processPackages [delphai-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/delphai_fastapi-0.1.9.tar.gz]
+[2023-07-04 10:54:20] INFO root fetch - main [MainThread]: End processing [delphai-fastapi]: success
+[2023-07-04 10:54:20] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-04 10:54:20] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-04 10:54:20] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-04 10:54:25] INFO root fetch - processPackages [ESMValCore]: Remove: archive file [/home/abi/fetcher/tmp/ESMValCore-2.9.0.tar.gz]
+[2023-07-04 10:54:25] INFO root fetch - processPackages [ESMValCore]: Remove: archive file [/home/abi/fetcher/tmp/ESMValCore-2.9.0rc1.tar.gz]
+[2023-07-04 10:54:25] INFO root fetch - main [MainThread]: End processing [ESMValCore]: success
+[2023-07-04 10:54:25] INFO root fetch - main [MainThread]: Store serial: [18752210]
