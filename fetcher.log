@@ -13500,3 +13500,107 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 08:33:43] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230704.tar.gz]
 [2023-07-04 08:33:43] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-07-04 08:33:43] INFO root fetch - main [MainThread]: Store serial: [18751023]
+[2023-07-04 08:38:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18751023]
+[2023-07-04 08:38:52] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-04 08:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: th2-data-services-lwdp
+[2023-07-04 08:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chunkipy
+[2023-07-04 08:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coffeegrinder
+[2023-07-04 08:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-sale-coupon-delivery-auto-refresh
+[2023-07-04 08:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: collective.fullcalendar
+[2023-07-04 08:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: upstash-redis
+[2023-07-04 08:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lanka-data-nuuuwan
+[2023-07-04 08:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: numpy-io
+[2023-07-04 08:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simplified-automl
+[2023-07-04 08:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: medit
+[2023-07-04 08:38:52] INFO root fetch - processPackages [odoo-addon-sale-coupon-delivery-auto-refresh]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.3]
+[2023-07-04 08:38:52] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [3.0.1.0.dev5451550241] Old Version: [3.0.1.0.dev5423789540]
+[2023-07-04 08:38:52] INFO root fetch - processPackages [coffeegrinder]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-04 08:38:52] INFO root fetch - processPackages [collective.fullcalendar]: New version: [1.2] Old Version: [1.0b2]
+[2023-07-04 08:38:52] WARNING root fetch - processPackages [lanka-data-nuuuwan]: Skipping, unable to determine old version
+[2023-07-04 08:38:52] INFO root fetch - processPackages [lanka-data-nuuuwan]: Start processing: topologicpy
+[2023-07-04 08:38:52] INFO root fetch - main [MainThread]: End processing [lanka-data-nuuuwan] error
+[2023-07-04 08:38:52] INFO root fetch - processPackages [chunkipy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-04 08:38:52] WARNING root fetch - processPackages [simplified-automl]: Skipping, unable to determine old version
+[2023-07-04 08:38:52] INFO root fetch - processPackages [simplified-automl]: Start processing: AnyRobot
+[2023-07-04 08:38:52] INFO root fetch - main [MainThread]: End processing [simplified-automl] error
+[2023-07-04 08:38:52] INFO root fetch - processPackages [upstash-redis]: New version: [0.14.5] Old Version: [0.14.4]
+[2023-07-04 08:38:53] INFO root fetch - processPackages [numpy-io]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-07-04 08:38:53] INFO root fetch - processPackages [medit]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-04 08:38:53] INFO root fetch - processPackages [topologicpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-04 08:38:53] INFO root fetch - processPackages [collective.fullcalendar]: Downloading https://files.pythonhosted.org/packages/20/6b/f197d0db5a8931e85398c0d9a0630d05e70be184ec5f8ecbd4a0b87997ab/collective.fullcalendar-1.0b2.tar.gz
+[2023-07-04 08:38:53] INFO root fetch - processPackages [numpy-io]: Downloading https://files.pythonhosted.org/packages/21/7d/7e853cba2953346d63df5239430468f0a636e66f85986de4ed65d2708893/numpy_io-0.0.3-py3-none-any.whl
+[2023-07-04 08:38:53] INFO root fetch - processPackages [AnyRobot]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-04 08:38:53] INFO root fetch - processPackages [medit]: Downloading https://files.pythonhosted.org/packages/97/20/a0703774fc31b9e257d4afab7ea5e8587dd9d35c673d3602ed33b4d3aedf/medit-0.0.5.tar.gz
+[2023-07-04 08:38:53] INFO root fetch - processPackages [odoo-addon-sale-coupon-delivery-auto-refresh]: Downloading https://files.pythonhosted.org/packages/a6/9a/a543fb6191357777dfc572f6d1b3c11b95b486668b4acb8de98fbaeffb66/odoo_addon_sale_coupon_delivery_auto_refresh-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-04 08:38:53] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/a4/32/34e4747e8e7dc793732288bf7e34a9a30cd91b17044f0544f6f669e9cca0/th2_data_services_lwdp-3.0.1.0.dev5423789540.tar.gz
+[2023-07-04 08:38:53] INFO root fetch - processPackages [coffeegrinder]: Downloading https://files.pythonhosted.org/packages/4d/67/6932a6ccc3976a5808cb713831e788a64006138ffbe710a5eb25785dbd62/coffeegrinder-0.3.0.tar.gz
+[2023-07-04 08:38:53] INFO root fetch - processPackages [chunkipy]: Downloading https://files.pythonhosted.org/packages/9a/57/ec31475ddc95ad0d0abe092a2c14d13052b4f4536589329af0911a67f526/chunkipy-0.0.2-py3-none-any.whl
+[2023-07-04 08:38:53] INFO root fetch - processPackages [upstash-redis]: Downloading https://files.pythonhosted.org/packages/72/a8/8bcc31520ef95987dd33569365b6c4d4d623119ffaa8b1225871800416ae/upstash_redis-0.14.4.tar.gz
+[2023-07-04 08:38:53] INFO root fetch - processPackages [AnyRobot]: Downloading https://files.pythonhosted.org/packages/a8/c9/4ed8a4c09f24c9b3eb457dcb2deb27c219169af38bf51114f6c00687c365/AnyRobot-1.5.3.tar.gz
+[2023-07-04 08:38:53] INFO root fetch - processPackages [medit]: Downloading https://files.pythonhosted.org/packages/a4/5e/36dcdfc4f62135b6dd7453b0edd0199dcf4dd4edcfbc62a0a67683e97698/medit-0.0.6.tar.gz
+[2023-07-04 08:38:53] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/68/fb/ca4fcb2554097f109aac5a85779dc6ab900825a1629ff66b70f664131fe3/th2_data_services_lwdp-3.0.1.0.dev5451550241.tar.gz
+[2023-07-04 08:38:53] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/c5/85/1c4479b468dd8447a392da1fb4879881f139f70892e1015a6f377c4cea2b/topologicpy-0.4.9.tar.gz
+[2023-07-04 08:38:53] INFO root fetch - processPackages [collective.fullcalendar]: Downloading https://files.pythonhosted.org/packages/77/82/19019e383497e0ad4d86837d47493fda499f51e45d41c0aaf0ff4f169510/collective.fullcalendar-1.2.tar.gz
+[2023-07-04 08:38:53] INFO root fetch - processPackages [coffeegrinder]: Downloading https://files.pythonhosted.org/packages/bb/ee/7b32fc10e174d1ec4819fae4a7a95c4bc4560b7b969aeac81ac0bbe2999d/coffeegrinder-0.3.1.tar.gz
+[2023-07-04 08:38:53] INFO root fetch - processPackages [numpy-io]: Downloading https://files.pythonhosted.org/packages/8b/c6/e13378683d990528682ddf0a718839f84ddb58375281a7c13ee55592209b/numpy_io-0.0.5-py3-none-any.whl
+[2023-07-04 08:38:53] INFO root fetch - processPackages [chunkipy]: Downloading https://files.pythonhosted.org/packages/90/c9/40e388ee46bcb40c1523ff5b890c996dcc9a8c27892824157c70ba6afbc3/chunkipy-0.0.3-py3-none-any.whl
+[2023-07-04 08:38:53] INFO root fetch - processPackages [odoo-addon-sale-coupon-delivery-auto-refresh]: Downloading https://files.pythonhosted.org/packages/47/94/dec0b23118215ade7f532d54aff676827dc688f55a544d065c35e68b95da/odoo_addon_sale_coupon_delivery_auto_refresh-15.0.1.0.1-py3-none-any.whl
+[2023-07-04 08:38:53] INFO root fetch - processPackages [upstash-redis]: Downloading https://files.pythonhosted.org/packages/b8/6f/960b202c9c0785d6894e7a049079f90d44a4d91d4290eeb0e05608b17101/upstash_redis-0.14.5.tar.gz
+[2023-07-04 08:38:53] INFO root fetch - processPackages [collective.fullcalendar]: executing diffoscope
+[2023-07-04 08:38:53] INFO root fetch - processPackages [collective.fullcalendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.fullcalendar-1.0b2.tar.gz tmp/collective.fullcalendar-1.2.tar.gz --markdown 20230704/c/collective.fullcalendar/1.0b2-1.2/diff.md --exclude *.pyd
+[2023-07-04 08:38:54] INFO root fetch - processPackages [medit]: executing diffoscope
+[2023-07-04 08:38:54] INFO root fetch - processPackages [medit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medit-0.0.5.tar.gz tmp/medit-0.0.6.tar.gz --markdown 20230704/m/medit/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-04 08:38:54] INFO root fetch - processPackages [chunkipy]: executing diffoscope
+[2023-07-04 08:38:54] INFO root fetch - processPackages [chunkipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chunkipy-0.0.2-py3-none-any.whl.zip tmp/chunkipy-0.0.3-py3-none-any.whl.zip --markdown 20230704/c/chunkipy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-04 08:38:54] INFO root fetch - processPackages [coffeegrinder]: executing diffoscope
+[2023-07-04 08:38:54] INFO root fetch - processPackages [coffeegrinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coffeegrinder-0.3.0.tar.gz tmp/coffeegrinder-0.3.1.tar.gz --markdown 20230704/c/coffeegrinder/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-04 08:38:54] INFO root fetch - processPackages [AnyRobot]: Downloading https://files.pythonhosted.org/packages/33/4c/e9ba2c2d190ec2c080b87d176ab7f2b4fcd55b2afa6457d45a928fffe834/AnyRobot-1.5.4.tar.gz
+[2023-07-04 08:38:54] INFO root fetch - processPackages [numpy-io]: executing diffoscope
+[2023-07-04 08:38:54] INFO root fetch - processPackages [numpy-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numpy_io-0.0.3-py3-none-any.whl.zip tmp/numpy_io-0.0.5-py3-none-any.whl.zip --markdown 20230704/n/numpy-io/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-07-04 08:38:54] INFO root fetch - processPackages [odoo-addon-sale-coupon-delivery-auto-refresh]: executing diffoscope
+[2023-07-04 08:38:54] INFO root fetch - processPackages [odoo-addon-sale-coupon-delivery-auto-refresh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_coupon_delivery_auto_refresh-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_coupon_delivery_auto_refresh-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230704/o/odoo-addon-sale-coupon-delivery-auto-refresh/15.0.1.0.0.3-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-04 08:38:54] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-07-04 08:38:54] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-3.0.1.0.dev5423789540.tar.gz tmp/th2_data_services_lwdp-3.0.1.0.dev5451550241.tar.gz --markdown 20230704/t/th2-data-services-lwdp/3.0.1.0.dev5423789540-3.0.1.0.dev5451550241/diff.md --exclude *.pyd
+[2023-07-04 08:38:54] INFO root fetch - processPackages [upstash-redis]: executing diffoscope
+[2023-07-04 08:38:54] INFO root fetch - processPackages [upstash-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_redis-0.14.4.tar.gz tmp/upstash_redis-0.14.5.tar.gz --markdown 20230704/u/upstash-redis/0.14.4-0.14.5/diff.md --exclude *.pyd
+[2023-07-04 08:38:54] INFO root fetch - processPackages [AnyRobot]: executing diffoscope
+[2023-07-04 08:38:54] INFO root fetch - processPackages [AnyRobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AnyRobot-1.5.3.tar.gz tmp/AnyRobot-1.5.4.tar.gz --markdown 20230704/A/AnyRobot/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-07-04 08:38:54] WARNING root fetch - processPackages [topologicpy]: Skipping package: exceeds size limit 34020520>=10485760
+[2023-07-04 08:38:54] INFO root fetch - processPackages [topologicpy]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-04 08:38:54] INFO root fetch - main [MainThread]: End processing [topologicpy] error
+[2023-07-04 08:38:54] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-04 08:38:54] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-04 08:38:55] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-04 08:38:55] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-04 08:38:55] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230704/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 08:38:56] INFO root fetch - processPackages [odoo-addon-sale-coupon-delivery-auto-refresh]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_coupon_delivery_auto_refresh-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-04 08:38:56] INFO root fetch - processPackages [odoo-addon-sale-coupon-delivery-auto-refresh]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_coupon_delivery_auto_refresh-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-04 08:38:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-coupon-delivery-auto-refresh]: success
+[2023-07-04 08:38:56] INFO root fetch - processPackages [medit]: Remove: archive file [/home/abi/fetcher/tmp/medit-0.0.5.tar.gz]
+[2023-07-04 08:38:56] INFO root fetch - processPackages [medit]: Remove: archive file [/home/abi/fetcher/tmp/medit-0.0.6.tar.gz]
+[2023-07-04 08:38:56] INFO root fetch - main [MainThread]: End processing [medit]: success
+[2023-07-04 08:38:56] INFO root fetch - processPackages [chunkipy]: Remove: archive file [/home/abi/fetcher/tmp/chunkipy-0.0.2-py3-none-any.whl.zip]
+[2023-07-04 08:38:56] INFO root fetch - processPackages [chunkipy]: Remove: archive file [/home/abi/fetcher/tmp/chunkipy-0.0.3-py3-none-any.whl.zip]
+[2023-07-04 08:38:56] INFO root fetch - main [MainThread]: End processing [chunkipy]: success
+[2023-07-04 08:38:56] INFO root fetch - processPackages [upstash-redis]: Remove: archive file [/home/abi/fetcher/tmp/upstash_redis-0.14.4.tar.gz]
+[2023-07-04 08:38:56] INFO root fetch - processPackages [upstash-redis]: Remove: archive file [/home/abi/fetcher/tmp/upstash_redis-0.14.5.tar.gz]
+[2023-07-04 08:38:56] INFO root fetch - main [MainThread]: End processing [upstash-redis]: success
+[2023-07-04 08:38:56] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-3.0.1.0.dev5423789540.tar.gz]
+[2023-07-04 08:38:56] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-3.0.1.0.dev5451550241.tar.gz]
+[2023-07-04 08:38:56] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-07-04 08:38:56] INFO root fetch - processPackages [numpy-io]: Remove: archive file [/home/abi/fetcher/tmp/numpy_io-0.0.3-py3-none-any.whl.zip]
+[2023-07-04 08:38:56] INFO root fetch - processPackages [numpy-io]: Remove: archive file [/home/abi/fetcher/tmp/numpy_io-0.0.5-py3-none-any.whl.zip]
+[2023-07-04 08:38:56] INFO root fetch - main [MainThread]: End processing [numpy-io]: success
+[2023-07-04 08:38:56] INFO root fetch - processPackages [AnyRobot]: Remove: archive file [/home/abi/fetcher/tmp/AnyRobot-1.5.3.tar.gz]
+[2023-07-04 08:38:56] INFO root fetch - processPackages [AnyRobot]: Remove: archive file [/home/abi/fetcher/tmp/AnyRobot-1.5.4.tar.gz]
+[2023-07-04 08:38:56] INFO root fetch - main [MainThread]: End processing [AnyRobot]: success
+[2023-07-04 08:38:56] INFO root fetch - processPackages [coffeegrinder]: Remove: archive file [/home/abi/fetcher/tmp/coffeegrinder-0.3.0.tar.gz]
+[2023-07-04 08:38:56] INFO root fetch - processPackages [coffeegrinder]: Remove: archive file [/home/abi/fetcher/tmp/coffeegrinder-0.3.1.tar.gz]
+[2023-07-04 08:38:56] INFO root fetch - main [MainThread]: End processing [coffeegrinder]: success
+[2023-07-04 08:38:56] INFO root fetch - processPackages [collective.fullcalendar]: Remove: archive file [/home/abi/fetcher/tmp/collective.fullcalendar-1.0b2.tar.gz]
+[2023-07-04 08:38:56] INFO root fetch - processPackages [collective.fullcalendar]: Remove: archive file [/home/abi/fetcher/tmp/collective.fullcalendar-1.2.tar.gz]
+[2023-07-04 08:38:56] INFO root fetch - main [MainThread]: End processing [collective.fullcalendar]: success
+[2023-07-04 08:38:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-04 08:38:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-04 08:38:57] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-04 08:38:57] INFO root fetch - main [MainThread]: Store serial: [18751061]
