@@ -11187,3 +11187,65 @@
 [2023-07-04 06:15:46] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.9.tar.gz]
 [2023-07-04 06:15:46] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
 [2023-07-04 06:15:46] INFO root fetch - main [MainThread]: Store serial: [18750132]
+[2023-07-04 06:20:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18750132]
+[2023-07-04 06:20:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-04 06:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: google-play-developer-api
+[2023-07-04 06:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mathkit
+[2023-07-04 06:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantplay
+[2023-07-04 06:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyroFork-dev
+[2023-07-04 06:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tfv
+[2023-07-04 06:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rosetta-ce
+[2023-07-04 06:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: excel-splitter
+[2023-07-04 06:20:55] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.3.dev202307040416] Old Version: [2.2.3.dev202307040333]
+[2023-07-04 06:20:55] INFO root fetch - processPackages [mathkit]: New version: [3.3.4] Old Version: [3.3.2]
+[2023-07-04 06:20:55] INFO root fetch - processPackages [google-play-developer-api]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-04 06:20:55] INFO root fetch - processPackages [tfv]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-04 06:20:55] INFO root fetch - processPackages [rosetta-ce]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-04 06:20:55] INFO root fetch - processPackages [excel-splitter]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-04 06:20:55] INFO root fetch - processPackages [quantplay]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-04 06:20:55] INFO root fetch - processPackages [excel-splitter]: Downloading https://files.pythonhosted.org/packages/ea/64/9a2d9dea774ad52940d4060a609276c9fcdc83276cb17fc4fe6ab767b0df/excel_splitter-0.0.3.tar.gz
+[2023-07-04 06:20:55] INFO root fetch - processPackages [mathkit]: Downloading https://files.pythonhosted.org/packages/29/96/5fab5f9b2368542bc0f4584cff103401b66e2d89ef2d82480a87139847aa/mathkit-3.3.2.tar.gz
+[2023-07-04 06:20:55] INFO root fetch - processPackages [tfv]: Downloading https://files.pythonhosted.org/packages/70/f1/9cfde919f89ce75c8145db62bf1a8d149accb7a1fa5015becbd6319e6711/tfv-1.0.1.tar.gz
+[2023-07-04 06:20:55] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/8e/ce/d6f3b9fdd66838fca77fee0a58402867954d3a7edd673fdd670c85591aae/rosetta-ce-1.5.0.tar.gz
+[2023-07-04 06:20:55] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/d5/54/5e7339b989160cec24c482123db62205e6b197fae026766393e8aab0c59a/PyroFork-dev-2.2.3.dev202307040333.tar.gz
+[2023-07-04 06:20:55] INFO root fetch - processPackages [google-play-developer-api]: Downloading https://files.pythonhosted.org/packages/96/34/692dd644a76934c3e9392da698605fbf0192b2538c91d57c746d84ae8764/google_play_developer_api-0.5.1.tar.gz
+[2023-07-04 06:20:55] WARNING root fetch - processPackages [tfv]: Skipping package: exceeds size limit 19952657>=10485760
+[2023-07-04 06:20:55] INFO root fetch - main [MainThread]: End processing [tfv] error
+[2023-07-04 06:20:55] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/68/5f/e11dcf0f734cc1734a41ea2b57e2506200b025d814aed5a0f58d05972f8d/quantplay-1.2.98.tar.gz
+[2023-07-04 06:20:55] INFO root fetch - processPackages [excel-splitter]: Downloading https://files.pythonhosted.org/packages/13/93/67c2c4369084daf5bb49a0e6d00ae6ccff7a083b4a6e93c437d7fa3a6d30/excel_splitter-0.0.4.tar.gz
+[2023-07-04 06:20:55] INFO root fetch - processPackages [mathkit]: Downloading https://files.pythonhosted.org/packages/28/e2/2ae9d26870a28a34aa2848212954bafc7886a66cc07fce4a8ac9b2439936/mathkit-3.3.4.tar.gz
+[2023-07-04 06:20:55] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/2a/57/0d482160f6d5906dd440e5ddde9c3038c57e9b6010cfb66f77de241ba5fd/rosetta-ce-1.5.1.tar.gz
+[2023-07-04 06:20:55] INFO root fetch - processPackages [excel-splitter]: executing diffoscope
+[2023-07-04 06:20:55] INFO root fetch - processPackages [excel-splitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excel_splitter-0.0.3.tar.gz tmp/excel_splitter-0.0.4.tar.gz --markdown 20230704/e/excel-splitter/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-04 06:20:56] INFO root fetch - processPackages [google-play-developer-api]: Downloading https://files.pythonhosted.org/packages/9c/48/d2bff12852572fd4882032d2fed2054ee3178d092128de02c7cf024b5743/google_play_developer_api-0.5.2.tar.gz
+[2023-07-04 06:20:56] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/ff/f4/570cd8d246952cf471c0647d9987b8fd1e3d9a9a83bdf79a636040825d61/PyroFork-dev-2.2.3.dev202307040416.tar.gz
+[2023-07-04 06:20:56] INFO root fetch - processPackages [rosetta-ce]: executing diffoscope
+[2023-07-04 06:20:56] INFO root fetch - processPackages [rosetta-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosetta-ce-1.5.0.tar.gz tmp/rosetta-ce-1.5.1.tar.gz --markdown 20230704/r/rosetta-ce/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-04 06:20:56] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/01/40/bf99ddcdd9788ce0514a7efdc64636b058910202f177230b5a92f8c4d7ce/quantplay-1.2.99.tar.gz
+[2023-07-04 06:20:56] INFO root fetch - processPackages [google-play-developer-api]: executing diffoscope
+[2023-07-04 06:20:56] INFO root fetch - processPackages [google-play-developer-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_play_developer_api-0.5.1.tar.gz tmp/google_play_developer_api-0.5.2.tar.gz --markdown 20230704/g/google-play-developer-api/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-04 06:20:56] INFO root fetch - processPackages [mathkit]: executing diffoscope
+[2023-07-04 06:20:56] INFO root fetch - processPackages [mathkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathkit-3.3.2.tar.gz tmp/mathkit-3.3.4.tar.gz --markdown 20230704/m/mathkit/3.3.2-3.3.4/diff.md --exclude *.pyd
+[2023-07-04 06:20:56] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-07-04 06:20:56] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.98.tar.gz tmp/quantplay-1.2.99.tar.gz --markdown 20230704/q/quantplay/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-04 06:20:56] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-07-04 06:20:56] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.3.dev202307040333.tar.gz tmp/PyroFork-dev-2.2.3.dev202307040416.tar.gz --markdown 20230704/P/PyroFork-dev/2.2.3.dev202307040333-2.2.3.dev202307040416/diff.md --exclude *.pyd
+[2023-07-04 06:20:56] INFO root fetch - processPackages [excel-splitter]: Remove: archive file [/home/abi/fetcher/tmp/excel_splitter-0.0.3.tar.gz]
+[2023-07-04 06:20:56] INFO root fetch - processPackages [excel-splitter]: Remove: archive file [/home/abi/fetcher/tmp/excel_splitter-0.0.4.tar.gz]
+[2023-07-04 06:20:56] INFO root fetch - main [MainThread]: End processing [excel-splitter]: success
+[2023-07-04 06:20:57] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.5.0.tar.gz]
+[2023-07-04 06:20:57] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.5.1.tar.gz]
+[2023-07-04 06:20:57] INFO root fetch - main [MainThread]: End processing [rosetta-ce]: success
+[2023-07-04 06:20:57] INFO root fetch - processPackages [google-play-developer-api]: Remove: archive file [/home/abi/fetcher/tmp/google_play_developer_api-0.5.1.tar.gz]
+[2023-07-04 06:20:57] INFO root fetch - processPackages [google-play-developer-api]: Remove: archive file [/home/abi/fetcher/tmp/google_play_developer_api-0.5.2.tar.gz]
+[2023-07-04 06:20:57] INFO root fetch - main [MainThread]: End processing [google-play-developer-api]: success
+[2023-07-04 06:20:57] INFO root fetch - processPackages [mathkit]: Remove: archive file [/home/abi/fetcher/tmp/mathkit-3.3.2.tar.gz]
+[2023-07-04 06:20:57] INFO root fetch - processPackages [mathkit]: Remove: archive file [/home/abi/fetcher/tmp/mathkit-3.3.4.tar.gz]
+[2023-07-04 06:20:57] INFO root fetch - main [MainThread]: End processing [mathkit]: success
+[2023-07-04 06:20:57] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.2.98.tar.gz]
+[2023-07-04 06:20:57] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.2.99.tar.gz]
+[2023-07-04 06:20:57] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-07-04 06:20:59] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.3.dev202307040333.tar.gz]
+[2023-07-04 06:20:59] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.3.dev202307040416.tar.gz]
+[2023-07-04 06:20:59] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-07-04 06:20:59] INFO root fetch - main [MainThread]: Store serial: [18750156]
