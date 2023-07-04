@@ -10319,3 +10319,87 @@
 [2023-07-04 05:16:59] INFO root fetch - processPackages [httpie-mauth]: Remove: archive file [/home/abi/fetcher/tmp/httpie_mauth-0.0.4.tar.gz]
 [2023-07-04 05:16:59] INFO root fetch - main [MainThread]: End processing [httpie-mauth]: success
 [2023-07-04 05:16:59] INFO root fetch - main [MainThread]: Store serial: [18749808]
+[2023-07-04 05:22:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18749808]
+[2023-07-04 05:22:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-04 05:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfv
+[2023-07-04 05:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-e-commerce
+[2023-07-04 05:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: khala-python-utils
+[2023-07-04 05:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyQtGuiLib
+[2023-07-04 05:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mmsegmentation
+[2023-07-04 05:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: GANDLF
+[2023-07-04 05:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aliyun-python-sdk-nlp-automl
+[2023-07-04 05:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyhard
+[2023-07-04 05:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: card-component
+[2023-07-04 05:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dremio-arrow
+[2023-07-04 05:22:07] WARNING root fetch - processPackages [card-component]: Skipping, unable to determine old version
+[2023-07-04 05:22:07] INFO root fetch - main [MainThread]: End processing [card-component] error
+[2023-07-04 05:22:07] INFO root fetch - processPackages [aliyun-python-sdk-nlp-automl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 05:22:07] INFO root fetch - processPackages [pyhard]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-07-04 05:22:07] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230703] Old Version: [0.0.17.dev20230702]
+[2023-07-04 05:22:07] INFO root fetch - processPackages [dremio-arrow]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-04 05:22:07] INFO root fetch - processPackages [khala-python-utils]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-04 05:22:07] INFO root fetch - processPackages [tfv]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-04 05:22:07] INFO root fetch - processPackages [PyQtGuiLib]: New version: [2.8.25.1] Old Version: [2.8.25.0]
+[2023-07-04 05:22:07] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: New version: [16.0.20230607.1] Old Version: [16.0.20230601.0]
+[2023-07-04 05:22:07] INFO root fetch - processPackages [mmsegmentation]: New version: [1.1.0] Old Version: [1.0.0rc6]
+[2023-07-04 05:22:07] INFO root fetch - processPackages [aliyun-python-sdk-nlp-automl]: Downloading https://files.pythonhosted.org/packages/ca/81/233be695ced0b1ac2507199ec930398931be9e16720ed385bcb5127c269f/aliyun-python-sdk-nlp-automl-0.0.8.tar.gz
+[2023-07-04 05:22:08] INFO root fetch - processPackages [pyhard]: Downloading https://files.pythonhosted.org/packages/5c/d9/3cc83dbe85c64ccc6e4f0533d19bb05d1511d3dfa8e62970e8ebeb03cd94/pyhard-2.1.6.tar.gz
+[2023-07-04 05:22:08] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/e7/af/d4dede17fc1f0511cb6107b8bb83e7a13915c0ce15553409c2e826c16fe3/GANDLF-0.0.17.dev20230702.tar.gz
+[2023-07-04 05:22:08] INFO root fetch - processPackages [khala-python-utils]: Downloading https://files.pythonhosted.org/packages/73/e4/bf54822240cee5867ec12d7135eb66ba967c37152a23c4d4d71cec0ceff8/khala_python_utils-0.0.2.tar.gz
+[2023-07-04 05:22:08] INFO root fetch - processPackages [dremio-arrow]: Downloading https://files.pythonhosted.org/packages/22/ee/c62be6e61e1af1177e70a8cd3ec3a987177b339be5047dd853623fc37b4c/dremio-arrow-1.0.1.tar.gz
+[2023-07-04 05:22:08] INFO root fetch - processPackages [mmsegmentation]: Downloading https://files.pythonhosted.org/packages/ee/ef/c395a3971ecb27e4ba1b7a91b52876e81dda9116f1ff004802baa245850d/mmsegmentation-1.0.0rc6.tar.gz
+[2023-07-04 05:22:08] INFO root fetch - processPackages [PyQtGuiLib]: Downloading https://files.pythonhosted.org/packages/7a/a4/61dbcec91e7692bba089a11e93946fa3a0d8d1f241d363786f65d94cfbe7/PyQtGuiLib-2.8.25.0.tar.gz
+[2023-07-04 05:22:08] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Downloading https://files.pythonhosted.org/packages/dd/20/84cfd587d1f65304c07d4eee9eb017fab6395ae0b92b39cc1b5642902971/odoo_addons_oca_e_commerce-16.0.20230601.0-py3-none-any.whl
+[2023-07-04 05:22:08] INFO root fetch - processPackages [aliyun-python-sdk-nlp-automl]: Downloading https://files.pythonhosted.org/packages/09/9c/543393ebbb657cd7120e8d955f6400e3a1c874f96132c8c1f41462ca09c8/aliyun-python-sdk-nlp-automl-0.0.9.tar.gz
+[2023-07-04 05:22:08] INFO root fetch - processPackages [tfv]: Downloading https://files.pythonhosted.org/packages/4f/ff/b7e2bbb697c560f5c1d65f1b803ff93130786d181b37a46860d54df68530/tfv-1.0.0.tar.gz
+[2023-07-04 05:22:08] INFO root fetch - processPackages [aliyun-python-sdk-nlp-automl]: executing diffoscope
+[2023-07-04 05:22:08] INFO root fetch - processPackages [aliyun-python-sdk-nlp-automl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-nlp-automl-0.0.8.tar.gz tmp/aliyun-python-sdk-nlp-automl-0.0.9.tar.gz --markdown 20230704/a/aliyun-python-sdk-nlp-automl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 05:22:08] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/98/2b/fbb1a240b2edb3108c62b6bb0fb161de7977da1ba912453bcfaf2e029573/GANDLF-0.0.17.dev20230703.tar.gz
+[2023-07-04 05:22:08] INFO root fetch - processPackages [khala-python-utils]: Downloading https://files.pythonhosted.org/packages/7e/17/cbfc4dc622517873d5f3cc3a264c616401c5ba95d252598c36190cad143b/khala_python_utils-0.0.3.tar.gz
+[2023-07-04 05:22:08] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-07-04 05:22:08] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230702.tar.gz tmp/GANDLF-0.0.17.dev20230703.tar.gz --markdown 20230704/G/GANDLF/0.0.17.dev20230702-0.0.17.dev20230703/diff.md --exclude *.pyd
+[2023-07-04 05:22:08] INFO root fetch - processPackages [pyhard]: Downloading https://files.pythonhosted.org/packages/b9/2f/abe0892d4ae6734b045876f4d571d467472297f7be880749d7774ffeb93c/pyhard-2.1.7.tar.gz
+[2023-07-04 05:22:08] INFO root fetch - processPackages [PyQtGuiLib]: Downloading https://files.pythonhosted.org/packages/eb/74/a18ebe17ccbb5135cd012fb45799c4fb818a24342565d3f5cf45bbea6365/PyQtGuiLib-2.8.25.1.tar.gz
+[2023-07-04 05:22:08] INFO root fetch - processPackages [khala-python-utils]: executing diffoscope
+[2023-07-04 05:22:08] INFO root fetch - processPackages [khala-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khala_python_utils-0.0.2.tar.gz tmp/khala_python_utils-0.0.3.tar.gz --markdown 20230704/k/khala-python-utils/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-04 05:22:08] INFO root fetch - processPackages [tfv]: Downloading https://files.pythonhosted.org/packages/70/f1/9cfde919f89ce75c8145db62bf1a8d149accb7a1fa5015becbd6319e6711/tfv-1.0.1.tar.gz
+[2023-07-04 05:22:08] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Downloading https://files.pythonhosted.org/packages/5c/a0/6e7284fbc832fbaec8be67c8811c1b7bdf0432b4f03d1c5c0b30f3f9cd3d/odoo_addons_oca_e_commerce-16.0.20230607.1-py3-none-any.whl
+[2023-07-04 05:22:08] INFO root fetch - processPackages [dremio-arrow]: Downloading https://files.pythonhosted.org/packages/7b/1d/ba2240c748ba599b19df974432a5cc3d7754b56995ba7ac29aa3eb67a3a7/dremio_arrow-1.0.2-py3-none-any.whl
+[2023-07-04 05:22:08] WARNING root fetch - processPackages [tfv]: Skipping package: exceeds size limit 19952657>=10485760
+[2023-07-04 05:22:08] INFO root fetch - main [MainThread]: End processing [tfv] error
+[2023-07-04 05:22:08] INFO root fetch - processPackages [mmsegmentation]: Downloading https://files.pythonhosted.org/packages/b2/e2/6a3fcd519f17c74833d3e7cb49b671409cce2e9fc8914bf675db090d0d0a/mmsegmentation-1.1.0.tar.gz
+[2023-07-04 05:22:08] INFO root fetch - processPackages [PyQtGuiLib]: executing diffoscope
+[2023-07-04 05:22:08] INFO root fetch - processPackages [PyQtGuiLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtGuiLib-2.8.25.0.tar.gz tmp/PyQtGuiLib-2.8.25.1.tar.gz --markdown 20230704/P/PyQtGuiLib/2.8.25.0-2.8.25.1/diff.md --exclude *.pyd
+[2023-07-04 05:22:09] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: executing diffoscope
+[2023-07-04 05:22:09] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_e_commerce-16.0.20230601.0-py3-none-any.whl.zip tmp/odoo_addons_oca_e_commerce-16.0.20230607.1-py3-none-any.whl.zip --markdown 20230704/o/odoo-addons-oca-e-commerce/16.0.20230601.0-16.0.20230607.1/diff.md --exclude *.pyd
+[2023-07-04 05:22:09] INFO root fetch - processPackages [mmsegmentation]: executing diffoscope
+[2023-07-04 05:22:09] INFO root fetch - processPackages [mmsegmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmsegmentation-1.0.0rc6.tar.gz tmp/mmsegmentation-1.1.0.tar.gz --markdown 20230704/m/mmsegmentation/1.0.0rc6-1.1.0/diff.md --exclude *.pyd
+[2023-07-04 05:22:09] INFO root fetch - processPackages [pyhard]: executing diffoscope
+[2023-07-04 05:22:09] INFO root fetch - processPackages [pyhard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhard-2.1.6.tar.gz tmp/pyhard-2.1.7.tar.gz --markdown 20230704/p/pyhard/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-07-04 05:22:09] INFO root fetch - processPackages [dremio-arrow]: executing diffoscope
+[2023-07-04 05:22:09] INFO root fetch - processPackages [dremio-arrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dremio-arrow-1.0.1.tar.gz tmp/dremio_arrow-1.0.2-py3-none-any.whl.zip --markdown 20230704/d/dremio-arrow/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-04 05:22:09] INFO root fetch - processPackages [aliyun-python-sdk-nlp-automl]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-nlp-automl-0.0.8.tar.gz]
+[2023-07-04 05:22:09] INFO root fetch - processPackages [aliyun-python-sdk-nlp-automl]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-nlp-automl-0.0.9.tar.gz]
+[2023-07-04 05:22:09] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-nlp-automl]: success
+[2023-07-04 05:22:09] INFO root fetch - processPackages [khala-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/khala_python_utils-0.0.2.tar.gz]
+[2023-07-04 05:22:09] INFO root fetch - processPackages [khala-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/khala_python_utils-0.0.3.tar.gz]
+[2023-07-04 05:22:09] INFO root fetch - main [MainThread]: End processing [khala-python-utils]: success
+[2023-07-04 05:22:10] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_e_commerce-16.0.20230601.0-py3-none-any.whl.zip]
+[2023-07-04 05:22:10] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_e_commerce-16.0.20230607.1-py3-none-any.whl.zip]
+[2023-07-04 05:22:10] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-e-commerce]: success
+[2023-07-04 05:22:10] INFO root fetch - processPackages [dremio-arrow]: Remove: archive file [/home/abi/fetcher/tmp/dremio-arrow-1.0.1.tar.gz]
+[2023-07-04 05:22:10] INFO root fetch - processPackages [dremio-arrow]: Remove: archive file [/home/abi/fetcher/tmp/dremio_arrow-1.0.2-py3-none-any.whl.zip]
+[2023-07-04 05:22:10] INFO root fetch - main [MainThread]: End processing [dremio-arrow]: success
+[2023-07-04 05:22:10] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230702.tar.gz]
+[2023-07-04 05:22:10] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230703.tar.gz]
+[2023-07-04 05:22:10] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-07-04 05:22:10] INFO root fetch - processPackages [PyQtGuiLib]: Remove: archive file [/home/abi/fetcher/tmp/PyQtGuiLib-2.8.25.0.tar.gz]
+[2023-07-04 05:22:10] INFO root fetch - processPackages [PyQtGuiLib]: Remove: archive file [/home/abi/fetcher/tmp/PyQtGuiLib-2.8.25.1.tar.gz]
+[2023-07-04 05:22:10] INFO root fetch - main [MainThread]: End processing [PyQtGuiLib]: success
+[2023-07-04 05:22:11] INFO root fetch - processPackages [pyhard]: Remove: archive file [/home/abi/fetcher/tmp/pyhard-2.1.6.tar.gz]
+[2023-07-04 05:22:11] INFO root fetch - processPackages [pyhard]: Remove: archive file [/home/abi/fetcher/tmp/pyhard-2.1.7.tar.gz]
+[2023-07-04 05:22:11] INFO root fetch - main [MainThread]: End processing [pyhard]: success
+[2023-07-04 05:22:14] INFO root fetch - processPackages [mmsegmentation]: Remove: archive file [/home/abi/fetcher/tmp/mmsegmentation-1.0.0rc6.tar.gz]
+[2023-07-04 05:22:14] INFO root fetch - processPackages [mmsegmentation]: Remove: archive file [/home/abi/fetcher/tmp/mmsegmentation-1.1.0.tar.gz]
+[2023-07-04 05:22:14] INFO root fetch - main [MainThread]: End processing [mmsegmentation]: success
+[2023-07-04 05:22:14] INFO root fetch - main [MainThread]: Store serial: [18749842]
