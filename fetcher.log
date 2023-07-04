@@ -21076,3 +21076,129 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 14:09:30] INFO root fetch - processPackages [blosc2-btune]: Remove: archive file [/home/abi/fetcher/tmp/blosc2_btune-1.0.0rc2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-04 14:09:30] INFO root fetch - main [MainThread]: End processing [blosc2-btune]: success
 [2023-07-04 14:09:30] INFO root fetch - main [MainThread]: Store serial: [18754385]
+[2023-07-04 14:14:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18754385]
+[2023-07-04 14:14:43] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-04 14:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: textbasedlib
+[2023-07-04 14:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leadguru-jobs
+[2023-07-04 14:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-cdk-constructs
+[2023-07-04 14:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-agents-nightly
+[2023-07-04 14:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oarepo-runtime
+[2023-07-04 14:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymc
+[2023-07-04 14:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agixt
+[2023-07-04 14:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: indsl
+[2023-07-04 14:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: akerbp.mlops
+[2023-07-04 14:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: archivebox-likn
+[2023-07-04 14:14:43] INFO root fetch - processPackages [textbasedlib]: New version: [1.2] Old Version: [1.0]
+[2023-07-04 14:14:43] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.2.1a8] Old Version: [3.2.1a7]
+[2023-07-04 14:14:43] INFO root fetch - processPackages [aws-cdk-constructs]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-04 14:14:43] INFO root fetch - processPackages [agixt]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-04 14:14:43] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-04 14:14:43] INFO root fetch - processPackages [indsl]: New version: [6.6.0a0] Old Version: [6.5.0]
+[2023-07-04 14:14:43] INFO root fetch - processPackages [pymc]: New version: [5.6.0] Old Version: [5.5.0]
+[2023-07-04 14:14:43] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/0e/6b/06416fee92c65afa86d83b575b17ccbd63015a7d4a855d8a38f9772e494d/akerbp.mlops-3.2.1a7.tar.gz
+[2023-07-04 14:14:43] INFO root fetch - processPackages [oarepo-runtime]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-04 14:14:43] WARNING root fetch - processPackages [archivebox-likn]: Skipping, unable to determine old version
+[2023-07-04 14:14:43] INFO root fetch - processPackages [archivebox-likn]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-07-04 14:14:43] INFO root fetch - main [MainThread]: End processing [archivebox-likn] error
+[2023-07-04 14:14:43] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/57/7d/e0dbe5553b1f67de7609bdf6e002ce1dc19a34e50ab0a12f66f0e1eafcb3/agixt-1.3.1.tar.gz
+[2023-07-04 14:14:43] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-07-04 14:14:43] INFO root fetch - processPackages [textbasedlib]: Downloading https://files.pythonhosted.org/packages/50/49/2b83746b41e33ff90f02d155668889ad348cd81ee432630334b328845ac9/textbasedlib-1.0.tar.gz
+[2023-07-04 14:14:43] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-07-04 14:14:43] INFO root fetch - processPackages [aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/e6/37/d91f15ad3ff666b7db55fc300424baecc14de758543e3ada24b95f4ff718/aws_cdk_constructs-2.9.1.tar.gz
+[2023-07-04 14:14:43] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 14:14:43] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/17/18/dcc7b08301454d96434492978faaaf5d8f943c96d8560d5742eb6824dfcd/oarepo-runtime-1.3.8.tar.gz
+[2023-07-04 14:14:43] INFO root fetch - processPackages [indsl]: Downloading https://files.pythonhosted.org/packages/3b/64/c37cfe4827d6abd94f28be58741e28d48b9c5bf604a4c5afcaa61eefcee6/indsl-6.5.0.tar.gz
+[2023-07-04 14:14:43] INFO root fetch - processPackages [pymc]: Downloading https://files.pythonhosted.org/packages/e8/54/1a5738e9c954c8e72cb9d3c1b7c686b577cfff303c431e1e929ed791bd68/pymc-5.5.0.tar.gz
+[2023-07-04 14:14:44] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/17/67/c7ce6e3cec9a2f0d5a873316c403a8f2923aeb3e00d887f8c30e8356100f/agixt-1.3.2.tar.gz
+[2023-07-04 14:14:44] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-07-04 14:14:44] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/de/0a/ceb3a6dea90f0331e5680ee0aeec282809a7c87dea527072053e77526688/akerbp.mlops-3.2.1a8.tar.gz
+[2023-07-04 14:14:44] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-07-04 14:14:44] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-07-04 14:14:44] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.3.1.tar.gz tmp/agixt-1.3.2.tar.gz --markdown 20230704/a/agixt/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-04 14:14:44] INFO root fetch - processPackages [textbasedlib]: Downloading https://files.pythonhosted.org/packages/dd/d0/bd6ba30e1a4f048e420912133911a5daaba531235b93f90da14ab91a47bd/textbasedlib-1.2.tar.gz
+[2023-07-04 14:14:44] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-07-04 14:14:44] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/d4/a6/bbef3bd266677026b7d501efe81bd8f82ca65597bab5e89f9a32ef64b034/oarepo-runtime-1.3.9.tar.gz
+[2023-07-04 14:14:44] INFO root fetch - processPackages [aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/35/f4/09f600eaed6a0720c0130482f53b61f86271746b2385735edef0f6e0c731/aws_cdk_constructs-2.9.2.tar.gz
+[2023-07-04 14:14:44] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-07-04 14:14:44] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.2.1a7.tar.gz tmp/akerbp.mlops-3.2.1a8.tar.gz --markdown 20230704/a/akerbp.mlops/3.2.1a7-3.2.1a8/diff.md --exclude *.pyd
+[2023-07-04 14:14:44] INFO root fetch - processPackages [textbasedlib]: executing diffoscope
+[2023-07-04 14:14:44] INFO root fetch - processPackages [textbasedlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textbasedlib-1.0.tar.gz tmp/textbasedlib-1.2.tar.gz --markdown 20230704/t/textbasedlib/1.0-1.2/diff.md --exclude *.pyd
+[2023-07-04 14:14:44] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-07-04 14:14:44] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230704/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-04 14:14:44] INFO root fetch - processPackages [pymc]: Downloading https://files.pythonhosted.org/packages/70/47/dd694b2223c70512653ae81590d806e39f5c08fd370445d70784c7d85f17/pymc-5.6.0.tar.gz
+[2023-07-04 14:14:44] INFO root fetch - processPackages [oarepo-runtime]: executing diffoscope
+[2023-07-04 14:14:44] INFO root fetch - processPackages [oarepo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-runtime-1.3.8.tar.gz tmp/oarepo-runtime-1.3.9.tar.gz --markdown 20230704/o/oarepo-runtime/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-04 14:14:44] INFO root fetch - processPackages [indsl]: Downloading https://files.pythonhosted.org/packages/a2/b4/80da96d5f7558a88c243499dfa2cb3760435894db3f3b8489e3d6b970515/indsl-6.6.0a0.tar.gz
+[2023-07-04 14:14:44] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-07-04 14:14:44] INFO root fetch - processPackages [aws-cdk-constructs]: executing diffoscope
+[2023-07-04 14:14:44] INFO root fetch - processPackages [aws-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_cdk_constructs-2.9.1.tar.gz tmp/aws_cdk_constructs-2.9.2.tar.gz --markdown 20230704/a/aws-cdk-constructs/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-07-04 14:14:44] INFO root fetch - processPackages [indsl]: executing diffoscope
+[2023-07-04 14:14:44] INFO root fetch - processPackages [indsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indsl-6.5.0.tar.gz tmp/indsl-6.6.0a0.tar.gz --markdown 20230704/i/indsl/6.5.0-6.6.0a0/diff.md --exclude *.pyd
+[2023-07-04 14:14:44] INFO root fetch - processPackages [pymc]: executing diffoscope
+[2023-07-04 14:14:44] INFO root fetch - processPackages [pymc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymc-5.5.0.tar.gz tmp/pymc-5.6.0.tar.gz --markdown 20230704/p/pymc/5.5.0-5.6.0/diff.md --exclude *.pyd
+[2023-07-04 14:14:44] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-07-04 14:14:45] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-07-04 14:14:45] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230704/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-07-04 14:14:45] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-07-04 14:14:45] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230704/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 14:14:45] INFO root fetch - processPackages [textbasedlib]: Remove: archive file [/home/abi/fetcher/tmp/textbasedlib-1.0.tar.gz]
+[2023-07-04 14:14:45] INFO root fetch - processPackages [textbasedlib]: Remove: archive file [/home/abi/fetcher/tmp/textbasedlib-1.2.tar.gz]
+[2023-07-04 14:14:45] INFO root fetch - processPackages [textbasedlib]: Start processing: mvf
+[2023-07-04 14:14:45] INFO root fetch - main [MainThread]: End processing [textbasedlib]: success
+[2023-07-04 14:14:45] INFO root fetch - processPackages [mvf]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-04 14:14:45] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-07-04 14:14:45] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-07-04 14:14:45] INFO root fetch - processPackages [leadguru-jobs]: Start processing: good-converter
+[2023-07-04 14:14:45] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-07-04 14:14:45] INFO root fetch - processPackages [mvf]: Downloading https://files.pythonhosted.org/packages/9d/fc/2f33a16a578004601f73be93daa5fba62b057d9ef02400efc1d8c9e9cffc/mvf-0.0.4.tar.gz
+[2023-07-04 14:14:45] WARNING root fetch - processPackages [good-converter]: Skipping, unable to determine old version
+[2023-07-04 14:14:45] INFO root fetch - processPackages [good-converter]: Start processing: sdc-dp-helpers
+[2023-07-04 14:14:45] INFO root fetch - main [MainThread]: End processing [good-converter] error
+[2023-07-04 14:14:46] INFO root fetch - processPackages [sdc-dp-helpers]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-04 14:14:46] INFO root fetch - processPackages [mvf]: Downloading https://files.pythonhosted.org/packages/f3/08/18c7eb6d6ab85c94770f1a84a5123506ca9097acbd629303109570e6be8b/mvf-0.0.5.tar.gz
+[2023-07-04 14:14:46] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.1.tar.gz]
+[2023-07-04 14:14:46] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.2.tar.gz]
+[2023-07-04 14:14:46] INFO root fetch - processPackages [agixt]: Start processing: zhenglin
+[2023-07-04 14:14:46] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-07-04 14:14:46] INFO root fetch - processPackages [zhenglin]: New version: [0.13.5] Old Version: [0.13.4]
+[2023-07-04 14:14:46] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.1a7.tar.gz]
+[2023-07-04 14:14:46] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.1a8.tar.gz]
+[2023-07-04 14:14:46] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-07-04 14:14:46] INFO root fetch - processPackages [oarepo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-runtime-1.3.8.tar.gz]
+[2023-07-04 14:14:46] INFO root fetch - processPackages [aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/aws_cdk_constructs-2.9.1.tar.gz]
+[2023-07-04 14:14:46] INFO root fetch - processPackages [oarepo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-runtime-1.3.9.tar.gz]
+[2023-07-04 14:14:46] INFO root fetch - processPackages [aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/aws_cdk_constructs-2.9.2.tar.gz]
+[2023-07-04 14:14:46] INFO root fetch - main [MainThread]: End processing [oarepo-runtime]: success
+[2023-07-04 14:14:46] INFO root fetch - main [MainThread]: End processing [aws-cdk-constructs]: success
+[2023-07-04 14:14:46] INFO root fetch - processPackages [mvf]: executing diffoscope
+[2023-07-04 14:14:46] INFO root fetch - processPackages [mvf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvf-0.0.4.tar.gz tmp/mvf-0.0.5.tar.gz --markdown 20230704/m/mvf/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-04 14:14:46] INFO root fetch - processPackages [sdc-dp-helpers]: Downloading https://files.pythonhosted.org/packages/7e/ad/205d20086e8b60aab6e03aeedd376212de7a75d4d1e9de8045008b3184e9/sdc_dp_helpers-1.3.8.tar.gz
+[2023-07-04 14:14:46] INFO root fetch - processPackages [zhenglin]: Downloading https://files.pythonhosted.org/packages/23/50/7764b732f22a80624422486ab90a0e89a261ea6b4a1ccc1f38d27fcfa814/zhenglin-0.13.4.tar.gz
+[2023-07-04 14:14:46] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz]
+[2023-07-04 14:14:46] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz]
+[2023-07-04 14:14:46] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-07-04 14:14:46] INFO root fetch - processPackages [zhenglin]: Downloading https://files.pythonhosted.org/packages/ab/9e/fe75677ce41b7b10e122a51c197a6d8fe7b858a2289aeb85f55aad70395a/zhenglin-0.13.5.tar.gz
+[2023-07-04 14:14:46] INFO root fetch - processPackages [zhenglin]: executing diffoscope
+[2023-07-04 14:14:46] INFO root fetch - processPackages [zhenglin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhenglin-0.13.4.tar.gz tmp/zhenglin-0.13.5.tar.gz --markdown 20230704/z/zhenglin/0.13.4-0.13.5/diff.md --exclude *.pyd
+[2023-07-04 14:14:46] INFO root fetch - processPackages [sdc-dp-helpers]: Downloading https://files.pythonhosted.org/packages/0f/de/99781e525582f90b6861bb6232054ca4652b42ba8e02b5ea965f48cac721/sdc_dp_helpers-1.3.9.tar.gz
+[2023-07-04 14:14:46] INFO root fetch - processPackages [sdc-dp-helpers]: executing diffoscope
+[2023-07-04 14:14:46] INFO root fetch - processPackages [sdc-dp-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdc_dp_helpers-1.3.8.tar.gz tmp/sdc_dp_helpers-1.3.9.tar.gz --markdown 20230704/s/sdc-dp-helpers/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-04 14:14:47] INFO root fetch - processPackages [indsl]: Remove: archive file [/home/abi/fetcher/tmp/indsl-6.5.0.tar.gz]
+[2023-07-04 14:14:47] INFO root fetch - processPackages [indsl]: Remove: archive file [/home/abi/fetcher/tmp/indsl-6.6.0a0.tar.gz]
+[2023-07-04 14:14:47] INFO root fetch - main [MainThread]: End processing [indsl]: success
+[2023-07-04 14:14:47] INFO root fetch - processPackages [pymc]: Remove: archive file [/home/abi/fetcher/tmp/pymc-5.5.0.tar.gz]
+[2023-07-04 14:14:47] INFO root fetch - processPackages [pymc]: Remove: archive file [/home/abi/fetcher/tmp/pymc-5.6.0.tar.gz]
+[2023-07-04 14:14:47] INFO root fetch - main [MainThread]: End processing [pymc]: success
+[2023-07-04 14:14:47] INFO root fetch - processPackages [mvf]: Remove: archive file [/home/abi/fetcher/tmp/mvf-0.0.4.tar.gz]
+[2023-07-04 14:14:47] INFO root fetch - processPackages [mvf]: Remove: archive file [/home/abi/fetcher/tmp/mvf-0.0.5.tar.gz]
+[2023-07-04 14:14:47] INFO root fetch - main [MainThread]: End processing [mvf]: success
+[2023-07-04 14:14:48] INFO root fetch - processPackages [sdc-dp-helpers]: Remove: archive file [/home/abi/fetcher/tmp/sdc_dp_helpers-1.3.8.tar.gz]
+[2023-07-04 14:14:48] INFO root fetch - processPackages [sdc-dp-helpers]: Remove: archive file [/home/abi/fetcher/tmp/sdc_dp_helpers-1.3.9.tar.gz]
+[2023-07-04 14:14:48] INFO root fetch - main [MainThread]: End processing [sdc-dp-helpers]: success
+[2023-07-04 14:14:48] INFO root fetch - processPackages [zhenglin]: Remove: archive file [/home/abi/fetcher/tmp/zhenglin-0.13.4.tar.gz]
+[2023-07-04 14:14:48] INFO root fetch - processPackages [zhenglin]: Remove: archive file [/home/abi/fetcher/tmp/zhenglin-0.13.5.tar.gz]
+[2023-07-04 14:14:48] INFO root fetch - main [MainThread]: End processing [zhenglin]: success
+[2023-07-04 14:14:48] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip]
+[2023-07-04 14:14:48] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
+[2023-07-04 14:14:48] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-07-04 14:14:48] INFO root fetch - main [MainThread]: Store serial: [18754436]
