@@ -18636,3 +18636,108 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 12:14:19] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-04 12:14:19] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-07-04 12:14:19] INFO root fetch - main [MainThread]: Store serial: [18753214]
+[2023-07-04 12:19:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18753214]
+[2023-07-04 12:19:28] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-04 12:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uasset-dump
+[2023-07-04 12:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NamasteiG
+[2023-07-04 12:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: encord-active
+[2023-07-04 12:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apidownload
+[2023-07-04 12:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-maimai
+[2023-07-04 12:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: refoss-ha
+[2023-07-04 12:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: huhangkai
+[2023-07-04 12:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nextnanopy
+[2023-07-04 12:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hvps
+[2023-07-04 12:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flypp
+[2023-07-04 12:19:28] INFO root fetch - processPackages [uasset-dump]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 12:19:28] INFO root fetch - processPackages [apidownload]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-04 12:19:28] INFO root fetch - processPackages [hvps]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-04 12:19:28] INFO root fetch - processPackages [encord-active]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 12:19:28] INFO root fetch - processPackages [NamasteiG]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-04 12:19:28] INFO root fetch - processPackages [nextnanopy]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-07-04 12:19:28] WARNING root fetch - processPackages [flypp]: Skipping, unable to determine old version
+[2023-07-04 12:19:28] INFO root fetch - processPackages [flypp]: Start processing: WPP-Whatsapp
+[2023-07-04 12:19:28] INFO root fetch - main [MainThread]: End processing [flypp] error
+[2023-07-04 12:19:28] INFO root fetch - processPackages [nonebot-plugin-maimai]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-04 12:19:28] INFO root fetch - processPackages [refoss-ha]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-04 12:19:28] INFO root fetch - processPackages [huhangkai]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-04 12:19:28] INFO root fetch - processPackages [WPP-Whatsapp]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-04 12:19:28] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/fe/9b/195da905dc17cf6f687704695ce993e02bdd209ced7ecc6e8689c050a039/uasset_dump-0.0.8.tar.gz
+[2023-07-04 12:19:28] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/49/34/f826324cbb69397b3755d15982e0a83ca74ec05932080d38da5a1ee70d13/huhangkai-1.4.8.tar.gz
+[2023-07-04 12:19:28] INFO root fetch - processPackages [encord-active]: Downloading https://files.pythonhosted.org/packages/14/53/4cb3529f62b21b97e90761ad702d4e864b643e4772935fb9c464f8ab6758/encord-active-0.1.8.tar.gz
+[2023-07-04 12:19:28] INFO root fetch - processPackages [hvps]: Downloading https://files.pythonhosted.org/packages/26/38/c5aacd5aac2cb746637f7620b0e30b429ca572d27a302e0b9e01ef7a882a/hvps-0.0.5.tar.gz
+[2023-07-04 12:19:28] INFO root fetch - processPackages [apidownload]: Downloading https://files.pythonhosted.org/packages/e5/d1/7f17d17d67dd1a2a15051c60306868ec30d1a5172924282a340f4c63a7a7/apidownload-2.1.0-py3-none-any.whl
+[2023-07-04 12:19:28] INFO root fetch - processPackages [WPP-Whatsapp]: Downloading https://files.pythonhosted.org/packages/6f/89/d94dc4d7787e975349ad1630fdf1189371a500f056b598cbbcef5744395c/WPP_Whatsapp-0.1.0.tar.gz
+[2023-07-04 12:19:28] INFO root fetch - processPackages [NamasteiG]: Downloading https://files.pythonhosted.org/packages/2a/b7/24b146f32fc12e409dc5033ef1b9acd2e2455368105136b2b3f0aca69ecf/NamasteiG-0.3.1.tar.gz
+[2023-07-04 12:19:28] INFO root fetch - processPackages [nonebot-plugin-maimai]: Downloading https://files.pythonhosted.org/packages/62/36/07492a6c385bea3453e6fb6757203e6ff05515ae3aae08be964a76200ae4/nonebot_plugin_maimai-0.3.1.tar.gz
+[2023-07-04 12:19:28] INFO root fetch - processPackages [nextnanopy]: Downloading https://files.pythonhosted.org/packages/44/8a/92ade515407a79977d982bb7c12de0151fd99edae718fae11960e97e17a2/nextnanopy-0.1.7.tar.gz
+[2023-07-04 12:19:28] INFO root fetch - processPackages [refoss-ha]: Downloading https://files.pythonhosted.org/packages/0c/b2/90cde9727dce0bc5e34332171cc28ccc9e5956e7cb34cb7a796ed6ff14aa/refoss_ha-1.0.2-py3-none-any.whl
+[2023-07-04 12:19:28] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/be/6b/bc8d3d4a7ddb2d849c3954c046ae9e0e44299a77c61b795472d89dc2f63b/uasset_dump-0.0.9.tar.gz
+[2023-07-04 12:19:29] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/fb/52/2ea4f15cb70bc4069425639aacf69799723bb701e06be4131ecf2b436128/huhangkai-1.4.9.tar.gz
+[2023-07-04 12:19:29] INFO root fetch - processPackages [uasset-dump]: executing diffoscope
+[2023-07-04 12:19:29] INFO root fetch - processPackages [uasset-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uasset_dump-0.0.8.tar.gz tmp/uasset_dump-0.0.9.tar.gz --markdown 20230704/u/uasset-dump/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 12:19:29] INFO root fetch - processPackages [apidownload]: Downloading https://files.pythonhosted.org/packages/6f/0d/87aa2bedcf76a86d2a209417f162d3ac5283c912d554abd273f5531fda1f/apidownload-2.1.1-py3-none-any.whl
+[2023-07-04 12:19:29] INFO root fetch - processPackages [encord-active]: Downloading https://files.pythonhosted.org/packages/c3/14/4bad612dc1f21c818799f76b076d38fbaeeaedf2288d7c41c915b0cdce4d/encord-active-0.1.9.tar.gz
+[2023-07-04 12:19:29] INFO root fetch - processPackages [hvps]: Downloading https://files.pythonhosted.org/packages/91/cc/a2618621be00c57703c4474b62fd7ae7e983e47955a09b9b32854e8ac357/hvps-0.0.6.tar.gz
+[2023-07-04 12:19:29] INFO root fetch - processPackages [WPP-Whatsapp]: Downloading https://files.pythonhosted.org/packages/41/8d/1a8ccab4d6ad81ee5a7b07179c4b4413fcb02fe62b91e8f7622e0774a04e/WPP_Whatsapp-0.1.1.tar.gz
+[2023-07-04 12:19:29] INFO root fetch - processPackages [NamasteiG]: Downloading https://files.pythonhosted.org/packages/0a/0b/94f8ccdb674cbc336638e21b66dadb9326428303119cec38fcd34fc2b79c/NamasteiG-0.3.2.tar.gz
+[2023-07-04 12:19:29] INFO root fetch - processPackages [nonebot-plugin-maimai]: Downloading https://files.pythonhosted.org/packages/0f/29/4f27ec6d7dae042b2f8f911d7ecd5e71892b27f0a255cb69d06d0d61405a/nonebot_plugin_maimai-0.3.2.tar.gz
+[2023-07-04 12:19:29] INFO root fetch - processPackages [apidownload]: executing diffoscope
+[2023-07-04 12:19:29] INFO root fetch - processPackages [apidownload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apidownload-2.1.0-py3-none-any.whl.zip tmp/apidownload-2.1.1-py3-none-any.whl.zip --markdown 20230704/a/apidownload/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-04 12:19:29] INFO root fetch - processPackages [refoss-ha]: Downloading https://files.pythonhosted.org/packages/b8/91/3cae867970dda60ae0f3ef64036fc0ae373f4aacf8a8b692ab1d37e3466a/refoss_ha-1.0.3-py3-none-any.whl
+[2023-07-04 12:19:29] INFO root fetch - processPackages [hvps]: executing diffoscope
+[2023-07-04 12:19:29] INFO root fetch - processPackages [hvps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hvps-0.0.5.tar.gz tmp/hvps-0.0.6.tar.gz --markdown 20230704/h/hvps/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-04 12:19:29] INFO root fetch - processPackages [nextnanopy]: Downloading https://files.pythonhosted.org/packages/7a/bd/6fd4c68a8b82b7bad3a13b40b7c4f5e1ef3f1052a041a9c488f6abe2eb97/nextnanopy-0.1.9.tar.gz
+[2023-07-04 12:19:29] INFO root fetch - processPackages [huhangkai]: executing diffoscope
+[2023-07-04 12:19:29] INFO root fetch - processPackages [huhangkai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhangkai-1.4.8.tar.gz tmp/huhangkai-1.4.9.tar.gz --markdown 20230704/h/huhangkai/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-04 12:19:29] INFO root fetch - processPackages [WPP-Whatsapp]: executing diffoscope
+[2023-07-04 12:19:29] INFO root fetch - processPackages [WPP-Whatsapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WPP_Whatsapp-0.1.0.tar.gz tmp/WPP_Whatsapp-0.1.1.tar.gz --markdown 20230704/W/WPP-Whatsapp/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-04 12:19:29] INFO root fetch - processPackages [nonebot-plugin-maimai]: executing diffoscope
+[2023-07-04 12:19:29] INFO root fetch - processPackages [nonebot-plugin-maimai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_maimai-0.3.1.tar.gz tmp/nonebot_plugin_maimai-0.3.2.tar.gz --markdown 20230704/n/nonebot-plugin-maimai/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-04 12:19:29] INFO root fetch - processPackages [NamasteiG]: executing diffoscope
+[2023-07-04 12:19:29] INFO root fetch - processPackages [NamasteiG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NamasteiG-0.3.1.tar.gz tmp/NamasteiG-0.3.2.tar.gz --markdown 20230704/N/NamasteiG/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-04 12:19:29] INFO root fetch - processPackages [encord-active]: executing diffoscope
+[2023-07-04 12:19:29] INFO root fetch - processPackages [encord-active]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord-active-0.1.8.tar.gz tmp/encord-active-0.1.9.tar.gz --markdown 20230704/e/encord-active/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 12:19:29] INFO root fetch - processPackages [refoss-ha]: executing diffoscope
+[2023-07-04 12:19:29] INFO root fetch - processPackages [refoss-ha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refoss_ha-1.0.2-py3-none-any.whl.zip tmp/refoss_ha-1.0.3-py3-none-any.whl.zip --markdown 20230704/r/refoss-ha/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-04 12:19:29] INFO root fetch - processPackages [nextnanopy]: executing diffoscope
+[2023-07-04 12:19:29] INFO root fetch - processPackages [nextnanopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextnanopy-0.1.7.tar.gz tmp/nextnanopy-0.1.9.tar.gz --markdown 20230704/n/nextnanopy/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 12:19:30] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.8.tar.gz]
+[2023-07-04 12:19:30] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.9.tar.gz]
+[2023-07-04 12:19:30] INFO root fetch - processPackages [uasset-dump]: Start processing: sarus
+[2023-07-04 12:19:30] INFO root fetch - main [MainThread]: End processing [uasset-dump]: success
+[2023-07-04 12:19:30] INFO root fetch - processPackages [sarus]: New version: [0.7.4.dev2] Old Version: [0.7.4.dev1]
+[2023-07-04 12:19:30] INFO root fetch - processPackages [sarus]: Downloading https://files.pythonhosted.org/packages/38/5c/95fc9e731ec8cc02fd2a7761c6d1d4c9fd65e7e1e8f2099604decbb0afce/sarus-0.7.4.dev1.tar.gz
+[2023-07-04 12:19:30] INFO root fetch - processPackages [apidownload]: Remove: archive file [/home/abi/fetcher/tmp/apidownload-2.1.0-py3-none-any.whl.zip]
+[2023-07-04 12:19:30] INFO root fetch - processPackages [apidownload]: Remove: archive file [/home/abi/fetcher/tmp/apidownload-2.1.1-py3-none-any.whl.zip]
+[2023-07-04 12:19:30] INFO root fetch - main [MainThread]: End processing [apidownload]: success
+[2023-07-04 12:19:31] INFO root fetch - processPackages [sarus]: Downloading https://files.pythonhosted.org/packages/5a/eb/55d5e9e14d1086e665debf0bb5fa69ef5483b80e90d6b2eeef0ecfc71b47/sarus-0.7.4.dev2.tar.gz
+[2023-07-04 12:19:31] INFO root fetch - processPackages [hvps]: Remove: archive file [/home/abi/fetcher/tmp/hvps-0.0.5.tar.gz]
+[2023-07-04 12:19:31] INFO root fetch - processPackages [hvps]: Remove: archive file [/home/abi/fetcher/tmp/hvps-0.0.6.tar.gz]
+[2023-07-04 12:19:31] INFO root fetch - main [MainThread]: End processing [hvps]: success
+[2023-07-04 12:19:31] INFO root fetch - processPackages [sarus]: executing diffoscope
+[2023-07-04 12:19:31] INFO root fetch - processPackages [sarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus-0.7.4.dev1.tar.gz tmp/sarus-0.7.4.dev2.tar.gz --markdown 20230704/s/sarus/0.7.4.dev1-0.7.4.dev2/diff.md --exclude *.pyd
+[2023-07-04 12:19:31] INFO root fetch - processPackages [refoss-ha]: Remove: archive file [/home/abi/fetcher/tmp/refoss_ha-1.0.2-py3-none-any.whl.zip]
+[2023-07-04 12:19:31] INFO root fetch - processPackages [refoss-ha]: Remove: archive file [/home/abi/fetcher/tmp/refoss_ha-1.0.3-py3-none-any.whl.zip]
+[2023-07-04 12:19:31] INFO root fetch - main [MainThread]: End processing [refoss-ha]: success
+[2023-07-04 12:19:31] INFO root fetch - processPackages [NamasteiG]: Remove: archive file [/home/abi/fetcher/tmp/NamasteiG-0.3.1.tar.gz]
+[2023-07-04 12:19:31] INFO root fetch - processPackages [NamasteiG]: Remove: archive file [/home/abi/fetcher/tmp/NamasteiG-0.3.2.tar.gz]
+[2023-07-04 12:19:31] INFO root fetch - main [MainThread]: End processing [NamasteiG]: success
+[2023-07-04 12:19:31] INFO root fetch - processPackages [huhangkai]: Remove: archive file [/home/abi/fetcher/tmp/huhangkai-1.4.8.tar.gz]
+[2023-07-04 12:19:31] INFO root fetch - processPackages [huhangkai]: Remove: archive file [/home/abi/fetcher/tmp/huhangkai-1.4.9.tar.gz]
+[2023-07-04 12:19:31] INFO root fetch - main [MainThread]: End processing [huhangkai]: success
+[2023-07-04 12:19:31] INFO root fetch - processPackages [nonebot-plugin-maimai]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_maimai-0.3.1.tar.gz]
+[2023-07-04 12:19:31] INFO root fetch - processPackages [nonebot-plugin-maimai]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_maimai-0.3.2.tar.gz]
+[2023-07-04 12:19:31] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-maimai]: success
+[2023-07-04 12:19:31] INFO root fetch - processPackages [WPP-Whatsapp]: Remove: archive file [/home/abi/fetcher/tmp/WPP_Whatsapp-0.1.0.tar.gz]
+[2023-07-04 12:19:31] INFO root fetch - processPackages [WPP-Whatsapp]: Remove: archive file [/home/abi/fetcher/tmp/WPP_Whatsapp-0.1.1.tar.gz]
+[2023-07-04 12:19:31] INFO root fetch - main [MainThread]: End processing [WPP-Whatsapp]: success
+[2023-07-04 12:19:31] INFO root fetch - processPackages [nextnanopy]: Remove: archive file [/home/abi/fetcher/tmp/nextnanopy-0.1.7.tar.gz]
+[2023-07-04 12:19:31] INFO root fetch - processPackages [nextnanopy]: Remove: archive file [/home/abi/fetcher/tmp/nextnanopy-0.1.9.tar.gz]
+[2023-07-04 12:19:31] INFO root fetch - main [MainThread]: End processing [nextnanopy]: success
+[2023-07-04 12:19:31] INFO root fetch - processPackages [encord-active]: Remove: archive file [/home/abi/fetcher/tmp/encord-active-0.1.8.tar.gz]
+[2023-07-04 12:19:31] INFO root fetch - processPackages [encord-active]: Remove: archive file [/home/abi/fetcher/tmp/encord-active-0.1.9.tar.gz]
+[2023-07-04 12:19:31] INFO root fetch - main [MainThread]: End processing [encord-active]: success
+[2023-07-04 12:19:32] INFO root fetch - processPackages [sarus]: Remove: archive file [/home/abi/fetcher/tmp/sarus-0.7.4.dev1.tar.gz]
+[2023-07-04 12:19:32] INFO root fetch - processPackages [sarus]: Remove: archive file [/home/abi/fetcher/tmp/sarus-0.7.4.dev2.tar.gz]
+[2023-07-04 12:19:32] INFO root fetch - main [MainThread]: End processing [sarus]: success
+[2023-07-04 12:19:32] INFO root fetch - main [MainThread]: Store serial: [18753281]
