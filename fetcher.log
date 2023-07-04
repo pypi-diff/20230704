@@ -10883,3 +10883,51 @@
 [2023-07-04 05:54:54] INFO root fetch - processPackages [mkdocs-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-jupyter-0.9.0.tar.gz]
 [2023-07-04 05:54:54] INFO root fetch - main [MainThread]: End processing [mkdocs-jupyter]: success
 [2023-07-04 05:54:54] INFO root fetch - main [MainThread]: Store serial: [18750005]
+[2023-07-04 05:59:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18750005]
+[2023-07-04 06:00:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-04 06:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarms
+[2023-07-04 06:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipo-india
+[2023-07-04 06:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mpservice
+[2023-07-04 06:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pre-commit-vauxoo
+[2023-07-04 06:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autopack-tools
+[2023-07-04 06:00:04] INFO root fetch - processPackages [autopack-tools]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-04 06:00:04] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/d2/b8/36fe0ef6e63234b72029820a3a239139ffa327bac0caec027a32b447090a/autopack_tools-0.2.3.tar.gz
+[2023-07-04 06:00:04] INFO root fetch - processPackages [swarms]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-04 06:00:04] INFO root fetch - processPackages [pre-commit-vauxoo]: New version: [7.0.9] Old Version: [7.0.8]
+[2023-07-04 06:00:04] INFO root fetch - processPackages [ipo-india]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 06:00:04] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-07-04 06:00:04] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/dd/ff/b76eed9066f7fc02e8e122c8fd36b89baee2258f9591fa9a08add541aef7/autopack_tools-0.2.4.tar.gz
+[2023-07-04 06:00:04] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/be/41/065b9dda478d0fcac05a50da93a9fa9ffb7ac4974a4418ed7b735ea6f810/swarms-0.2.9.tar.gz
+[2023-07-04 06:00:04] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2023-07-04 06:00:04] INFO root fetch - processPackages [pre-commit-vauxoo]: Downloading https://files.pythonhosted.org/packages/7b/2a/a23683a250314a6efc4291dad46ac68a2545e505c71a5aee84929008c80c/pre-commit-vauxoo-7.0.8.tar.gz
+[2023-07-04 06:00:04] INFO root fetch - processPackages [ipo-india]: Downloading https://files.pythonhosted.org/packages/8f/6b/041568162d7b83af73f0d51cdaf81d155de8f6a77390e0fbf6f3a1f737bf/ipo_india-0.0.8.tar.gz
+[2023-07-04 06:00:04] INFO root fetch - processPackages [autopack-tools]: executing diffoscope
+[2023-07-04 06:00:04] INFO root fetch - processPackages [autopack-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopack_tools-0.2.3.tar.gz tmp/autopack_tools-0.2.4.tar.gz --markdown 20230704/a/autopack-tools/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-04 06:00:04] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/99/01/9508a98fb7ed5681885cda780427a14f475ecb72e93efcf1577474c0aaae/swarms-0.3.0.tar.gz
+[2023-07-04 06:00:05] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2023-07-04 06:00:05] INFO root fetch - processPackages [pre-commit-vauxoo]: Downloading https://files.pythonhosted.org/packages/92/b6/2ac1b22b6612c289ab99a5ec74cc1f2706913c51058054015574c31ceb53/pre-commit-vauxoo-7.0.9.tar.gz
+[2023-07-04 06:00:05] INFO root fetch - processPackages [ipo-india]: Downloading https://files.pythonhosted.org/packages/98/a0/579ee7b907a9facb6deee97a613a7638ef0b47f5d0d824eadd0f17a2d6ef/ipo_india-0.0.9.tar.gz
+[2023-07-04 06:00:05] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-04 06:00:05] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.2.9.tar.gz tmp/swarms-0.3.0.tar.gz --markdown 20230704/s/swarms/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-04 06:00:05] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-07-04 06:00:05] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230704/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-07-04 06:00:05] INFO root fetch - processPackages [ipo-india]: executing diffoscope
+[2023-07-04 06:00:05] INFO root fetch - processPackages [ipo-india]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipo_india-0.0.8.tar.gz tmp/ipo_india-0.0.9.tar.gz --markdown 20230704/i/ipo-india/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 06:00:05] INFO root fetch - processPackages [pre-commit-vauxoo]: executing diffoscope
+[2023-07-04 06:00:05] INFO root fetch - processPackages [pre-commit-vauxoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre-commit-vauxoo-7.0.8.tar.gz tmp/pre-commit-vauxoo-7.0.9.tar.gz --markdown 20230704/p/pre-commit-vauxoo/7.0.8-7.0.9/diff.md --exclude *.pyd
+[2023-07-04 06:00:05] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.2.3.tar.gz]
+[2023-07-04 06:00:05] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.2.4.tar.gz]
+[2023-07-04 06:00:05] INFO root fetch - main [MainThread]: End processing [autopack-tools]: success
+[2023-07-04 06:00:06] INFO root fetch - processPackages [ipo-india]: Remove: archive file [/home/abi/fetcher/tmp/ipo_india-0.0.8.tar.gz]
+[2023-07-04 06:00:06] INFO root fetch - processPackages [ipo-india]: Remove: archive file [/home/abi/fetcher/tmp/ipo_india-0.0.9.tar.gz]
+[2023-07-04 06:00:06] INFO root fetch - main [MainThread]: End processing [ipo-india]: success
+[2023-07-04 06:00:06] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.tar.gz]
+[2023-07-04 06:00:06] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.post1.tar.gz]
+[2023-07-04 06:00:06] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-07-04 06:00:06] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.2.9.tar.gz]
+[2023-07-04 06:00:06] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.3.0.tar.gz]
+[2023-07-04 06:00:06] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-04 06:00:06] INFO root fetch - processPackages [pre-commit-vauxoo]: Remove: archive file [/home/abi/fetcher/tmp/pre-commit-vauxoo-7.0.8.tar.gz]
+[2023-07-04 06:00:06] INFO root fetch - processPackages [pre-commit-vauxoo]: Remove: archive file [/home/abi/fetcher/tmp/pre-commit-vauxoo-7.0.9.tar.gz]
+[2023-07-04 06:00:06] INFO root fetch - main [MainThread]: End processing [pre-commit-vauxoo]: success
+[2023-07-04 06:00:06] INFO root fetch - main [MainThread]: Store serial: [18750024]
