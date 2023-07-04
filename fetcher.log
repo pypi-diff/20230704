@@ -15473,3 +15473,128 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 10:11:27] ERROR root fetch - processPackages [kubernetes-validate]: Timeout during execution of pkgdiff
 [2023-07-04 10:11:27] INFO root fetch - main [MainThread]: End processing [kubernetes-validate] error
 [2023-07-04 10:11:27] INFO root fetch - main [MainThread]: Store serial: [18751817]
+[2023-07-04 10:16:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18751817]
+[2023-07-04 10:16:36] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-04 10:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reportlab-pdf-table-builder
+[2023-07-04 10:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auditLogger-abhishekzopper
+[2023-07-04 10:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: guanin
+[2023-07-04 10:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: otpme
+[2023-07-04 10:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pbipy
+[2023-07-04 10:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: degiroxxx
+[2023-07-04 10:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-cqrs
+[2023-07-04 10:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xata
+[2023-07-04 10:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ccdt
+[2023-07-04 10:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SELDOMpy
+[2023-07-04 10:16:36] INFO root fetch - processPackages [guanin]: New version: [1.2.0] Old Version: [0.1.0]
+[2023-07-04 10:16:37] WARNING root fetch - processPackages [auditLogger-abhishekzopper]: Skipping, unable to determine old version
+[2023-07-04 10:16:37] INFO root fetch - processPackages [auditLogger-abhishekzopper]: Start processing: guided-tamp-benchmark
+[2023-07-04 10:16:37] INFO root fetch - main [MainThread]: End processing [auditLogger-abhishekzopper] error
+[2023-07-04 10:16:37] INFO root fetch - processPackages [xata]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-04 10:16:37] WARNING root fetch - processPackages [degiroxxx]: Skipping, unable to determine old version
+[2023-07-04 10:16:37] INFO root fetch - processPackages [degiroxxx]: Start processing: CurvPy
+[2023-07-04 10:16:37] INFO root fetch - main [MainThread]: End processing [degiroxxx] error
+[2023-07-04 10:16:37] INFO root fetch - processPackages [reportlab-pdf-table-builder]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-04 10:16:37] INFO root fetch - processPackages [pbipy]: New version: [2.3.4] Old Version: [2.2.4]
+[2023-07-04 10:16:37] WARNING root fetch - processPackages [otpme]: Skipping, unable to determine old version
+[2023-07-04 10:16:37] INFO root fetch - processPackages [otpme]: Start processing: arxiv-latex-cleaner
+[2023-07-04 10:16:37] INFO root fetch - main [MainThread]: End processing [otpme] error
+[2023-07-04 10:16:37] INFO root fetch - processPackages [django-cqrs]: New version: [2.7.2] Old Version: [2.7.1]
+[2023-07-04 10:16:37] INFO root fetch - processPackages [SELDOMpy]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-04 10:16:37] INFO root fetch - processPackages [arxiv-latex-cleaner]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-04 10:16:37] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-04 10:16:37] WARNING root fetch - processPackages [guided-tamp-benchmark]: Skipping, unable to determine old version
+[2023-07-04 10:16:37] INFO root fetch - processPackages [guided-tamp-benchmark]: Start processing: datapeachcli-2
+[2023-07-04 10:16:37] INFO root fetch - main [MainThread]: End processing [guided-tamp-benchmark] error
+[2023-07-04 10:16:37] WARNING root fetch - processPackages [CurvPy]: Skipping, unable to determine old version
+[2023-07-04 10:16:37] INFO root fetch - processPackages [CurvPy]: Start processing: nucliadb-contributor-assets
+[2023-07-04 10:16:37] INFO root fetch - main [MainThread]: End processing [CurvPy] error
+[2023-07-04 10:16:37] WARNING root fetch - processPackages [datapeachcli-2]: Skipping, unable to determine old version
+[2023-07-04 10:16:37] INFO root fetch - processPackages [datapeachcli-2]: Start processing: psqlpandas
+[2023-07-04 10:16:37] INFO root fetch - main [MainThread]: End processing [datapeachcli-2] error
+[2023-07-04 10:16:37] INFO root fetch - processPackages [guanin]: Downloading https://files.pythonhosted.org/packages/fa/4d/0d8afbd18ada2ab528700e5287497c31978e24696a95e89b3383a1607202/guanin-0.1.0.tar.gz
+[2023-07-04 10:16:37] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post879] Old Version: [1.0.0.post878]
+[2023-07-04 10:16:37] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/c8/54/5854fd2bc86db3f24a9d7c03da87f74d3b051f2dae76ffa7ea6d9551cc63/SELDOMpy-0.7.1-cp38-cp38-win_amd64.whl
+[2023-07-04 10:16:37] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-07-04 10:16:37] INFO root fetch - processPackages [psqlpandas]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-04 10:16:37] INFO root fetch - processPackages [reportlab-pdf-table-builder]: Downloading https://files.pythonhosted.org/packages/da/cf/6aa73844b17f1571a46e90c99dfef90031fc1af96135829808300028e009/reportlab-pdf-table-builder-1.2.2.tar.gz
+[2023-07-04 10:16:37] INFO root fetch - processPackages [xata]: Downloading https://files.pythonhosted.org/packages/77/48/dd532f5775f8b626c60933368edc401aad73f9e4dccdef9352e1c970da86/xata-0.9.2.tar.gz
+[2023-07-04 10:16:37] INFO root fetch - processPackages [pbipy]: Downloading https://files.pythonhosted.org/packages/13/9b/290c3f0e5b911da14aee6713ffce73be2e53ee4d35433442648cc6e04e61/pbipy-2.2.4.tar.gz
+[2023-07-04 10:16:37] INFO root fetch - processPackages [django-cqrs]: Downloading https://files.pythonhosted.org/packages/4a/d0/10ae6c5d9293e22d6e56c9191b1eca00af53645e3ff0df848eca7dd11615/django_cqrs-2.7.1.tar.gz
+[2023-07-04 10:16:37] INFO root fetch - processPackages [arxiv-latex-cleaner]: Downloading https://files.pythonhosted.org/packages/a9/ad/1e18c1acccd42c2068b921aa61db1b41fca8c552a2891c0f49f2f3d31e0c/arxiv_latex_cleaner-0.1.7.tar.gz
+[2023-07-04 10:16:37] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/8a/5e/f3f81041241b32a54eb5d3276a4038b44c8f8dd7f9207d33928ccbe6be4b/nucliadb_contributor_assets-1.0.0.post878-py3-none-any.whl
+[2023-07-04 10:16:37] INFO root fetch - processPackages [psqlpandas]: Downloading https://files.pythonhosted.org/packages/18/95/2587cc5016685694d2945b720ae24edb84c6f60c25fc801a1031e62ebf86/psqlpandas-1.1.0.tar.gz
+[2023-07-04 10:16:37] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-07-04 10:16:37] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/15/44/487dc572e114627621a11f249cb93461b7c81fae8ea524b53540ce7e88dd/SELDOMpy-0.7.2-cp38-cp38-win_amd64.whl
+[2023-07-04 10:16:37] INFO root fetch - processPackages [reportlab-pdf-table-builder]: Downloading https://files.pythonhosted.org/packages/90/06/776d2b5e135006166017fbd19a0fd7aa02ca8c7ea589c5041e8d0793de8d/reportlab-pdf-table-builder-1.2.3.tar.gz
+[2023-07-04 10:16:37] INFO root fetch - processPackages [pbipy]: Downloading https://files.pythonhosted.org/packages/a5/75/d8c74475b3064750a5dac379bc7e34ea8afc3dce1cd290b02304ac3fd526/pbipy-2.3.4.tar.gz
+[2023-07-04 10:16:37] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-07-04 10:16:37] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230704/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-04 10:16:37] INFO root fetch - processPackages [django-cqrs]: Downloading https://files.pythonhosted.org/packages/38/2f/1fac628718bdab89cb66879582639b90d78d514e94616eb9b10d95acd547/django_cqrs-2.7.2.tar.gz
+[2023-07-04 10:16:37] INFO root fetch - processPackages [xata]: Downloading https://files.pythonhosted.org/packages/42/69/2646d6b3144a5f36812a0f6f7c09718c6742ffb7d482115dcdc7de874585/xata-0.9.3.tar.gz
+[2023-07-04 10:16:37] INFO root fetch - processPackages [arxiv-latex-cleaner]: Downloading https://files.pythonhosted.org/packages/f7/bd/d2a5bf7af74a461f0ce041396789f4babf21b5c97568cc3bddb065a36e5e/arxiv_latex_cleaner-0.1.8.tar.gz
+[2023-07-04 10:16:38] INFO root fetch - processPackages [psqlpandas]: Downloading https://files.pythonhosted.org/packages/2d/e2/054b43b3084f8de149d6441b48317056a139a00b39022790d0a50f453961/psqlpandas-1.2.0.tar.gz
+[2023-07-04 10:16:38] INFO root fetch - processPackages [pbipy]: executing diffoscope
+[2023-07-04 10:16:38] INFO root fetch - processPackages [pbipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbipy-2.2.4.tar.gz tmp/pbipy-2.3.4.tar.gz --markdown 20230704/p/pbipy/2.2.4-2.3.4/diff.md --exclude *.pyd
+[2023-07-04 10:16:38] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-04 10:16:38] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.7.1-cp38-cp38-win_amd64.whl.zip tmp/SELDOMpy-0.7.2-cp38-cp38-win_amd64.whl.zip --markdown 20230704/S/SELDOMpy/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-04 10:16:38] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/62/9b/6529ec94031f43ee3b8ccc6ed06e29bf8b674325d5915b2082c7368e3c3f/nucliadb_contributor_assets-1.0.0.post879-py3-none-any.whl
+[2023-07-04 10:16:38] INFO root fetch - processPackages [reportlab-pdf-table-builder]: executing diffoscope
+[2023-07-04 10:16:38] INFO root fetch - processPackages [reportlab-pdf-table-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reportlab-pdf-table-builder-1.2.2.tar.gz tmp/reportlab-pdf-table-builder-1.2.3.tar.gz --markdown 20230704/r/reportlab-pdf-table-builder/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-04 10:16:38] INFO root fetch - processPackages [django-cqrs]: executing diffoscope
+[2023-07-04 10:16:38] INFO root fetch - processPackages [django-cqrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cqrs-2.7.1.tar.gz tmp/django_cqrs-2.7.2.tar.gz --markdown 20230704/d/django-cqrs/2.7.1-2.7.2/diff.md --exclude *.pyd
+[2023-07-04 10:16:38] INFO root fetch - processPackages [arxiv-latex-cleaner]: executing diffoscope
+[2023-07-04 10:16:38] INFO root fetch - processPackages [arxiv-latex-cleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxiv_latex_cleaner-0.1.7.tar.gz tmp/arxiv_latex_cleaner-0.1.8.tar.gz --markdown 20230704/a/arxiv-latex-cleaner/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-04 10:16:38] INFO root fetch - processPackages [xata]: executing diffoscope
+[2023-07-04 10:16:38] INFO root fetch - processPackages [xata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xata-0.9.2.tar.gz tmp/xata-0.9.3.tar.gz --markdown 20230704/x/xata/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-04 10:16:38] INFO root fetch - processPackages [guanin]: Downloading https://files.pythonhosted.org/packages/cc/2b/55dfea5a2e5874930e453da7683d45b30d99fc302e248344cc542f1d2b71/guanin-1.2.0.tar.gz
+[2023-07-04 10:16:38] INFO root fetch - processPackages [psqlpandas]: executing diffoscope
+[2023-07-04 10:16:38] INFO root fetch - processPackages [psqlpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psqlpandas-1.1.0.tar.gz tmp/psqlpandas-1.2.0.tar.gz --markdown 20230704/p/psqlpandas/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-04 10:16:38] WARNING root fetch - processPackages [guanin]: Skipping package: exceeds size limit 12719081>=10485760
+[2023-07-04 10:16:38] INFO root fetch - processPackages [guanin]: Start processing: rosetta-ce
+[2023-07-04 10:16:38] INFO root fetch - main [MainThread]: End processing [guanin] error
+[2023-07-04 10:16:38] INFO root fetch - processPackages [rosetta-ce]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-04 10:16:38] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-07-04 10:16:38] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post878-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post879-py3-none-any.whl.zip --markdown 20230704/n/nucliadb-contributor-assets/1.0.0.post878-1.0.0.post879/diff.md --exclude *.pyd
+[2023-07-04 10:16:38] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/e8/eb/84dd069d4c5e4140b884b2a18fe82151d940d4b3115a20145aec43517ce1/rosetta-ce-1.5.3.tar.gz
+[2023-07-04 10:16:38] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/ea/be/3dcf06267762863904c87298d44dcf12f6fe9fe2f8606e197cccf11ffdd1/rosetta-ce-1.5.4.tar.gz
+[2023-07-04 10:16:39] INFO root fetch - processPackages [rosetta-ce]: executing diffoscope
+[2023-07-04 10:16:39] INFO root fetch - processPackages [rosetta-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosetta-ce-1.5.3.tar.gz tmp/rosetta-ce-1.5.4.tar.gz --markdown 20230704/r/rosetta-ce/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-07-04 10:16:39] INFO root fetch - processPackages [pbipy]: Remove: archive file [/home/abi/fetcher/tmp/pbipy-2.2.4.tar.gz]
+[2023-07-04 10:16:39] INFO root fetch - processPackages [pbipy]: Remove: archive file [/home/abi/fetcher/tmp/pbipy-2.3.4.tar.gz]
+[2023-07-04 10:16:39] INFO root fetch - processPackages [pbipy]: Start processing: unicef-power-query
+[2023-07-04 10:16:39] INFO root fetch - main [MainThread]: End processing [pbipy]: success
+[2023-07-04 10:16:39] WARNING root fetch - processPackages [unicef-power-query]: Skipping, unable to determine old version
+[2023-07-04 10:16:39] INFO root fetch - processPackages [unicef-power-query]: Start processing: nucliadb-contributor-assets
+[2023-07-04 10:16:39] INFO root fetch - main [MainThread]: End processing [unicef-power-query] error
+[2023-07-04 10:16:39] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-07-04 10:16:39] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-07-04 10:16:39] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-07-04 10:16:39] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post879] Old Version: [1.0.0.post878]
+[2023-07-04 10:16:39] INFO root fetch - processPackages [psqlpandas]: Remove: archive file [/home/abi/fetcher/tmp/psqlpandas-1.1.0.tar.gz]
+[2023-07-04 10:16:39] INFO root fetch - processPackages [psqlpandas]: Remove: archive file [/home/abi/fetcher/tmp/psqlpandas-1.2.0.tar.gz]
+[2023-07-04 10:16:39] INFO root fetch - main [MainThread]: End processing [psqlpandas]: success
+[2023-07-04 10:16:39] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-07-04 10:16:39] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post878-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post879-py3-none-any.whl.zip --markdown 20230704/n/nucliadb-contributor-assets/1.0.0.post878-1.0.0.post879/diff.md --exclude *.pyd
+[2023-07-04 10:16:39] INFO root fetch - processPackages [reportlab-pdf-table-builder]: Remove: archive file [/home/abi/fetcher/tmp/reportlab-pdf-table-builder-1.2.2.tar.gz]
+[2023-07-04 10:16:39] INFO root fetch - processPackages [reportlab-pdf-table-builder]: Remove: archive file [/home/abi/fetcher/tmp/reportlab-pdf-table-builder-1.2.3.tar.gz]
+[2023-07-04 10:16:39] INFO root fetch - main [MainThread]: End processing [reportlab-pdf-table-builder]: success
+[2023-07-04 10:16:39] INFO root fetch - processPackages [xata]: Remove: archive file [/home/abi/fetcher/tmp/xata-0.9.2.tar.gz]
+[2023-07-04 10:16:39] INFO root fetch - processPackages [xata]: Remove: archive file [/home/abi/fetcher/tmp/xata-0.9.3.tar.gz]
+[2023-07-04 10:16:40] INFO root fetch - main [MainThread]: End processing [xata]: success
+[2023-07-04 10:16:40] INFO root fetch - processPackages [django-cqrs]: Remove: archive file [/home/abi/fetcher/tmp/django_cqrs-2.7.1.tar.gz]
+[2023-07-04 10:16:40] INFO root fetch - processPackages [django-cqrs]: Remove: archive file [/home/abi/fetcher/tmp/django_cqrs-2.7.2.tar.gz]
+[2023-07-04 10:16:40] INFO root fetch - main [MainThread]: End processing [django-cqrs]: success
+[2023-07-04 10:16:40] INFO root fetch - processPackages [arxiv-latex-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/arxiv_latex_cleaner-0.1.7.tar.gz]
+[2023-07-04 10:16:40] INFO root fetch - processPackages [arxiv-latex-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/arxiv_latex_cleaner-0.1.8.tar.gz]
+[2023-07-04 10:16:40] INFO root fetch - main [MainThread]: End processing [arxiv-latex-cleaner]: success
+[2023-07-04 10:16:40] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.7.1-cp38-cp38-win_amd64.whl.zip]
+[2023-07-04 10:16:40] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.7.2-cp38-cp38-win_amd64.whl.zip]
+[2023-07-04 10:16:40] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-04 10:16:40] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.5.3.tar.gz]
+[2023-07-04 10:16:40] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.5.4.tar.gz]
+[2023-07-04 10:16:40] INFO root fetch - main [MainThread]: End processing [rosetta-ce]: success
+[2023-07-04 10:16:52] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post878-py3-none-any.whl.zip]
+[2023-07-04 10:16:52] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post879-py3-none-any.whl.zip]
+[2023-07-04 10:16:52] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-07-04 10:16:53] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-07-04 10:16:53] INFO root fetch - main [MainThread]: Store serial: [18751884]
