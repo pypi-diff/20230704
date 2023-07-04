@@ -20604,3 +20604,135 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 13:47:59] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip]
 [2023-07-04 13:47:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2023-07-04 13:47:59] INFO root fetch - main [MainThread]: Store serial: [18754140]
+[2023-07-04 13:53:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18754140]
+[2023-07-04 13:53:08] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-04 13:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-orca-spark3
+[2023-07-04 13:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-friesian-spark3
+[2023-07-04 13:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-chronos-spark3
+[2023-07-04 13:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-spark3
+[2023-07-04 13:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xdat
+[2023-07-04 13:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: excel2mssql
+[2023-07-04 13:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dojo-compass
+[2023-07-04 13:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lokzzpylib
+[2023-07-04 13:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: h5dataframe
+[2023-07-04 13:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytket
+[2023-07-04 13:53:08] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230704] Old Version: [2.4.0b20230703]
+[2023-07-04 13:53:08] WARNING root fetch - processPackages [excel2mssql]: Skipping, unable to determine old version
+[2023-07-04 13:53:08] INFO root fetch - processPackages [excel2mssql]: Start processing: ag-llama-api
+[2023-07-04 13:53:08] INFO root fetch - main [MainThread]: End processing [excel2mssql] error
+[2023-07-04 13:53:08] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-04 13:53:08] INFO root fetch - processPackages [dojo-compass]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-04 13:53:08] INFO root fetch - processPackages [lokzzpylib]: New version: [0.2.dev9] Old Version: [0.2.dev8]
+[2023-07-04 13:53:08] WARNING root fetch - processPackages [h5dataframe]: Skipping, unable to determine old version
+[2023-07-04 13:53:08] INFO root fetch - processPackages [h5dataframe]: Start processing: django-pfx
+[2023-07-04 13:53:08] INFO root fetch - main [MainThread]: End processing [h5dataframe] error
+[2023-07-04 13:53:08] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230704] Old Version: [2.4.0b20230703]
+[2023-07-04 13:53:08] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230704] Old Version: [2.4.0b20230703]
+[2023-07-04 13:53:08] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 13:53:08] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230704] Old Version: [2.4.0b20230703]
+[2023-07-04 13:53:08] INFO root fetch - processPackages [pytket]: New version: [1.9.1rc0] Old Version: [1.9.1]
+[2023-07-04 13:53:08] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev90] Old Version: [1.2.dev88]
+[2023-07-04 13:53:08] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/6a/89/d7cc00ed4a0f35886593358480b59b5fb2e0c3993c55758d3bb57d621590/bigdl_friesian_spark3-2.4.0b20230703-py3-none-manylinux1_x86_64.whl
+[2023-07-04 13:53:08] INFO root fetch - processPackages [pytket]: Downloading https://files.pythonhosted.org/packages/0b/0f/8db0fcfa7fde7115dd5863cd5b1f5533be347fbad99aaa158e2c9fa0a3a5/pytket-1.9.1-cp39-cp39-win_amd64.whl
+[2023-07-04 13:53:08] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/e7/db/6c93bb8ec9653fafd298258240710b4768345a45843013bc715cf9e658f7/ag_llama_api-0.0.8.tar.gz
+[2023-07-04 13:53:09] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/1f/59/50979d7bd38d3b54ebda88cfebaad892786056349707120dd15b0f3ac4a6/xdat-0.1.98.tar.gz
+[2023-07-04 13:53:09] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/23/5d/a4a41582ab1837f01dbb157957c6cf54b2974826f9a2497e5dfff4c2d243/bigdl_orca_spark3-2.4.0b20230703-py3-none-manylinux1_x86_64.whl
+[2023-07-04 13:53:09] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/c1/bf/ca1812a2ab19d4e74461e93566ad97e8580de8b327a63affc9a22edc6ccf/bigdl_chronos_spark3-2.4.0b20230703-py3-none-manylinux1_x86_64.whl
+[2023-07-04 13:53:09] INFO root fetch - processPackages [dojo-compass]: Downloading https://files.pythonhosted.org/packages/f7/91/e350a85c12b6b8af4660aff0e80b19e5abb9a85d1463267d088b88b07e29/dojo_compass-1.5.3.tar.gz
+[2023-07-04 13:53:09] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/e2/59/899dd08722b859f214b6eee5335384aa5e1bb485140945e6cb65257098a5/lokzzpylib-0.2.dev8.tar.gz
+[2023-07-04 13:53:09] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/0e/0d/90605705087533b048d6d3087dd11ef8721b21a53a3e1fc1c3716417d8c3/bigdl_spark3-2.4.0b20230703-py3-none-manylinux1_x86_64.whl
+[2023-07-04 13:53:09] WARNING root fetch - processPackages [pytket]: Skipping package: exceeds size limit 10528667>=10485760
+[2023-07-04 13:53:09] INFO root fetch - processPackages [pytket]: Start processing: langful
+[2023-07-04 13:53:09] INFO root fetch - main [MainThread]: End processing [pytket] error
+[2023-07-04 13:53:09] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207753>=10485760
+[2023-07-04 13:53:09] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: epdx
+[2023-07-04 13:53:09] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-07-04 13:53:09] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/5e/0e/eeb9ba4ceca4a5a5a7760be738ed9d8bdd511c66455b5b71e7dc66d5734e/django-pfx-1.2.dev88.tar.gz
+[2023-07-04 13:53:09] WARNING root fetch - processPackages [dojo-compass]: Skipping package: exceeds size limit 28244783>=10485760
+[2023-07-04 13:53:09] INFO root fetch - processPackages [dojo-compass]: Start processing: raesl
+[2023-07-04 13:53:09] INFO root fetch - main [MainThread]: End processing [dojo-compass] error
+[2023-07-04 13:53:09] INFO root fetch - processPackages [langful]: New version: [0.32] Old Version: [0.31]
+[2023-07-04 13:53:09] INFO root fetch - processPackages [epdx]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-04 13:53:09] INFO root fetch - processPackages [raesl]: New version: [0.12.3] Old Version: [0.12.2]
+[2023-07-04 13:53:09] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/2e/17/92abcc2f5a2046320663e8a9ab939edb5dbb20b696165a19d291c88bca03/bigdl_friesian_spark3-2.4.0b20230704-py3-none-manylinux1_x86_64.whl
+[2023-07-04 13:53:09] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/0e/45/5ce146425eb4c54590e514bf53d436ec8eb7cbeee70953b613dcd4e56824/ag_llama_api-0.0.9.tar.gz
+[2023-07-04 13:53:09] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/14/3a/615b52569a9f744c122c8c961cb56f844485f3d9ac14affb890a973256b4/bigdl_spark3-2.4.0b20230704-py3-none-manylinux1_x86_64.whl
+[2023-07-04 13:53:09] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/05/14/69a519600c9f4a7735ac5af868c15d17bba111f3d31c4ad6439176b59845/langful-0.31-py3-none-any.whl
+[2023-07-04 13:53:09] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/d3/9b/e4bbf15840f86c58df052ec37f778b6563255557c0f8edc61797a91a6dcf/lokzzpylib-0.2.dev9.tar.gz
+[2023-07-04 13:53:09] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/ad/0e/93d0ed0a7c98c221536a758df829eed4ee1d012591229cd066d98f7f3d24/bigdl_chronos_spark3-2.4.0b20230704-py3-none-manylinux1_x86_64.whl
+[2023-07-04 13:53:09] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-07-04 13:53:09] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230703-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230704-py3-none-manylinux1_x86_64.whl.zip --markdown 20230704/b/bigdl-friesian-spark3/2.4.0b20230703-2.4.0b20230704/diff.md --exclude *.pyd
+[2023-07-04 13:53:09] INFO root fetch - processPackages [epdx]: Downloading https://files.pythonhosted.org/packages/23/d3/105975037fe7b104f04e98f3b8a8d274a6ac56794c28690cded1fd9ef0b5/epdx-0.2.6-cp38-abi3-win_amd64.whl
+[2023-07-04 13:53:09] INFO root fetch - processPackages [raesl]: Downloading https://files.pythonhosted.org/packages/1a/e1/893f293fcfe9199351e802cb0e159f22b7dcd5c0b27c8ceb78f3182691a4/raesl-0.12.2.tar.gz
+[2023-07-04 13:53:09] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-07-04 13:53:09] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.8.tar.gz tmp/ag_llama_api-0.0.9.tar.gz --markdown 20230704/a/ag-llama-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 13:53:09] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/ac/81/134250b81641eb4f1723b177ddf0b8001c282ad0851dae6da2b3036231a5/django-pfx-1.2.dev90.tar.gz
+[2023-07-04 13:53:09] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-07-04 13:53:09] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230703-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230704-py3-none-manylinux1_x86_64.whl.zip --markdown 20230704/b/bigdl-spark3/2.4.0b20230703-2.4.0b20230704/diff.md --exclude *.pyd
+[2023-07-04 13:53:09] INFO root fetch - processPackages [lokzzpylib]: executing diffoscope
+[2023-07-04 13:53:09] INFO root fetch - processPackages [lokzzpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylib-0.2.dev8.tar.gz tmp/lokzzpylib-0.2.dev9.tar.gz --markdown 20230704/l/lokzzpylib/0.2.dev8-0.2.dev9/diff.md --exclude *.pyd
+[2023-07-04 13:53:09] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-07-04 13:53:09] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230703-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230704-py3-none-manylinux1_x86_64.whl.zip --markdown 20230704/b/bigdl-chronos-spark3/2.4.0b20230703-2.4.0b20230704/diff.md --exclude *.pyd
+[2023-07-04 13:53:09] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-07-04 13:53:09] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev88.tar.gz tmp/django-pfx-1.2.dev90.tar.gz --markdown 20230704/d/django-pfx/1.2.dev88-1.2.dev90/diff.md --exclude *.pyd
+[2023-07-04 13:53:10] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/a6/32/ac29a996fd39b6a7c1ecde175d128f2c5f4a4b1324ebf94ea56fee7dffad/langful-0.32-py3-none-any.whl
+[2023-07-04 13:53:10] INFO root fetch - processPackages [raesl]: Downloading https://files.pythonhosted.org/packages/44/75/3993ccd01313ad2076b8093f92c76152a673a2669715363c8e0ae6e06ac0/raesl-0.12.3.tar.gz
+[2023-07-04 13:53:10] INFO root fetch - processPackages [langful]: executing diffoscope
+[2023-07-04 13:53:10] INFO root fetch - processPackages [langful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langful-0.31-py3-none-any.whl.zip tmp/langful-0.32-py3-none-any.whl.zip --markdown 20230704/l/langful/0.31-0.32/diff.md --exclude *.pyd
+[2023-07-04 13:53:10] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/00/b5/44d6ceebadb7e9f19552d1b65fe724db78a16ae9e19ae608960562ff5d39/xdat-0.1.99.tar.gz
+[2023-07-04 13:53:10] INFO root fetch - processPackages [epdx]: Downloading https://files.pythonhosted.org/packages/a2/4f/4f77ce73e11895f4b545cef86b831dd66262726dab551302a9f6e2da391e/epdx-0.2.7-cp38-abi3-win_amd64.whl
+[2023-07-04 13:53:10] INFO root fetch - processPackages [raesl]: executing diffoscope
+[2023-07-04 13:53:10] INFO root fetch - processPackages [raesl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raesl-0.12.2.tar.gz tmp/raesl-0.12.3.tar.gz --markdown 20230704/r/raesl/0.12.2-0.12.3/diff.md --exclude *.pyd
+[2023-07-04 13:53:10] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2023-07-04 13:53:10] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20230704/x/xdat/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-04 13:53:10] INFO root fetch - processPackages [epdx]: executing diffoscope
+[2023-07-04 13:53:10] INFO root fetch - processPackages [epdx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epdx-0.2.6-cp38-abi3-win_amd64.whl.zip tmp/epdx-0.2.7-cp38-abi3-win_amd64.whl.zip --markdown 20230704/e/epdx/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-04 13:53:11] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.8.tar.gz]
+[2023-07-04 13:53:11] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.9.tar.gz]
+[2023-07-04 13:53:11] INFO root fetch - processPackages [ag-llama-api]: Start processing: entelecheia
+[2023-07-04 13:53:11] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-07-04 13:53:11] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230703-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-04 13:53:11] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230704-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-04 13:53:11] INFO root fetch - processPackages [bigdl-spark3]: Start processing: repleno
+[2023-07-04 13:53:11] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-07-04 13:53:11] INFO root fetch - processPackages [entelecheia]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-04 13:53:11] INFO root fetch - processPackages [entelecheia]: Downloading https://files.pythonhosted.org/packages/e1/40/2d6d5621f76abf72abe5f06c1955f880a3dae9d042775545dca7a647f47b/entelecheia-0.2.4.tar.gz
+[2023-07-04 13:53:11] INFO root fetch - processPackages [repleno]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-07-04 13:53:11] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev8.tar.gz]
+[2023-07-04 13:53:11] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev9.tar.gz]
+[2023-07-04 13:53:11] INFO root fetch - main [MainThread]: End processing [lokzzpylib]: success
+[2023-07-04 13:53:11] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230703-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-04 13:53:11] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230704-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-04 13:53:11] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-07-04 13:53:11] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.31-py3-none-any.whl.zip]
+[2023-07-04 13:53:11] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.32-py3-none-any.whl.zip]
+[2023-07-04 13:53:11] INFO root fetch - main [MainThread]: End processing [langful]: success
+[2023-07-04 13:53:11] INFO root fetch - processPackages [repleno]: Downloading https://files.pythonhosted.org/packages/b2/d1/e861f75382c34ccd46e997830f852d56e5dec903d4aab839abdf8b858a21/repleno-0.0.11-py3-none-any.whl
+[2023-07-04 13:53:11] INFO root fetch - processPackages [entelecheia]: Downloading https://files.pythonhosted.org/packages/ea/bb/5f6267ea3173a8c982edd2915f44c39027ac0fb216edae296b8e6bdfefa1/entelecheia-0.2.5.tar.gz
+[2023-07-04 13:53:11] INFO root fetch - processPackages [entelecheia]: executing diffoscope
+[2023-07-04 13:53:11] INFO root fetch - processPackages [entelecheia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entelecheia-0.2.4.tar.gz tmp/entelecheia-0.2.5.tar.gz --markdown 20230704/e/entelecheia/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-04 13:53:11] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev88.tar.gz]
+[2023-07-04 13:53:11] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev90.tar.gz]
+[2023-07-04 13:53:11] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-07-04 13:53:11] INFO root fetch - processPackages [epdx]: Remove: archive file [/home/abi/fetcher/tmp/epdx-0.2.6-cp38-abi3-win_amd64.whl.zip]
+[2023-07-04 13:53:11] INFO root fetch - processPackages [epdx]: Remove: archive file [/home/abi/fetcher/tmp/epdx-0.2.7-cp38-abi3-win_amd64.whl.zip]
+[2023-07-04 13:53:11] INFO root fetch - main [MainThread]: End processing [epdx]: success
+[2023-07-04 13:53:11] INFO root fetch - processPackages [repleno]: Downloading https://files.pythonhosted.org/packages/12/05/1b4a034db480690a9bb974c5a01c89d9e7fbe31e22395fea7fbc5a3a5cfa/repleno-0.0.12.tar.gz
+[2023-07-04 13:53:11] INFO root fetch - processPackages [xdat]: Remove: archive file [/home/abi/fetcher/tmp/xdat-0.1.98.tar.gz]
+[2023-07-04 13:53:11] INFO root fetch - processPackages [xdat]: Remove: archive file [/home/abi/fetcher/tmp/xdat-0.1.99.tar.gz]
+[2023-07-04 13:53:11] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2023-07-04 13:53:12] INFO root fetch - processPackages [repleno]: executing diffoscope
+[2023-07-04 13:53:12] INFO root fetch - processPackages [repleno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repleno-0.0.11-py3-none-any.whl.zip tmp/repleno-0.0.12.tar.gz --markdown 20230704/r/repleno/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-07-04 13:53:12] INFO root fetch - processPackages [raesl]: Remove: archive file [/home/abi/fetcher/tmp/raesl-0.12.2.tar.gz]
+[2023-07-04 13:53:12] INFO root fetch - processPackages [raesl]: Remove: archive file [/home/abi/fetcher/tmp/raesl-0.12.3.tar.gz]
+[2023-07-04 13:53:12] INFO root fetch - main [MainThread]: End processing [raesl]: success
+[2023-07-04 13:53:12] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230703-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-04 13:53:12] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230704-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-04 13:53:12] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-07-04 13:53:12] INFO root fetch - processPackages [entelecheia]: Remove: archive file [/home/abi/fetcher/tmp/entelecheia-0.2.4.tar.gz]
+[2023-07-04 13:53:12] INFO root fetch - processPackages [entelecheia]: Remove: archive file [/home/abi/fetcher/tmp/entelecheia-0.2.5.tar.gz]
+[2023-07-04 13:53:12] INFO root fetch - main [MainThread]: End processing [entelecheia]: success
+[2023-07-04 13:53:12] INFO root fetch - processPackages [repleno]: Remove: archive file [/home/abi/fetcher/tmp/repleno-0.0.11-py3-none-any.whl.zip]
+[2023-07-04 13:53:12] INFO root fetch - processPackages [repleno]: Remove: archive file [/home/abi/fetcher/tmp/repleno-0.0.12.tar.gz]
+[2023-07-04 13:53:12] INFO root fetch - main [MainThread]: End processing [repleno]: success
+[2023-07-04 13:53:12] INFO root fetch - main [MainThread]: Store serial: [18754202]
