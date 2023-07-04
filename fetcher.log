@@ -17645,3 +17645,156 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 11:36:35] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230704.111750.tar.gz]
 [2023-07-04 11:36:35] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-07-04 11:36:35] INFO root fetch - main [MainThread]: Store serial: [18752695]
+[2023-07-04 11:41:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18752695]
+[2023-07-04 11:41:46] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-04 11:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graphscope-client
+[2023-07-04 11:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kafkaclientveli
+[2023-07-04 11:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akshare
+[2023-07-04 11:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aioquic
+[2023-07-04 11:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sarus-data-spec-public
+[2023-07-04 11:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb
+[2023-07-04 11:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-client
+[2023-07-04 11:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-dataset
+[2023-07-04 11:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-models
+[2023-07-04 11:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-protos
+[2023-07-04 11:41:46] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-07-04 11:41:46] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [3.5.8.dev1] Old Version: [3.5.5]
+[2023-07-04 11:41:46] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-04 11:41:46] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-04 11:41:46] INFO root fetch - processPackages [kafkaclientveli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-04 11:41:46] INFO root fetch - processPackages [graphscope-client]: New version: [0.23.0a20230703] Old Version: [0.23.0a20230702]
+[2023-07-04 11:41:46] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-04 11:41:46] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-07-04 11:41:46] INFO root fetch - processPackages [aioquic]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-04 11:41:46] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-04 11:41:46] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-04 11:41:46] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/13/18/b4b8d73a5e834d8a75a9f948856ecfefc6685549e8f0542c6ce73b249ba7/sarus_data_spec_public-3.5.5.tar.gz
+[2023-07-04 11:41:46] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/fd/f7/bfa1f15643798a3b7278b6ce4013d8295f575c170aedfe5d8b4e8e60e119/graphscope_client-0.23.0a20230702-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-04 11:41:46] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/e9/f9/e883083a5a0915d9eef487a6fa094cee59f24bf25f983e64b02d3dd71a9f/nucliadb_client-2.9.0.post266-py3-none-any.whl
+[2023-07-04 11:41:46] INFO root fetch - processPackages [kafkaclientveli]: Downloading https://files.pythonhosted.org/packages/d6/15/3421c27275e5810088608fddca1beac11e90466752040f3dca4fdbab6eba/kafkaclientveli-1.0.8.tar.gz
+[2023-07-04 11:41:46] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2023-07-04 11:41:46] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 64485252>=10485760
+[2023-07-04 11:41:46] INFO root fetch - processPackages [graphscope-client]: Start processing: nucliadb-sdk
+[2023-07-04 11:41:46] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-07-04 11:41:46] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2023-07-04 11:41:46] INFO root fetch - processPackages [aioquic]: Downloading https://files.pythonhosted.org/packages/6b/d8/5d4000c91be5bfe49419eefe0d233c26dc42d770e779e09bc7243979058e/aioquic-0.9.8.tar.gz
+[2023-07-04 11:41:47] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2023-07-04 11:41:47] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2023-07-04 11:41:47] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-04 11:41:47] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-07-04 11:41:47] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2023-07-04 11:41:47] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2023-07-04 11:41:47] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2023-07-04 11:41:47] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/5e/82/b0b8cbcf8e4b15f8cb550f642312a144d20abe2309b99ff12f8d5581981e/sarus_data_spec_public-3.5.8.dev1.tar.gz
+[2023-07-04 11:41:47] INFO root fetch - processPackages [kafkaclientveli]: Downloading https://files.pythonhosted.org/packages/6e/77/a870121819a5b0e1b97d7d1054e5132118c51de83a4252f645360b7cb7cc/kafkaclientveli-1.0.9.tar.gz
+[2023-07-04 11:41:47] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/24/40/81827f509054d15496de510289a599e8f6d34f706b2371d86d048fbc0db0/nucliadb_client-2.9.0.post267-py3-none-any.whl
+[2023-07-04 11:41:47] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-07-04 11:41:47] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230704/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-04 11:41:47] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-07-04 11:41:47] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230704/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-04 11:41:47] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-07-04 11:41:47] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230704/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-07-04 11:41:47] INFO root fetch - processPackages [aioquic]: Downloading https://files.pythonhosted.org/packages/14/3c/aa71f5860438bd2178fbe5101bd11af4d8910d639ea6c2e233cbd647569f/aioquic-0.9.9.tar.gz
+[2023-07-04 11:41:47] INFO root fetch - processPackages [kafkaclientveli]: executing diffoscope
+[2023-07-04 11:41:47] INFO root fetch - processPackages [kafkaclientveli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafkaclientveli-1.0.8.tar.gz tmp/kafkaclientveli-1.0.9.tar.gz --markdown 20230704/k/kafkaclientveli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-04 11:41:47] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2023-07-04 11:41:47] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-3.5.5.tar.gz tmp/sarus_data_spec_public-3.5.8.dev1.tar.gz --markdown 20230704/s/sarus-data-spec-public/3.5.5-3.5.8.dev1/diff.md --exclude *.pyd
+[2023-07-04 11:41:47] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2023-07-04 11:41:47] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2023-07-04 11:41:47] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-07-04 11:41:47] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230704/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-04 11:41:47] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2023-07-04 11:41:47] INFO root fetch - processPackages [aioquic]: executing diffoscope
+[2023-07-04 11:41:47] INFO root fetch - processPackages [aioquic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioquic-0.9.8.tar.gz tmp/aioquic-0.9.9.tar.gz --markdown 20230704/a/aioquic/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-04 11:41:47] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-07-04 11:41:47] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230704/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-04 11:41:48] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-07-04 11:41:48] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230704/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-04 11:41:48] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-07-04 11:41:48] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230704/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-04 11:41:49] INFO root fetch - processPackages [kafkaclientveli]: Remove: archive file [/home/abi/fetcher/tmp/kafkaclientveli-1.0.8.tar.gz]
+[2023-07-04 11:41:49] INFO root fetch - processPackages [kafkaclientveli]: Remove: archive file [/home/abi/fetcher/tmp/kafkaclientveli-1.0.9.tar.gz]
+[2023-07-04 11:41:49] INFO root fetch - processPackages [kafkaclientveli]: Start processing: nucliadb-utils
+[2023-07-04 11:41:49] INFO root fetch - main [MainThread]: End processing [kafkaclientveli]: success
+[2023-07-04 11:41:49] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-04 11:41:49] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-04 11:41:49] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: kafkaclientveli
+[2023-07-04 11:41:49] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-07-04 11:41:49] INFO root fetch - processPackages [kafkaclientveli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-04 11:41:49] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-04 11:41:49] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-04 11:41:49] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-04 11:41:49] INFO root fetch - processPackages [nucliadb-client]: Start processing: gs-apps
+[2023-07-04 11:41:49] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-07-04 11:41:49] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-04 11:41:49] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-04 11:41:49] INFO root fetch - processPackages [nucliadb-protos]: Start processing: ctwin32
+[2023-07-04 11:41:49] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-07-04 11:41:49] INFO root fetch - processPackages [kafkaclientveli]: Downloading https://files.pythonhosted.org/packages/d6/15/3421c27275e5810088608fddca1beac11e90466752040f3dca4fdbab6eba/kafkaclientveli-1.0.8.tar.gz
+[2023-07-04 11:41:50] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2023-07-04 11:41:50] INFO root fetch - processPackages [gs-apps]: New version: [0.23.0a20230703] Old Version: [0.23.0a20230702]
+[2023-07-04 11:41:50] INFO root fetch - processPackages [ctwin32]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-07-04 11:41:50] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-04 11:41:50] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-04 11:41:50] INFO root fetch - processPackages [nucliadb-models]: Start processing: bycon
+[2023-07-04 11:41:50] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-07-04 11:41:50] INFO root fetch - processPackages [kafkaclientveli]: Downloading https://files.pythonhosted.org/packages/6e/77/a870121819a5b0e1b97d7d1054e5132118c51de83a4252f645360b7cb7cc/kafkaclientveli-1.0.9.tar.gz
+[2023-07-04 11:41:50] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-04 11:41:50] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-04 11:41:50] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: agixt
+[2023-07-04 11:41:50] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-07-04 11:41:50] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/31/59/d049358668a1cbd9ad4591d09c4112ad195b64f48d122797e99d2b0a4835/gs_apps-0.23.0a20230702-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-04 11:41:50] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2023-07-04 11:41:50] INFO root fetch - processPackages [bycon]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-04 11:41:50] INFO root fetch - processPackages [agixt]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-07-04 11:41:50] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 47184739>=10485760
+[2023-07-04 11:41:50] INFO root fetch - processPackages [gs-apps]: Start processing: kafkaclientveli
+[2023-07-04 11:41:50] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2023-07-04 11:41:50] INFO root fetch - processPackages [ctwin32]: Downloading https://files.pythonhosted.org/packages/8a/77/a0723440b3260ad70bdad437d170b1cca756f4104a025869025c0d1297af/ctwin32-2.2.0.tar.gz
+[2023-07-04 11:41:50] INFO root fetch - processPackages [kafkaclientveli]: executing diffoscope
+[2023-07-04 11:41:50] INFO root fetch - processPackages [kafkaclientveli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafkaclientveli-1.0.8.tar.gz tmp/kafkaclientveli-1.0.9.tar.gz --markdown 20230704/k/kafkaclientveli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-04 11:41:50] INFO root fetch - processPackages [kafkaclientveli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-04 11:41:50] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-07-04 11:41:50] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230704/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-04 11:41:50] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/ad/3a/7b239b1c21f484f09369851f21976facf1680c29f5c7c2993e0349cb6b1f/agixt-1.2.9.tar.gz
+[2023-07-04 11:41:50] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/d8/52/9205bbdcf60c69e8870bca5c3a21b54dc9acc3dc4e845822e9f9630cbb34/bycon-1.0.8.tar.gz
+[2023-07-04 11:41:50] INFO root fetch - processPackages [kafkaclientveli]: executing diffoscope
+[2023-07-04 11:41:50] INFO root fetch - processPackages [kafkaclientveli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafkaclientveli-1.0.8.tar.gz tmp/kafkaclientveli-1.0.9.tar.gz --markdown 20230704/k/kafkaclientveli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-04 11:41:50] INFO root fetch - processPackages [aioquic]: Remove: archive file [/home/abi/fetcher/tmp/aioquic-0.9.8.tar.gz]
+[2023-07-04 11:41:50] INFO root fetch - processPackages [aioquic]: Remove: archive file [/home/abi/fetcher/tmp/aioquic-0.9.9.tar.gz]
+[2023-07-04 11:41:50] INFO root fetch - main [MainThread]: End processing [aioquic]: success
+[2023-07-04 11:41:50] INFO root fetch - processPackages [ctwin32]: Downloading https://files.pythonhosted.org/packages/08/bf/2e120341cf2d533f631a1a95c1f6ce4bece56af5526f60c649624c3875ec/ctwin32-2.3.0.tar.gz
+[2023-07-04 11:41:50] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/49/0a/5061c88ad04a47b564b4ce856bff9b47722eb8e006ed5c263cd66f7c1bbc/agixt-1.3.0.tar.gz
+[2023-07-04 11:41:51] INFO root fetch - processPackages [ctwin32]: executing diffoscope
+[2023-07-04 11:41:51] INFO root fetch - processPackages [ctwin32]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctwin32-2.2.0.tar.gz tmp/ctwin32-2.3.0.tar.gz --markdown 20230704/c/ctwin32/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-07-04 11:41:51] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/0c/b2/ef8a7b90b711214a2f00741f476f95ddd0b540bf9732ac39a993a39e0d03/bycon-1.0.9.tar.gz
+[2023-07-04 11:41:51] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-3.5.5.tar.gz]
+[2023-07-04 11:41:51] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-3.5.8.dev1.tar.gz]
+[2023-07-04 11:41:51] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2023-07-04 11:41:51] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-07-04 11:41:51] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.2.9.tar.gz tmp/agixt-1.3.0.tar.gz --markdown 20230704/a/agixt/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-07-04 11:41:51] INFO root fetch - processPackages [bycon]: executing diffoscope
+[2023-07-04 11:41:51] INFO root fetch - processPackages [bycon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bycon-1.0.8.tar.gz tmp/bycon-1.0.9.tar.gz --markdown 20230704/b/bycon/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-04 11:41:52] INFO root fetch - processPackages [kafkaclientveli]: Remove: archive file [/home/abi/fetcher/tmp/kafkaclientveli-1.0.8.tar.gz]
+[2023-07-04 11:41:52] INFO root fetch - processPackages [kafkaclientveli]: Remove: archive file [/home/abi/fetcher/tmp/kafkaclientveli-1.0.9.tar.gz]
+[2023-07-04 11:41:52] INFO root fetch - main [MainThread]: End processing [kafkaclientveli]: success
+[2023-07-04 11:41:52] INFO root fetch - main [MainThread]: End processing [kafkaclientveli]: success
+[2023-07-04 11:41:52] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-04 11:41:52] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-04 11:41:52] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-07-04 11:41:52] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-04 11:41:52] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-04 11:41:52] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-07-04 11:41:53] INFO root fetch - processPackages [ctwin32]: Remove: archive file [/home/abi/fetcher/tmp/ctwin32-2.2.0.tar.gz]
+[2023-07-04 11:41:53] INFO root fetch - processPackages [ctwin32]: Remove: archive file [/home/abi/fetcher/tmp/ctwin32-2.3.0.tar.gz]
+[2023-07-04 11:41:53] INFO root fetch - main [MainThread]: End processing [ctwin32]: success
+[2023-07-04 11:41:53] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-07-04 11:41:53] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-07-04 11:41:53] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-07-04 11:41:53] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.9.tar.gz]
+[2023-07-04 11:41:53] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.0.tar.gz]
+[2023-07-04 11:41:53] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-07-04 11:41:55] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.0.8.tar.gz]
+[2023-07-04 11:41:55] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.0.9.tar.gz]
+[2023-07-04 11:41:55] INFO root fetch - main [MainThread]: End processing [bycon]: success
+[2023-07-04 11:41:55] INFO root fetch - main [MainThread]: Store serial: [18752784]
