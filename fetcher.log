@@ -9292,3 +9292,60 @@
 [2023-07-04 04:03:18] INFO root fetch - processPackages [telstra-messaging]: Remove: archive file [/home/abi/fetcher/tmp/telstra_messaging-3.1.0.tar.gz]
 [2023-07-04 04:03:18] INFO root fetch - main [MainThread]: End processing [telstra-messaging]: success
 [2023-07-04 04:03:18] INFO root fetch - main [MainThread]: Store serial: [18749387]
+[2023-07-04 04:08:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18749387]
+[2023-07-04 04:08:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-04 04:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unearth
+[2023-07-04 04:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dry-scraper
+[2023-07-04 04:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarms
+[2023-07-04 04:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jcmutils
+[2023-07-04 04:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agentverse
+[2023-07-04 04:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smallstep-py
+[2023-07-04 04:08:27] INFO root fetch - processPackages [smallstep-py]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-04 04:08:27] INFO root fetch - processPackages [jcmutils]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-07-04 04:08:27] INFO root fetch - processPackages [swarms]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-04 04:08:27] INFO root fetch - processPackages [agentverse]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-04 04:08:27] INFO root fetch - processPackages [unearth]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-04 04:08:27] INFO root fetch - processPackages [dry-scraper]: New version: [0.1.8.2] Old Version: [0.1.8.1]
+[2023-07-04 04:08:27] INFO root fetch - processPackages [dry-scraper]: Downloading https://files.pythonhosted.org/packages/2f/0d/c99b31aa95811491501ee0d037c61c3e47db691d24420fb02c7398de069c/dry_scraper-0.1.8.1.tar.gz
+[2023-07-04 04:08:27] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/2e/b1/30b9c2908a6e48d576210aad947b405f92a7ba0875b2a3194da48ced2a9d/swarms-0.2.2.tar.gz
+[2023-07-04 04:08:27] INFO root fetch - processPackages [agentverse]: Downloading https://files.pythonhosted.org/packages/cf/6b/75fca650f0a58608361b9ddd23a12bc7adc2fb598152c35fa2fd0388e448/agentverse-0.1.1.tar.gz
+[2023-07-04 04:08:27] INFO root fetch - processPackages [smallstep-py]: Downloading https://files.pythonhosted.org/packages/72/c6/48a00c4abd91b0477c3175c54e7b08e3bdc543b2881dd5b3f693543dfa37/smallstep_py-0.1.0.tar.gz
+[2023-07-04 04:08:27] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/20/d6/1251cc6a68e1a8fb1e40e6072eba417e4dfd8923d01276ece7b84ee85129/jcmutils-1.6.8.tar.gz
+[2023-07-04 04:08:27] INFO root fetch - processPackages [unearth]: Downloading https://files.pythonhosted.org/packages/da/08/5a19c6195599eac32b01280081e6a3beb9bcbe47d4f40ba31471450b0e84/unearth-0.9.1.tar.gz
+[2023-07-04 04:08:27] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/18/54/76d12b0c8ee3cd35d4d741d768e381546bcb84de41f9949b6fec5f71c748/swarms-0.2.3.tar.gz
+[2023-07-04 04:08:27] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-04 04:08:27] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.2.2.tar.gz tmp/swarms-0.2.3.tar.gz --markdown 20230704/s/swarms/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-04 04:08:27] INFO root fetch - processPackages [smallstep-py]: Downloading https://files.pythonhosted.org/packages/45/63/4a71ed7dc979cbe36bb695bc256c3170707651728fe78bb83a4bfb039f38/smallstep_py-0.1.1.tar.gz
+[2023-07-04 04:08:27] INFO root fetch - processPackages [dry-scraper]: Downloading https://files.pythonhosted.org/packages/08/e3/d1928d76ff799b1b52bd3d526a670d1aeb15478ee047c7fc5f962fee49d6/dry_scraper-0.1.8.2.tar.gz
+[2023-07-04 04:08:27] INFO root fetch - processPackages [unearth]: Downloading https://files.pythonhosted.org/packages/2e/14/7a73dc88a96ae767bceb516655363fbcceb899baae848b94ee6f42417344/unearth-0.9.2.tar.gz
+[2023-07-04 04:08:28] INFO root fetch - processPackages [agentverse]: Downloading https://files.pythonhosted.org/packages/99/42/29e0deb8a0e0f92eb2d0a6f26e742cb6a2c4a6b86476e33611ddba7f590f/agentverse-0.1.2.tar.gz
+[2023-07-04 04:08:28] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/78/b1/07495eba159023da4ed618ce8a91f6e4f7e492bd89a4c0280279ef9beca2/jcmutils-1.6.9.tar.gz
+[2023-07-04 04:08:28] INFO root fetch - processPackages [smallstep-py]: executing diffoscope
+[2023-07-04 04:08:28] INFO root fetch - processPackages [smallstep-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smallstep_py-0.1.0.tar.gz tmp/smallstep_py-0.1.1.tar.gz --markdown 20230704/s/smallstep-py/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-04 04:08:28] INFO root fetch - processPackages [dry-scraper]: executing diffoscope
+[2023-07-04 04:08:28] INFO root fetch - processPackages [dry-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dry_scraper-0.1.8.1.tar.gz tmp/dry_scraper-0.1.8.2.tar.gz --markdown 20230704/d/dry-scraper/0.1.8.1-0.1.8.2/diff.md --exclude *.pyd
+[2023-07-04 04:08:28] INFO root fetch - processPackages [unearth]: executing diffoscope
+[2023-07-04 04:08:28] INFO root fetch - processPackages [unearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unearth-0.9.1.tar.gz tmp/unearth-0.9.2.tar.gz --markdown 20230704/u/unearth/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-04 04:08:28] INFO root fetch - processPackages [agentverse]: executing diffoscope
+[2023-07-04 04:08:28] INFO root fetch - processPackages [agentverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentverse-0.1.1.tar.gz tmp/agentverse-0.1.2.tar.gz --markdown 20230704/a/agentverse/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-04 04:08:28] INFO root fetch - processPackages [jcmutils]: executing diffoscope
+[2023-07-04 04:08:28] INFO root fetch - processPackages [jcmutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcmutils-1.6.8.tar.gz tmp/jcmutils-1.6.9.tar.gz --markdown 20230704/j/jcmutils/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-07-04 04:08:29] INFO root fetch - processPackages [smallstep-py]: Remove: archive file [/home/abi/fetcher/tmp/smallstep_py-0.1.0.tar.gz]
+[2023-07-04 04:08:29] INFO root fetch - processPackages [smallstep-py]: Remove: archive file [/home/abi/fetcher/tmp/smallstep_py-0.1.1.tar.gz]
+[2023-07-04 04:08:29] INFO root fetch - main [MainThread]: End processing [smallstep-py]: success
+[2023-07-04 04:08:29] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.2.2.tar.gz]
+[2023-07-04 04:08:29] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.2.3.tar.gz]
+[2023-07-04 04:08:29] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-04 04:08:29] INFO root fetch - processPackages [unearth]: Remove: archive file [/home/abi/fetcher/tmp/unearth-0.9.1.tar.gz]
+[2023-07-04 04:08:29] INFO root fetch - processPackages [unearth]: Remove: archive file [/home/abi/fetcher/tmp/unearth-0.9.2.tar.gz]
+[2023-07-04 04:08:29] INFO root fetch - main [MainThread]: End processing [unearth]: success
+[2023-07-04 04:08:29] INFO root fetch - processPackages [jcmutils]: Remove: archive file [/home/abi/fetcher/tmp/jcmutils-1.6.8.tar.gz]
+[2023-07-04 04:08:29] INFO root fetch - processPackages [jcmutils]: Remove: archive file [/home/abi/fetcher/tmp/jcmutils-1.6.9.tar.gz]
+[2023-07-04 04:08:29] INFO root fetch - main [MainThread]: End processing [jcmutils]: success
+[2023-07-04 04:08:29] INFO root fetch - processPackages [dry-scraper]: Remove: archive file [/home/abi/fetcher/tmp/dry_scraper-0.1.8.1.tar.gz]
+[2023-07-04 04:08:29] INFO root fetch - processPackages [dry-scraper]: Remove: archive file [/home/abi/fetcher/tmp/dry_scraper-0.1.8.2.tar.gz]
+[2023-07-04 04:08:29] INFO root fetch - main [MainThread]: End processing [dry-scraper]: success
+[2023-07-04 04:08:29] INFO root fetch - processPackages [agentverse]: Remove: archive file [/home/abi/fetcher/tmp/agentverse-0.1.1.tar.gz]
+[2023-07-04 04:08:29] INFO root fetch - processPackages [agentverse]: Remove: archive file [/home/abi/fetcher/tmp/agentverse-0.1.2.tar.gz]
+[2023-07-04 04:08:29] INFO root fetch - main [MainThread]: End processing [agentverse]: success
+[2023-07-04 04:08:29] INFO root fetch - main [MainThread]: Store serial: [18749406]
