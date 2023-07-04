@@ -5034,3 +5034,79 @@
 [2023-07-04 03:00:44] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.99.tar.gz]
 [2023-07-04 03:00:44] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
 [2023-07-04 03:00:44] INFO root fetch - main [MainThread]: Store serial: [18747804]
+[2023-07-04 03:05:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18747804]
+[2023-07-04 03:05:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-04 03:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openssm
+[2023-07-04 03:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyfi
+[2023-07-04 03:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: goxlr
+[2023-07-04 03:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-organizations
+[2023-07-04 03:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tccli-intl-en
+[2023-07-04 03:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ra2mix
+[2023-07-04 03:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-databrew-cicd
+[2023-07-04 03:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: awsx
+[2023-07-04 03:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: goxlr
+[2023-07-04 03:05:53] INFO root fetch - processPackages [ra2mix]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-04 03:05:53] INFO root fetch - processPackages [openssm]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-04 03:05:53] INFO root fetch - processPackages [goxlr]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-07-04 03:05:53] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-04 03:05:53] INFO root fetch - processPackages [goxlr]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-07-04 03:05:53] INFO root fetch - processPackages [hyfi]: New version: [1.0.0] Old Version: [0.9.1]
+[2023-07-04 03:05:53] INFO root fetch - processPackages [tccli-intl-en]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-07-04 03:05:53] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-04 03:05:53] WARNING root fetch - processPackages [awsx]: Skipping, unable to determine old version
+[2023-07-04 03:05:53] INFO root fetch - main [MainThread]: End processing [awsx] error
+[2023-07-04 03:05:53] INFO root fetch - processPackages [ra2mix]: Downloading https://files.pythonhosted.org/packages/46/1b/b94aad8f90bb084d0f07c79de96b06c788d78382d5d5f6bd594077c53499/ra2mix-0.0.6.tar.gz
+[2023-07-04 03:05:53] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-07-04 03:05:53] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/f1/30/41af4d3a9dae71d94a6518cc57186cc8cf5a5b38d29a6a50861712b42078/tccli-intl-en-3.0.98.1.tar.gz
+[2023-07-04 03:05:53] INFO root fetch - processPackages [openssm]: Downloading https://files.pythonhosted.org/packages/6f/3a/2bd99fc4238c5503b94a7f44782d84d236f729ca9db2a63195be520ade7d/openssm-0.1.0.tar.gz
+[2023-07-04 03:05:53] INFO root fetch - processPackages [goxlr]: Downloading https://files.pythonhosted.org/packages/08/72/952911d1c1e61a58b39e4a5738f461c8664fc816c7f6215ade57ed80a400/goxlr-0.0.1.tar.gz
+[2023-07-04 03:05:53] INFO root fetch - processPackages [goxlr]: Downloading https://files.pythonhosted.org/packages/08/72/952911d1c1e61a58b39e4a5738f461c8664fc816c7f6215ade57ed80a400/goxlr-0.0.1.tar.gz
+[2023-07-04 03:05:53] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/ac/9f/80928f411f6c786a00e698a782b561d60d17fe09e71cf49c42581337defe/hyfi-0.9.1.tar.gz
+[2023-07-04 03:05:53] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-04 03:05:53] INFO root fetch - processPackages [ra2mix]: Downloading https://files.pythonhosted.org/packages/84/0f/9c21399ca0addd57114d99ed04f237a19f0e36af8533d80c5732ead48adf/ra2mix-0.0.7.tar.gz
+[2023-07-04 03:05:53] INFO root fetch - processPackages [ra2mix]: executing diffoscope
+[2023-07-04 03:05:53] INFO root fetch - processPackages [ra2mix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ra2mix-0.0.6.tar.gz tmp/ra2mix-0.0.7.tar.gz --markdown 20230704/r/ra2mix/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-04 03:05:53] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-07-04 03:05:53] INFO root fetch - processPackages [openssm]: Downloading https://files.pythonhosted.org/packages/8d/af/70860e062c2e3420c1da4174adc7b2c823c0b15bb94399be330cbbec7e58/openssm-0.1.1.tar.gz
+[2023-07-04 03:05:54] INFO root fetch - processPackages [goxlr]: Downloading https://files.pythonhosted.org/packages/8e/34/00d6e9a9d7e3fdc9cb04b736d4c092afba6988f951929ba97f489b1901b2/goxlr-1.0.0.tar.gz
+[2023-07-04 03:05:54] INFO root fetch - processPackages [goxlr]: Downloading https://files.pythonhosted.org/packages/8e/34/00d6e9a9d7e3fdc9cb04b736d4c092afba6988f951929ba97f489b1901b2/goxlr-1.0.0.tar.gz
+[2023-07-04 03:05:54] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-04 03:05:54] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/c4/e2/d1d528ce2bfd7d44ec5bf182d1f5ad766b5589ea992d489bcde2d90b3a42/hyfi-1.0.0.tar.gz
+[2023-07-04 03:05:54] INFO root fetch - processPackages [openssm]: executing diffoscope
+[2023-07-04 03:05:54] INFO root fetch - processPackages [openssm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openssm-0.1.0.tar.gz tmp/openssm-0.1.1.tar.gz --markdown 20230704/o/openssm/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-04 03:05:54] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-04 03:05:54] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230704/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-04 03:05:54] INFO root fetch - processPackages [goxlr]: executing diffoscope
+[2023-07-04 03:05:54] INFO root fetch - processPackages [goxlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goxlr-0.0.1.tar.gz tmp/goxlr-1.0.0.tar.gz --markdown 20230704/g/goxlr/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-04 03:05:54] INFO root fetch - processPackages [goxlr]: executing diffoscope
+[2023-07-04 03:05:54] INFO root fetch - processPackages [goxlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goxlr-0.0.1.tar.gz tmp/goxlr-1.0.0.tar.gz --markdown 20230704/g/goxlr/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-04 03:05:54] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-04 03:05:54] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.9.1.tar.gz tmp/hyfi-1.0.0.tar.gz --markdown 20230704/h/hyfi/0.9.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-04 03:05:54] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-07-04 03:05:54] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230704/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-04 03:05:54] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/08/e0/99b129dd2c25cb88719c0b1692fbc03b299057b179a6c33831623b44d96b/tccli-intl-en-3.0.99.1.tar.gz
+[2023-07-04 03:05:54] INFO root fetch - processPackages [tccli-intl-en]: executing diffoscope
+[2023-07-04 03:05:54] INFO root fetch - processPackages [tccli-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-intl-en-3.0.98.1.tar.gz tmp/tccli-intl-en-3.0.99.1.tar.gz --markdown 20230704/t/tccli-intl-en/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-07-04 03:05:54] INFO root fetch - processPackages [ra2mix]: Remove: archive file [/home/abi/fetcher/tmp/ra2mix-0.0.6.tar.gz]
+[2023-07-04 03:05:54] INFO root fetch - processPackages [ra2mix]: Remove: archive file [/home/abi/fetcher/tmp/ra2mix-0.0.7.tar.gz]
+[2023-07-04 03:05:54] INFO root fetch - main [MainThread]: End processing [ra2mix]: success
+[2023-07-04 03:05:55] INFO root fetch - processPackages [goxlr]: Remove: archive file [/home/abi/fetcher/tmp/goxlr-0.0.1.tar.gz]
+[2023-07-04 03:05:55] INFO root fetch - processPackages [goxlr]: Remove: archive file [/home/abi/fetcher/tmp/goxlr-1.0.0.tar.gz]
+[2023-07-04 03:05:55] INFO root fetch - main [MainThread]: End processing [goxlr]: success
+[2023-07-04 03:05:55] INFO root fetch - main [MainThread]: End processing [goxlr]: success
+[2023-07-04 03:05:55] INFO root fetch - processPackages [openssm]: Remove: archive file [/home/abi/fetcher/tmp/openssm-0.1.0.tar.gz]
+[2023-07-04 03:05:55] INFO root fetch - processPackages [openssm]: Remove: archive file [/home/abi/fetcher/tmp/openssm-0.1.1.tar.gz]
+[2023-07-04 03:05:55] INFO root fetch - main [MainThread]: End processing [openssm]: success
+[2023-07-04 03:05:55] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-04 03:05:55] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-04 03:05:55] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-04 03:05:55] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-07-04 03:05:55] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-07-04 03:05:55] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-07-04 03:05:55] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.9.1.tar.gz]
+[2023-07-04 03:05:55] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.0.0.tar.gz]
+[2023-07-04 03:05:55] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-04 03:05:57] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.98.1.tar.gz]
+[2023-07-04 03:05:57] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
+[2023-07-04 03:05:57] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
+[2023-07-04 03:05:57] INFO root fetch - main [MainThread]: Store serial: [18747836]
