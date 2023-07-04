@@ -1,4 +1,4 @@
-# Comparing `tmp/botocore-a-la-carte-acm-1.29.99.tar.gz` & `tmp/botocore_a_la_carte_acm-1.30.0-py3-none-any.whl.zip`
+# Comparing `tmp/botocore-a-la-carte-acm-1.29.99.tar.gz` & `tmp/botocore-a-la-carte-acm-1.30.0.tar.gz`
 
 ## filetype from file(1)
 
