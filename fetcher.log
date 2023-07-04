@@ -10403,3 +10403,69 @@
 [2023-07-04 05:22:14] INFO root fetch - processPackages [mmsegmentation]: Remove: archive file [/home/abi/fetcher/tmp/mmsegmentation-1.1.0.tar.gz]
 [2023-07-04 05:22:14] INFO root fetch - main [MainThread]: End processing [mmsegmentation]: success
 [2023-07-04 05:22:14] INFO root fetch - main [MainThread]: Store serial: [18749842]
+[2023-07-04 05:27:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18749842]
+[2023-07-04 05:27:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-04 05:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dry-scraper
+[2023-07-04 05:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spark-plotting-tools
+[2023-07-04 05:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfem
+[2023-07-04 05:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: limberer
+[2023-07-04 05:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-vpc20160428-py2
+[2023-07-04 05:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aliyun-python-sdk-rds
+[2023-07-04 05:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-vpc20160428
+[2023-07-04 05:27:23] INFO root fetch - processPackages [limberer]: New version: [0.3] Old Version: [0.2.6]
+[2023-07-04 05:27:23] INFO root fetch - processPackages [dry-scraper]: New version: [0.1.8.6] Old Version: [0.1.8.5]
+[2023-07-04 05:27:23] INFO root fetch - processPackages [aliyun-python-sdk-rds]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-07-04 05:27:23] INFO root fetch - processPackages [alibabacloud-vpc20160428]: New version: [3.0.0] Old Version: [2.0.9]
+[2023-07-04 05:27:23] INFO root fetch - processPackages [limberer]: Downloading https://files.pythonhosted.org/packages/e7/32/34c25c63c614edc9967a92a17179ec8dcd038ccda6f2e1f6b37c0502a96e/limberer-0.2.6.tar.gz
+[2023-07-04 05:27:23] INFO root fetch - processPackages [dry-scraper]: Downloading https://files.pythonhosted.org/packages/2b/06/c555ef2d98840677ca1cb98018a6ca82dfe730fc57e123eb4e6d7da7415e/dry_scraper-0.1.8.5.tar.gz
+[2023-07-04 05:27:23] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-07-04 05:27:23] INFO root fetch - processPackages [spark-plotting-tools]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-04 05:27:23] INFO root fetch - processPackages [pyfem]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-04 05:27:23] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/86/16/e429481b48c8e39fd99916cf0d5537d596ff8a08c15cde79f3fa9f8b822b/aliyun-python-sdk-rds-2.7.8.tar.gz
+[2023-07-04 05:27:23] INFO root fetch - processPackages [alibabacloud-vpc20160428]: Downloading https://files.pythonhosted.org/packages/d1/54/1dd3bbe99d4e6b5bd0ece015e5e19c96f1d52dd2f19c4815e9327c5ab23c/alibabacloud_vpc20160428-2.0.9.tar.gz
+[2023-07-04 05:27:23] INFO root fetch - processPackages [spark-plotting-tools]: Downloading https://files.pythonhosted.org/packages/58/e2/f1a8774633eec07dc2beefe48a98acbd1d82e716f6cb0195256dde504f28/spark_plotting_tools-0.2.0.tar.gz
+[2023-07-04 05:27:23] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: Downloading https://files.pythonhosted.org/packages/a0/a4/9177fa0d5ff285f617913af724f076e9ffaad5b7c972c0f0ec7cc4e86700/alibabacloud_vpc20160428_py2-1.0.1.tar.gz
+[2023-07-04 05:27:23] INFO root fetch - processPackages [pyfem]: Downloading https://files.pythonhosted.org/packages/fa/f2/9a10888815438b3d1c2f85cc5fc41c776c05f52556f4e5ce8fb912808e7e/pyfem-0.1.0.tar.gz
+[2023-07-04 05:27:23] INFO root fetch - processPackages [limberer]: Downloading https://files.pythonhosted.org/packages/f4/2a/f2f4313fafdaea210c7eb6d874ac413d1082bf0b7924efa8f3e6b8cef74b/limberer-0.3.tar.gz
+[2023-07-04 05:27:23] INFO root fetch - processPackages [dry-scraper]: Downloading https://files.pythonhosted.org/packages/67/f8/dbbf9993ab6afb862c3988c5b143789508f5f30aee12dc9ed700091cdb6e/dry_scraper-0.1.8.6.tar.gz
+[2023-07-04 05:27:23] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/49/c8/97bd9925e2aab8e2fb90f2bd5952e96c8793dbb73634161c2b81b93690bb/aliyun-python-sdk-rds-2.7.9.tar.gz
+[2023-07-04 05:27:23] INFO root fetch - processPackages [limberer]: executing diffoscope
+[2023-07-04 05:27:23] INFO root fetch - processPackages [limberer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limberer-0.2.6.tar.gz tmp/limberer-0.3.tar.gz --markdown 20230704/l/limberer/0.2.6-0.3/diff.md --exclude *.pyd
+[2023-07-04 05:27:23] INFO root fetch - processPackages [dry-scraper]: executing diffoscope
+[2023-07-04 05:27:23] INFO root fetch - processPackages [dry-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dry_scraper-0.1.8.5.tar.gz tmp/dry_scraper-0.1.8.6.tar.gz --markdown 20230704/d/dry-scraper/0.1.8.5-0.1.8.6/diff.md --exclude *.pyd
+[2023-07-04 05:27:23] INFO root fetch - processPackages [aliyun-python-sdk-rds]: executing diffoscope
+[2023-07-04 05:27:23] INFO root fetch - processPackages [aliyun-python-sdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-rds-2.7.8.tar.gz tmp/aliyun-python-sdk-rds-2.7.9.tar.gz --markdown 20230704/a/aliyun-python-sdk-rds/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-07-04 05:27:23] INFO root fetch - processPackages [pyfem]: Downloading https://files.pythonhosted.org/packages/a2/4b/0752d3f8733105a99c0ff494f3cce01116389e80c54d0f41d9c27007434c/pyfem-0.1.1.tar.gz
+[2023-07-04 05:27:23] INFO root fetch - processPackages [spark-plotting-tools]: Downloading https://files.pythonhosted.org/packages/fe/ef/e246ef7fa2bb3ca33c9a736b380a037c4b2da0cb33a8fad5e24d0d300914/spark_plotting_tools-0.3.0.tar.gz
+[2023-07-04 05:27:24] INFO root fetch - processPackages [alibabacloud-vpc20160428]: Downloading https://files.pythonhosted.org/packages/0d/d2/e43a15734455aa573ae4a5f4a66c7249245beab2df3278975889b7c99c76/alibabacloud_vpc20160428-3.0.0.tar.gz
+[2023-07-04 05:27:24] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: Downloading https://files.pythonhosted.org/packages/ed/f1/8e2eaafa0c87a4bbdce1cf772e08c1b83012fd99bf5bf85c617566552f99/alibabacloud_vpc20160428_py2-2.0.0.tar.gz
+[2023-07-04 05:27:24] INFO root fetch - processPackages [pyfem]: executing diffoscope
+[2023-07-04 05:27:24] INFO root fetch - processPackages [pyfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfem-0.1.0.tar.gz tmp/pyfem-0.1.1.tar.gz --markdown 20230704/p/pyfem/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-04 05:27:24] INFO root fetch - processPackages [spark-plotting-tools]: executing diffoscope
+[2023-07-04 05:27:24] INFO root fetch - processPackages [spark-plotting-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_plotting_tools-0.2.0.tar.gz tmp/spark_plotting_tools-0.3.0.tar.gz --markdown 20230704/s/spark-plotting-tools/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-04 05:27:24] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: executing diffoscope
+[2023-07-04 05:27:24] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_vpc20160428_py2-1.0.1.tar.gz tmp/alibabacloud_vpc20160428_py2-2.0.0.tar.gz --markdown 20230704/a/alibabacloud-vpc20160428-py2/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-04 05:27:24] INFO root fetch - processPackages [alibabacloud-vpc20160428]: executing diffoscope
+[2023-07-04 05:27:24] INFO root fetch - processPackages [alibabacloud-vpc20160428]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_vpc20160428-2.0.9.tar.gz tmp/alibabacloud_vpc20160428-3.0.0.tar.gz --markdown 20230704/a/alibabacloud-vpc20160428/2.0.9-3.0.0/diff.md --exclude *.pyd
+[2023-07-04 05:27:25] INFO root fetch - processPackages [dry-scraper]: Remove: archive file [/home/abi/fetcher/tmp/dry_scraper-0.1.8.5.tar.gz]
+[2023-07-04 05:27:25] INFO root fetch - processPackages [dry-scraper]: Remove: archive file [/home/abi/fetcher/tmp/dry_scraper-0.1.8.6.tar.gz]
+[2023-07-04 05:27:25] INFO root fetch - main [MainThread]: End processing [dry-scraper]: success
+[2023-07-04 05:27:25] INFO root fetch - processPackages [limberer]: Remove: archive file [/home/abi/fetcher/tmp/limberer-0.2.6.tar.gz]
+[2023-07-04 05:27:25] INFO root fetch - processPackages [limberer]: Remove: archive file [/home/abi/fetcher/tmp/limberer-0.3.tar.gz]
+[2023-07-04 05:27:25] INFO root fetch - main [MainThread]: End processing [limberer]: success
+[2023-07-04 05:27:25] INFO root fetch - processPackages [spark-plotting-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_plotting_tools-0.2.0.tar.gz]
+[2023-07-04 05:27:25] INFO root fetch - processPackages [spark-plotting-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_plotting_tools-0.3.0.tar.gz]
+[2023-07-04 05:27:25] INFO root fetch - main [MainThread]: End processing [spark-plotting-tools]: success
+[2023-07-04 05:27:25] INFO root fetch - processPackages [pyfem]: Remove: archive file [/home/abi/fetcher/tmp/pyfem-0.1.0.tar.gz]
+[2023-07-04 05:27:25] INFO root fetch - processPackages [pyfem]: Remove: archive file [/home/abi/fetcher/tmp/pyfem-0.1.1.tar.gz]
+[2023-07-04 05:27:25] INFO root fetch - main [MainThread]: End processing [pyfem]: success
+[2023-07-04 05:27:25] INFO root fetch - processPackages [alibabacloud-vpc20160428]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vpc20160428-2.0.9.tar.gz]
+[2023-07-04 05:27:25] INFO root fetch - processPackages [alibabacloud-vpc20160428]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vpc20160428-3.0.0.tar.gz]
+[2023-07-04 05:27:25] INFO root fetch - main [MainThread]: End processing [alibabacloud-vpc20160428]: success
+[2023-07-04 05:27:25] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vpc20160428_py2-1.0.1.tar.gz]
+[2023-07-04 05:27:25] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vpc20160428_py2-2.0.0.tar.gz]
+[2023-07-04 05:27:25] INFO root fetch - main [MainThread]: End processing [alibabacloud-vpc20160428-py2]: success
+[2023-07-04 05:27:26] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.8.tar.gz]
+[2023-07-04 05:27:26] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.9.tar.gz]
+[2023-07-04 05:27:26] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
+[2023-07-04 05:27:26] INFO root fetch - main [MainThread]: Store serial: [18749864]
