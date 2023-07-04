@@ -15783,3 +15783,135 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 10:28:00] INFO root fetch - processPackages [label-sleuth]: Remove: archive file [/home/abi/fetcher/tmp/label-sleuth-0.9.4.tar.gz]
 [2023-07-04 10:28:00] INFO root fetch - main [MainThread]: End processing [label-sleuth]: success
 [2023-07-04 10:28:00] INFO root fetch - main [MainThread]: Store serial: [18751950]
+[2023-07-04 10:33:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18751950]
+[2023-07-04 10:33:10] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-04 10:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tonpy
+[2023-07-04 10:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vlite
+[2023-07-04 10:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: guanin
+[2023-07-04 10:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SELDOMpy
+[2023-07-04 10:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ats-case
+[2023-07-04 10:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llycxy
+[2023-07-04 10:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bio-attention
+[2023-07-04 10:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyamihtml
+[2023-07-04 10:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qps-limit
+[2023-07-04 10:33:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rosetta-ce
+[2023-07-04 10:33:10] INFO root fetch - processPackages [vlite]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-04 10:33:10] WARNING root fetch - processPackages [llycxy]: Skipping, unable to determine old version
+[2023-07-04 10:33:10] INFO root fetch - processPackages [SELDOMpy]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-07-04 10:33:10] INFO root fetch - processPackages [llycxy]: Start processing: resfeci
+[2023-07-04 10:33:10] INFO root fetch - main [MainThread]: End processing [llycxy] error
+[2023-07-04 10:33:10] INFO root fetch - processPackages [bio-attention]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 10:33:10] INFO root fetch - processPackages [guanin]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-04 10:33:10] INFO root fetch - processPackages [pyamihtml]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-04 10:33:10] INFO root fetch - processPackages [qps-limit]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-04 10:33:10] INFO root fetch - processPackages [rosetta-ce]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-07-04 10:33:10] WARNING root fetch - processPackages [tonpy]: Skipping, unable to determine old version
+[2023-07-04 10:33:10] INFO root fetch - processPackages [tonpy]: Start processing: InterpretME
+[2023-07-04 10:33:10] INFO root fetch - main [MainThread]: End processing [tonpy] error
+[2023-07-04 10:33:10] INFO root fetch - processPackages [ats-case]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-04 10:33:11] INFO root fetch - processPackages [resfeci]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-07-04 10:33:11] INFO root fetch - processPackages [InterpretME]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-04 10:33:11] INFO root fetch - processPackages [vlite]: Downloading https://files.pythonhosted.org/packages/ba/9f/d28fddf28318376ca65dc952fc329daa98e8056a4b8f2066a5100fe5d5ce/vlite-0.1.1.tar.gz
+[2023-07-04 10:33:11] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/88/69/10475cd095136ead751c2e83c7a3e17c464362c0752a6a617fd92608b701/SELDOMpy-0.7.4-cp38-cp38-win_amd64.whl
+[2023-07-04 10:33:11] INFO root fetch - processPackages [guanin]: Downloading https://files.pythonhosted.org/packages/cc/2b/55dfea5a2e5874930e453da7683d45b30d99fc302e248344cc542f1d2b71/guanin-1.2.0.tar.gz
+[2023-07-04 10:33:11] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/d4/61/a0baf4789a79886e901cdc7af406a4be563e03f1b50dd27574142783bf25/qps_limit-1.0.7-py3-none-any.whl
+[2023-07-04 10:33:11] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/ea/be/3dcf06267762863904c87298d44dcf12f6fe9fe2f8606e197cccf11ffdd1/rosetta-ce-1.5.4.tar.gz
+[2023-07-04 10:33:11] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/04/da/b171ada6344192f8d804a421bc8808a47ee94e5d1f28c7daca14485ad4a7/ats_case-0.9.8.tar.gz
+[2023-07-04 10:33:11] WARNING root fetch - processPackages [guanin]: Skipping package: exceeds size limit 12719081>=10485760
+[2023-07-04 10:33:11] INFO root fetch - processPackages [guanin]: Start processing: example990420
+[2023-07-04 10:33:11] INFO root fetch - main [MainThread]: End processing [guanin] error
+[2023-07-04 10:33:11] INFO root fetch - processPackages [bio-attention]: Downloading https://files.pythonhosted.org/packages/e0/96/bbc597bdc47f051e39fda79f500dd288adf20749bdab8afbf8cacb01366f/bio-attention-0.0.8.tar.gz
+[2023-07-04 10:33:11] INFO root fetch - processPackages [InterpretME]: Downloading https://files.pythonhosted.org/packages/d7/d8/779d103f237ded92246af48cc9acea6e7d2f718f87faa7df367bd17b9b08/InterpretME-1.3.1.tar.gz
+[2023-07-04 10:33:11] INFO root fetch - processPackages [resfeci]: Downloading https://files.pythonhosted.org/packages/49/0f/3c80ed17e899326713427efbcfd2dadb72115e4c9ee3aa9266bff123cde4/resfeci-0.0.12.tar.gz
+[2023-07-04 10:33:11] INFO root fetch - processPackages [example990420]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-04 10:33:11] INFO root fetch - processPackages [pyamihtml]: Downloading https://files.pythonhosted.org/packages/45/b0/009c6e92ae5be50f05397f7d9d043eebbb34ebabc8cea85c1e9effba0f97/pyamihtml-0.0.1.tar.gz
+[2023-07-04 10:33:11] INFO root fetch - processPackages [vlite]: Downloading https://files.pythonhosted.org/packages/2a/ea/12335e0b356f3fc01f1791b495749d53e867438e82222a2caa4c6a97c518/vlite-0.1.2.tar.gz
+[2023-07-04 10:33:11] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/7f/68/87f6eca1406e5f35351915c2062c1db2b77cdfcaebb646e255d7baf5e023/ats_case-0.9.9.tar.gz
+[2023-07-04 10:33:11] INFO root fetch - processPackages [example990420]: Downloading https://files.pythonhosted.org/packages/68/51/5b94336c69cf55322f5e370053914b5c049b0af645035f36ea31a28296d1/example990420-0.0.4.tar.gz
+[2023-07-04 10:33:11] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/29/ad/927e97a0e36704eb086d4d80c864b5ddc7ab64f4ee07d25a3e311a497076/SELDOMpy-0.7.5-cp38-cp38-win_amd64.whl
+[2023-07-04 10:33:11] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/9b/41/0009edc1fe3cbdb7cc78a1eac0afd92a4cdb43770bc612bdbbe4042395a0/qps_limit-1.0.8-py3-none-any.whl
+[2023-07-04 10:33:11] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/e3/56/bc5d26c9a665cded9efd45dec6b2a187bacac7c8353ebef55a852bd51c37/rosetta-ce-1.5.5.tar.gz
+[2023-07-04 10:33:11] INFO root fetch - processPackages [InterpretME]: Downloading https://files.pythonhosted.org/packages/7d/e9/f8b9f9365939d7f7453afe8850ef02f3d9772c81e81378dd1fb3afc21867/InterpretME-1.3.2.tar.gz
+[2023-07-04 10:33:11] INFO root fetch - processPackages [vlite]: executing diffoscope
+[2023-07-04 10:33:11] INFO root fetch - processPackages [vlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vlite-0.1.1.tar.gz tmp/vlite-0.1.2.tar.gz --markdown 20230704/v/vlite/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-04 10:33:11] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-07-04 10:33:11] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.9.8.tar.gz tmp/ats_case-0.9.9.tar.gz --markdown 20230704/a/ats-case/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-04 10:33:11] INFO root fetch - processPackages [resfeci]: Downloading https://files.pythonhosted.org/packages/fa/6a/a513b8e1f729c5864efc81865b7e5eb9964caf4561327ef0889b2f76ffc4/resfeci-0.0.13.tar.gz
+[2023-07-04 10:33:11] INFO root fetch - processPackages [pyamihtml]: Downloading https://files.pythonhosted.org/packages/47/5f/c1b98723e8583eebee8ea10247a5bf06f0c8abe4df84ba834dda0d81e6b1/pyamihtml-0.0.2.tar.gz
+[2023-07-04 10:33:11] INFO root fetch - processPackages [qps-limit]: executing diffoscope
+[2023-07-04 10:33:11] INFO root fetch - processPackages [qps-limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qps_limit-1.0.7-py3-none-any.whl.zip tmp/qps_limit-1.0.8-py3-none-any.whl.zip --markdown 20230704/q/qps-limit/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-04 10:33:12] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-04 10:33:12] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.7.4-cp38-cp38-win_amd64.whl.zip tmp/SELDOMpy-0.7.5-cp38-cp38-win_amd64.whl.zip --markdown 20230704/S/SELDOMpy/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-07-04 10:33:12] INFO root fetch - processPackages [resfeci]: executing diffoscope
+[2023-07-04 10:33:12] INFO root fetch - processPackages [resfeci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resfeci-0.0.12.tar.gz tmp/resfeci-0.0.13.tar.gz --markdown 20230704/r/resfeci/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2023-07-04 10:33:12] INFO root fetch - processPackages [rosetta-ce]: executing diffoscope
+[2023-07-04 10:33:12] INFO root fetch - processPackages [rosetta-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosetta-ce-1.5.4.tar.gz tmp/rosetta-ce-1.5.5.tar.gz --markdown 20230704/r/rosetta-ce/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-07-04 10:33:12] INFO root fetch - processPackages [bio-attention]: Downloading https://files.pythonhosted.org/packages/5e/53/1a0fd800e5833b863507457123215b7c8120d53d7a48ddfe23ea0cc783c9/bio-attention-0.0.9.tar.gz
+[2023-07-04 10:33:12] INFO root fetch - processPackages [pyamihtml]: executing diffoscope
+[2023-07-04 10:33:12] INFO root fetch - processPackages [pyamihtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyamihtml-0.0.1.tar.gz tmp/pyamihtml-0.0.2.tar.gz --markdown 20230704/p/pyamihtml/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-04 10:33:12] INFO root fetch - processPackages [InterpretME]: executing diffoscope
+[2023-07-04 10:33:12] INFO root fetch - processPackages [InterpretME]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InterpretME-1.3.1.tar.gz tmp/InterpretME-1.3.2.tar.gz --markdown 20230704/I/InterpretME/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-04 10:33:12] INFO root fetch - processPackages [example990420]: Downloading https://files.pythonhosted.org/packages/8e/ab/4284712faafb863b729f1f9ca3ec836eb59b9f4a8f49034ac502dd27670d/example990420-0.0.5.tar.gz
+[2023-07-04 10:33:12] INFO root fetch - processPackages [example990420]: executing diffoscope
+[2023-07-04 10:33:12] INFO root fetch - processPackages [example990420]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/example990420-0.0.4.tar.gz tmp/example990420-0.0.5.tar.gz --markdown 20230704/e/example990420/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-04 10:33:12] INFO root fetch - processPackages [bio-attention]: executing diffoscope
+[2023-07-04 10:33:12] INFO root fetch - processPackages [bio-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bio-attention-0.0.8.tar.gz tmp/bio-attention-0.0.9.tar.gz --markdown 20230704/b/bio-attention/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 10:33:13] INFO root fetch - processPackages [vlite]: Remove: archive file [/home/abi/fetcher/tmp/vlite-0.1.1.tar.gz]
+[2023-07-04 10:33:13] INFO root fetch - processPackages [vlite]: Remove: archive file [/home/abi/fetcher/tmp/vlite-0.1.2.tar.gz]
+[2023-07-04 10:33:13] INFO root fetch - processPackages [vlite]: Start processing: peaks2utr
+[2023-07-04 10:33:13] INFO root fetch - main [MainThread]: End processing [vlite]: success
+[2023-07-04 10:33:13] INFO root fetch - processPackages [peaks2utr]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-04 10:33:13] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.8.tar.gz]
+[2023-07-04 10:33:13] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.9.tar.gz]
+[2023-07-04 10:33:13] INFO root fetch - processPackages [ats-case]: Start processing: mengling-tool2
+[2023-07-04 10:33:13] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-07-04 10:33:13] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-1.0.7-py3-none-any.whl.zip]
+[2023-07-04 10:33:13] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-1.0.8-py3-none-any.whl.zip]
+[2023-07-04 10:33:13] INFO root fetch - processPackages [qps-limit]: Start processing: baysalt-christmas
+[2023-07-04 10:33:13] INFO root fetch - main [MainThread]: End processing [qps-limit]: success
+[2023-07-04 10:33:13] INFO root fetch - processPackages [mengling-tool2]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-04 10:33:13] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.5.4.tar.gz]
+[2023-07-04 10:33:13] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.5.5.tar.gz]
+[2023-07-04 10:33:13] INFO root fetch - processPackages [rosetta-ce]: Start processing: geotribu
+[2023-07-04 10:33:13] INFO root fetch - main [MainThread]: End processing [rosetta-ce]: success
+[2023-07-04 10:33:13] INFO root fetch - processPackages [baysalt-christmas]: New version: [0.1.8.2] Old Version: [0.1.8.1]
+[2023-07-04 10:33:13] INFO root fetch - processPackages [peaks2utr]: Downloading https://files.pythonhosted.org/packages/ec/b6/423292cf918ca8c25e8eb0d65872c36a4b1daf88e51bde259c707d8ef9c8/peaks2utr-1.1.1.tar.gz
+[2023-07-04 10:33:13] INFO root fetch - processPackages [geotribu]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-04 10:33:13] WARNING root fetch - processPackages [peaks2utr]: Skipping package: exceeds size limit 10594900>=10485760
+[2023-07-04 10:33:13] INFO root fetch - main [MainThread]: End processing [peaks2utr] error
+[2023-07-04 10:33:13] INFO root fetch - processPackages [InterpretME]: Remove: archive file [/home/abi/fetcher/tmp/InterpretME-1.3.1.tar.gz]
+[2023-07-04 10:33:13] INFO root fetch - processPackages [InterpretME]: Remove: archive file [/home/abi/fetcher/tmp/InterpretME-1.3.2.tar.gz]
+[2023-07-04 10:33:13] INFO root fetch - main [MainThread]: End processing [InterpretME]: success
+[2023-07-04 10:33:13] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.7.4-cp38-cp38-win_amd64.whl.zip]
+[2023-07-04 10:33:13] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.7.5-cp38-cp38-win_amd64.whl.zip]
+[2023-07-04 10:33:13] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-04 10:33:13] INFO root fetch - processPackages [mengling-tool2]: Downloading https://files.pythonhosted.org/packages/22/25/3db58be4895591785814557faf59677babba3efe52a313fc994ce2e1a188/mengling_tool2-1.1.0.tar.gz
+[2023-07-04 10:33:13] INFO root fetch - processPackages [resfeci]: Remove: archive file [/home/abi/fetcher/tmp/resfeci-0.0.12.tar.gz]
+[2023-07-04 10:33:13] INFO root fetch - processPackages [resfeci]: Remove: archive file [/home/abi/fetcher/tmp/resfeci-0.0.13.tar.gz]
+[2023-07-04 10:33:13] INFO root fetch - main [MainThread]: End processing [resfeci]: success
+[2023-07-04 10:33:13] WARNING root fetch - processPackages [mengling-tool2]: Skipping package: exceeds size limit 34382344>=10485760
+[2023-07-04 10:33:13] INFO root fetch - main [MainThread]: End processing [mengling-tool2] error
+[2023-07-04 10:33:13] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/63/8c/4b9da7b51a6bd89c80bc7d6bbcf517710bb177663c5886dddf5bfd345c89/baysalt_christmas-0.1.8.1.tar.gz
+[2023-07-04 10:33:13] INFO root fetch - processPackages [example990420]: Remove: archive file [/home/abi/fetcher/tmp/example990420-0.0.4.tar.gz]
+[2023-07-04 10:33:13] INFO root fetch - processPackages [example990420]: Remove: archive file [/home/abi/fetcher/tmp/example990420-0.0.5.tar.gz]
+[2023-07-04 10:33:13] INFO root fetch - main [MainThread]: End processing [example990420]: success
+[2023-07-04 10:33:13] INFO root fetch - processPackages [pyamihtml]: Remove: archive file [/home/abi/fetcher/tmp/pyamihtml-0.0.1.tar.gz]
+[2023-07-04 10:33:13] INFO root fetch - processPackages [pyamihtml]: Remove: archive file [/home/abi/fetcher/tmp/pyamihtml-0.0.2.tar.gz]
+[2023-07-04 10:33:13] INFO root fetch - main [MainThread]: End processing [pyamihtml]: success
+[2023-07-04 10:33:14] INFO root fetch - processPackages [geotribu]: Downloading https://files.pythonhosted.org/packages/0c/88/9ed63e5b1ed623ecc1bbe33f1abbe27529df60c105218f58ec8e861e50c3/geotribu-0.9.0.tar.gz
+[2023-07-04 10:33:14] INFO root fetch - processPackages [bio-attention]: Remove: archive file [/home/abi/fetcher/tmp/bio-attention-0.0.8.tar.gz]
+[2023-07-04 10:33:14] INFO root fetch - processPackages [bio-attention]: Remove: archive file [/home/abi/fetcher/tmp/bio-attention-0.0.9.tar.gz]
+[2023-07-04 10:33:14] INFO root fetch - main [MainThread]: End processing [bio-attention]: success
+[2023-07-04 10:33:14] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/74/7a/4e55f4a7bc0454c4ce6b9f316e8ad1bf8cd4a28831226960086fb0098437/baysalt_christmas-0.1.8.2.tar.gz
+[2023-07-04 10:33:14] INFO root fetch - processPackages [baysalt-christmas]: executing diffoscope
+[2023-07-04 10:33:14] INFO root fetch - processPackages [baysalt-christmas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baysalt_christmas-0.1.8.1.tar.gz tmp/baysalt_christmas-0.1.8.2.tar.gz --markdown 20230704/b/baysalt-christmas/0.1.8.1-0.1.8.2/diff.md --exclude *.pyd
+[2023-07-04 10:33:14] INFO root fetch - processPackages [geotribu]: Downloading https://files.pythonhosted.org/packages/62/b3/c0a91ca5efa5c4c0338fbdec554fce09bf08ac357fd3020e1830d1194bc2/geotribu-0.9.1.tar.gz
+[2023-07-04 10:33:14] INFO root fetch - processPackages [geotribu]: executing diffoscope
+[2023-07-04 10:33:14] INFO root fetch - processPackages [geotribu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geotribu-0.9.0.tar.gz tmp/geotribu-0.9.1.tar.gz --markdown 20230704/g/geotribu/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-04 10:33:15] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-0.1.8.1.tar.gz]
+[2023-07-04 10:33:15] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-0.1.8.2.tar.gz]
+[2023-07-04 10:33:15] INFO root fetch - main [MainThread]: End processing [baysalt-christmas]: success
+[2023-07-04 10:33:15] INFO root fetch - processPackages [geotribu]: Remove: archive file [/home/abi/fetcher/tmp/geotribu-0.9.0.tar.gz]
+[2023-07-04 10:33:15] INFO root fetch - processPackages [geotribu]: Remove: archive file [/home/abi/fetcher/tmp/geotribu-0.9.1.tar.gz]
+[2023-07-04 10:33:15] INFO root fetch - main [MainThread]: End processing [geotribu]: success
+[2023-07-04 10:33:15] INFO root fetch - main [MainThread]: Store serial: [18752006]
