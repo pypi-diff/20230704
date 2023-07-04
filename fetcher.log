@@ -14693,3 +14693,106 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 09:31:34] INFO root fetch - processPackages [dsw-tdk]: Remove: archive file [/home/abi/fetcher/tmp/dsw-tdk-3.9.0.tar.gz]
 [2023-07-04 09:31:34] INFO root fetch - main [MainThread]: End processing [dsw-tdk]: success
 [2023-07-04 09:31:34] INFO root fetch - main [MainThread]: Store serial: [18751450]
+[2023-07-04 09:36:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18751450]
+[2023-07-04 09:36:43] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-04 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SELDOMpy
+[2023-07-04 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dolphie
+[2023-07-04 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: label-sleuth
+[2023-07-04 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wiptools
+[2023-07-04 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-credit-control
+[2023-07-04 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zenroom
+[2023-07-04 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reytool
+[2023-07-04 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: esg-coverage
+[2023-07-04 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Promium
+[2023-07-04 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ats-case
+[2023-07-04 09:36:43] INFO root fetch - processPackages [zenroom]: New version: [3.9.1] Old Version: [3.8.0]
+[2023-07-04 09:36:44] INFO root fetch - processPackages [dolphie]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-07-04 09:36:44] WARNING root fetch - processPackages [wiptools]: Skipping, unable to determine old version
+[2023-07-04 09:36:44] INFO root fetch - processPackages [wiptools]: Start processing: mypackagelicenseprototype
+[2023-07-04 09:36:44] INFO root fetch - main [MainThread]: End processing [wiptools] error
+[2023-07-04 09:36:44] INFO root fetch - processPackages [SELDOMpy]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-04 09:36:44] INFO root fetch - processPackages [esg-coverage]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-04 09:36:44] INFO root fetch - processPackages [Promium]: New version: [3.3.9] Old Version: [3.3.8]
+[2023-07-04 09:36:44] INFO root fetch - processPackages [label-sleuth]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-04 09:36:44] INFO root fetch - processPackages [odoo-addon-account-credit-control]: New version: [16.0.1.0.1.3] Old Version: [16.0.1.0.1.2]
+[2023-07-04 09:36:44] INFO root fetch - processPackages [ats-case]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-04 09:36:44] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-04 09:36:44] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [5.0.0] Old Version: [4.0.5]
+[2023-07-04 09:36:44] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/81/68/bde0b6cce73f3e9fc14803a58adfddbde7416ad3515c80e097839ec57ce5/SELDOMpy-0.7.0-py3.8-win-amd64.egg
+[2023-07-04 09:36:44] INFO root fetch - processPackages [zenroom]: Downloading https://files.pythonhosted.org/packages/f3/9a/338abeb4a3c4ac5e251366dea7d38d8c492fee014147c2239dc1fe4f21fa/zenroom-3.8.0.tar.gz
+[2023-07-04 09:36:44] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-04 09:36:44] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/ad/c6/8a7e3769a0a00822703adbc6471d3b5c810f362bff45d538e2a843261fb4/mypackagelicenseprototype-4.0.5-py3-none-any.whl
+[2023-07-04 09:36:44] INFO root fetch - processPackages [dolphie]: Downloading https://files.pythonhosted.org/packages/c3/70/addfaac72ad09047349d3f1b3903a54b5ed957b09b1904a7c8bdd08ef69b/dolphie-2.0.6.tar.gz
+[2023-07-04 09:36:44] INFO root fetch - processPackages [esg-coverage]: Downloading https://files.pythonhosted.org/packages/51/46/5dbf863e5d1a66d1ca8fd3ab59bd77cd12d01670bd003b784ba92ee52630/esg_coverage-0.3.0.tar.gz
+[2023-07-04 09:36:44] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/04/da/b171ada6344192f8d804a421bc8808a47ee94e5d1f28c7daca14485ad4a7/ats_case-0.9.8.tar.gz
+[2023-07-04 09:36:44] WARNING root fetch - processPackages [zenroom]: Skipping package: exceeds size limit 25654205>=10485760
+[2023-07-04 09:36:44] INFO root fetch - processPackages [zenroom]: Start processing: Jedutils
+[2023-07-04 09:36:44] INFO root fetch - main [MainThread]: End processing [zenroom] error
+[2023-07-04 09:36:44] INFO root fetch - processPackages [Promium]: Downloading https://files.pythonhosted.org/packages/b1/fe/53789d6d9c3993fc1e51d5704105b58c8345e06233e13565fde1a469af51/Promium-3.3.8.tar.gz
+[2023-07-04 09:36:44] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/91/cc/4f0eba3aa9d5410c3b47f613ce2618e7656a95eff474e431087d2034500b/odoo_addon_account_credit_control-16.0.1.0.1.2-py3-none-any.whl
+[2023-07-04 09:36:44] INFO root fetch - processPackages [Jedutils]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-04 09:36:44] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-04 09:36:44] INFO root fetch - processPackages [label-sleuth]: executing diffoscope
+[2023-07-04 09:36:44] INFO root fetch - processPackages [label-sleuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label-sleuth-0.9.3.tar.gz tmp/label-sleuth-0.9.4.tar.gz --markdown 20230704/l/label-sleuth/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-04 09:36:44] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/c8/54/5854fd2bc86db3f24a9d7c03da87f74d3b051f2dae76ffa7ea6d9551cc63/SELDOMpy-0.7.1-cp38-cp38-win_amd64.whl
+[2023-07-04 09:36:44] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/7f/68/87f6eca1406e5f35351915c2062c1db2b77cdfcaebb646e255d7baf5e023/ats_case-0.9.9.tar.gz
+[2023-07-04 09:36:44] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/da/6c/30335a6d3394aa087b487309d9bdfc3e5e87114749d7a7c25af83a8f3d76/mypackagelicenseprototype-5.0.0-py3-none-any.whl
+[2023-07-04 09:36:44] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-04 09:36:44] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230704/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-04 09:36:44] INFO root fetch - processPackages [esg-coverage]: Downloading https://files.pythonhosted.org/packages/f6/51/2e9a86f852b5d07cceabb6e879ed6c7f77a29ece5238f7488aec7dff716e/esg_coverage-0.3.1.tar.gz
+[2023-07-04 09:36:44] INFO root fetch - processPackages [dolphie]: Downloading https://files.pythonhosted.org/packages/0a/b8/766e0cb9f6097ce11646955732d1ff5a20020fceb902b95f82ef35e0690e/dolphie-2.0.7.tar.gz
+[2023-07-04 09:36:44] INFO root fetch - processPackages [Jedutils]: Downloading https://files.pythonhosted.org/packages/a6/3f/6cd5e40d9f4b116ddc9087ec5b9f1cae55c030756e987926a434c86ffeee/Jedutils-0.1.1.tar.gz
+[2023-07-04 09:36:44] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-07-04 09:36:44] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.9.8.tar.gz tmp/ats_case-0.9.9.tar.gz --markdown 20230704/a/ats-case/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-04 09:36:44] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/22/ef/cbb5ba5446e693e89b5448074eddd5e1996611f190eee80d1fb5394f2381/odoo_addon_account_credit_control-16.0.1.0.1.3-py3-none-any.whl
+[2023-07-04 09:36:45] INFO root fetch - processPackages [Promium]: Downloading https://files.pythonhosted.org/packages/fb/fe/1bdabfadf8fc2afac36302fd53c5efbc391e8df46625741e6becfbc6690c/Promium-3.3.9.tar.gz
+[2023-07-04 09:36:45] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-07-04 09:36:45] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-4.0.5-py3-none-any.whl.zip tmp/mypackagelicenseprototype-5.0.0-py3-none-any.whl.zip --markdown 20230704/m/mypackagelicenseprototype/4.0.5-5.0.0/diff.md --exclude *.pyd
+[2023-07-04 09:36:45] INFO root fetch - processPackages [esg-coverage]: executing diffoscope
+[2023-07-04 09:36:45] INFO root fetch - processPackages [esg-coverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esg_coverage-0.3.0.tar.gz tmp/esg_coverage-0.3.1.tar.gz --markdown 20230704/e/esg-coverage/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-04 09:36:45] INFO root fetch - processPackages [dolphie]: executing diffoscope
+[2023-07-04 09:36:45] INFO root fetch - processPackages [dolphie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolphie-2.0.6.tar.gz tmp/dolphie-2.0.7.tar.gz --markdown 20230704/d/dolphie/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-07-04 09:36:45] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-04 09:36:45] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.7.0-py3.8-win-amd64.egg tmp/SELDOMpy-0.7.1-cp38-cp38-win_amd64.whl.zip --markdown 20230704/S/SELDOMpy/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-04 09:36:45] INFO root fetch - processPackages [odoo-addon-account-credit-control]: executing diffoscope
+[2023-07-04 09:36:45] INFO root fetch - processPackages [odoo-addon-account-credit-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_credit_control-16.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_account_credit_control-16.0.1.0.1.3-py3-none-any.whl.zip --markdown 20230704/o/odoo-addon-account-credit-control/16.0.1.0.1.2-16.0.1.0.1.3/diff.md --exclude *.pyd
+[2023-07-04 09:36:45] INFO root fetch - processPackages [Jedutils]: Downloading https://files.pythonhosted.org/packages/a0/69/294871021d2f4b115202439468f6fd5f782e5e2fe23c731e01aa5d7858d4/Jedutils-0.1.2.tar.gz
+[2023-07-04 09:36:45] INFO root fetch - processPackages [Promium]: executing diffoscope
+[2023-07-04 09:36:45] INFO root fetch - processPackages [Promium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Promium-3.3.8.tar.gz tmp/Promium-3.3.9.tar.gz --markdown 20230704/P/Promium/3.3.8-3.3.9/diff.md --exclude *.pyd
+[2023-07-04 09:36:45] INFO root fetch - processPackages [Jedutils]: executing diffoscope
+[2023-07-04 09:36:45] INFO root fetch - processPackages [Jedutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jedutils-0.1.1.tar.gz tmp/Jedutils-0.1.2.tar.gz --markdown 20230704/J/Jedutils/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-04 09:36:45] INFO root fetch - processPackages [label-sleuth]: Remove: archive file [/home/abi/fetcher/tmp/label-sleuth-0.9.3.tar.gz]
+[2023-07-04 09:36:45] INFO root fetch - processPackages [label-sleuth]: Remove: archive file [/home/abi/fetcher/tmp/label-sleuth-0.9.4.tar.gz]
+[2023-07-04 09:36:45] INFO root fetch - processPackages [label-sleuth]: Start processing: tonpy
+[2023-07-04 09:36:45] INFO root fetch - main [MainThread]: End processing [label-sleuth]: success
+[2023-07-04 09:36:45] INFO root fetch - processPackages [tonpy]: New version: [0.0.0.0.2a0] Old Version: [0.0.0.0.1b0]
+[2023-07-04 09:36:45] ERROR root fetch - processPackages [tonpy]: Unable to fetch info: No such project/version 'tonpy' 0.0.0.0.1b0
+[2023-07-04 09:36:45] INFO root fetch - main [MainThread]: End processing [tonpy] error
+[2023-07-04 09:36:46] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-04 09:36:46] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-04 09:36:46] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-04 09:36:46] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.8.tar.gz]
+[2023-07-04 09:36:46] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.9.tar.gz]
+[2023-07-04 09:36:46] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-07-04 09:36:46] INFO root fetch - processPackages [Jedutils]: Remove: archive file [/home/abi/fetcher/tmp/Jedutils-0.1.1.tar.gz]
+[2023-07-04 09:36:46] INFO root fetch - processPackages [Jedutils]: Remove: archive file [/home/abi/fetcher/tmp/Jedutils-0.1.2.tar.gz]
+[2023-07-04 09:36:46] INFO root fetch - main [MainThread]: End processing [Jedutils]: success
+[2023-07-04 09:36:46] INFO root fetch - processPackages [dolphie]: Remove: archive file [/home/abi/fetcher/tmp/dolphie-2.0.6.tar.gz]
+[2023-07-04 09:36:46] INFO root fetch - processPackages [dolphie]: Remove: archive file [/home/abi/fetcher/tmp/dolphie-2.0.7.tar.gz]
+[2023-07-04 09:36:46] INFO root fetch - main [MainThread]: End processing [dolphie]: success
+[2023-07-04 09:36:46] INFO root fetch - processPackages [esg-coverage]: Remove: archive file [/home/abi/fetcher/tmp/esg_coverage-0.3.0.tar.gz]
+[2023-07-04 09:36:46] INFO root fetch - processPackages [esg-coverage]: Remove: archive file [/home/abi/fetcher/tmp/esg_coverage-0.3.1.tar.gz]
+[2023-07-04 09:36:46] INFO root fetch - main [MainThread]: End processing [esg-coverage]: success
+[2023-07-04 09:36:46] INFO root fetch - processPackages [Promium]: Remove: archive file [/home/abi/fetcher/tmp/Promium-3.3.8.tar.gz]
+[2023-07-04 09:36:46] INFO root fetch - processPackages [Promium]: Remove: archive file [/home/abi/fetcher/tmp/Promium-3.3.9.tar.gz]
+[2023-07-04 09:36:46] INFO root fetch - main [MainThread]: End processing [Promium]: success
+[2023-07-04 09:36:47] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.7.0-py3.8-win-amd64.egg]
+[2023-07-04 09:36:47] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.7.1-cp38-cp38-win_amd64.whl.zip]
+[2023-07-04 09:36:47] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-04 09:36:47] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_credit_control-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2023-07-04 09:36:47] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_credit_control-16.0.1.0.1.3-py3-none-any.whl.zip]
+[2023-07-04 09:36:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-credit-control]: success
+[2023-07-04 09:36:48] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-4.0.5-py3-none-any.whl.zip]
+[2023-07-04 09:36:48] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-5.0.0-py3-none-any.whl.zip]
+[2023-07-04 09:36:48] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-07-04 09:36:48] INFO root fetch - main [MainThread]: Store serial: [18751506]
