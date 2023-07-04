@@ -15598,3 +15598,68 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 10:16:52] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-07-04 10:16:53] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-07-04 10:16:53] INFO root fetch - main [MainThread]: Store serial: [18751884]
+[2023-07-04 10:21:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18751884]
+[2023-07-04 10:22:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-04 10:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mne-bids-pipeline
+[2023-07-04 10:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ir-digit
+[2023-07-04 10:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skl-graph
+[2023-07-04 10:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-master
+[2023-07-04 10:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ocean-contracts
+[2023-07-04 10:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: whitson-tool-helper
+[2023-07-04 10:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CORS-Analyzer
+[2023-07-04 10:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: resfeci
+[2023-07-04 10:22:02] INFO root fetch - processPackages [CORS-Analyzer]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-04 10:22:02] INFO root fetch - processPackages [mne-bids-pipeline]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-04 10:22:02] WARNING root fetch - processPackages [resfeci]: Skipping, unable to determine old version
+[2023-07-04 10:22:02] INFO root fetch - main [MainThread]: End processing [resfeci] error
+[2023-07-04 10:22:02] INFO root fetch - processPackages [skl-graph]: New version: [2023.9] Old Version: [2023.8]
+[2023-07-04 10:22:02] INFO root fetch - processPackages [ir-digit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 10:22:02] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230704.8.18.50534] Old Version: [20230704.7.29.595621]
+[2023-07-04 10:22:03] INFO root fetch - processPackages [whitson-tool-helper]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-04 10:22:03] INFO root fetch - processPackages [CORS-Analyzer]: Downloading https://files.pythonhosted.org/packages/4e/6e/b970738413fb8aa43bdab22f37afbde80e6564d1629e02d30355124d505a/CORS-Analyzer-1.0.6.tar.gz
+[2023-07-04 10:22:03] INFO root fetch - processPackages [skl-graph]: Downloading https://files.pythonhosted.org/packages/15/a7/d7345fc604e1c94faa76a02b3050cefbf5c3e7be452108acbd957bef14e0/skl-graph-2023.8.tar.gz
+[2023-07-04 10:22:03] INFO root fetch - processPackages [ocean-contracts]: New version: [2.0.0a1] Old Version: [1.1.8]
+[2023-07-04 10:22:03] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/13/8d/28f7eda19d06a28525737eac0126409e56176e1a3db989013d202807f091/ir_digit-0.0.8.tar.gz
+[2023-07-04 10:22:03] INFO root fetch - processPackages [mne-bids-pipeline]: Downloading https://files.pythonhosted.org/packages/4c/b4/68c98917496e448b15cc72bec6974f500dffb0c056bd007b96555c021f9a/mne-bids-pipeline-1.3.0.tar.gz
+[2023-07-04 10:22:03] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/14/3e/a2adb47dfea7aeac3a55e9b562facb677ae007e2828f70dc0a1336b3aad9/certora-cli-alpha-master-20230704.7.29.595621.tar.gz
+[2023-07-04 10:22:03] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 40633013>=10485760
+[2023-07-04 10:22:03] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-04 10:22:03] INFO root fetch - processPackages [whitson-tool-helper]: Downloading https://files.pythonhosted.org/packages/8c/c7/3a214f50655a603311a96ffba90c528d9b8011b9aed8c8aae132bda885df/whitson_tool_helper-0.2.0.tar.gz
+[2023-07-04 10:22:03] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/c0/e1/8cdd06668f7ad179caab43915da3e6ca91882c998be4777dc2b190a0b1fd/ir_digit-0.0.9.tar.gz
+[2023-07-04 10:22:03] INFO root fetch - processPackages [ocean-contracts]: Downloading https://files.pythonhosted.org/packages/3b/be/7c8c9c63523e5543ff537cd221b47a36a84eecb9ab19a8e6b4fb31dd67df/ocean-contracts-1.1.8.tar.gz
+[2023-07-04 10:22:03] INFO root fetch - processPackages [CORS-Analyzer]: Downloading https://files.pythonhosted.org/packages/4f/b9/cf53ce8f0fc6d09f441ad4c25b019775910daf5191a4985f525a5323e7a7/CORS-Analyzer-1.0.7.tar.gz
+[2023-07-04 10:22:03] INFO root fetch - processPackages [skl-graph]: Downloading https://files.pythonhosted.org/packages/b1/0f/0929f13352edcf9f573edac5d68206a6f8ef2512983829ddf07833acdb97/skl-graph-2023.9.tar.gz
+[2023-07-04 10:22:03] INFO root fetch - processPackages [ir-digit]: executing diffoscope
+[2023-07-04 10:22:03] INFO root fetch - processPackages [ir-digit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ir_digit-0.0.8.tar.gz tmp/ir_digit-0.0.9.tar.gz --markdown 20230704/i/ir-digit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 10:22:03] INFO root fetch - processPackages [mne-bids-pipeline]: Downloading https://files.pythonhosted.org/packages/a1/9a/58e226845081f89e78237d3ab70236d539c9acd83a6916b7f1dae5d0d9d9/mne-bids-pipeline-1.4.0.tar.gz
+[2023-07-04 10:22:03] INFO root fetch - processPackages [skl-graph]: executing diffoscope
+[2023-07-04 10:22:03] INFO root fetch - processPackages [skl-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skl-graph-2023.8.tar.gz tmp/skl-graph-2023.9.tar.gz --markdown 20230704/s/skl-graph/2023.8-2023.9/diff.md --exclude *.pyd
+[2023-07-04 10:22:03] INFO root fetch - processPackages [CORS-Analyzer]: executing diffoscope
+[2023-07-04 10:22:03] INFO root fetch - processPackages [CORS-Analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CORS-Analyzer-1.0.6.tar.gz tmp/CORS-Analyzer-1.0.7.tar.gz --markdown 20230704/C/CORS-Analyzer/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-04 10:22:03] INFO root fetch - processPackages [mne-bids-pipeline]: executing diffoscope
+[2023-07-04 10:22:03] INFO root fetch - processPackages [mne-bids-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mne-bids-pipeline-1.3.0.tar.gz tmp/mne-bids-pipeline-1.4.0.tar.gz --markdown 20230704/m/mne-bids-pipeline/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-04 10:22:03] INFO root fetch - processPackages [whitson-tool-helper]: Downloading https://files.pythonhosted.org/packages/43/b2/ef88b23a919c4a128771738d33c3a94558778f6b2dc701ec676cd11d4e6c/whitson_tool_helper-0.2.1.tar.gz
+[2023-07-04 10:22:03] INFO root fetch - processPackages [ocean-contracts]: Downloading https://files.pythonhosted.org/packages/ac/60/78a19281a473643d9a7373204e75e699165ddc6bb62866d7062eef7401d5/ocean-contracts-2.0.0a1.tar.gz
+[2023-07-04 10:22:03] INFO root fetch - processPackages [whitson-tool-helper]: executing diffoscope
+[2023-07-04 10:22:03] INFO root fetch - processPackages [whitson-tool-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whitson_tool_helper-0.2.0.tar.gz tmp/whitson_tool_helper-0.2.1.tar.gz --markdown 20230704/w/whitson-tool-helper/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-04 10:22:03] INFO root fetch - processPackages [ocean-contracts]: executing diffoscope
+[2023-07-04 10:22:03] INFO root fetch - processPackages [ocean-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocean-contracts-1.1.8.tar.gz tmp/ocean-contracts-2.0.0a1.tar.gz --markdown 20230704/o/ocean-contracts/1.1.8-2.0.0a1/diff.md --exclude *.pyd
+[2023-07-04 10:22:04] INFO root fetch - processPackages [ir-digit]: Remove: archive file [/home/abi/fetcher/tmp/ir_digit-0.0.8.tar.gz]
+[2023-07-04 10:22:04] INFO root fetch - processPackages [ir-digit]: Remove: archive file [/home/abi/fetcher/tmp/ir_digit-0.0.9.tar.gz]
+[2023-07-04 10:22:04] INFO root fetch - main [MainThread]: End processing [ir-digit]: success
+[2023-07-04 10:22:04] INFO root fetch - processPackages [CORS-Analyzer]: Remove: archive file [/home/abi/fetcher/tmp/CORS-Analyzer-1.0.6.tar.gz]
+[2023-07-04 10:22:04] INFO root fetch - processPackages [CORS-Analyzer]: Remove: archive file [/home/abi/fetcher/tmp/CORS-Analyzer-1.0.7.tar.gz]
+[2023-07-04 10:22:04] INFO root fetch - main [MainThread]: End processing [CORS-Analyzer]: success
+[2023-07-04 10:22:04] INFO root fetch - processPackages [skl-graph]: Remove: archive file [/home/abi/fetcher/tmp/skl-graph-2023.8.tar.gz]
+[2023-07-04 10:22:04] INFO root fetch - processPackages [skl-graph]: Remove: archive file [/home/abi/fetcher/tmp/skl-graph-2023.9.tar.gz]
+[2023-07-04 10:22:04] INFO root fetch - main [MainThread]: End processing [skl-graph]: success
+[2023-07-04 10:22:04] INFO root fetch - processPackages [whitson-tool-helper]: Remove: archive file [/home/abi/fetcher/tmp/whitson_tool_helper-0.2.0.tar.gz]
+[2023-07-04 10:22:04] INFO root fetch - processPackages [whitson-tool-helper]: Remove: archive file [/home/abi/fetcher/tmp/whitson_tool_helper-0.2.1.tar.gz]
+[2023-07-04 10:22:04] INFO root fetch - main [MainThread]: End processing [whitson-tool-helper]: success
+[2023-07-04 10:22:05] INFO root fetch - processPackages [mne-bids-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/mne-bids-pipeline-1.3.0.tar.gz]
+[2023-07-04 10:22:05] INFO root fetch - processPackages [mne-bids-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/mne-bids-pipeline-1.4.0.tar.gz]
+[2023-07-04 10:22:05] INFO root fetch - main [MainThread]: End processing [mne-bids-pipeline]: success
+[2023-07-04 10:22:06] INFO root fetch - processPackages [ocean-contracts]: Remove: archive file [/home/abi/fetcher/tmp/ocean-contracts-1.1.8.tar.gz]
+[2023-07-04 10:22:06] INFO root fetch - processPackages [ocean-contracts]: Remove: archive file [/home/abi/fetcher/tmp/ocean-contracts-2.0.0a1.tar.gz]
+[2023-07-04 10:22:06] INFO root fetch - main [MainThread]: End processing [ocean-contracts]: success
+[2023-07-04 10:22:06] INFO root fetch - main [MainThread]: Store serial: [18751909]
