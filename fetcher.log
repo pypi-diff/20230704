@@ -12602,3 +12602,126 @@
 [2023-07-04 07:34:08] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev4.tar.gz]
 [2023-07-04 07:34:08] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2023-07-04 07:34:08] INFO root fetch - main [MainThread]: Store serial: [18750704]
+[2023-07-04 07:39:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18750704]
+[2023-07-04 07:39:17] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-04 07:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: megfile
+[2023-07-04 07:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydantic-loggings
+[2023-07-04 07:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipe21
+[2023-07-04 07:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyHB
+[2023-07-04 07:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llm-foundry
+[2023-07-04 07:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: event-dispatching
+[2023-07-04 07:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SPMUtil
+[2023-07-04 07:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: omnata-plugin-runtime
+[2023-07-04 07:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-project-task-stage-allow-timesheet
+[2023-07-04 07:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo12-addon-hr-timesheet-time-type
+[2023-07-04 07:39:17] INFO root fetch - processPackages [SPMUtil]: New version: [0.3.14] Old Version: [0.3.13]
+[2023-07-04 07:39:17] INFO root fetch - processPackages [odoo12-addon-project-task-stage-allow-timesheet]: New version: [12.0.1.0.1.99.dev9] Old Version: [12.0.1.0.1.99.dev8]
+[2023-07-04 07:39:17] INFO root fetch - processPackages [pydantic-loggings]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-04 07:39:17] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-time-type]: New version: [12.0.1.0.1.99.dev3] Old Version: [12.0.1.0.1.99.dev2]
+[2023-07-04 07:39:17] INFO root fetch - processPackages [pyHB]: New version: [0.4] Old Version: [0.3]
+[2023-07-04 07:39:17] INFO root fetch - processPackages [llm-foundry]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-04 07:39:17] WARNING root fetch - processPackages [event-dispatching]: Skipping, unable to determine old version
+[2023-07-04 07:39:17] INFO root fetch - processPackages [event-dispatching]: Start processing: odoo12-addon-hr-timesheet-report
+[2023-07-04 07:39:17] INFO root fetch - main [MainThread]: End processing [event-dispatching] error
+[2023-07-04 07:39:17] INFO root fetch - processPackages [pipe21]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-04 07:39:17] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 07:39:17] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-report]: New version: [12.0.1.0.1.99.dev6] Old Version: [12.0.1.0.1.99.dev5]
+[2023-07-04 07:39:17] INFO root fetch - processPackages [megfile]: New version: [2.1.1.post1] Old Version: [2.1.1]
+[2023-07-04 07:39:17] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/6a/34/b1af92289b1bb1134c7a9a367f5771ead38ee6bcf760e88cac3603fa2702/pydantic-loggings-0.8.0.tar.gz
+[2023-07-04 07:39:18] INFO root fetch - processPackages [pipe21]: Downloading https://files.pythonhosted.org/packages/51/39/24c442c6db5e924109871bfd746531a14c6069a8f9b3e456e72c8efa05cd/pipe21-1.8.0.tar.gz
+[2023-07-04 07:39:18] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-07-04 07:39:18] INFO root fetch - processPackages [SPMUtil]: Downloading https://files.pythonhosted.org/packages/71/ec/0e8ffc5acaea637b2df439716abcac66b27ae10ec2f3db1d323b9b3a9503/SPMUtil-0.3.13.tar.gz
+[2023-07-04 07:39:18] INFO root fetch - processPackages [pyHB]: Downloading https://files.pythonhosted.org/packages/87/f4/b3d1df451830be4fcf5d4106e9c8235c99e1b58a9912133e81cfb30795d4/pyHB-0.3.tar.gz
+[2023-07-04 07:39:18] INFO root fetch - processPackages [llm-foundry]: Downloading https://files.pythonhosted.org/packages/3a/ae/57c3346bd35154ba2f506fc13cb07b38cefc4f5511cb34705c1c34c568f1/llm-foundry-0.1.0.tar.gz
+[2023-07-04 07:39:18] INFO root fetch - processPackages [odoo12-addon-project-task-stage-allow-timesheet]: Downloading https://files.pythonhosted.org/packages/94/74/288b2dfd9913bbbd5a473a4bc202ddd9060deb4119c36a4e9656ad945db1/odoo12_addon_project_task_stage_allow_timesheet-12.0.1.0.1.99.dev8-py3-none-any.whl
+[2023-07-04 07:39:18] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-time-type]: Downloading https://files.pythonhosted.org/packages/7c/d3/d72b48c9732c66840304ab885dfa67649e84dc40a51f1c2d4b35926aac49/odoo12_addon_hr_timesheet_time_type-12.0.1.0.1.99.dev2-py3-none-any.whl
+[2023-07-04 07:39:18] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-report]: Downloading https://files.pythonhosted.org/packages/de/2b/9eba98e8f0b291c5e92a1605b655dbe6e85213923b39dd185910de901b95/odoo12_addon_hr_timesheet_report-12.0.1.0.1.99.dev5-py3-none-any.whl
+[2023-07-04 07:39:18] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/21/4e/659f3a0841109cc8c048adc231fe8e8e45173f28a88c6d29c23fd67d9811/megfile-2.1.1-py3-none-any.whl
+[2023-07-04 07:39:18] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/ab/c8/085b6ffd91326548ba3b355e72cc410286860516c34310924a6182dab40b/pydantic-loggings-0.9.0.tar.gz
+[2023-07-04 07:39:18] INFO root fetch - processPackages [pydantic-loggings]: executing diffoscope
+[2023-07-04 07:39:18] INFO root fetch - processPackages [pydantic-loggings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-loggings-0.8.0.tar.gz tmp/pydantic-loggings-0.9.0.tar.gz --markdown 20230704/p/pydantic-loggings/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-04 07:39:18] INFO root fetch - processPackages [pyHB]: Downloading https://files.pythonhosted.org/packages/2e/02/dba15258239e84d6ba1973d5d59e044517f00612510a31df0bb98c669161/pyHB-0.4.tar.gz
+[2023-07-04 07:39:18] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-time-type]: Downloading https://files.pythonhosted.org/packages/d9/cf/796a8899b94a586c6216ed277702edd63357d37a75304dd3c89c3b74c398/odoo12_addon_hr_timesheet_time_type-12.0.1.0.1.99.dev3-py3-none-any.whl
+[2023-07-04 07:39:18] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-07-04 07:39:18] INFO root fetch - processPackages [llm-foundry]: Downloading https://files.pythonhosted.org/packages/61/7d/a152ff61601e702027412187760d34832d34dc2c6c96d8baa4979769b49e/llm-foundry-0.2.0.tar.gz
+[2023-07-04 07:39:18] INFO root fetch - processPackages [pyHB]: executing diffoscope
+[2023-07-04 07:39:18] INFO root fetch - processPackages [pyHB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyHB-0.3.tar.gz tmp/pyHB-0.4.tar.gz --markdown 20230704/p/pyHB/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-04 07:39:18] INFO root fetch - processPackages [pipe21]: Downloading https://files.pythonhosted.org/packages/06/d2/ce18067a3e0d49128faaaa14a4a4c575a2c94bb1d4faf3fdbfec1625ee96/pipe21-1.9.0.tar.gz
+[2023-07-04 07:39:18] INFO root fetch - processPackages [odoo12-addon-project-task-stage-allow-timesheet]: Downloading https://files.pythonhosted.org/packages/02/29/4c373ce0dd716c7ef6598d614239b07710764526eb560e761bc1572ba09d/odoo12_addon_project_task_stage_allow_timesheet-12.0.1.0.1.99.dev9-py3-none-any.whl
+[2023-07-04 07:39:18] INFO root fetch - processPackages [SPMUtil]: Downloading https://files.pythonhosted.org/packages/52/4a/5503a1423c63a76e22ea591138a2132da94f5eae448ea7c1489d825a3bb2/SPMUtil-0.3.14.tar.gz
+[2023-07-04 07:39:18] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-report]: Downloading https://files.pythonhosted.org/packages/48/ba/0b1e17ca2dbb06eb01dda6097ea6369260e38581d330729ecd4a1bf624f1/odoo12_addon_hr_timesheet_report-12.0.1.0.1.99.dev6-py3-none-any.whl
+[2023-07-04 07:39:18] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-time-type]: executing diffoscope
+[2023-07-04 07:39:18] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-time-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_hr_timesheet_time_type-12.0.1.0.1.99.dev2-py3-none-any.whl.zip tmp/odoo12_addon_hr_timesheet_time_type-12.0.1.0.1.99.dev3-py3-none-any.whl.zip --markdown 20230704/o/odoo12-addon-hr-timesheet-time-type/12.0.1.0.1.99.dev2-12.0.1.0.1.99.dev3/diff.md --exclude *.pyd
+[2023-07-04 07:39:18] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-07-04 07:39:18] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230704/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 07:39:18] INFO root fetch - processPackages [llm-foundry]: executing diffoscope
+[2023-07-04 07:39:18] INFO root fetch - processPackages [llm-foundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-foundry-0.1.0.tar.gz tmp/llm-foundry-0.2.0.tar.gz --markdown 20230704/l/llm-foundry/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-04 07:39:18] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/62/47/2b1f8e5a33803e2999b13e4f7e93abd3131898e48652b3471cab43d09fc4/megfile-2.1.1.post1-py3-none-any.whl
+[2023-07-04 07:39:18] INFO root fetch - processPackages [SPMUtil]: executing diffoscope
+[2023-07-04 07:39:18] INFO root fetch - processPackages [SPMUtil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPMUtil-0.3.13.tar.gz tmp/SPMUtil-0.3.14.tar.gz --markdown 20230704/S/SPMUtil/0.3.13-0.3.14/diff.md --exclude *.pyd
+[2023-07-04 07:39:19] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-report]: executing diffoscope
+[2023-07-04 07:39:19] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_hr_timesheet_report-12.0.1.0.1.99.dev5-py3-none-any.whl.zip tmp/odoo12_addon_hr_timesheet_report-12.0.1.0.1.99.dev6-py3-none-any.whl.zip --markdown 20230704/o/odoo12-addon-hr-timesheet-report/12.0.1.0.1.99.dev5-12.0.1.0.1.99.dev6/diff.md --exclude *.pyd
+[2023-07-04 07:39:19] INFO root fetch - processPackages [pipe21]: executing diffoscope
+[2023-07-04 07:39:19] INFO root fetch - processPackages [pipe21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipe21-1.8.0.tar.gz tmp/pipe21-1.9.0.tar.gz --markdown 20230704/p/pipe21/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-04 07:39:19] INFO root fetch - processPackages [megfile]: executing diffoscope
+[2023-07-04 07:39:19] INFO root fetch - processPackages [megfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megfile-2.1.1-py3-none-any.whl.zip tmp/megfile-2.1.1.post1-py3-none-any.whl.zip --markdown 20230704/m/megfile/2.1.1-2.1.1.post1/diff.md --exclude *.pyd
+[2023-07-04 07:39:19] INFO root fetch - processPackages [odoo12-addon-project-task-stage-allow-timesheet]: executing diffoscope
+[2023-07-04 07:39:19] INFO root fetch - processPackages [odoo12-addon-project-task-stage-allow-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_project_task_stage_allow_timesheet-12.0.1.0.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_project_task_stage_allow_timesheet-12.0.1.0.1.99.dev9-py3-none-any.whl.zip --markdown 20230704/o/odoo12-addon-project-task-stage-allow-timesheet/12.0.1.0.1.99.dev8-12.0.1.0.1.99.dev9/diff.md --exclude *.pyd
+[2023-07-04 07:39:19] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.8.0.tar.gz]
+[2023-07-04 07:39:19] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.9.0.tar.gz]
+[2023-07-04 07:39:19] INFO root fetch - processPackages [pydantic-loggings]: Start processing: fastapi-sql-profiler
+[2023-07-04 07:39:19] INFO root fetch - main [MainThread]: End processing [pydantic-loggings]: success
+[2023-07-04 07:39:19] INFO root fetch - processPackages [fastapi-sql-profiler]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-04 07:39:20] INFO root fetch - processPackages [pyHB]: Remove: archive file [/home/abi/fetcher/tmp/pyHB-0.3.tar.gz]
+[2023-07-04 07:39:20] INFO root fetch - processPackages [pyHB]: Remove: archive file [/home/abi/fetcher/tmp/pyHB-0.4.tar.gz]
+[2023-07-04 07:39:20] INFO root fetch - processPackages [pyHB]: Start processing: algospace
+[2023-07-04 07:39:20] INFO root fetch - main [MainThread]: End processing [pyHB]: success
+[2023-07-04 07:39:20] INFO root fetch - processPackages [algospace]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-07-04 07:39:20] INFO root fetch - processPackages [fastapi-sql-profiler]: Downloading https://files.pythonhosted.org/packages/9c/7a/1254d689a8ec001a0ee07ff4b79700b699bb506e3ee1237621ae543c314d/fastapi-sql-profiler-1.0.0.tar.gz
+[2023-07-04 07:39:20] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-time-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_timesheet_time_type-12.0.1.0.1.99.dev2-py3-none-any.whl.zip]
+[2023-07-04 07:39:20] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-time-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_timesheet_time_type-12.0.1.0.1.99.dev3-py3-none-any.whl.zip]
+[2023-07-04 07:39:20] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-time-type]: Start processing: PyNAFF
+[2023-07-04 07:39:20] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-timesheet-time-type]: success
+[2023-07-04 07:39:20] INFO root fetch - processPackages [algospace]: Downloading https://files.pythonhosted.org/packages/7d/26/ad0ac66469063faed6c4b81a3a93c514ac67bd945ea0069e84524ef91d1b/algospace-0.4.7.tar.gz
+[2023-07-04 07:39:20] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-07-04 07:39:20] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-07-04 07:39:20] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-07-04 07:39:20] INFO root fetch - processPackages [PyNAFF]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-04 07:39:20] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_timesheet_report-12.0.1.0.1.99.dev5-py3-none-any.whl.zip]
+[2023-07-04 07:39:20] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_timesheet_report-12.0.1.0.1.99.dev6-py3-none-any.whl.zip]
+[2023-07-04 07:39:20] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-timesheet-report]: success
+[2023-07-04 07:39:20] INFO root fetch - processPackages [pipe21]: Remove: archive file [/home/abi/fetcher/tmp/pipe21-1.8.0.tar.gz]
+[2023-07-04 07:39:20] INFO root fetch - processPackages [pipe21]: Remove: archive file [/home/abi/fetcher/tmp/pipe21-1.9.0.tar.gz]
+[2023-07-04 07:39:20] INFO root fetch - main [MainThread]: End processing [pipe21]: success
+[2023-07-04 07:39:20] INFO root fetch - processPackages [fastapi-sql-profiler]: Downloading https://files.pythonhosted.org/packages/01/aa/0495cd56f6fd915ff5651398325f3e4940649683696c8a5e2915d717a9cf/fastapi-sql-profiler-1.0.1.tar.gz
+[2023-07-04 07:39:20] INFO root fetch - processPackages [SPMUtil]: Remove: archive file [/home/abi/fetcher/tmp/SPMUtil-0.3.13.tar.gz]
+[2023-07-04 07:39:20] INFO root fetch - processPackages [SPMUtil]: Remove: archive file [/home/abi/fetcher/tmp/SPMUtil-0.3.14.tar.gz]
+[2023-07-04 07:39:20] INFO root fetch - main [MainThread]: End processing [SPMUtil]: success
+[2023-07-04 07:39:20] INFO root fetch - processPackages [PyNAFF]: Downloading https://files.pythonhosted.org/packages/88/d6/4192e2d57c4c23dbf11261ab29d5189460b2db21c060c3cbd99df46ac38e/PyNAFF-1.1.4.tar.gz
+[2023-07-04 07:39:20] INFO root fetch - processPackages [fastapi-sql-profiler]: executing diffoscope
+[2023-07-04 07:39:20] INFO root fetch - processPackages [fastapi-sql-profiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-sql-profiler-1.0.0.tar.gz tmp/fastapi-sql-profiler-1.0.1.tar.gz --markdown 20230704/f/fastapi-sql-profiler/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-04 07:39:20] INFO root fetch - processPackages [algospace]: Downloading https://files.pythonhosted.org/packages/25/fc/c041fe41eab8be10f199b6583f61556c90e7edbf6e58bcddba7e5b0ae9a3/algospace-0.4.8.tar.gz
+[2023-07-04 07:39:20] INFO root fetch - processPackages [odoo12-addon-project-task-stage-allow-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_project_task_stage_allow_timesheet-12.0.1.0.1.99.dev8-py3-none-any.whl.zip]
+[2023-07-04 07:39:20] INFO root fetch - processPackages [odoo12-addon-project-task-stage-allow-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_project_task_stage_allow_timesheet-12.0.1.0.1.99.dev9-py3-none-any.whl.zip]
+[2023-07-04 07:39:20] INFO root fetch - main [MainThread]: End processing [odoo12-addon-project-task-stage-allow-timesheet]: success
+[2023-07-04 07:39:20] INFO root fetch - processPackages [algospace]: executing diffoscope
+[2023-07-04 07:39:20] INFO root fetch - processPackages [algospace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algospace-0.4.7.tar.gz tmp/algospace-0.4.8.tar.gz --markdown 20230704/a/algospace/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-07-04 07:39:20] INFO root fetch - processPackages [llm-foundry]: Remove: archive file [/home/abi/fetcher/tmp/llm-foundry-0.1.0.tar.gz]
+[2023-07-04 07:39:20] INFO root fetch - processPackages [llm-foundry]: Remove: archive file [/home/abi/fetcher/tmp/llm-foundry-0.2.0.tar.gz]
+[2023-07-04 07:39:20] INFO root fetch - main [MainThread]: End processing [llm-foundry]: success
+[2023-07-04 07:39:21] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-2.1.1-py3-none-any.whl.zip]
+[2023-07-04 07:39:21] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-2.1.1.post1-py3-none-any.whl.zip]
+[2023-07-04 07:39:21] INFO root fetch - main [MainThread]: End processing [megfile]: success
+[2023-07-04 07:39:21] INFO root fetch - processPackages [PyNAFF]: Downloading https://files.pythonhosted.org/packages/ee/5f/83d32ef233e28a36d7a1563872bc96a144adfba4a3551abb82b4d56acda7/PyNAFF-1.1.5.tar.gz
+[2023-07-04 07:39:21] INFO root fetch - processPackages [PyNAFF]: executing diffoscope
+[2023-07-04 07:39:21] INFO root fetch - processPackages [PyNAFF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNAFF-1.1.4.tar.gz tmp/PyNAFF-1.1.5.tar.gz --markdown 20230704/P/PyNAFF/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-04 07:39:21] INFO root fetch - processPackages [fastapi-sql-profiler]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-sql-profiler-1.0.0.tar.gz]
+[2023-07-04 07:39:21] INFO root fetch - processPackages [fastapi-sql-profiler]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-sql-profiler-1.0.1.tar.gz]
+[2023-07-04 07:39:21] INFO root fetch - main [MainThread]: End processing [fastapi-sql-profiler]: success
+[2023-07-04 07:39:21] INFO root fetch - processPackages [algospace]: Remove: archive file [/home/abi/fetcher/tmp/algospace-0.4.7.tar.gz]
+[2023-07-04 07:39:21] INFO root fetch - processPackages [algospace]: Remove: archive file [/home/abi/fetcher/tmp/algospace-0.4.8.tar.gz]
+[2023-07-04 07:39:21] INFO root fetch - main [MainThread]: End processing [algospace]: success
+[2023-07-04 07:39:22] INFO root fetch - processPackages [PyNAFF]: Remove: archive file [/home/abi/fetcher/tmp/PyNAFF-1.1.4.tar.gz]
+[2023-07-04 07:39:22] INFO root fetch - processPackages [PyNAFF]: Remove: archive file [/home/abi/fetcher/tmp/PyNAFF-1.1.5.tar.gz]
+[2023-07-04 07:39:22] INFO root fetch - main [MainThread]: End processing [PyNAFF]: success
+[2023-07-04 07:39:22] INFO root fetch - main [MainThread]: Store serial: [18750747]
