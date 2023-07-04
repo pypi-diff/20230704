@@ -12725,3 +12725,77 @@
 [2023-07-04 07:39:22] INFO root fetch - processPackages [PyNAFF]: Remove: archive file [/home/abi/fetcher/tmp/PyNAFF-1.1.5.tar.gz]
 [2023-07-04 07:39:22] INFO root fetch - main [MainThread]: End processing [PyNAFF]: success
 [2023-07-04 07:39:22] INFO root fetch - main [MainThread]: Store serial: [18750747]
+[2023-07-04 07:44:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18750747]
+[2023-07-04 07:44:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-04 07:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prompt-pilot
+[2023-07-04 07:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funfluid
+[2023-07-04 07:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-hotel
+[2023-07-04 07:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llmflows
+[2023-07-04 07:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyezviz
+[2023-07-04 07:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cs.ebooks
+[2023-07-04 07:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ez-a-sync
+[2023-07-04 07:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deep-training
+[2023-07-04 07:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chatllm
+[2023-07-04 07:44:31] WARNING root fetch - processPackages [prompt-pilot]: Skipping, unable to determine old version
+[2023-07-04 07:44:31] INFO root fetch - processPackages [llmflows]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-04 07:44:31] INFO root fetch - main [MainThread]: End processing [prompt-pilot] error
+[2023-07-04 07:44:31] INFO root fetch - processPackages [chatllm]: New version: [2023.7.4.12.13.14] Old Version: [2023.7.3.17.18.57]
+[2023-07-04 07:44:31] INFO root fetch - processPackages [cs.ebooks]: New version: [20230704] Old Version: [20230110]
+[2023-07-04 07:44:31] INFO root fetch - processPackages [funfluid]: New version: [202307041340] Old Version: [202307031759]
+[2023-07-04 07:44:31] INFO root fetch - processPackages [odoo14-addon-hotel]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev7]
+[2023-07-04 07:44:31] INFO root fetch - processPackages [ez-a-sync]: New version: [0.5.5.dev1] Old Version: [0.5.4]
+[2023-07-04 07:44:31] INFO root fetch - processPackages [pyezviz]: New version: [0.2.2.0] Old Version: [0.2.1.7]
+[2023-07-04 07:44:31] INFO root fetch - processPackages [deep-training]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 07:44:31] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/49/ad/e606ccacca2ae2e5747364d05b5b7a83a7bf81c99a813e85c3dc8c0d4415/chatllm-2023.7.3.17.18.57.tar.gz
+[2023-07-04 07:44:31] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/66/6c/cac4f70c236832ffa4fb4e9592df3d163b7838bfa33eda78dd48150b4c96/ez-a-sync-0.5.4.tar.gz
+[2023-07-04 07:44:31] INFO root fetch - processPackages [odoo14-addon-hotel]: Downloading https://files.pythonhosted.org/packages/37/c9/a4b88a19ab439dc67f2243029cf786e10a7a87ef8f08c929fafc18c53b63/odoo14_addon_hotel-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-07-04 07:44:31] INFO root fetch - processPackages [llmflows]: Downloading https://files.pythonhosted.org/packages/9f/82/d48ce46db1ff24bee68e00622cb290ea9d8a85f38987f8aa26f7fe93e01b/llmflows-0.0.3.tar.gz
+[2023-07-04 07:44:31] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11933593>=10485760
+[2023-07-04 07:44:31] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-04 07:44:31] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/e1/4a/206bfce9886412037c62570d33576f279ca944bee36ba992f6db0fa82719/funfluid-202307031759.tar.gz
+[2023-07-04 07:44:31] INFO root fetch - processPackages [cs.ebooks]: Downloading https://files.pythonhosted.org/packages/97/71/8740cee0a50d5faee29640a295cd6eee8b546752189f3b5d6bb264f20e0b/cs.ebooks-20230110.tar.gz
+[2023-07-04 07:44:31] INFO root fetch - processPackages [pyezviz]: Downloading https://files.pythonhosted.org/packages/c4/a7/6227d8302dbe3b0dd2859c3d278a03e6819a522c9fc7bcb1d1c121f59478/pyezviz-0.2.1.7.tar.gz
+[2023-07-04 07:44:32] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/87/b3/3c8fcf7b1e70c43e235098b71636333ed9cdfaf9b6c6fbc85f67531280e1/deep_training-0.1.8-py3-none-any.whl
+[2023-07-04 07:44:32] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/8c/26/2be73c7d48a6c990d2516ba2ce5346ef4224265daedb891d7a1c22da2426/ez-a-sync-0.5.5.dev1.tar.gz
+[2023-07-04 07:44:32] INFO root fetch - processPackages [llmflows]: Downloading https://files.pythonhosted.org/packages/08/3c/df54e8ed0fded019b53e98b2655417e3b4e4ecba17d524860dee62d39b25/llmflows-0.0.4.tar.gz
+[2023-07-04 07:44:32] INFO root fetch - processPackages [pyezviz]: Downloading https://files.pythonhosted.org/packages/27/ac/68c4fbf3349857896f2df753fa7e4054def1ad3506c3bc8a116cf1266411/pyezviz-0.2.2.0.tar.gz
+[2023-07-04 07:44:32] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/ba/4c/219d3a2b8313f0cf1bc986371ffc48a89d3bfde798ced92a6579de3745d5/funfluid-202307041340.tar.gz
+[2023-07-04 07:44:32] INFO root fetch - processPackages [cs.ebooks]: Downloading https://files.pythonhosted.org/packages/5c/66/c04a058cdb48652df59da5ebe42ba13ad423e1b8fa09552546bf0e05d181/cs.ebooks-20230704.tar.gz
+[2023-07-04 07:44:32] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-04 07:44:32] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.5.4.tar.gz tmp/ez-a-sync-0.5.5.dev1.tar.gz --markdown 20230704/e/ez-a-sync/0.5.4-0.5.5.dev1/diff.md --exclude *.pyd
+[2023-07-04 07:44:32] INFO root fetch - processPackages [pyezviz]: executing diffoscope
+[2023-07-04 07:44:32] INFO root fetch - processPackages [pyezviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyezviz-0.2.1.7.tar.gz tmp/pyezviz-0.2.2.0.tar.gz --markdown 20230704/p/pyezviz/0.2.1.7-0.2.2.0/diff.md --exclude *.pyd
+[2023-07-04 07:44:32] INFO root fetch - processPackages [llmflows]: executing diffoscope
+[2023-07-04 07:44:32] INFO root fetch - processPackages [llmflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmflows-0.0.3.tar.gz tmp/llmflows-0.0.4.tar.gz --markdown 20230704/l/llmflows/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-04 07:44:32] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/97/8f/30bf3a3b2b45dc48f23a82065cc1cff429cfa9ec38e2c8dfd40bc15ada07/deep_training-0.1.9-py3-none-any.whl
+[2023-07-04 07:44:32] INFO root fetch - processPackages [funfluid]: executing diffoscope
+[2023-07-04 07:44:32] INFO root fetch - processPackages [funfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funfluid-202307031759.tar.gz tmp/funfluid-202307041340.tar.gz --markdown 20230704/f/funfluid/202307031759-202307041340/diff.md --exclude *.pyd
+[2023-07-04 07:44:32] INFO root fetch - processPackages [cs.ebooks]: executing diffoscope
+[2023-07-04 07:44:32] INFO root fetch - processPackages [cs.ebooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.ebooks-20230110.tar.gz tmp/cs.ebooks-20230704.tar.gz --markdown 20230704/c/cs.ebooks/20230110-20230704/diff.md --exclude *.pyd
+[2023-07-04 07:44:32] INFO root fetch - processPackages [odoo14-addon-hotel]: Downloading https://files.pythonhosted.org/packages/67/22/df3517622fed232de0578dce5b69f02249345fb9b9b8f3e35fc4ea886980/odoo14_addon_hotel-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-07-04 07:44:32] INFO root fetch - processPackages [deep-training]: executing diffoscope
+[2023-07-04 07:44:32] INFO root fetch - processPackages [deep-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_training-0.1.8-py3-none-any.whl.zip tmp/deep_training-0.1.9-py3-none-any.whl.zip --markdown 20230704/d/deep-training/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 07:44:33] INFO root fetch - processPackages [odoo14-addon-hotel]: executing diffoscope
+[2023-07-04 07:44:33] INFO root fetch - processPackages [odoo14-addon-hotel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hotel-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_hotel-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230704/o/odoo14-addon-hotel/14.0.1.0.1.dev7-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-04 07:44:33] INFO root fetch - processPackages [pyezviz]: Remove: archive file [/home/abi/fetcher/tmp/pyezviz-0.2.1.7.tar.gz]
+[2023-07-04 07:44:33] INFO root fetch - processPackages [pyezviz]: Remove: archive file [/home/abi/fetcher/tmp/pyezviz-0.2.2.0.tar.gz]
+[2023-07-04 07:44:33] INFO root fetch - main [MainThread]: End processing [pyezviz]: success
+[2023-07-04 07:44:33] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307031759.tar.gz]
+[2023-07-04 07:44:33] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307041340.tar.gz]
+[2023-07-04 07:44:33] INFO root fetch - main [MainThread]: End processing [funfluid]: success
+[2023-07-04 07:44:33] INFO root fetch - processPackages [llmflows]: Remove: archive file [/home/abi/fetcher/tmp/llmflows-0.0.3.tar.gz]
+[2023-07-04 07:44:33] INFO root fetch - processPackages [llmflows]: Remove: archive file [/home/abi/fetcher/tmp/llmflows-0.0.4.tar.gz]
+[2023-07-04 07:44:33] INFO root fetch - main [MainThread]: End processing [llmflows]: success
+[2023-07-04 07:44:33] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.5.4.tar.gz]
+[2023-07-04 07:44:33] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.5.5.dev1.tar.gz]
+[2023-07-04 07:44:33] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-04 07:44:33] INFO root fetch - processPackages [cs.ebooks]: Remove: archive file [/home/abi/fetcher/tmp/cs.ebooks-20230110.tar.gz]
+[2023-07-04 07:44:33] INFO root fetch - processPackages [cs.ebooks]: Remove: archive file [/home/abi/fetcher/tmp/cs.ebooks-20230704.tar.gz]
+[2023-07-04 07:44:33] INFO root fetch - main [MainThread]: End processing [cs.ebooks]: success
+[2023-07-04 07:44:34] INFO root fetch - processPackages [odoo14-addon-hotel]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hotel-14.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2023-07-04 07:44:34] INFO root fetch - processPackages [odoo14-addon-hotel]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hotel-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-07-04 07:44:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hotel]: success
+[2023-07-04 07:44:34] INFO root fetch - processPackages [deep-training]: Remove: archive file [/home/abi/fetcher/tmp/deep_training-0.1.8-py3-none-any.whl.zip]
+[2023-07-04 07:44:34] INFO root fetch - processPackages [deep-training]: Remove: archive file [/home/abi/fetcher/tmp/deep_training-0.1.9-py3-none-any.whl.zip]
+[2023-07-04 07:44:34] INFO root fetch - main [MainThread]: End processing [deep-training]: success
+[2023-07-04 07:44:34] INFO root fetch - main [MainThread]: Store serial: [18750775]
