@@ -21294,3 +21294,108 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 14:20:00] INFO root fetch - processPackages [frequenz-sdk]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-sdk-0.21.1.tar.gz]
 [2023-07-04 14:20:00] INFO root fetch - main [MainThread]: End processing [frequenz-sdk]: success
 [2023-07-04 14:20:00] INFO root fetch - main [MainThread]: Store serial: [18754483]
+[2023-07-04 14:25:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18754483]
+[2023-07-04 14:25:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-04 14:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secapi-tl
+[2023-07-04 14:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: primechecker
+[2023-07-04 14:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ecs-files-composer
+[2023-07-04 14:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-07-04 14:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-route53-health-check
+[2023-07-04 14:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: giskard
+[2023-07-04 14:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-contributor-assets
+[2023-07-04 14:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: WPP-Whatsapp
+[2023-07-04 14:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: leadguru-jobs
+[2023-07-04 14:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kfish
+[2023-07-04 14:25:10] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post879] Old Version: [1.0.0.post878]
+[2023-07-04 14:25:10] INFO root fetch - processPackages [WPP-Whatsapp]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-04 14:25:10] INFO root fetch - processPackages [kcli]: New version: [99.0.202307040954] Old Version: [99.0.202307040918]
+[2023-07-04 14:25:10] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-04 14:25:10] INFO root fetch - processPackages [kfish]: New version: [99.0.202307040957] Old Version: [99.0.202307040920]
+[2023-07-04 14:25:10] WARNING root fetch - processPackages [primechecker]: Skipping, unable to determine old version
+[2023-07-04 14:25:10] INFO root fetch - processPackages [primechecker]: Start processing: pyparc
+[2023-07-04 14:25:10] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/8a/5e/f3f81041241b32a54eb5d3276a4038b44c8f8dd7f9207d33928ccbe6be4b/nucliadb_contributor_assets-1.0.0.post878-py3-none-any.whl
+[2023-07-04 14:25:10] INFO root fetch - main [MainThread]: End processing [primechecker] error
+[2023-07-04 14:25:10] INFO root fetch - processPackages [secapi-tl]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-04 14:25:10] INFO root fetch - processPackages [giskard]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-07-04 14:25:10] INFO root fetch - processPackages [ecs-files-composer]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-07-04 14:25:10] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 14:25:10] INFO root fetch - processPackages [WPP-Whatsapp]: Downloading https://files.pythonhosted.org/packages/41/8d/1a8ccab4d6ad81ee5a7b07179c4b4413fcb02fe62b91e8f7622e0774a04e/WPP_Whatsapp-0.1.1.tar.gz
+[2023-07-04 14:25:11] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-07-04 14:25:11] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/68/e1/d325461897a28a0b926d09a45c850efd83b745e28a3453af679c6f5bc066/kfish-99.0.202307040920-py3-none-any.whl
+[2023-07-04 14:25:11] INFO root fetch - processPackages [pyparc]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-04 14:25:11] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a3/3d/d7e413f081f99d6fe91231176734a6190ec9190473a24f1062ae90f46f5c/kcli-99.0.202307040918-py3-none-any.whl
+[2023-07-04 14:25:11] INFO root fetch - processPackages [ecs-files-composer]: Downloading https://files.pythonhosted.org/packages/ca/8b/7097ffb7e5a10cbe713afe7192206c6298d29b4077d12c865a4896fb09c1/ecs_files_composer-1.2.2.tar.gz
+[2023-07-04 14:25:11] INFO root fetch - processPackages [secapi-tl]: Downloading https://files.pythonhosted.org/packages/d9/95/3c512ab0a3a1fff0a725ec51ce6951069e6c555ab88ff9719ad43638bf2f/secapi-tl-1.1.8.tar.gz
+[2023-07-04 14:25:11] INFO root fetch - processPackages [giskard]: Downloading https://files.pythonhosted.org/packages/16/de/fbb87565a5f5ef4c0e407217f4ce0ed5406d4262b28e179ab525b50909d9/giskard-2.0.0b8.tar.gz
+[2023-07-04 14:25:11] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/a8/f1/c96971e2cc56adcde998c2d7a12c5cfd4591bb08ceefc50e3f6627a7fbab/pepperize.cdk-route53-health-check-0.0.98.tar.gz
+[2023-07-04 14:25:11] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-07-04 14:25:11] INFO root fetch - processPackages [WPP-Whatsapp]: Downloading https://files.pythonhosted.org/packages/1f/5e/b57bed84abf1593282597195062941644dbd759516c0ce0af915734022a3/WPP_Whatsapp-0.1.2.tar.gz
+[2023-07-04 14:25:11] INFO root fetch - processPackages [pyparc]: Downloading https://files.pythonhosted.org/packages/eb/32/eab393c231a6ed31c77b7439d22ecf9ce2b76a2e9619d544cb1923cdbdd9/pyparc-2.0.3.tar.gz
+[2023-07-04 14:25:11] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/62/9b/6529ec94031f43ee3b8ccc6ed06e29bf8b674325d5915b2082c7368e3c3f/nucliadb_contributor_assets-1.0.0.post879-py3-none-any.whl
+[2023-07-04 14:25:11] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-07-04 14:25:11] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230704/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-04 14:25:11] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/a8/b4/2865b4c029439bc7505e162baf14a2940f0c49476c9183d5163509853789/kfish-99.0.202307040957-py3-none-any.whl
+[2023-07-04 14:25:11] INFO root fetch - processPackages [WPP-Whatsapp]: executing diffoscope
+[2023-07-04 14:25:11] INFO root fetch - processPackages [WPP-Whatsapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WPP_Whatsapp-0.1.1.tar.gz tmp/WPP_Whatsapp-0.1.2.tar.gz --markdown 20230704/W/WPP-Whatsapp/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-04 14:25:11] INFO root fetch - processPackages [ecs-files-composer]: Downloading https://files.pythonhosted.org/packages/2b/85/b094bf892862db9b6d96d84f29c685fd70013f1270af8eaa392c6533d475/ecs_files_composer-1.3.0.tar.gz
+[2023-07-04 14:25:11] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/2f/3e/e7e06cb86b82e9d2461a2b86ed1b7c1611f724784c31aea9b60f3a176d8b/kcli-99.0.202307040954-py3-none-any.whl
+[2023-07-04 14:25:11] INFO root fetch - processPackages [giskard]: Downloading https://files.pythonhosted.org/packages/77/70/96b735f126bcda51540e3e24da7a2672c9bbbbc6f954bff326d8812eb612/giskard-2.0.0b9.tar.gz
+[2023-07-04 14:25:11] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-04 14:25:11] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307040920-py3-none-any.whl.zip tmp/kfish-99.0.202307040957-py3-none-any.whl.zip --markdown 20230704/k/kfish/99.0.202307040920-99.0.202307040957/diff.md --exclude *.pyd
+[2023-07-04 14:25:11] INFO root fetch - processPackages [ecs-files-composer]: executing diffoscope
+[2023-07-04 14:25:11] INFO root fetch - processPackages [ecs-files-composer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecs_files_composer-1.2.2.tar.gz tmp/ecs_files_composer-1.3.0.tar.gz --markdown 20230704/e/ecs-files-composer/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-07-04 14:25:11] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-07-04 14:25:11] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post878-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post879-py3-none-any.whl.zip --markdown 20230704/n/nucliadb-contributor-assets/1.0.0.post878-1.0.0.post879/diff.md --exclude *.pyd
+[2023-07-04 14:25:11] INFO root fetch - processPackages [pyparc]: Downloading https://files.pythonhosted.org/packages/d6/43/0b896ea88246776ef61be0cdf51affbfd8eaae440848f1597c1b06064915/pyparc-2.0.4.tar.gz
+[2023-07-04 14:25:11] INFO root fetch - processPackages [secapi-tl]: Downloading https://files.pythonhosted.org/packages/80/83/99fc96c467a56d028eabdea402bf22e1d9314d5b6b23a2b6045c812ef2a2/secapi-tl-1.1.9.tar.gz
+[2023-07-04 14:25:12] INFO root fetch - processPackages [giskard]: executing diffoscope
+[2023-07-04 14:25:12] INFO root fetch - processPackages [giskard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giskard-2.0.0b8.tar.gz tmp/giskard-2.0.0b9.tar.gz --markdown 20230704/g/giskard/2.0.0b8-2.0.0b9/diff.md --exclude *.pyd
+[2023-07-04 14:25:12] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-04 14:25:12] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307040918-py3-none-any.whl.zip tmp/kcli-99.0.202307040954-py3-none-any.whl.zip --markdown 20230704/k/kcli/99.0.202307040918-99.0.202307040954/diff.md --exclude *.pyd
+[2023-07-04 14:25:12] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/9f/92/909a62b351141186c782d8bdc77ece2c0787b84204291ce16a1ddb09b89e/pepperize.cdk-route53-health-check-0.0.99.tar.gz
+[2023-07-04 14:25:12] INFO root fetch - processPackages [secapi-tl]: executing diffoscope
+[2023-07-04 14:25:12] INFO root fetch - processPackages [secapi-tl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secapi-tl-1.1.8.tar.gz tmp/secapi-tl-1.1.9.tar.gz --markdown 20230704/s/secapi-tl/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-04 14:25:12] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-07-04 14:25:12] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230704/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 14:25:12] INFO root fetch - processPackages [pyparc]: executing diffoscope
+[2023-07-04 14:25:12] INFO root fetch - processPackages [pyparc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyparc-2.0.3.tar.gz tmp/pyparc-2.0.4.tar.gz --markdown 20230704/p/pyparc/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-04 14:25:13] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-07-04 14:25:13] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-07-04 14:25:13] INFO root fetch - processPackages [leadguru-jobs]: Start processing: odoo14-addon-l10n-br-fiscal
+[2023-07-04 14:25:13] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-07-04 14:25:13] INFO root fetch - processPackages [WPP-Whatsapp]: Remove: archive file [/home/abi/fetcher/tmp/WPP_Whatsapp-0.1.1.tar.gz]
+[2023-07-04 14:25:13] INFO root fetch - processPackages [WPP-Whatsapp]: Remove: archive file [/home/abi/fetcher/tmp/WPP_Whatsapp-0.1.2.tar.gz]
+[2023-07-04 14:25:13] INFO root fetch - main [MainThread]: End processing [WPP-Whatsapp]: success
+[2023-07-04 14:25:13] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: New version: [14.0.9.2.1.dev3] Old Version: [14.0.9.2.1.dev2]
+[2023-07-04 14:25:13] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307040920-py3-none-any.whl.zip]
+[2023-07-04 14:25:13] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307040957-py3-none-any.whl.zip]
+[2023-07-04 14:25:13] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-04 14:25:13] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/b6/ae/9800d777e4d7166c8a0ee02cd7c2602421433738397b582d529f48db7c5b/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl
+[2023-07-04 14:25:13] INFO root fetch - processPackages [ecs-files-composer]: Remove: archive file [/home/abi/fetcher/tmp/ecs_files_composer-1.2.2.tar.gz]
+[2023-07-04 14:25:13] INFO root fetch - processPackages [ecs-files-composer]: Remove: archive file [/home/abi/fetcher/tmp/ecs_files_composer-1.3.0.tar.gz]
+[2023-07-04 14:25:13] INFO root fetch - main [MainThread]: End processing [ecs-files-composer]: success
+[2023-07-04 14:25:13] INFO root fetch - processPackages [secapi-tl]: Remove: archive file [/home/abi/fetcher/tmp/secapi-tl-1.1.8.tar.gz]
+[2023-07-04 14:25:13] INFO root fetch - processPackages [secapi-tl]: Remove: archive file [/home/abi/fetcher/tmp/secapi-tl-1.1.9.tar.gz]
+[2023-07-04 14:25:13] INFO root fetch - main [MainThread]: End processing [secapi-tl]: success
+[2023-07-04 14:25:13] INFO root fetch - processPackages [pyparc]: Remove: archive file [/home/abi/fetcher/tmp/pyparc-2.0.3.tar.gz]
+[2023-07-04 14:25:13] INFO root fetch - processPackages [pyparc]: Remove: archive file [/home/abi/fetcher/tmp/pyparc-2.0.4.tar.gz]
+[2023-07-04 14:25:13] INFO root fetch - main [MainThread]: End processing [pyparc]: success
+[2023-07-04 14:25:13] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/3e/9d/f06739d0fc5ac83076dbdce19b1fc1ffc33e068724d0f81d8a08b9fed2ef/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl
+[2023-07-04 14:25:14] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: executing diffoscope
+[2023-07-04 14:25:14] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip --markdown 20230704/o/odoo14-addon-l10n-br-fiscal/14.0.9.2.1.dev2-14.0.9.2.1.dev3/diff.md --exclude *.pyd
+[2023-07-04 14:25:14] INFO root fetch - processPackages [giskard]: Remove: archive file [/home/abi/fetcher/tmp/giskard-2.0.0b8.tar.gz]
+[2023-07-04 14:25:14] INFO root fetch - processPackages [giskard]: Remove: archive file [/home/abi/fetcher/tmp/giskard-2.0.0b9.tar.gz]
+[2023-07-04 14:25:14] INFO root fetch - main [MainThread]: End processing [giskard]: success
+[2023-07-04 14:25:14] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz]
+[2023-07-04 14:25:14] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz]
+[2023-07-04 14:25:14] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-07-04 14:25:16] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip]
+[2023-07-04 14:25:16] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip]
+[2023-07-04 14:25:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
+[2023-07-04 14:25:16] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307040918-py3-none-any.whl.zip]
+[2023-07-04 14:25:16] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307040954-py3-none-any.whl.zip]
+[2023-07-04 14:25:16] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-04 14:25:25] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post878-py3-none-any.whl.zip]
+[2023-07-04 14:25:25] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post879-py3-none-any.whl.zip]
+[2023-07-04 14:25:25] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-07-04 14:25:25] INFO root fetch - main [MainThread]: Store serial: [18754517]
