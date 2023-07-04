@@ -16859,3 +16859,161 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 11:10:13] INFO root fetch - processPackages [edx-repo-tools]: Remove: archive file [/home/abi/fetcher/tmp/edx-repo-tools-0.8.2.tar.gz]
 [2023-07-04 11:10:13] INFO root fetch - main [MainThread]: End processing [edx-repo-tools]: success
 [2023-07-04 11:10:13] INFO root fetch - main [MainThread]: Store serial: [18752347]
+[2023-07-04 11:15:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18752347]
+[2023-07-04 11:15:23] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-04 11:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ogc-na
+[2023-07-04 11:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-master
+[2023-07-04 11:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oelint-adv
+[2023-07-04 11:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SELDOMpy
+[2023-07-04 11:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: htsmodels
+[2023-07-04 11:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oidc-drf
+[2023-07-04 11:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sag-py-web-common
+[2023-07-04 11:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bio-attention
+[2023-07-04 11:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-nightly
+[2023-07-04 11:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: neptune-mlflow
+[2023-07-04 11:15:23] INFO root fetch - processPackages [oidc-drf]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-04 11:15:23] INFO root fetch - processPackages [SELDOMpy]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-04 11:15:23] INFO root fetch - processPackages [neptune-mlflow]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-07-04 11:15:23] INFO root fetch - processPackages [sag-py-web-common]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-04 11:15:23] INFO root fetch - processPackages [ogc-na]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-04 11:15:23] INFO root fetch - processPackages [oelint-adv]: New version: [3.9.4] Old Version: [3.9.3]
+[2023-07-04 11:15:23] INFO root fetch - processPackages [htsmodels]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-04 11:15:23] INFO root fetch - processPackages [bio-attention]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-04 11:15:23] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230704.9.10.71691] Old Version: [20230704.8.18.50534]
+[2023-07-04 11:15:23] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230704] Old Version: [2.14.0.dev20230703]
+[2023-07-04 11:15:23] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/1b/08/c5d9a67af29f905289b622e2545d1a4454c1d47ecdda24f4b580e75906e2/oidc_drf-1.2.2.tar.gz
+[2023-07-04 11:15:23] INFO root fetch - processPackages [bio-attention]: Downloading https://files.pythonhosted.org/packages/5e/53/1a0fd800e5833b863507457123215b7c8120d53d7a48ddfe23ea0cc783c9/bio-attention-0.0.9.tar.gz
+[2023-07-04 11:15:23] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/f6/c9/bd7876b337c4ab66055c5fd53f080a4a83cbddbe77e79d596d0372232134/SELDOMpy-0.7.8-cp38-cp38-win_amd64.whl
+[2023-07-04 11:15:23] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/95/65/10b09517f99767762c024a98626f7c9255294610356277e9b0476df71aba/certora-cli-alpha-master-20230704.8.18.50534.tar.gz
+[2023-07-04 11:15:23] INFO root fetch - processPackages [htsmodels]: Downloading https://files.pythonhosted.org/packages/a1/53/3712c63046a86945b990e4400198ce4b1bdaf173b650f079da871d39896b/htsmodels-0.3.7.tar.gz
+[2023-07-04 11:15:23] INFO root fetch - processPackages [neptune-mlflow]: Downloading https://files.pythonhosted.org/packages/c1/8c/e6e37b1f0d8fa664425d1f3eac7473dad30ac5c5c32143cc6443b607ac89/neptune_mlflow-1.0.0rc1.tar.gz
+[2023-07-04 11:15:23] INFO root fetch - processPackages [sag-py-web-common]: Downloading https://files.pythonhosted.org/packages/37/03/ad921187133a3cacc50d473e5b0c040e05b50f9f78b0136c7b40a3b82020/sag-py-web-common-0.1.0.tar.gz
+[2023-07-04 11:15:23] INFO root fetch - processPackages [oelint-adv]: Downloading https://files.pythonhosted.org/packages/5e/9b/6e693a66319b81e460459bb792223a38e12abb584d60f7b9a4063cda4e97/oelint_adv-3.9.3.tar.gz
+[2023-07-04 11:15:23] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/6f/1b/a35ac17c9749cc1cf599391bfd4eab6ac44746f5fbff779a67e85b5af2bb/ogc_na-0.2.8.tar.gz
+[2023-07-04 11:15:23] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 40642833>=10485760
+[2023-07-04 11:15:23] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: qontract-reconcile
+[2023-07-04 11:15:23] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-04 11:15:23] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/e6/bf/3f6d55d7bc251f55fc4bcde1423eccac3972ff7e75dbe3dabb110c851cb7/tf_nightly-2.14.0.dev20230703-cp39-cp39-win_amd64.whl
+[2023-07-04 11:15:23] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-04 11:15:24] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/85/21/7bb959d2eabf87fd4a6d21a37225a8ecb161aaa201b5b92eb3bc8a897e44/oidc_drf-1.2.3.tar.gz
+[2023-07-04 11:15:24] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-04 11:15:24] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/a3/e0/d40ca6564a52b9471aaa5539bfb8645a158aaa8f7279b1e853f58a20f4b6/SELDOMpy-0.7.9.tar.gz
+[2023-07-04 11:15:24] INFO root fetch - processPackages [sag-py-web-common]: Downloading https://files.pythonhosted.org/packages/96/55/d842877f0c1bbb0cecc4fad8c5243961e47141e0782abeff9c2c5f9a1d82/sag-py-web-common-0.1.1.tar.gz
+[2023-07-04 11:15:24] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-04 11:15:24] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.2.2.tar.gz tmp/oidc_drf-1.2.3.tar.gz --markdown 20230704/o/oidc-drf/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-04 11:15:24] INFO root fetch - processPackages [bio-attention]: Downloading https://files.pythonhosted.org/packages/49/79/8ea866f73341f4e34fd9403b2daa03479cb9a98f4a0de979c35ac4647baf/bio-attention-0.1.0.tar.gz
+[2023-07-04 11:15:24] INFO root fetch - processPackages [neptune-mlflow]: Downloading https://files.pythonhosted.org/packages/2e/c7/805e1b3a96f0000b8f75a9754aecf4e6cc092196477f8cf4c92b13d44e57/neptune_mlflow-1.0.0rc2.tar.gz
+[2023-07-04 11:15:24] INFO root fetch - processPackages [oelint-adv]: Downloading https://files.pythonhosted.org/packages/70/ef/260ffeeb3fd7470716269a3178856ea12e48647662bfc79127822419e048/oelint_adv-3.9.4.tar.gz
+[2023-07-04 11:15:24] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/0c/9e/1b736e6311bd4598aee73b57092dfd26faf6e25048e4e393f16c3d68e6e3/tf_nightly-2.14.0.dev20230704-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-04 11:15:24] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-04 11:15:24] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.7.8-cp38-cp38-win_amd64.whl.zip tmp/SELDOMpy-0.7.9.tar.gz --markdown 20230704/S/SELDOMpy/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-04 11:15:24] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/08/7b/d1a326265898c9d52f3a526697d9f0f458664b7dd04889cf4b95fcae2b5a/ogc_na-0.2.9.tar.gz
+[2023-07-04 11:15:24] INFO root fetch - processPackages [sag-py-web-common]: executing diffoscope
+[2023-07-04 11:15:24] INFO root fetch - processPackages [sag-py-web-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sag-py-web-common-0.1.0.tar.gz tmp/sag-py-web-common-0.1.1.tar.gz --markdown 20230704/s/sag-py-web-common/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-04 11:15:24] INFO root fetch - processPackages [htsmodels]: Downloading https://files.pythonhosted.org/packages/08/f9/199dce9df8380c542fffcb9f9c92ec047ebd0f30cad1202772d2f09cdd63/htsmodels-0.3.8.tar.gz
+[2023-07-04 11:15:24] INFO root fetch - processPackages [neptune-mlflow]: executing diffoscope
+[2023-07-04 11:15:24] INFO root fetch - processPackages [neptune-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neptune_mlflow-1.0.0rc1.tar.gz tmp/neptune_mlflow-1.0.0rc2.tar.gz --markdown 20230704/n/neptune-mlflow/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-07-04 11:15:24] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 491052993>=10485760
+[2023-07-04 11:15:24] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-04 11:15:24] INFO root fetch - processPackages [tf-nightly]: Start processing: taibun
+[2023-07-04 11:15:24] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-07-04 11:15:24] INFO root fetch - processPackages [oelint-adv]: executing diffoscope
+[2023-07-04 11:15:24] INFO root fetch - processPackages [oelint-adv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oelint_adv-3.9.3.tar.gz tmp/oelint_adv-3.9.4.tar.gz --markdown 20230704/o/oelint-adv/3.9.3-3.9.4/diff.md --exclude *.pyd
+[2023-07-04 11:15:24] INFO root fetch - processPackages [htsmodels]: executing diffoscope
+[2023-07-04 11:15:24] INFO root fetch - processPackages [taibun]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-04 11:15:24] INFO root fetch - processPackages [htsmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htsmodels-0.3.7.tar.gz tmp/htsmodels-0.3.8.tar.gz --markdown 20230704/h/htsmodels/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-04 11:15:24] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-07-04 11:15:24] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.2.8.tar.gz tmp/ogc_na-0.2.9.tar.gz --markdown 20230704/o/ogc-na/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-04 11:15:24] INFO root fetch - processPackages [taibun]: Downloading https://files.pythonhosted.org/packages/17/d6/c4cbd0187895acfd1a054703121fbe59d7542a9786e87d803ad54de39338/taibun-0.0.2.tar.gz
+[2023-07-04 11:15:24] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-04 11:15:24] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230704/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-04 11:15:24] INFO root fetch - processPackages [bio-attention]: executing diffoscope
+[2023-07-04 11:15:24] INFO root fetch - processPackages [bio-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bio-attention-0.0.9.tar.gz tmp/bio-attention-0.1.0.tar.gz --markdown 20230704/b/bio-attention/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-04 11:15:25] INFO root fetch - processPackages [taibun]: Downloading https://files.pythonhosted.org/packages/53/40/0d059216a6099bc04449d5920a213d3d8b240c3a7f15975d03c41187275d/taibun-0.0.3.tar.gz
+[2023-07-04 11:15:25] INFO root fetch - processPackages [taibun]: executing diffoscope
+[2023-07-04 11:15:25] INFO root fetch - processPackages [taibun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taibun-0.0.2.tar.gz tmp/taibun-0.0.3.tar.gz --markdown 20230704/t/taibun/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-04 11:15:25] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.2.tar.gz]
+[2023-07-04 11:15:25] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.3.tar.gz]
+[2023-07-04 11:15:25] INFO root fetch - processPackages [oidc-drf]: Start processing: copernicus-marine-client
+[2023-07-04 11:15:25] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-04 11:15:25] INFO root fetch - processPackages [copernicus-marine-client]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-04 11:15:25] INFO root fetch - processPackages [copernicus-marine-client]: Downloading https://files.pythonhosted.org/packages/d2/f7/9152a051ee27ce078be9788aeb7b20732bc0c80b13b04d2c26be55c06d2b/copernicus_marine_client-0.8.0.tar.gz
+[2023-07-04 11:15:25] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.7.8-cp38-cp38-win_amd64.whl.zip]
+[2023-07-04 11:15:25] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.7.9.tar.gz]
+[2023-07-04 11:15:25] INFO root fetch - processPackages [SELDOMpy]: Start processing: dbt-quicksight-lineage
+[2023-07-04 11:15:25] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-04 11:15:25] INFO root fetch - processPackages [dbt-quicksight-lineage]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-07-04 11:15:25] INFO root fetch - processPackages [sag-py-web-common]: Remove: archive file [/home/abi/fetcher/tmp/sag-py-web-common-0.1.0.tar.gz]
+[2023-07-04 11:15:25] INFO root fetch - processPackages [sag-py-web-common]: Remove: archive file [/home/abi/fetcher/tmp/sag-py-web-common-0.1.1.tar.gz]
+[2023-07-04 11:15:25] INFO root fetch - processPackages [sag-py-web-common]: Start processing: oidc-drf
+[2023-07-04 11:15:25] INFO root fetch - main [MainThread]: End processing [sag-py-web-common]: success
+[2023-07-04 11:15:25] INFO root fetch - processPackages [oidc-drf]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-04 11:15:25] INFO root fetch - processPackages [neptune-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/neptune_mlflow-1.0.0rc1.tar.gz]
+[2023-07-04 11:15:25] INFO root fetch - processPackages [neptune-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/neptune_mlflow-1.0.0rc2.tar.gz]
+[2023-07-04 11:15:25] INFO root fetch - processPackages [neptune-mlflow]: Start processing: neosctl
+[2023-07-04 11:15:25] INFO root fetch - main [MainThread]: End processing [neptune-mlflow]: success
+[2023-07-04 11:15:25] INFO root fetch - processPackages [copernicus-marine-client]: Downloading https://files.pythonhosted.org/packages/2d/6b/69cbdb62f26b873cd7d3f0d80dcee8f92fe6ad8fe3abd8a74f1be53660ef/copernicus_marine_client-0.8.1.tar.gz
+[2023-07-04 11:15:25] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/85/21/7bb959d2eabf87fd4a6d21a37225a8ecb161aaa201b5b92eb3bc8a897e44/oidc_drf-1.2.3.tar.gz
+[2023-07-04 11:15:26] INFO root fetch - processPackages [dbt-quicksight-lineage]: Downloading https://files.pythonhosted.org/packages/8a/8e/68fbfa32ada7dc79663b2e0d2709b2bd8176fc1cf3c5566aa3b7d148ee4b/dbt_quicksight_lineage-0.0.0.tar.gz
+[2023-07-04 11:15:26] INFO root fetch - processPackages [htsmodels]: Remove: archive file [/home/abi/fetcher/tmp/htsmodels-0.3.7.tar.gz]
+[2023-07-04 11:15:26] INFO root fetch - processPackages [htsmodels]: Remove: archive file [/home/abi/fetcher/tmp/htsmodels-0.3.8.tar.gz]
+[2023-07-04 11:15:26] INFO root fetch - processPackages [htsmodels]: Start processing: mistapi
+[2023-07-04 11:15:26] INFO root fetch - main [MainThread]: End processing [htsmodels]: success
+[2023-07-04 11:15:26] INFO root fetch - processPackages [neosctl]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-07-04 11:15:26] INFO root fetch - processPackages [copernicus-marine-client]: executing diffoscope
+[2023-07-04 11:15:26] INFO root fetch - processPackages [copernicus-marine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copernicus_marine_client-0.8.0.tar.gz tmp/copernicus_marine_client-0.8.1.tar.gz --markdown 20230704/c/copernicus-marine-client/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-04 11:15:26] INFO root fetch - processPackages [mistapi]: New version: [0.41.9] Old Version: [0.41.8]
+[2023-07-04 11:15:26] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.8.tar.gz]
+[2023-07-04 11:15:26] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.9.tar.gz]
+[2023-07-04 11:15:26] INFO root fetch - processPackages [ogc-na]: Start processing: drf-openapi-tester
+[2023-07-04 11:15:26] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-07-04 11:15:26] INFO root fetch - processPackages [drf-openapi-tester]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-07-04 11:15:26] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/2d/9f/ac9f2617fbdf4ae2b503b30378261f21d6f94d95495608c27bb57eaa3bb1/oidc_drf-1.2.4.tar.gz
+[2023-07-04 11:15:26] INFO root fetch - processPackages [oelint-adv]: Remove: archive file [/home/abi/fetcher/tmp/oelint_adv-3.9.3.tar.gz]
+[2023-07-04 11:15:26] INFO root fetch - processPackages [oelint-adv]: Remove: archive file [/home/abi/fetcher/tmp/oelint_adv-3.9.4.tar.gz]
+[2023-07-04 11:15:26] INFO root fetch - main [MainThread]: End processing [oelint-adv]: success
+[2023-07-04 11:15:26] INFO root fetch - processPackages [dbt-quicksight-lineage]: Downloading https://files.pythonhosted.org/packages/f1/a1/ece1653625f1134f8d7a5b82350091b6837fdf22f795fa28bbd1b2f1b5d2/dbt_quicksight_lineage-0.0.2.tar.gz
+[2023-07-04 11:15:26] INFO root fetch - processPackages [neosctl]: Downloading https://files.pythonhosted.org/packages/db/dc/c983f4b720c26829f5321d53a8200df2c4eabe5cb89c49c3b289f43011b6/neosctl-0.8.6.tar.gz
+[2023-07-04 11:15:26] INFO root fetch - processPackages [drf-openapi-tester]: Downloading https://files.pythonhosted.org/packages/61/4b/c62fad2808b424620303f31d9e11f45c255393bce57fd3c5a18fc6cd5ad6/drf_openapi_tester-2.3.1.tar.gz
+[2023-07-04 11:15:26] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/7c/7e/c80f4702c10dec7db81faaea2d584d96aa31fc91f05e2e141180faf6efd7/mistapi-0.41.8.tar.gz
+[2023-07-04 11:15:26] INFO root fetch - processPackages [taibun]: Remove: archive file [/home/abi/fetcher/tmp/taibun-0.0.2.tar.gz]
+[2023-07-04 11:15:26] INFO root fetch - processPackages [taibun]: Remove: archive file [/home/abi/fetcher/tmp/taibun-0.0.3.tar.gz]
+[2023-07-04 11:15:26] INFO root fetch - main [MainThread]: End processing [taibun]: success
+[2023-07-04 11:15:26] INFO root fetch - processPackages [bio-attention]: Remove: archive file [/home/abi/fetcher/tmp/bio-attention-0.0.9.tar.gz]
+[2023-07-04 11:15:26] INFO root fetch - processPackages [bio-attention]: Remove: archive file [/home/abi/fetcher/tmp/bio-attention-0.1.0.tar.gz]
+[2023-07-04 11:15:26] INFO root fetch - main [MainThread]: End processing [bio-attention]: success
+[2023-07-04 11:15:26] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-04 11:15:26] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.2.3.tar.gz tmp/oidc_drf-1.2.4.tar.gz --markdown 20230704/o/oidc-drf/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-04 11:15:26] INFO root fetch - processPackages [dbt-quicksight-lineage]: executing diffoscope
+[2023-07-04 11:15:26] INFO root fetch - processPackages [dbt-quicksight-lineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_quicksight_lineage-0.0.0.tar.gz tmp/dbt_quicksight_lineage-0.0.2.tar.gz --markdown 20230704/d/dbt-quicksight-lineage/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-07-04 11:15:26] INFO root fetch - processPackages [neosctl]: Downloading https://files.pythonhosted.org/packages/4f/32/ac179764333fc254a6d958fd539ed523dd714982c486b4961cdc25fc3f2d/neosctl-0.8.7.tar.gz
+[2023-07-04 11:15:26] INFO root fetch - processPackages [drf-openapi-tester]: Downloading https://files.pythonhosted.org/packages/d5/46/75554aaddcf36e89a34f895264e6c809b31655d8035a06c618e13e7a5463/drf_openapi_tester-2.3.2.tar.gz
+[2023-07-04 11:15:26] INFO root fetch - processPackages [neosctl]: executing diffoscope
+[2023-07-04 11:15:26] INFO root fetch - processPackages [neosctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neosctl-0.8.6.tar.gz tmp/neosctl-0.8.7.tar.gz --markdown 20230704/n/neosctl/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-07-04 11:15:26] INFO root fetch - processPackages [drf-openapi-tester]: executing diffoscope
+[2023-07-04 11:15:26] INFO root fetch - processPackages [drf-openapi-tester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_openapi_tester-2.3.1.tar.gz tmp/drf_openapi_tester-2.3.2.tar.gz --markdown 20230704/d/drf-openapi-tester/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-07-04 11:15:26] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/80/d3/b266dd4edb93a3e8306915b9003b44b3217feb55cf5e562b2563675b50bf/mistapi-0.41.9.tar.gz
+[2023-07-04 11:15:27] INFO root fetch - processPackages [mistapi]: executing diffoscope
+[2023-07-04 11:15:27] INFO root fetch - processPackages [mistapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistapi-0.41.8.tar.gz tmp/mistapi-0.41.9.tar.gz --markdown 20230704/m/mistapi/0.41.8-0.41.9/diff.md --exclude *.pyd
+[2023-07-04 11:15:27] INFO root fetch - processPackages [copernicus-marine-client]: Remove: archive file [/home/abi/fetcher/tmp/copernicus_marine_client-0.8.0.tar.gz]
+[2023-07-04 11:15:27] INFO root fetch - processPackages [copernicus-marine-client]: Remove: archive file [/home/abi/fetcher/tmp/copernicus_marine_client-0.8.1.tar.gz]
+[2023-07-04 11:15:27] INFO root fetch - main [MainThread]: End processing [copernicus-marine-client]: success
+[2023-07-04 11:15:27] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.3.tar.gz]
+[2023-07-04 11:15:27] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.4.tar.gz]
+[2023-07-04 11:15:27] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-04 11:15:27] INFO root fetch - processPackages [dbt-quicksight-lineage]: Remove: archive file [/home/abi/fetcher/tmp/dbt_quicksight_lineage-0.0.0.tar.gz]
+[2023-07-04 11:15:27] INFO root fetch - processPackages [dbt-quicksight-lineage]: Remove: archive file [/home/abi/fetcher/tmp/dbt_quicksight_lineage-0.0.2.tar.gz]
+[2023-07-04 11:15:27] INFO root fetch - main [MainThread]: End processing [dbt-quicksight-lineage]: success
+[2023-07-04 11:15:28] INFO root fetch - processPackages [drf-openapi-tester]: Remove: archive file [/home/abi/fetcher/tmp/drf_openapi_tester-2.3.1.tar.gz]
+[2023-07-04 11:15:28] INFO root fetch - processPackages [drf-openapi-tester]: Remove: archive file [/home/abi/fetcher/tmp/drf_openapi_tester-2.3.2.tar.gz]
+[2023-07-04 11:15:28] INFO root fetch - main [MainThread]: End processing [drf-openapi-tester]: success
+[2023-07-04 11:15:28] INFO root fetch - processPackages [neosctl]: Remove: archive file [/home/abi/fetcher/tmp/neosctl-0.8.6.tar.gz]
+[2023-07-04 11:15:28] INFO root fetch - processPackages [neosctl]: Remove: archive file [/home/abi/fetcher/tmp/neosctl-0.8.7.tar.gz]
+[2023-07-04 11:15:28] INFO root fetch - main [MainThread]: End processing [neosctl]: success
+[2023-07-04 11:15:28] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-04 11:15:28] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-04 11:15:28] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-04 11:15:29] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.41.8.tar.gz]
+[2023-07-04 11:15:29] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.41.9.tar.gz]
+[2023-07-04 11:15:29] INFO root fetch - main [MainThread]: End processing [mistapi]: success
+[2023-07-04 11:15:29] INFO root fetch - main [MainThread]: Store serial: [18752399]
