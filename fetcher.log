@@ -4782,3 +4782,95 @@
 [2023-07-04 02:45:04] INFO root fetch - processPackages [gantry]: Remove: archive file [/home/abi/fetcher/tmp/gantry-0.6.9.tar.gz]
 [2023-07-04 02:45:04] INFO root fetch - main [MainThread]: End processing [gantry]: success
 [2023-07-04 02:45:04] INFO root fetch - main [MainThread]: Store serial: [18747714]
+[2023-07-04 02:50:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18747714]
+[2023-07-04 02:50:13] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-04 02:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apit212
+[2023-07-04 02:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yplib
+[2023-07-04 02:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfds-nightly
+[2023-07-04 02:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfds-nightly
+[2023-07-04 02:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cjm-yolox-pytorch
+[2023-07-04 02:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-07-04 02:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reasoner-validator
+[2023-07-04 02:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kubric-nightly
+[2023-07-04 02:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: distributions-altered
+[2023-07-04 02:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yplib
+[2023-07-04 02:50:13] INFO root fetch - processPackages [apit212]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-04 02:50:13] WARNING root fetch - processPackages [distributions-altered]: Skipping, unable to determine old version
+[2023-07-04 02:50:13] INFO root fetch - processPackages [distributions-altered]: Start processing: pepperize.cdk-organizations
+[2023-07-04 02:50:13] INFO root fetch - main [MainThread]: End processing [distributions-altered] error
+[2023-07-04 02:50:13] INFO root fetch - processPackages [yplib]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-07-04 02:50:13] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 02:50:13] INFO root fetch - processPackages [reasoner-validator]: New version: [3.6.5] Old Version: [3.6.4]
+[2023-07-04 02:50:13] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.7.3] Old Version: [2023.7.2]
+[2023-07-04 02:50:13] INFO root fetch - processPackages [yplib]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-07-04 02:50:13] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 02:50:13] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202307030045] Old Version: [4.9.2.dev202307020046]
+[2023-07-04 02:50:13] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-04 02:50:13] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202307030045] Old Version: [4.9.2.dev202307020046]
+[2023-07-04 02:50:13] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-04 02:50:13] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/88/1f/575e30c3c6994d98d302c8122e421c081e953b637b7505eb2f2a1861deb5/kubric-nightly-2023.7.2.tar.gz
+[2023-07-04 02:50:13] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/40/46/c74afe49c1f8a299e9d1180e0fc3a42fd50876da8d7cf78e8522a5aa5642/yplib-2.1.7.tar.gz
+[2023-07-04 02:50:13] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/40/46/c74afe49c1f8a299e9d1180e0fc3a42fd50876da8d7cf78e8522a5aa5642/yplib-2.1.7.tar.gz
+[2023-07-04 02:50:13] INFO root fetch - processPackages [apit212]: Downloading https://files.pythonhosted.org/packages/c1/9e/eef75f780d883c5c4cf9ac529939a0a7e601cdf2101e9cb026107d472f37/apit212-0.0.2.tar.gz
+[2023-07-04 02:50:13] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/45/c7/1509a6fee7c1c5ba798e5aad17f832cfe564e4daf6295aa8904b178ddee2/tfds-nightly-4.9.2.dev202307020046.tar.gz
+[2023-07-04 02:50:13] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/45/c7/1509a6fee7c1c5ba798e5aad17f832cfe564e4daf6295aa8904b178ddee2/tfds-nightly-4.9.2.dev202307020046.tar.gz
+[2023-07-04 02:50:13] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/d6/98/05195e20b05b2835d2a70ad033a4c1d9713375f6c85b363f2aab71313670/reasoner_validator-3.6.4.tar.gz
+[2023-07-04 02:50:13] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-04 02:50:14] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/26/1b/2d98082d5a50de544ac5b0df408479fcedd8e3cbc7361e0cb0e9f362a0af/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz
+[2023-07-04 02:50:14] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-04 02:50:14] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/61/9c/29411b039766f0b1688cb4b853837c68a2e9d64b5cb9630a47eac3797b94/yplib-2.1.8.tar.gz
+[2023-07-04 02:50:14] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/61/9c/29411b039766f0b1688cb4b853837c68a2e9d64b5cb9630a47eac3797b94/yplib-2.1.8.tar.gz
+[2023-07-04 02:50:14] INFO root fetch - processPackages [apit212]: Downloading https://files.pythonhosted.org/packages/e1/f8/fdbef702f0d846797f676ffc5bfeecdcca12088facbb52c306d0ad1690fc/apit212-0.0.3.tar.gz
+[2023-07-04 02:50:14] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/e9/65/f5ac1197674444357525959b6baeb771d14e365010ef529c70ee00443470/kubric-nightly-2023.7.3.tar.gz
+[2023-07-04 02:50:14] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/6d/8f/b022662ffebe4055aac7ae532cfb071d625fb33413d7d0267065048be676/reasoner_validator-3.6.5.tar.gz
+[2023-07-04 02:50:14] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-04 02:50:14] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.1.7.tar.gz tmp/yplib-2.1.8.tar.gz --markdown 20230704/y/yplib/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-07-04 02:50:14] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/0c/0d/7f84ca29b8d9667e5dd2be6ec6bc6343d31fc6ea175479e747b448e81816/tfds-nightly-4.9.2.dev202307030045.tar.gz
+[2023-07-04 02:50:14] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/0c/0d/7f84ca29b8d9667e5dd2be6ec6bc6343d31fc6ea175479e747b448e81816/tfds-nightly-4.9.2.dev202307030045.tar.gz
+[2023-07-04 02:50:14] INFO root fetch - processPackages [apit212]: executing diffoscope
+[2023-07-04 02:50:14] INFO root fetch - processPackages [apit212]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apit212-0.0.2.tar.gz tmp/apit212-0.0.3.tar.gz --markdown 20230704/a/apit212/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-04 02:50:14] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-04 02:50:14] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.1.7.tar.gz tmp/yplib-2.1.8.tar.gz --markdown 20230704/y/yplib/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-07-04 02:50:14] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-04 02:50:14] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230704/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 02:50:14] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-04 02:50:14] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2023-07-04 02:50:14] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-3.6.4.tar.gz tmp/reasoner_validator-3.6.5.tar.gz --markdown 20230704/r/reasoner-validator/3.6.4-3.6.5/diff.md --exclude *.pyd
+[2023-07-04 02:50:14] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-07-04 02:50:14] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.7.2.tar.gz tmp/kubric-nightly-2023.7.3.tar.gz --markdown 20230704/k/kubric-nightly/2023.7.2-2023.7.3/diff.md --exclude *.pyd
+[2023-07-04 02:50:14] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-07-04 02:50:14] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-04 02:50:14] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202307020046.tar.gz tmp/tfds-nightly-4.9.2.dev202307030045.tar.gz --markdown 20230704/t/tfds-nightly/4.9.2.dev202307020046-4.9.2.dev202307030045/diff.md --exclude *.pyd
+[2023-07-04 02:50:14] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230704/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-04 02:50:14] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-07-04 02:50:14] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202307020046.tar.gz tmp/tfds-nightly-4.9.2.dev202307030045.tar.gz --markdown 20230704/t/tfds-nightly/4.9.2.dev202307020046-4.9.2.dev202307030045/diff.md --exclude *.pyd
+[2023-07-04 02:50:15] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/68/b7/1bc76974269d07601c13aaa5489dbaf5bfced52da0839a380231163281b2/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz
+[2023-07-04 02:50:15] INFO root fetch - processPackages [apit212]: Remove: archive file [/home/abi/fetcher/tmp/apit212-0.0.2.tar.gz]
+[2023-07-04 02:50:15] INFO root fetch - processPackages [apit212]: Remove: archive file [/home/abi/fetcher/tmp/apit212-0.0.3.tar.gz]
+[2023-07-04 02:50:15] INFO root fetch - main [MainThread]: End processing [apit212]: success
+[2023-07-04 02:50:16] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.1.7.tar.gz]
+[2023-07-04 02:50:16] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.1.8.tar.gz]
+[2023-07-04 02:50:16] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-04 02:50:16] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-04 02:50:16] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-04 02:50:16] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-04 02:50:16] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-04 02:50:16] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.2.tar.gz]
+[2023-07-04 02:50:16] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.3.tar.gz]
+[2023-07-04 02:50:16] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-07-04 02:50:16] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-04 02:50:16] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-04 02:50:16] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-04 02:50:16] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.6.4.tar.gz]
+[2023-07-04 02:50:16] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.6.5.tar.gz]
+[2023-07-04 02:50:16] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2023-07-04 02:50:17] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-07-04 02:50:17] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230704/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 02:50:19] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz]
+[2023-07-04 02:50:19] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
+[2023-07-04 02:50:19] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-07-04 02:50:21] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307020046.tar.gz]
+[2023-07-04 02:50:21] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307030045.tar.gz]
+[2023-07-04 02:50:21] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-07-04 02:50:21] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-07-04 02:50:21] INFO root fetch - main [MainThread]: Store serial: [18747748]
