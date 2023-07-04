@@ -14403,3 +14403,138 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 09:21:04] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-0.9.9-py2.py3-none-any.whl.zip]
 [2023-07-04 09:21:04] INFO root fetch - main [MainThread]: End processing [experimaestro]: success
 [2023-07-04 09:21:04] INFO root fetch - main [MainThread]: Store serial: [18751355]
+[2023-07-04 09:26:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18751355]
+[2023-07-04 09:26:13] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-04 09:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cnextb
+[2023-07-04 09:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bridgecrew
+[2023-07-04 09:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bilibili-up
+[2023-07-04 09:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CORS-Analyzer
+[2023-07-04 09:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: download-stats
+[2023-07-04 09:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: func-ai
+[2023-07-04 09:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oarepo-cli
+[2023-07-04 09:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MMEdu
+[2023-07-04 09:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modal-client
+[2023-07-04 09:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: modal
+[2023-07-04 09:26:13] INFO root fetch - processPackages [modal]: New version: [0.50.2562] Old Version: [0.50.2561]
+[2023-07-04 09:26:13] INFO root fetch - processPackages [MMEdu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 09:26:13] INFO root fetch - processPackages [func-ai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-04 09:26:13] INFO root fetch - processPackages [bilibili-up]: New version: [1.1.0.0] Old Version: [1.0.0.0]
+[2023-07-04 09:26:13] INFO root fetch - processPackages [CORS-Analyzer]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-04 09:26:13] INFO root fetch - processPackages [download-stats]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-07-04 09:26:13] INFO root fetch - processPackages [oarepo-cli]: New version: [11.1.9] Old Version: [11.1.8]
+[2023-07-04 09:26:13] WARNING root fetch - processPackages [cnextb]: Skipping, unable to determine old version
+[2023-07-04 09:26:13] INFO root fetch - processPackages [cnextb]: Start processing: odoo-addon-l10n-es-facturae
+[2023-07-04 09:26:13] INFO root fetch - main [MainThread]: End processing [cnextb] error
+[2023-07-04 09:26:13] INFO root fetch - processPackages [modal-client]: New version: [0.50.2562] Old Version: [0.50.2561]
+[2023-07-04 09:26:13] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-04 09:26:13] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.4]
+[2023-07-04 09:26:13] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b5/b2/a0f6129a8e86ff5715f9cbbf71e69973f65062da7dec7e8ad12ec0524001/modal-0.50.2561-py3-none-any.whl
+[2023-07-04 09:26:13] INFO root fetch - processPackages [bilibili-up]: Downloading https://files.pythonhosted.org/packages/a4/d5/a0471c2a5b8c21959ae8eb400784f3c5ce9c429368da3b1014045f67b687/bilibili_up-1.0.0.0.tar.gz
+[2023-07-04 09:26:13] INFO root fetch - processPackages [MMEdu]: Downloading https://files.pythonhosted.org/packages/ab/1e/588ba9856221eb0f1fdb52ad1f4ec1112510c4d8806e8ce3fe35dc706347/MMEdu-0.1.8.tar.gz
+[2023-07-04 09:26:13] INFO root fetch - processPackages [download-stats]: Downloading https://files.pythonhosted.org/packages/06/bc/241f6ef33bb0b2a2bb0c3b2b9f678f4282d90fabd7e3ee5837b0e29ade0a/download_stats-1.2.1.tar.gz
+[2023-07-04 09:26:13] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/af/a7/2733a476ea08d89fb2f474b4da4c3e1bcd0256c07baebfab128540be8be1/oarepo-cli-11.1.8.tar.gz
+[2023-07-04 09:26:13] INFO root fetch - processPackages [CORS-Analyzer]: Downloading https://files.pythonhosted.org/packages/f6/00/a53a817308a7f1b42cd3ce909e5bca76224e6ae62dc32629afee20e20f77/CORS-Analyzer-1.0.3.tar.gz
+[2023-07-04 09:26:13] INFO root fetch - processPackages [func-ai]: Downloading https://files.pythonhosted.org/packages/c9/86/526727ac8fa044ffa3780e6f05d3dd51e70ef54f44237918ed3732835601/func_ai-0.0.7.tar.gz
+[2023-07-04 09:26:13] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/b5/b5/6cde861374c3cef60d8dd5ecd4b75cc0e60b97be8250dc800fefd1a2cf17/modal_client-0.50.2561-py3-none-any.whl
+[2023-07-04 09:26:13] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-07-04 09:26:13] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae]: Downloading https://files.pythonhosted.org/packages/42/38/a685749201c6e329d5bc63c495f5ac79966f8d5739da1abe23f778790d6a/odoo_addon_l10n_es_facturae-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-04 09:26:14] INFO root fetch - processPackages [bilibili-up]: Downloading https://files.pythonhosted.org/packages/d5/3b/e8f61e7d93108eae1a2d37c73ede712945dba9bdb4dd2da22c5320d091c7/bilibili_up-1.1.0.0.tar.gz
+[2023-07-04 09:26:14] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/c1/07/390f9767ed13e63ef97918ed09945b5501685e21d178f8f10dfc1cd2a54c/oarepo-cli-11.1.9.tar.gz
+[2023-07-04 09:26:14] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/29/fb/b18516000561895746c229940e0e5eea63e4a614ae082015ec200c6bdd0d/modal-0.50.2562-py3-none-any.whl
+[2023-07-04 09:26:14] INFO root fetch - processPackages [download-stats]: Downloading https://files.pythonhosted.org/packages/df/12/b7fd762ae73d3640c1ce9e004b63bbd8aaeefd5373dd3b028d9bd8bef02c/download_stats-1.3.0.tar.gz
+[2023-07-04 09:26:14] INFO root fetch - processPackages [CORS-Analyzer]: Downloading https://files.pythonhosted.org/packages/a2/54/7ed1adeb1dfac6cf0afe78a97cf5c2ee9dcfb0141a4cd4326c31db4ac467/CORS-Analyzer-1.0.4.tar.gz
+[2023-07-04 09:26:14] INFO root fetch - processPackages [bilibili-up]: executing diffoscope
+[2023-07-04 09:26:14] INFO root fetch - processPackages [bilibili-up]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilibili_up-1.0.0.0.tar.gz tmp/bilibili_up-1.1.0.0.tar.gz --markdown 20230704/b/bilibili-up/1.0.0.0-1.1.0.0/diff.md --exclude *.pyd
+[2023-07-04 09:26:14] INFO root fetch - processPackages [func-ai]: Downloading https://files.pythonhosted.org/packages/c0/f4/b23a9b786650ad0b3759f129c070e7d6f14a6df81520c1fd00cc9c5ca0ac/func_ai-0.0.8.tar.gz
+[2023-07-04 09:26:14] INFO root fetch - processPackages [MMEdu]: Downloading https://files.pythonhosted.org/packages/47/39/353c28206b6bb14419b0637ed054cdda8882895e90995b407e8ac6891b0e/MMEdu-0.1.9.tar.gz
+[2023-07-04 09:26:14] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-07-04 09:26:14] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.50.2561-py3-none-any.whl.zip tmp/modal-0.50.2562-py3-none-any.whl.zip --markdown 20230704/m/modal/0.50.2561-0.50.2562/diff.md --exclude *.pyd
+[2023-07-04 09:26:14] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/ed/e9/0b55414befd2ae6fbae14413f594847259ab59b15db49e841e50c44ec8f3/modal_client-0.50.2562-py3-none-any.whl
+[2023-07-04 09:26:14] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-07-04 09:26:14] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.1.8.tar.gz tmp/oarepo-cli-11.1.9.tar.gz --markdown 20230704/o/oarepo-cli/11.1.8-11.1.9/diff.md --exclude *.pyd
+[2023-07-04 09:26:14] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae]: Downloading https://files.pythonhosted.org/packages/6e/0e/c0b1780c19a9a0735728d58b8235c3644ab9f54edccc25ba42c99adca36e/odoo_addon_l10n_es_facturae-16.0.1.0.1-py3-none-any.whl
+[2023-07-04 09:26:14] INFO root fetch - processPackages [CORS-Analyzer]: executing diffoscope
+[2023-07-04 09:26:14] INFO root fetch - processPackages [CORS-Analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CORS-Analyzer-1.0.3.tar.gz tmp/CORS-Analyzer-1.0.4.tar.gz --markdown 20230704/C/CORS-Analyzer/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-04 09:26:14] INFO root fetch - processPackages [download-stats]: executing diffoscope
+[2023-07-04 09:26:14] INFO root fetch - processPackages [download-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/download_stats-1.2.1.tar.gz tmp/download_stats-1.3.0.tar.gz --markdown 20230704/d/download-stats/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-07-04 09:26:14] INFO root fetch - processPackages [func-ai]: executing diffoscope
+[2023-07-04 09:26:14] INFO root fetch - processPackages [func-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/func_ai-0.0.7.tar.gz tmp/func_ai-0.0.8.tar.gz --markdown 20230704/f/func-ai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-04 09:26:14] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-07-04 09:26:14] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.50.2561-py3-none-any.whl.zip tmp/modal_client-0.50.2562-py3-none-any.whl.zip --markdown 20230704/m/modal-client/0.50.2561-0.50.2562/diff.md --exclude *.pyd
+[2023-07-04 09:26:14] INFO root fetch - processPackages [MMEdu]: executing diffoscope
+[2023-07-04 09:26:14] INFO root fetch - processPackages [MMEdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MMEdu-0.1.8.tar.gz tmp/MMEdu-0.1.9.tar.gz --markdown 20230704/M/MMEdu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 09:26:14] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae]: executing diffoscope
+[2023-07-04 09:26:14] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_facturae-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_facturae-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230704/o/odoo-addon-l10n-es-facturae/16.0.1.0.0.4-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-04 09:26:14] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-07-04 09:26:14] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-07-04 09:26:14] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230704/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-04 09:26:15] INFO root fetch - processPackages [bilibili-up]: Remove: archive file [/home/abi/fetcher/tmp/bilibili_up-1.0.0.0.tar.gz]
+[2023-07-04 09:26:15] INFO root fetch - processPackages [bilibili-up]: Remove: archive file [/home/abi/fetcher/tmp/bilibili_up-1.1.0.0.tar.gz]
+[2023-07-04 09:26:15] INFO root fetch - processPackages [bilibili-up]: Start processing: xinv
+[2023-07-04 09:26:15] INFO root fetch - main [MainThread]: End processing [bilibili-up]: success
+[2023-07-04 09:26:15] WARNING root fetch - processPackages [xinv]: Skipping, unable to determine old version
+[2023-07-04 09:26:15] INFO root fetch - processPackages [xinv]: Start processing: napari-vedo-bridge
+[2023-07-04 09:26:15] INFO root fetch - main [MainThread]: End processing [xinv] error
+[2023-07-04 09:26:15] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2561-py3-none-any.whl.zip]
+[2023-07-04 09:26:15] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2562-py3-none-any.whl.zip]
+[2023-07-04 09:26:15] INFO root fetch - processPackages [modal]: Start processing: bilibili-up
+[2023-07-04 09:26:15] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-07-04 09:26:15] INFO root fetch - processPackages [napari-vedo-bridge]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-04 09:26:15] INFO root fetch - processPackages [bilibili-up]: New version: [1.1.0.1] Old Version: [1.1.0.0]
+[2023-07-04 09:26:15] INFO root fetch - processPackages [napari-vedo-bridge]: Downloading https://files.pythonhosted.org/packages/5a/3a/ea94da0f74220eebfc068d9c77ccbe5a3ebba283e26e81d4b60d7983763c/napari-vedo-bridge-0.0.2.tar.gz
+[2023-07-04 09:26:15] INFO root fetch - processPackages [bilibili-up]: Downloading https://files.pythonhosted.org/packages/d5/3b/e8f61e7d93108eae1a2d37c73ede712945dba9bdb4dd2da22c5320d091c7/bilibili_up-1.1.0.0.tar.gz
+[2023-07-04 09:26:16] INFO root fetch - processPackages [CORS-Analyzer]: Remove: archive file [/home/abi/fetcher/tmp/CORS-Analyzer-1.0.3.tar.gz]
+[2023-07-04 09:26:16] INFO root fetch - processPackages [CORS-Analyzer]: Remove: archive file [/home/abi/fetcher/tmp/CORS-Analyzer-1.0.4.tar.gz]
+[2023-07-04 09:26:16] INFO root fetch - processPackages [CORS-Analyzer]: Start processing: bbrl-gymnasium
+[2023-07-04 09:26:16] INFO root fetch - main [MainThread]: End processing [CORS-Analyzer]: success
+[2023-07-04 09:26:16] INFO root fetch - processPackages [func-ai]: Remove: archive file [/home/abi/fetcher/tmp/func_ai-0.0.7.tar.gz]
+[2023-07-04 09:26:16] INFO root fetch - processPackages [func-ai]: Remove: archive file [/home/abi/fetcher/tmp/func_ai-0.0.8.tar.gz]
+[2023-07-04 09:26:16] INFO root fetch - processPackages [func-ai]: Start processing: eventiq
+[2023-07-04 09:26:16] INFO root fetch - main [MainThread]: End processing [func-ai]: success
+[2023-07-04 09:26:16] INFO root fetch - processPackages [download-stats]: Remove: archive file [/home/abi/fetcher/tmp/download_stats-1.2.1.tar.gz]
+[2023-07-04 09:26:16] INFO root fetch - processPackages [download-stats]: Remove: archive file [/home/abi/fetcher/tmp/download_stats-1.3.0.tar.gz]
+[2023-07-04 09:26:16] INFO root fetch - main [MainThread]: End processing [download-stats]: success
+[2023-07-04 09:26:16] INFO root fetch - processPackages [bbrl-gymnasium]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 09:26:16] INFO root fetch - processPackages [bilibili-up]: Downloading https://files.pythonhosted.org/packages/f5/29/59d162ee903238780b8784b8fe3090c90c710970bf6a88939c9581b819aa/bilibili_up-1.1.0.1.tar.gz
+[2023-07-04 09:26:16] INFO root fetch - processPackages [MMEdu]: Remove: archive file [/home/abi/fetcher/tmp/MMEdu-0.1.8.tar.gz]
+[2023-07-04 09:26:16] INFO root fetch - processPackages [MMEdu]: Remove: archive file [/home/abi/fetcher/tmp/MMEdu-0.1.9.tar.gz]
+[2023-07-04 09:26:16] INFO root fetch - main [MainThread]: End processing [MMEdu]: success
+[2023-07-04 09:26:16] INFO root fetch - processPackages [napari-vedo-bridge]: Downloading https://files.pythonhosted.org/packages/9c/d9/b80a8ba220643e5392256a39675dfe269bb2e573dd358b91799aebf7499a/napari-vedo-bridge-0.0.3.tar.gz
+[2023-07-04 09:26:16] INFO root fetch - processPackages [eventiq]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 09:26:16] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-07-04 09:26:16] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-07-04 09:26:16] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-07-04 09:26:16] INFO root fetch - processPackages [bilibili-up]: executing diffoscope
+[2023-07-04 09:26:16] INFO root fetch - processPackages [bilibili-up]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilibili_up-1.1.0.0.tar.gz tmp/bilibili_up-1.1.0.1.tar.gz --markdown 20230704/b/bilibili-up/1.1.0.0-1.1.0.1/diff.md --exclude *.pyd
+[2023-07-04 09:26:16] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/82/f7/2faaeb185c299868c0e6d2bd92523a9c844276a2004c4a53d11f0ce51194/bbrl_gymnasium-0.1.8.tar.gz
+[2023-07-04 09:26:16] INFO root fetch - processPackages [napari-vedo-bridge]: executing diffoscope
+[2023-07-04 09:26:16] INFO root fetch - processPackages [napari-vedo-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-vedo-bridge-0.0.2.tar.gz tmp/napari-vedo-bridge-0.0.3.tar.gz --markdown 20230704/n/napari-vedo-bridge/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-04 09:26:16] INFO root fetch - processPackages [eventiq]: Downloading https://files.pythonhosted.org/packages/90/a3/cb1bacaf8d97248e075185987fd4455791309421ee2873607737275ef34e/eventiq-0.1.8.tar.gz
+[2023-07-04 09:26:16] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_facturae-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-04 09:26:16] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_facturae-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-04 09:26:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-facturae]: success
+[2023-07-04 09:26:16] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2561-py3-none-any.whl.zip]
+[2023-07-04 09:26:16] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2562-py3-none-any.whl.zip]
+[2023-07-04 09:26:16] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-07-04 09:26:16] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/25/f1/0d0c566099018fbee65b4b6cf54a26afb69f2048b5e40ec2cfda0b9e1aa6/bbrl_gymnasium-0.1.9.tar.gz
+[2023-07-04 09:26:17] INFO root fetch - processPackages [eventiq]: Downloading https://files.pythonhosted.org/packages/d9/70/b75adec1b4c90b8e8555825ef7ddb7424e1c7503f0fd8961247e4f1b66d9/eventiq-0.1.9.tar.gz
+[2023-07-04 09:26:17] INFO root fetch - processPackages [bbrl-gymnasium]: executing diffoscope
+[2023-07-04 09:26:17] INFO root fetch - processPackages [bbrl-gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbrl_gymnasium-0.1.8.tar.gz tmp/bbrl_gymnasium-0.1.9.tar.gz --markdown 20230704/b/bbrl-gymnasium/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 09:26:17] INFO root fetch - processPackages [eventiq]: executing diffoscope
+[2023-07-04 09:26:17] INFO root fetch - processPackages [eventiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventiq-0.1.8.tar.gz tmp/eventiq-0.1.9.tar.gz --markdown 20230704/e/eventiq/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 09:26:17] INFO root fetch - processPackages [bilibili-up]: Remove: archive file [/home/abi/fetcher/tmp/bilibili_up-1.1.0.0.tar.gz]
+[2023-07-04 09:26:17] INFO root fetch - processPackages [bilibili-up]: Remove: archive file [/home/abi/fetcher/tmp/bilibili_up-1.1.0.1.tar.gz]
+[2023-07-04 09:26:17] INFO root fetch - main [MainThread]: End processing [bilibili-up]: success
+[2023-07-04 09:26:17] INFO root fetch - processPackages [napari-vedo-bridge]: Remove: archive file [/home/abi/fetcher/tmp/napari-vedo-bridge-0.0.2.tar.gz]
+[2023-07-04 09:26:17] INFO root fetch - processPackages [napari-vedo-bridge]: Remove: archive file [/home/abi/fetcher/tmp/napari-vedo-bridge-0.0.3.tar.gz]
+[2023-07-04 09:26:17] INFO root fetch - main [MainThread]: End processing [napari-vedo-bridge]: success
+[2023-07-04 09:26:17] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.8.tar.gz]
+[2023-07-04 09:26:17] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.9.tar.gz]
+[2023-07-04 09:26:17] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-07-04 09:26:17] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.8.tar.gz]
+[2023-07-04 09:26:17] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.9.tar.gz]
+[2023-07-04 09:26:17] INFO root fetch - main [MainThread]: End processing [bbrl-gymnasium]: success
+[2023-07-04 09:26:18] INFO root fetch - processPackages [eventiq]: Remove: archive file [/home/abi/fetcher/tmp/eventiq-0.1.8.tar.gz]
+[2023-07-04 09:26:18] INFO root fetch - processPackages [eventiq]: Remove: archive file [/home/abi/fetcher/tmp/eventiq-0.1.9.tar.gz]
+[2023-07-04 09:26:18] INFO root fetch - main [MainThread]: End processing [eventiq]: success
+[2023-07-04 09:26:18] INFO root fetch - main [MainThread]: Store serial: [18751399]
