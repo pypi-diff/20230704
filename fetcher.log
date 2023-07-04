@@ -5490,3 +5490,69 @@
 [2023-07-04 03:27:41] INFO root fetch - processPackages [django-registration]: Remove: archive file [/home/abi/fetcher/tmp/django-registration-3.4.tar.gz]
 [2023-07-04 03:27:41] INFO root fetch - main [MainThread]: End processing [django-registration]: success
 [2023-07-04 03:27:41] INFO root fetch - main [MainThread]: Store serial: [18748017]
+[2023-07-04 03:32:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18748017]
+[2023-07-04 03:32:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-04 03:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plemmy
+[2023-07-04 03:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: banf
+[2023-07-04 03:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SecureMessaging
+[2023-07-04 03:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blibs
+[2023-07-04 03:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: IsoScore
+[2023-07-04 03:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kubescaler
+[2023-07-04 03:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchility
+[2023-07-04 03:32:50] INFO root fetch - processPackages [SecureMessaging]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-04 03:32:50] INFO root fetch - processPackages [torchility]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-07-04 03:32:50] INFO root fetch - processPackages [IsoScore]: New version: [2.0.0] Old Version: [1.0]
+[2023-07-04 03:32:50] INFO root fetch - processPackages [kubescaler]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-07-04 03:32:50] INFO root fetch - processPackages [banf]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-04 03:32:50] INFO root fetch - processPackages [plemmy]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-04 03:32:50] INFO root fetch - processPackages [SecureMessaging]: Downloading https://files.pythonhosted.org/packages/b1/26/60963685c42e29b27be8ad700759d14eefd8bfdaa8d461a82e6dd77137ee/SecureMessaging-1.0.5-py3-none-any.whl
+[2023-07-04 03:32:50] INFO root fetch - processPackages [blibs]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-04 03:32:50] INFO root fetch - processPackages [torchility]: Downloading https://files.pythonhosted.org/packages/11/92/ea1310b45e83f17306f9b84bf3b5aaf85f63a78526a5667b36e26c3f2c8d/torchility-0.7.6.tar.gz
+[2023-07-04 03:32:50] INFO root fetch - processPackages [IsoScore]: Downloading https://files.pythonhosted.org/packages/65/98/bb9ddf7ac7451117ecea49c37076b52023ad4eef0068663f8c5f653d9ffc/IsoScore-1.0.tar.gz
+[2023-07-04 03:32:50] INFO root fetch - processPackages [SecureMessaging]: Downloading https://files.pythonhosted.org/packages/e7/a0/6b55125b6bed23978bc45e848b449254fccfb5fb17bfdf0e4eb3f4735d88/SecureMessaging-1.0.6-py3-none-any.whl
+[2023-07-04 03:32:50] INFO root fetch - processPackages [kubescaler]: Downloading https://files.pythonhosted.org/packages/2f/5b/8874ea25551d02303a8cfa18372f6fb88984e7a37a0d7579d09a6a5254d0/kubescaler-0.0.13.tar.gz
+[2023-07-04 03:32:50] INFO root fetch - processPackages [blibs]: Downloading https://files.pythonhosted.org/packages/9b/9c/3c754dcdfa374971df0868c2298e2cfcd36068bf441e50d65ff33b1ecf05/blibs-1.0.0.tar.gz
+[2023-07-04 03:32:50] INFO root fetch - processPackages [banf]: Downloading https://files.pythonhosted.org/packages/ac/80/304d04e8abccb4fcc30f312f5e98cf6108de3aec251256de03bb5a180668/banf-0.0.2-py3-none-any.whl
+[2023-07-04 03:32:50] INFO root fetch - processPackages [plemmy]: Downloading https://files.pythonhosted.org/packages/e2/67/df0e7b36b780aa9019d00844160dbbffdea42af5d3a7fd735643a7e8c531/plemmy-0.2.5.tar.gz
+[2023-07-04 03:32:50] INFO root fetch - processPackages [SecureMessaging]: executing diffoscope
+[2023-07-04 03:32:50] INFO root fetch - processPackages [SecureMessaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SecureMessaging-1.0.5-py3-none-any.whl.zip tmp/SecureMessaging-1.0.6-py3-none-any.whl.zip --markdown 20230704/S/SecureMessaging/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-04 03:32:50] INFO root fetch - processPackages [IsoScore]: Downloading https://files.pythonhosted.org/packages/1b/ef/3478e1dee755416d072b8f371b4f00f797d802a827140dc383ab35ee40e6/IsoScore-2.0.0.tar.gz
+[2023-07-04 03:32:51] INFO root fetch - processPackages [kubescaler]: Downloading https://files.pythonhosted.org/packages/b9/ca/b203c92e87d2baf385ab740d2b2119f6358874dc6c7440c90ef21be227fc/kubescaler-0.0.14.tar.gz
+[2023-07-04 03:32:51] INFO root fetch - processPackages [torchility]: Downloading https://files.pythonhosted.org/packages/f9/c7/5aeafbcb4e1e1b548ba5fc55e801d751666587d805a9e05dceed7c082618/torchility-0.7.7.tar.gz
+[2023-07-04 03:32:51] INFO root fetch - processPackages [banf]: Downloading https://files.pythonhosted.org/packages/93/0a/230cbfd04ee039514a8e3a3d6bd07b993d8b40ee68445fedff6a40fdef8c/banf-0.0.3-py3-none-any.whl
+[2023-07-04 03:32:51] INFO root fetch - processPackages [plemmy]: Downloading https://files.pythonhosted.org/packages/51/46/2b588b4ccf6f4c2be1bd111418a8b07db8b43ac559cfb423fad1dc142b3e/plemmy-0.2.6.tar.gz
+[2023-07-04 03:32:51] INFO root fetch - processPackages [blibs]: Downloading https://files.pythonhosted.org/packages/2c/0e/99d2155312d67df4919bc82a5d5d738a9454c76a4c9fb0b70e15835cc1d7/blibs-1.1.0.tar.gz
+[2023-07-04 03:32:51] INFO root fetch - processPackages [IsoScore]: executing diffoscope
+[2023-07-04 03:32:51] INFO root fetch - processPackages [IsoScore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IsoScore-1.0.tar.gz tmp/IsoScore-2.0.0.tar.gz --markdown 20230704/I/IsoScore/1.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-04 03:32:51] INFO root fetch - processPackages [kubescaler]: executing diffoscope
+[2023-07-04 03:32:51] INFO root fetch - processPackages [kubescaler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubescaler-0.0.13.tar.gz tmp/kubescaler-0.0.14.tar.gz --markdown 20230704/k/kubescaler/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-07-04 03:32:51] INFO root fetch - processPackages [torchility]: executing diffoscope
+[2023-07-04 03:32:51] INFO root fetch - processPackages [torchility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchility-0.7.6.tar.gz tmp/torchility-0.7.7.tar.gz --markdown 20230704/t/torchility/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-07-04 03:32:51] INFO root fetch - processPackages [blibs]: executing diffoscope
+[2023-07-04 03:32:51] INFO root fetch - processPackages [plemmy]: executing diffoscope
+[2023-07-04 03:32:51] INFO root fetch - processPackages [blibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blibs-1.0.0.tar.gz tmp/blibs-1.1.0.tar.gz --markdown 20230704/b/blibs/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-04 03:32:51] INFO root fetch - processPackages [plemmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plemmy-0.2.5.tar.gz tmp/plemmy-0.2.6.tar.gz --markdown 20230704/p/plemmy/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-04 03:32:51] INFO root fetch - processPackages [banf]: executing diffoscope
+[2023-07-04 03:32:51] INFO root fetch - processPackages [banf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banf-0.0.2-py3-none-any.whl.zip tmp/banf-0.0.3-py3-none-any.whl.zip --markdown 20230704/b/banf/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-04 03:32:51] INFO root fetch - processPackages [SecureMessaging]: Remove: archive file [/home/abi/fetcher/tmp/SecureMessaging-1.0.5-py3-none-any.whl.zip]
+[2023-07-04 03:32:51] INFO root fetch - processPackages [SecureMessaging]: Remove: archive file [/home/abi/fetcher/tmp/SecureMessaging-1.0.6-py3-none-any.whl.zip]
+[2023-07-04 03:32:51] INFO root fetch - main [MainThread]: End processing [SecureMessaging]: success
+[2023-07-04 03:32:52] INFO root fetch - processPackages [IsoScore]: Remove: archive file [/home/abi/fetcher/tmp/IsoScore-1.0.tar.gz]
+[2023-07-04 03:32:52] INFO root fetch - processPackages [IsoScore]: Remove: archive file [/home/abi/fetcher/tmp/IsoScore-2.0.0.tar.gz]
+[2023-07-04 03:32:52] INFO root fetch - main [MainThread]: End processing [IsoScore]: success
+[2023-07-04 03:32:52] INFO root fetch - processPackages [plemmy]: Remove: archive file [/home/abi/fetcher/tmp/plemmy-0.2.5.tar.gz]
+[2023-07-04 03:32:52] INFO root fetch - processPackages [plemmy]: Remove: archive file [/home/abi/fetcher/tmp/plemmy-0.2.6.tar.gz]
+[2023-07-04 03:32:52] INFO root fetch - main [MainThread]: End processing [plemmy]: success
+[2023-07-04 03:32:52] INFO root fetch - processPackages [kubescaler]: Remove: archive file [/home/abi/fetcher/tmp/kubescaler-0.0.13.tar.gz]
+[2023-07-04 03:32:52] INFO root fetch - processPackages [kubescaler]: Remove: archive file [/home/abi/fetcher/tmp/kubescaler-0.0.14.tar.gz]
+[2023-07-04 03:32:52] INFO root fetch - main [MainThread]: End processing [kubescaler]: success
+[2023-07-04 03:32:52] INFO root fetch - processPackages [torchility]: Remove: archive file [/home/abi/fetcher/tmp/torchility-0.7.6.tar.gz]
+[2023-07-04 03:32:52] INFO root fetch - processPackages [torchility]: Remove: archive file [/home/abi/fetcher/tmp/torchility-0.7.7.tar.gz]
+[2023-07-04 03:32:52] INFO root fetch - main [MainThread]: End processing [torchility]: success
+[2023-07-04 03:32:52] INFO root fetch - processPackages [banf]: Remove: archive file [/home/abi/fetcher/tmp/banf-0.0.2-py3-none-any.whl.zip]
+[2023-07-04 03:32:52] INFO root fetch - processPackages [banf]: Remove: archive file [/home/abi/fetcher/tmp/banf-0.0.3-py3-none-any.whl.zip]
+[2023-07-04 03:32:52] INFO root fetch - main [MainThread]: End processing [banf]: success
+[2023-07-04 03:32:52] INFO root fetch - processPackages [blibs]: Remove: archive file [/home/abi/fetcher/tmp/blibs-1.0.0.tar.gz]
+[2023-07-04 03:32:52] INFO root fetch - processPackages [blibs]: Remove: archive file [/home/abi/fetcher/tmp/blibs-1.1.0.tar.gz]
+[2023-07-04 03:32:52] INFO root fetch - main [MainThread]: End processing [blibs]: success
+[2023-07-04 03:32:52] INFO root fetch - main [MainThread]: Store serial: [18748037]
