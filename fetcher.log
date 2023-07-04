@@ -10148,3 +10148,102 @@
 [2023-07-04 05:01:20] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230704.tar.gz]
 [2023-07-04 05:01:20] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-07-04 05:01:20] INFO root fetch - main [MainThread]: Store serial: [18749748]
+[2023-07-04 05:06:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18749748]
+[2023-07-04 05:06:28] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-04 05:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-connector-prestashop
+[2023-07-04 05:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-cloudfw20171207
+[2023-07-04 05:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HALchemy
+[2023-07-04 05:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyapp-flow
+[2023-07-04 05:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qps-limit
+[2023-07-04 05:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: types-opencolorio
+[2023-07-04 05:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ovos-core
+[2023-07-04 05:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vercel-kv
+[2023-07-04 05:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dolphie
+[2023-07-04 05:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: taospy
+[2023-07-04 05:06:29] INFO root fetch - processPackages [HALchemy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-04 05:06:29] WARNING root fetch - processPackages [vercel-kv]: Skipping, unable to determine old version
+[2023-07-04 05:06:29] INFO root fetch - processPackages [vercel-kv]: Start processing: astro-ghost
+[2023-07-04 05:06:29] INFO root fetch - main [MainThread]: End processing [vercel-kv] error
+[2023-07-04 05:06:29] INFO root fetch - processPackages [ovos-core]: New version: [0.0.8a9] Old Version: [0.0.8a8]
+[2023-07-04 05:06:29] INFO root fetch - processPackages [qps-limit]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-04 05:06:29] INFO root fetch - processPackages [pyapp-flow]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-04 05:06:29] INFO root fetch - processPackages [astro-ghost]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-04 05:06:29] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: New version: [14.0.2.0.3.dev7] Old Version: [14.0.2.0.3.dev5]
+[2023-07-04 05:06:29] INFO root fetch - processPackages [dolphie]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-04 05:06:29] INFO root fetch - processPackages [taospy]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-07-04 05:06:29] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-07-04 05:06:29] WARNING root fetch - processPackages [types-opencolorio]: Skipping, unable to determine old version
+[2023-07-04 05:06:29] INFO root fetch - processPackages [types-opencolorio]: Start processing: vercel-kv
+[2023-07-04 05:06:29] INFO root fetch - main [MainThread]: End processing [types-opencolorio] error
+[2023-07-04 05:06:29] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/dd/9c/0945c96587052dea91a0ceedf6f8aca8fb29db6717064aa852e7e73917ad/ovos_core-0.0.8a8-py3-none-any.whl
+[2023-07-04 05:06:29] INFO root fetch - processPackages [HALchemy]: Downloading https://files.pythonhosted.org/packages/d4/2e/91d50dc8b6e6fa8744a01fb3413479ad824a0055cfe2785fa6a4bf8fda43/HALchemy-0.1.3-py3-none-any.whl
+[2023-07-04 05:06:29] INFO root fetch - processPackages [pyapp-flow]: Downloading https://files.pythonhosted.org/packages/53/87/1efc290f9bb68a9cceff43028608a3e89fcd1f6119434010259c73294707/pyapp-flow-0.8.0.tar.gz
+[2023-07-04 05:06:29] INFO root fetch - processPackages [vercel-kv]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-04 05:06:29] INFO root fetch - processPackages [astro-ghost]: Downloading https://files.pythonhosted.org/packages/81/cc/e015f6d152a41fa71ae84b7e3ae9552d3c1720e031b70dfd4e8964151397/astro_ghost-2.0.8.tar.gz
+[2023-07-04 05:06:29] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: Downloading https://files.pythonhosted.org/packages/1f/70/e87464df1af6edc6fda21dab03470cde5150fd87017b7cfd95e14db547d8/odoo14_addon_connector_prestashop-14.0.2.0.3.dev5-py3-none-any.whl
+[2023-07-04 05:06:29] INFO root fetch - processPackages [taospy]: Downloading https://files.pythonhosted.org/packages/35/ff/cda1530c1d9dee5fc8e1a15c6388ca0a50e52810ba4a17d31395b69b4f5d/taospy-2.7.8.tar.gz
+[2023-07-04 05:06:29] INFO root fetch - processPackages [dolphie]: Downloading https://files.pythonhosted.org/packages/a5/b5/b69a13840e14af271457c0781ed1f8ebc08e0ac7940734fa29ba9a11285e/dolphie-2.0.5.tar.gz
+[2023-07-04 05:06:29] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/a6/8a/bb14b77dcffed6349549857c8f977079ddaad14b21e962d9e65381760017/qps_limit-1.0.4-py3-none-any.whl
+[2023-07-04 05:06:29] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: Downloading https://files.pythonhosted.org/packages/b5/4f/349a4c520587ec73d22c5474714db1f057af3acd68a3b97f89d78ed5ce20/alibabacloud_cloudfw20171207-1.2.9.tar.gz
+[2023-07-04 05:06:29] INFO root fetch - processPackages [HALchemy]: Downloading https://files.pythonhosted.org/packages/24/5b/a0e29c4e8abe0a732176cc4d3f3cfaa9ee4ae34f60ec8a5b7c4e717f7134/HALchemy-0.1.4-py3-none-any.whl
+[2023-07-04 05:06:29] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/51/ee/52ce34726935c8c4c45d526690a3c83e2b71585a918b26cc886d29b8bf0b/ovos_core-0.0.8a9-py3-none-any.whl
+[2023-07-04 05:06:29] INFO root fetch - processPackages [pyapp-flow]: Downloading https://files.pythonhosted.org/packages/76/0a/afcf5faf502ffe35479eb84cff6e0526f4e49c11a766c2290b8543a65f75/pyapp-flow-0.9.0.tar.gz
+[2023-07-04 05:06:30] INFO root fetch - processPackages [vercel-kv]: Downloading https://files.pythonhosted.org/packages/d9/13/b8ab9ddd9892d530f1081189e9f98818abc9d56273a61b787bf19ee28618/vercel_kv-0.1.2.tar.gz
+[2023-07-04 05:06:30] INFO root fetch - processPackages [HALchemy]: executing diffoscope
+[2023-07-04 05:06:30] INFO root fetch - processPackages [HALchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HALchemy-0.1.3-py3-none-any.whl.zip tmp/HALchemy-0.1.4-py3-none-any.whl.zip --markdown 20230704/H/HALchemy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-04 05:06:30] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: Downloading https://files.pythonhosted.org/packages/14/21/bdaec2af65e116d1b131aeb0545e77029103a652a5ebdd89bcc2bee0124e/odoo14_addon_connector_prestashop-14.0.2.0.3.dev7-py3-none-any.whl
+[2023-07-04 05:06:30] INFO root fetch - processPackages [dolphie]: Downloading https://files.pythonhosted.org/packages/c3/70/addfaac72ad09047349d3f1b3903a54b5ed957b09b1904a7c8bdd08ef69b/dolphie-2.0.6.tar.gz
+[2023-07-04 05:06:30] INFO root fetch - processPackages [ovos-core]: executing diffoscope
+[2023-07-04 05:06:30] INFO root fetch - processPackages [ovos-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_core-0.0.8a8-py3-none-any.whl.zip tmp/ovos_core-0.0.8a9-py3-none-any.whl.zip --markdown 20230704/o/ovos-core/0.0.8a8-0.0.8a9/diff.md --exclude *.pyd
+[2023-07-04 05:06:30] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/5c/bd/d51f6fb425ee838cf2fc05095a7cfe5753787a4424aaf251ad8bf377e310/qps_limit-1.0.5-py3-none-any.whl
+[2023-07-04 05:06:30] INFO root fetch - processPackages [pyapp-flow]: executing diffoscope
+[2023-07-04 05:06:30] INFO root fetch - processPackages [pyapp-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyapp-flow-0.8.0.tar.gz tmp/pyapp-flow-0.9.0.tar.gz --markdown 20230704/p/pyapp-flow/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-04 05:06:30] INFO root fetch - processPackages [astro-ghost]: Downloading https://files.pythonhosted.org/packages/bb/32/c1c3dea8a78f99dcf031633bd469cea9d5b91d1bfe115843bdc33cdbe0ec/astro_ghost-2.0.9.tar.gz
+[2023-07-04 05:06:30] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: Downloading https://files.pythonhosted.org/packages/09/b6/c4ca5ff31d80c89c526a06a5c0e25967c24980dd957ab55c2095387ef873/alibabacloud_cloudfw20171207-1.3.0.tar.gz
+[2023-07-04 05:06:30] INFO root fetch - processPackages [taospy]: Downloading https://files.pythonhosted.org/packages/f7/94/670a69737a044133c2a29a3207f792c2b8867d37ee68b1e14794e7a89fb3/taospy-2.7.9.tar.gz
+[2023-07-04 05:06:30] INFO root fetch - processPackages [qps-limit]: executing diffoscope
+[2023-07-04 05:06:30] INFO root fetch - processPackages [qps-limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qps_limit-1.0.4-py3-none-any.whl.zip tmp/qps_limit-1.0.5-py3-none-any.whl.zip --markdown 20230704/q/qps-limit/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-04 05:06:30] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: executing diffoscope
+[2023-07-04 05:06:30] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_connector_prestashop-14.0.2.0.3.dev5-py3-none-any.whl.zip tmp/odoo14_addon_connector_prestashop-14.0.2.0.3.dev7-py3-none-any.whl.zip --markdown 20230704/o/odoo14-addon-connector-prestashop/14.0.2.0.3.dev5-14.0.2.0.3.dev7/diff.md --exclude *.pyd
+[2023-07-04 05:06:30] INFO root fetch - processPackages [dolphie]: executing diffoscope
+[2023-07-04 05:06:30] INFO root fetch - processPackages [dolphie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolphie-2.0.5.tar.gz tmp/dolphie-2.0.6.tar.gz --markdown 20230704/d/dolphie/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-04 05:06:30] INFO root fetch - processPackages [taospy]: executing diffoscope
+[2023-07-04 05:06:30] INFO root fetch - processPackages [taospy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taospy-2.7.8.tar.gz tmp/taospy-2.7.9.tar.gz --markdown 20230704/t/taospy/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-07-04 05:06:30] INFO root fetch - processPackages [vercel-kv]: Downloading https://files.pythonhosted.org/packages/fd/cc/7f27480269a00085a14dc9ed060fc161ebb890c2aa19d0a9af8e4c5f3748/vercel_kv-0.1.3.tar.gz
+[2023-07-04 05:06:30] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: executing diffoscope
+[2023-07-04 05:06:30] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudfw20171207-1.2.9.tar.gz tmp/alibabacloud_cloudfw20171207-1.3.0.tar.gz --markdown 20230704/a/alibabacloud-cloudfw20171207/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-07-04 05:06:30] INFO root fetch - processPackages [vercel-kv]: executing diffoscope
+[2023-07-04 05:06:30] INFO root fetch - processPackages [vercel-kv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vercel_kv-0.1.2.tar.gz tmp/vercel_kv-0.1.3.tar.gz --markdown 20230704/v/vercel-kv/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-04 05:06:30] INFO root fetch - processPackages [astro-ghost]: executing diffoscope
+[2023-07-04 05:06:30] INFO root fetch - processPackages [astro-ghost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_ghost-2.0.8.tar.gz tmp/astro_ghost-2.0.9.tar.gz --markdown 20230704/a/astro-ghost/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-04 05:06:31] INFO root fetch - processPackages [HALchemy]: Remove: archive file [/home/abi/fetcher/tmp/HALchemy-0.1.3-py3-none-any.whl.zip]
+[2023-07-04 05:06:31] INFO root fetch - processPackages [HALchemy]: Remove: archive file [/home/abi/fetcher/tmp/HALchemy-0.1.4-py3-none-any.whl.zip]
+[2023-07-04 05:06:31] INFO root fetch - main [MainThread]: End processing [HALchemy]: success
+[2023-07-04 05:06:31] INFO root fetch - processPackages [pyapp-flow]: Remove: archive file [/home/abi/fetcher/tmp/pyapp-flow-0.8.0.tar.gz]
+[2023-07-04 05:06:31] INFO root fetch - processPackages [pyapp-flow]: Remove: archive file [/home/abi/fetcher/tmp/pyapp-flow-0.9.0.tar.gz]
+[2023-07-04 05:06:31] INFO root fetch - main [MainThread]: End processing [pyapp-flow]: success
+[2023-07-04 05:06:31] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-1.0.4-py3-none-any.whl.zip]
+[2023-07-04 05:06:31] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-1.0.5-py3-none-any.whl.zip]
+[2023-07-04 05:06:31] INFO root fetch - main [MainThread]: End processing [qps-limit]: success
+[2023-07-04 05:06:31] INFO root fetch - processPackages [dolphie]: Remove: archive file [/home/abi/fetcher/tmp/dolphie-2.0.5.tar.gz]
+[2023-07-04 05:06:31] INFO root fetch - processPackages [dolphie]: Remove: archive file [/home/abi/fetcher/tmp/dolphie-2.0.6.tar.gz]
+[2023-07-04 05:06:31] INFO root fetch - main [MainThread]: End processing [dolphie]: success
+[2023-07-04 05:06:32] INFO root fetch - processPackages [vercel-kv]: Remove: archive file [/home/abi/fetcher/tmp/vercel_kv-0.1.2.tar.gz]
+[2023-07-04 05:06:32] INFO root fetch - processPackages [vercel-kv]: Remove: archive file [/home/abi/fetcher/tmp/vercel_kv-0.1.3.tar.gz]
+[2023-07-04 05:06:32] INFO root fetch - main [MainThread]: End processing [vercel-kv]: success
+[2023-07-04 05:06:32] INFO root fetch - processPackages [taospy]: Remove: archive file [/home/abi/fetcher/tmp/taospy-2.7.8.tar.gz]
+[2023-07-04 05:06:32] INFO root fetch - processPackages [taospy]: Remove: archive file [/home/abi/fetcher/tmp/taospy-2.7.9.tar.gz]
+[2023-07-04 05:06:32] INFO root fetch - main [MainThread]: End processing [taospy]: success
+[2023-07-04 05:06:32] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudfw20171207-1.2.9.tar.gz]
+[2023-07-04 05:06:32] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudfw20171207-1.3.0.tar.gz]
+[2023-07-04 05:06:32] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudfw20171207]: success
+[2023-07-04 05:06:32] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_connector_prestashop-14.0.2.0.3.dev5-py3-none-any.whl.zip]
+[2023-07-04 05:06:32] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_connector_prestashop-14.0.2.0.3.dev7-py3-none-any.whl.zip]
+[2023-07-04 05:06:32] INFO root fetch - main [MainThread]: End processing [odoo14-addon-connector-prestashop]: success
+[2023-07-04 05:06:33] INFO root fetch - processPackages [astro-ghost]: Remove: archive file [/home/abi/fetcher/tmp/astro_ghost-2.0.8.tar.gz]
+[2023-07-04 05:06:33] INFO root fetch - processPackages [astro-ghost]: Remove: archive file [/home/abi/fetcher/tmp/astro_ghost-2.0.9.tar.gz]
+[2023-07-04 05:06:33] INFO root fetch - main [MainThread]: End processing [astro-ghost]: success
+[2023-07-04 05:06:35] INFO root fetch - processPackages [ovos-core]: Remove: archive file [/home/abi/fetcher/tmp/ovos_core-0.0.8a8-py3-none-any.whl.zip]
+[2023-07-04 05:06:35] INFO root fetch - processPackages [ovos-core]: Remove: archive file [/home/abi/fetcher/tmp/ovos_core-0.0.8a9-py3-none-any.whl.zip]
+[2023-07-04 05:06:35] INFO root fetch - main [MainThread]: End processing [ovos-core]: success
+[2023-07-04 05:06:35] INFO root fetch - main [MainThread]: Store serial: [18749782]
