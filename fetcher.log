@@ -5367,3 +5367,53 @@
 [2023-07-04 03:17:18] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.5.0rc13-cp311-cp311-win_amd64.whl.zip]
 [2023-07-04 03:17:18] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
 [2023-07-04 03:17:18] INFO root fetch - main [MainThread]: Store serial: [18747943]
+[2023-07-04 03:22:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18747943]
+[2023-07-04 03:22:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-04 03:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: authzee
+[2023-07-04 03:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyFakeDados
+[2023-07-04 03:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: databend
+[2023-07-04 03:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roboto-sdk
+[2023-07-04 03:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: navigation-api
+[2023-07-04 03:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: goxlr
+[2023-07-04 03:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cjm-yolox-pytorch
+[2023-07-04 03:22:27] INFO root fetch - processPackages [PyFakeDados]: New version: [0.0.5.3] Old Version: [0.0.5.2]
+[2023-07-04 03:22:27] WARNING root fetch - processPackages [authzee]: Skipping, unable to determine old version
+[2023-07-04 03:22:27] INFO root fetch - main [MainThread]: End processing [authzee] error
+[2023-07-04 03:22:27] INFO root fetch - processPackages [goxlr]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-04 03:22:27] INFO root fetch - processPackages [databend]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-04 03:22:27] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 03:22:27] INFO root fetch - processPackages [roboto-sdk]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-04 03:22:27] WARNING root fetch - processPackages [navigation-api]: Skipping, unable to determine old version
+[2023-07-04 03:22:27] INFO root fetch - main [MainThread]: End processing [navigation-api] error
+[2023-07-04 03:22:27] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-04 03:22:27] INFO root fetch - processPackages [goxlr]: Downloading https://files.pythonhosted.org/packages/8e/34/00d6e9a9d7e3fdc9cb04b736d4c092afba6988f951929ba97f489b1901b2/goxlr-1.0.0.tar.gz
+[2023-07-04 03:22:27] INFO root fetch - processPackages [PyFakeDados]: Downloading https://files.pythonhosted.org/packages/54/99/0cc519ec6e7cf77e26d780a988d8a77a04dfb962cbf2171e1017d82557c6/PyFakeDados-0.0.5.2.tar.gz
+[2023-07-04 03:22:27] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/f5/1e/cdcf7edf764f3068fb3908134212da0dafa30bae31855d4efe3f41e2fbd0/databend-1.2.5-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-04 03:22:27] WARNING root fetch - processPackages [databend]: Skipping package: exceeds size limit 30983882>=10485760
+[2023-07-04 03:22:27] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-07-04 03:22:27] INFO root fetch - processPackages [roboto-sdk]: Downloading https://files.pythonhosted.org/packages/c4/02/92600e95b1b9c961d0edd71db089b6c12148d40e4eab7a2cb8b1e9f51225/roboto_sdk-0.1.4.tar.gz
+[2023-07-04 03:22:27] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-04 03:22:27] INFO root fetch - processPackages [goxlr]: Downloading https://files.pythonhosted.org/packages/7e/d3/4fd9cc8997dbfd3451655bd726d7e56ac7e618e76ca981838f20827668ef/goxlr-1.0.1.tar.gz
+[2023-07-04 03:22:27] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-04 03:22:27] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230704/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 03:22:28] INFO root fetch - processPackages [PyFakeDados]: Downloading https://files.pythonhosted.org/packages/85/5a/6fb32caee91172157b616512bc3817a498f6bd801c6ba0cb6e0412140355/PyFakeDados-0.0.5.3.tar.gz
+[2023-07-04 03:22:28] INFO root fetch - processPackages [roboto-sdk]: Downloading https://files.pythonhosted.org/packages/dd/77/108598f40d531f84e70f4e3ab8234ecaec7cbcf6f792129ae64d4b5fc86f/roboto_sdk-0.1.5.tar.gz
+[2023-07-04 03:22:28] INFO root fetch - processPackages [goxlr]: executing diffoscope
+[2023-07-04 03:22:28] INFO root fetch - processPackages [goxlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goxlr-1.0.0.tar.gz tmp/goxlr-1.0.1.tar.gz --markdown 20230704/g/goxlr/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-04 03:22:28] INFO root fetch - processPackages [PyFakeDados]: executing diffoscope
+[2023-07-04 03:22:28] INFO root fetch - processPackages [PyFakeDados]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFakeDados-0.0.5.2.tar.gz tmp/PyFakeDados-0.0.5.3.tar.gz --markdown 20230704/P/PyFakeDados/0.0.5.2-0.0.5.3/diff.md --exclude *.pyd
+[2023-07-04 03:22:28] INFO root fetch - processPackages [roboto-sdk]: executing diffoscope
+[2023-07-04 03:22:28] INFO root fetch - processPackages [roboto-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboto_sdk-0.1.4.tar.gz tmp/roboto_sdk-0.1.5.tar.gz --markdown 20230704/r/roboto-sdk/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-04 03:22:28] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-04 03:22:28] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-04 03:22:28] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-04 03:22:28] INFO root fetch - processPackages [goxlr]: Remove: archive file [/home/abi/fetcher/tmp/goxlr-1.0.0.tar.gz]
+[2023-07-04 03:22:28] INFO root fetch - processPackages [goxlr]: Remove: archive file [/home/abi/fetcher/tmp/goxlr-1.0.1.tar.gz]
+[2023-07-04 03:22:28] INFO root fetch - main [MainThread]: End processing [goxlr]: success
+[2023-07-04 03:22:29] INFO root fetch - processPackages [PyFakeDados]: Remove: archive file [/home/abi/fetcher/tmp/PyFakeDados-0.0.5.2.tar.gz]
+[2023-07-04 03:22:29] INFO root fetch - processPackages [PyFakeDados]: Remove: archive file [/home/abi/fetcher/tmp/PyFakeDados-0.0.5.3.tar.gz]
+[2023-07-04 03:22:29] INFO root fetch - main [MainThread]: End processing [PyFakeDados]: success
+[2023-07-04 03:22:29] INFO root fetch - processPackages [roboto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/roboto_sdk-0.1.4.tar.gz]
+[2023-07-04 03:22:29] INFO root fetch - processPackages [roboto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/roboto_sdk-0.1.5.tar.gz]
+[2023-07-04 03:22:29] INFO root fetch - main [MainThread]: End processing [roboto-sdk]: success
+[2023-07-04 03:22:29] INFO root fetch - main [MainThread]: Store serial: [18747971]
