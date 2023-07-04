@@ -19250,3 +19250,84 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 12:41:05] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.7.tar.gz]
 [2023-07-04 12:41:05] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
 [2023-07-04 12:41:05] INFO root fetch - main [MainThread]: Store serial: [18753535]
+[2023-07-04 12:46:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18753535]
+[2023-07-04 12:46:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-04 12:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vfsfusepy
+[2023-07-04 12:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: physician
+[2023-07-04 12:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: std-logger
+[2023-07-04 12:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PieRakNet
+[2023-07-04 12:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-drive-sdk
+[2023-07-04 12:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lusid-drive-sdk-preview
+[2023-07-04 12:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seeq-ITV-visual
+[2023-07-04 12:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-private-bucket
+[2023-07-04 12:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hvps
+[2023-07-04 12:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jsktoolbox
+[2023-07-04 12:46:19] WARNING root fetch - processPackages [physician]: Skipping, unable to determine old version
+[2023-07-04 12:46:19] INFO root fetch - processPackages [physician]: Start processing: eventiq
+[2023-07-04 12:46:19] INFO root fetch - main [MainThread]: End processing [physician] error
+[2023-07-04 12:46:19] WARNING root fetch - processPackages [jsktoolbox]: Skipping, unable to determine old version
+[2023-07-04 12:46:19] INFO root fetch - processPackages [jsktoolbox]: Start processing: jcci
+[2023-07-04 12:46:19] INFO root fetch - main [MainThread]: End processing [jsktoolbox] error
+[2023-07-04 12:46:19] INFO root fetch - processPackages [hvps]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-04 12:46:19] INFO root fetch - processPackages [std-logger]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-07-04 12:46:19] INFO root fetch - processPackages [lusid-drive-sdk-preview]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-07-04 12:46:19] WARNING root fetch - processPackages [PieRakNet]: Skipping, unable to determine old version
+[2023-07-04 12:46:19] INFO root fetch - main [MainThread]: End processing [PieRakNet] error
+[2023-07-04 12:46:19] WARNING root fetch - processPackages [seeq-ITV-visual]: Skipping, unable to determine old version
+[2023-07-04 12:46:19] WARNING root fetch - processPackages [vfsfusepy]: Skipping, unable to determine old version
+[2023-07-04 12:46:19] INFO root fetch - main [MainThread]: End processing [seeq-ITV-visual] error
+[2023-07-04 12:46:19] INFO root fetch - main [MainThread]: End processing [vfsfusepy] error
+[2023-07-04 12:46:19] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 12:46:19] INFO root fetch - processPackages [eventiq]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 12:46:19] INFO root fetch - processPackages [lusid-drive-sdk]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-07-04 12:46:19] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-07-04 12:46:19] INFO root fetch - processPackages [eventiq]: Downloading https://files.pythonhosted.org/packages/90/a3/cb1bacaf8d97248e075185987fd4455791309421ee2873607737275ef34e/eventiq-0.1.8.tar.gz
+[2023-07-04 12:46:19] INFO root fetch - processPackages [hvps]: Downloading https://files.pythonhosted.org/packages/26/38/c5aacd5aac2cb746637f7620b0e30b429ca572d27a302e0b9e01ef7a882a/hvps-0.0.5.tar.gz
+[2023-07-04 12:46:19] INFO root fetch - processPackages [jcci]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-04 12:46:19] INFO root fetch - processPackages [std-logger]: Downloading https://files.pythonhosted.org/packages/09/e0/9f9b0e982e88a2d34633427e326251edfcc201da502f653e4b7e70005387/std-logger-0.0.6.tar.gz
+[2023-07-04 12:46:19] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/de/c4/d650d6220b8a796e210b789647cfcab1357ab3bd9085ea87d503604999f7/lusid-drive-sdk-0.1.95.tar.gz
+[2023-07-04 12:46:19] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Downloading https://files.pythonhosted.org/packages/3c/36/7ba764c059e4db444f6cf2e73cd8a04b8f90fa2ed8bc8e663f775912d783/lusid-drive-sdk-preview-0.1.95.tar.gz
+[2023-07-04 12:46:19] INFO root fetch - processPackages [hvps]: Downloading https://files.pythonhosted.org/packages/91/cc/a2618621be00c57703c4474b62fd7ae7e983e47955a09b9b32854e8ac357/hvps-0.0.6.tar.gz
+[2023-07-04 12:46:19] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-07-04 12:46:19] INFO root fetch - processPackages [eventiq]: Downloading https://files.pythonhosted.org/packages/d9/70/b75adec1b4c90b8e8555825ef7ddb7424e1c7503f0fd8961247e4f1b66d9/eventiq-0.1.9.tar.gz
+[2023-07-04 12:46:19] INFO root fetch - processPackages [hvps]: executing diffoscope
+[2023-07-04 12:46:19] INFO root fetch - processPackages [hvps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hvps-0.0.5.tar.gz tmp/hvps-0.0.6.tar.gz --markdown 20230704/h/hvps/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-04 12:46:19] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/a4/e2/51c634ac31a098a6f0f8e3748698a3cf874c4c9c7ce9b7eb29db8430539e/jcci-0.0.4.tar.gz
+[2023-07-04 12:46:20] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-07-04 12:46:20] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230704/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 12:46:20] INFO root fetch - processPackages [eventiq]: executing diffoscope
+[2023-07-04 12:46:20] INFO root fetch - processPackages [eventiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventiq-0.1.8.tar.gz tmp/eventiq-0.1.9.tar.gz --markdown 20230704/e/eventiq/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 12:46:20] INFO root fetch - processPackages [std-logger]: Downloading https://files.pythonhosted.org/packages/6a/cc/13ce4b79faebb2a6512b634a1eeda71228a8a28627b88878a0816bf2744f/std-logger-0.0.8.tar.gz
+[2023-07-04 12:46:20] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/df/40/34d8137d43f70f7a96037ba54cbbab838b9ae0bc84531d2be22cb7d3a967/lusid-drive-sdk-0.1.96.tar.gz
+[2023-07-04 12:46:20] INFO root fetch - processPackages [std-logger]: executing diffoscope
+[2023-07-04 12:46:20] INFO root fetch - processPackages [std-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/std-logger-0.0.6.tar.gz tmp/std-logger-0.0.8.tar.gz --markdown 20230704/s/std-logger/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-07-04 12:46:20] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Downloading https://files.pythonhosted.org/packages/61/f8/d24acce70923cfb6b98f767d1ae2f0c298d30f53032363ce65751be8b091/lusid-drive-sdk-preview-0.1.96.tar.gz
+[2023-07-04 12:46:20] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/aa/83/204c7848045ead050121065dacfe71fcce88b16797466971b5249e812e55/jcci-0.0.5.tar.gz
+[2023-07-04 12:46:20] INFO root fetch - processPackages [lusid-drive-sdk]: executing diffoscope
+[2023-07-04 12:46:20] INFO root fetch - processPackages [lusid-drive-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-drive-sdk-0.1.95.tar.gz tmp/lusid-drive-sdk-0.1.96.tar.gz --markdown 20230704/l/lusid-drive-sdk/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-07-04 12:46:20] INFO root fetch - processPackages [lusid-drive-sdk-preview]: executing diffoscope
+[2023-07-04 12:46:20] INFO root fetch - processPackages [lusid-drive-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-drive-sdk-preview-0.1.95.tar.gz tmp/lusid-drive-sdk-preview-0.1.96.tar.gz --markdown 20230704/l/lusid-drive-sdk-preview/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-07-04 12:46:20] INFO root fetch - processPackages [jcci]: executing diffoscope
+[2023-07-04 12:46:20] INFO root fetch - processPackages [jcci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcci-0.0.4.tar.gz tmp/jcci-0.0.5.tar.gz --markdown 20230704/j/jcci/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-04 12:46:21] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-07-04 12:46:21] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-07-04 12:46:21] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-07-04 12:46:21] INFO root fetch - processPackages [hvps]: Remove: archive file [/home/abi/fetcher/tmp/hvps-0.0.5.tar.gz]
+[2023-07-04 12:46:21] INFO root fetch - processPackages [hvps]: Remove: archive file [/home/abi/fetcher/tmp/hvps-0.0.6.tar.gz]
+[2023-07-04 12:46:21] INFO root fetch - main [MainThread]: End processing [hvps]: success
+[2023-07-04 12:46:21] INFO root fetch - processPackages [eventiq]: Remove: archive file [/home/abi/fetcher/tmp/eventiq-0.1.8.tar.gz]
+[2023-07-04 12:46:21] INFO root fetch - processPackages [eventiq]: Remove: archive file [/home/abi/fetcher/tmp/eventiq-0.1.9.tar.gz]
+[2023-07-04 12:46:21] INFO root fetch - main [MainThread]: End processing [eventiq]: success
+[2023-07-04 12:46:21] INFO root fetch - processPackages [std-logger]: Remove: archive file [/home/abi/fetcher/tmp/std-logger-0.0.6.tar.gz]
+[2023-07-04 12:46:21] INFO root fetch - processPackages [std-logger]: Remove: archive file [/home/abi/fetcher/tmp/std-logger-0.0.8.tar.gz]
+[2023-07-04 12:46:21] INFO root fetch - main [MainThread]: End processing [std-logger]: success
+[2023-07-04 12:46:21] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-0.1.95.tar.gz]
+[2023-07-04 12:46:21] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-0.1.96.tar.gz]
+[2023-07-04 12:46:21] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk]: success
+[2023-07-04 12:46:22] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.0.4.tar.gz]
+[2023-07-04 12:46:22] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.0.5.tar.gz]
+[2023-07-04 12:46:22] INFO root fetch - main [MainThread]: End processing [jcci]: success
+[2023-07-04 12:46:22] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-preview-0.1.95.tar.gz]
+[2023-07-04 12:46:22] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-preview-0.1.96.tar.gz]
+[2023-07-04 12:46:22] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk-preview]: success
+[2023-07-04 12:46:22] INFO root fetch - main [MainThread]: Store serial: [18753581]
