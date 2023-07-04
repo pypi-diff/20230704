@@ -10973,3 +10973,117 @@
 [2023-07-04 06:05:17] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230703.tar.gz]
 [2023-07-04 06:05:17] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
 [2023-07-04 06:05:17] INFO root fetch - main [MainThread]: Store serial: [18750042]
+[2023-07-04 06:10:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18750042]
+[2023-07-04 06:10:26] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-04 06:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypdfium2
+[2023-07-04 06:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo9-addon-l10n-ch-dta
+[2023-07-04 06:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo9-addon-l10n-ch-import-cresus
+[2023-07-04 06:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo9-addon-l10n-ch-import-winbiz
+[2023-07-04 06:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo9-addon-l10n-ch-fds-postfinance
+[2023-07-04 06:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo10-addon-l10n-ch-fds-postfinance
+[2023-07-04 06:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mathkit
+[2023-07-04 06:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo11-addon-l10n-ch-fds-postfinance
+[2023-07-04 06:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: swarms
+[2023-07-04 06:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pip-compile-universal
+[2023-07-04 06:10:26] INFO root fetch - processPackages [odoo9-addon-l10n-ch-import-cresus]: New version: [9.0.1.0.0.99.dev96] Old Version: [9.0.1.0.0.99.dev95]
+[2023-07-04 06:10:26] INFO root fetch - processPackages [odoo9-addon-l10n-ch-dta]: New version: [9.0.1.0.5.99.dev9] Old Version: [9.0.1.0.5.99.dev8]
+[2023-07-04 06:10:26] INFO root fetch - processPackages [odoo11-addon-l10n-ch-fds-postfinance]: New version: [11.0.1.0.2.99.dev9] Old Version: [11.0.1.0.2.99.dev7]
+[2023-07-04 06:10:26] INFO root fetch - processPackages [odoo10-addon-l10n-ch-fds-postfinance]: New version: [10.0.1.0.0.99.dev9] Old Version: [10.0.1.0.0.99.dev8]
+[2023-07-04 06:10:26] INFO root fetch - processPackages [odoo9-addon-l10n-ch-import-winbiz]: New version: [9.0.1.0.1.99.dev9] Old Version: [9.0.1.0.1.99.dev8]
+[2023-07-04 06:10:26] INFO root fetch - processPackages [mathkit]: New version: [3.1.2] Old Version: [2.15.2]
+[2023-07-04 06:10:26] INFO root fetch - processPackages [odoo9-addon-l10n-ch-fds-postfinance]: New version: [9.0.1.0.0.99.dev30] Old Version: [9.0.1.0.0.99.dev29]
+[2023-07-04 06:10:26] INFO root fetch - processPackages [pip-compile-universal]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-04 06:10:26] INFO root fetch - processPackages [swarms]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-04 06:10:26] INFO root fetch - processPackages [pypdfium2]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-07-04 06:10:26] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/99/01/9508a98fb7ed5681885cda780427a14f475ecb72e93efcf1577474c0aaae/swarms-0.3.0.tar.gz
+[2023-07-04 06:10:26] INFO root fetch - processPackages [odoo9-addon-l10n-ch-dta]: Downloading https://files.pythonhosted.org/packages/b9/c5/50ba2f9cb8f58905c3cb11da2563ca52e3a5524ba0584e061b2d413de4a1/odoo9_addon_l10n_ch_dta-9.0.1.0.5.99.dev8-py2-none-any.whl
+[2023-07-04 06:10:26] INFO root fetch - processPackages [odoo11-addon-l10n-ch-fds-postfinance]: Downloading https://files.pythonhosted.org/packages/30/95/605bbba33896a1ae6bd9b00acf5bdc046d9b873406030c82b72cd7c712d0/odoo11_addon_l10n_ch_fds_postfinance-11.0.1.0.2.99.dev7-py2.py3-none-any.whl
+[2023-07-04 06:10:26] INFO root fetch - processPackages [pip-compile-universal]: Downloading https://files.pythonhosted.org/packages/83/0d/005f0be1640ace09dc2778ebe449d8d45bc9edc9c4399881c3b2c3520dc5/pip_compile_universal-0.0.2.tar.gz
+[2023-07-04 06:10:27] INFO root fetch - processPackages [mathkit]: Downloading https://files.pythonhosted.org/packages/4f/0c/ba54189e969340a64e99e154d038402ddbc7990f9dd9b985d293a9d15327/mathkit-2.15.2.tar.gz
+[2023-07-04 06:10:27] INFO root fetch - processPackages [odoo9-addon-l10n-ch-fds-postfinance]: Downloading https://files.pythonhosted.org/packages/c1/7a/968c60cbf41df920f632ac58bbee84bfd526f4e7141718745213030b450c/odoo9_addon_l10n_ch_fds_postfinance-9.0.1.0.0.99.dev29-py2-none-any.whl
+[2023-07-04 06:10:27] INFO root fetch - processPackages [odoo10-addon-l10n-ch-fds-postfinance]: Downloading https://files.pythonhosted.org/packages/1f/9f/508138beb96228e6e40d670885f6081de8ebea6b127814db96a89f395b3f/odoo10_addon_l10n_ch_fds_postfinance-10.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-07-04 06:10:27] INFO root fetch - processPackages [odoo9-addon-l10n-ch-import-cresus]: Downloading https://files.pythonhosted.org/packages/28/04/7a160846133a061b946083cd88da5eae760d59f5571ed9c946d410a3036f/odoo9_addon_l10n_ch_import_cresus-9.0.1.0.0.99.dev95-py2-none-any.whl
+[2023-07-04 06:10:27] INFO root fetch - processPackages [pypdfium2]: Downloading https://files.pythonhosted.org/packages/1e/63/de38940b0c9273462d70d7cfa4c0b80878b1b8b1b29d317209e9014f8d2d/pypdfium2-4.8.0.tar.gz
+[2023-07-04 06:10:27] INFO root fetch - processPackages [odoo9-addon-l10n-ch-import-winbiz]: Downloading https://files.pythonhosted.org/packages/8c/2a/09debff58f6e1372f469ddecd98509c6cca0bb85f476b42fce3bc493a3de/odoo9_addon_l10n_ch_import_winbiz-9.0.1.0.1.99.dev8-py2-none-any.whl
+[2023-07-04 06:10:27] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/e7/6c/9f555c11c2e02f5274e888bc6d4efb8f43826ee9f45512a32b972554fabe/swarms-0.3.1.tar.gz
+[2023-07-04 06:10:27] INFO root fetch - processPackages [odoo9-addon-l10n-ch-dta]: Downloading https://files.pythonhosted.org/packages/40/00/8f2ab9fab5a8b98d822fd18c2878a656692e13de0cb72f420a058fb1b804/odoo9_addon_l10n_ch_dta-9.0.1.0.5.99.dev9-py2-none-any.whl
+[2023-07-04 06:10:27] INFO root fetch - processPackages [mathkit]: Downloading https://files.pythonhosted.org/packages/46/88/275ec79a115df6c6e584a3a9cb0a52cef2a469dba6f67dec7b86e331a175/mathkit-3.1.2.tar.gz
+[2023-07-04 06:10:27] INFO root fetch - processPackages [pip-compile-universal]: Downloading https://files.pythonhosted.org/packages/f2/6e/142acd9fed04904a507a309fe42923375e6a85dcc7f82c9da8a4e9618073/pip_compile_universal-0.0.3.tar.gz
+[2023-07-04 06:10:27] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-04 06:10:27] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.3.0.tar.gz tmp/swarms-0.3.1.tar.gz --markdown 20230704/s/swarms/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-04 06:10:27] INFO root fetch - processPackages [odoo9-addon-l10n-ch-import-cresus]: Downloading https://files.pythonhosted.org/packages/97/0f/08b5ee7f89754a0fe05ce4aee4d8eaec40e9e69d930481a99dc3f668d261/odoo9_addon_l10n_ch_import_cresus-9.0.1.0.0.99.dev96-py2-none-any.whl
+[2023-07-04 06:10:27] INFO root fetch - processPackages [odoo9-addon-l10n-ch-fds-postfinance]: Downloading https://files.pythonhosted.org/packages/30/b9/28d7fa7edd583db4cbe4ed72271f211d96e76754805b60ff0df381a5a826/odoo9_addon_l10n_ch_fds_postfinance-9.0.1.0.0.99.dev30-py2-none-any.whl
+[2023-07-04 06:10:27] INFO root fetch - processPackages [pip-compile-universal]: executing diffoscope
+[2023-07-04 06:10:27] INFO root fetch - processPackages [pip-compile-universal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip_compile_universal-0.0.2.tar.gz tmp/pip_compile_universal-0.0.3.tar.gz --markdown 20230704/p/pip-compile-universal/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-04 06:10:27] INFO root fetch - processPackages [pypdfium2]: Downloading https://files.pythonhosted.org/packages/4a/d0/bca4a5d0b0d7cc464934bc5eaf83745d8cd5801cebbff4195e3149cb9a2b/pypdfium2-4.9.0.tar.gz
+[2023-07-04 06:10:27] INFO root fetch - processPackages [odoo9-addon-l10n-ch-dta]: executing diffoscope
+[2023-07-04 06:10:27] INFO root fetch - processPackages [odoo9-addon-l10n-ch-dta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_l10n_ch_dta-9.0.1.0.5.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_l10n_ch_dta-9.0.1.0.5.99.dev9-py2-none-any.whl.zip --markdown 20230704/o/odoo9-addon-l10n-ch-dta/9.0.1.0.5.99.dev8-9.0.1.0.5.99.dev9/diff.md --exclude *.pyd
+[2023-07-04 06:10:27] INFO root fetch - processPackages [odoo9-addon-l10n-ch-import-winbiz]: Downloading https://files.pythonhosted.org/packages/99/ac/3fa1860f67683f3dec1c889299e605383654481ae5a0300d7500c5165cc7/odoo9_addon_l10n_ch_import_winbiz-9.0.1.0.1.99.dev9-py2-none-any.whl
+[2023-07-04 06:10:27] INFO root fetch - processPackages [mathkit]: executing diffoscope
+[2023-07-04 06:10:27] INFO root fetch - processPackages [odoo11-addon-l10n-ch-fds-postfinance]: Downloading https://files.pythonhosted.org/packages/83/eb/08fdcd619c4c0b20aac30b26d8a3f1403a26278ac38d9ae7d510cb873b19/odoo11_addon_l10n_ch_fds_postfinance-11.0.1.0.2.99.dev9-py2.py3-none-any.whl
+[2023-07-04 06:10:27] INFO root fetch - processPackages [mathkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathkit-2.15.2.tar.gz tmp/mathkit-3.1.2.tar.gz --markdown 20230704/m/mathkit/2.15.2-3.1.2/diff.md --exclude *.pyd
+[2023-07-04 06:10:27] INFO root fetch - processPackages [odoo10-addon-l10n-ch-fds-postfinance]: Downloading https://files.pythonhosted.org/packages/14/65/0da7250f6295d4dcc527fd2f7b03bde2f7cbd0f8eaf5b1ac4a7fae479ed2/odoo10_addon_l10n_ch_fds_postfinance-10.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-07-04 06:10:27] INFO root fetch - processPackages [odoo9-addon-l10n-ch-fds-postfinance]: executing diffoscope
+[2023-07-04 06:10:27] INFO root fetch - processPackages [odoo9-addon-l10n-ch-import-cresus]: executing diffoscope
+[2023-07-04 06:10:27] INFO root fetch - processPackages [odoo9-addon-l10n-ch-fds-postfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_l10n_ch_fds_postfinance-9.0.1.0.0.99.dev29-py2-none-any.whl.zip tmp/odoo9_addon_l10n_ch_fds_postfinance-9.0.1.0.0.99.dev30-py2-none-any.whl.zip --markdown 20230704/o/odoo9-addon-l10n-ch-fds-postfinance/9.0.1.0.0.99.dev29-9.0.1.0.0.99.dev30/diff.md --exclude *.pyd
+[2023-07-04 06:10:27] INFO root fetch - processPackages [odoo9-addon-l10n-ch-import-cresus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_l10n_ch_import_cresus-9.0.1.0.0.99.dev95-py2-none-any.whl.zip tmp/odoo9_addon_l10n_ch_import_cresus-9.0.1.0.0.99.dev96-py2-none-any.whl.zip --markdown 20230704/o/odoo9-addon-l10n-ch-import-cresus/9.0.1.0.0.99.dev95-9.0.1.0.0.99.dev96/diff.md --exclude *.pyd
+[2023-07-04 06:10:27] INFO root fetch - processPackages [pypdfium2]: executing diffoscope
+[2023-07-04 06:10:27] INFO root fetch - processPackages [pypdfium2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdfium2-4.8.0.tar.gz tmp/pypdfium2-4.9.0.tar.gz --markdown 20230704/p/pypdfium2/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-07-04 06:10:27] INFO root fetch - processPackages [odoo11-addon-l10n-ch-fds-postfinance]: executing diffoscope
+[2023-07-04 06:10:27] INFO root fetch - processPackages [odoo11-addon-l10n-ch-fds-postfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_l10n_ch_fds_postfinance-11.0.1.0.2.99.dev7-py2.py3-none-any.whl.zip tmp/odoo11_addon_l10n_ch_fds_postfinance-11.0.1.0.2.99.dev9-py2.py3-none-any.whl.zip --markdown 20230704/o/odoo11-addon-l10n-ch-fds-postfinance/11.0.1.0.2.99.dev7-11.0.1.0.2.99.dev9/diff.md --exclude *.pyd
+[2023-07-04 06:10:27] INFO root fetch - processPackages [odoo9-addon-l10n-ch-import-winbiz]: executing diffoscope
+[2023-07-04 06:10:27] INFO root fetch - processPackages [odoo9-addon-l10n-ch-import-winbiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_l10n_ch_import_winbiz-9.0.1.0.1.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_l10n_ch_import_winbiz-9.0.1.0.1.99.dev9-py2-none-any.whl.zip --markdown 20230704/o/odoo9-addon-l10n-ch-import-winbiz/9.0.1.0.1.99.dev8-9.0.1.0.1.99.dev9/diff.md --exclude *.pyd
+[2023-07-04 06:10:27] INFO root fetch - processPackages [odoo10-addon-l10n-ch-fds-postfinance]: executing diffoscope
+[2023-07-04 06:10:27] INFO root fetch - processPackages [odoo10-addon-l10n-ch-fds-postfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_l10n_ch_fds_postfinance-10.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_l10n_ch_fds_postfinance-10.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230704/o/odoo10-addon-l10n-ch-fds-postfinance/10.0.1.0.0.99.dev8-10.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-04 06:10:29] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.3.0.tar.gz]
+[2023-07-04 06:10:29] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.3.1.tar.gz]
+[2023-07-04 06:10:29] INFO root fetch - processPackages [swarms]: Start processing: KrakenOS
+[2023-07-04 06:10:29] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-04 06:10:29] INFO root fetch - processPackages [KrakenOS]: New version: [1.0.0.9] Old Version: [1.0.0.7]
+[2023-07-04 06:10:29] INFO root fetch - processPackages [pip-compile-universal]: Remove: archive file [/home/abi/fetcher/tmp/pip_compile_universal-0.0.2.tar.gz]
+[2023-07-04 06:10:29] INFO root fetch - processPackages [pip-compile-universal]: Remove: archive file [/home/abi/fetcher/tmp/pip_compile_universal-0.0.3.tar.gz]
+[2023-07-04 06:10:29] INFO root fetch - processPackages [pip-compile-universal]: Start processing: arcan
+[2023-07-04 06:10:29] INFO root fetch - main [MainThread]: End processing [pip-compile-universal]: success
+[2023-07-04 06:10:29] INFO root fetch - processPackages [arcan]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-07-04 06:10:29] INFO root fetch - processPackages [mathkit]: Remove: archive file [/home/abi/fetcher/tmp/mathkit-2.15.2.tar.gz]
+[2023-07-04 06:10:29] INFO root fetch - processPackages [mathkit]: Remove: archive file [/home/abi/fetcher/tmp/mathkit-3.1.2.tar.gz]
+[2023-07-04 06:10:29] INFO root fetch - processPackages [mathkit]: Start processing: ezek-distributions
+[2023-07-04 06:10:29] INFO root fetch - main [MainThread]: End processing [mathkit]: success
+[2023-07-04 06:10:29] INFO root fetch - processPackages [KrakenOS]: Downloading https://files.pythonhosted.org/packages/9d/8a/1f1279095e4a2f69b69ced027d04fc1187efea348aaec93b4fd7d8ca833b/KrakenOS-1.0.0.7.tar.gz
+[2023-07-04 06:10:29] INFO root fetch - processPackages [arcan]: Downloading https://files.pythonhosted.org/packages/ae/e5/c35089e4d1c111f5b3c4b5a4f507f1e54d59f879a70efa4a63f3fc968105/arcan-1.3.7.tar.gz
+[2023-07-04 06:10:29] WARNING root fetch - processPackages [ezek-distributions]: Skipping, unable to determine old version
+[2023-07-04 06:10:29] INFO root fetch - main [MainThread]: End processing [ezek-distributions] error
+[2023-07-04 06:10:29] INFO root fetch - processPackages [odoo9-addon-l10n-ch-dta]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_l10n_ch_dta-9.0.1.0.5.99.dev8-py2-none-any.whl.zip]
+[2023-07-04 06:10:29] INFO root fetch - processPackages [odoo9-addon-l10n-ch-dta]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_l10n_ch_dta-9.0.1.0.5.99.dev9-py2-none-any.whl.zip]
+[2023-07-04 06:10:29] INFO root fetch - main [MainThread]: End processing [odoo9-addon-l10n-ch-dta]: success
+[2023-07-04 06:10:29] INFO root fetch - processPackages [pypdfium2]: Remove: archive file [/home/abi/fetcher/tmp/pypdfium2-4.8.0.tar.gz]
+[2023-07-04 06:10:29] INFO root fetch - processPackages [pypdfium2]: Remove: archive file [/home/abi/fetcher/tmp/pypdfium2-4.9.0.tar.gz]
+[2023-07-04 06:10:29] INFO root fetch - main [MainThread]: End processing [pypdfium2]: success
+[2023-07-04 06:10:29] INFO root fetch - processPackages [arcan]: Downloading https://files.pythonhosted.org/packages/66/36/accdfe4b603881437e595ba6435dbec6145f5e3e812ba065cce7a56d09ff/arcan-1.3.8.tar.gz
+[2023-07-04 06:10:29] INFO root fetch - processPackages [arcan]: executing diffoscope
+[2023-07-04 06:10:29] INFO root fetch - processPackages [arcan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcan-1.3.7.tar.gz tmp/arcan-1.3.8.tar.gz --markdown 20230704/a/arcan/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-07-04 06:10:29] INFO root fetch - processPackages [odoo9-addon-l10n-ch-import-winbiz]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_l10n_ch_import_winbiz-9.0.1.0.1.99.dev8-py2-none-any.whl.zip]
+[2023-07-04 06:10:29] INFO root fetch - processPackages [odoo9-addon-l10n-ch-import-winbiz]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_l10n_ch_import_winbiz-9.0.1.0.1.99.dev9-py2-none-any.whl.zip]
+[2023-07-04 06:10:29] INFO root fetch - main [MainThread]: End processing [odoo9-addon-l10n-ch-import-winbiz]: success
+[2023-07-04 06:10:29] INFO root fetch - processPackages [odoo9-addon-l10n-ch-fds-postfinance]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_l10n_ch_fds_postfinance-9.0.1.0.0.99.dev29-py2-none-any.whl.zip]
+[2023-07-04 06:10:29] INFO root fetch - processPackages [odoo9-addon-l10n-ch-fds-postfinance]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_l10n_ch_fds_postfinance-9.0.1.0.0.99.dev30-py2-none-any.whl.zip]
+[2023-07-04 06:10:29] INFO root fetch - main [MainThread]: End processing [odoo9-addon-l10n-ch-fds-postfinance]: success
+[2023-07-04 06:10:30] INFO root fetch - processPackages [odoo11-addon-l10n-ch-fds-postfinance]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_ch_fds_postfinance-11.0.1.0.2.99.dev7-py2.py3-none-any.whl.zip]
+[2023-07-04 06:10:30] INFO root fetch - processPackages [odoo11-addon-l10n-ch-fds-postfinance]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_ch_fds_postfinance-11.0.1.0.2.99.dev9-py2.py3-none-any.whl.zip]
+[2023-07-04 06:10:30] INFO root fetch - main [MainThread]: End processing [odoo11-addon-l10n-ch-fds-postfinance]: success
+[2023-07-04 06:10:30] INFO root fetch - processPackages [odoo9-addon-l10n-ch-import-cresus]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_l10n_ch_import_cresus-9.0.1.0.0.99.dev95-py2-none-any.whl.zip]
+[2023-07-04 06:10:30] INFO root fetch - processPackages [odoo9-addon-l10n-ch-import-cresus]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_l10n_ch_import_cresus-9.0.1.0.0.99.dev96-py2-none-any.whl.zip]
+[2023-07-04 06:10:30] INFO root fetch - main [MainThread]: End processing [odoo9-addon-l10n-ch-import-cresus]: success
+[2023-07-04 06:10:30] INFO root fetch - processPackages [odoo10-addon-l10n-ch-fds-postfinance]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_l10n_ch_fds_postfinance-10.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-04 06:10:30] INFO root fetch - processPackages [odoo10-addon-l10n-ch-fds-postfinance]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_l10n_ch_fds_postfinance-10.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-04 06:10:30] INFO root fetch - main [MainThread]: End processing [odoo10-addon-l10n-ch-fds-postfinance]: success
+[2023-07-04 06:10:30] INFO root fetch - processPackages [KrakenOS]: Downloading https://files.pythonhosted.org/packages/d9/d9/dce13ee42f800b84b70b9e70373cd13d02fa9eb3876b1c7215b857953e68/KrakenOS-1.0.0.9.tar.gz
+[2023-07-04 06:10:30] INFO root fetch - processPackages [arcan]: Remove: archive file [/home/abi/fetcher/tmp/arcan-1.3.7.tar.gz]
+[2023-07-04 06:10:30] INFO root fetch - processPackages [arcan]: Remove: archive file [/home/abi/fetcher/tmp/arcan-1.3.8.tar.gz]
+[2023-07-04 06:10:30] INFO root fetch - main [MainThread]: End processing [arcan]: success
+[2023-07-04 06:10:31] INFO root fetch - processPackages [KrakenOS]: executing diffoscope
+[2023-07-04 06:10:31] INFO root fetch - processPackages [KrakenOS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KrakenOS-1.0.0.7.tar.gz tmp/KrakenOS-1.0.0.9.tar.gz --markdown 20230704/K/KrakenOS/1.0.0.7-1.0.0.9/diff.md --exclude *.pyd
+[2023-07-04 06:10:33] INFO root fetch - processPackages [KrakenOS]: Remove: archive file [/home/abi/fetcher/tmp/KrakenOS-1.0.0.7.tar.gz]
+[2023-07-04 06:10:33] INFO root fetch - processPackages [KrakenOS]: Remove: archive file [/home/abi/fetcher/tmp/KrakenOS-1.0.0.9.tar.gz]
+[2023-07-04 06:10:33] INFO root fetch - main [MainThread]: End processing [KrakenOS]: success
+[2023-07-04 06:10:33] INFO root fetch - main [MainThread]: Store serial: [18750086]
