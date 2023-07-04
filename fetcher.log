@@ -11513,3 +11513,81 @@
 [2023-07-04 06:36:42] INFO root fetch - processPackages [pypcapkit]: Remove: archive file [/home/abi/fetcher/tmp/pypcapkit-1.0.3.post3.tar.gz]
 [2023-07-04 06:36:42] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
 [2023-07-04 06:36:42] INFO root fetch - main [MainThread]: Store serial: [18750250]
+[2023-07-04 06:41:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18750250]
+[2023-07-04 06:41:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-04 06:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-pos-payment-terminal
+[2023-07-04 06:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: microviewer
+[2023-07-04 06:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-product-pricelist-assortment
+[2023-07-04 06:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swarms
+[2023-07-04 06:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dank-mids
+[2023-07-04 06:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: exp-hurst
+[2023-07-04 06:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: customized-table
+[2023-07-04 06:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iformat
+[2023-07-04 06:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: excel-splitter
+[2023-07-04 06:41:52] INFO root fetch - processPackages [odoo14-addon-pos-payment-terminal]: New version: [14.0.2.1.1.dev5] Old Version: [14.0.2.1.1.dev4]
+[2023-07-04 06:41:52] INFO root fetch - processPackages [iformat]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-07-04 06:41:52] INFO root fetch - processPackages [swarms]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-04 06:41:52] INFO root fetch - processPackages [customized-table]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 06:41:52] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: New version: [14.0.2.2.1.dev1] Old Version: [14.0.2.2.0]
+[2023-07-04 06:41:52] INFO root fetch - processPackages [microviewer]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-07-04 06:41:52] WARNING root fetch - processPackages [exp-hurst]: Skipping, unable to determine old version
+[2023-07-04 06:41:52] INFO root fetch - main [MainThread]: End processing [exp-hurst] error
+[2023-07-04 06:41:52] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-04 06:41:52] INFO root fetch - processPackages [excel-splitter]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-04 06:41:52] INFO root fetch - processPackages [iformat]: Downloading https://files.pythonhosted.org/packages/7d/8d/3f2ff47bdbca26ebed50af17cbddfdb81d0f9609d89826eba1f6f6e4695e/iformat-0.0.4.tar.gz
+[2023-07-04 06:41:52] INFO root fetch - processPackages [microviewer]: Downloading https://files.pythonhosted.org/packages/9d/76/5be032ebf2377a3866301ffe85b96874045faed9bda55ded20e8774a603b/microviewer-1.5.0.tar.gz
+[2023-07-04 06:41:52] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/c6/cf/2029a9a1d3cb1ed1414de88cc53a32c8414e0364b59438ab746beb5f4d0b/swarms-0.3.2.tar.gz
+[2023-07-04 06:41:52] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: Downloading https://files.pythonhosted.org/packages/0b/f0/c33b79d20b59d3ad41943e87c4616cc4610f0962203b7f67aaa78759edd9/odoo14_addon_product_pricelist_assortment-14.0.2.2.0-py3-none-any.whl
+[2023-07-04 06:41:52] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-04 06:41:52] INFO root fetch - processPackages [odoo14-addon-pos-payment-terminal]: Downloading https://files.pythonhosted.org/packages/d0/c1/2e185901e2c9de627b558973839c751e3bf0849ec684fa4b36f5fbb1362f/odoo14_addon_pos_payment_terminal-14.0.2.1.1.dev4-py3-none-any.whl
+[2023-07-04 06:41:53] INFO root fetch - processPackages [customized-table]: Downloading https://files.pythonhosted.org/packages/74/f5/11cce4982efd7bb1e793bd5f4d65a4df5dd1305caa21fac9a154c00e6af3/customized_table-0.1.8.tar.gz
+[2023-07-04 06:41:53] INFO root fetch - processPackages [excel-splitter]: Downloading https://files.pythonhosted.org/packages/13/93/67c2c4369084daf5bb49a0e6d00ae6ccff7a083b4a6e93c437d7fa3a6d30/excel_splitter-0.0.4.tar.gz
+[2023-07-04 06:41:53] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/13/3b/96b811835f3d548cd622de758246c7b2e06de31f75a632495fa2edfebad5/swarms-0.3.3.tar.gz
+[2023-07-04 06:41:53] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: Downloading https://files.pythonhosted.org/packages/58/7d/4d8417adb6d16db5e7639bb7ad68a1bb83eeb1d91adf0a6f470cae192f1c/odoo14_addon_product_pricelist_assortment-14.0.2.2.1.dev1-py3-none-any.whl
+[2023-07-04 06:41:53] INFO root fetch - processPackages [iformat]: Downloading https://files.pythonhosted.org/packages/5e/be/67762e57d64ca5be90ad822f3b023ed8095fa094437e2d2cbc743a7c14f4/iformat-0.1.0.tar.gz
+[2023-07-04 06:41:53] INFO root fetch - processPackages [microviewer]: Downloading https://files.pythonhosted.org/packages/be/78/804db98e381fa104da7bbff06cbfab84372d999d27624d836c28e1888715/microviewer-1.6.0.tar.gz
+[2023-07-04 06:41:53] INFO root fetch - processPackages [odoo14-addon-pos-payment-terminal]: Downloading https://files.pythonhosted.org/packages/5f/20/da82aa5694894374fa247e73d00ee7cfb0f3e87e038db866cf7bd5fe7d47/odoo14_addon_pos_payment_terminal-14.0.2.1.1.dev5-py3-none-any.whl
+[2023-07-04 06:41:53] INFO root fetch - processPackages [excel-splitter]: Downloading https://files.pythonhosted.org/packages/ed/cd/bbf9120f3119a88bbc85d3b6a6d33bb48e9706fd04296bc908da6ae33d5b/excel_splitter-0.0.5.tar.gz
+[2023-07-04 06:41:53] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-04 06:41:53] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.3.2.tar.gz tmp/swarms-0.3.3.tar.gz --markdown 20230704/s/swarms/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-04 06:41:53] INFO root fetch - processPackages [iformat]: executing diffoscope
+[2023-07-04 06:41:53] INFO root fetch - processPackages [iformat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iformat-0.0.4.tar.gz tmp/iformat-0.1.0.tar.gz --markdown 20230704/i/iformat/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-07-04 06:41:53] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-04 06:41:53] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: executing diffoscope
+[2023-07-04 06:41:53] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_pricelist_assortment-14.0.2.2.0-py3-none-any.whl.zip tmp/odoo14_addon_product_pricelist_assortment-14.0.2.2.1.dev1-py3-none-any.whl.zip --markdown 20230704/o/odoo14-addon-product-pricelist-assortment/14.0.2.2.0-14.0.2.2.1.dev1/diff.md --exclude *.pyd
+[2023-07-04 06:41:53] INFO root fetch - processPackages [microviewer]: executing diffoscope
+[2023-07-04 06:41:53] INFO root fetch - processPackages [microviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microviewer-1.5.0.tar.gz tmp/microviewer-1.6.0.tar.gz --markdown 20230704/m/microviewer/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-07-04 06:41:53] INFO root fetch - processPackages [customized-table]: Downloading https://files.pythonhosted.org/packages/89/16/e28f5539a23e94c547afbb16ecc72fdb7d9a96778b96939995e3d92a2659/customized_table-0.1.9.tar.gz
+[2023-07-04 06:41:53] INFO root fetch - processPackages [excel-splitter]: executing diffoscope
+[2023-07-04 06:41:53] INFO root fetch - processPackages [excel-splitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excel_splitter-0.0.4.tar.gz tmp/excel_splitter-0.0.5.tar.gz --markdown 20230704/e/excel-splitter/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-04 06:41:53] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-04 06:41:53] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230704/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-04 06:41:53] INFO root fetch - processPackages [odoo14-addon-pos-payment-terminal]: executing diffoscope
+[2023-07-04 06:41:53] INFO root fetch - processPackages [odoo14-addon-pos-payment-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pos_payment_terminal-14.0.2.1.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_pos_payment_terminal-14.0.2.1.1.dev5-py3-none-any.whl.zip --markdown 20230704/o/odoo14-addon-pos-payment-terminal/14.0.2.1.1.dev4-14.0.2.1.1.dev5/diff.md --exclude *.pyd
+[2023-07-04 06:41:53] INFO root fetch - processPackages [customized-table]: executing diffoscope
+[2023-07-04 06:41:53] INFO root fetch - processPackages [customized-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customized_table-0.1.8.tar.gz tmp/customized_table-0.1.9.tar.gz --markdown 20230704/c/customized-table/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 06:41:54] INFO root fetch - processPackages [iformat]: Remove: archive file [/home/abi/fetcher/tmp/iformat-0.0.4.tar.gz]
+[2023-07-04 06:41:54] INFO root fetch - processPackages [iformat]: Remove: archive file [/home/abi/fetcher/tmp/iformat-0.1.0.tar.gz]
+[2023-07-04 06:41:54] INFO root fetch - main [MainThread]: End processing [iformat]: success
+[2023-07-04 06:41:54] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.3.2.tar.gz]
+[2023-07-04 06:41:54] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.3.3.tar.gz]
+[2023-07-04 06:41:54] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-04 06:41:55] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-04 06:41:55] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-04 06:41:55] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-04 06:41:55] INFO root fetch - processPackages [excel-splitter]: Remove: archive file [/home/abi/fetcher/tmp/excel_splitter-0.0.4.tar.gz]
+[2023-07-04 06:41:55] INFO root fetch - processPackages [excel-splitter]: Remove: archive file [/home/abi/fetcher/tmp/excel_splitter-0.0.5.tar.gz]
+[2023-07-04 06:41:55] INFO root fetch - main [MainThread]: End processing [excel-splitter]: success
+[2023-07-04 06:41:55] INFO root fetch - processPackages [customized-table]: Remove: archive file [/home/abi/fetcher/tmp/customized_table-0.1.8.tar.gz]
+[2023-07-04 06:41:55] INFO root fetch - processPackages [customized-table]: Remove: archive file [/home/abi/fetcher/tmp/customized_table-0.1.9.tar.gz]
+[2023-07-04 06:41:55] INFO root fetch - main [MainThread]: End processing [customized-table]: success
+[2023-07-04 06:41:55] INFO root fetch - processPackages [odoo14-addon-pos-payment-terminal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pos_payment_terminal-14.0.2.1.1.dev4-py3-none-any.whl.zip]
+[2023-07-04 06:41:55] INFO root fetch - processPackages [odoo14-addon-pos-payment-terminal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pos_payment_terminal-14.0.2.1.1.dev5-py3-none-any.whl.zip]
+[2023-07-04 06:41:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pos-payment-terminal]: success
+[2023-07-04 06:41:55] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_pricelist_assortment-14.0.2.2.0-py3-none-any.whl.zip]
+[2023-07-04 06:41:55] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_pricelist_assortment-14.0.2.2.1.dev1-py3-none-any.whl.zip]
+[2023-07-04 06:41:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-pricelist-assortment]: success
+[2023-07-04 06:41:55] INFO root fetch - processPackages [microviewer]: Remove: archive file [/home/abi/fetcher/tmp/microviewer-1.5.0.tar.gz]
+[2023-07-04 06:41:55] INFO root fetch - processPackages [microviewer]: Remove: archive file [/home/abi/fetcher/tmp/microviewer-1.6.0.tar.gz]
+[2023-07-04 06:41:55] INFO root fetch - main [MainThread]: End processing [microviewer]: success
+[2023-07-04 06:41:55] INFO root fetch - main [MainThread]: Store serial: [18750278]
