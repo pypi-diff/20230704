@@ -18508,3 +18508,131 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 12:08:32] INFO root fetch - processPackages [jijmodeling]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling-1.0.0rc1-cp310-cp310-manylinux_2_28_aarch64.whl.zip]
 [2023-07-04 12:08:32] INFO root fetch - main [MainThread]: End processing [jijmodeling]: success
 [2023-07-04 12:08:32] INFO root fetch - main [MainThread]: Store serial: [18753126]
+[2023-07-04 12:13:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18753126]
+[2023-07-04 12:13:43] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-04 12:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scanpydoc
+[2023-07-04 12:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-cpu-aws
+[2023-07-04 12:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hayloft
+[2023-07-04 12:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: refoss-ha
+[2023-07-04 12:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oidc-drf
+[2023-07-04 12:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swibots
+[2023-07-04 12:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: veetility
+[2023-07-04 12:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flypp
+[2023-07-04 12:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dm-reverb-nightly
+[2023-07-04 12:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyrogram-repl
+[2023-07-04 12:13:43] WARNING root fetch - processPackages [refoss-ha]: Skipping, unable to determine old version
+[2023-07-04 12:13:43] INFO root fetch - processPackages [refoss-ha]: Start processing: browserstack-sdk
+[2023-07-04 12:13:43] INFO root fetch - main [MainThread]: End processing [refoss-ha] error
+[2023-07-04 12:13:43] INFO root fetch - processPackages [veetility]: New version: [0.1.95] Old Version: [0.1.94]
+[2023-07-04 12:13:43] WARNING root fetch - processPackages [flypp]: Skipping, unable to determine old version
+[2023-07-04 12:13:43] INFO root fetch - processPackages [flypp]: Start processing: kafkaclientveli
+[2023-07-04 12:13:43] INFO root fetch - main [MainThread]: End processing [flypp] error
+[2023-07-04 12:13:43] INFO root fetch - processPackages [scanpydoc]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-04 12:13:43] INFO root fetch - processPackages [oidc-drf]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-04 12:13:43] INFO root fetch - processPackages [tf-nightly-cpu-aws]: New version: [2.14.0.dev20230703] Old Version: [2.14.0.dev20230702]
+[2023-07-04 12:13:43] WARNING root fetch - processPackages [pyrogram-repl]: Skipping, unable to determine old version
+[2023-07-04 12:13:43] INFO root fetch - processPackages [pyrogram-repl]: Start processing: seeq-ITV-visual
+[2023-07-04 12:13:43] INFO root fetch - main [MainThread]: End processing [pyrogram-repl] error
+[2023-07-04 12:13:43] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-07-04 12:13:43] INFO root fetch - processPackages [swibots]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-07-04 12:13:43] INFO root fetch - processPackages [browserstack-sdk]: New version: [1.9.2] Old Version: [1.8.1]
+[2023-07-04 12:13:43] INFO root fetch - processPackages [hayloft]: New version: [0.4.1] Old Version: [0.4.0a0]
+[2023-07-04 12:13:43] INFO root fetch - processPackages [kafkaclientveli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-04 12:13:43] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/e3/11/980be7dcb45237e7dc463ec7fa8b3df16435f18f8cb91c7eb4105fe5d75a/veetility-0.1.94.tar.gz
+[2023-07-04 12:13:43] INFO root fetch - processPackages [scanpydoc]: Downloading https://files.pythonhosted.org/packages/da/2c/ef2272df195b5d445ecc9768e54b276620345666997f7e7634d60e7df2c0/scanpydoc-0.7.8.tar.gz
+[2023-07-04 12:13:43] INFO root fetch - processPackages [kafkaclientveli]: Downloading https://files.pythonhosted.org/packages/d6/15/3421c27275e5810088608fddca1beac11e90466752040f3dca4fdbab6eba/kafkaclientveli-1.0.8.tar.gz
+[2023-07-04 12:13:43] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/85/21/7bb959d2eabf87fd4a6d21a37225a8ecb161aaa201b5b92eb3bc8a897e44/oidc_drf-1.2.3.tar.gz
+[2023-07-04 12:13:43] WARNING root fetch - processPackages [seeq-ITV-visual]: Skipping, unable to determine old version
+[2023-07-04 12:13:43] INFO root fetch - processPackages [seeq-ITV-visual]: Start processing: pyamihtml
+[2023-07-04 12:13:43] INFO root fetch - main [MainThread]: End processing [seeq-ITV-visual] error
+[2023-07-04 12:13:43] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-04 12:13:44] INFO root fetch - processPackages [browserstack-sdk]: Downloading https://files.pythonhosted.org/packages/8f/f6/ebeb5204570d76f86be6985afe10789f1b21d91816239c06b11f19bfbb72/browserstack_sdk-1.8.1.tar.gz
+[2023-07-04 12:13:44] INFO root fetch - processPackages [pyamihtml]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-04 12:13:44] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/83/15/690a7c9d70dac83df38a40bcb380b713e8dbc87e5fee63226b774b70f5bb/swibots-1.2.9.tar.gz
+[2023-07-04 12:13:44] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Downloading https://files.pythonhosted.org/packages/03/02/8899844a247aed76ac9b1d195917803f39fcbd3221b30456c9fa2385e51b/tf_nightly_cpu_aws-2.14.0.dev20230702-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-07-04 12:13:44] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/1d/76/742bd80f2e242ea724afcd00ee3ed825307fc25c5171267711998a7cfe3c/hayloft-0.4.0a0.tar.gz
+[2023-07-04 12:13:44] INFO root fetch - processPackages [kafkaclientveli]: Downloading https://files.pythonhosted.org/packages/6e/77/a870121819a5b0e1b97d7d1054e5132118c51de83a4252f645360b7cb7cc/kafkaclientveli-1.0.9.tar.gz
+[2023-07-04 12:13:44] INFO root fetch - processPackages [pyamihtml]: Downloading https://files.pythonhosted.org/packages/47/5f/c1b98723e8583eebee8ea10247a5bf06f0c8abe4df84ba834dda0d81e6b1/pyamihtml-0.0.2.tar.gz
+[2023-07-04 12:13:44] WARNING root fetch - processPackages [tf-nightly-cpu-aws]: Skipping package: exceeds size limit 262114474>=10485760
+[2023-07-04 12:13:44] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Start processing: gimie
+[2023-07-04 12:13:44] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu-aws] error
+[2023-07-04 12:13:44] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/2d/9f/ac9f2617fbdf4ae2b503b30378261f21d6f94d95495608c27bb57eaa3bb1/oidc_drf-1.2.4.tar.gz
+[2023-07-04 12:13:44] INFO root fetch - processPackages [scanpydoc]: Downloading https://files.pythonhosted.org/packages/cb/ba/7e2936a7df074b712abd5dcea707ccbfcbcf55254d00d626929e505c42c3/scanpydoc-0.7.9.tar.gz
+[2023-07-04 12:13:44] INFO root fetch - processPackages [browserstack-sdk]: Downloading https://files.pythonhosted.org/packages/bf/46/3ee8b5068073adc3791ac682b7a8c14bc7a10d24e6da05a093fbf74efc9b/browserstack_sdk-1.9.2.tar.gz
+[2023-07-04 12:13:44] INFO root fetch - processPackages [kafkaclientveli]: executing diffoscope
+[2023-07-04 12:13:44] INFO root fetch - processPackages [kafkaclientveli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafkaclientveli-1.0.8.tar.gz tmp/kafkaclientveli-1.0.9.tar.gz --markdown 20230704/k/kafkaclientveli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-04 12:13:44] INFO root fetch - processPackages [gimie]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-04 12:13:44] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/37/4e/3e21ac1bda4c08413bd23eb76447d6a984bb898424001d1844314149b4b4/veetility-0.1.95.tar.gz
+[2023-07-04 12:13:44] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-04 12:13:44] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.2.3.tar.gz tmp/oidc_drf-1.2.4.tar.gz --markdown 20230704/o/oidc-drf/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-04 12:13:44] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/e4/8c/787bfe1a8dc9e99d6bc59e95ddd50943ab03d1f47ea0f9c8276776315913/swibots-1.3.0.tar.gz
+[2023-07-04 12:13:44] INFO root fetch - processPackages [browserstack-sdk]: executing diffoscope
+[2023-07-04 12:13:44] INFO root fetch - processPackages [browserstack-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserstack_sdk-1.8.1.tar.gz tmp/browserstack_sdk-1.9.2.tar.gz --markdown 20230704/b/browserstack-sdk/1.8.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-04 12:13:44] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/32/14/0000dfbf1c049724e8d956831813832dccd4168f5b1003fef036919fe3f5/hayloft-0.4.1.tar.gz
+[2023-07-04 12:13:44] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-07-04 12:13:44] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.94.tar.gz tmp/veetility-0.1.95.tar.gz --markdown 20230704/v/veetility/0.1.94-0.1.95/diff.md --exclude *.pyd
+[2023-07-04 12:13:44] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-04 12:13:44] INFO root fetch - processPackages [pyamihtml]: Downloading https://files.pythonhosted.org/packages/d8/ef/6eaccb65bc359972e343985741e8b1009bf4ad3e079c7fcc0a24a1723a80/pyamihtml-0.0.3.tar.gz
+[2023-07-04 12:13:44] INFO root fetch - processPackages [swibots]: executing diffoscope
+[2023-07-04 12:13:44] INFO root fetch - processPackages [swibots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swibots-1.2.9.tar.gz tmp/swibots-1.3.0.tar.gz --markdown 20230704/s/swibots/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-07-04 12:13:44] INFO root fetch - processPackages [gimie]: Downloading https://files.pythonhosted.org/packages/15/2e/847a3fbe88a41eca87269267462949c69c0b38bb2f06d27fc1f6348f1d11/gimie-0.4.0.tar.gz
+[2023-07-04 12:13:44] INFO root fetch - processPackages [scanpydoc]: executing diffoscope
+[2023-07-04 12:13:44] INFO root fetch - processPackages [scanpydoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scanpydoc-0.7.8.tar.gz tmp/scanpydoc-0.7.9.tar.gz --markdown 20230704/s/scanpydoc/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-04 12:13:44] INFO root fetch - processPackages [hayloft]: executing diffoscope
+[2023-07-04 12:13:44] INFO root fetch - processPackages [hayloft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hayloft-0.4.0a0.tar.gz tmp/hayloft-0.4.1.tar.gz --markdown 20230704/h/hayloft/0.4.0a0-0.4.1/diff.md --exclude *.pyd
+[2023-07-04 12:13:45] INFO root fetch - processPackages [pyamihtml]: executing diffoscope
+[2023-07-04 12:13:45] INFO root fetch - processPackages [pyamihtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyamihtml-0.0.2.tar.gz tmp/pyamihtml-0.0.3.tar.gz --markdown 20230704/p/pyamihtml/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-04 12:13:45] INFO root fetch - processPackages [gimie]: Downloading https://files.pythonhosted.org/packages/68/db/95ca3902373d6fd3a9336b55c887baaff800f13babb029af5387f3869035/gimie-0.5.0.tar.gz
+[2023-07-04 12:13:45] INFO root fetch - processPackages [gimie]: executing diffoscope
+[2023-07-04 12:13:45] INFO root fetch - processPackages [gimie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimie-0.4.0.tar.gz tmp/gimie-0.5.0.tar.gz --markdown 20230704/g/gimie/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-04 12:13:45] INFO root fetch - processPackages [kafkaclientveli]: Remove: archive file [/home/abi/fetcher/tmp/kafkaclientveli-1.0.8.tar.gz]
+[2023-07-04 12:13:45] INFO root fetch - processPackages [kafkaclientveli]: Remove: archive file [/home/abi/fetcher/tmp/kafkaclientveli-1.0.9.tar.gz]
+[2023-07-04 12:13:45] INFO root fetch - processPackages [kafkaclientveli]: Start processing: no-api-sdk
+[2023-07-04 12:13:45] INFO root fetch - main [MainThread]: End processing [kafkaclientveli]: success
+[2023-07-04 12:13:45] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-07-04 12:13:45] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230704/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-07-04 12:13:46] INFO root fetch - processPackages [no-api-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 12:13:46] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.3.tar.gz]
+[2023-07-04 12:13:46] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.4.tar.gz]
+[2023-07-04 12:13:46] INFO root fetch - processPackages [oidc-drf]: Start processing: uasset-dump
+[2023-07-04 12:13:46] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-04 12:13:46] INFO root fetch - processPackages [uasset-dump]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 12:13:46] INFO root fetch - processPackages [no-api-sdk]: Downloading https://files.pythonhosted.org/packages/da/9a/2860060de7f49644068ff01f350a563cddf47d1a7063d9a82ad05839e265/no_api_sdk-0.1.8-cp39-cp39-win_amd64.whl
+[2023-07-04 12:13:46] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/fe/9b/195da905dc17cf6f687704695ce993e02bdd209ced7ecc6e8689c050a039/uasset_dump-0.0.8.tar.gz
+[2023-07-04 12:13:46] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.94.tar.gz]
+[2023-07-04 12:13:46] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.95.tar.gz]
+[2023-07-04 12:13:46] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-07-04 12:13:46] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.4.0a0.tar.gz]
+[2023-07-04 12:13:46] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.4.1.tar.gz]
+[2023-07-04 12:13:46] INFO root fetch - main [MainThread]: End processing [hayloft]: success
+[2023-07-04 12:13:46] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/be/6b/bc8d3d4a7ddb2d849c3954c046ae9e0e44299a77c61b795472d89dc2f63b/uasset_dump-0.0.9.tar.gz
+[2023-07-04 12:13:46] INFO root fetch - processPackages [browserstack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/browserstack_sdk-1.8.1.tar.gz]
+[2023-07-04 12:13:46] INFO root fetch - processPackages [browserstack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/browserstack_sdk-1.9.2.tar.gz]
+[2023-07-04 12:13:46] INFO root fetch - main [MainThread]: End processing [browserstack-sdk]: success
+[2023-07-04 12:13:46] INFO root fetch - processPackages [scanpydoc]: Remove: archive file [/home/abi/fetcher/tmp/scanpydoc-0.7.8.tar.gz]
+[2023-07-04 12:13:46] INFO root fetch - processPackages [scanpydoc]: Remove: archive file [/home/abi/fetcher/tmp/scanpydoc-0.7.9.tar.gz]
+[2023-07-04 12:13:46] INFO root fetch - main [MainThread]: End processing [scanpydoc]: success
+[2023-07-04 12:13:46] INFO root fetch - processPackages [uasset-dump]: executing diffoscope
+[2023-07-04 12:13:46] INFO root fetch - processPackages [uasset-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uasset_dump-0.0.8.tar.gz tmp/uasset_dump-0.0.9.tar.gz --markdown 20230704/u/uasset-dump/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 12:13:46] INFO root fetch - processPackages [pyamihtml]: Remove: archive file [/home/abi/fetcher/tmp/pyamihtml-0.0.2.tar.gz]
+[2023-07-04 12:13:46] INFO root fetch - processPackages [pyamihtml]: Remove: archive file [/home/abi/fetcher/tmp/pyamihtml-0.0.3.tar.gz]
+[2023-07-04 12:13:46] INFO root fetch - processPackages [no-api-sdk]: Downloading https://files.pythonhosted.org/packages/7f/90/b2b2512d1f836334407ecd900bbdb359b1d55a6585c9d65d2c13a00bd963/no_api_sdk-0.1.9-cp39-cp39-win_amd64.whl
+[2023-07-04 12:13:46] INFO root fetch - main [MainThread]: End processing [pyamihtml]: success
+[2023-07-04 12:13:46] INFO root fetch - processPackages [gimie]: Remove: archive file [/home/abi/fetcher/tmp/gimie-0.4.0.tar.gz]
+[2023-07-04 12:13:46] INFO root fetch - processPackages [gimie]: Remove: archive file [/home/abi/fetcher/tmp/gimie-0.5.0.tar.gz]
+[2023-07-04 12:13:46] INFO root fetch - main [MainThread]: End processing [gimie]: success
+[2023-07-04 12:13:47] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.2.9.tar.gz]
+[2023-07-04 12:13:47] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.3.0.tar.gz]
+[2023-07-04 12:13:47] INFO root fetch - main [MainThread]: End processing [swibots]: success
+[2023-07-04 12:13:47] INFO root fetch - processPackages [no-api-sdk]: executing diffoscope
+[2023-07-04 12:13:47] INFO root fetch - processPackages [no-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/no_api_sdk-0.1.8-cp39-cp39-win_amd64.whl.zip tmp/no_api_sdk-0.1.9-cp39-cp39-win_amd64.whl.zip --markdown 20230704/n/no-api-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 12:13:47] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.8.tar.gz]
+[2023-07-04 12:13:47] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.9.tar.gz]
+[2023-07-04 12:13:47] INFO root fetch - main [MainThread]: End processing [uasset-dump]: success
+[2023-07-04 12:13:48] INFO root fetch - processPackages [no-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/no_api_sdk-0.1.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-04 12:13:48] INFO root fetch - processPackages [no-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/no_api_sdk-0.1.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-04 12:13:48] INFO root fetch - main [MainThread]: End processing [no-api-sdk]: success
+[2023-07-04 12:14:19] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-04 12:14:19] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-04 12:14:19] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-07-04 12:14:19] INFO root fetch - main [MainThread]: Store serial: [18753214]
