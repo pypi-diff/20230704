@@ -5417,3 +5417,76 @@
 [2023-07-04 03:22:29] INFO root fetch - processPackages [roboto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/roboto_sdk-0.1.5.tar.gz]
 [2023-07-04 03:22:29] INFO root fetch - main [MainThread]: End processing [roboto-sdk]: success
 [2023-07-04 03:22:29] INFO root fetch - main [MainThread]: Store serial: [18747971]
+[2023-07-04 03:27:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18747971]
+[2023-07-04 03:27:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-04 03:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cjm-yolox-pytorch
+[2023-07-04 03:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: entelecheia
+[2023-07-04 03:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-hugo-deploy
+[2023-07-04 03:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cjm-yolox-pytorch
+[2023-07-04 03:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-registration
+[2023-07-04 03:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pure-ocean-breeze
+[2023-07-04 03:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-sops-secrets
+[2023-07-04 03:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plemmy
+[2023-07-04 03:27:38] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 03:27:38] INFO root fetch - processPackages [django-registration]: New version: [3.4] Old Version: [3.3]
+[2023-07-04 03:27:38] INFO root fetch - processPackages [entelecheia]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-04 03:27:38] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 03:27:38] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 03:27:38] INFO root fetch - processPackages [pure-ocean-breeze]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-07-04 03:27:38] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-04 03:27:38] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-04 03:27:38] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-04 03:27:38] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-04 03:27:38] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-04 03:27:38] INFO root fetch - processPackages [django-registration]: Downloading https://files.pythonhosted.org/packages/ed/c4/4db23e4d62d710735154cdbafb3ac4b6a2937996ff4313a4888a8160f3e6/django-registration-3.3.tar.gz
+[2023-07-04 03:27:38] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/08/a3/244ecb0600db68ffe4aacfc2c7f4dea04802fe20f50c210df1215bf0f784/pure_ocean_breeze-4.0.2.tar.gz
+[2023-07-04 03:27:38] INFO root fetch - processPackages [entelecheia]: Downloading https://files.pythonhosted.org/packages/e1/40/2d6d5621f76abf72abe5f06c1955f880a3dae9d042775545dca7a647f47b/entelecheia-0.2.4.tar.gz
+[2023-07-04 03:27:38] INFO root fetch - processPackages [plemmy]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-04 03:27:38] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-04 03:27:38] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-04 03:27:38] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-04 03:27:38] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-04 03:27:38] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230704/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 03:27:38] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-04 03:27:38] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230704/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 03:27:38] INFO root fetch - processPackages [plemmy]: Downloading https://files.pythonhosted.org/packages/e2/67/df0e7b36b780aa9019d00844160dbbffdea42af5d3a7fd735643a7e8c531/plemmy-0.2.5.tar.gz
+[2023-07-04 03:27:38] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-04 03:27:38] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230704/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 03:27:39] INFO root fetch - processPackages [django-registration]: Downloading https://files.pythonhosted.org/packages/71/00/ee3e5e08cb16475836f9ad117631f598f62a4e32a37c01ab4cb0859454ea/django-registration-3.4.tar.gz
+[2023-07-04 03:27:39] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/cf/77/0556c5fb514bc007f2bb67072c014fd33ef105f7ff5e6fb95b7dd2817840/pure_ocean_breeze-4.0.3.tar.gz
+[2023-07-04 03:27:39] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-04 03:27:39] INFO root fetch - processPackages [entelecheia]: Downloading https://files.pythonhosted.org/packages/ea/bb/5f6267ea3173a8c982edd2915f44c39027ac0fb216edae296b8e6bdfefa1/entelecheia-0.2.5.tar.gz
+[2023-07-04 03:27:39] INFO root fetch - processPackages [django-registration]: executing diffoscope
+[2023-07-04 03:27:39] INFO root fetch - processPackages [django-registration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-registration-3.3.tar.gz tmp/django-registration-3.4.tar.gz --markdown 20230704/d/django-registration/3.3-3.4/diff.md --exclude *.pyd
+[2023-07-04 03:27:39] INFO root fetch - processPackages [pure-ocean-breeze]: executing diffoscope
+[2023-07-04 03:27:39] INFO root fetch - processPackages [pure-ocean-breeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure_ocean_breeze-4.0.2.tar.gz tmp/pure_ocean_breeze-4.0.3.tar.gz --markdown 20230704/p/pure-ocean-breeze/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-07-04 03:27:39] INFO root fetch - processPackages [entelecheia]: executing diffoscope
+[2023-07-04 03:27:39] INFO root fetch - processPackages [entelecheia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entelecheia-0.2.4.tar.gz tmp/entelecheia-0.2.5.tar.gz --markdown 20230704/e/entelecheia/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-04 03:27:39] INFO root fetch - processPackages [plemmy]: Downloading https://files.pythonhosted.org/packages/7b/eb/dc7c4ec8a93592a1902e97b6f9d4a6d47f16d5c1e42bc2fbad91557301bb/plemmy-0.2.6-py2.py3-none-any.whl
+[2023-07-04 03:27:39] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-04 03:27:39] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230704/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-04 03:27:39] INFO root fetch - processPackages [plemmy]: executing diffoscope
+[2023-07-04 03:27:39] INFO root fetch - processPackages [plemmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plemmy-0.2.5.tar.gz tmp/plemmy-0.2.6-py2.py3-none-any.whl.zip --markdown 20230704/p/plemmy/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-04 03:27:40] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-04 03:27:40] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-04 03:27:40] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-04 03:27:40] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-04 03:27:40] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-04 03:27:40] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-04 03:27:40] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-04 03:27:40] INFO root fetch - processPackages [plemmy]: Remove: archive file [/home/abi/fetcher/tmp/plemmy-0.2.5.tar.gz]
+[2023-07-04 03:27:40] INFO root fetch - processPackages [plemmy]: Remove: archive file [/home/abi/fetcher/tmp/plemmy-0.2.6-py2.py3-none-any.whl.zip]
+[2023-07-04 03:27:40] INFO root fetch - main [MainThread]: End processing [plemmy]: success
+[2023-07-04 03:27:40] INFO root fetch - processPackages [entelecheia]: Remove: archive file [/home/abi/fetcher/tmp/entelecheia-0.2.4.tar.gz]
+[2023-07-04 03:27:40] INFO root fetch - processPackages [entelecheia]: Remove: archive file [/home/abi/fetcher/tmp/entelecheia-0.2.5.tar.gz]
+[2023-07-04 03:27:40] INFO root fetch - main [MainThread]: End processing [entelecheia]: success
+[2023-07-04 03:27:40] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-4.0.2.tar.gz]
+[2023-07-04 03:27:40] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-4.0.3.tar.gz]
+[2023-07-04 03:27:40] INFO root fetch - main [MainThread]: End processing [pure-ocean-breeze]: success
+[2023-07-04 03:27:41] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-04 03:27:41] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-04 03:27:41] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-04 03:27:41] INFO root fetch - processPackages [django-registration]: Remove: archive file [/home/abi/fetcher/tmp/django-registration-3.3.tar.gz]
+[2023-07-04 03:27:41] INFO root fetch - processPackages [django-registration]: Remove: archive file [/home/abi/fetcher/tmp/django-registration-3.4.tar.gz]
+[2023-07-04 03:27:41] INFO root fetch - main [MainThread]: End processing [django-registration]: success
+[2023-07-04 03:27:41] INFO root fetch - main [MainThread]: Store serial: [18748017]
