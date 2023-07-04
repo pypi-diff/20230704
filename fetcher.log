@@ -15984,3 +15984,143 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 10:38:27] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
 [2023-07-04 10:38:27] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
 [2023-07-04 10:38:27] INFO root fetch - main [MainThread]: Store serial: [18752032]
+[2023-07-04 10:43:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18752032]
+[2023-07-04 10:43:36] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-04 10:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yente
+[2023-07-04 10:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opentf-toolkit-nightly
+[2023-07-04 10:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: guanin
+[2023-07-04 10:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uasset-dump
+[2023-07-04 10:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oarepo-vocabularies
+[2023-07-04 10:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: minecraft-resource-pack
+[2023-07-04 10:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: amulet-core
+[2023-07-04 10:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mailx
+[2023-07-04 10:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SELDOMpy
+[2023-07-04 10:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tff-nightly
+[2023-07-04 10:43:36] INFO root fetch - processPackages [SELDOMpy]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-07-04 10:43:36] INFO root fetch - processPackages [oarepo-vocabularies]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-07-04 10:43:36] INFO root fetch - processPackages [mailx]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-04 10:43:36] INFO root fetch - processPackages [yente]: New version: [3.5.0] Old Version: [3.4.1]
+[2023-07-04 10:43:36] INFO root fetch - processPackages [guanin]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-04 10:43:36] INFO root fetch - processPackages [amulet-core]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-04 10:43:36] INFO root fetch - processPackages [uasset-dump]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-04 10:43:36] INFO root fetch - processPackages [minecraft-resource-pack]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-04 10:43:36] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230703] Old Version: [0.0.1.dev20230702]
+[2023-07-04 10:43:36] INFO root fetch - processPackages [opentf-toolkit-nightly]: New version: [0.49.0.dev623] Old Version: [0.49.0.dev620]
+[2023-07-04 10:43:36] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/29/ad/927e97a0e36704eb086d4d80c864b5ddc7ab64f4ee07d25a3e311a497076/SELDOMpy-0.7.5-cp38-cp38-win_amd64.whl
+[2023-07-04 10:43:36] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/18/b7/db4bece334aaa7e09ac3294c4d713da37e0ab22e39802a80f2a3b3e4b381/tff_nightly-0.0.1.dev20230702-py2.py3-none-any.whl
+[2023-07-04 10:43:36] INFO root fetch - processPackages [yente]: Downloading https://files.pythonhosted.org/packages/3f/98/a6c790e65eeb8b0388d460324992e0c91447ff0d898e96566b8892fecee8/yente-3.4.1.tar.gz
+[2023-07-04 10:43:36] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/d6/30/cc29697582f7e421651c8201a9720809282011141ac09bdeb869d3142146/oarepo-vocabularies-2.0.4.tar.gz
+[2023-07-04 10:43:37] INFO root fetch - processPackages [minecraft-resource-pack]: Downloading https://files.pythonhosted.org/packages/c3/7f/1c3716a85bb0d24d3201eadcff958a6aaa94262126ff36cd379d35eee8bc/minecraft-resource-pack-1.3.3.tar.gz
+[2023-07-04 10:43:37] INFO root fetch - processPackages [guanin]: Downloading https://files.pythonhosted.org/packages/f7/0c/6034e1fa91a284ffa021fc8d602203050b921d48b0fd40ff20764d90feae/guanin-1.2.1.tar.gz
+[2023-07-04 10:43:37] INFO root fetch - processPackages [amulet-core]: Downloading https://files.pythonhosted.org/packages/30/be/243f4d3bb94fa7f8cee34e80aea3b5f860d3a6ac1dde297a71a40e42d4f3/amulet-core-1.9.8.tar.gz
+[2023-07-04 10:43:37] INFO root fetch - processPackages [mailx]: Downloading https://files.pythonhosted.org/packages/06/49/d70fb493607991b79cfe0022301873d2153920327246b582aded1bd2657e/mailx-0.0.6.tar.gz
+[2023-07-04 10:43:37] INFO root fetch - processPackages [opentf-toolkit-nightly]: Downloading https://files.pythonhosted.org/packages/7b/a0/82f8c7f58e97ef5d2eb8d7f6b31bd8c90494682831c03e729c44f0ca5aa9/opentf_toolkit_nightly-0.49.0.dev620-py3-none-any.whl
+[2023-07-04 10:43:37] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/75/b2/d9f508e3e77d43719cd78c0593787437f2b3c98fae15b68bacae0ab86a8c/uasset_dump-0.0.6.tar.gz
+[2023-07-04 10:43:37] WARNING root fetch - processPackages [guanin]: Skipping package: exceeds size limit 12719503>=10485760
+[2023-07-04 10:43:37] INFO root fetch - processPackages [guanin]: Start processing: seqconverter
+[2023-07-04 10:43:37] INFO root fetch - main [MainThread]: End processing [guanin] error
+[2023-07-04 10:43:37] INFO root fetch - processPackages [seqconverter]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-04 10:43:37] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/43/26/d36efafa16503aae2919e83334aaeea2f2147fab88e1866abf4a23cd4510/SELDOMpy-0.7.6-cp38-cp38-win_amd64.whl
+[2023-07-04 10:43:37] INFO root fetch - processPackages [seqconverter]: Downloading https://files.pythonhosted.org/packages/74/b0/ff8a59e6781b5d3e5919026085be5d753078b0b477769779c67e9e213e9a/seqconverter-2.9.1.tar.gz
+[2023-07-04 10:43:37] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/b4/c4/5a76c00439b350439cd635aa55d9bf5dc0f30bb169a502aeaa001047d3aa/tff_nightly-0.0.1.dev20230703-py2.py3-none-any.whl
+[2023-07-04 10:43:37] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/4d/6f/76b0e71583436686217307f3b45d4c1195dbff64c858000111bfeadf036d/oarepo-vocabularies-2.0.5.tar.gz
+[2023-07-04 10:43:37] INFO root fetch - processPackages [yente]: Downloading https://files.pythonhosted.org/packages/4c/1a/4e228b541c80486e88474d36c729e9270ebb29aa10f085b96cdc31afb025/yente-3.5.0.tar.gz
+[2023-07-04 10:43:37] INFO root fetch - processPackages [minecraft-resource-pack]: Downloading https://files.pythonhosted.org/packages/dd/9f/9664477156414789b88d13147a40040a644c955e190165482df510ae9631/minecraft-resource-pack-1.3.4.tar.gz
+[2023-07-04 10:43:37] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-04 10:43:37] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.7.5-cp38-cp38-win_amd64.whl.zip tmp/SELDOMpy-0.7.6-cp38-cp38-win_amd64.whl.zip --markdown 20230704/S/SELDOMpy/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-07-04 10:43:37] INFO root fetch - processPackages [mailx]: Downloading https://files.pythonhosted.org/packages/ec/07/a64fd646cba4309fdddd37efb5e7018ae9f8d45d378953f9aee37911727d/mailx-0.0.7.tar.gz
+[2023-07-04 10:43:37] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/6a/57/22e414b84c6f163fe29146cba5fc91d8743c406e45ed153cf6f43f8e27fc/uasset_dump-0.0.7.tar.gz
+[2023-07-04 10:43:37] INFO root fetch - processPackages [amulet-core]: Downloading https://files.pythonhosted.org/packages/72/2b/9003d9d8e39afb707fca275899069e5ddf79305bbab36e5213b81aaa4a0f/amulet-core-1.9.9.tar.gz
+[2023-07-04 10:43:37] INFO root fetch - processPackages [oarepo-vocabularies]: executing diffoscope
+[2023-07-04 10:43:37] INFO root fetch - processPackages [oarepo-vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-vocabularies-2.0.4.tar.gz tmp/oarepo-vocabularies-2.0.5.tar.gz --markdown 20230704/o/oarepo-vocabularies/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-07-04 10:43:37] INFO root fetch - processPackages [opentf-toolkit-nightly]: Downloading https://files.pythonhosted.org/packages/37/ef/4bbbc5ed9416332015a2085bffe271fa74b7aff6d55fad3d6244f75e1cd7/opentf_toolkit_nightly-0.49.0.dev623-py3-none-any.whl
+[2023-07-04 10:43:37] INFO root fetch - processPackages [minecraft-resource-pack]: executing diffoscope
+[2023-07-04 10:43:37] INFO root fetch - processPackages [minecraft-resource-pack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minecraft-resource-pack-1.3.3.tar.gz tmp/minecraft-resource-pack-1.3.4.tar.gz --markdown 20230704/m/minecraft-resource-pack/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-04 10:43:37] INFO root fetch - processPackages [mailx]: executing diffoscope
+[2023-07-04 10:43:37] INFO root fetch - processPackages [mailx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailx-0.0.6.tar.gz tmp/mailx-0.0.7.tar.gz --markdown 20230704/m/mailx/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-04 10:43:37] INFO root fetch - processPackages [seqconverter]: Downloading https://files.pythonhosted.org/packages/dc/1f/7033f6e42158f5dbd9ab26654c50b76445642a61b5257e6888ffd585c1e5/seqconverter-2.9.2.tar.gz
+[2023-07-04 10:43:37] INFO root fetch - processPackages [uasset-dump]: executing diffoscope
+[2023-07-04 10:43:37] INFO root fetch - processPackages [uasset-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uasset_dump-0.0.6.tar.gz tmp/uasset_dump-0.0.7.tar.gz --markdown 20230704/u/uasset-dump/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-04 10:43:37] INFO root fetch - processPackages [yente]: executing diffoscope
+[2023-07-04 10:43:37] INFO root fetch - processPackages [yente]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yente-3.4.1.tar.gz tmp/yente-3.5.0.tar.gz --markdown 20230704/y/yente/3.4.1-3.5.0/diff.md --exclude *.pyd
+[2023-07-04 10:43:37] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-04 10:43:37] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230702-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230703-py2.py3-none-any.whl.zip --markdown 20230704/t/tff-nightly/0.0.1.dev20230702-0.0.1.dev20230703/diff.md --exclude *.pyd
+[2023-07-04 10:43:37] INFO root fetch - processPackages [seqconverter]: executing diffoscope
+[2023-07-04 10:43:37] INFO root fetch - processPackages [seqconverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqconverter-2.9.1.tar.gz tmp/seqconverter-2.9.2.tar.gz --markdown 20230704/s/seqconverter/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-07-04 10:43:37] INFO root fetch - processPackages [amulet-core]: executing diffoscope
+[2023-07-04 10:43:37] INFO root fetch - processPackages [amulet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amulet-core-1.9.8.tar.gz tmp/amulet-core-1.9.9.tar.gz --markdown 20230704/a/amulet-core/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-04 10:43:38] INFO root fetch - processPackages [opentf-toolkit-nightly]: executing diffoscope
+[2023-07-04 10:43:38] INFO root fetch - processPackages [opentf-toolkit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_toolkit_nightly-0.49.0.dev620-py3-none-any.whl.zip tmp/opentf_toolkit_nightly-0.49.0.dev623-py3-none-any.whl.zip --markdown 20230704/o/opentf-toolkit-nightly/0.49.0.dev620-0.49.0.dev623/diff.md --exclude *.pyd
+[2023-07-04 10:43:39] INFO root fetch - processPackages [mailx]: Remove: archive file [/home/abi/fetcher/tmp/mailx-0.0.6.tar.gz]
+[2023-07-04 10:43:39] INFO root fetch - processPackages [mailx]: Remove: archive file [/home/abi/fetcher/tmp/mailx-0.0.7.tar.gz]
+[2023-07-04 10:43:39] INFO root fetch - processPackages [mailx]: Start processing: oidc-drf
+[2023-07-04 10:43:39] INFO root fetch - main [MainThread]: End processing [mailx]: success
+[2023-07-04 10:43:39] INFO root fetch - processPackages [oidc-drf]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-04 10:43:39] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.6.tar.gz]
+[2023-07-04 10:43:39] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.7.tar.gz]
+[2023-07-04 10:43:39] INFO root fetch - processPackages [uasset-dump]: Start processing: c2cwsgiutils
+[2023-07-04 10:43:39] INFO root fetch - main [MainThread]: End processing [uasset-dump]: success
+[2023-07-04 10:43:39] INFO root fetch - processPackages [seqconverter]: Remove: archive file [/home/abi/fetcher/tmp/seqconverter-2.9.1.tar.gz]
+[2023-07-04 10:43:39] INFO root fetch - processPackages [seqconverter]: Remove: archive file [/home/abi/fetcher/tmp/seqconverter-2.9.2.tar.gz]
+[2023-07-04 10:43:39] INFO root fetch - processPackages [seqconverter]: Start processing: pyclearpass
+[2023-07-04 10:43:39] INFO root fetch - main [MainThread]: End processing [seqconverter]: success
+[2023-07-04 10:43:39] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.0.0.dev99] Old Version: [6.0.0.dev97]
+[2023-07-04 10:43:39] INFO root fetch - processPackages [opentf-toolkit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit_nightly-0.49.0.dev620-py3-none-any.whl.zip]
+[2023-07-04 10:43:39] INFO root fetch - processPackages [opentf-toolkit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit_nightly-0.49.0.dev623-py3-none-any.whl.zip]
+[2023-07-04 10:43:39] INFO root fetch - processPackages [opentf-toolkit-nightly]: Start processing: pasta-eln
+[2023-07-04 10:43:39] INFO root fetch - main [MainThread]: End processing [opentf-toolkit-nightly]: success
+[2023-07-04 10:43:39] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.7.5-cp38-cp38-win_amd64.whl.zip]
+[2023-07-04 10:43:39] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/77/84/47c54977a58c49db670453d3b88d5ac9110064ad4ed9b3be17eb05f6fc34/oidc_drf-1.2.0.tar.gz
+[2023-07-04 10:43:39] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.7.6-cp38-cp38-win_amd64.whl.zip]
+[2023-07-04 10:43:39] INFO root fetch - processPackages [SELDOMpy]: Start processing: SC-Track
+[2023-07-04 10:43:39] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-04 10:43:39] INFO root fetch - processPackages [yente]: Remove: archive file [/home/abi/fetcher/tmp/yente-3.4.1.tar.gz]
+[2023-07-04 10:43:39] INFO root fetch - processPackages [yente]: Remove: archive file [/home/abi/fetcher/tmp/yente-3.5.0.tar.gz]
+[2023-07-04 10:43:39] INFO root fetch - processPackages [yente]: Start processing: pyOpenRPA
+[2023-07-04 10:43:39] INFO root fetch - main [MainThread]: End processing [yente]: success
+[2023-07-04 10:43:39] WARNING root fetch - processPackages [pyclearpass]: Skipping, unable to determine old version
+[2023-07-04 10:43:39] INFO root fetch - main [MainThread]: End processing [pyclearpass] error
+[2023-07-04 10:43:39] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/7e/19/e64dc0870291f601e6d1f041424eef5a28112c1c9b7be627a7f01c80ebab/c2cwsgiutils-6.0.0.dev97.tar.gz
+[2023-07-04 10:43:39] ERROR root fetch - processPackages [SC-Track]: Unable to get metadata: No such project 'SC-Track'
+[2023-07-04 10:43:39] INFO root fetch - main [MainThread]: End processing [SC-Track] error
+[2023-07-04 10:43:39] INFO root fetch - processPackages [pasta-eln]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-07-04 10:43:40] INFO root fetch - processPackages [pyOpenRPA]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-07-04 10:43:40] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-vocabularies-2.0.4.tar.gz]
+[2023-07-04 10:43:40] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-vocabularies-2.0.5.tar.gz]
+[2023-07-04 10:43:40] INFO root fetch - main [MainThread]: End processing [oarepo-vocabularies]: success
+[2023-07-04 10:43:40] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/24/3d/77dc87c1df68073e28853830fb75df808d0e7c248d5e710a7a9b6b2b3318/oidc_drf-1.2.1.tar.gz
+[2023-07-04 10:43:40] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/bc/fc/caed9a3b8aa535ab83ce1fdf048ce861e9039ac24958fa3ddf9049b3f2b6/c2cwsgiutils-6.0.0.dev99.tar.gz
+[2023-07-04 10:43:40] INFO root fetch - processPackages [pasta-eln]: Downloading https://files.pythonhosted.org/packages/cf/b2/98fbfef4f9610d37d165deee34b3825413b56e03f8713314f467dd135287/pasta_eln-2.4.2-py3-none-any.whl
+[2023-07-04 10:43:40] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2023-07-04 10:43:40] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.0.0.dev97.tar.gz tmp/c2cwsgiutils-6.0.0.dev99.tar.gz --markdown 20230704/c/c2cwsgiutils/6.0.0.dev97-6.0.0.dev99/diff.md --exclude *.pyd
+[2023-07-04 10:43:40] INFO root fetch - processPackages [pyOpenRPA]: Downloading https://files.pythonhosted.org/packages/ec/37/fc4060443e03590920490bb64a62c12b7f15114cc41367cda06ca27f530f/pyOpenRPA-1.3.1.tar.gz
+[2023-07-04 10:43:40] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-04 10:43:40] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.2.0.tar.gz tmp/oidc_drf-1.2.1.tar.gz --markdown 20230704/o/oidc-drf/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-04 10:43:40] INFO root fetch - processPackages [amulet-core]: Remove: archive file [/home/abi/fetcher/tmp/amulet-core-1.9.8.tar.gz]
+[2023-07-04 10:43:40] INFO root fetch - processPackages [amulet-core]: Remove: archive file [/home/abi/fetcher/tmp/amulet-core-1.9.9.tar.gz]
+[2023-07-04 10:43:40] INFO root fetch - main [MainThread]: End processing [amulet-core]: success
+[2023-07-04 10:43:40] INFO root fetch - processPackages [pasta-eln]: Downloading https://files.pythonhosted.org/packages/28/3e/28efbaac713ff5e0ad85498168ebd5285c3e0dcddaae1365c08976cdd091/pasta_eln-2.4.3-py3-none-any.whl
+[2023-07-04 10:43:40] INFO root fetch - processPackages [pasta-eln]: executing diffoscope
+[2023-07-04 10:43:40] INFO root fetch - processPackages [pasta-eln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasta_eln-2.4.2-py3-none-any.whl.zip tmp/pasta_eln-2.4.3-py3-none-any.whl.zip --markdown 20230704/p/pasta-eln/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-07-04 10:43:40] INFO root fetch - processPackages [minecraft-resource-pack]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-resource-pack-1.3.3.tar.gz]
+[2023-07-04 10:43:40] INFO root fetch - processPackages [minecraft-resource-pack]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-resource-pack-1.3.4.tar.gz]
+[2023-07-04 10:43:40] INFO root fetch - main [MainThread]: End processing [minecraft-resource-pack]: success
+[2023-07-04 10:43:41] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230702-py2.py3-none-any.whl.zip]
+[2023-07-04 10:43:41] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230703-py2.py3-none-any.whl.zip]
+[2023-07-04 10:43:41] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-04 10:43:41] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.0.tar.gz]
+[2023-07-04 10:43:41] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.1.tar.gz]
+[2023-07-04 10:43:41] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-04 10:43:41] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev97.tar.gz]
+[2023-07-04 10:43:41] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev99.tar.gz]
+[2023-07-04 10:43:41] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2023-07-04 10:43:41] INFO root fetch - processPackages [pyOpenRPA]: Downloading https://files.pythonhosted.org/packages/c6/b3/5526934b1da60995c5171beec57430cdf766d91688edc0c28175d26d0483/pyOpenRPA-1.4.0-py3-none-any.whl
+[2023-07-04 10:43:41] INFO root fetch - processPackages [pasta-eln]: Remove: archive file [/home/abi/fetcher/tmp/pasta_eln-2.4.2-py3-none-any.whl.zip]
+[2023-07-04 10:43:41] INFO root fetch - processPackages [pasta-eln]: Remove: archive file [/home/abi/fetcher/tmp/pasta_eln-2.4.3-py3-none-any.whl.zip]
+[2023-07-04 10:43:41] INFO root fetch - main [MainThread]: End processing [pasta-eln]: success
+[2023-07-04 10:43:44] INFO root fetch - processPackages [pyOpenRPA]: executing diffoscope
+[2023-07-04 10:43:44] INFO root fetch - processPackages [pyOpenRPA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyOpenRPA-1.3.1.tar.gz tmp/pyOpenRPA-1.4.0-py3-none-any.whl.zip --markdown 20230704/p/pyOpenRPA/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-07-04 10:43:46] INFO root fetch - processPackages [pyOpenRPA]: Remove: archive file [/home/abi/fetcher/tmp/pyOpenRPA-1.3.1.tar.gz]
+[2023-07-04 10:43:46] INFO root fetch - processPackages [pyOpenRPA]: Remove: archive file [/home/abi/fetcher/tmp/pyOpenRPA-1.4.0-py3-none-any.whl.zip]
+[2023-07-04 10:43:46] INFO root fetch - main [MainThread]: End processing [pyOpenRPA]: success
+[2023-07-04 10:43:46] INFO root fetch - main [MainThread]: Store serial: [18752086]
