@@ -13822,3 +13822,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 08:49:30] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
 [2023-07-04 08:49:30] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
 [2023-07-04 08:49:30] INFO root fetch - main [MainThread]: Store serial: [18751134]
+[2023-07-04 08:54:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18751134]
+[2023-07-04 08:54:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-04 08:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bstk-datatables
+[2023-07-04 08:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trustedtwin
+[2023-07-04 08:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2023-07-04 08:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: decoratory
+[2023-07-04 08:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grassmanntn
+[2023-07-04 08:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: resolwe
+[2023-07-04 08:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: c8connector
+[2023-07-04 08:54:39] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230704.6.50.178479] Old Version: [20230704.5.16.942532]
+[2023-07-04 08:54:39] INFO root fetch - processPackages [decoratory]: New version: [0.9.2.4] Old Version: [0.9.1.18]
+[2023-07-04 08:54:39] INFO root fetch - processPackages [trustedtwin]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-04 08:54:39] INFO root fetch - processPackages [grassmanntn]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-04 08:54:39] INFO root fetch - processPackages [bstk-datatables]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-04 08:54:39] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-07-04 08:54:39] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/a8/f7/ec57b975a370b162e8f7b84f620bc7baf8246ffe843847fe190cd1699906/grassmanntn-1.1.0.tar.gz
+[2023-07-04 08:54:39] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/27/39/5a1ef83e99306588743d0a561a08a825b4383fd5d466c4f3c8fa59dbdbdd/resolwe-9.0.0a3.tar.gz
+[2023-07-04 08:54:39] INFO root fetch - processPackages [c8connector]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 08:54:40] INFO root fetch - processPackages [trustedtwin]: Downloading https://files.pythonhosted.org/packages/59/0a/f44c8cd793438991d8a77e97a5ceea5550009685bbef14127686fcafe879/trustedtwin-0.4.8.tar.gz
+[2023-07-04 08:54:40] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/8f/2e/9c1c63cbe1642a707e5630aae126e27f6e57abfc3f8753fc68554b356fb3/certora-cli-alpha-master-20230704.5.16.942532.tar.gz
+[2023-07-04 08:54:40] INFO root fetch - processPackages [bstk-datatables]: Downloading https://files.pythonhosted.org/packages/56/79/b9e814a02d911935e67f8c9c218c4b6ca280c47ae80f396e8a1f5513062b/bstk_datatables-0.1.5.tar.gz
+[2023-07-04 08:54:40] INFO root fetch - processPackages [decoratory]: Downloading https://files.pythonhosted.org/packages/70/1e/578899fc38ee1253d0da9d8a7ae88064bdc2c9118af5ca3fe6e281ce9627/decoratory-0.9.1.18.tar.gz
+[2023-07-04 08:54:40] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 40633038>=10485760
+[2023-07-04 08:54:40] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-04 08:54:40] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/e8/ed/7567b9a9fc94022891ead78431e746cb566c03884b50a1b9fae21e9bc6db/grassmanntn-1.1.1.tar.gz
+[2023-07-04 08:54:40] INFO root fetch - processPackages [c8connector]: Downloading https://files.pythonhosted.org/packages/f5/41/1d6cf1d7e899ee8eb044b7c68250945e84ef99425e6d2c3658bbb903d580/c8connector-0.0.8.tar.gz
+[2023-07-04 08:54:40] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/ca/ce/736f65f5bdceb20af592eebc6fdff8968ca39d39f2fa9bbbcb62c64ee673/resolwe-9.0.0a4.tar.gz
+[2023-07-04 08:54:40] INFO root fetch - processPackages [bstk-datatables]: Downloading https://files.pythonhosted.org/packages/c3/63/b904184568b53d71e96a3d64597ecf70e008218d82a1f1f950c6bb13b704/bstk_datatables-0.1.6.tar.gz
+[2023-07-04 08:54:40] INFO root fetch - processPackages [trustedtwin]: Downloading https://files.pythonhosted.org/packages/ce/28/f3af45ad2474127d80fb70b3ac1e28ff4b45dff893aaf73cf85359e039eb/trustedtwin-0.4.9.tar.gz
+[2023-07-04 08:54:40] INFO root fetch - processPackages [decoratory]: Downloading https://files.pythonhosted.org/packages/2e/77/615fd2fde10cd2d17a041726902804fd4ecb48d8497b2c72e9e147b52f96/decoratory-0.9.2.4.tar.gz
+[2023-07-04 08:54:40] INFO root fetch - processPackages [grassmanntn]: executing diffoscope
+[2023-07-04 08:54:40] INFO root fetch - processPackages [grassmanntn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grassmanntn-1.1.0.tar.gz tmp/grassmanntn-1.1.1.tar.gz --markdown 20230704/g/grassmanntn/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-04 08:54:40] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2023-07-04 08:54:40] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20230704/r/resolwe/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-07-04 08:54:40] INFO root fetch - processPackages [bstk-datatables]: executing diffoscope
+[2023-07-04 08:54:40] INFO root fetch - processPackages [bstk-datatables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bstk_datatables-0.1.5.tar.gz tmp/bstk_datatables-0.1.6.tar.gz --markdown 20230704/b/bstk-datatables/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-04 08:54:40] INFO root fetch - processPackages [decoratory]: executing diffoscope
+[2023-07-04 08:54:40] INFO root fetch - processPackages [decoratory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoratory-0.9.1.18.tar.gz tmp/decoratory-0.9.2.4.tar.gz --markdown 20230704/d/decoratory/0.9.1.18-0.9.2.4/diff.md --exclude *.pyd
+[2023-07-04 08:54:40] INFO root fetch - processPackages [c8connector]: Downloading https://files.pythonhosted.org/packages/a4/3a/d5e3d87254f7a5c4983165bbbf9752fb19c15dc5fbdaf03bbe5e5ba41f68/c8connector-0.0.9.tar.gz
+[2023-07-04 08:54:40] INFO root fetch - processPackages [trustedtwin]: executing diffoscope
+[2023-07-04 08:54:40] INFO root fetch - processPackages [trustedtwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trustedtwin-0.4.8.tar.gz tmp/trustedtwin-0.4.9.tar.gz --markdown 20230704/t/trustedtwin/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-04 08:54:40] INFO root fetch - processPackages [c8connector]: executing diffoscope
+[2023-07-04 08:54:40] INFO root fetch - processPackages [c8connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c8connector-0.0.8.tar.gz tmp/c8connector-0.0.9.tar.gz --markdown 20230704/c/c8connector/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 08:54:41] INFO root fetch - processPackages [bstk-datatables]: Remove: archive file [/home/abi/fetcher/tmp/bstk_datatables-0.1.5.tar.gz]
+[2023-07-04 08:54:41] INFO root fetch - processPackages [bstk-datatables]: Remove: archive file [/home/abi/fetcher/tmp/bstk_datatables-0.1.6.tar.gz]
+[2023-07-04 08:54:41] INFO root fetch - main [MainThread]: End processing [bstk-datatables]: success
+[2023-07-04 08:54:41] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.1.0.tar.gz]
+[2023-07-04 08:54:41] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.1.1.tar.gz]
+[2023-07-04 08:54:41] INFO root fetch - main [MainThread]: End processing [grassmanntn]: success
+[2023-07-04 08:54:42] INFO root fetch - processPackages [trustedtwin]: Remove: archive file [/home/abi/fetcher/tmp/trustedtwin-0.4.8.tar.gz]
+[2023-07-04 08:54:42] INFO root fetch - processPackages [trustedtwin]: Remove: archive file [/home/abi/fetcher/tmp/trustedtwin-0.4.9.tar.gz]
+[2023-07-04 08:54:42] INFO root fetch - main [MainThread]: End processing [trustedtwin]: success
+[2023-07-04 08:54:42] INFO root fetch - processPackages [c8connector]: Remove: archive file [/home/abi/fetcher/tmp/c8connector-0.0.8.tar.gz]
+[2023-07-04 08:54:42] INFO root fetch - processPackages [c8connector]: Remove: archive file [/home/abi/fetcher/tmp/c8connector-0.0.9.tar.gz]
+[2023-07-04 08:54:42] INFO root fetch - main [MainThread]: End processing [c8connector]: success
+[2023-07-04 08:54:42] INFO root fetch - processPackages [decoratory]: Remove: archive file [/home/abi/fetcher/tmp/decoratory-0.9.1.18.tar.gz]
+[2023-07-04 08:54:42] INFO root fetch - processPackages [decoratory]: Remove: archive file [/home/abi/fetcher/tmp/decoratory-0.9.2.4.tar.gz]
+[2023-07-04 08:54:42] INFO root fetch - main [MainThread]: End processing [decoratory]: success
+[2023-07-04 08:54:42] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a3.tar.gz]
+[2023-07-04 08:54:42] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a4.tar.gz]
+[2023-07-04 08:54:42] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2023-07-04 08:54:42] INFO root fetch - main [MainThread]: Store serial: [18751152]
