@@ -9716,3 +9716,76 @@
 [2023-07-04 04:34:46] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_base-16.0.1.2.0-py3-none-any.whl.zip]
 [2023-07-04 04:34:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-base]: success
 [2023-07-04 04:34:46] INFO root fetch - main [MainThread]: Store serial: [18749599]
+[2023-07-04 04:39:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18749599]
+[2023-07-04 04:39:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-04 04:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mathactive
+[2023-07-04 04:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cjm-yolox-pytorch
+[2023-07-04 04:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rez-pip
+[2023-07-04 04:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vercel-llm-api
+[2023-07-04 04:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cjm-yolox-pytorch
+[2023-07-04 04:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: calamine-tablib
+[2023-07-04 04:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addons-oca-account-financial-tools
+[2023-07-04 04:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aicodebot
+[2023-07-04 04:39:55] INFO root fetch - processPackages [aicodebot]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-07-04 04:39:55] INFO root fetch - processPackages [vercel-llm-api]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-04 04:39:55] INFO root fetch - processPackages [mathactive]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 04:39:55] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 04:39:55] INFO root fetch - processPackages [calamine-tablib]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-04 04:39:55] INFO root fetch - processPackages [rez-pip]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-04 04:39:55] INFO root fetch - processPackages [odoo14-addons-oca-account-financial-tools]: New version: [14.0.20230703.0] Old Version: [14.0.20230603.0]
+[2023-07-04 04:39:55] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 04:39:55] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/6f/d1/a7afa11d7cd7d5fe9f00bc524909dcf608400fbc44b571b875d03f7cfed9/aicodebot-0.7.3.tar.gz
+[2023-07-04 04:39:55] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-04 04:39:55] INFO root fetch - processPackages [mathactive]: Downloading https://files.pythonhosted.org/packages/91/21/ff1063ba7f58134993990fed8fd250e8cc1b595d8d87d901e2dc029ce49d/mathactive-0.0.8.tar.gz
+[2023-07-04 04:39:55] INFO root fetch - processPackages [calamine-tablib]: Downloading https://files.pythonhosted.org/packages/9e/ab/663d90fc44f387057367d807c738f5e55c61df971d1806baa3de674395bc/calamine_tablib-0.1.3.tar.gz
+[2023-07-04 04:39:55] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-04 04:39:56] INFO root fetch - processPackages [rez-pip]: Downloading https://files.pythonhosted.org/packages/ba/2c/07441e223056a5f4b2d0ea49592b305dc9de298437f1c97c5f134c6eddfc/rez_pip-0.1.0.tar.gz
+[2023-07-04 04:39:56] INFO root fetch - processPackages [vercel-llm-api]: Downloading https://files.pythonhosted.org/packages/5a/5f/e35aeb3f38ea5924272e77064947942404b0453c66034e3224ac98d3d5ee/vercel_llm_api-0.2.0-py3-none-any.whl
+[2023-07-04 04:39:56] INFO root fetch - processPackages [odoo14-addons-oca-account-financial-tools]: Downloading https://files.pythonhosted.org/packages/22/b3/229d2b4f1cfb265d48d5c3bf6b0f112bf7ce192e6c0c6551f1c201981048/odoo14_addons_oca_account_financial_tools-14.0.20230603.0-py3-none-any.whl
+[2023-07-04 04:39:56] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-04 04:39:56] INFO root fetch - processPackages [mathactive]: Downloading https://files.pythonhosted.org/packages/ef/da/7e9ad31148d0f84e54f848711affdf51d0d5a426b55359fbec8bebc60796/mathactive-0.0.9.tar.gz
+[2023-07-04 04:39:56] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-04 04:39:56] INFO root fetch - processPackages [calamine-tablib]: Downloading https://files.pythonhosted.org/packages/dc/95/564bb088f7235daa7e7f48334983d042c84d321d8196cf9b6763284cae5b/calamine_tablib-0.1.4.tar.gz
+[2023-07-04 04:39:56] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-04 04:39:56] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230704/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 04:39:56] INFO root fetch - processPackages [vercel-llm-api]: Downloading https://files.pythonhosted.org/packages/b5/15/e4f6bcc4b75d11a34c529c860a9599325528e616a7ce63688c14b893e5e4/vercel_llm_api-0.2.1-py3-none-any.whl
+[2023-07-04 04:39:56] INFO root fetch - processPackages [mathactive]: executing diffoscope
+[2023-07-04 04:39:56] INFO root fetch - processPackages [mathactive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathactive-0.0.8.tar.gz tmp/mathactive-0.0.9.tar.gz --markdown 20230704/m/mathactive/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 04:39:56] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/46/1a/759f8fab9897a04212ae52bd85704ba7b91735f878d890512d54a3afd627/aicodebot-0.7.4.tar.gz
+[2023-07-04 04:39:56] INFO root fetch - processPackages [odoo14-addons-oca-account-financial-tools]: Downloading https://files.pythonhosted.org/packages/3d/33/8883a4a162ba0ab2b0a3963f5a7c9ccab2864bc7beffc3abca4fd3b575f7/odoo14_addons_oca_account_financial_tools-14.0.20230703.0-py3-none-any.whl
+[2023-07-04 04:39:56] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-04 04:39:56] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230704/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 04:39:56] INFO root fetch - processPackages [calamine-tablib]: executing diffoscope
+[2023-07-04 04:39:56] INFO root fetch - processPackages [calamine-tablib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calamine_tablib-0.1.3.tar.gz tmp/calamine_tablib-0.1.4.tar.gz --markdown 20230704/c/calamine-tablib/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-04 04:39:56] INFO root fetch - processPackages [vercel-llm-api]: executing diffoscope
+[2023-07-04 04:39:56] INFO root fetch - processPackages [vercel-llm-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vercel_llm_api-0.2.0-py3-none-any.whl.zip tmp/vercel_llm_api-0.2.1-py3-none-any.whl.zip --markdown 20230704/v/vercel-llm-api/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-04 04:39:56] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-07-04 04:39:56] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.7.3.tar.gz tmp/aicodebot-0.7.4.tar.gz --markdown 20230704/a/aicodebot/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-07-04 04:39:56] INFO root fetch - processPackages [odoo14-addons-oca-account-financial-tools]: executing diffoscope
+[2023-07-04 04:39:56] INFO root fetch - processPackages [odoo14-addons-oca-account-financial-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_account_financial_tools-14.0.20230603.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_account_financial_tools-14.0.20230703.0-py3-none-any.whl.zip --markdown 20230704/o/odoo14-addons-oca-account-financial-tools/14.0.20230603.0-14.0.20230703.0/diff.md --exclude *.pyd
+[2023-07-04 04:39:57] INFO root fetch - processPackages [rez-pip]: Downloading https://files.pythonhosted.org/packages/ab/9a/98b9cf04af3f6039b75ede232589e0adc60feac18d725f8efdf92d0eb332/rez_pip-0.2.0.tar.gz
+[2023-07-04 04:39:57] INFO root fetch - processPackages [rez-pip]: executing diffoscope
+[2023-07-04 04:39:57] INFO root fetch - processPackages [rez-pip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rez_pip-0.1.0.tar.gz tmp/rez_pip-0.2.0.tar.gz --markdown 20230704/r/rez-pip/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-04 04:39:57] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-04 04:39:57] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-04 04:39:57] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-04 04:39:57] INFO root fetch - processPackages [odoo14-addons-oca-account-financial-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_account_financial_tools-14.0.20230603.0-py3-none-any.whl.zip]
+[2023-07-04 04:39:57] INFO root fetch - processPackages [odoo14-addons-oca-account-financial-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_account_financial_tools-14.0.20230703.0-py3-none-any.whl.zip]
+[2023-07-04 04:39:57] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-account-financial-tools]: success
+[2023-07-04 04:39:57] INFO root fetch - processPackages [mathactive]: Remove: archive file [/home/abi/fetcher/tmp/mathactive-0.0.8.tar.gz]
+[2023-07-04 04:39:57] INFO root fetch - processPackages [mathactive]: Remove: archive file [/home/abi/fetcher/tmp/mathactive-0.0.9.tar.gz]
+[2023-07-04 04:39:57] INFO root fetch - main [MainThread]: End processing [mathactive]: success
+[2023-07-04 04:39:57] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-04 04:39:57] INFO root fetch - processPackages [calamine-tablib]: Remove: archive file [/home/abi/fetcher/tmp/calamine_tablib-0.1.3.tar.gz]
+[2023-07-04 04:39:58] INFO root fetch - processPackages [calamine-tablib]: Remove: archive file [/home/abi/fetcher/tmp/calamine_tablib-0.1.4.tar.gz]
+[2023-07-04 04:39:58] INFO root fetch - main [MainThread]: End processing [calamine-tablib]: success
+[2023-07-04 04:39:58] INFO root fetch - processPackages [vercel-llm-api]: Remove: archive file [/home/abi/fetcher/tmp/vercel_llm_api-0.2.0-py3-none-any.whl.zip]
+[2023-07-04 04:39:58] INFO root fetch - processPackages [vercel-llm-api]: Remove: archive file [/home/abi/fetcher/tmp/vercel_llm_api-0.2.1-py3-none-any.whl.zip]
+[2023-07-04 04:39:58] INFO root fetch - main [MainThread]: End processing [vercel-llm-api]: success
+[2023-07-04 04:39:58] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.7.3.tar.gz]
+[2023-07-04 04:39:58] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.7.4.tar.gz]
+[2023-07-04 04:39:58] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-07-04 04:39:58] INFO root fetch - processPackages [rez-pip]: Remove: archive file [/home/abi/fetcher/tmp/rez_pip-0.1.0.tar.gz]
+[2023-07-04 04:39:58] INFO root fetch - processPackages [rez-pip]: Remove: archive file [/home/abi/fetcher/tmp/rez_pip-0.2.0.tar.gz]
+[2023-07-04 04:39:58] INFO root fetch - main [MainThread]: End processing [rez-pip]: success
+[2023-07-04 04:39:58] INFO root fetch - main [MainThread]: Store serial: [18749622]
