@@ -4681,3 +4681,104 @@
 [2023-07-04 02:39:52] INFO root fetch - processPackages [jsbgym]: Remove: archive file [/home/abi/fetcher/tmp/jsbgym-0.1.9.tar.gz]
 [2023-07-04 02:39:52] INFO root fetch - main [MainThread]: End processing [jsbgym]: success
 [2023-07-04 02:39:52] INFO root fetch - main [MainThread]: Store serial: [18747681]
+[2023-07-04 02:44:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18747681]
+[2023-07-04 02:45:01] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-04 02:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aeppl-nightly
+[2023-07-04 02:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lib-pybroker
+[2023-07-04 02:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-26
+[2023-07-04 02:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CEF4pygame
+[2023-07-04 02:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gantry
+[2023-07-04 02:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ass
+[2023-07-04 02:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: HALchemy
+[2023-07-04 02:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: omnata-plugin-runtime
+[2023-07-04 02:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: swarms
+[2023-07-04 02:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: llm-chain
+[2023-07-04 02:45:01] INFO root fetch - processPackages [HALchemy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-04 02:45:01] INFO root fetch - processPackages [lib-pybroker]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-04 02:45:01] INFO root fetch - processPackages [ass]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-04 02:45:01] WARNING root fetch - processPackages [CEF4pygame]: Skipping, unable to determine old version
+[2023-07-04 02:45:01] INFO root fetch - processPackages [CEF4pygame]: Start processing: state-machine-semaphore
+[2023-07-04 02:45:01] INFO root fetch - main [MainThread]: End processing [CEF4pygame] error
+[2023-07-04 02:45:01] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 02:45:01] INFO root fetch - processPackages [llm-chain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 02:45:01] INFO root fetch - processPackages [swarms]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-07-04 02:45:01] INFO root fetch - processPackages [gantry]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-04 02:45:01] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-04 02:45:01] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20230704] Old Version: [0.1.5.dev20230703]
+[2023-07-04 02:45:01] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-04 02:45:01] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-07-04 02:45:01] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/f7/8b/944f4e979834e8a541f483b3961c91b76aae764a1a9055d9eb74e947a719/swarms-0.1.7.tar.gz
+[2023-07-04 02:45:01] INFO root fetch - processPackages [HALchemy]: Downloading https://files.pythonhosted.org/packages/02/67/3d4d09bb73f1ebd141fd02bef42393a3d9b8d0e8e9e041e94287c8a21bdb/HALchemy-0.1.0-py3-none-any.whl
+[2023-07-04 02:45:01] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-07-04 02:45:01] INFO root fetch - processPackages [ass]: Downloading https://files.pythonhosted.org/packages/b9/8c/e617877a4b86e12f851526d11071b40dbefda182b92ee240cf6a4f2e5bfc/ass-0.5.3.tar.gz
+[2023-07-04 02:45:01] INFO root fetch - processPackages [lib-pybroker]: Downloading https://files.pythonhosted.org/packages/34/3c/7a7a15f5a575198f5681a2eacd112a20ad5dca5783c6e8b758896a6818cf/lib-pybroker-1.1.8.tar.gz
+[2023-07-04 02:45:01] INFO root fetch - processPackages [llm-chain]: Downloading https://files.pythonhosted.org/packages/ad/0a/0c7f7c227359c09f5e88c872ee082cdd6d578afd846a72d7bd6e23351c19/llm-chain-0.0.8.tar.gz
+[2023-07-04 02:45:01] INFO root fetch - processPackages [gantry]: Downloading https://files.pythonhosted.org/packages/04/92/e8194247a54c8ff4acda78faf77cd72fd5e8a24d636da7989581a789eb05/gantry-0.6.8.tar.gz
+[2023-07-04 02:45:01] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/3e/9f/35a59521a6c5b42a9a61090e5c43d0eb7311fd50793a55dd2719a7914552/aeppl-nightly-0.1.5.dev20230703.tar.gz
+[2023-07-04 02:45:01] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-07-04 02:45:01] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-07-04 02:45:02] INFO root fetch - processPackages [ass]: Downloading https://files.pythonhosted.org/packages/f0/20/f40eb4e64989fdddae3330468e4555f64b7234338b4e02952f3e442f3790/ass-0.5.4.tar.gz
+[2023-07-04 02:45:02] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/1f/f4/775f945ffca40301b352c758e06ae028b291f0a5c14e14f3143e241d8963/swarms-0.1.9.tar.gz
+[2023-07-04 02:45:02] INFO root fetch - processPackages [HALchemy]: Downloading https://files.pythonhosted.org/packages/c3/66/1ebce5713adc65144bc511046761a060f5129bfd0109297bb51e08aa952d/HALchemy-0.1.1-py3-none-any.whl
+[2023-07-04 02:45:02] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-07-04 02:45:02] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230704/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 02:45:02] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-07-04 02:45:02] INFO root fetch - processPackages [ass]: executing diffoscope
+[2023-07-04 02:45:02] INFO root fetch - processPackages [ass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ass-0.5.3.tar.gz tmp/ass-0.5.4.tar.gz --markdown 20230704/a/ass/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-04 02:45:02] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-04 02:45:02] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.1.7.tar.gz tmp/swarms-0.1.9.tar.gz --markdown 20230704/s/swarms/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 02:45:02] INFO root fetch - processPackages [gantry]: Downloading https://files.pythonhosted.org/packages/62/a6/b90b9f931c044f248880cfcfbe4091c9fe84c27d3a148fb8a469a53d8f38/gantry-0.6.9.tar.gz
+[2023-07-04 02:45:02] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/a7/73/7a7dbc05348373f96c42d86323abc55daf53aae329fc2dee2c8675de8416/aeppl-nightly-0.1.5.dev20230704.tar.gz
+[2023-07-04 02:45:02] INFO root fetch - processPackages [lib-pybroker]: Downloading https://files.pythonhosted.org/packages/92/47/5d3c2f878c1e65d38032b9450a585161c2761a80814b046f502951c65eed/lib-pybroker-1.1.9.tar.gz
+[2023-07-04 02:45:02] INFO root fetch - processPackages [HALchemy]: executing diffoscope
+[2023-07-04 02:45:02] INFO root fetch - processPackages [HALchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HALchemy-0.1.0-py3-none-any.whl.zip tmp/HALchemy-0.1.1-py3-none-any.whl.zip --markdown 20230704/H/HALchemy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-04 02:45:02] INFO root fetch - processPackages [llm-chain]: Downloading https://files.pythonhosted.org/packages/86/bb/a6773e0c83b405b184e19aa3f5e6e685a38e64842b41a0f551b6844a6510/llm-chain-0.0.9.tar.gz
+[2023-07-04 02:45:02] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-07-04 02:45:02] INFO root fetch - processPackages [gantry]: executing diffoscope
+[2023-07-04 02:45:02] INFO root fetch - processPackages [gantry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gantry-0.6.8.tar.gz tmp/gantry-0.6.9.tar.gz --markdown 20230704/g/gantry/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-04 02:45:02] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-07-04 02:45:02] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230704/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-04 02:45:02] INFO root fetch - processPackages [llm-chain]: executing diffoscope
+[2023-07-04 02:45:02] INFO root fetch - processPackages [llm-chain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-chain-0.0.8.tar.gz tmp/llm-chain-0.0.9.tar.gz --markdown 20230704/l/llm-chain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 02:45:02] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-04 02:45:02] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230704/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-07-04 02:45:02] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-07-04 02:45:02] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20230703.tar.gz tmp/aeppl-nightly-0.1.5.dev20230704.tar.gz --markdown 20230704/a/aeppl-nightly/0.1.5.dev20230703-0.1.5.dev20230704/diff.md --exclude *.pyd
+[2023-07-04 02:45:02] INFO root fetch - processPackages [lib-pybroker]: executing diffoscope
+[2023-07-04 02:45:02] INFO root fetch - processPackages [lib-pybroker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib-pybroker-1.1.8.tar.gz tmp/lib-pybroker-1.1.9.tar.gz --markdown 20230704/l/lib-pybroker/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-04 02:45:03] INFO root fetch - processPackages [ass]: Remove: archive file [/home/abi/fetcher/tmp/ass-0.5.3.tar.gz]
+[2023-07-04 02:45:03] INFO root fetch - processPackages [ass]: Remove: archive file [/home/abi/fetcher/tmp/ass-0.5.4.tar.gz]
+[2023-07-04 02:45:03] INFO root fetch - processPackages [ass]: Start processing: pylance
+[2023-07-04 02:45:03] INFO root fetch - main [MainThread]: End processing [ass]: success
+[2023-07-04 02:45:03] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-07-04 02:45:03] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-07-04 02:45:03] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-07-04 02:45:03] INFO root fetch - processPackages [HALchemy]: Remove: archive file [/home/abi/fetcher/tmp/HALchemy-0.1.0-py3-none-any.whl.zip]
+[2023-07-04 02:45:03] INFO root fetch - processPackages [HALchemy]: Remove: archive file [/home/abi/fetcher/tmp/HALchemy-0.1.1-py3-none-any.whl.zip]
+[2023-07-04 02:45:03] INFO root fetch - main [MainThread]: End processing [HALchemy]: success
+[2023-07-04 02:45:03] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.1.7.tar.gz]
+[2023-07-04 02:45:03] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.1.9.tar.gz]
+[2023-07-04 02:45:03] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-04 02:45:04] INFO root fetch - processPackages [pylance]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-04 02:45:04] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-07-04 02:45:04] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-07-04 02:45:04] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-07-04 02:45:04] INFO root fetch - processPackages [llm-chain]: Remove: archive file [/home/abi/fetcher/tmp/llm-chain-0.0.8.tar.gz]
+[2023-07-04 02:45:04] INFO root fetch - processPackages [llm-chain]: Remove: archive file [/home/abi/fetcher/tmp/llm-chain-0.0.9.tar.gz]
+[2023-07-04 02:45:04] INFO root fetch - main [MainThread]: End processing [llm-chain]: success
+[2023-07-04 02:45:04] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230703.tar.gz]
+[2023-07-04 02:45:04] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230704.tar.gz]
+[2023-07-04 02:45:04] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-07-04 02:45:04] INFO root fetch - processPackages [lib-pybroker]: Remove: archive file [/home/abi/fetcher/tmp/lib-pybroker-1.1.8.tar.gz]
+[2023-07-04 02:45:04] INFO root fetch - processPackages [lib-pybroker]: Remove: archive file [/home/abi/fetcher/tmp/lib-pybroker-1.1.9.tar.gz]
+[2023-07-04 02:45:04] INFO root fetch - main [MainThread]: End processing [lib-pybroker]: success
+[2023-07-04 02:45:04] INFO root fetch - processPackages [pylance]: Downloading https://files.pythonhosted.org/packages/2c/dd/fe544c907898e0ac20031e4b3c42cbbb03c9514a5071abdc65e3888a857e/pylance-0.5.2-cp38-abi3-win_amd64.whl
+[2023-07-04 02:45:04] WARNING root fetch - processPackages [pylance]: Skipping package: exceeds size limit 22466923>=10485760
+[2023-07-04 02:45:04] INFO root fetch - main [MainThread]: End processing [pylance] error
+[2023-07-04 02:45:04] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-07-04 02:45:04] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-07-04 02:45:04] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-04 02:45:04] INFO root fetch - processPackages [gantry]: Remove: archive file [/home/abi/fetcher/tmp/gantry-0.6.8.tar.gz]
+[2023-07-04 02:45:04] INFO root fetch - processPackages [gantry]: Remove: archive file [/home/abi/fetcher/tmp/gantry-0.6.9.tar.gz]
+[2023-07-04 02:45:04] INFO root fetch - main [MainThread]: End processing [gantry]: success
+[2023-07-04 02:45:04] INFO root fetch - main [MainThread]: Store serial: [18747714]
