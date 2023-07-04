@@ -17267,3 +17267,229 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 11:26:02] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-07-04 11:26:02] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-07-04 11:26:02] INFO root fetch - main [MainThread]: Store serial: [18752512]
+[2023-07-04 11:31:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18752512]
+[2023-07-04 11:31:11] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-04 11:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testpolyanalyst6api
+[2023-07-04 11:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kafkaclientveli
+[2023-07-04 11:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datagit
+[2023-07-04 11:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: regain
+[2023-07-04 11:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: syngen
+[2023-07-04 11:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: petisco
+[2023-07-04 11:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: refoss-ha
+[2023-07-04 11:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyfluids
+[2023-07-04 11:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modelbase
+[2023-07-04 11:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rogue-tools
+[2023-07-04 11:31:11] INFO root fetch - processPackages [kafkaclientveli]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-04 11:31:11] INFO root fetch - processPackages [regain]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-04 11:31:12] INFO root fetch - processPackages [pyfluids]: New version: [2.4.0rc1] Old Version: [2.3.2]
+[2023-07-04 11:31:12] INFO root fetch - processPackages [petisco]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-07-04 11:31:12] INFO root fetch - processPackages [datagit]: New version: [0.8] Old Version: [0.7]
+[2023-07-04 11:31:12] INFO root fetch - processPackages [rogue-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-04 11:31:12] WARNING root fetch - processPackages [refoss-ha]: Skipping, unable to determine old version
+[2023-07-04 11:31:12] INFO root fetch - processPackages [refoss-ha]: Start processing: mvf
+[2023-07-04 11:31:12] INFO root fetch - main [MainThread]: End processing [refoss-ha] error
+[2023-07-04 11:31:12] INFO root fetch - processPackages [modelbase]: New version: [1rc2] Old Version: [1.9.3]
+[2023-07-04 11:31:12] INFO root fetch - processPackages [syngen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 11:31:12] WARNING root fetch - processPackages [testpolyanalyst6api]: Skipping, unable to determine old version
+[2023-07-04 11:31:12] INFO root fetch - processPackages [testpolyanalyst6api]: Start processing: sfctools
+[2023-07-04 11:31:12] INFO root fetch - main [MainThread]: End processing [testpolyanalyst6api] error
+[2023-07-04 11:31:12] INFO root fetch - processPackages [mvf]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-04 11:31:12] INFO root fetch - processPackages [sfctools]: New version: [1.1.0.1] Old Version: [1.0.6.7]
+[2023-07-04 11:31:12] INFO root fetch - processPackages [kafkaclientveli]: Downloading https://files.pythonhosted.org/packages/93/e4/e82d02db0be472ae750a0fe53f68a2ae44622068d27717cc9f2e983c7091/kafkaclientveli-1.0.5.tar.gz
+[2023-07-04 11:31:12] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/6c/22/10d99d1280b98239e5c5f4c45e4e4f017af7c413c388a012689ece0e0fc4/petisco-2.0.0rc8.tar.gz
+[2023-07-04 11:31:12] INFO root fetch - processPackages [pyfluids]: Downloading https://files.pythonhosted.org/packages/62/92/a7e9e85bfd12c6d5744594afa2cc0a415a2d09aecfbbd49b994954eca36f/pyfluids-2.3.2.tar.gz
+[2023-07-04 11:31:12] INFO root fetch - processPackages [regain]: Downloading https://files.pythonhosted.org/packages/56/ef/08e2b6c90ac36cabca2b6f1d5a13e070f1af8565ea98054edce33c241fc3/regain-0.3.8.tar.gz
+[2023-07-04 11:31:12] INFO root fetch - processPackages [datagit]: Downloading https://files.pythonhosted.org/packages/21/a3/4d237a96ff4649b386657777d15a6b4915e721dc5d02530811c7338e6d7a/datagit-0.7.tar.gz
+[2023-07-04 11:31:12] INFO root fetch - processPackages [rogue-tools]: Downloading https://files.pythonhosted.org/packages/37/88/160e6186cc66081c211dca0073ba15132e44d50e96e89e07d36f0921e8c0/rogue_tools-1.0.8.tar.gz
+[2023-07-04 11:31:12] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/2d/60/61225a94c9e33f3d21366aefd4cdf1945c8805e3540a30f2fd1c5d8faa06/modelbase-1.9.3.tar.gz
+[2023-07-04 11:31:12] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/d1/5c/1a07748f97870290d6219c56768425459aa1519f941153183894348fc83a/syngen-0.1.8.tar.gz
+[2023-07-04 11:31:12] INFO root fetch - processPackages [mvf]: Downloading https://files.pythonhosted.org/packages/9d/fc/2f33a16a578004601f73be93daa5fba62b057d9ef02400efc1d8c9e9cffc/mvf-0.0.4.tar.gz
+[2023-07-04 11:31:12] INFO root fetch - processPackages [sfctools]: Downloading https://files.pythonhosted.org/packages/46/d9/f161b436696f0f66828d4165fd6231f83ffa0f28b1ac8b64ba018a7a46a6/sfctools-1.0.6.7.tar.gz
+[2023-07-04 11:31:12] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/f1/b1/328e5fa54c27eb9b31458e81fd400ae04d15d17f4c236659198a4b9cd373/petisco-2.0.0rc9.tar.gz
+[2023-07-04 11:31:12] INFO root fetch - processPackages [kafkaclientveli]: Downloading https://files.pythonhosted.org/packages/a1/de/9b8077a0ba821030ade7db6eaea75b9cebd8a2658c020db2bbc9a6e3bd27/kafkaclientveli-1.0.6.tar.gz
+[2023-07-04 11:31:12] INFO root fetch - processPackages [pyfluids]: Downloading https://files.pythonhosted.org/packages/37/f2/0d7d36d8ff378c36f01f1b1903deb8041684f2a24e7fcf41634967b7bebb/pyfluids-2.4.0rc1.tar.gz
+[2023-07-04 11:31:12] INFO root fetch - processPackages [regain]: Downloading https://files.pythonhosted.org/packages/8b/3b/8f0e3a5a6b7564b1faf0e0d41990f1267e06932aa1d45943f60d17887cc0/regain-0.3.9.tar.gz
+[2023-07-04 11:31:12] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-07-04 11:31:12] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-2.0.0rc8.tar.gz tmp/petisco-2.0.0rc9.tar.gz --markdown 20230704/p/petisco/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-07-04 11:31:12] INFO root fetch - processPackages [datagit]: Downloading https://files.pythonhosted.org/packages/92/03/09115a0e007a0e9e34ca94fe7dc5a98a891eb84cfd5635cfc89e93e6145b/datagit-0.8.tar.gz
+[2023-07-04 11:31:12] INFO root fetch - processPackages [pyfluids]: executing diffoscope
+[2023-07-04 11:31:12] INFO root fetch - processPackages [pyfluids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfluids-2.3.2.tar.gz tmp/pyfluids-2.4.0rc1.tar.gz --markdown 20230704/p/pyfluids/2.3.2-2.4.0rc1/diff.md --exclude *.pyd
+[2023-07-04 11:31:12] INFO root fetch - processPackages [kafkaclientveli]: executing diffoscope
+[2023-07-04 11:31:12] INFO root fetch - processPackages [mvf]: Downloading https://files.pythonhosted.org/packages/f3/08/18c7eb6d6ab85c94770f1a84a5123506ca9097acbd629303109570e6be8b/mvf-0.0.5.tar.gz
+[2023-07-04 11:31:12] INFO root fetch - processPackages [kafkaclientveli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafkaclientveli-1.0.5.tar.gz tmp/kafkaclientveli-1.0.6.tar.gz --markdown 20230704/k/kafkaclientveli/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-04 11:31:12] INFO root fetch - processPackages [rogue-tools]: Downloading https://files.pythonhosted.org/packages/55/cb/de4cb451007292c298cc3b2c96ebab47c6d2ca1877dd2e7b3f4e93392328/rogue_tools-1.0.9.tar.gz
+[2023-07-04 11:31:13] INFO root fetch - processPackages [sfctools]: Downloading https://files.pythonhosted.org/packages/ed/b8/a868add2d4edb189451f3eb8929fe0f321155ac9ba9dadb10e305e470780/sfctools-1.1.0.1.tar.gz
+[2023-07-04 11:31:13] INFO root fetch - processPackages [regain]: executing diffoscope
+[2023-07-04 11:31:13] INFO root fetch - processPackages [regain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regain-0.3.8.tar.gz tmp/regain-0.3.9.tar.gz --markdown 20230704/r/regain/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-04 11:31:13] INFO root fetch - processPackages [datagit]: executing diffoscope
+[2023-07-04 11:31:13] INFO root fetch - processPackages [datagit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagit-0.7.tar.gz tmp/datagit-0.8.tar.gz --markdown 20230704/d/datagit/0.7-0.8/diff.md --exclude *.pyd
+[2023-07-04 11:31:13] INFO root fetch - processPackages [mvf]: executing diffoscope
+[2023-07-04 11:31:13] INFO root fetch - processPackages [mvf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvf-0.0.4.tar.gz tmp/mvf-0.0.5.tar.gz --markdown 20230704/m/mvf/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-04 11:31:13] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/50/e2/d6e4b5bb8eda18f7221f3af4d4f295ef693f37fbafe88e68574e7e39c29f/modelbase-1rc2.tar.gz
+[2023-07-04 11:31:13] INFO root fetch - processPackages [sfctools]: executing diffoscope
+[2023-07-04 11:31:13] INFO root fetch - processPackages [sfctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfctools-1.0.6.7.tar.gz tmp/sfctools-1.1.0.1.tar.gz --markdown 20230704/s/sfctools/1.0.6.7-1.1.0.1/diff.md --exclude *.pyd
+[2023-07-04 11:31:13] INFO root fetch - processPackages [rogue-tools]: executing diffoscope
+[2023-07-04 11:31:13] INFO root fetch - processPackages [rogue-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rogue_tools-1.0.8.tar.gz tmp/rogue_tools-1.0.9.tar.gz --markdown 20230704/r/rogue-tools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-04 11:31:13] INFO root fetch - processPackages [modelbase]: executing diffoscope
+[2023-07-04 11:31:13] INFO root fetch - processPackages [modelbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase-1.9.3.tar.gz tmp/modelbase-1rc2.tar.gz --markdown 20230704/m/modelbase/1.9.3-1rc2/diff.md --exclude *.pyd
+[2023-07-04 11:31:13] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/1c/ec/09634635304cfe54bd538c9f136477113b28b8b56e10596aec3cf678573a/syngen-0.1.9.tar.gz
+[2023-07-04 11:31:14] INFO root fetch - processPackages [kafkaclientveli]: Remove: archive file [/home/abi/fetcher/tmp/kafkaclientveli-1.0.5.tar.gz]
+[2023-07-04 11:31:14] INFO root fetch - processPackages [kafkaclientveli]: Remove: archive file [/home/abi/fetcher/tmp/kafkaclientveli-1.0.6.tar.gz]
+[2023-07-04 11:31:14] INFO root fetch - processPackages [kafkaclientveli]: Start processing: SELDOMpy
+[2023-07-04 11:31:14] INFO root fetch - main [MainThread]: End processing [kafkaclientveli]: success
+[2023-07-04 11:31:14] INFO root fetch - processPackages [SELDOMpy]: New version: [0.8.0] Old Version: [0.7.9]
+[2023-07-04 11:31:14] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-07-04 11:31:14] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.1.8.tar.gz tmp/syngen-0.1.9.tar.gz --markdown 20230704/s/syngen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 11:31:14] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/a3/e0/d40ca6564a52b9471aaa5539bfb8645a158aaa8f7279b1e853f58a20f4b6/SELDOMpy-0.7.9.tar.gz
+[2023-07-04 11:31:14] INFO root fetch - processPackages [datagit]: Remove: archive file [/home/abi/fetcher/tmp/datagit-0.7.tar.gz]
+[2023-07-04 11:31:14] INFO root fetch - processPackages [datagit]: Remove: archive file [/home/abi/fetcher/tmp/datagit-0.8.tar.gz]
+[2023-07-04 11:31:14] INFO root fetch - processPackages [datagit]: Start processing: k-amino.py
+[2023-07-04 11:31:14] INFO root fetch - main [MainThread]: End processing [datagit]: success
+[2023-07-04 11:31:14] INFO root fetch - processPackages [k-amino.py]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-04 11:31:14] INFO root fetch - processPackages [pyfluids]: Remove: archive file [/home/abi/fetcher/tmp/pyfluids-2.3.2.tar.gz]
+[2023-07-04 11:31:14] INFO root fetch - processPackages [pyfluids]: Remove: archive file [/home/abi/fetcher/tmp/pyfluids-2.4.0rc1.tar.gz]
+[2023-07-04 11:31:14] INFO root fetch - processPackages [pyfluids]: Start processing: iv2
+[2023-07-04 11:31:14] INFO root fetch - main [MainThread]: End processing [pyfluids]: success
+[2023-07-04 11:31:14] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/21/5c/da5262ec120483ad69aeed649e4f83473af097829fcde0be61c449926a31/SELDOMpy-0.8.0.tar.gz
+[2023-07-04 11:31:15] WARNING root fetch - processPackages [iv2]: Skipping, unable to determine old version
+[2023-07-04 11:31:15] INFO root fetch - processPackages [iv2]: Start processing: kafkaclientveli
+[2023-07-04 11:31:15] INFO root fetch - main [MainThread]: End processing [iv2] error
+[2023-07-04 11:31:15] INFO root fetch - processPackages [kafkaclientveli]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-04 11:31:15] INFO root fetch - processPackages [mvf]: Remove: archive file [/home/abi/fetcher/tmp/mvf-0.0.4.tar.gz]
+[2023-07-04 11:31:15] INFO root fetch - processPackages [mvf]: Remove: archive file [/home/abi/fetcher/tmp/mvf-0.0.5.tar.gz]
+[2023-07-04 11:31:15] INFO root fetch - processPackages [mvf]: Start processing: spotPython
+[2023-07-04 11:31:15] INFO root fetch - main [MainThread]: End processing [mvf]: success
+[2023-07-04 11:31:15] INFO root fetch - processPackages [k-amino.py]: Downloading https://files.pythonhosted.org/packages/3b/70/52002960f43c1bb63dda7083082f172c3d697363569599be34b5edf02d08/k-amino.py-1.3.0.tar.gz
+[2023-07-04 11:31:15] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-04 11:31:15] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.7.9.tar.gz tmp/SELDOMpy-0.8.0.tar.gz --markdown 20230704/S/SELDOMpy/0.7.9-0.8.0/diff.md --exclude *.pyd
+[2023-07-04 11:31:15] INFO root fetch - processPackages [spotPython]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-04 11:31:15] INFO root fetch - processPackages [kafkaclientveli]: Downloading https://files.pythonhosted.org/packages/93/e4/e82d02db0be472ae750a0fe53f68a2ae44622068d27717cc9f2e983c7091/kafkaclientveli-1.0.5.tar.gz
+[2023-07-04 11:31:15] INFO root fetch - processPackages [rogue-tools]: Remove: archive file [/home/abi/fetcher/tmp/rogue_tools-1.0.8.tar.gz]
+[2023-07-04 11:31:15] INFO root fetch - processPackages [rogue-tools]: Remove: archive file [/home/abi/fetcher/tmp/rogue_tools-1.0.9.tar.gz]
+[2023-07-04 11:31:15] INFO root fetch - processPackages [rogue-tools]: Start processing: pyrolite
+[2023-07-04 11:31:15] INFO root fetch - main [MainThread]: End processing [rogue-tools]: success
+[2023-07-04 11:31:15] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1.9.3.tar.gz]
+[2023-07-04 11:31:15] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1rc2.tar.gz]
+[2023-07-04 11:31:15] INFO root fetch - processPackages [modelbase]: Start processing: flask-vite
+[2023-07-04 11:31:15] INFO root fetch - main [MainThread]: End processing [modelbase]: success
+[2023-07-04 11:31:15] INFO root fetch - processPackages [pyrolite]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-04 11:31:15] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/fb/18/eefdcdebf7316908129035adffb2569fb6dd5bb4b4e98f6ac2e4b30b7bed/spotPython-0.3.1.tar.gz
+[2023-07-04 11:31:15] INFO root fetch - processPackages [kafkaclientveli]: Downloading https://files.pythonhosted.org/packages/a1/de/9b8077a0ba821030ade7db6eaea75b9cebd8a2658c020db2bbc9a6e3bd27/kafkaclientveli-1.0.6.tar.gz
+[2023-07-04 11:31:15] WARNING root fetch - processPackages [spotPython]: Skipping package: exceeds size limit 25054974>=10485760
+[2023-07-04 11:31:15] INFO root fetch - processPackages [spotPython]: Start processing: pydantic-loggings
+[2023-07-04 11:31:15] INFO root fetch - processPackages [flask-vite]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-07-04 11:31:15] INFO root fetch - main [MainThread]: End processing [spotPython] error
+[2023-07-04 11:31:15] INFO root fetch - processPackages [pydantic-loggings]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-04 11:31:15] INFO root fetch - processPackages [regain]: Remove: archive file [/home/abi/fetcher/tmp/regain-0.3.8.tar.gz]
+[2023-07-04 11:31:15] INFO root fetch - processPackages [regain]: Remove: archive file [/home/abi/fetcher/tmp/regain-0.3.9.tar.gz]
+[2023-07-04 11:31:15] INFO root fetch - processPackages [regain]: Start processing: tbp-nightly
+[2023-07-04 11:31:15] INFO root fetch - main [MainThread]: End processing [regain]: success
+[2023-07-04 11:31:15] INFO root fetch - processPackages [kafkaclientveli]: executing diffoscope
+[2023-07-04 11:31:15] INFO root fetch - processPackages [kafkaclientveli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafkaclientveli-1.0.5.tar.gz tmp/kafkaclientveli-1.0.6.tar.gz --markdown 20230704/k/kafkaclientveli/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-04 11:31:15] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/6a/34/b1af92289b1bb1134c7a9a367f5771ead38ee6bcf760e88cac3603fa2702/pydantic-loggings-0.8.0.tar.gz
+[2023-07-04 11:31:15] INFO root fetch - processPackages [k-amino.py]: Downloading https://files.pythonhosted.org/packages/1a/93/1858241991e4fdb23fa610abd31f3258916d1e30ab64f8c07a58a798ebbe/k-amino.py-1.4.0.tar.gz
+[2023-07-04 11:31:15] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-07-04 11:31:15] INFO root fetch - processPackages [pyrolite]: Downloading https://files.pythonhosted.org/packages/c5/e9/58dcd0755534d8d42d3476c5a342e93206558ca589dfca9c39ba896d809f/pyrolite-0.3.2.tar.gz
+[2023-07-04 11:31:15] INFO root fetch - processPackages [flask-vite]: Downloading https://files.pythonhosted.org/packages/a4/f4/e1b3a5d710988022cfedc1c7dfa1faf30c02c23bf149d0171f931ae23fd8/flask_vite-0.2.4.tar.gz
+[2023-07-04 11:31:15] ERROR root fetch - processPackages [sfctools]: Diffoscope failed: time="2023-07-04T11:31:13+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+SystemError: ../Objects/codeobject.c:250: bad argument to internal function
+
+[2023-07-04 11:31:15] INFO root fetch - processPackages [sfctools]: Start processing: scanpydoc
+[2023-07-04 11:31:15] INFO root fetch - main [MainThread]: End processing [sfctools] error
+[2023-07-04 11:31:15] INFO root fetch - processPackages [k-amino.py]: executing diffoscope
+[2023-07-04 11:31:15] INFO root fetch - processPackages [k-amino.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k-amino.py-1.3.0.tar.gz tmp/k-amino.py-1.4.0.tar.gz --markdown 20230704/k/k-amino.py/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-04 11:31:15] WARNING root fetch - processPackages [pyrolite]: Skipping package: exceeds size limit 10501550>=10485760
+[2023-07-04 11:31:15] INFO root fetch - main [MainThread]: End processing [pyrolite] error
+[2023-07-04 11:31:15] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc8.tar.gz]
+[2023-07-04 11:31:15] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc9.tar.gz]
+[2023-07-04 11:31:15] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-07-04 11:31:16] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/ab/c8/085b6ffd91326548ba3b355e72cc410286860516c34310924a6182dab40b/pydantic-loggings-0.9.0.tar.gz
+[2023-07-04 11:31:16] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-07-04 11:31:16] INFO root fetch - processPackages [scanpydoc]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-04 11:31:16] INFO root fetch - processPackages [pydantic-loggings]: executing diffoscope
+[2023-07-04 11:31:16] INFO root fetch - processPackages [pydantic-loggings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-loggings-0.8.0.tar.gz tmp/pydantic-loggings-0.9.0.tar.gz --markdown 20230704/p/pydantic-loggings/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-04 11:31:16] INFO root fetch - processPackages [flask-vite]: Downloading https://files.pythonhosted.org/packages/75/b9/6ec2f02d59003c0b2f3e1c12e61d594d847cb70f15a694f3d6da5e58a6ac/flask_vite-0.3.0.tar.gz
+[2023-07-04 11:31:16] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.8.tar.gz]
+[2023-07-04 11:31:16] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.9.tar.gz]
+[2023-07-04 11:31:16] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-07-04 11:31:16] INFO root fetch - processPackages [scanpydoc]: Downloading https://files.pythonhosted.org/packages/da/2c/ef2272df195b5d445ecc9768e54b276620345666997f7e7634d60e7df2c0/scanpydoc-0.7.8.tar.gz
+[2023-07-04 11:31:16] INFO root fetch - processPackages [flask-vite]: executing diffoscope
+[2023-07-04 11:31:16] INFO root fetch - processPackages [flask-vite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_vite-0.2.4.tar.gz tmp/flask_vite-0.3.0.tar.gz --markdown 20230704/f/flask-vite/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-07-04 11:31:16] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.7.9.tar.gz]
+[2023-07-04 11:31:16] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.0.tar.gz]
+[2023-07-04 11:31:16] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-04 11:31:16] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-07-04 11:31:16] INFO root fetch - processPackages [kafkaclientveli]: Remove: archive file [/home/abi/fetcher/tmp/kafkaclientveli-1.0.5.tar.gz]
+[2023-07-04 11:31:16] INFO root fetch - processPackages [kafkaclientveli]: Remove: archive file [/home/abi/fetcher/tmp/kafkaclientveli-1.0.6.tar.gz]
+[2023-07-04 11:31:16] INFO root fetch - main [MainThread]: End processing [kafkaclientveli]: success
+[2023-07-04 11:31:16] INFO root fetch - processPackages [scanpydoc]: Downloading https://files.pythonhosted.org/packages/cb/ba/7e2936a7df074b712abd5dcea707ccbfcbcf55254d00d626929e505c42c3/scanpydoc-0.7.9.tar.gz
+[2023-07-04 11:31:17] INFO root fetch - processPackages [scanpydoc]: executing diffoscope
+[2023-07-04 11:31:17] INFO root fetch - processPackages [scanpydoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scanpydoc-0.7.8.tar.gz tmp/scanpydoc-0.7.9.tar.gz --markdown 20230704/s/scanpydoc/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-04 11:31:17] INFO root fetch - processPackages [k-amino.py]: Remove: archive file [/home/abi/fetcher/tmp/k-amino.py-1.3.0.tar.gz]
+[2023-07-04 11:31:17] INFO root fetch - processPackages [k-amino.py]: Remove: archive file [/home/abi/fetcher/tmp/k-amino.py-1.4.0.tar.gz]
+[2023-07-04 11:31:17] INFO root fetch - main [MainThread]: End processing [k-amino.py]: success
+[2023-07-04 11:31:17] INFO root fetch - processPackages [flask-vite]: Remove: archive file [/home/abi/fetcher/tmp/flask_vite-0.2.4.tar.gz]
+[2023-07-04 11:31:17] INFO root fetch - processPackages [flask-vite]: Remove: archive file [/home/abi/fetcher/tmp/flask_vite-0.3.0.tar.gz]
+[2023-07-04 11:31:17] INFO root fetch - main [MainThread]: End processing [flask-vite]: success
+[2023-07-04 11:31:17] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.8.0.tar.gz]
+[2023-07-04 11:31:17] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.9.0.tar.gz]
+[2023-07-04 11:31:17] INFO root fetch - main [MainThread]: End processing [pydantic-loggings]: success
+[2023-07-04 11:31:17] INFO root fetch - processPackages [scanpydoc]: Remove: archive file [/home/abi/fetcher/tmp/scanpydoc-0.7.8.tar.gz]
+[2023-07-04 11:31:18] INFO root fetch - processPackages [scanpydoc]: Remove: archive file [/home/abi/fetcher/tmp/scanpydoc-0.7.9.tar.gz]
+[2023-07-04 11:31:18] INFO root fetch - main [MainThread]: End processing [scanpydoc]: success
+[2023-07-04 11:31:18] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-07-04 11:31:18] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230704/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-07-04 11:31:20] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-07-04 11:31:20] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-07-04 11:31:20] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-07-04 11:31:20] INFO root fetch - main [MainThread]: Store serial: [18752587]
