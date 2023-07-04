@@ -21797,3 +21797,113 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-04 14:42:53] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.354.0.tar.gz]
 [2023-07-04 14:42:53] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-04 14:42:53] INFO root fetch - main [MainThread]: Store serial: [18754676]
+[2023-07-04 14:47:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18754676]
+[2023-07-04 14:48:03] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-04 14:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akerbp.mlops
+[2023-07-04 14:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datagit
+[2023-07-04 14:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pathling
+[2023-07-04 14:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: systrack
+[2023-07-04 14:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airontools
+[2023-07-04 14:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: JBioSeqTools
+[2023-07-04 14:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flask-cloudflared
+[2023-07-04 14:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: argus-api
+[2023-07-04 14:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tarandm-analytics
+[2023-07-04 14:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-beeprint
+[2023-07-04 14:48:04] WARNING root fetch - processPackages [tarandm-analytics]: Skipping, unable to determine old version
+[2023-07-04 14:48:04] INFO root fetch - processPackages [tarandm-analytics]: Start processing: ovos-config
+[2023-07-04 14:48:04] INFO root fetch - main [MainThread]: End processing [tarandm-analytics] error
+[2023-07-04 14:48:04] INFO root fetch - processPackages [JBioSeqTools]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-04 14:48:04] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.2.1a9] Old Version: [3.2.1a8]
+[2023-07-04 14:48:04] INFO root fetch - processPackages [pytest-beeprint]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-04 14:48:04] INFO root fetch - processPackages [pathling]: New version: [6.2.3.dev0] Old Version: [6.2.3]
+[2023-07-04 14:48:04] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/a8/e4/3501b8682791ef48690c22dee3a139baa414a474e1502056adfbd3d20333/JBioSeqTools-1.1.4.tar.gz
+[2023-07-04 14:48:04] INFO root fetch - processPackages [airontools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 14:48:04] INFO root fetch - processPackages [argus-api]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-07-04 14:48:04] INFO root fetch - processPackages [flask-cloudflared]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 14:48:04] INFO root fetch - processPackages [systrack]: New version: [0.3rc3] Old Version: [0.3rc2]
+[2023-07-04 14:48:04] INFO root fetch - processPackages [datagit]: New version: [0.9] Old Version: [0.8]
+[2023-07-04 14:48:04] INFO root fetch - processPackages [ovos-config]: New version: [0.0.9a6] Old Version: [0.0.9a5]
+[2023-07-04 14:48:04] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/de/0a/ceb3a6dea90f0331e5680ee0aeec282809a7c87dea527072053e77526688/akerbp.mlops-3.2.1a8.tar.gz
+[2023-07-04 14:48:04] INFO root fetch - processPackages [systrack]: Downloading https://files.pythonhosted.org/packages/f4/e8/dc3a5307879cf3f73bac34c05d1752f56476d40e408b0977f506b59ce7cc/systrack-0.3rc2.tar.gz
+[2023-07-04 14:48:04] INFO root fetch - processPackages [pytest-beeprint]: Downloading https://files.pythonhosted.org/packages/a9/aa/0292d6680e38f45feb6ffeb4b0aac5eabc664ed30820df261a11b86e73a7/pytest-beeprint-0.1.1.tar.gz
+[2023-07-04 14:48:04] INFO root fetch - processPackages [pathling]: Downloading https://files.pythonhosted.org/packages/1e/28/472d956849512a2925fae8b38bc7145547335e8507c7eedcc7701d7e5f2c/pathling-6.2.3.tar.gz
+[2023-07-04 14:48:04] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/99/31/8b7871379640bf5ac681d1c0d8603513c2075d52ddce2a3dbadef78a3692/JBioSeqTools-1.1.5.tar.gz
+[2023-07-04 14:48:04] INFO root fetch - processPackages [datagit]: Downloading https://files.pythonhosted.org/packages/92/03/09115a0e007a0e9e34ca94fe7dc5a98a891eb84cfd5635cfc89e93e6145b/datagit-0.8.tar.gz
+[2023-07-04 14:48:04] INFO root fetch - processPackages [airontools]: Downloading https://files.pythonhosted.org/packages/1c/a1/ee4f0a89c7f7eb356f1da893ab5726ba05871394ac223304efb0f1926e5d/airontools-0.1.8-py3-none-any.whl
+[2023-07-04 14:48:04] INFO root fetch - processPackages [flask-cloudflared]: Downloading https://files.pythonhosted.org/packages/54/1f/309066c84787f9153d3054361c87850c48c6a314dbaae6eeb44b4f0713f1/flask_cloudflared-0.0.8.tar.gz
+[2023-07-04 14:48:04] INFO root fetch - processPackages [ovos-config]: Downloading https://files.pythonhosted.org/packages/00/40/2f28776213f8846271bcb0c5acad044cbf7340e248c1efa2b99332b69afd/ovos-config-0.0.9a5.tar.gz
+[2023-07-04 14:48:04] INFO root fetch - processPackages [argus-api]: Downloading https://files.pythonhosted.org/packages/7c/a9/0de0fe925190dbfbc41478bcfc14f296a31afc53fc179db5e58b7c11ff0c/argus_api-3.8.0.tar.gz
+[2023-07-04 14:48:04] WARNING root fetch - processPackages [pathling]: Skipping package: exceeds size limit 53988430>=10485760
+[2023-07-04 14:48:04] INFO root fetch - processPackages [pathling]: Start processing: jupyter-cleaner
+[2023-07-04 14:48:04] INFO root fetch - main [MainThread]: End processing [pathling] error
+[2023-07-04 14:48:04] INFO root fetch - processPackages [JBioSeqTools]: executing diffoscope
+[2023-07-04 14:48:04] INFO root fetch - processPackages [JBioSeqTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBioSeqTools-1.1.4.tar.gz tmp/JBioSeqTools-1.1.5.tar.gz --markdown 20230704/J/JBioSeqTools/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-04 14:48:04] INFO root fetch - processPackages [jupyter-cleaner]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-04 14:48:04] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/56/95/04711b6e17b68f1d356005f985c9d4d8dc3443017897f9002907d8cdfc55/akerbp.mlops-3.2.1a9.tar.gz
+[2023-07-04 14:48:04] INFO root fetch - processPackages [pytest-beeprint]: Downloading https://files.pythonhosted.org/packages/38/0f/107a3caad0cdddbe8dc327efa3164d6d81aa2c1b814d596cb927bcfbb367/pytest-beeprint-0.1.2.tar.gz
+[2023-07-04 14:48:04] INFO root fetch - processPackages [datagit]: Downloading https://files.pythonhosted.org/packages/ae/74/35e2d657a79a0024a1d34c810f8eba7282593c263077d44d211afb6d9e3e/datagit-0.9.tar.gz
+[2023-07-04 14:48:04] INFO root fetch - processPackages [systrack]: Downloading https://files.pythonhosted.org/packages/fe/dc/5ef7ae9eb74f5b783d57ee3b89da42819129d439f4efcaf96fce4c988d06/systrack-0.3rc3.tar.gz
+[2023-07-04 14:48:05] INFO root fetch - processPackages [airontools]: Downloading https://files.pythonhosted.org/packages/b8/08/2a60311ced2f2e597aa5dff7784a56fd4979cd36b06d6099ee3a0c075f44/airontools-0.1.9-py3-none-any.whl
+[2023-07-04 14:48:05] INFO root fetch - processPackages [ovos-config]: Downloading https://files.pythonhosted.org/packages/0e/27/fd24bba7718bf24f47e35b7dc41763dba65d64a2e20b8107759d62108d7b/ovos-config-0.0.9a6.tar.gz
+[2023-07-04 14:48:05] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-07-04 14:48:05] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.2.1a8.tar.gz tmp/akerbp.mlops-3.2.1a9.tar.gz --markdown 20230704/a/akerbp.mlops/3.2.1a8-3.2.1a9/diff.md --exclude *.pyd
+[2023-07-04 14:48:05] INFO root fetch - processPackages [jupyter-cleaner]: Downloading https://files.pythonhosted.org/packages/56/10/d60ad924b874f5ea79e6567d62578ec671fdcd6e889c371434a85471c068/jupyter_cleaner-0.2.2.tar.gz
+[2023-07-04 14:48:05] INFO root fetch - processPackages [airontools]: executing diffoscope
+[2023-07-04 14:48:05] INFO root fetch - processPackages [airontools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airontools-0.1.8-py3-none-any.whl.zip tmp/airontools-0.1.9-py3-none-any.whl.zip --markdown 20230704/a/airontools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 14:48:05] INFO root fetch - processPackages [flask-cloudflared]: Downloading https://files.pythonhosted.org/packages/3a/fc/1c632e9797b9d3d9eb71e935151eecc10d58b5422bddebf82a9fddd0cb89/flask_cloudflared-0.0.9.tar.gz
+[2023-07-04 14:48:05] INFO root fetch - processPackages [pytest-beeprint]: executing diffoscope
+[2023-07-04 14:48:05] INFO root fetch - processPackages [pytest-beeprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-beeprint-0.1.1.tar.gz tmp/pytest-beeprint-0.1.2.tar.gz --markdown 20230704/p/pytest-beeprint/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-04 14:48:05] INFO root fetch - processPackages [ovos-config]: executing diffoscope
+[2023-07-04 14:48:05] INFO root fetch - processPackages [ovos-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-config-0.0.9a5.tar.gz tmp/ovos-config-0.0.9a6.tar.gz --markdown 20230704/o/ovos-config/0.0.9a5-0.0.9a6/diff.md --exclude *.pyd
+[2023-07-04 14:48:05] INFO root fetch - processPackages [systrack]: executing diffoscope
+[2023-07-04 14:48:05] INFO root fetch - processPackages [systrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systrack-0.3rc2.tar.gz tmp/systrack-0.3rc3.tar.gz --markdown 20230704/s/systrack/0.3rc2-0.3rc3/diff.md --exclude *.pyd
+[2023-07-04 14:48:05] INFO root fetch - processPackages [datagit]: executing diffoscope
+[2023-07-04 14:48:05] INFO root fetch - processPackages [datagit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagit-0.8.tar.gz tmp/datagit-0.9.tar.gz --markdown 20230704/d/datagit/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-04 14:48:05] INFO root fetch - processPackages [flask-cloudflared]: executing diffoscope
+[2023-07-04 14:48:05] INFO root fetch - processPackages [flask-cloudflared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_cloudflared-0.0.8.tar.gz tmp/flask_cloudflared-0.0.9.tar.gz --markdown 20230704/f/flask-cloudflared/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 14:48:05] INFO root fetch - processPackages [jupyter-cleaner]: Downloading https://files.pythonhosted.org/packages/4f/f1/73a9e6ec33c75872fa516184d43565b1063c5d94d81425c84e0a8ecdf38e/jupyter_cleaner-0.2.3.tar.gz
+[2023-07-04 14:48:05] INFO root fetch - processPackages [jupyter-cleaner]: executing diffoscope
+[2023-07-04 14:48:05] INFO root fetch - processPackages [jupyter-cleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_cleaner-0.2.2.tar.gz tmp/jupyter_cleaner-0.2.3.tar.gz --markdown 20230704/j/jupyter-cleaner/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-04 14:48:05] INFO root fetch - processPackages [argus-api]: Downloading https://files.pythonhosted.org/packages/48/2f/dc8867bfe5957610794f3fd60f0d1e3aa2212100eb22b8938d8f2c8a29cd/argus_api-3.9.0.tar.gz
+[2023-07-04 14:48:06] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-1.1.4.tar.gz]
+[2023-07-04 14:48:06] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-1.1.5.tar.gz]
+[2023-07-04 14:48:06] INFO root fetch - processPackages [JBioSeqTools]: Start processing: pontos
+[2023-07-04 14:48:06] INFO root fetch - main [MainThread]: End processing [JBioSeqTools]: success
+[2023-07-04 14:48:06] INFO root fetch - processPackages [pontos]: New version: [23.7.1] Old Version: [23.7.0]
+[2023-07-04 14:48:06] INFO root fetch - processPackages [pontos]: Downloading https://files.pythonhosted.org/packages/9e/29/1075e3df65ded1bd79909ca1398b9f92ff3ff0e60b49392a82601ab7f358/pontos-23.7.0.tar.gz
+[2023-07-04 14:48:06] INFO root fetch - processPackages [argus-api]: executing diffoscope
+[2023-07-04 14:48:06] INFO root fetch - processPackages [argus-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus_api-3.8.0.tar.gz tmp/argus_api-3.9.0.tar.gz --markdown 20230704/a/argus-api/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-04 14:48:06] INFO root fetch - processPackages [ovos-config]: Remove: archive file [/home/abi/fetcher/tmp/ovos-config-0.0.9a5.tar.gz]
+[2023-07-04 14:48:06] INFO root fetch - processPackages [ovos-config]: Remove: archive file [/home/abi/fetcher/tmp/ovos-config-0.0.9a6.tar.gz]
+[2023-07-04 14:48:06] INFO root fetch - main [MainThread]: End processing [ovos-config]: success
+[2023-07-04 14:48:06] INFO root fetch - processPackages [pytest-beeprint]: Remove: archive file [/home/abi/fetcher/tmp/pytest-beeprint-0.1.1.tar.gz]
+[2023-07-04 14:48:06] INFO root fetch - processPackages [pytest-beeprint]: Remove: archive file [/home/abi/fetcher/tmp/pytest-beeprint-0.1.2.tar.gz]
+[2023-07-04 14:48:06] INFO root fetch - main [MainThread]: End processing [pytest-beeprint]: success
+[2023-07-04 14:48:06] INFO root fetch - processPackages [datagit]: Remove: archive file [/home/abi/fetcher/tmp/datagit-0.8.tar.gz]
+[2023-07-04 14:48:06] INFO root fetch - processPackages [datagit]: Remove: archive file [/home/abi/fetcher/tmp/datagit-0.9.tar.gz]
+[2023-07-04 14:48:06] INFO root fetch - main [MainThread]: End processing [datagit]: success
+[2023-07-04 14:48:06] INFO root fetch - processPackages [pontos]: Downloading https://files.pythonhosted.org/packages/32/06/b5ce523edb88dbd0ffbe864f7b9a824c68c780ee6232d11da768a46974ef/pontos-23.7.1.tar.gz
+[2023-07-04 14:48:06] INFO root fetch - processPackages [airontools]: Remove: archive file [/home/abi/fetcher/tmp/airontools-0.1.8-py3-none-any.whl.zip]
+[2023-07-04 14:48:06] INFO root fetch - processPackages [airontools]: Remove: archive file [/home/abi/fetcher/tmp/airontools-0.1.9-py3-none-any.whl.zip]
+[2023-07-04 14:48:06] INFO root fetch - main [MainThread]: End processing [airontools]: success
+[2023-07-04 14:48:06] INFO root fetch - processPackages [systrack]: Remove: archive file [/home/abi/fetcher/tmp/systrack-0.3rc2.tar.gz]
+[2023-07-04 14:48:06] INFO root fetch - processPackages [systrack]: Remove: archive file [/home/abi/fetcher/tmp/systrack-0.3rc3.tar.gz]
+[2023-07-04 14:48:06] INFO root fetch - main [MainThread]: End processing [systrack]: success
+[2023-07-04 14:48:06] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.1a8.tar.gz]
+[2023-07-04 14:48:06] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.1a9.tar.gz]
+[2023-07-04 14:48:06] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-07-04 14:48:06] INFO root fetch - processPackages [pontos]: executing diffoscope
+[2023-07-04 14:48:06] INFO root fetch - processPackages [pontos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pontos-23.7.0.tar.gz tmp/pontos-23.7.1.tar.gz --markdown 20230704/p/pontos/23.7.0-23.7.1/diff.md --exclude *.pyd
+[2023-07-04 14:48:06] INFO root fetch - processPackages [flask-cloudflared]: Remove: archive file [/home/abi/fetcher/tmp/flask_cloudflared-0.0.8.tar.gz]
+[2023-07-04 14:48:06] INFO root fetch - processPackages [flask-cloudflared]: Remove: archive file [/home/abi/fetcher/tmp/flask_cloudflared-0.0.9.tar.gz]
+[2023-07-04 14:48:06] INFO root fetch - main [MainThread]: End processing [flask-cloudflared]: success
+[2023-07-04 14:48:06] INFO root fetch - processPackages [jupyter-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_cleaner-0.2.2.tar.gz]
+[2023-07-04 14:48:06] INFO root fetch - processPackages [jupyter-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_cleaner-0.2.3.tar.gz]
+[2023-07-04 14:48:06] INFO root fetch - main [MainThread]: End processing [jupyter-cleaner]: success
+[2023-07-04 14:48:08] INFO root fetch - processPackages [pontos]: Remove: archive file [/home/abi/fetcher/tmp/pontos-23.7.0.tar.gz]
+[2023-07-04 14:48:08] INFO root fetch - processPackages [pontos]: Remove: archive file [/home/abi/fetcher/tmp/pontos-23.7.1.tar.gz]
+[2023-07-04 14:48:08] INFO root fetch - main [MainThread]: End processing [pontos]: success
+[2023-07-04 14:48:11] INFO root fetch - processPackages [argus-api]: Remove: archive file [/home/abi/fetcher/tmp/argus_api-3.8.0.tar.gz]
+[2023-07-04 14:48:11] INFO root fetch - processPackages [argus-api]: Remove: archive file [/home/abi/fetcher/tmp/argus_api-3.9.0.tar.gz]
+[2023-07-04 14:48:11] INFO root fetch - main [MainThread]: End processing [argus-api]: success
+[2023-07-04 14:48:11] INFO root fetch - main [MainThread]: Store serial: [18754715]
