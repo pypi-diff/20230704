@@ -10679,3 +10679,60 @@
 [2023-07-04 05:38:00] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-datadog-8.0.0.tar.gz]
 [2023-07-04 05:38:00] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-datadog]: success
 [2023-07-04 05:38:00] INFO root fetch - main [MainThread]: Store serial: [18749927]
+[2023-07-04 05:43:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18749927]
+[2023-07-04 05:43:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-04 05:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: p-ttauto-crawler
+[2023-07-04 05:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dremio-arrow
+[2023-07-04 05:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: miv-os
+[2023-07-04 05:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GuineaSender
+[2023-07-04 05:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sj-tool
+[2023-07-04 05:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: performancetest
+[2023-07-04 05:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: QuBuilders
+[2023-07-04 05:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-l10n-br-fiscal
+[2023-07-04 05:43:10] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: New version: [14.0.9.2.1.dev3] Old Version: [14.0.9.2.1.dev2]
+[2023-07-04 05:43:10] WARNING root fetch - processPackages [GuineaSender]: Skipping, unable to determine old version
+[2023-07-04 05:43:10] INFO root fetch - main [MainThread]: End processing [GuineaSender] error
+[2023-07-04 05:43:10] WARNING root fetch - processPackages [performancetest]: Skipping, unable to determine old version
+[2023-07-04 05:43:10] INFO root fetch - main [MainThread]: End processing [performancetest] error
+[2023-07-04 05:43:10] WARNING root fetch - processPackages [QuBuilders]: Skipping, unable to determine old version
+[2023-07-04 05:43:10] INFO root fetch - main [MainThread]: End processing [QuBuilders] error
+[2023-07-04 05:43:10] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/b6/ae/9800d777e4d7166c8a0ee02cd7c2602421433738397b582d529f48db7c5b/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl
+[2023-07-04 05:43:10] INFO root fetch - processPackages [dremio-arrow]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-04 05:43:10] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-04 05:43:10] INFO root fetch - processPackages [miv-os]: New version: [0.3.0b0] Old Version: [0.3.0.post7]
+[2023-07-04 05:43:10] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 05:43:10] INFO root fetch - processPackages [dremio-arrow]: Downloading https://files.pythonhosted.org/packages/7b/1d/ba2240c748ba599b19df974432a5cc3d7754b56995ba7ac29aa3eb67a3a7/dremio_arrow-1.0.2-py3-none-any.whl
+[2023-07-04 05:43:10] INFO root fetch - processPackages [miv-os]: Downloading https://files.pythonhosted.org/packages/8c/f8/f881e3fb15672eacb4fadd290e743c6d75aaa571ca2d185412cfbdf7d8a4/miv_os-0.3.0.post7.tar.gz
+[2023-07-04 05:43:10] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/45/ff/fd444393f6289e82c5f9ff06d56363e7e9a0fbf58d947322f35f27542e2b/p-ttauto-crawler-0.1.8.tar.gz
+[2023-07-04 05:43:11] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-07-04 05:43:11] INFO root fetch - processPackages [dremio-arrow]: Downloading https://files.pythonhosted.org/packages/05/bc/88f67660ded61ec62be33807c03e523dc1f198f82a6ff5dec0ba9885d07a/dremio_arrow-1.0.3.tar.gz
+[2023-07-04 05:43:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/3e/9d/f06739d0fc5ac83076dbdce19b1fc1ffc33e068724d0f81d8a08b9fed2ef/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl
+[2023-07-04 05:43:11] INFO root fetch - processPackages [miv-os]: Downloading https://files.pythonhosted.org/packages/fa/30/fdc0f51835efaef09b9b69ec293dcca1d5b7e8953a6ff161307eda9db082/miv_os-0.3.0b0.tar.gz
+[2023-07-04 05:43:11] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/bc/89/e93decfa584441bc595e7c27f0d539e3c8c5adaf82e78510583f7a1f8bc6/p-ttauto-crawler-0.1.9.tar.gz
+[2023-07-04 05:43:11] INFO root fetch - processPackages [dremio-arrow]: executing diffoscope
+[2023-07-04 05:43:11] INFO root fetch - processPackages [dremio-arrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dremio_arrow-1.0.2-py3-none-any.whl.zip tmp/dremio_arrow-1.0.3.tar.gz --markdown 20230704/d/dremio-arrow/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-04 05:43:11] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-04 05:43:11] INFO root fetch - processPackages [miv-os]: executing diffoscope
+[2023-07-04 05:43:11] INFO root fetch - processPackages [miv-os]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miv_os-0.3.0.post7.tar.gz tmp/miv_os-0.3.0b0.tar.gz --markdown 20230704/m/miv-os/0.3.0.post7-0.3.0b0/diff.md --exclude *.pyd
+[2023-07-04 05:43:11] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-07-04 05:43:11] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.8.tar.gz tmp/p-ttauto-crawler-0.1.9.tar.gz --markdown 20230704/p/p-ttauto-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 05:43:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: executing diffoscope
+[2023-07-04 05:43:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip --markdown 20230704/o/odoo14-addon-l10n-br-fiscal/14.0.9.2.1.dev2-14.0.9.2.1.dev3/diff.md --exclude *.pyd
+[2023-07-04 05:43:11] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-04 05:43:11] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230704/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-04 05:43:12] INFO root fetch - processPackages [dremio-arrow]: Remove: archive file [/home/abi/fetcher/tmp/dremio_arrow-1.0.2-py3-none-any.whl.zip]
+[2023-07-04 05:43:12] INFO root fetch - processPackages [dremio-arrow]: Remove: archive file [/home/abi/fetcher/tmp/dremio_arrow-1.0.3.tar.gz]
+[2023-07-04 05:43:12] INFO root fetch - main [MainThread]: End processing [dremio-arrow]: success
+[2023-07-04 05:43:12] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.8.tar.gz]
+[2023-07-04 05:43:12] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.9.tar.gz]
+[2023-07-04 05:43:12] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-07-04 05:43:12] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-07-04 05:43:12] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-04 05:43:12] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-04 05:43:12] INFO root fetch - processPackages [miv-os]: Remove: archive file [/home/abi/fetcher/tmp/miv_os-0.3.0.post7.tar.gz]
+[2023-07-04 05:43:12] INFO root fetch - processPackages [miv-os]: Remove: archive file [/home/abi/fetcher/tmp/miv_os-0.3.0b0.tar.gz]
+[2023-07-04 05:43:12] INFO root fetch - main [MainThread]: End processing [miv-os]: success
+[2023-07-04 05:43:13] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip]
+[2023-07-04 05:43:13] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip]
+[2023-07-04 05:43:13] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
+[2023-07-04 05:43:13] INFO root fetch - main [MainThread]: Store serial: [18749950]
