@@ -12545,3 +12545,60 @@
 [2023-07-04 07:28:56] INFO root fetch - processPackages [odoo8-addon-stock-reserve-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_stock_reserve_sale-8.0.1.0.1.99.dev9-py2-none-any.whl.zip]
 [2023-07-04 07:28:56] INFO root fetch - main [MainThread]: End processing [odoo8-addon-stock-reserve-sale]: success
 [2023-07-04 07:28:56] INFO root fetch - main [MainThread]: Store serial: [18750691]
+[2023-07-04 07:34:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18750691]
+[2023-07-04 07:34:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-04 07:34:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-inventory
+[2023-07-04 07:34:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reactpy
+[2023-07-04 07:34:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crazy-thursday
+[2023-07-04 07:34:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: khoj-assistant
+[2023-07-04 07:34:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hak
+[2023-07-04 07:34:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: megfile
+[2023-07-04 07:34:05] INFO root fetch - processPackages [megfile]: New version: [2.1.1.post1] Old Version: [2.1.1]
+[2023-07-04 07:34:05] INFO root fetch - processPackages [odoo-addon-stock-inventory]: New version: [15.0.1.0.1.1] Old Version: [15.0.1.0.1]
+[2023-07-04 07:34:05] INFO root fetch - processPackages [reactpy]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-04 07:34:05] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 07:34:05] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.4.1] Old Version: [2023.7.4.0]
+[2023-07-04 07:34:05] INFO root fetch - processPackages [khoj-assistant]: New version: [0.7.2.dev4] Old Version: [0.7.2.dev3]
+[2023-07-04 07:34:05] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/11/71/f16dd8c13b38211e14aeeda06dade4a315f565f73d44c1108a6519575874/crazy-thursday-2023.7.4.0.tar.gz
+[2023-07-04 07:34:05] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Downloading https://files.pythonhosted.org/packages/b5/f5/b605192a46087f5062ec57980221494774f86cae04b32f1640c241455248/odoo_addon_stock_inventory-15.0.1.0.1-py3-none-any.whl
+[2023-07-04 07:34:05] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/88/c6/2cb94daaed2e53ded0fb36ef4fbc2718cafb0913be3ca5a04dbbbc0b3ea2/khoj_assistant-0.7.2.dev3.tar.gz
+[2023-07-04 07:34:05] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/21/4e/659f3a0841109cc8c048adc231fe8e8e45173f28a88c6d29c23fd67d9811/megfile-2.1.1-py3-none-any.whl
+[2023-07-04 07:34:05] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-04 07:34:05] INFO root fetch - processPackages [reactpy]: Downloading https://files.pythonhosted.org/packages/74/a6/e61fbdcfde7914af2af8ac381d54e3224e9755e544ac1981c15fff93ec62/reactpy-1.0.1-py3-none-any.whl
+[2023-07-04 07:34:06] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/c5/f8/2f7c50e77424b097c294f28c4bf3f71e22f5ee27aa13307453c29a475d08/crazy-thursday-2023.7.4.1.tar.gz
+[2023-07-04 07:34:06] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Downloading https://files.pythonhosted.org/packages/96/79/788394fc4078aaf6d46f7c42a56b8499ffb21b01d59810dfc191ae7d48fe/odoo_addon_stock_inventory-15.0.1.0.1.1-py3-none-any.whl
+[2023-07-04 07:34:06] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/62/47/2b1f8e5a33803e2999b13e4f7e93abd3131898e48652b3471cab43d09fc4/megfile-2.1.1.post1-py3-none-any.whl
+[2023-07-04 07:34:06] INFO root fetch - processPackages [odoo-addon-stock-inventory]: executing diffoscope
+[2023-07-04 07:34:06] INFO root fetch - processPackages [odoo-addon-stock-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_inventory-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_inventory-15.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230704/o/odoo-addon-stock-inventory/15.0.1.0.1-15.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-07-04 07:34:06] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/73/aa/033d52c8171d9ef20ea673de1753232bb27beb74b259991bcceeabea9485/khoj_assistant-0.7.2.dev4.tar.gz
+[2023-07-04 07:34:06] INFO root fetch - processPackages [megfile]: executing diffoscope
+[2023-07-04 07:34:06] INFO root fetch - processPackages [megfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megfile-2.1.1-py3-none-any.whl.zip tmp/megfile-2.1.1.post1-py3-none-any.whl.zip --markdown 20230704/m/megfile/2.1.1-2.1.1.post1/diff.md --exclude *.pyd
+[2023-07-04 07:34:06] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-04 07:34:06] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-04 07:34:06] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.4.0.tar.gz tmp/crazy-thursday-2023.7.4.1.tar.gz --markdown 20230704/c/crazy-thursday/2023.7.4.0-2023.7.4.1/diff.md --exclude *.pyd
+[2023-07-04 07:34:06] INFO root fetch - processPackages [reactpy]: Downloading https://files.pythonhosted.org/packages/11/ba/2e78bf0e9db1d1d52f0f9b6284b1d07adf863db35edd45a57bf60f44e0df/reactpy-1.0.2.tar.gz
+[2023-07-04 07:34:06] INFO root fetch - processPackages [reactpy]: executing diffoscope
+[2023-07-04 07:34:06] INFO root fetch - processPackages [reactpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactpy-1.0.1-py3-none-any.whl.zip tmp/reactpy-1.0.2.tar.gz --markdown 20230704/r/reactpy/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-04 07:34:06] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-04 07:34:06] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230704/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 07:34:06] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-04 07:34:06] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.7.2.dev3.tar.gz tmp/khoj_assistant-0.7.2.dev4.tar.gz --markdown 20230704/k/khoj-assistant/0.7.2.dev3-0.7.2.dev4/diff.md --exclude *.pyd
+[2023-07-04 07:34:07] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_inventory-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-04 07:34:07] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_inventory-15.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-07-04 07:34:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-inventory]: success
+[2023-07-04 07:34:07] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.4.0.tar.gz]
+[2023-07-04 07:34:07] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.4.1.tar.gz]
+[2023-07-04 07:34:07] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-04 07:34:07] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-2.1.1-py3-none-any.whl.zip]
+[2023-07-04 07:34:07] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-2.1.1.post1-py3-none-any.whl.zip]
+[2023-07-04 07:34:07] INFO root fetch - main [MainThread]: End processing [megfile]: success
+[2023-07-04 07:34:07] INFO root fetch - processPackages [reactpy]: Remove: archive file [/home/abi/fetcher/tmp/reactpy-1.0.1-py3-none-any.whl.zip]
+[2023-07-04 07:34:07] INFO root fetch - processPackages [reactpy]: Remove: archive file [/home/abi/fetcher/tmp/reactpy-1.0.2.tar.gz]
+[2023-07-04 07:34:07] INFO root fetch - main [MainThread]: End processing [reactpy]: success
+[2023-07-04 07:34:07] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-04 07:34:07] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-04 07:34:07] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-04 07:34:08] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev3.tar.gz]
+[2023-07-04 07:34:08] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev4.tar.gz]
+[2023-07-04 07:34:08] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-04 07:34:08] INFO root fetch - main [MainThread]: Store serial: [18750704]
