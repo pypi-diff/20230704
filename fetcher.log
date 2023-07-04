@@ -22744,3 +22744,152 @@ AssertionError: tmp/pp_project_pkg-1.0.202307041312-py3-none-any.whl.zip does no
 [2023-07-04 15:20:43] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
 [2023-07-04 15:20:43] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
 [2023-07-04 15:20:43] INFO root fetch - main [MainThread]: Store serial: [18755025]
+[2023-07-04 15:25:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18755025]
+[2023-07-04 15:25:53] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-04 15:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-fieldservice-skill
+[2023-07-04 15:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: browserstack-sdk
+[2023-07-04 15:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OpenGeode-core
+[2023-07-04 15:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-account-move-line-landed-cost-info
+[2023-07-04 15:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: JBioSeqTools
+[2023-07-04 15:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gl-client
+[2023-07-04 15:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-apl
+[2023-07-04 15:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rkvst-samples
+[2023-07-04 15:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gtfs-parser
+[2023-07-04 15:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: biotrade
+[2023-07-04 15:25:53] INFO root fetch - processPackages [biotrade]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-04 15:25:53] INFO root fetch - processPackages [gl-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 15:25:53] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.874] Old Version: [0.0.873]
+[2023-07-04 15:25:53] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.9]
+[2023-07-04 15:25:53] INFO root fetch - processPackages [JBioSeqTools]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-04 15:25:53] INFO root fetch - processPackages [rkvst-samples]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-04 15:25:53] WARNING root fetch - processPackages [odoo14-addon-account-move-line-landed-cost-info]: Skipping, unable to determine old version
+[2023-07-04 15:25:53] INFO root fetch - processPackages [browserstack-sdk]: New version: [1.9.2] Old Version: [1.8.1]
+[2023-07-04 15:25:53] INFO root fetch - processPackages [odoo14-addon-account-move-line-landed-cost-info]: Start processing: port-ocean
+[2023-07-04 15:25:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-move-line-landed-cost-info] error
+[2023-07-04 15:25:53] INFO root fetch - processPackages [gtfs-parser]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-04 15:25:53] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.4.0rc5]
+[2023-07-04 15:25:53] INFO root fetch - processPackages [port-ocean]: New version: [0.1.0.dev5] Old Version: [0.1.0.dev4]
+[2023-07-04 15:25:53] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/4d/e5/ff47895d92dd8df00e9c4feaee0a21c69337b0162a293c518393112b2db5/JBioSeqTools-1.2.0.tar.gz
+[2023-07-04 15:25:53] INFO root fetch - processPackages [gtfs-parser]: Downloading https://files.pythonhosted.org/packages/65/41/976affa5b829fd890f4d5726cf25eba53803bd614bb7470915845251e7e1/gtfs_parser-0.1.2.tar.gz
+[2023-07-04 15:25:53] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: Downloading https://files.pythonhosted.org/packages/af/38/11400eb3ab3a6e5765609365441685338e0170ab5ea67d837b39c01ecb7d/odoo_addon_fieldservice_skill-15.0.1.0.0.9-py3-none-any.whl
+[2023-07-04 15:25:53] INFO root fetch - processPackages [gl-client]: Downloading https://files.pythonhosted.org/packages/c6/9e/99504083a57ef5a3ca92c676215fd1a79510ff93d30b77a26d693f6d7f63/gl_client-0.1.8.tar.gz
+[2023-07-04 15:25:53] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/26/c8/00f0ac390c8e9ed82e4f89d71a2e9665d30871715ef1be8b10a5b55bd65f/OpenGeode_core-14.4.0rc5-cp39-cp39-win_amd64.whl
+[2023-07-04 15:25:53] INFO root fetch - processPackages [biotrade]: Downloading https://files.pythonhosted.org/packages/19/e8/936e6243ecb132788ffa58abf74ab1c0034fea94b8ca6a92ca5f08cb8b6d/biotrade-0.2.2.tar.gz
+[2023-07-04 15:25:53] INFO root fetch - processPackages [browserstack-sdk]: Downloading https://files.pythonhosted.org/packages/8f/f6/ebeb5204570d76f86be6985afe10789f1b21d91816239c06b11f19bfbb72/browserstack_sdk-1.8.1.tar.gz
+[2023-07-04 15:25:53] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/6c/3e/fc156a2a3a39d79c16e0997bcd4b87d4e6def4a85790a1b2dce2a1372153/port_ocean-0.1.0.dev4.tar.gz
+[2023-07-04 15:25:53] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/8b/60/10db47d1023fe1af8af849da2a4fd6e349fd5b7e2c80544764af8a46bbd5/nbdev-apl-0.0.873.tar.gz
+[2023-07-04 15:25:53] INFO root fetch - processPackages [rkvst-samples]: Downloading https://files.pythonhosted.org/packages/0d/a0/5a316a6155066ce810648d105dfed70839eed00bc11538223ba1f1e5174c/rkvst-samples-0.8.2.tar.gz
+[2023-07-04 15:25:54] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 17571838>=10485760
+[2023-07-04 15:25:54] INFO root fetch - processPackages [OpenGeode-core]: Start processing: swarms
+[2023-07-04 15:25:54] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-07-04 15:25:54] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: Downloading https://files.pythonhosted.org/packages/9b/7e/f3029214accde96a14c17777dfe4265060c738f0bf81c44f0052125038c5/odoo_addon_fieldservice_skill-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-04 15:25:54] INFO root fetch - processPackages [gtfs-parser]: Downloading https://files.pythonhosted.org/packages/bb/c4/4e549402d61abddfdf6a7f7c6f7d6e241b392985699b3336c0cbe8dc33c9/gtfs_parser-0.1.3.tar.gz
+[2023-07-04 15:25:54] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/5b/9e/0f714be81a80dfc9d66ebb92857966b07697ca88907d500ea1676f4c2038/JBioSeqTools-1.2.1.tar.gz
+[2023-07-04 15:25:54] INFO root fetch - processPackages [swarms]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-04 15:25:54] INFO root fetch - processPackages [gl-client]: Downloading https://files.pythonhosted.org/packages/e1/0c/402442338fda91bbc6d4ada4fadc7f58c0d1f6c19441cc4aa52aeeaa7fd7/gl_client-0.1.9.tar.gz
+[2023-07-04 15:25:54] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: executing diffoscope
+[2023-07-04 15:25:54] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_skill-15.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_skill-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230704/o/odoo-addon-fieldservice-skill/15.0.1.0.0.9-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-04 15:25:54] INFO root fetch - processPackages [biotrade]: Downloading https://files.pythonhosted.org/packages/a2/cb/ecaa98c16c4451ea2793e5ae2ac1b14a9eaf90492c180725ad3e917fe9fe/biotrade-0.2.3.tar.gz
+[2023-07-04 15:25:54] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/43/f3/5951ee218a910f336823b439fe60bfc45265ffa93fd6183eaaa882393063/nbdev-apl-0.0.874.tar.gz
+[2023-07-04 15:25:54] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/99/28/325850d4853c06547996a5b535c6706f8c92105d7d44145d539ce7cfeacd/port_ocean-0.1.0.dev5.tar.gz
+[2023-07-04 15:25:54] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/b4/eb/5209871ac3070a4e47f4d992cdae005ab6d6f4cabbea51a0387cf574fe0f/swarms-0.3.4.tar.gz
+[2023-07-04 15:25:54] INFO root fetch - processPackages [JBioSeqTools]: executing diffoscope
+[2023-07-04 15:25:54] INFO root fetch - processPackages [JBioSeqTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBioSeqTools-1.2.0.tar.gz tmp/JBioSeqTools-1.2.1.tar.gz --markdown 20230704/J/JBioSeqTools/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-04 15:25:54] INFO root fetch - processPackages [gtfs-parser]: executing diffoscope
+[2023-07-04 15:25:54] INFO root fetch - processPackages [gtfs-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtfs_parser-0.1.2.tar.gz tmp/gtfs_parser-0.1.3.tar.gz --markdown 20230704/g/gtfs-parser/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-04 15:25:54] INFO root fetch - processPackages [browserstack-sdk]: Downloading https://files.pythonhosted.org/packages/bf/46/3ee8b5068073adc3791ac682b7a8c14bc7a10d24e6da05a093fbf74efc9b/browserstack_sdk-1.9.2.tar.gz
+[2023-07-04 15:25:54] INFO root fetch - processPackages [gl-client]: executing diffoscope
+[2023-07-04 15:25:54] INFO root fetch - processPackages [gl-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gl_client-0.1.8.tar.gz tmp/gl_client-0.1.9.tar.gz --markdown 20230704/g/gl-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 15:25:54] INFO root fetch - processPackages [biotrade]: executing diffoscope
+[2023-07-04 15:25:54] INFO root fetch - processPackages [biotrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biotrade-0.2.2.tar.gz tmp/biotrade-0.2.3.tar.gz --markdown 20230704/b/biotrade/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-04 15:25:54] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2023-07-04 15:25:54] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.1.0.dev4.tar.gz tmp/port_ocean-0.1.0.dev5.tar.gz --markdown 20230704/p/port-ocean/0.1.0.dev4-0.1.0.dev5/diff.md --exclude *.pyd
+[2023-07-04 15:25:54] INFO root fetch - processPackages [browserstack-sdk]: executing diffoscope
+[2023-07-04 15:25:54] INFO root fetch - processPackages [browserstack-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserstack_sdk-1.8.1.tar.gz tmp/browserstack_sdk-1.9.2.tar.gz --markdown 20230704/b/browserstack-sdk/1.8.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-04 15:25:54] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-04 15:25:54] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.873.tar.gz tmp/nbdev-apl-0.0.874.tar.gz --markdown 20230704/n/nbdev-apl/0.0.873-0.0.874/diff.md --exclude *.pyd
+[2023-07-04 15:25:54] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/e0/8a/6fcab6c0a20c3f88cdb8298403e3e37568115d1d0bf3b860e0e9e685c482/swarms-0.3.5.tar.gz
+[2023-07-04 15:25:54] WARNING root fetch - processPackages [rkvst-samples]: Skipping package: exceeds size limit 13331472>=10485760
+[2023-07-04 15:25:54] INFO root fetch - processPackages [rkvst-samples]: Start processing: altimeter
+[2023-07-04 15:25:54] INFO root fetch - main [MainThread]: End processing [rkvst-samples] error
+[2023-07-04 15:25:55] INFO root fetch - processPackages [altimeter]: New version: [6.4.9] Old Version: [6.4.8]
+[2023-07-04 15:25:55] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-04 15:25:55] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.3.4.tar.gz tmp/swarms-0.3.5.tar.gz --markdown 20230704/s/swarms/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-04 15:25:55] INFO root fetch - processPackages [altimeter]: Downloading https://files.pythonhosted.org/packages/7c/0f/f8adb02d3271344ca9fa5cb95c763e3451b3ab3df4d898a5a1882f800acd/altimeter-6.4.8-py2.py3-none-any.whl
+[2023-07-04 15:25:55] INFO root fetch - processPackages [altimeter]: Downloading https://files.pythonhosted.org/packages/ef/ff/4a2d3a5a1728069ee4e480ce83b58fb19db2db0c10eda9436094b40f5a83/altimeter-6.4.9-py2.py3-none-any.whl
+[2023-07-04 15:25:55] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-1.2.0.tar.gz]
+[2023-07-04 15:25:55] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-1.2.1.tar.gz]
+[2023-07-04 15:25:55] INFO root fetch - processPackages [JBioSeqTools]: Start processing: acro
+[2023-07-04 15:25:55] INFO root fetch - main [MainThread]: End processing [JBioSeqTools]: success
+[2023-07-04 15:25:55] INFO root fetch - processPackages [acro]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-04 15:25:55] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_skill-15.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-04 15:25:55] INFO root fetch - processPackages [gtfs-parser]: Remove: archive file [/home/abi/fetcher/tmp/gtfs_parser-0.1.2.tar.gz]
+[2023-07-04 15:25:55] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_skill-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-04 15:25:55] INFO root fetch - processPackages [gtfs-parser]: Remove: archive file [/home/abi/fetcher/tmp/gtfs_parser-0.1.3.tar.gz]
+[2023-07-04 15:25:55] INFO root fetch - processPackages [gtfs-parser]: Start processing: moto
+[2023-07-04 15:25:55] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: Start processing: imio.patterns
+[2023-07-04 15:25:55] INFO root fetch - main [MainThread]: End processing [gtfs-parser]: success
+[2023-07-04 15:25:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-skill]: success
+[2023-07-04 15:25:55] INFO root fetch - processPackages [gl-client]: Remove: archive file [/home/abi/fetcher/tmp/gl_client-0.1.8.tar.gz]
+[2023-07-04 15:25:55] INFO root fetch - processPackages [gl-client]: Remove: archive file [/home/abi/fetcher/tmp/gl_client-0.1.9.tar.gz]
+[2023-07-04 15:25:55] INFO root fetch - processPackages [gl-client]: Start processing: moto
+[2023-07-04 15:25:55] INFO root fetch - main [MainThread]: End processing [gl-client]: success
+[2023-07-04 15:25:56] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.873.tar.gz]
+[2023-07-04 15:25:56] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.874.tar.gz]
+[2023-07-04 15:25:56] INFO root fetch - processPackages [nbdev-apl]: Start processing: aporia
+[2023-07-04 15:25:56] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-04 15:25:56] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-04 15:25:56] INFO root fetch - processPackages [browserstack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/browserstack_sdk-1.8.1.tar.gz]
+[2023-07-04 15:25:56] INFO root fetch - processPackages [browserstack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/browserstack_sdk-1.9.2.tar.gz]
+[2023-07-04 15:25:56] INFO root fetch - processPackages [altimeter]: executing diffoscope
+[2023-07-04 15:25:56] INFO root fetch - processPackages [altimeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altimeter-6.4.8-py2.py3-none-any.whl.zip tmp/altimeter-6.4.9-py2.py3-none-any.whl.zip --markdown 20230704/a/altimeter/6.4.8-6.4.9/diff.md --exclude *.pyd
+[2023-07-04 15:25:56] INFO root fetch - main [MainThread]: End processing [browserstack-sdk]: success
+[2023-07-04 15:25:56] INFO root fetch - processPackages [acro]: Downloading https://files.pythonhosted.org/packages/dd/39/c0f58f93c54d257c6c7541e7d852d791f96f22868c96da02f4ac3e75cc15/acro-0.2.0.tar.gz
+[2023-07-04 15:25:56] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-04 15:25:56] INFO root fetch - processPackages [imio.patterns]: New version: [1.0a4] Old Version: [1.0a3]
+[2023-07-04 15:25:56] INFO root fetch - processPackages [aporia]: New version: [3.4.0] Old Version: [3.3.0]
+[2023-07-04 15:25:56] INFO root fetch - processPackages [biotrade]: Remove: archive file [/home/abi/fetcher/tmp/biotrade-0.2.2.tar.gz]
+[2023-07-04 15:25:56] INFO root fetch - processPackages [biotrade]: Remove: archive file [/home/abi/fetcher/tmp/biotrade-0.2.3.tar.gz]
+[2023-07-04 15:25:56] INFO root fetch - main [MainThread]: End processing [biotrade]: success
+[2023-07-04 15:25:56] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.0.dev4.tar.gz]
+[2023-07-04 15:25:56] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.0.dev5.tar.gz]
+[2023-07-04 15:25:56] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2023-07-04 15:25:56] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-04 15:25:56] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-04 15:25:56] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.3.4.tar.gz]
+[2023-07-04 15:25:56] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.3.5.tar.gz]
+[2023-07-04 15:25:56] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-04 15:25:56] INFO root fetch - processPackages [imio.patterns]: Downloading https://files.pythonhosted.org/packages/a5/b7/35d25795c87086c624605a2025bf9266e1b424654458a7772503c631a1c9/imio.patterns-1.0a3.tar.gz
+[2023-07-04 15:25:56] INFO root fetch - processPackages [aporia]: Downloading https://files.pythonhosted.org/packages/54/49/96c9323156635096df19d1b3c9448b0a5731fb1698d1827c1ba48dd0a846/aporia-3.3.0.tar.gz
+[2023-07-04 15:25:56] INFO root fetch - processPackages [acro]: Downloading https://files.pythonhosted.org/packages/3c/d4/a405e5eacaa8e059d8666a5cd4c25c8f65d056a9634b29f1be1c459f95e3/acro-0.3.0.tar.gz
+[2023-07-04 15:25:56] INFO root fetch - processPackages [acro]: executing diffoscope
+[2023-07-04 15:25:56] INFO root fetch - processPackages [acro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acro-0.2.0.tar.gz tmp/acro-0.3.0.tar.gz --markdown 20230704/a/acro/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-04 15:25:56] INFO root fetch - processPackages [imio.patterns]: Downloading https://files.pythonhosted.org/packages/b5/f5/d6482c21b2744711b9c0674b90c0cc12910c627bb6dce11fb880bdad5588/imio.patterns-1.0a4.tar.gz
+[2023-07-04 15:25:56] INFO root fetch - processPackages [aporia]: Downloading https://files.pythonhosted.org/packages/71/37/2fa5ab425dbdd474c5f6c78e7a9c1f3489f332a5a854f817cd5445e4a25e/aporia-3.4.0.tar.gz
+[2023-07-04 15:25:57] INFO root fetch - processPackages [imio.patterns]: executing diffoscope
+[2023-07-04 15:25:57] INFO root fetch - processPackages [imio.patterns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.patterns-1.0a3.tar.gz tmp/imio.patterns-1.0a4.tar.gz --markdown 20230704/i/imio.patterns/1.0a3-1.0a4/diff.md --exclude *.pyd
+[2023-07-04 15:25:57] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-04 15:25:57] INFO root fetch - processPackages [aporia]: executing diffoscope
+[2023-07-04 15:25:57] INFO root fetch - processPackages [aporia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aporia-3.3.0.tar.gz tmp/aporia-3.4.0.tar.gz --markdown 20230704/a/aporia/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2023-07-04 15:25:57] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-04 15:25:57] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-04 15:25:57] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230704/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-04 15:25:57] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-04 15:25:57] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230704/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-04 15:25:57] INFO root fetch - processPackages [acro]: Remove: archive file [/home/abi/fetcher/tmp/acro-0.2.0.tar.gz]
+[2023-07-04 15:25:57] INFO root fetch - processPackages [acro]: Remove: archive file [/home/abi/fetcher/tmp/acro-0.3.0.tar.gz]
+[2023-07-04 15:25:57] INFO root fetch - main [MainThread]: End processing [acro]: success
+[2023-07-04 15:25:58] INFO root fetch - processPackages [imio.patterns]: Remove: archive file [/home/abi/fetcher/tmp/imio.patterns-1.0a3.tar.gz]
+[2023-07-04 15:25:58] INFO root fetch - processPackages [imio.patterns]: Remove: archive file [/home/abi/fetcher/tmp/imio.patterns-1.0a4.tar.gz]
+[2023-07-04 15:25:58] INFO root fetch - main [MainThread]: End processing [imio.patterns]: success
+[2023-07-04 15:25:58] INFO root fetch - processPackages [aporia]: Remove: archive file [/home/abi/fetcher/tmp/aporia-3.3.0.tar.gz]
+[2023-07-04 15:25:58] INFO root fetch - processPackages [aporia]: Remove: archive file [/home/abi/fetcher/tmp/aporia-3.4.0.tar.gz]
+[2023-07-04 15:25:58] INFO root fetch - main [MainThread]: End processing [aporia]: success
+[2023-07-04 15:25:58] INFO root fetch - processPackages [altimeter]: Remove: archive file [/home/abi/fetcher/tmp/altimeter-6.4.8-py2.py3-none-any.whl.zip]
+[2023-07-04 15:25:58] INFO root fetch - processPackages [altimeter]: Remove: archive file [/home/abi/fetcher/tmp/altimeter-6.4.9-py2.py3-none-any.whl.zip]
+[2023-07-04 15:25:58] INFO root fetch - main [MainThread]: End processing [altimeter]: success
+[2023-07-04 15:26:11] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-04 15:26:11] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-04 15:26:11] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-04 15:26:11] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-04 15:26:11] INFO root fetch - main [MainThread]: Store serial: [18755092]
