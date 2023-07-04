@@ -14796,3 +14796,115 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 09:36:48] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-5.0.0-py3-none-any.whl.zip]
 [2023-07-04 09:36:48] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
 [2023-07-04 09:36:48] INFO root fetch - main [MainThread]: Store serial: [18751506]
+[2023-07-04 09:41:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18751506]
+[2023-07-04 09:41:57] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-04 09:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geomanager
+[2023-07-04 09:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gggdtparser
+[2023-07-04 09:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mypackagelicenseprototype
+[2023-07-04 09:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pure-ocean-breeze
+[2023-07-04 09:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CORS-Analyzer
+[2023-07-04 09:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydflow
+[2023-07-04 09:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyavd
+[2023-07-04 09:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ubuntu-cloud-image-changelog
+[2023-07-04 09:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yplib
+[2023-07-04 09:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: testit-api-client
+[2023-07-04 09:41:58] WARNING root fetch - processPackages [geomanager]: Skipping, unable to determine old version
+[2023-07-04 09:41:58] INFO root fetch - processPackages [geomanager]: Start processing: mypackagelicenseprototype
+[2023-07-04 09:41:58] INFO root fetch - main [MainThread]: End processing [geomanager] error
+[2023-07-04 09:41:58] INFO root fetch - processPackages [ubuntu-cloud-image-changelog]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-07-04 09:41:58] INFO root fetch - processPackages [CORS-Analyzer]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-04 09:41:58] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-07-04 09:41:58] INFO root fetch - processPackages [gggdtparser]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-04 09:41:58] INFO root fetch - processPackages [pyavd]: New version: [4.1.0a3] Old Version: [4.1.0a2]
+[2023-07-04 09:41:58] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-07-04 09:41:58] INFO root fetch - processPackages [pure-ocean-breeze]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-07-04 09:41:58] INFO root fetch - processPackages [yplib]: New version: [2.2.0] Old Version: [2.1.9]
+[2023-07-04 09:41:58] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-04 09:41:58] INFO root fetch - processPackages [testit-api-client]: New version: [3.2.0] Old Version: [3.1.1]
+[2023-07-04 09:41:58] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/da/6c/30335a6d3394aa087b487309d9bdfc3e5e87114749d7a7c25af83a8f3d76/mypackagelicenseprototype-5.0.0-py3-none-any.whl
+[2023-07-04 09:41:58] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/da/6c/30335a6d3394aa087b487309d9bdfc3e5e87114749d7a7c25af83a8f3d76/mypackagelicenseprototype-5.0.0-py3-none-any.whl
+[2023-07-04 09:41:58] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/cf/77/0556c5fb514bc007f2bb67072c014fd33ef105f7ff5e6fb95b7dd2817840/pure_ocean_breeze-4.0.3.tar.gz
+[2023-07-04 09:41:58] INFO root fetch - processPackages [CORS-Analyzer]: Downloading https://files.pythonhosted.org/packages/a2/54/7ed1adeb1dfac6cf0afe78a97cf5c2ee9dcfb0141a4cd4326c31db4ac467/CORS-Analyzer-1.0.4.tar.gz
+[2023-07-04 09:41:58] INFO root fetch - processPackages [ubuntu-cloud-image-changelog]: Downloading https://files.pythonhosted.org/packages/27/c6/ca2c3d95bad6b1138a1e90bbad4378f4f516d530d960b4f61419ae6b117d/ubuntu-cloud-image-changelog-0.9.7.tar.gz
+[2023-07-04 09:41:58] INFO root fetch - processPackages [gggdtparser]: Downloading https://files.pythonhosted.org/packages/9f/57/051b69368d4066e34ba9bb90c2ca2a26ce0d29a201a9bff1230ab29c4154/gggdtparser-0.1.0.tar.gz
+[2023-07-04 09:41:58] INFO root fetch - processPackages [pyavd]: Downloading https://files.pythonhosted.org/packages/b6/0c/69dcbe9d54a7d9309dcdcf5993f7aa65b8f76da12414b4d2859df92cb4ba/pyavd-4.1.0a2-py3-none-any.whl
+[2023-07-04 09:41:58] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/fd/14/3f41741d209c57ece54821a190727e56888991061c5ad81d62835fa3b5bf/yplib-2.1.9.tar.gz
+[2023-07-04 09:41:58] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-04 09:41:58] INFO root fetch - processPackages [testit-api-client]: Downloading https://files.pythonhosted.org/packages/f6/3c/ba83b598f4f9f0cc25f8d7874a77afacfc2abd0f2aed4be02bd0a162bc12/testit-api-client-3.1.1.tar.gz
+[2023-07-04 09:41:58] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/a5/f5/60424959537283916799d9b0beb93cea6581f9f087932b5a3c28191c0631/mypackagelicenseprototype-5.0.1-py3-none-any.whl
+[2023-07-04 09:41:58] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/a5/f5/60424959537283916799d9b0beb93cea6581f9f087932b5a3c28191c0631/mypackagelicenseprototype-5.0.1-py3-none-any.whl
+[2023-07-04 09:41:58] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/8b/ab/d5874957ffabd2c88912324572d10d1c1a0674284513632d4d8cf78aea98/pure_ocean_breeze-4.0.4.tar.gz
+[2023-07-04 09:41:59] INFO root fetch - processPackages [CORS-Analyzer]: Downloading https://files.pythonhosted.org/packages/90/f9/bcf3e09ed59b4a5ff39b016cb579837ef0517633e8f9768274dc1eff3eb1/CORS-Analyzer-1.0.5.tar.gz
+[2023-07-04 09:41:59] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-07-04 09:41:59] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-5.0.0-py3-none-any.whl.zip tmp/mypackagelicenseprototype-5.0.1-py3-none-any.whl.zip --markdown 20230704/m/mypackagelicenseprototype/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-07-04 09:41:59] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-07-04 09:41:59] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-5.0.0-py3-none-any.whl.zip tmp/mypackagelicenseprototype-5.0.1-py3-none-any.whl.zip --markdown 20230704/m/mypackagelicenseprototype/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-07-04 09:41:59] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/f1/4d/9496a322feeecb4524093dcd80b3f7cad0b10ac061a62e41a2c8f1443a0d/yplib-2.2.0.tar.gz
+[2023-07-04 09:41:59] INFO root fetch - processPackages [gggdtparser]: Downloading https://files.pythonhosted.org/packages/fb/f0/0c6f17945051779052712acb1f89576f318a602e3f9472202a0ad5e222db/gggdtparser-0.1.1.tar.gz
+[2023-07-04 09:41:59] INFO root fetch - processPackages [pyavd]: Downloading https://files.pythonhosted.org/packages/a1/3e/018090de3ed1fa31e3e45ac1694aa6d371cc6a4c729bcaf01337b0e7cfc1/pyavd-4.1.0a3-py3-none-any.whl
+[2023-07-04 09:41:59] INFO root fetch - processPackages [pure-ocean-breeze]: executing diffoscope
+[2023-07-04 09:41:59] INFO root fetch - processPackages [pure-ocean-breeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure_ocean_breeze-4.0.3.tar.gz tmp/pure_ocean_breeze-4.0.4.tar.gz --markdown 20230704/p/pure-ocean-breeze/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-07-04 09:41:59] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-04 09:41:59] INFO root fetch - processPackages [CORS-Analyzer]: executing diffoscope
+[2023-07-04 09:41:59] INFO root fetch - processPackages [CORS-Analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CORS-Analyzer-1.0.4.tar.gz tmp/CORS-Analyzer-1.0.5.tar.gz --markdown 20230704/C/CORS-Analyzer/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-04 09:41:59] INFO root fetch - processPackages [gggdtparser]: executing diffoscope
+[2023-07-04 09:41:59] INFO root fetch - processPackages [gggdtparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gggdtparser-0.1.0.tar.gz tmp/gggdtparser-0.1.1.tar.gz --markdown 20230704/g/gggdtparser/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-04 09:41:59] INFO root fetch - processPackages [testit-api-client]: Downloading https://files.pythonhosted.org/packages/cc/09/0deb4c45158d1a9434be99c7ee0502f451e006432ca658121efe281def31/testit-api-client-3.2.0.tar.gz
+[2023-07-04 09:41:59] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-04 09:41:59] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.1.9.tar.gz tmp/yplib-2.2.0.tar.gz --markdown 20230704/y/yplib/2.1.9-2.2.0/diff.md --exclude *.pyd
+[2023-07-04 09:41:59] INFO root fetch - processPackages [pyavd]: executing diffoscope
+[2023-07-04 09:41:59] INFO root fetch - processPackages [pyavd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyavd-4.1.0a2-py3-none-any.whl.zip tmp/pyavd-4.1.0a3-py3-none-any.whl.zip --markdown 20230704/p/pyavd/4.1.0a2-4.1.0a3/diff.md --exclude *.pyd
+[2023-07-04 09:41:59] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-04 09:41:59] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230704/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-04 09:41:59] INFO root fetch - processPackages [testit-api-client]: executing diffoscope
+[2023-07-04 09:41:59] INFO root fetch - processPackages [testit-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-api-client-3.1.1.tar.gz tmp/testit-api-client-3.2.0.tar.gz --markdown 20230704/t/testit-api-client/3.1.1-3.2.0/diff.md --exclude *.pyd
+[2023-07-04 09:41:59] INFO root fetch - processPackages [ubuntu-cloud-image-changelog]: Downloading https://files.pythonhosted.org/packages/72/76/5b87054656ddb4d853064d1b01e9dbe849e96f7a8d15137f3d099d076341/ubuntu-cloud-image-changelog-0.9.8.tar.gz
+[2023-07-04 09:41:59] INFO root fetch - processPackages [ubuntu-cloud-image-changelog]: executing diffoscope
+[2023-07-04 09:41:59] INFO root fetch - processPackages [ubuntu-cloud-image-changelog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubuntu-cloud-image-changelog-0.9.7.tar.gz tmp/ubuntu-cloud-image-changelog-0.9.8.tar.gz --markdown 20230704/u/ubuntu-cloud-image-changelog/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-07-04 09:42:00] INFO root fetch - processPackages [CORS-Analyzer]: Remove: archive file [/home/abi/fetcher/tmp/CORS-Analyzer-1.0.4.tar.gz]
+[2023-07-04 09:42:00] INFO root fetch - processPackages [CORS-Analyzer]: Remove: archive file [/home/abi/fetcher/tmp/CORS-Analyzer-1.0.5.tar.gz]
+[2023-07-04 09:42:00] INFO root fetch - processPackages [CORS-Analyzer]: Start processing: perun.proxygui
+[2023-07-04 09:42:00] INFO root fetch - main [MainThread]: End processing [CORS-Analyzer]: success
+[2023-07-04 09:42:00] INFO root fetch - processPackages [perun.proxygui]: New version: [1.9.0] Old Version: [1.8.4]
+[2023-07-04 09:42:00] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.1.9.tar.gz]
+[2023-07-04 09:42:00] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.2.0.tar.gz]
+[2023-07-04 09:42:00] INFO root fetch - processPackages [yplib]: Start processing: omicverse
+[2023-07-04 09:42:00] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-04 09:42:00] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/be/7c/709680812bff61a05a9fa8800cf3437ca1cb120673110eb37cbe0f3c6336/perun.proxygui-1.8.4.tar.gz
+[2023-07-04 09:42:01] INFO root fetch - processPackages [gggdtparser]: Remove: archive file [/home/abi/fetcher/tmp/gggdtparser-0.1.0.tar.gz]
+[2023-07-04 09:42:01] INFO root fetch - processPackages [gggdtparser]: Remove: archive file [/home/abi/fetcher/tmp/gggdtparser-0.1.1.tar.gz]
+[2023-07-04 09:42:01] INFO root fetch - main [MainThread]: End processing [gggdtparser]: success
+[2023-07-04 09:42:01] INFO root fetch - processPackages [omicverse]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-07-04 09:42:01] INFO root fetch - processPackages [omicverse]: Downloading https://files.pythonhosted.org/packages/43/73/fe32501fd606e03cb4c995df426b598a9359db926d5a18f98111af8d72d8/omicverse-1.4.7.tar.gz
+[2023-07-04 09:42:01] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-4.0.3.tar.gz]
+[2023-07-04 09:42:01] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-4.0.4.tar.gz]
+[2023-07-04 09:42:01] INFO root fetch - main [MainThread]: End processing [pure-ocean-breeze]: success
+[2023-07-04 09:42:01] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-04 09:42:01] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-04 09:42:01] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-04 09:42:01] INFO root fetch - processPackages [omicverse]: Downloading https://files.pythonhosted.org/packages/65/e7/7af99817b6a4daeccfd1d730da16caa5534e801d1a03773924bcef64cfe9/omicverse-1.4.8.tar.gz
+[2023-07-04 09:42:01] INFO root fetch - processPackages [ubuntu-cloud-image-changelog]: Remove: archive file [/home/abi/fetcher/tmp/ubuntu-cloud-image-changelog-0.9.7.tar.gz]
+[2023-07-04 09:42:01] INFO root fetch - processPackages [ubuntu-cloud-image-changelog]: Remove: archive file [/home/abi/fetcher/tmp/ubuntu-cloud-image-changelog-0.9.8.tar.gz]
+[2023-07-04 09:42:01] INFO root fetch - main [MainThread]: End processing [ubuntu-cloud-image-changelog]: success
+[2023-07-04 09:42:01] INFO root fetch - processPackages [omicverse]: executing diffoscope
+[2023-07-04 09:42:01] INFO root fetch - processPackages [omicverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omicverse-1.4.7.tar.gz tmp/omicverse-1.4.8.tar.gz --markdown 20230704/o/omicverse/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-07-04 09:42:02] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/ad/7e/f249a268c0997af6c25c08d9fee10e2d69a18572b408a4644b51b8a62a21/perun.proxygui-1.9.0.tar.gz
+[2023-07-04 09:42:02] INFO root fetch - processPackages [perun.proxygui]: executing diffoscope
+[2023-07-04 09:42:02] INFO root fetch - processPackages [perun.proxygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxygui-1.8.4.tar.gz tmp/perun.proxygui-1.9.0.tar.gz --markdown 20230704/p/perun.proxygui/1.8.4-1.9.0/diff.md --exclude *.pyd
+[2023-07-04 09:42:03] INFO root fetch - processPackages [pyavd]: Remove: archive file [/home/abi/fetcher/tmp/pyavd-4.1.0a2-py3-none-any.whl.zip]
+[2023-07-04 09:42:03] INFO root fetch - processPackages [pyavd]: Remove: archive file [/home/abi/fetcher/tmp/pyavd-4.1.0a3-py3-none-any.whl.zip]
+[2023-07-04 09:42:03] INFO root fetch - main [MainThread]: End processing [pyavd]: success
+[2023-07-04 09:42:03] INFO root fetch - processPackages [omicverse]: Remove: archive file [/home/abi/fetcher/tmp/omicverse-1.4.7.tar.gz]
+[2023-07-04 09:42:03] INFO root fetch - processPackages [omicverse]: Remove: archive file [/home/abi/fetcher/tmp/omicverse-1.4.8.tar.gz]
+[2023-07-04 09:42:03] INFO root fetch - main [MainThread]: End processing [omicverse]: success
+[2023-07-04 09:42:04] INFO root fetch - processPackages [testit-api-client]: Remove: archive file [/home/abi/fetcher/tmp/testit-api-client-3.1.1.tar.gz]
+[2023-07-04 09:42:04] INFO root fetch - processPackages [testit-api-client]: Remove: archive file [/home/abi/fetcher/tmp/testit-api-client-3.2.0.tar.gz]
+[2023-07-04 09:42:04] INFO root fetch - main [MainThread]: End processing [testit-api-client]: success
+[2023-07-04 09:42:05] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-5.0.0-py3-none-any.whl.zip]
+[2023-07-04 09:42:05] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-5.0.1-py3-none-any.whl.zip]
+[2023-07-04 09:42:05] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-07-04 09:42:05] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-07-04 09:42:06] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-1.8.4.tar.gz]
+[2023-07-04 09:42:06] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-1.9.0.tar.gz]
+[2023-07-04 09:42:06] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
+[2023-07-04 09:42:06] INFO root fetch - main [MainThread]: Store serial: [18751544]
