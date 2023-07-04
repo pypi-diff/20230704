@@ -16583,3 +16583,162 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-04 10:59:42] INFO root fetch - processPackages [scvi-tools]: Remove: archive file [/home/abi/fetcher/tmp/scvi_tools-1.0.1.tar.gz]
 [2023-07-04 10:59:42] INFO root fetch - main [MainThread]: End processing [scvi-tools]: success
 [2023-07-04 10:59:42] INFO root fetch - main [MainThread]: Store serial: [18752255]
+[2023-07-04 11:04:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18752255]
+[2023-07-04 11:04:52] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-04 11:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hryvinskiy-amount-in-words
+[2023-07-04 11:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apache-airflow-providers-sktvane
+[2023-07-04 11:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uasset-dump
+[2023-07-04 11:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nlp-service
+[2023-07-04 11:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-gitlab-runner
+[2023-07-04 11:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oidc-drf
+[2023-07-04 11:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neptune-airflow
+[2023-07-04 11:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: example990420
+[2023-07-04 11:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-shopfloor-mobile
+[2023-07-04 11:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nextpcg
+[2023-07-04 11:04:52] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: New version: [1.0.0] Old Version: [0.2.2]
+[2023-07-04 11:04:52] INFO root fetch - processPackages [oidc-drf]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-04 11:04:52] INFO root fetch - processPackages [uasset-dump]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-04 11:04:52] INFO root fetch - processPackages [hryvinskiy-amount-in-words]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-04 11:04:52] INFO root fetch - processPackages [example990420]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-04 11:04:52] WARNING root fetch - processPackages [neptune-airflow]: Skipping, unable to determine old version
+[2023-07-04 11:04:52] INFO root fetch - processPackages [neptune-airflow]: Start processing: zipline-tej
+[2023-07-04 11:04:52] INFO root fetch - main [MainThread]: End processing [neptune-airflow] error
+[2023-07-04 11:04:52] INFO root fetch - processPackages [nextpcg]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-04 11:04:52] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: New version: [14.0.1.9.2] Old Version: [14.0.1.9.1]
+[2023-07-04 11:04:52] INFO root fetch - processPackages [nlp-service]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-07-04 11:04:52] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-04 11:04:52] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 11:04:52] INFO root fetch - processPackages [example990420]: Downloading https://files.pythonhosted.org/packages/8e/ab/4284712faafb863b729f1f9ca3ec836eb59b9f4a8f49034ac502dd27670d/example990420-0.0.5.tar.gz
+[2023-07-04 11:04:52] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/6a/57/22e414b84c6f163fe29146cba5fc91d8743c406e45ed153cf6f43f8e27fc/uasset_dump-0.0.7.tar.gz
+[2023-07-04 11:04:52] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/24/3d/77dc87c1df68073e28853830fb75df808d0e7c248d5e710a7a9b6b2b3318/oidc_drf-1.2.1.tar.gz
+[2023-07-04 11:04:53] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/21/e3/8961a1cf36f2a32bba3be0f2801702c4fb37c36164a44be1749419c9b3e7/nextpcg-0.5.8.tar.gz
+[2023-07-04 11:04:53] INFO root fetch - processPackages [hryvinskiy-amount-in-words]: Downloading https://files.pythonhosted.org/packages/4f/d4/3b6680352702f2891bfa8953c1202043f4035084ebe3ff08024e7d413287/hryvinskiy_amount_in_words-0.0.2.tar.gz
+[2023-07-04 11:04:53] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/00/40/016cdb2fb9e28fe1b601ce7542603c38b93a78a9a0d77a0309e559d58a1c/cdk-gitlab-runner-2.1.98.tar.gz
+[2023-07-04 11:04:53] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-07-04 11:04:53] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Downloading https://files.pythonhosted.org/packages/ef/5e/4ccd71c966b511ba272c6106fc2f458fb6984b9a56b95c969e59c966ed91/apache-airflow-providers-sktvane-0.2.2.tar.gz
+[2023-07-04 11:04:53] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Downloading https://files.pythonhosted.org/packages/af/c7/2dfad19c93c73bc908c931517bb0a44366c1e3dee31a33df4b10efa23db2/odoo14_addon_shopfloor_mobile-14.0.1.9.1-py3-none-any.whl
+[2023-07-04 11:04:53] INFO root fetch - processPackages [nlp-service]: Downloading https://files.pythonhosted.org/packages/24/0b/9c232eee1fb666f6c396fe63281c4d30dbbef66e6cd22e0bdb1ff2673dd1/nlp_service-1.4.7.tar.gz
+[2023-07-04 11:04:53] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/1b/08/c5d9a67af29f905289b622e2545d1a4454c1d47ecdda24f4b580e75906e2/oidc_drf-1.2.2.tar.gz
+[2023-07-04 11:04:53] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/fe/9b/195da905dc17cf6f687704695ce993e02bdd209ced7ecc6e8689c050a039/uasset_dump-0.0.8.tar.gz
+[2023-07-04 11:04:53] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/cf/08/4cf741b08ba79aab0af730a364994d72c10b23055730e8331317a461fdee/nextpcg-0.5.9.tar.gz
+[2023-07-04 11:04:53] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/89/96/8e14acbbed72ce7cf16a2f829e722ff9189610a1fe440e7d52bb6185d401/cdk-gitlab-runner-2.1.99.tar.gz
+[2023-07-04 11:04:53] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-07-04 11:04:53] INFO root fetch - processPackages [hryvinskiy-amount-in-words]: Downloading https://files.pythonhosted.org/packages/99/73/d8b36f79dd535609373c09bc55f56989e6412057b89cc22388677bca58ee/hryvinskiy_amount_in_words-0.0.3.tar.gz
+[2023-07-04 11:04:53] INFO root fetch - processPackages [example990420]: Downloading https://files.pythonhosted.org/packages/50/61/3f6fde51335596d7d5f078dd314f7ec57f6df75b2dfbcf7b28c1b87c7d50/example990420-0.0.6.tar.gz
+[2023-07-04 11:04:53] INFO root fetch - processPackages [uasset-dump]: executing diffoscope
+[2023-07-04 11:04:53] INFO root fetch - processPackages [uasset-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uasset_dump-0.0.7.tar.gz tmp/uasset_dump-0.0.8.tar.gz --markdown 20230704/u/uasset-dump/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-04 11:04:53] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-04 11:04:53] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.2.1.tar.gz tmp/oidc_drf-1.2.2.tar.gz --markdown 20230704/o/oidc-drf/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-04 11:04:53] INFO root fetch - processPackages [nextpcg]: executing diffoscope
+[2023-07-04 11:04:53] INFO root fetch - processPackages [nextpcg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextpcg-0.5.8.tar.gz tmp/nextpcg-0.5.9.tar.gz --markdown 20230704/n/nextpcg/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-04 11:04:53] INFO root fetch - processPackages [nlp-service]: Downloading https://files.pythonhosted.org/packages/28/4f/3d6d9fdacb1d45a0ebadf51ae1f3f34ceaccb7f8e5aff193ae115d9e2511/nlp_service-1.4.8.tar.gz
+[2023-07-04 11:04:53] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Downloading https://files.pythonhosted.org/packages/77/25/b2082307f544006106ede457f5b824a05cff2300ec05b495f4c821b92dbe/apache-airflow-providers-sktvane-1.0.0.tar.gz
+[2023-07-04 11:04:53] INFO root fetch - processPackages [hryvinskiy-amount-in-words]: executing diffoscope
+[2023-07-04 11:04:53] INFO root fetch - processPackages [hryvinskiy-amount-in-words]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hryvinskiy_amount_in_words-0.0.2.tar.gz tmp/hryvinskiy_amount_in_words-0.0.3.tar.gz --markdown 20230704/h/hryvinskiy-amount-in-words/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-04 11:04:53] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-07-04 11:04:53] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-07-04 11:04:53] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230704/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 11:04:53] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230704/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-07-04 11:04:53] INFO root fetch - processPackages [example990420]: executing diffoscope
+[2023-07-04 11:04:53] INFO root fetch - processPackages [example990420]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/example990420-0.0.5.tar.gz tmp/example990420-0.0.6.tar.gz --markdown 20230704/e/example990420/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-04 11:04:53] INFO root fetch - processPackages [nlp-service]: executing diffoscope
+[2023-07-04 11:04:53] INFO root fetch - processPackages [nlp-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp_service-1.4.7.tar.gz tmp/nlp_service-1.4.8.tar.gz --markdown 20230704/n/nlp-service/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-07-04 11:04:53] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: executing diffoscope
+[2023-07-04 11:04:53] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-sktvane-0.2.2.tar.gz tmp/apache-airflow-providers-sktvane-1.0.0.tar.gz --markdown 20230704/a/apache-airflow-providers-sktvane/0.2.2-1.0.0/diff.md --exclude *.pyd
+[2023-07-04 11:04:54] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Downloading https://files.pythonhosted.org/packages/c3/23/8526362ab9300aa58a210d8569f60632603010270fa72c28f63373aca95c/odoo14_addon_shopfloor_mobile-14.0.1.9.2-py3-none-any.whl
+[2023-07-04 11:04:54] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: executing diffoscope
+[2023-07-04 11:04:54] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.1-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.2-py3-none-any.whl.zip --markdown 20230704/o/odoo14-addon-shopfloor-mobile/14.0.1.9.1-14.0.1.9.2/diff.md --exclude *.pyd
+[2023-07-04 11:04:55] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.1.tar.gz]
+[2023-07-04 11:04:55] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.2.tar.gz]
+[2023-07-04 11:04:55] INFO root fetch - processPackages [oidc-drf]: Start processing: autogluon.common
+[2023-07-04 11:04:55] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-04 11:04:55] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.8.tar.gz]
+[2023-07-04 11:04:55] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.9.tar.gz]
+[2023-07-04 11:04:55] INFO root fetch - processPackages [nextpcg]: Start processing: zcbot-crawl-sdk
+[2023-07-04 11:04:55] INFO root fetch - main [MainThread]: End processing [nextpcg]: success
+[2023-07-04 11:04:55] INFO root fetch - processPackages [autogluon.common]: New version: [0.8.2b20230703] Old Version: [0.8.2b20230702]
+[2023-07-04 11:04:55] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.98.tar.gz]
+[2023-07-04 11:04:55] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.7.tar.gz]
+[2023-07-04 11:04:55] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.99.tar.gz]
+[2023-07-04 11:04:55] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.8.tar.gz]
+[2023-07-04 11:04:55] INFO root fetch - processPackages [uasset-dump]: Start processing: autogluon.core
+[2023-07-04 11:04:55] INFO root fetch - processPackages [cdk-gitlab-runner]: Start processing: autogluon.features
+[2023-07-04 11:04:55] INFO root fetch - main [MainThread]: End processing [uasset-dump]: success
+[2023-07-04 11:04:55] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-07-04 11:04:55] INFO root fetch - processPackages [hryvinskiy-amount-in-words]: Remove: archive file [/home/abi/fetcher/tmp/hryvinskiy_amount_in_words-0.0.2.tar.gz]
+[2023-07-04 11:04:55] INFO root fetch - processPackages [hryvinskiy-amount-in-words]: Remove: archive file [/home/abi/fetcher/tmp/hryvinskiy_amount_in_words-0.0.3.tar.gz]
+[2023-07-04 11:04:55] INFO root fetch - processPackages [hryvinskiy-amount-in-words]: Start processing: autogluon.tabular
+[2023-07-04 11:04:55] INFO root fetch - main [MainThread]: End processing [hryvinskiy-amount-in-words]: success
+[2023-07-04 11:04:55] INFO root fetch - processPackages [example990420]: Remove: archive file [/home/abi/fetcher/tmp/example990420-0.0.5.tar.gz]
+[2023-07-04 11:04:55] INFO root fetch - processPackages [example990420]: Remove: archive file [/home/abi/fetcher/tmp/example990420-0.0.6.tar.gz]
+[2023-07-04 11:04:55] INFO root fetch - processPackages [example990420]: Start processing: autogluon.multimodal
+[2023-07-04 11:04:55] INFO root fetch - main [MainThread]: End processing [example990420]: success
+[2023-07-04 11:04:55] INFO root fetch - processPackages [nlp-service]: Remove: archive file [/home/abi/fetcher/tmp/nlp_service-1.4.7.tar.gz]
+[2023-07-04 11:04:55] INFO root fetch - processPackages [nlp-service]: Remove: archive file [/home/abi/fetcher/tmp/nlp_service-1.4.8.tar.gz]
+[2023-07-04 11:04:55] INFO root fetch - processPackages [nlp-service]: Start processing: autogluon.timeseries
+[2023-07-04 11:04:55] INFO root fetch - main [MainThread]: End processing [nlp-service]: success
+[2023-07-04 11:04:55] INFO root fetch - processPackages [zcbot-crawl-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 11:04:55] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-sktvane-0.2.2.tar.gz]
+[2023-07-04 11:04:55] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-sktvane-1.0.0.tar.gz]
+[2023-07-04 11:04:55] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-sktvane]: success
+[2023-07-04 11:04:55] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/48/c0/126704c1826be58fae8d6e9fd3022b928e871b9d50cfe4d294ee761d8008/autogluon.common-0.8.2b20230702.tar.gz
+[2023-07-04 11:04:55] INFO root fetch - processPackages [autogluon.features]: New version: [0.8.2b20230703] Old Version: [0.8.2b20230702]
+[2023-07-04 11:04:55] INFO root fetch - processPackages [autogluon.multimodal]: New version: [0.8.2b20230703] Old Version: [0.8.2b20230702]
+[2023-07-04 11:04:55] INFO root fetch - processPackages [autogluon.timeseries]: New version: [0.8.2b20230703] Old Version: [0.8.2b20230702]
+[2023-07-04 11:04:55] INFO root fetch - processPackages [autogluon.tabular]: New version: [0.8.2b20230703] Old Version: [0.8.2b20230702]
+[2023-07-04 11:04:55] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/3f/c6/8329f13f3b268d1375a9e40419611ffc4408eff7b8ea8d19b3083cd7c501/autogluon.multimodal-0.8.2b20230702.tar.gz
+[2023-07-04 11:04:55] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/51/45/81f36d70c4c2249ea40ef31abac5fd0a550d03444a5e14d3d3d0d03b771e/autogluon.features-0.8.2b20230702.tar.gz
+[2023-07-04 11:04:55] INFO root fetch - processPackages [autogluon.core]: New version: [0.8.2b20230704] Old Version: [0.8.2b20230703]
+[2023-07-04 11:04:55] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/8e/cb/2c45091047adb75f65f69d111846b7fa27d1f4c1164b4c19d1e9387b62e8/autogluon.tabular-0.8.2b20230702.tar.gz
+[2023-07-04 11:04:55] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/28/ef/459d1febe7b94895ac4c32b250ed1edf6f74f26613058bde2286c4c9c632/autogluon.timeseries-0.8.2b20230702.tar.gz
+[2023-07-04 11:04:55] INFO root fetch - processPackages [zcbot-crawl-sdk]: Downloading https://files.pythonhosted.org/packages/10/a9/faa418ec4733b2c442d1b64205be65d902c36a3898749e4ba4eb38314bce/zcbot-crawl-sdk-0.0.8.tar.gz
+[2023-07-04 11:04:56] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/6d/48/892029cccdd83a35854caf034d1ab1a185d4b3d46efe1211a199ddde405a/autogluon.core-0.8.2b20230703.tar.gz
+[2023-07-04 11:04:56] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.1-py3-none-any.whl.zip]
+[2023-07-04 11:04:56] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.2-py3-none-any.whl.zip]
+[2023-07-04 11:04:56] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-mobile]: success
+[2023-07-04 11:04:56] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/e7/68/40bccfe5e18e1073994bcd3e7e8ecd4d1066384587c37b51b4090e4e9764/autogluon.features-0.8.2b20230703.tar.gz
+[2023-07-04 11:04:56] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/f4/89/ad716f511a65ded6bdb2fe547b758c87f9de50529cce5416d3526ed5da9d/autogluon.tabular-0.8.2b20230703.tar.gz
+[2023-07-04 11:04:56] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/bf/64/d4cb573a82b69b8b925898a6bebdda83adf1d987f92461eecddf6db71d2d/autogluon.multimodal-0.8.2b20230703.tar.gz
+[2023-07-04 11:04:56] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2023-07-04 11:04:56] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-0.8.2b20230702.tar.gz tmp/autogluon.features-0.8.2b20230703.tar.gz --markdown 20230704/a/autogluon.features/0.8.2b20230702-0.8.2b20230703/diff.md --exclude *.pyd
+[2023-07-04 11:04:56] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/c1/4c/850ccc17428b5b28c90048368bcfca98f554639fd1adb7c2a355aa31f992/autogluon.timeseries-0.8.2b20230703.tar.gz
+[2023-07-04 11:04:56] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/05/0e/9c6e024e886411901a76104e859c1285a2602e870dabadaeb7de4e27cc21/autogluon.common-0.8.2b20230703.tar.gz
+[2023-07-04 11:04:56] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2023-07-04 11:04:56] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-0.8.2b20230702.tar.gz tmp/autogluon.multimodal-0.8.2b20230703.tar.gz --markdown 20230704/a/autogluon.multimodal/0.8.2b20230702-0.8.2b20230703/diff.md --exclude *.pyd
+[2023-07-04 11:04:56] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2023-07-04 11:04:56] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-0.8.2b20230702.tar.gz tmp/autogluon.tabular-0.8.2b20230703.tar.gz --markdown 20230704/a/autogluon.tabular/0.8.2b20230702-0.8.2b20230703/diff.md --exclude *.pyd
+[2023-07-04 11:04:56] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2023-07-04 11:04:56] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-0.8.2b20230702.tar.gz tmp/autogluon.timeseries-0.8.2b20230703.tar.gz --markdown 20230704/a/autogluon.timeseries/0.8.2b20230702-0.8.2b20230703/diff.md --exclude *.pyd
+[2023-07-04 11:04:56] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-07-04 11:04:56] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-07-04 11:04:56] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-07-04 11:04:56] INFO root fetch - processPackages [zcbot-crawl-sdk]: Downloading https://files.pythonhosted.org/packages/22/2d/b06cacf9353d7d58d8030743294dd9e822227f2beacf10774cbc35850869/zcbot-crawl-sdk-0.0.9.tar.gz
+[2023-07-04 11:04:56] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/af/82/ee024119d41a9c1677bc600a6060d650f9c60155fe1909ef3dda4514bab8/autogluon.core-0.8.2b20230704.tar.gz
+[2023-07-04 11:04:56] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-07-04 11:04:56] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.8.2b20230702.tar.gz tmp/autogluon.common-0.8.2b20230703.tar.gz --markdown 20230704/a/autogluon.common/0.8.2b20230702-0.8.2b20230703/diff.md --exclude *.pyd
+[2023-07-04 11:04:56] INFO root fetch - processPackages [zcbot-crawl-sdk]: executing diffoscope
+[2023-07-04 11:04:56] INFO root fetch - processPackages [zcbot-crawl-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-crawl-sdk-0.0.8.tar.gz tmp/zcbot-crawl-sdk-0.0.9.tar.gz --markdown 20230704/z/zcbot-crawl-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 11:04:56] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2023-07-04 11:04:56] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-0.8.2b20230703.tar.gz tmp/autogluon.core-0.8.2b20230704.tar.gz --markdown 20230704/a/autogluon.core/0.8.2b20230703-0.8.2b20230704/diff.md --exclude *.pyd
+[2023-07-04 11:04:57] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.8.2b20230702.tar.gz]
+[2023-07-04 11:04:57] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.8.2b20230703.tar.gz]
+[2023-07-04 11:04:57] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2023-07-04 11:04:57] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-0.8.2b20230702.tar.gz]
+[2023-07-04 11:04:57] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-0.8.2b20230703.tar.gz]
+[2023-07-04 11:04:57] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2023-07-04 11:04:57] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.8.2b20230702.tar.gz]
+[2023-07-04 11:04:57] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.8.2b20230703.tar.gz]
+[2023-07-04 11:04:57] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-07-04 11:04:57] INFO root fetch - processPackages [zcbot-crawl-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-crawl-sdk-0.0.8.tar.gz]
+[2023-07-04 11:04:57] INFO root fetch - processPackages [zcbot-crawl-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-crawl-sdk-0.0.9.tar.gz]
+[2023-07-04 11:04:57] INFO root fetch - main [MainThread]: End processing [zcbot-crawl-sdk]: success
+[2023-07-04 11:04:58] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.8.2b20230703.tar.gz]
+[2023-07-04 11:04:58] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.8.2b20230704.tar.gz]
+[2023-07-04 11:04:58] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2023-07-04 11:04:58] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.8.2b20230702.tar.gz]
+[2023-07-04 11:04:58] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.8.2b20230703.tar.gz]
+[2023-07-04 11:04:58] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2023-07-04 11:04:58] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.8.2b20230702.tar.gz]
+[2023-07-04 11:04:58] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.8.2b20230703.tar.gz]
+[2023-07-04 11:04:58] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2023-07-04 11:04:58] INFO root fetch - main [MainThread]: Store serial: [18752303]
