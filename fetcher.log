@@ -1430,3 +1430,69 @@
 [2023-07-04 01:56:07] INFO root fetch - processPackages [pyapp-flow]: Remove: archive file [/home/abi/fetcher/tmp/pyapp-flow-0.9.0.tar.gz]
 [2023-07-04 01:56:07] INFO root fetch - main [MainThread]: End processing [pyapp-flow]: success
 [2023-07-04 01:56:08] INFO root fetch - main [MainThread]: Store serial: [18746584]
+[2023-07-04 02:01:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18746584]
+[2023-07-04 02:01:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-04 02:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-github
+[2023-07-04 02:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gnssanalysis
+[2023-07-04 02:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-better-repr
+[2023-07-04 02:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swarms
+[2023-07-04 02:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coiled
+[2023-07-04 02:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simpler-py
+[2023-07-04 02:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nerdcore
+[2023-07-04 02:01:16] INFO root fetch - processPackages [gnssanalysis]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-04 02:01:17] INFO root fetch - processPackages [coiled]: New version: [0.7.9.dev9] Old Version: [0.7.9.dev8]
+[2023-07-04 02:01:17] INFO root fetch - processPackages [simpler-py]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-04 02:01:17] INFO root fetch - processPackages [nerdcore]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-04 02:01:17] INFO root fetch - processPackages [swarms]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-04 02:01:17] INFO root fetch - processPackages [django-better-repr]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-04 02:01:17] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-04 02:01:17] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a7/01/b5a4cbd06e8fe6cb1d49512abbe6434f64ea4b91b21a64f30069aa693547/coiled-0.7.9.dev8.tar.gz
+[2023-07-04 02:01:17] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/6a/14/d75de9fcc5ac01db7a92008e19f824ab3190477edd600ed36dec7f423f49/swarms-0.1.3.tar.gz
+[2023-07-04 02:01:17] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/2a/aa/04b6bf496d2cb60e4978ad6d5119c0a09a8b81b3a361be221213dc84f34a/nerdcore-0.1.8.tar.gz
+[2023-07-04 02:01:17] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-07-04 02:01:17] INFO root fetch - processPackages [gnssanalysis]: Downloading https://files.pythonhosted.org/packages/e0/2d/6e9b2e6b7338eb4ade3a80238c53fe3d7046af99576c4229b166e23c1a3a/gnssanalysis-0.0.8.tar.gz
+[2023-07-04 02:01:17] INFO root fetch - processPackages [simpler-py]: Downloading https://files.pythonhosted.org/packages/e5/66/95e5f784ba2248ddc0b1df42e229704138dbcd2e78cd3a555e1625fcc838/simpler_py-1.0.0.tar.gz
+[2023-07-04 02:01:17] INFO root fetch - processPackages [django-better-repr]: Downloading https://files.pythonhosted.org/packages/db/76/800671a2f0072b27d4208e4f6151dda34f715ee6787fc4dfd0612388203f/django-better-repr-1.0.4.tar.gz
+[2023-07-04 02:01:17] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-07-04 02:01:17] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/f0/b9/a7ca11d5ea057e7cfab9c8c440dc31d5d6761c0ba50c16545f42ea89145f/nerdcore-0.1.9.tar.gz
+[2023-07-04 02:01:17] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-07-04 02:01:17] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-04 02:01:17] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev8.tar.gz tmp/coiled-0.7.9.dev9.tar.gz --markdown 20230704/c/coiled/0.7.9.dev8-0.7.9.dev9/diff.md --exclude *.pyd
+[2023-07-04 02:01:17] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/d2/5c/41b48df51e3488472b87764d55223ca1c439f92309ee1ea642ede7c4c0bb/swarms-0.1.4.tar.gz
+[2023-07-04 02:01:17] INFO root fetch - processPackages [nerdcore]: executing diffoscope
+[2023-07-04 02:01:17] INFO root fetch - processPackages [nerdcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerdcore-0.1.8.tar.gz tmp/nerdcore-0.1.9.tar.gz --markdown 20230704/n/nerdcore/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-04 02:01:17] INFO root fetch - processPackages [django-better-repr]: Downloading https://files.pythonhosted.org/packages/b3/79/a9a4ea0c7e7b20c3b47b34c54fcccd95e9ac5f5ccb2c5dfa095e75cc3b86/django-better-repr-1.0.5.tar.gz
+[2023-07-04 02:01:17] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-07-04 02:01:17] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230704/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-04 02:01:17] INFO root fetch - processPackages [simpler-py]: Downloading https://files.pythonhosted.org/packages/67/ce/51278b2773ca6d1818c90fac3fdc7918ece90904367877764f8b80c410d1/simpler_py-1.0.1.tar.gz
+[2023-07-04 02:01:17] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-04 02:01:17] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.1.3.tar.gz tmp/swarms-0.1.4.tar.gz --markdown 20230704/s/swarms/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-04 02:01:17] INFO root fetch - processPackages [django-better-repr]: executing diffoscope
+[2023-07-04 02:01:17] INFO root fetch - processPackages [django-better-repr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-better-repr-1.0.4.tar.gz tmp/django-better-repr-1.0.5.tar.gz --markdown 20230704/d/django-better-repr/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-04 02:01:17] INFO root fetch - processPackages [simpler-py]: executing diffoscope
+[2023-07-04 02:01:17] INFO root fetch - processPackages [simpler-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpler_py-1.0.0.tar.gz tmp/simpler_py-1.0.1.tar.gz --markdown 20230704/s/simpler-py/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-04 02:01:18] INFO root fetch - processPackages [gnssanalysis]: Downloading https://files.pythonhosted.org/packages/e1/ac/da507121836c683adba00ccb9f5f955063e24f97656ce240e4354a9cbe10/gnssanalysis-0.0.9.tar.gz
+[2023-07-04 02:01:18] INFO root fetch - processPackages [gnssanalysis]: executing diffoscope
+[2023-07-04 02:01:18] INFO root fetch - processPackages [gnssanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230704:/home/abi/fetcher/20230704:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssanalysis-0.0.8.tar.gz tmp/gnssanalysis-0.0.9.tar.gz --markdown 20230704/g/gnssanalysis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-04 02:01:18] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-07-04 02:01:18] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-07-04 02:01:18] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-07-04 02:01:18] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.8.tar.gz]
+[2023-07-04 02:01:18] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.9.tar.gz]
+[2023-07-04 02:01:18] INFO root fetch - main [MainThread]: End processing [nerdcore]: success
+[2023-07-04 02:01:18] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev8.tar.gz]
+[2023-07-04 02:01:18] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-07-04 02:01:19] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-04 02:01:19] INFO root fetch - processPackages [django-better-repr]: Remove: archive file [/home/abi/fetcher/tmp/django-better-repr-1.0.4.tar.gz]
+[2023-07-04 02:01:19] INFO root fetch - processPackages [django-better-repr]: Remove: archive file [/home/abi/fetcher/tmp/django-better-repr-1.0.5.tar.gz]
+[2023-07-04 02:01:19] INFO root fetch - main [MainThread]: End processing [django-better-repr]: success
+[2023-07-04 02:01:19] INFO root fetch - processPackages [simpler-py]: Remove: archive file [/home/abi/fetcher/tmp/simpler_py-1.0.0.tar.gz]
+[2023-07-04 02:01:19] INFO root fetch - processPackages [simpler-py]: Remove: archive file [/home/abi/fetcher/tmp/simpler_py-1.0.1.tar.gz]
+[2023-07-04 02:01:19] INFO root fetch - main [MainThread]: End processing [simpler-py]: success
+[2023-07-04 02:01:19] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.1.3.tar.gz]
+[2023-07-04 02:01:19] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.1.4.tar.gz]
+[2023-07-04 02:01:19] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-04 02:01:19] INFO root fetch - processPackages [gnssanalysis]: Remove: archive file [/home/abi/fetcher/tmp/gnssanalysis-0.0.8.tar.gz]
+[2023-07-04 02:01:19] INFO root fetch - processPackages [gnssanalysis]: Remove: archive file [/home/abi/fetcher/tmp/gnssanalysis-0.0.9.tar.gz]
+[2023-07-04 02:01:19] INFO root fetch - main [MainThread]: End processing [gnssanalysis]: success
+[2023-07-04 02:01:19] INFO root fetch - main [MainThread]: Store serial: [18746603]
